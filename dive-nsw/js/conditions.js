@@ -10,7 +10,7 @@ var Conditions = (function () {
   'use strict';
 
   var TTL_MS = 30 * 60 * 1000;
-  var BW_TTL_MS = 3 * 60 * 60 * 1000;   // Beachwatch forecasts update ~daily
+  var BW_TTL_MS = 60 * 60 * 1000;       // Beachwatch: forecasts reissue twice daily; recheck hourly
   var PAST_DAYS = 3, FORECAST_DAYS = 7;
   var CACHE_PREFIX = 'sdc.v4.';   // bump when zones or requested variables change
 
@@ -24,6 +24,13 @@ var Conditions = (function () {
     'temperature_2m', 'cloud_cover'];
 
   var BEACHWATCH_URL = 'https://api.beachwatch.nsw.gov.au/public/sites/geojson';
+  /* A scheduled GitHub Action (update-dive-nsw-data.yml in the Pages repo)
+     snapshots that feed into data/beachwatch.json a few times a day, wrapped
+     as {fetchedAt, source, data}. Same origin, so no CORS and the Pages CDN
+     is one shared cache for every visitor; a stale or missing snapshot falls
+     through to the live URL and then the proxy chain. */
+  var BW_SNAPSHOT_URL = 'data/beachwatch.json';
+  var BW_SNAPSHOT_MAX_AGE_MS = 26 * 60 * 60 * 1000;
   /* Beachwatch sends no CORS headers, so the browser goes through a public
      CORS proxy (cors.sh preferred). Public data only; nothing sensitive.
      r.jina.ai is not a raw passthrough: with Accept: application/json (a
@@ -95,7 +102,15 @@ var Conditions = (function () {
   function loadBeachwatch(force) {
     var hit = cacheGet('beachwatch');
     if (!force && hit && Date.now() - hit.t < BW_TTL_MS) return Promise.resolve(hit.data);
-    var attempts = [{ url: BEACHWATCH_URL }].concat(CORS_PROXIES.map(function (p) {
+    var attempts = [{
+      url: BW_SNAPSHOT_URL,
+      unwrap: function (j) {
+        if (!j || !j.fetchedAt || Date.now() - Date.parse(j.fetchedAt) > BW_SNAPSHOT_MAX_AGE_MS) {
+          throw new Error('snapshot stale');
+        }
+        return j.data;
+      }
+    }, { url: BEACHWATCH_URL }].concat(CORS_PROXIES.map(function (p) {
       return { url: p.wrap(BEACHWATCH_URL), init: p.init, unwrap: p.unwrap };
     }));
     var i = 0;

@@ -1,0 +1,80 @@
+name: Update Dive NSW data snapshot
+
+on:
+  schedule:
+    # Beachwatch reissues its pollution forecast ~6:00 am and ~1:30 pm Sydney
+    # time. Sydney is UTC+10 (AEST) or UTC+11 (AEDT), so run shortly after
+    # both issue times under both offsets, plus one evening safety pass.
+    # Odd minutes avoid the on-the-hour scheduler crowd.
+    - cron: '41 19,20 * * *'   # ~6:41 am AEST / 7:41 am AEDT
+    - cron: '45 2,3 * * *'     # ~1:45 pm AEDT / 1:45 pm AEST
+    - cron: '41 8 * * *'       # ~6:41 pm AEST evening safety pass
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-dive-nsw-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch and validate Beachwatch snapshot
+        run: |
+          python3 - <<'EOF'
+          import datetime, json, os, sys, urllib.request
+
+          URL = 'https://api.beachwatch.nsw.gov.au/public/sites/geojson'
+          PATH = 'dive-nsw/data/beachwatch.json'
+
+          req = urllib.request.Request(URL, headers={
+              'User-Agent': 'dive-nsw-snapshot (https://github.com/glem0/glem0.github.io)'})
+          data = json.loads(urllib.request.urlopen(req, timeout=60).read())
+
+          # Never publish a broken body: must be the usual FeatureCollection
+          # at roughly the usual size (245 sites as of 2026-07).
+          assert data.get('type') == 'FeatureCollection', 'not a FeatureCollection'
+          n = len(data.get('features') or [])
+          assert n >= 200, 'suspiciously few features: %d' % n
+
+          now = datetime.datetime.now(datetime.timezone.utc)
+          old = None
+          if os.path.exists(PATH):
+              try:
+                  with open(PATH) as f:
+                      old = json.load(f)
+              except Exception:
+                  old = None
+
+          # Skip the commit when nothing changed and the freshness stamp is
+          # recent; re-stamp a few times a day so clients can trust fetchedAt.
+          if old and old.get('data') == data:
+              age_h = (now - datetime.datetime.fromisoformat(
+                  old['fetchedAt'].replace('Z', '+00:00'))).total_seconds() / 3600
+              if age_h < 6:
+                  print('unchanged, stamp %.1f h old, skipping' % age_h)
+                  sys.exit(0)
+
+          os.makedirs(os.path.dirname(PATH), exist_ok=True)
+          with open(PATH, 'w') as f:
+              json.dump({'fetchedAt': now.strftime('%Y-%m-%dT%H:%M:%SZ'),
+                         'source': URL, 'data': data}, f, separators=(',', ':'))
+          print('wrote %s: %d features' % (PATH, n))
+          EOF
+
+      - name: Commit and push if the snapshot changed
+        run: |
+          git add dive-nsw/data/beachwatch.json
+          if git diff --cached --quiet; then
+            echo "Snapshot unchanged — no commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "dive-nsw: beachwatch snapshot"
+          git push
