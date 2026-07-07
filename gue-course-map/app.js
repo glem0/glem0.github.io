@@ -110,6 +110,12 @@
   }
   // families are presentation, so they're assigned here rather than baked into the data
   const withFamilies = rows => rows.map(c => Object.assign({}, c, { family: familyFor(c.course) }));
+  // schedule.json keeps a short history window, but the map is strictly today
+  // onward: past classes never render and never count (undated ones are kept)
+  function currentClasses(rows) {
+    const today = todayISO();
+    return rows.filter(c => !c.iso || c.iso >= today);
+  }
 
   /* ============================ map ============================ */
   // Infinite horizontal scroll: the world wraps freely. To keep markers visible in
@@ -476,7 +482,7 @@
 
     const cached = loadSchedCache();
     const haveCache = !!(cached && cached.classes && cached.classes.length);
-    if (haveCache) { render(withFamilies(cached.classes), true); hideLoader(); }  // instant paint
+    if (haveCache) { render(withFamilies(currentClasses(cached.classes)), true); hideLoader(); }  // instant paint
 
     // Spinner/veil only for a first load or a manual refresh; with a cached paint
     // on screen the update is quick and quiet.
@@ -484,7 +490,7 @@
     try {
       const data = await fetchScheduleData(force);
       saveSchedCache(data);
-      render(withFamilies(data.classes), !haveCache);  // only auto-fit if we hadn't already painted
+      render(withFamilies(currentClasses(data.classes)), !haveCache);  // only auto-fit if we hadn't already painted
       hideLoader();
       statusLive(data.updated);
       geocodeUnknowns();                     // background, non-blocking

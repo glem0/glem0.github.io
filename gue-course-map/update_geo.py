@@ -3,7 +3,8 @@
 GUE course-map updater — one script to keep schedule.json and geo.js up to date.
 
     python3 update_geo.py             Fetch the live GUE schedule, write schedule.json
-                                      (the parsed class list the site renders), geocode
+                                      (the parsed class list the site renders; classes
+                                      more than ~3 months past are dropped), geocode
                                       any NEW locations (each verified by reverse-
                                       geocoding the coordinate back into the stated
                                       country before it is accepted), and rebuild
@@ -304,6 +305,14 @@ def run_update():
     classes = parse_classes(fetch_schedule())
     if not classes:
         sys.exit("ERROR: parsed 0 classes from the schedule page.")
+    # Rolling window: classes more than ~3 months past drop out of schedule.json
+    # (the site only shows today onward anyway). Locations are NEVER dropped —
+    # the geo DB stays append-only.
+    cutoff = time.strftime("%Y-%m-%d", time.gmtime(time.time() - 92 * 86400))
+    kept = [c for c in classes if not c["iso"] or c["iso"] >= cutoff]
+    if len(kept) != len(classes):
+        print(f"Dropped {len(classes) - len(kept)} class(es) dated before {cutoff}.")
+    classes = kept
     locs = sorted({canon(c["location"]) for c in classes if c["location"]})
     print(f"Schedule: {len(classes)} classes at {len(locs)} unique locations.")
     write_schedule(classes)  # before geocoding, so a geocode hiccup can't lose it
