@@ -14,6 +14,12 @@
   // but rate-limits bursts (returns 520/500 when hammered). So we lead with cors.sh,
   // keep allorigins as backup, and — crucially — reuse the cached schedule for an
   // hour (SCHED_TTL) so a normal visit makes at most one proxy request.
+  // Last resort: r.jina.ai. The CORS proxies all fetch from datacenter IPs, so when
+  // gue.com's WAF is strict they fail together (202 stub); jina renders the page in
+  // a real browser and gets through. Slower cold (~10-20s render, hence its own
+  // timeout) and a heavier payload, but CORS-clean (preflight allows x-respond-with,
+  // which switches its output from markdown to the rendered HTML the parser needs).
+  // Unkeyed rate limit ~20 req/min per client IP — fine at one request per visitor.
   // Unusable as of testing: codetabs (522), corsproxy.io (paywalled → 202/403),
   // thingproxy (DNS), whateverorigin (empty). To use corsproxy.io add your key:
   //   { name:"corsproxy", url:u=>`https://corsproxy.io/?url=${encodeURIComponent(u)}` }  // + header x-cors-api-key
@@ -21,6 +27,8 @@
     { name: "cors.sh",        url: u => `https://proxy.cors.sh/${u}` },
     { name: "allorigins",     url: u => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}` },
     { name: "allorigins-get", url: u => `https://api.allorigins.win/get?url=${encodeURIComponent(u)}`, json: true },
+    { name: "jina",           url: u => `https://r.jina.ai/${u}`,
+      headers: { "x-respond-with": "html" }, timeout: 40000 },
   ];
 
   const SCHED_CACHE_KEY = "gue_schedule_v2";  // bumped: instructor names now Title-Cased at parse
@@ -152,10 +160,10 @@
 
   /* ======================= networking ======================= */
   function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
-  async function fetchWithTimeout(url, ms) {
+  async function fetchWithTimeout(url, ms, headers) {
     const ac = new AbortController();
     const id = setTimeout(() => ac.abort(), ms);
-    try { return await fetch(url, { signal: ac.signal, redirect: "follow" }); }
+    try { return await fetch(url, { signal: ac.signal, redirect: "follow", headers: headers || {} }); }
     finally { clearTimeout(id); }
   }
 
@@ -164,7 +172,7 @@
     for (const p of PROXIES) {
       setStatus("loading", "Fetching live schedule…");
       try {
-        const res = await fetchWithTimeout(p.url(SCHEDULE_URL), FETCH_TIMEOUT);
+        const res = await fetchWithTimeout(p.url(SCHEDULE_URL), p.timeout || FETCH_TIMEOUT, p.headers);
         if (!res.ok) { lastErr = new Error(p.name + " HTTP " + res.status); continue; }
         let text = await res.text();
         if (p.json) { try { text = JSON.parse(text).contents; } catch (e) { lastErr = e; continue; } }
