@@ -60,15 +60,25 @@ def curl(url, ua, timeout=30):
 
 # ---------------------------------------------------------------- fetch + parse
 def fetch_schedule():
-    for attempt in range(4):
-        p = subprocess.run(["curl", "-sS", "--compressed", "--max-time", "30",
-                            "-H", "User-Agent: " + BROWSER_UA,
-                            "-H", "Referer: https://www.gue.com/diver-training",
-                            SCHEDULE_URL], capture_output=True, text=True)
+    # Direct first. gue.com sometimes rejects datacenter IPs (e.g. GitHub Actions
+    # runners), so fall back to public mirrors that fetch it from their own network.
+    attempts = [
+        ("direct", SCHEDULE_URL), ("direct", SCHEDULE_URL),
+        ("cors.sh", "https://proxy.cors.sh/" + SCHEDULE_URL),
+        ("allorigins", "https://api.allorigins.win/raw?url=" + urllib.parse.quote(SCHEDULE_URL, safe="")),
+    ]
+    for i, (name, url) in enumerate(attempts):
+        cmd = ["curl", "-sS", "--compressed", "--max-time", "40",
+               "-H", "User-Agent: " + BROWSER_UA]
+        if name == "direct":
+            cmd += ["-H", "Referer: https://www.gue.com/diver-training"]
+        p = subprocess.run(cmd + [url], capture_output=True, text=True)
         if p.returncode == 0 and "class-details" in p.stdout:
+            if name != "direct":
+                print(f"  (fetched via {name})")
             return p.stdout
-        time.sleep(2 * (attempt + 1))
-    sys.exit("ERROR: could not fetch the GUE schedule.")
+        time.sleep(2 * (i + 1))
+    sys.exit("ERROR: could not fetch the GUE schedule (direct and mirrors).")
 
 
 def parse_locations(page):
