@@ -62,21 +62,28 @@ def curl(url, ua, timeout=30):
 def fetch_schedule():
     # Direct first. gue.com sometimes rejects datacenter IPs (e.g. GitHub Actions
     # runners), so fall back to public mirrors that fetch it from their own network.
+    # The CORS proxies' egress is datacenter too and often draws the same rejection,
+    # so try r.jina.ai first among the mirrors — it renders pages in a real browser,
+    # which gets a normal 200 where plain requests get the WAF's 202 stub.
     enc = urllib.parse.quote(SCHEDULE_URL, safe="")
     attempts = [
         ("direct", SCHEDULE_URL), ("direct", SCHEDULE_URL),
+        ("jina", "https://r.jina.ai/" + SCHEDULE_URL),
         ("cors.sh", "https://proxy.cors.sh/" + SCHEDULE_URL),
         ("allorigins", "https://api.allorigins.win/raw?url=" + enc),
         ("codetabs", "https://api.codetabs.com/v1/proxy?quest=" + enc),
     ]
     for i, (name, url) in enumerate(attempts):
-        cmd = ["curl", "-sS", "--compressed", "--http2", "--max-time", "40",
+        timeout = "90" if name == "jina" else "40"  # jina renders, so it's slower
+        cmd = ["curl", "-sS", "--compressed", "--http2", "--max-time", timeout,
                "-w", "%{stderr}HTTP %{http_code}, %{size_download} bytes",
                "-H", "User-Agent: " + BROWSER_UA,
                "-H", "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                "-H", "Accept-Language: en-US,en;q=0.9"]
         if name == "direct":
             cmd += ["-H", "Referer: https://www.gue.com/diver-training"]
+        elif name == "jina":
+            cmd += ["-H", "x-respond-with: html"]  # rendered DOM, not markdown
         else:  # CORS proxies expect browser-shaped requests
             cmd += ["-H", "Origin: https://glennmcgui.re",
                     "-H", "Referer: https://glennmcgui.re/gue-course-map/"]
@@ -87,7 +94,8 @@ def fetch_schedule():
             return p.stdout
         print(f"  fetch failed [{name}]: {p.stderr.strip()}")
         time.sleep(2 * (i + 1))
-    sys.exit("ERROR: could not fetch the GUE schedule (direct and mirrors).")
+    print("ERROR: could not fetch the GUE schedule (direct and mirrors).", file=sys.stderr)
+    sys.exit(3)  # distinct code: source unreachable — the workflow treats it as transient
 
 
 def parse_locations(page):

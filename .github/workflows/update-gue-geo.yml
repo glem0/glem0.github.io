@@ -27,8 +27,29 @@ jobs:
 
       - name: Geocode new GUE schedule locations
         working-directory: gue-course-map
-        shell: bash  # explicit -> pipefail, so a script failure isn't masked by tee
-        run: python3 update_geo.py | tee /tmp/update.log
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set +e
+          python3 update_geo.py | tee /tmp/update.log
+          code=${PIPESTATUS[0]}  # the script's own exit code, not tee's
+          set -e
+          if [ "$code" -ne 3 ]; then
+            exit "$code"
+          fi
+          # Exit 3 = schedule unreachable (WAF bad draw and/or mirror outages).
+          # The DB is append-only and there are three slots a day, so a missed run
+          # costs nothing — only go red once unreachability persists for 3 days.
+          last_ok=$(gh run list --workflow update-gue-geo.yml --status success \
+                      --limit 1 --json startedAt --jq '.[0].startedAt // empty' || true)
+          if [ -n "$last_ok" ] && \
+             [ $(( $(date +%s) - $(date -d "$last_ok" +%s) )) -lt 259200 ]; then
+            echo "::notice::GUE schedule unreachable this run — treating as transient (last success ${last_ok})."
+            exit 0
+          fi
+          echo "::error::GUE schedule unreachable, and no successful run within 3 days."
+          exit 1
 
       - name: Commit and push if the geo DB changed
         run: |
