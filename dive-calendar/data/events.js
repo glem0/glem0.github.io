@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-07-07T20:02:03+10:00",
+ "generated_at": "2026-07-08T05:17:58+10:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-07-01",
@@ -159,7 +159,7 @@ window.__DIVE_DATA__ =
    "start": "2026-07-10T10:00+10:00",
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/guided-shore-dives",
-   "description": "16 of 20 places left · Guided Shore Dives · Leap to steps Drift for confident divers shore dive (18-22m)"
+   "description": "13 of 20 places left · Guided Shore Dives · Leap to steps Drift for confident divers shore dive (18-22m)"
   },
   {
    "id": "prodive-9708d48e0489",
@@ -369,7 +369,7 @@ window.__DIVE_DATA__ =
    "start": "2026-07-11T10:00+10:00",
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/guided-shore-dives",
-   "description": "10 of 15 places left · Guided Shore Dives · The Steps at Kurnell weedy sea dragons shore dive (15m)"
+   "description": "9 of 15 places left · Guided Shore Dives · The Steps at Kurnell weedy sea dragons shore dive (15m)"
   },
   {
    "id": "prodive-0442872f3c63",
@@ -933,7 +933,7 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "end": "2026-07-19",
    "url": "https://www.abyss.com.au/courses/padi-advanced-open-water-course",
-   "description": "$599.00 · 4 of 8 places left · Advanced Open Water Diver · Advanced Openwater Diver Course"
+   "description": "$599.00 · 3 of 8 places left · Advanced Open Water Diver · Advanced Openwater Diver Course"
   },
   {
    "id": "divebondi-e8a509fd9575",
@@ -1175,7 +1175,7 @@ window.__DIVE_DATA__ =
    "start": "2026-07-19T10:00+10:00",
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/guided-shore-dives",
-   "description": "14 of 15 places left · Guided Shore Dives · The Steps at Kurnell weedy sea dragons shore dive (15m)"
+   "description": "13 of 15 places left · Guided Shore Dives · The Steps at Kurnell weedy sea dragons shore dive (15m)"
   },
   {
    "id": "prodive-47f601f00f70",
@@ -1714,7 +1714,7 @@ window.__DIVE_DATA__ =
    "start": "2026-07-26T08:00+10:00",
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/boat-dives",
-   "description": "$130.00 · 12 of 18 places left · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
+   "description": "$130.00 · 10 of 18 places left · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
   },
   {
    "id": "prodive-28203a7ef278",
