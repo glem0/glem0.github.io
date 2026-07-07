@@ -35,8 +35,8 @@
       '<line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>',
     dark: SVG_OPEN + '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>',
   };
-  const EYE_OFF_MINI = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"' +
-    ' stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+  const EYE_OFF_MINI = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"' +
+    ' stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
     '<path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94"/>' +
     '<path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19"/>' +
     '<path d="M14.12 14.12a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>';
@@ -341,25 +341,25 @@
       });
       wrap.appendChild(b);
     }
-    if (state.data.sources.some((s) => !state.enabled.has(s.id))) {
-      const reset = el('button', 'filter-reset', 'show all');
-      reset.type = 'button';
-      reset.addEventListener('click', () => {
-        state.enabled = new Set(state.data.sources.map((s) => s.id));
-        savePrefs();
-        render();
-      });
-      wrap.appendChild(reset);
-    }
+    updateFiltersFade();
+  }
+
+  // fade the chip row at whichever edge clips more chips (mobile scroll hint)
+  function updateFiltersFade() {
+    const f = $('#filters');
+    const max = f.scrollWidth - f.clientWidth;
+    f.classList.toggle('fade-l', f.scrollLeft > 4);
+    f.classList.toggle('fade-r', max - f.scrollLeft > 4);
+  }
+
+  function updateHiddenBtn() {
+    const b = $('#hiddenBtn');
     const n = hiddenTotal();
-    const hb = el('button', 'hidden-count-btn');
-    hb.type = 'button';
-    hb.innerHTML = EYE_OFF_MINI;
-    if (n) hb.appendChild(el('span', null, n + ' hidden'));
-    hb.title = 'Hidden events and hide patterns';
-    hb.setAttribute('aria-label', hb.title + (n ? ' (' + n + ' active)' : ''));
-    hb.addEventListener('click', openHiddenManager);
-    wrap.appendChild(hb);
+    b.innerHTML = EYE_OFF_MINI;
+    if (n) b.appendChild(el('span', 'hbadge', String(n)));
+    const label = 'Hidden events and hide patterns' + (n ? ' (' + n + ' active)' : '');
+    b.title = label;
+    b.setAttribute('aria-label', label);
   }
 
   function renderFooter() {
@@ -536,9 +536,9 @@
     for (const pair of state.hiddenPairs) {
       const row = el('div', 'hidden-mgr-row ' + srcClass(pair.s));
       const label = el('span', 'hidden-mgr-label');
-      label.appendChild(el('span', 'dot'));
-      label.appendChild(el('span', 'hidden-mgr-title', pair.t));
-      label.appendChild(el('span', 'hidden-mgr-src', sourceShort(pair.s)));
+      // real spaces between the parts so lines break naturally, not after the dot
+      label.append(el('span', 'dot'), ' ', el('span', 'hidden-mgr-title', pair.t), ' ',
+        el('span', 'hidden-mgr-src', sourceShort(pair.s)));
       row.appendChild(label);
       row.appendChild(el('span', 'hidden-mgr-count', evs(counts.get(pair.s + SEP + pair.t) || 0)));
       const r = el('button', null, 'Restore');
@@ -551,10 +551,8 @@
     state.hiddenRules.forEach((rule, i) => {
       const row = el('div', 'hidden-mgr-row ' + (rule.s === '*' ? 'src-other' : srcClass(rule.s)));
       const label = el('span', 'hidden-mgr-label');
-      label.appendChild(el('span', 'dot'));
-      const pat = el('code', 'hidden-mgr-title', '/' + rule.p + '/i');
-      label.appendChild(pat);
-      label.appendChild(el('span', 'hidden-mgr-src', rule.s === '*' ? 'all centres' : sourceShort(rule.s)));
+      label.append(el('span', 'dot'), ' ', el('code', 'hidden-mgr-title', '/' + rule.p + '/i'), ' ',
+        el('span', 'hidden-mgr-src', rule.s === '*' ? 'all centres' : sourceShort(rule.s)));
       row.appendChild(label);
       row.appendChild(el('span', 'hidden-mgr-count', evs(ruleCount(rule))));
       const r = el('button', null, 'Remove');
@@ -609,6 +607,8 @@
       openHiddenManager();
     });
     body.appendChild(form);
+    body.appendChild(el('div', 'rule-hint',
+      'Patterns are JavaScript regular expressions — e.g. ^open water, night|wreck, \\bcourse\\b — case-insensitive, matched anywhere in the event title.'));
     body.appendChild(err);
 
     if (hiddenTotal() > 1) {
@@ -662,6 +662,7 @@
   function render() {
     if (!state.data || !state.month) return;
     renderFilters();
+    updateHiddenBtn();
     const isMonth = state.view === 'month';
     $('#gridWrap').hidden = !isMonth;
     $('#list').hidden = isMonth;
@@ -703,6 +704,10 @@
       applyTheme(THEMES[(THEMES.indexOf(state.theme) + 1) % THEMES.length]);
       savePrefs();
     });
+    updateHiddenBtn();
+    $('#hiddenBtn').addEventListener('click', () => { if (state.data) openHiddenManager(); });
+    $('#filters').addEventListener('scroll', updateFiltersFade, { passive: true });
+    window.addEventListener('resize', updateFiltersFade);
 
     try {
       state.data = await loadData();

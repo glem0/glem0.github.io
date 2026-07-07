@@ -211,8 +211,26 @@ input:focus-visible {
   box-shadow: inset 0 0 0 1px var(--baseline);
 }
 
-#themeBtn { line-height: 0; padding: 8px 9px; }
-#themeBtn svg { display: block; }
+#themeBtn, #hiddenBtn { line-height: 0; padding: 8px 9px; }
+#themeBtn svg, #hiddenBtn svg { display: block; }
+
+#hiddenBtn { position: relative; color: var(--ink-2); }
+#hiddenBtn:hover { color: var(--ink); }
+
+#hiddenBtn .hbadge {
+  position: absolute;
+  top: -6px;
+  right: -7px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 10.5px;
+  font-weight: 600;
+  line-height: 1;
+  border-radius: 999px;
+  padding: 3px 5px;
+  min-width: 8px;
+  text-align: center;
+}
 
 /* ---------- filter chips (legend + toggle) ---------- */
 
@@ -256,35 +274,18 @@ input:focus-visible {
 .filter-chip[aria-pressed="false"] .dot { opacity: 0.35; }
 .filter-chip[aria-pressed="false"] .count { color: var(--muted); }
 
-.filter-reset {
-  border: 0;
-  background: none;
-  color: var(--ink-2);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  padding: 4px 6px;
-  font-size: 13px;
-}
+/* scroll hint: fade the row at whichever edge still clips chips */
+.filters { --fade-l: 0px; --fade-r: 0px; }
+.filters.fade-l { --fade-l: 28px; }
+.filters.fade-r { --fade-r: 28px; }
 
-.hidden-count-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  border: 1px dashed var(--baseline);
-  border-radius: 999px;
-  padding: 4px 12px;
-  background: transparent;
-  color: var(--ink-2);
-  font-size: 13px;
+.filters.fade-l,
+.filters.fade-r {
+  -webkit-mask-image: linear-gradient(to right,
+    transparent, #000 var(--fade-l), #000 calc(100% - var(--fade-r)), transparent);
+  mask-image: linear-gradient(to right,
+    transparent, #000 var(--fade-l), #000 calc(100% - var(--fade-r)), transparent);
 }
-
-.hidden-count-btn:hover {
-  color: var(--ink);
-  border-color: var(--ink-2);
-  background: transparent;
-}
-
-.hidden-count-btn svg { flex: none; display: block; }
 
 /* ---------- status / empty ---------- */
 
@@ -664,7 +665,7 @@ dialog::backdrop { background: rgba(0, 0, 0, 0.45); }
   height: 8px;
   border-radius: 50%;
   background: var(--c);
-  margin-right: 7px;
+  margin-right: 4px;
   vertical-align: 0;
 }
 
@@ -672,7 +673,7 @@ dialog::backdrop { background: rgba(0, 0, 0, 0.45); }
   color: var(--muted);
   font-size: 12px;
   white-space: nowrap;
-  margin-left: 7px;
+  margin-left: 4px;
 }
 
 .hidden-mgr-title { overflow-wrap: anywhere; }
@@ -725,9 +726,18 @@ code.hidden-mgr-title {
   padding: 6px 8px;
 }
 
+.rule-hint {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+  margin-top: 8px;
+}
+
+.rule-hint code,
+.rule-error { font-size: 12.5px; }
+
 .rule-error {
   color: var(--critical);
-  font-size: 12.5px;
   margin-top: 6px;
 }
 
@@ -796,7 +806,7 @@ footer a { color: inherit; }
   .controls { gap: 8px; }
   .month-nav { flex: 1 1 auto; order: 1; }
   .month-nav h2 { min-width: 104px; font-size: 15px; flex: 1; }
-  #themeBtn { order: 2; }
+  #hiddenBtn, #themeBtn { order: 2; }
   #search { order: 3; flex: 1 1 140px; width: auto; }
   .view-toggle { order: 4; margin-left: 0; }
 
@@ -812,8 +822,6 @@ footer a { color: inherit; }
   .filters::-webkit-scrollbar { display: none; }
   .filter-chip { flex: none; font-size: 12.5px; padding: 4px 11px 4px 9px; }
   .filter-chip .count { font-size: 11px; }
-  .hidden-count-btn { flex: none; font-size: 12.5px; white-space: nowrap; }
-  .filter-reset { flex: none; white-space: nowrap; }
 
   /* month grid fits the screen: cells show dots, tap a day for its list */
   .grid-inner { min-width: 0; }
