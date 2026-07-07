@@ -1,40 +1,16 @@
-/* GUE Course Map — fully client-side.
-   Fetches the live GUE class schedule through a public CORS proxy, parses it in
-   the browser, resolves locations against the bundled geo.js lookup (geocoding
-   any unknown ones live), and plots everything on the map.
-   No server, no build step for the schedule. */
+/* GUE Course Map — static site, no scraping in the browser.
+   Renders schedule.json (the parsed GUE class schedule, refreshed a few times a
+   day by a GitHub Action), resolves locations against the bundled geo.js lookup
+   (geocoding any unknown ones live), and plots everything on the map. */
 (function () {
   "use strict";
 
   /* ============================ config ============================ */
-  const SCHEDULE_URL = "https://www.gue.com/diver-training/gue-class-schedule?btn=1";
+  const SCHEDULE_JSON = "schedule.json";      // same-origin, published by the Action
 
-  // Public CORS proxies, tried in order until one returns the schedule table.
-  // Measured (Jul 2026): cors.sh → 200 + full table, 4/4, fast; allorigins → works
-  // but rate-limits bursts (returns 520/500 when hammered). So we lead with cors.sh,
-  // keep allorigins as backup, and — crucially — reuse the cached schedule for an
-  // hour (SCHED_TTL) so a normal visit makes at most one proxy request.
-  // Last resort: r.jina.ai. The CORS proxies all fetch from datacenter IPs, so when
-  // gue.com's WAF is strict they fail together (202 stub); jina renders the page in
-  // a real browser and gets through. Slower cold (~10-20s render, hence its own
-  // timeout) and a heavier payload, but CORS-clean (preflight allows x-respond-with,
-  // which switches its output from markdown to the rendered HTML the parser needs).
-  // Unkeyed rate limit ~20 req/min per client IP — fine at one request per visitor.
-  // Unusable as of testing: codetabs (522), corsproxy.io (paywalled → 202/403),
-  // thingproxy (DNS), whateverorigin (empty). To use corsproxy.io add your key:
-  //   { name:"corsproxy", url:u=>`https://corsproxy.io/?url=${encodeURIComponent(u)}` }  // + header x-cors-api-key
-  const PROXIES = [
-    { name: "cors.sh",        url: u => `https://proxy.cors.sh/${u}` },
-    { name: "allorigins",     url: u => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}` },
-    { name: "allorigins-get", url: u => `https://api.allorigins.win/get?url=${encodeURIComponent(u)}`, json: true },
-    { name: "jina",           url: u => `https://r.jina.ai/${u}`,
-      headers: { "x-respond-with": "html" }, timeout: 40000 },
-  ];
-
-  const SCHED_CACHE_KEY = "gue_schedule_v2";  // bumped: instructor names now Title-Cased at parse
+  const SCHED_CACHE_KEY = "gue_schedule_v2";  // last good schedule, for instant paint
   const GEO_CACHE_KEY = "gue_geo_v1";
-  const SCHED_TTL = 24 * 60 * 60 * 1000;  // reuse cached schedule for 24h — respect proxy rate limits
-  const FETCH_TIMEOUT = 20000;       // ms per proxy attempt
+  const FETCH_TIMEOUT = 15000;       // ms for the schedule.json fetch
   const GEOCODE_CAP = 40;            // max live geocodes per session (politeness)
 
   /* ======================= course families ======================= */
@@ -84,52 +60,6 @@
     return "Specialty";
   }
 
-  /* ======================= html parsing ======================= */
-  const _ta = document.createElement("textarea");
-  function decodeEntities(s) { _ta.innerHTML = s; return _ta.value; }
-  function clean(s) {
-    return decodeEntities(String(s).replace(/<[^>]+>/g, "")).replace(/\s+/g, " ").trim();
-  }
-  // Normalise a name to Title Case (each word capitalised, rest lowercase) so casing
-  // variants of the same instructor collapse to one entry. Handles hyphens/apostrophes/accents.
-  function titleCase(s) {
-    return String(s).toLowerCase().replace(/(^|[\s\-'])(\p{L})/gu, (_, sep, ch) => sep + ch.toUpperCase());
-  }
-  const MONTHS = { january:1, february:2, march:3, april:4, may:5, june:6, july:7,
-    august:8, september:9, october:10, november:11, december:12 };
-  function toISO(s) {
-    const m = String(s).match(/([A-Za-z]+)\s+(\d+),?\s+(\d{4})/);
-    if (!m) return null;
-    const mo = MONTHS[m[1].toLowerCase()];
-    if (!mo) return null;
-    return `${m[3]}-${String(mo).padStart(2, "0")}-${String(+m[2]).padStart(2, "0")}`;
-  }
-
-  function parseSchedule(html) {
-    const out = [];
-    const rowRe = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
-    let m;
-    while ((m = rowRe.exec(html))) {
-      const row = m[1];
-      if (row.indexOf("class-details") === -1) continue;
-      const tds = [];
-      const tdRe = /<td[^>]*>([\s\S]*?)<\/td>/gi;
-      let t;
-      while ((t = tdRe.exec(row))) tds.push(t[1]);
-      if (tds.length < 4) continue;
-      const cid = (tds[0].match(/cid=(\d+)/) || [])[1] || null;
-      const iid = (tds[3].match(/id=(\d+)/) || [])[1] || null;
-      const course = clean(tds[0]);
-      const date = clean(tds[1]);
-      out.push({
-        cid, course, family: familyFor(course), date, iso: toISO(date),
-        location: clean(tds[2]), instructor: titleCase(clean(tds[3])), instructor_id: iid,
-      });
-    }
-    out.sort((a, b) => (a.iso || "9999").localeCompare(b.iso || "9999") || a.course.localeCompare(b.course));
-    return out;
-  }
-
   /* ======================= geo lookup ======================= */
   function loadGeoCache() { try { return JSON.parse(localStorage.getItem(GEO_CACHE_KEY)) || {}; } catch (e) { return {}; } }
   function saveGeoCache(o) { try { localStorage.setItem(GEO_CACHE_KEY, JSON.stringify(o)); } catch (e) {} }
@@ -167,21 +97,19 @@
     finally { clearTimeout(id); }
   }
 
-  async function fetchSchedule() {
-    let lastErr = null;
-    for (const p of PROXIES) {
-      setStatus("loading", "Fetching live schedule…");
-      try {
-        const res = await fetchWithTimeout(p.url(SCHEDULE_URL), p.timeout || FETCH_TIMEOUT, p.headers);
-        if (!res.ok) { lastErr = new Error(p.name + " HTTP " + res.status); continue; }
-        let text = await res.text();
-        if (p.json) { try { text = JSON.parse(text).contents; } catch (e) { lastErr = e; continue; } }
-        if (text && text.indexOf("class-details") !== -1) return text;
-        lastErr = new Error(p.name + ": no schedule table in response");
-      } catch (e) { lastErr = e; }
-    }
-    throw lastErr || new Error("all proxies failed");
+  // schedule.json lives on our own origin, so this is one plain fetch. Cache-bust
+  // on manual refresh so the CDN/browser cache can't hand back a stale copy.
+  async function fetchScheduleData(bust) {
+    const url = SCHEDULE_JSON + (bust ? "?t=" + Date.now() : "");
+    const res = await fetchWithTimeout(url, FETCH_TIMEOUT);
+    if (!res.ok) throw new Error("schedule data HTTP " + res.status);
+    const data = await res.json();
+    if (!data || !Array.isArray(data.classes) || !data.classes.length)
+      throw new Error("schedule data is empty");
+    return data;
   }
+  // families are presentation, so they're assigned here rather than baked into the data
+  const withFamilies = rows => rows.map(c => Object.assign({}, c, { family: familyFor(c.course) }));
 
   /* ============================ map ============================ */
   // Infinite horizontal scroll: the world wraps freely. To keep markers visible in
@@ -485,21 +413,18 @@
     document.getElementById("refreshBtn").classList.toggle("busy", kind === "loading");
     document.getElementById("veil").classList.toggle("hidden", kind !== "loading");
   }
-  function statusLive(iso) { setStatus("live", "Live · updated " + fmtWhen(iso)); }
+  function statusLive(iso) { setStatus("live", "Schedule updated " + fmtWhen(iso)); }
   function statusCached(iso, stale) {
     setStatus(stale ? "cached" : "live",
-      (stale ? "Cached copy · " : "Updated ") + fmtWhen(iso));
+      (stale ? "Cached copy · " : "Schedule updated ") + fmtWhen(iso));
   }
-  function ageMs(iso) { try { return Date.now() - new Date(iso).getTime(); } catch (e) { return Infinity; } }
   function hideLoader() { document.getElementById("loader").classList.add("hidden"); }
   function showError(msg) {
     const l = document.getElementById("loader");
     l.classList.remove("hidden"); l.classList.add("error");
     document.getElementById("loaderTitle").textContent = "Couldn’t load the schedule";
     document.getElementById("loaderMsg").innerHTML = esc(msg) +
-      "<br><br>This is usually temporary — retrying normally works. If it keeps " +
-      "failing, gue.com may be unreachable right now; the map will show the last " +
-      "saved schedule once one has loaded successfully.";
+      "<br><br>This is usually temporary — retrying normally works.";
     document.getElementById("loaderRetry").style.display = "";
   }
   function fmtWhen(iso) {
@@ -509,8 +434,8 @@
 
   /* ======================= schedule cache ======================= */
   function loadSchedCache() { try { return JSON.parse(localStorage.getItem(SCHED_CACHE_KEY)); } catch (e) { return null; } }
-  function saveSchedCache(classes) {
-    try { localStorage.setItem(SCHED_CACHE_KEY, JSON.stringify({ at: new Date().toISOString(), classes })); } catch (e) {}
+  function saveSchedCache(data) {
+    try { localStorage.setItem(SCHED_CACHE_KEY, JSON.stringify({ at: data.updated, classes: data.classes })); } catch (e) {}
   }
 
   /* ======================= background geocoding ======================= */
@@ -540,31 +465,24 @@
     const loader = document.getElementById("loader");
     loader.classList.remove("error");
     document.getElementById("loaderRetry").style.display = "none";
-    document.getElementById("loaderTitle").textContent = "Loading live GUE schedule…";
+    document.getElementById("loaderTitle").textContent = "Loading GUE schedule…";
 
     const cached = loadSchedCache();
     const haveCache = !!(cached && cached.classes && cached.classes.length);
-    if (haveCache) { render(cached.classes, true); hideLoader(); }  // instant paint
+    if (haveCache) { render(withFamilies(cached.classes), true); hideLoader(); }  // instant paint
 
-    // Fresh cache (< 1h): use it as-is — don't hit the proxy on every reload.
-    if (haveCache && !force && ageMs(cached.at) < SCHED_TTL) {
-      statusCached(cached.at, false);
-      geocodeUnknowns();
-      return;
-    }
-
-    setStatus("loading", haveCache ? "Refreshing…" : "Fetching live schedule…");
+    // Spinner/veil only for a first load or a manual refresh; with a cached paint
+    // on screen the update is quick and quiet.
+    if (force || !haveCache) setStatus("loading", haveCache ? "Refreshing…" : "Loading schedule…");
     try {
-      const html = await fetchSchedule();
-      const classes = parseSchedule(html);
-      if (!classes.length) throw new Error("Parsed 0 classes from the schedule.");
-      saveSchedCache(classes);
-      render(classes, !haveCache);           // only auto-fit if we hadn't already painted
+      const data = await fetchScheduleData(force);
+      saveSchedCache(data);
+      render(withFamilies(data.classes), !haveCache);  // only auto-fit if we hadn't already painted
       hideLoader();
-      statusLive(new Date().toISOString());
+      statusLive(data.updated);
       geocodeUnknowns();                     // background, non-blocking
     } catch (e) {
-      // Rate-limited or all proxies down → keep the last good data on screen.
+      // Data file unreachable → keep the last good schedule on screen.
       if (haveCache) {
         statusCached(cached.at, true);       // stale but usable
         geocodeUnknowns();

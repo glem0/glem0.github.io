@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """
-GUE course-map geocoder — one script to keep geo.js up to date.
+GUE course-map updater — one script to keep schedule.json and geo.js up to date.
 
-    python3 update_geo.py             Fetch the live GUE schedule, geocode any NEW
-                                      locations (each verified by reverse-geocoding the
-                                      coordinate back into the stated country before it
-                                      is accepted), and rebuild geo.js. Obvious
-                                      misspellings of already-known places ("High
-                                      Springd") reuse the known coordinate instead of
-                                      being geocoded blind.
+    python3 update_geo.py             Fetch the live GUE schedule, write schedule.json
+                                      (the parsed class list the site renders), geocode
+                                      any NEW locations (each verified by reverse-
+                                      geocoding the coordinate back into the stated
+                                      country before it is accepted), and rebuild
+                                      geo.js. Obvious misspellings of already-known
+                                      places ("High Springd") reuse the known
+                                      coordinate instead of being geocoded blind.
     python3 update_geo.py --validate  Also audit every cached coordinate against the
                                       country named in its location and report mismatches.
 
@@ -27,6 +28,7 @@ SCHEDULE_URL = "https://www.gue.com/diver-training/gue-class-schedule?btn=1"
 CACHE = "geocode_cache.json"
 GEO_JS = "geo.js"
 REV_CACHE = "reverse_cache.json"
+SCHEDULE_JSON = "schedule.json"   # parsed schedule the site renders (no client scraping)
 BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/121 Safari/537.36")
 NOMINATIM_UA = "gue-course-map/1.0 (personal mapping project; contact glennmcguire9@gmail.com)"
@@ -98,19 +100,60 @@ def fetch_schedule():
     sys.exit(3)  # distinct code: source unreachable — the workflow treats it as transient
 
 
-def parse_locations(page):
-    locs = []
+MONTHS = {"january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
+          "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12}
+
+
+def _clean(s):
+    """Strip tags, decode entities, collapse whitespace (mirrors the old in-browser parser)."""
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", s))).strip()
+
+
+def _title(s):
+    """Title Case so casing variants of an instructor collapse to one entry."""
+    return re.sub(r"(^|[\s\-'])(\S)", lambda m: m.group(1) + m.group(2).upper(), s.lower())
+
+
+def _iso(s):
+    m = re.search(r"([A-Za-z]+)\s+(\d+),?\s+(\d{4})", s)
+    mo = MONTHS.get(m.group(1).lower()) if m else None
+    return f"{m.group(3)}-{mo:02d}-{int(m.group(2)):02d}" if mo else None
+
+
+def parse_classes(page):
+    """Schedule table -> class dicts in the exact shape the site renders."""
+    out = []
     for row in re.findall(r"<tr[^>]*>(.*?)</tr>", page, re.I | re.S):
         if "class-details" not in row:
             continue
-        cells = re.findall(r"<td[^>]*>(.*?)</td>", row, re.I | re.S)
-        if len(cells) < 4:
+        tds = re.findall(r"<td[^>]*>(.*?)</td>", row, re.I | re.S)
+        if len(tds) < 4:
             continue
-        loc = html.unescape(re.sub(r"<[^>]+>", "", cells[2]))
-        loc = canon(loc)
-        if loc:
-            locs.append(loc)
-    return sorted(set(locs))
+        cid = re.search(r"cid=(\d+)", tds[0])
+        iid = re.search(r"id=(\d+)", tds[3])
+        date = _clean(tds[1])
+        out.append({"cid": cid.group(1) if cid else None, "course": _clean(tds[0]),
+                    "date": date, "iso": _iso(date), "location": _clean(tds[2]),
+                    "instructor": _title(_clean(tds[3])),
+                    "instructor_id": iid.group(1) if iid else None})
+    out.sort(key=lambda c: (c["iso"] or "9999", c["course"], c["location"], c["instructor"]))
+    return out
+
+
+def write_schedule(classes):
+    """Write schedule.json, but only when the class list actually changed — so
+    check-only runs stay commit-free and 'updated' means 'data last changed'."""
+    try:
+        old = json.load(open(SCHEDULE_JSON))["classes"]
+    except Exception:
+        old = None
+    if old == classes:
+        print("Schedule unchanged.")
+        return
+    payload = {"updated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+               "classes": classes}
+    save_json(payload, SCHEDULE_JSON)
+    print(f"schedule.json updated ({len(classes)} classes).")
 
 
 # ---------------------------------------------------------------- geocoding
@@ -258,8 +301,12 @@ def run_update():
     rcache = json.load(open(REV_CACHE)) if os.path.exists(REV_CACHE) else {}
     print(f"DB: {len(cache)} locations on record.")
     print("Fetching live GUE schedule…")
-    locs = parse_locations(fetch_schedule())
-    print(f"Schedule: {len(locs)} unique locations.")
+    classes = parse_classes(fetch_schedule())
+    if not classes:
+        sys.exit("ERROR: parsed 0 classes from the schedule page.")
+    locs = sorted({canon(c["location"]) for c in classes if c["location"]})
+    print(f"Schedule: {len(classes)} classes at {len(locs)} unique locations.")
+    write_schedule(classes)  # before geocoding, so a geocode hiccup can't lose it
 
     # NEW = not in the DB yet, or previously failed (retry). Existing good entries are
     # left untouched — append-only, so manual fixes and old locations are preserved.
