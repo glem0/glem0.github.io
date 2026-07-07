@@ -1300,5 +1300,14 @@
   "matched_query": "{\"q\": \"skottevik, lillesand, norway\", \"countrycodes\": \"no\"}",
   "approx": false,
   "verified": true
+ },
+ "tenero, ticino, switzerland": {
+  "lat": 46.179397,
+  "lng": 8.8504309,
+  "display": "Tenero, Tenero-Contra, Circolo della Navegna, Distretto di Locarno, Ticino, 6598, Schweiz/Suisse/Svizzera/Svizra",
+  "country": "ch",
+  "matched_query": "tenero, ticino, switzerland",
+  "approx": false,
+  "verified": true
  }
 }
