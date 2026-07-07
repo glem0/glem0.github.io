@@ -1,0 +1,1304 @@
+{
+ "almelo, netherlands": {
+  "lat": 52.3563585,
+  "lng": 6.6636219,
+  "display": "Almelo, Overijssel, Nederland",
+  "matched_query": "ALmelo, Netherlands"
+ },
+ "alexandria bay, new york, united states": {
+  "lat": 44.3362411,
+  "lng": -75.9180626,
+  "display": "Village of Alexandria Bay, Town of Alexandria, Jefferson County, New York, United States",
+  "matched_query": "Alexandria Bay, New York, United States"
+ },
+ "alexandria, new york, united states": {
+  "lat": 44.3410432,
+  "lng": -75.8987846,
+  "display": "Town of Alexandria, Jefferson County, New York, United States",
+  "matched_query": "Alexandria, New York, United States"
+ },
+ "anchorage, alaska, united states": {
+  "lat": 61.2163129,
+  "lng": -149.894852,
+  "display": "Anchorage, Alaska, United States",
+  "matched_query": "Anchorage, Alaska, United States"
+ },
+ "anilao, batangas, philippines": {
+  "lat": 13.7607684,
+  "lng": 120.9279593,
+  "display": "Anilao Proper, Mabini, Batangas, Calabarzon, 4202, Philippines",
+  "matched_query": "Anilao, Batangas, Philippines"
+ },
+ "athens, greece": {
+  "lat": 37.9755648,
+  "lng": 23.7348324,
+  "display": "Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 105 57, Ελλάς",
+  "matched_query": "Athens, Greece"
+ },
+ "attersee, austria": {
+  "lat": 47.9143904,
+  "lng": 13.5356091,
+  "display": "Attersee am Attersee, Bezirk Vöcklabruck, Oberösterreich, 4864, Österreich",
+  "matched_query": "Attersee, Austria"
+ },
+ "augsburg, bayern, germany": {
+  "lat": 48.3690341,
+  "lng": 10.8979522,
+  "display": "Augsburg, Bayern, Deutschland",
+  "matched_query": "Augsburg, Bayern, Germany"
+ },
+ "bali, indonesia": {
+  "lat": -8.2271303,
+  "lng": 115.1919203,
+  "display": "Bali, Nusa Tenggara, Indonesia",
+  "matched_query": "Bali, Indonesia"
+ },
+ "bangkok, bangkok , thailand": {
+  "lat": 13.7393113,
+  "lng": 100.5166499,
+  "display": "กรุงเทพ, 1, ถนนรองเมือง, หัวลำโพง, แขวงรองเมือง, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+  "matched_query": "Bangkok, Bangkok , Thailand"
+ },
+ "beijing, beijing, china": {
+  "lat": 39.9011168,
+  "lng": 116.4210134,
+  "display": "北京, 崇文门东大街, 东花市北里西区社区, 东花市街道, 首都功能核心区, 东城区, 北京市, 100010, 中国",
+  "matched_query": "Beijing, Beijing, China"
+ },
+ "bergen, norway": {
+  "lat": 60.3943055,
+  "lng": 5.3259192,
+  "display": "Bergen, Vestland, Norge",
+  "matched_query": "Bergen, Norway"
+ },
+ "bonaire, bonaire": {
+  "lat": 12.14729,
+  "lng": -68.27402,
+  "display": "Kralendijk, Bonaire",
+  "matched_query": "Kralendijk, Bonaire",
+  "corrected": true
+ },
+ "brockville, canada": {
+  "lat": 44.6039207,
+  "lng": -75.7016829,
+  "display": "Brockville, Eastern Ontario, Ontario, Canada",
+  "matched_query": "Brockville, Canada"
+ },
+ "brockville, ontario, canada": {
+  "lat": 44.6039207,
+  "lng": -75.7016829,
+  "display": "Brockville, Eastern Ontario, Ontario, Canada",
+  "matched_query": "Brockville, Ontario, Canada"
+ },
+ "bromfield , colorado, united states": {
+  "lat": 42.3569556,
+  "lng": -71.0607521,
+  "display": "Bromfield Street, Downtown Crossing, Downtown, Boston, Suffolk County, Massachusetts, 02112, United States",
+  "matched_query": "Bromfield, United States"
+ },
+ "broomfield, colorado, united states": {
+  "lat": 39.9403995,
+  "lng": -105.05208,
+  "display": "Broomfield, Colorado, United States",
+  "matched_query": "Broomfield, Colorado, United States"
+ },
+ "budapest + croatia, budapest, hungary": {
+  "lat": 47.4978789,
+  "lng": 19.0402383,
+  "display": "Budapest, Közép-Magyarország, Magyarország",
+  "matched_query": "Budapest, Hungary",
+  "approx": true
+ },
+ "budapest, budapest, hungary": {
+  "lat": 47.4978789,
+  "lng": 19.0402383,
+  "display": "Budapest, Közép-Magyarország, Magyarország",
+  "matched_query": "Budapest, Budapest, Hungary"
+ },
+ "budapest, hungary": {
+  "lat": 47.4978789,
+  "lng": 19.0402383,
+  "display": "Budapest, Közép-Magyarország, Magyarország",
+  "matched_query": "Budapest, Hungary"
+ },
+ "błaskowizna and hel, poland": {
+  "lat": 52.215933,
+  "lng": 19.134422,
+  "display": "Polska",
+  "matched_query": "Poland",
+  "approx": true
+ },
+ "błaskowizna, poland": {
+  "lat": 54.2463134,
+  "lng": 22.803217,
+  "display": "Błaskowizna, gmina Jeleniewo, powiat suwalski, województwo podlaskie, Polska",
+  "matched_query": "Błaskowizna, Poland"
+ },
+ "cabo de palos , spain": {
+  "lat": 37.6332578,
+  "lng": -0.6931348,
+  "display": "Cabo de Palos, Rincón de San Ginés, Cartagena, Campo de Cartagena y Mar Menor, Región de Murcia, 30370, España",
+  "matched_query": "Cabo de Palos , Spain"
+ },
+ "cabo de palos, murcia, spain": {
+  "lat": 37.6332578,
+  "lng": -0.6931348,
+  "display": "Cabo de Palos, Rincón de San Ginés, Cartagena, Campo de Cartagena y Mar Menor, Región de Murcia, 30370, España",
+  "matched_query": "Cabo de Palos, Murcia, Spain"
+ },
+ "cabo de palos, spain": {
+  "lat": 37.6332578,
+  "lng": -0.6931348,
+  "display": "Cabo de Palos, Rincón de San Ginés, Cartagena, Campo de Cartagena y Mar Menor, Región de Murcia, 30370, España",
+  "matched_query": "Cabo de Palos, Spain"
+ },
+ "cajarc, france": {
+  "lat": 44.486397,
+  "lng": 1.8421185,
+  "display": "Cajarc, Figeac, Lot, Occitanie, France métropolitaine, 46160, France",
+  "matched_query": "Cajarc, France"
+ },
+ "cajarc, lot, france": {
+  "lat": 44.486397,
+  "lng": 1.8421185,
+  "display": "Cajarc, Figeac, Lot, Occitanie, France métropolitaine, 46160, France",
+  "matched_query": "Cajarc, Lot, France"
+ },
+ "cal gonone, nuoro, italy": {
+  "lat": 40.2820879,
+  "lng": 9.6343396,
+  "display": "Cala Gonone, Durgali/Dorgali, Nuoro, Sardigna/Sardegna, 08022, Italia",
+  "matched_query": "Cala Gonone, Nuoro, Italy",
+  "alias_of": "cala gonone, nuoro, italy"
+ },
+ "cala gonone, italy": {
+  "lat": 40.2820879,
+  "lng": 9.6343396,
+  "display": "Cala Gonone, Durgali/Dorgali, Nuoro, Sardigna/Sardegna, 08022, Italia",
+  "matched_query": "Cala Gonone, Italy"
+ },
+ "cala gonone, nuoro, italy": {
+  "lat": 40.2820879,
+  "lng": 9.6343396,
+  "display": "Cala Gonone, Durgali/Dorgali, Nuoro, Sardigna/Sardegna, 08022, Italia",
+  "matched_query": "Cala Gonone, Nuoro, Italy"
+ },
+ "civitavecchia , roma, italy": {
+  "lat": 42.0937524,
+  "lng": 11.7922462,
+  "display": "Civitavecchia, Roma Capitale, Lazio, 00053, Italia",
+  "matched_query": "Civitavecchia , Roma, Italy"
+ },
+ "civitavecchia, roma, italy": {
+  "lat": 42.0937524,
+  "lng": 11.7922462,
+  "display": "Civitavecchia, Roma Capitale, Lazio, 00053, Italia",
+  "matched_query": "Civitavecchia, Roma, Italy"
+ },
+ "dahab , janub sina', egypt": {
+  "lat": 28.4963633,
+  "lng": 34.5145652,
+  "display": "دهب, جنوب سيناء, 45214, مصر",
+  "matched_query": "Dahab , Janub Sina', Egypt"
+ },
+ "dahab, egypt": {
+  "lat": 28.4963633,
+  "lng": 34.5145652,
+  "display": "دهب, جنوب سيناء, 45214, مصر",
+  "matched_query": "Dahab, Egypt"
+ },
+ "dahab, janub sina', egypt": {
+  "lat": 28.4963633,
+  "lng": 34.5145652,
+  "display": "دهب, جنوب سيناء, 45214, مصر",
+  "matched_query": "Dahab, Janub Sina', Egypt"
+ },
+ "dauin, philippines": {
+  "lat": 9.1897165,
+  "lng": 123.26577,
+  "display": "Dauin, Negros Oriental, Negros Island Region, 6217, Philippines",
+  "matched_query": "Dauin, Philippines"
+ },
+ "des moines, washington, united states": {
+  "lat": 47.398829,
+  "lng": -122.3099093,
+  "display": "Des Moines, King County, Washington, 98198, United States",
+  "matched_query": "Des Moines, Washington, United States"
+ },
+ "dormagen, germany": {
+  "lat": 51.0934389,
+  "lng": 6.8416158,
+  "display": "Dormagen, Rhein-Kreis Neuss, Nordrhein-Westfalen, Deutschland",
+  "matched_query": "Dormagen, Germany"
+ },
+ "dutch springs, pennsylvania, united states": {
+  "lat": 40.6839165,
+  "lng": -75.3556019,
+  "display": "Dutch Springs, Steuben, Lower Nazareth Township, Northampton County, Pennsylvania, United States",
+  "matched_query": "Dutch Springs, Pennsylvania, United States"
+ },
+ "faro, faro, portugal": {
+  "lat": 37.0162944,
+  "lng": -7.935182,
+  "display": "Faro, Portugal",
+  "matched_query": "Faro, Faro, Portugal"
+ },
+ "finale ligure, genova, italy": {
+  "lat": 44.1712005,
+  "lng": 8.3522058,
+  "display": "Residence Finale Bike and Beach, Via Genova, Monte, Finalpia, Finale Ligure, Savona, Liguria, 17024, Italia",
+  "matched_query": "Finale Ligure, Genova, Italy"
+ },
+ "finale ligure, savona, italy": {
+  "lat": 44.1691474,
+  "lng": 8.3435917,
+  "display": "Finale Ligure, Savona, Liguria, 17024, Italia",
+  "matched_query": "Finale Ligure, Savona, Italy"
+ },
+ "foshan, guangdong, china": {
+  "lat": 23.0239788,
+  "lng": 113.1159558,
+  "display": "佛山市, 南海区, 广东省, 中国",
+  "matched_query": "Foshan, Guangdong, China"
+ },
+ "foshang, guangdong, china": {
+  "lat": 34.4523088,
+  "lng": 114.2657736,
+  "display": "佛尚, 付尚村, 尉氏县, 开封市, 河南省, 中国",
+  "matched_query": "Foshang, China"
+ },
+ "fuxian hu, yunnan, china": {
+  "lat": 24.4937359,
+  "lng": 102.8872322,
+  "display": "抚仙湖, 玉溪市, 云南省, 中国",
+  "matched_query": "Fuxian hu, Yunnan, China"
+ },
+ "gdansk, poland": {
+  "lat": 54.4288032,
+  "lng": 18.798327,
+  "display": "Gdańsk, województwo pomorskie, Polska",
+  "matched_query": "Gdansk, Poland"
+ },
+ "glavotok on krk, istria county, croatia": {
+  "lat": 45.0903023,
+  "lng": 14.4352444,
+  "display": "Glavotok, Brzac, Grad Krk, Primorsko-goranska županija, Hrvatska",
+  "country": "hr",
+  "matched_query": "glavotok, croatia",
+  "approx": false,
+  "verified": true
+ },
+ "glavotok, istria county, croatia": {
+  "lat": 45.0903023,
+  "lng": 14.4352444,
+  "display": "Glavotok, Brzac, Grad Krk, Primorsko-goranska županija, Hrvatska",
+  "matched_query": "Glavotok, Croatia"
+ },
+ "gramat, france": {
+  "lat": 44.7789948,
+  "lng": 1.723394,
+  "display": "Gramat, Gourdon, Lot, Occitanie, France métropolitaine, 46500, France",
+  "matched_query": "Gramat, France"
+ },
+ "gramat, lot, france": {
+  "lat": 44.7789948,
+  "lng": 1.723394,
+  "display": "Gramat, Gourdon, Lot, Occitanie, France métropolitaine, 46500, France",
+  "matched_query": "Gramat, Lot, France"
+ },
+ "high springs, florida, united states": {
+  "lat": 29.8268319,
+  "lng": -82.5968583,
+  "display": "High Springs, Alachua County, Florida, 32655, United States",
+  "matched_query": "HIGH SPRINGS, Florida, United States"
+ },
+ "hangzhou, zhejiang, china": {
+  "lat": 30.2489634,
+  "lng": 120.2052342,
+  "display": "杭州市, 浙江省, 中国",
+  "matched_query": "Hangzhou, Zhejiang, China"
+ },
+ "helsinki, finland": {
+  "lat": 60.1666204,
+  "lng": 24.9435408,
+  "display": "Helsinki, Helsingin seutukunta, Uusimaa, Manner-Suomi, Suomi / Finland",
+  "matched_query": "Helsinki, Finland"
+ },
+ "hemmoor, germany": {
+  "lat": 53.6886857,
+  "lng": 9.1595122,
+  "display": "Hemmoor, Samtgemeinde Hemmoor, Landkreis Cuxhaven, Niedersachsen, 21745, Deutschland",
+  "matched_query": "Hemmoor, Germany"
+ },
+ "hemmoor, kreidesee, niedersachsen, germany": {
+  "lat": 53.6886857,
+  "lng": 9.1595122,
+  "display": "Hemmoor, Samtgemeinde Hemmoor, Landkreis Cuxhaven, Niedersachsen, 21745, Deutschland",
+  "matched_query": "Hemmoor, Germany"
+ },
+ "hemmoor, niedersachsen, germany": {
+  "lat": 53.6886857,
+  "lng": 9.1595122,
+  "display": "Hemmoor, Samtgemeinde Hemmoor, Landkreis Cuxhaven, Niedersachsen, 21745, Deutschland",
+  "matched_query": "Hemmoor, Niedersachsen, Germany"
+ },
+ "high springs , florida, united states": {
+  "lat": 29.8268319,
+  "lng": -82.5968583,
+  "display": "High Springs, Alachua County, Florida, 32655, United States",
+  "matched_query": "High Springs , Florida, United States"
+ },
+ "high springs, united states": {
+  "lat": 29.8268319,
+  "lng": -82.5968583,
+  "display": "High Springs, Alachua County, Florida, 32655, United States",
+  "matched_query": "High Springs, United States"
+ },
+ "hurghada, al bahr al ahmar, egypt": {
+  "lat": 27.222556,
+  "lng": 33.8307062,
+  "display": "الغردقة, البحر الأحمر, 84512, مصر",
+  "matched_query": "Hurghada, Al Bahr al Ahmar, Egypt"
+ },
+ "høvåg, aust-agder, norway": {
+  "lat": 58.1716336,
+  "lng": 8.2445469,
+  "display": "Høvåg, Lillesand, Agder, 4770, Norge",
+  "matched_query": "Høvåg, Norway"
+ },
+ "incheon / yangyang , korea (south)": {
+  "lat": 36.638392,
+  "lng": 127.6961188,
+  "display": "대한민국",
+  "matched_query": "Korea (South)",
+  "approx": true
+ },
+ "incheon/ yangyang , korea (south)": {
+  "lat": 36.638392,
+  "lng": 127.6961188,
+  "display": "대한민국",
+  "matched_query": "Korea (South)",
+  "approx": true
+ },
+ "karlsruhe, germany": {
+  "lat": 49.0068705,
+  "lng": 8.4034195,
+  "display": "Karlsruhe, Baden-Württemberg, Deutschland",
+  "matched_query": "Karlsruhe, Germany"
+ },
+ "key largo, florida, united states": {
+  "lat": 25.091338,
+  "lng": -80.4677741,
+  "display": "Key Largo, Monroe County, Florida, United States",
+  "matched_query": "Key Largo, Florida, United States"
+ },
+ "korntal-münchingen, germany": {
+  "lat": 48.8432607,
+  "lng": 9.1068611,
+  "display": "Korntal-Münchingen, Landkreis Ludwigsburg, Baden-Württemberg, 70825, Deutschland",
+  "matched_query": "Korntal-Münchingen, Germany"
+ },
+ "kralendijk, bonaire": {
+  "lat": 12.1472869,
+  "lng": -68.2740206,
+  "display": "Kralendijk, Bonaire, Nederland",
+  "matched_query": "Kralendijk, Bonaire"
+ },
+ "kressbronn am bodensee, baden-württemberg, germany": {
+  "lat": 47.5965788,
+  "lng": 9.6003273,
+  "display": "Kressbronn am Bodensee, GVV Eriskirch-Kressbronn am Bodensee-Langenargen, Bodenseekreis, Baden-Württemberg, 88079, Deutschland",
+  "matched_query": "Kressbronn am Bodensee, Baden-Württemberg, Germany"
+ },
+ "kressbronn am bodensee, germany": {
+  "lat": 47.5965788,
+  "lng": 9.6003273,
+  "display": "Kressbronn am Bodensee, GVV Eriskirch-Kressbronn am Bodensee-Langenargen, Bodenseekreis, Baden-Württemberg, 88079, Deutschland",
+  "matched_query": "Kressbronn am Bodensee, Germany"
+ },
+ "kressbronn, germany": {
+  "lat": 49.0655511,
+  "lng": 10.1378705,
+  "display": "Kreßbronn, Rechenberg, Stimpfach, VVG der Stadt Crailsheim, Landkreis Schwäbisch Hall, Baden-Württemberg, 74597, Deutschland",
+  "matched_query": "Kressbronn, Germany"
+ },
+ "krnica, croatia": {
+  "lat": 44.9732953,
+  "lng": 14.0162274,
+  "display": "Krnica, Općina Marčana, Istarska županija, Hrvatska",
+  "matched_query": "Krnica, Croatia"
+ },
+ "krnica, istria county, croatia": {
+  "lat": 44.9732953,
+  "lng": 14.0162274,
+  "display": "Krnica, Općina Marčana, Istarska županija, Hrvatska",
+  "matched_query": "Krnica, Istria county, Croatia"
+ },
+ "lapulapu, cebu, philippines": {
+  "lat": 7.6367432,
+  "lng": 122.4551582,
+  "display": "Lapulapu, Tupilac, Zamboanga Sibugay, Zamboanga Peninsula, 7018, Philippines",
+  "matched_query": "LAPULAPU, Philippines"
+ },
+ "lapulapu, philippines": {
+  "lat": 7.6367432,
+  "lng": 122.4551582,
+  "display": "Lapulapu, Tupilac, Zamboanga Sibugay, Zamboanga Peninsula, 7018, Philippines",
+  "matched_query": "LAPULAPU, Philippines"
+ },
+ "lapis-lapu, cebu, philippines": {
+  "lat": 10.3126722,
+  "lng": 123.9488177,
+  "display": "Lapu-Lapu, Central Visayas, Philippines",
+  "country": "ph",
+  "matched_query": "{\"city\": \"Lapu-Lapu\", \"country\": \"Philippines\"}",
+  "approx": false,
+  "verified": true,
+  "alias_of": "lapu-lapu, cebu, philippines"
+ },
+ "lapu lapu, cebu, philippines": {
+  "lat": 10.3166846,
+  "lng": 123.8909945,
+  "display": "Lapu-Lapu, N. Escario Street, Camputhaw, Cebu City, Central Visayas, 6000, Philippines",
+  "matched_query": "Lapu Lapu, Cebu, Philippines"
+ },
+ "lapu lapu, philippines": {
+  "lat": 10.3126722,
+  "lng": 123.9488177,
+  "display": "Lapu-Lapu, Central Visayas, Philippines",
+  "matched_query": "Lapu Lapu, Philippines"
+ },
+ "larnaca, cyprus": {
+  "lat": 34.9236095,
+  "lng": 33.6236184,
+  "display": "Δήμος Λάρνακας, Επαρχία Λάρνακας, Κύπρος, Κύπρος - Kıbrıs",
+  "matched_query": "Larnaca, Cyprus"
+ },
+ "leipzig, germany": {
+  "lat": 51.3406321,
+  "lng": 12.3747329,
+  "display": "Leipzig, Sachsen, Deutschland",
+  "matched_query": "Leipzig, Germany"
+ },
+ "leipzig, sachsen, germany": {
+  "lat": 51.3406321,
+  "lng": 12.3747329,
+  "display": "Leipzig, Sachsen, Deutschland",
+  "matched_query": "Leipzig, Sachsen, Germany"
+ },
+ "los angeles, california, united states": {
+  "lat": 34.0536909,
+  "lng": -118.242766,
+  "display": "Los Angeles, Los Angeles County, California, United States",
+  "matched_query": "Los Angeles, California, United States"
+ },
+ "lysekil , sweden": {
+  "lat": 58.2771735,
+  "lng": 11.4430987,
+  "display": "Lysekil, Lysekils kommun, Västra Götalands län, 453 35, Sverige",
+  "matched_query": "Lysekil , Sweden"
+ },
+ "mactan , cebu, philippines": {
+  "lat": 10.2882756,
+  "lng": 123.9723977,
+  "display": "Mactan, Lapu-Lapu, Cebu, Central Visayas, Philippines",
+  "matched_query": "Mactan , Cebu, Philippines"
+ },
+ "mactan, cebu, philippines": {
+  "lat": 10.2882756,
+  "lng": 123.9723977,
+  "display": "Mactan, Lapu-Lapu, Cebu, Central Visayas, Philippines",
+  "matched_query": "Mactan, Cebu, Philippines"
+ },
+ "malapascua, cebu, philippines": {
+  "lat": 11.3370731,
+  "lng": 124.1158283,
+  "display": "Malapascua, Logon, Cebu, Central Visayas, Philippines",
+  "matched_query": "Malapascua, Cebu, Philippines"
+ },
+ "manado, indonesia": {
+  "lat": 1.4900447,
+  "lng": 124.8407673,
+  "display": "Manado, Sulawesi Utara, Sulawesi, Indonesia",
+  "matched_query": "Manado, Indonesia"
+ },
+ "miami, florida, united states": {
+  "lat": 25.7741566,
+  "lng": -80.1935973,
+  "display": "Miami, Miami-Dade County, Florida, United States",
+  "matched_query": "Miami, Florida, United States"
+ },
+ "monaco, monaco": {
+  "lat": 43.7309697,
+  "lng": 7.4248152,
+  "display": "Monaco",
+  "matched_query": "Monaco, Monaco"
+ },
+ "monterey bay, california, united states": {
+  "lat": 36.7999557,
+  "lng": -121.9010668,
+  "display": "Monterey Bay, Monterey County, California, United States",
+  "matched_query": "Monterey Bay, California, United States"
+ },
+ "monterey, california, united states": {
+  "lat": 36.2231079,
+  "lng": -121.387742,
+  "display": "Monterey County, California, United States",
+  "matched_query": "Monterey, California, United States"
+ },
+ "monterrey, california, united states": {
+  "lat": 36.2231079,
+  "lng": -121.387742,
+  "display": "Monterey County, California, United States",
+  "matched_query": "Monterrey, California, United States"
+ },
+ "montreal, quebec, canada": {
+  "lat": 45.5031824,
+  "lng": -73.5698065,
+  "display": "Montréal, Agglomération de Montréal, Montréal (région administrative), Québec, Canada",
+  "matched_query": "Montreal, Quebec, Canada"
+ },
+ "münchen, bayern, germany": {
+  "lat": 48.1371079,
+  "lng": 11.5753822,
+  "display": "München, Bayern, Deutschland",
+  "matched_query": "München, Bayern, Germany"
+ },
+ "münchen, germany": {
+  "lat": 48.1371079,
+  "lng": 11.5753822,
+  "display": "München, Bayern, Deutschland",
+  "matched_query": "München, Germany"
+ },
+ "nanning, guangxi, china": {
+  "lat": 22.8157737,
+  "lng": 108.318024,
+  "display": "南宁市, 广西壮族自治区, 中国",
+  "matched_query": "Nanning, Guangxi, China"
+ },
+ "neuss, nordrhein-westfalen, germany": {
+  "lat": 51.1981778,
+  "lng": 6.6916476,
+  "display": "Neuss, Rhein-Kreis Neuss, Nordrhein-Westfalen, Deutschland",
+  "matched_query": "Neuss, Nordrhein-Westfalen, Germany"
+ },
+ "nizhniy tagil, sverdlovskaya (yekaterinburg), russia": {
+  "lat": 57.9076001,
+  "lng": 59.97077,
+  "display": "Нижний Тагил, муниципальный округ Нижний Тагил, Свердловская область, Уральский федеральный округ, Россия",
+  "matched_query": "Nizhniy Tagil, Russia"
+ },
+ "numazu, shizuoka, japan": {
+  "lat": 35.0957963,
+  "lng": 138.8633946,
+  "display": "沼津市, 静岡県, 410-8601, 日本",
+  "matched_query": "Numazu, Shizuoka, Japan"
+ },
+ "nuttlar, germany": {
+  "lat": 51.3703632,
+  "lng": 8.4245579,
+  "display": "Nuttlar, Bestwig, Hochsauerlandkreis, Nordrhein-Westfalen, 59909, Deutschland",
+  "matched_query": "Nuttlar, Germany"
+ },
+ "offenburg, baden-württemberg, germany": {
+  "lat": 48.4695984,
+  "lng": 7.9429235,
+  "display": "Offenburg, VVG der Stadt Offenburg, Ortenaukreis, Baden-Württemberg, Deutschland",
+  "matched_query": "Offenburg, Baden-Württemberg, Germany"
+ },
+ "ognina, siracusa, italy": {
+  "lat": 36.9850031,
+  "lng": 15.2597843,
+  "display": "Ognina, Siracusa, Sicilia, 96100, Italia",
+  "matched_query": "Ognina, Siracusa, Italy"
+ },
+ "oita, oita, japan": {
+  "lat": 33.2327331,
+  "lng": 131.6060339,
+  "display": "大分駅, 大分市, 大分県, 870-8504, 日本",
+  "matched_query": "Oita, Oita, Japan"
+ },
+ "ontario/quebec, canada": {
+  "lat": 46.1207498,
+  "lng": -70.8139253,
+  "display": "Lac Ontario, Saint-Benoît-Labre, Beauce-Sartigan, Chaudière-Appalaches, Québec, Canada",
+  "matched_query": "Ontario/Quebec, Canada"
+ },
+ "osezaki, shizuoka, japan": {
+  "lat": 35.0237208,
+  "lng": 138.7835595,
+  "display": "大瀬崎南火道, 沼津市, 静岡県, 410-8601, 日本",
+  "matched_query": "Osezaki, Shizuoka, Japan"
+ },
+ "oslo, norway": {
+  "lat": 59.9133301,
+  "lng": 10.7389701,
+  "display": "Oslo, Norge",
+  "matched_query": "Oslo, Norway"
+ },
+ "oslo, oslo, norway": {
+  "lat": 59.9723975,
+  "lng": 10.7757292,
+  "display": "Oslo, Norge",
+  "matched_query": "Oslo, Oslo, Norway"
+ },
+ "pa, mexico": {
+  "lat": 20.50667,
+  "lng": -87.23006,
+  "display": "Puerto Aventuras, Quintana Roo, Mexico",
+  "matched_query": "Puerto Aventuras, Quintana Roo, Mexico",
+  "corrected": true
+ },
+ "pa, yucatán, mexico": {
+  "lat": 20.50667,
+  "lng": -87.23006,
+  "display": "Puerto Aventuras, Quintana Roo, Mexico",
+  "matched_query": "Puerto Aventuras, Quintana Roo, Mexico",
+  "corrected": true
+ },
+ "pg, batangas, philippines": {
+  "lat": 13.5065819,
+  "lng": 120.9331906,
+  "display": "Port of Puerto Galera, Balatero, Puerto Galera, Oriental Mindoro, Mimaropa, Philippines",
+  "matched_query": "PG, Philippines"
+ },
+ "pg, mindoro occidental, philippines": {
+  "lat": 13.5065819,
+  "lng": 120.9331906,
+  "display": "Port of Puerto Galera, Balatero, Puerto Galera, Oriental Mindoro, Mimaropa, Philippines",
+  "matched_query": "PG, Philippines"
+ },
+ "pg, philippines": {
+  "lat": 13.5065819,
+  "lng": 120.9331906,
+  "display": "Port of Puerto Galera, Balatero, Puerto Galera, Oriental Mindoro, Mimaropa, Philippines",
+  "matched_query": "PG, Philippines"
+ },
+ "palaia fokaia, attiki, greece": {
+  "lat": 37.717219,
+  "lng": 23.9456524,
+  "display": "Παλαιά Φώκαια, Δημοτική Ενότητα Παλαιάς Φωκαίας, Δήμος Σαρωνικού, Περιφερειακή Ενότητα Ανατολικής Αττικής, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 190 13, Ελλάς",
+  "country": "gr",
+  "matched_query": "{\"q\": \"Παλαιά Φώκαια, greece\", \"countrycodes\": \"gr\"}",
+  "approx": false,
+  "verified": true
+ },
+ "pingtung, taiwan": {
+  "lat": 22.6828017,
+  "lng": 120.487928,
+  "display": "屏東縣, 臺灣",
+  "matched_query": "Pingtung, Taiwan"
+ },
+ "playa del carmen, mexico": {
+  "lat": 20.6461095,
+  "lng": -87.0809021,
+  "display": "Playa del Carmen, Quintana Roo, México",
+  "matched_query": "Playa Del Carmen, Mexico"
+ },
+ "playa del carmen, quintana roo, mexico": {
+  "lat": 20.6461095,
+  "lng": -87.0809021,
+  "display": "Playa del Carmen, Quintana Roo, México",
+  "matched_query": "Playa Del Carmen, Quintana Roo, Mexico"
+ },
+ "playa del carmen, méxico, mexico": {
+  "lat": 20.64611,
+  "lng": -87.0809,
+  "display": "Playa del Carmen, Quintana Roo, Mexico",
+  "matched_query": "Playa del Carmen, Quintana Roo, Mexico",
+  "corrected": true
+ },
+ "plura - royvik, nordland, norway": {
+  "lat": 67.275634,
+  "lng": 13.8623544,
+  "display": "Nordland, Norge",
+  "matched_query": "Nordland, Norway",
+  "approx": true
+ },
+ "plura - røyrvik, nordland, norway": {
+  "lat": 67.275634,
+  "lng": 13.8623544,
+  "display": "Nordland, Norge",
+  "matched_query": "Nordland, Norway",
+  "approx": true
+ },
+ "port vendres , france": {
+  "lat": 42.5204146,
+  "lng": 3.1056167,
+  "display": "Port-Vendres, Céret, Pyrénées-Orientales, Occitanie, France métropolitaine, 66660, France",
+  "matched_query": "Port vendres , France"
+ },
+ "port vendres , pyrénées-orientales, france": {
+  "lat": 42.5204146,
+  "lng": 3.1056167,
+  "display": "Port-Vendres, Céret, Pyrénées-Orientales, Occitanie, France métropolitaine, 66660, France",
+  "matched_query": "Port vendres , Pyrénées-Orientales, France"
+ },
+ "portland, connecticut, united states": {
+  "lat": 41.5729076,
+  "lng": -72.6406905,
+  "display": "Portland, Lower Connecticut River Valley Planning Region, Connecticut, 06480, United States",
+  "matched_query": "Portland, Connecticut, United States"
+ },
+ "protaras, famagusta, cyprus": {
+  "lat": 35.0149462,
+  "lng": 34.0531284,
+  "display": "Πρωταράς, Παραλίμνι, Δήμος Παραλιμνίου - Δερύνειας, Επαρχία Αμμοχώστου, Κύπρος, 5296, Κύπρος - Kıbrıs",
+  "matched_query": "Protaras, Famagusta, Cyprus"
+ },
+ "puerto aventuras , mexico": {
+  "lat": 20.5066683,
+  "lng": -87.2300626,
+  "display": "Ciudad Aventuras, Playa del Carmen, Quintana Roo, México",
+  "matched_query": "Puerto Aventuras , Mexico"
+ },
+ "puerto aventuras , quintana roo, mexico": {
+  "lat": 20.5066683,
+  "lng": -87.2300626,
+  "display": "Ciudad Aventuras, Playa del Carmen, Quintana Roo, México",
+  "matched_query": "Puerto Aventuras , Quintana Roo, Mexico"
+ },
+ "puerto aventuras, mexico": {
+  "lat": 20.5066683,
+  "lng": -87.2300626,
+  "display": "Ciudad Aventuras, Playa del Carmen, Quintana Roo, México",
+  "matched_query": "Puerto Aventuras, Mexico"
+ },
+ "puerto aventuras, quintana roo, mexico": {
+  "lat": 20.5066683,
+  "lng": -87.2300626,
+  "display": "Ciudad Aventuras, Playa del Carmen, Quintana Roo, México",
+  "matched_query": "Puerto Aventuras, Quintana Roo, Mexico"
+ },
+ "puidoux, switzerland": {
+  "lat": 46.5008111,
+  "lng": 6.7823914,
+  "display": "Puidoux, District de Lavaux-Oron, Vaud, 1070, Schweiz/Suisse/Svizzera/Svizra",
+  "matched_query": "Puidoux, Switzerland"
+ },
+ "pula, croatia": {
+  "lat": 44.8702281,
+  "lng": 13.8455311,
+  "display": "Grad Pula, Istarska županija, Hrvatska",
+  "matched_query": "Pula, Croatia"
+ },
+ "qiandao lake, zhejiang, china": {
+  "lat": 29.5693707,
+  "lng": 119.0699941,
+  "display": "千岛湖, 浙江省, 中国",
+  "matched_query": "Qiandao lake, Zhejiang, China"
+ },
+ "quartu s. elena, cagliari, italy": {
+  "lat": 39.2623411,
+  "lng": 9.1746227,
+  "display": "Muravera - Quartu S. Elena - Villasimius, Via Roma, Ceraxus/Selargius, Casteddu/Cagliari, Sardigna/Sardegna, 09047, Italia",
+  "matched_query": "Quartu S. Elena, Cagliari, Italy"
+ },
+ "radstock, somerset, united kingdom": {
+  "lat": 51.2919489,
+  "lng": -2.4476231,
+  "display": "Radstock, Bath and North East Somerset, West of England, England, United Kingdom",
+  "matched_query": "Radstock, Somerset, United Kingdom"
+ },
+ "reggio calabria, reggio calabria, italy": {
+  "lat": 38.1035389,
+  "lng": 15.6397556,
+  "display": "Reggio di Calabria, Reggio Calabria, Calabria, Italia",
+  "matched_query": "Reggio Calabria, Reggio Calabria, Italy"
+ },
+ "reutte, tirol, austria": {
+  "lat": 47.4891092,
+  "lng": 10.7187955,
+  "display": "Reutte, Bezirk Reutte, Tirol, Österreich",
+  "matched_query": "Reutte, Tirol, Austria"
+ },
+ "rheinbach, nordrhein-westfalen, germany": {
+  "lat": 50.6256808,
+  "lng": 6.9491436,
+  "display": "Rheinbach, Rhein-Sieg-Kreis, Nordrhein-Westfalen, 53359, Deutschland",
+  "matched_query": "Rheinbach, Nordrhein-Westfalen, Germany"
+ },
+ "salangen, troms, norway": {
+  "lat": 68.874838,
+  "lng": 17.8350733,
+  "display": "Salangen, Troms, 9350, Norge",
+  "matched_query": "Salangen, Troms, Norway"
+ },
+ "san michele di pagana/rapallo, genova, italy": {
+  "lat": 44.3405803,
+  "lng": 9.2240759,
+  "display": "San Michele di Pagana, Rapallo, Genova, Liguria, 16035, Italia",
+  "matched_query": "San Michele di Pagana/Rapallo, Genova, Italy"
+ },
+ "santa clara/monterey, california, united states": {
+  "lat": 37.2164398,
+  "lng": -121.738725,
+  "display": "Coyote Post Office, 8220, Monterey Road, San Jose, Santa Clara County, California, 95013, United States",
+  "matched_query": "Santa Clara/Monterey, California, United States"
+ },
+ "santa margherita ligure, genova, italy": {
+  "lat": 44.3281018,
+  "lng": 9.1927075,
+  "display": "Santa Margherita Ligure, Genova, Liguria, 16038, Italia",
+  "matched_query": "Santa Margherita Ligure, Genova, Italy"
+ },
+ "santa margherita, genova, italy": {
+  "lat": 44.3281018,
+  "lng": 9.1927075,
+  "display": "Santa Margherita Ligure, Genova, Liguria, 16038, Italia",
+  "matched_query": "Santa Margherita, Genova, Italy"
+ },
+ "sardinia, italy": {
+  "lat": 40.0912813,
+  "lng": 9.0305773,
+  "display": "Sardigna/Sardegna, Italia",
+  "matched_query": "Sardinia, Italy"
+ },
+ "schneverdingen, hemmoor, niedersachsen, germany": {
+  "lat": 53.1187799,
+  "lng": 9.7873454,
+  "display": "Schneverdingen, Heidekreis, Niedersachsen, 29640, Deutschland",
+  "matched_query": "Schneverdingen, Germany"
+ },
+ "schwetzingen , baden-württemberg, germany": {
+  "lat": 49.3832919,
+  "lng": 8.5735135,
+  "display": "Schwetzingen, Rhein-Neckar-Kreis, Baden-Württemberg, 68782, Deutschland",
+  "matched_query": "Schwetzingen , Baden-Württemberg, Germany"
+ },
+ "schwetzingen, baden-württemberg, germany": {
+  "lat": 49.3832919,
+  "lng": 8.5735135,
+  "display": "Schwetzingen, Rhein-Neckar-Kreis, Baden-Württemberg, 68782, Deutschland",
+  "matched_query": "Schwetzingen, Baden-Württemberg, Germany"
+ },
+ "schwetzingen, germany": {
+  "lat": 49.3832919,
+  "lng": 8.5735135,
+  "display": "Schwetzingen, Rhein-Neckar-Kreis, Baden-Württemberg, 68782, Deutschland",
+  "matched_query": "Schwetzingen, Germany"
+ },
+ "scuba academie vinkeveen, netherlands, utrecht, netherlands": {
+  "lat": 52.2153192,
+  "lng": 4.9348062,
+  "display": "Vinkeveen, De Ronde Venen, Utrecht, Nederland",
+  "matched_query": "Vinkeveen, Netherlands",
+  "alias_of": "vinkeveen, netherlands"
+ },
+ "seattle, washington, united states": {
+  "lat": 47.6038321,
+  "lng": -122.330062,
+  "display": "Seattle, King County, Washington, United States",
+  "matched_query": "Seattle, Washington, United States"
+ },
+ "semporna , sabah, malaysia": {
+  "lat": 4.4790765,
+  "lng": 118.4297732,
+  "display": "Semporna, Bahagian Tawau, Sabah, Malaysia",
+  "matched_query": "Semporna , Sabah, Malaysia"
+ },
+ "shanghai, china": {
+  "lat": 31.2312707,
+  "lng": 121.4700152,
+  "display": "上海市, 中国",
+  "matched_query": "Shanghai, China"
+ },
+ "shanghai, shanghai, china": {
+  "lat": 31.2323437,
+  "lng": 121.4691024,
+  "display": "上海市, 黄浦区, 上海市, 200001, 中国",
+  "matched_query": "Shanghai, Shanghai, China"
+ },
+ "siegburg , germany": {
+  "lat": 50.7928332,
+  "lng": 7.2070774,
+  "display": "Siegburg, Rhein-Sieg-Kreis, Nordrhein-Westfalen, 53721, Deutschland",
+  "matched_query": "Siegburg , Germany"
+ },
+ "siegburg , nordrhein-westfalen, germany": {
+  "lat": 50.7928332,
+  "lng": 7.2070774,
+  "display": "Siegburg, Rhein-Sieg-Kreis, Nordrhein-Westfalen, 53721, Deutschland",
+  "matched_query": "Siegburg , Nordrhein-Westfalen, Germany"
+ },
+ "siegburg, germany": {
+  "lat": 50.7928332,
+  "lng": 7.2070774,
+  "display": "Siegburg, Rhein-Sieg-Kreis, Nordrhein-Westfalen, 53721, Deutschland",
+  "matched_query": "Siegburg, Germany"
+ },
+ "siegburg, nordrhein-westfalen, germany": {
+  "lat": 50.7928332,
+  "lng": 7.2070774,
+  "display": "Siegburg, Rhein-Sieg-Kreis, Nordrhein-Westfalen, 53721, Deutschland",
+  "matched_query": "Siegburg, Nordrhein-Westfalen, Germany"
+ },
+ "singapore, singapore": {
+  "lat": 1.2899175,
+  "lng": 103.8519072,
+  "display": "Singapore",
+  "matched_query": "Singapore, Singapore"
+ },
+ "skottevic, norway": {
+  "lat": 58.1250303,
+  "lng": 8.2308341,
+  "display": "Skottevik feriesenter, Skottevigveien, Hæstad, Lillesand, Agder, 4770, Norge",
+  "country": "no",
+  "matched_query": "{\"q\": \"skottevik, lillesand, norway\", \"countrycodes\": \"no\"}",
+  "approx": false,
+  "verified": true,
+  "alias_of": "skottevik, norway"
+ },
+ "slima, malta": {
+  "lat": 35.9127609,
+  "lng": 14.5020708,
+  "display": "Tas-Sliema, Reġjun tal-Lvant, Malta",
+  "matched_query": "Slima, Malta"
+ },
+ "soma bay, egypt": {
+  "lat": 26.8353707,
+  "lng": 33.9420625,
+  "display": "Soma Bay, سفاجا, البحر الأحمر, مصر",
+  "matched_query": "Soma Bay, Egypt"
+ },
+ "stromberg,": {
+  "lat": 49.9447973,
+  "lng": 7.7763627,
+  "display": "Stromberg, Langenlonsheim-Stromberg, Landkreis Bad Kreuznach, Rheinland-Pfalz, Deutschland",
+  "matched_query": "Stromberg,"
+ },
+ "stromberg, rheinland-pfalz , germany": {
+  "lat": 49.9447973,
+  "lng": 7.7763627,
+  "display": "Stromberg, Langenlonsheim-Stromberg, Landkreis Bad Kreuznach, Rheinland-Pfalz, Deutschland",
+  "matched_query": "Stromberg, Rheinland-Pfalz , Germany"
+ },
+ "stromberg, rheinland-pfalz, germany": {
+  "lat": 49.9447973,
+  "lng": 7.7763627,
+  "display": "Stromberg, Langenlonsheim-Stromberg, Landkreis Bad Kreuznach, Rheinland-Pfalz, Deutschland",
+  "matched_query": "Stromberg, Rheinland-Pfalz, Germany"
+ },
+ "switzerland, switzerland": {
+  "lat": 46.9394239,
+  "lng": 7.4653594,
+  "display": "Botschaft der Volksrepublik China in Schweiz, 10, Kalcheggweg, Brunnadern, Stadtteil IV, Bern, Verwaltungskreis Bern-Mittelland, Verwaltungsregion Bern-Mittelland, Bern/Berne, 3006, Schweiz/Suisse/Svizzera/Svizra",
+  "matched_query": "Switzerland, Switzerland"
+ },
+ "sydney, new south wales, australia": {
+  "lat": -33.8698439,
+  "lng": 151.2082848,
+  "display": "Sydney, New South Wales, Australia",
+  "matched_query": "Sydney, New South Wales, Australia"
+ },
+ "tanger , tanger-tetouan, morocco": {
+  "lat": 35.7750058,
+  "lng": -5.7956844,
+  "display": "Khalijia Nord, 2, Avenue Oujda, Tanger-Medina ⵟⴰⵏⵊⴰ ⵜⵉⵖⵕⵎⵜ طنجة المدينة, arrondissement de Tanger-Medina طنجة المدينة, Tanger طنجة, Pachalik de Tanger باشوية طنجة, Préfecture de Tanger-Assilah عمالة طنجة-أصيلة, Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة, 90030, Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+  "matched_query": "Tanger , Tanger-Tetouan, Morocco"
+ },
+ "tavernier, florida, united states": {
+  "lat": 25.0087257,
+  "lng": -80.5152144,
+  "display": "Tavernier, Monroe County, Florida, 33070, United States",
+  "matched_query": "Tavernier, Florida, United States"
+ },
+ "tbd , germany": {
+  "lat": 50.7289176,
+  "lng": 7.1229943,
+  "display": "TBD, Ernst-Moritz-Arndt-Straße, Beuel-Mitte, Bonn-Beuel, Bonn, Nordrhein-Westfalen, 53225, Deutschland",
+  "matched_query": "Tbd , Germany"
+ },
+ "tenerife, spain": {
+  "lat": 28.2935785,
+  "lng": -16.6214471,
+  "display": "Tenerife, Canarias, España",
+  "matched_query": "Tenerife, Spain"
+ },
+ "thetford mines, quebec, canada": {
+  "lat": 46.091329,
+  "lng": -71.30127,
+  "display": "Thetford Mines, Les Appalaches, Chaudière-Appalaches, Québec, Canada",
+  "matched_query": "Thetford Mines, Quebec, Canada"
+ },
+ "third dimension diving, tulum, quintana roo, mexico": {
+  "lat": 20.429647,
+  "lng": -87.6529306,
+  "display": "Tulum, Quintana Roo, México",
+  "country": "mx",
+  "matched_query": "tulum, quintana roo, mexico",
+  "alias_of": "tulum, quintana roo, mexico"
+ },
+ "tilburg, netherlands": {
+  "lat": 51.5856185,
+  "lng": 5.0660616,
+  "display": "Tilburg, Noord-Brabant, Nederland",
+  "matched_query": "Tilburg, Netherlands"
+ },
+ "tilburg, noord-brabant, netherlands": {
+  "lat": 51.5856185,
+  "lng": 5.0660616,
+  "display": "Tilburg, Noord-Brabant, Nederland",
+  "matched_query": "Tilburg, Noord-Brabant, Netherlands"
+ },
+ "tioman, malaysia": {
+  "lat": 2.806509,
+  "lng": 104.1721329,
+  "display": "Tioman, Rompin, Pahang, Malaysia",
+  "matched_query": "Tioman, Malaysia"
+ },
+ "toronto, ontario, canada": {
+  "lat": 43.6534817,
+  "lng": -79.3839347,
+  "display": "Toronto, Golden Horseshoe, Ontario, Canada",
+  "matched_query": "Toronto, Ontario, Canada"
+ },
+ "tulamben, bali, indonesia": {
+  "lat": -8.2948774,
+  "lng": 115.5941905,
+  "display": "Tulamben, Kubu, Karangasem, Bali, Nusa Tenggara, 80853, Indonesia",
+  "matched_query": "Tulamben, Bali, Indonesia"
+ },
+ "victoria or vancouver, british columbia, canada": {
+  "lat": 55.001251,
+  "lng": -125.002441,
+  "display": "British Columbia, Canada",
+  "matched_query": "British Columbia, Canada",
+  "approx": true
+ },
+ "victoria, british columbia, canada": {
+  "lat": 48.4283182,
+  "lng": -123.364953,
+  "display": "Victoria, Capital Regional District, British Columbia, Canada",
+  "matched_query": "Victoria, British Columbia, Canada"
+ },
+ "vinkeveen + enschede, netherlands": {
+  "lat": 52.2130223,
+  "lng": 4.9042952,
+  "display": "Ingenieur Enschedéweg, Vinkeveen, De Ronde Venen, Utrecht, Nederland, 3645 CN, Nederland",
+  "matched_query": "Vinkeveen + Enschede"
+ },
+ "vinkeveen, netherlands": {
+  "lat": 52.2153192,
+  "lng": 4.9348062,
+  "display": "Vinkeveen, De Ronde Venen, Utrecht, Nederland",
+  "matched_query": "Vinkeveen, Netherlands"
+ },
+ "vinkeveen, utrecht, netherlands": {
+  "lat": 52.2153192,
+  "lng": 4.9348062,
+  "display": "Vinkeveen, De Ronde Venen, Utrecht, Nederland",
+  "matched_query": "Vinkeveen, Utrecht, Netherlands"
+ },
+ "vlore, albania": {
+  "lat": 40.4707602,
+  "lng": 19.4912716,
+  "display": "Vlorë, Bashkia Vlorë, Qarku i Vlorës, Shqipëria Jugore, 9401-9403, Shqipëria",
+  "matched_query": "Vlore, Albania"
+ },
+ "vobster, somerset, united kingdom": {
+  "lat": 51.2398215,
+  "lng": -2.4257677,
+  "display": "Vobster, Somerset, England, BA3 5RN, United Kingdom",
+  "matched_query": "Vobster, Somerset, United Kingdom"
+ },
+ "walcourt , namur, belgium": {
+  "lat": 50.2513997,
+  "lng": 4.4314089,
+  "display": "Walcourt, Philippeville, Namur, Wallonie, België / Belgique / Belgien",
+  "matched_query": "Walcourt , Namur, Belgium"
+ },
+ "xr explorers, kuwait": {
+  "lat": 29.37965,
+  "lng": 47.97342,
+  "display": "Kuwait City, Kuwait",
+  "matched_query": "Kuwait City, Kuwait",
+  "corrected": true
+ },
+ "yangyang , kangwon-do, korea (south)": {
+  "lat": 38.0751,
+  "lng": 128.6191,
+  "display": "양양군, 강원특별자치도, 대한민국",
+  "matched_query": "Yangyang , Kangwon-do, Korea (South)"
+ },
+ "yekaterinburg , sverdlovskaya (yekaterinburg), russia": {
+  "lat": 56.8382071,
+  "lng": 60.6007886,
+  "display": "Екатеринбург, городской округ Екатеринбург, Свердловская область, Уральский федеральный округ, Россия",
+  "matched_query": "Yekaterinburg, Russia"
+ },
+ "yekaterinburg, sverdlovskaya (yekaterinburg), russia": {
+  "lat": 56.8382071,
+  "lng": 60.6007886,
+  "display": "Екатеринбург, городской округ Екатеринбург, Свердловская область, Уральский федеральный округ, Россия",
+  "matched_query": "Yekaterinburg, Russia"
+ },
+ "yixin, jiangsu, china": {
+  "lat": 34.2946508,
+  "lng": 119.2469531,
+  "display": "伊新路步行街, 灌云县, 连云港市, 灌云县, 江苏省, 中国",
+  "matched_query": "Yixin, Jiangsu, China"
+ },
+ "zero gravity dive center - puerto aventuras, quintana roo, mexico": {
+  "lat": 20.50667,
+  "lng": -87.23006,
+  "display": "Puerto Aventuras, Quintana Roo, Mexico",
+  "corrected": true
+ },
+ "zero gravity dive centre, puerto aventuas, quintana roo, mexico": {
+  "lat": 20.50667,
+  "lng": -87.23006,
+  "display": "Puerto Aventuras, Quintana Roo, Mexico",
+  "corrected": true,
+  "alias_of": "zero gravity dive centre, puerto aventuras , quintana roo, mexico"
+ },
+ "zero gravity dive centre, puerto aventuras, quintana roo, mexico": {
+  "lat": 20.50667,
+  "lng": -87.23006,
+  "display": "Puerto Aventuras, Quintana Roo, Mexico",
+  "corrected": true
+ },
+ "zero gravity dive center, puerto aventuras, quintana roo, mexico": {
+  "lat": 20.50667,
+  "lng": -87.23006,
+  "display": "Puerto Aventuras, Quintana Roo, Mexico",
+  "corrected": true
+ },
+ "zero gravity dive centre, puerto aventuras , quintana roo, mexico": {
+  "lat": 20.50667,
+  "lng": -87.23006,
+  "display": "Puerto Aventuras, Quintana Roo, Mexico",
+  "corrected": true
+ },
+ "zero gravity dive centre, puerto aventuras, mexico": {
+  "lat": 20.50667,
+  "lng": -87.23006,
+  "display": "Puerto Aventuras, Quintana Roo, Mexico",
+  "corrected": true
+ },
+ "zero greavity dive centre, puerto aventuras, quintana roo, mexico": {
+  "lat": 20.50667,
+  "lng": -87.23006,
+  "display": "Puerto Aventuras, Quintana Roo, Mexico",
+  "corrected": true,
+  "alias_of": "zero gravity dive centre, puerto aventuras , quintana roo, mexico"
+ },
+ "zurich, switzerland": {
+  "lat": 47.3744489,
+  "lng": 8.5410422,
+  "display": "Zürich, Bezirk Zürich, Zürich, Schweiz/Suisse/Svizzera/Svizra",
+  "matched_query": "Zurich, Switzerland"
+ },
+ "zürich, zürich, switzerland": {
+  "lat": 47.3744489,
+  "lng": 8.5410422,
+  "display": "Zürich, Bezirk Zürich, Zürich, Schweiz/Suisse/Svizzera/Svizra",
+  "matched_query": "Zürich, Zürich, Switzerland"
+ },
+ "ålesund, more og romdal, norway": {
+  "lat": 62.4802364,
+  "lng": 6.5550739,
+  "display": "Ålesund, Møre og Romsdal, Norge",
+  "matched_query": "Ålesund, Norway"
+ },
+ "überlingen, baden-würtemberg, germany": {
+  "lat": 47.7664456,
+  "lng": 9.1605106,
+  "display": "Überlingen, VVG der Stadt Überlingen, Bodenseekreis, Baden-Württemberg, Deutschland",
+  "matched_query": "Überlingen, Baden-Würtemberg, Germany"
+ },
+ "ślesin / honoratka, poland": {
+  "lat": 52.3253822,
+  "lng": 18.2928124,
+  "display": "Honoratka, gmina Ślesin, powiat koniński, województwo wielkopolskie, 62-561, Polska",
+  "matched_query": "Ślesin / Honoratka"
+ },
+ "aachen, germany": {
+  "lat": 50.776351,
+  "lng": 6.083862,
+  "display": "Aachen, Städteregion Aachen, Nordrhein-Westfalen, Deutschland",
+  "country": "de",
+  "matched_query": "aachen, germany"
+ },
+ "foshan, china": {
+  "lat": 23.0239788,
+  "lng": 113.1159558,
+  "display": "佛山市, 南海区, 广东省, 中国",
+  "country": "cn",
+  "matched_query": "foshan, china"
+ },
+ "high springd, florida, united states": {
+  "lat": 29.8268319,
+  "lng": -82.5968583,
+  "display": "High Springs, Alachua County, Florida, 32655, United States",
+  "matched_query": "High Springs , Florida, United States",
+  "alias_of": "high springs , florida, united states"
+ },
+ "honolulu, hawaii, united states": {
+  "lat": 21.304547,
+  "lng": -157.855676,
+  "display": "Honolulu, Honolulu County, Hawaii, United States",
+  "country": "us",
+  "matched_query": "honolulu, hawaii, united states"
+ },
+ "raleigh, north carolina, united states": {
+  "lat": 35.7803977,
+  "lng": -78.6390989,
+  "display": "Raleigh, Wake County, North Carolina, United States",
+  "country": "us",
+  "matched_query": "raleigh, north carolina, united states"
+ },
+ "shepton mallet, united kingdom": {
+  "lat": 51.1909451,
+  "lng": -2.5461298,
+  "display": "Shepton Mallet, Somerset, England, United Kingdom",
+  "country": "gb",
+  "matched_query": "shepton mallet, united kingdom"
+ },
+ "tbd, germany": {
+  "lat": 50.7289176,
+  "lng": 7.1229943,
+  "display": "TBD, Ernst-Moritz-Arndt-Straße, Beuel-Mitte, Bonn-Beuel, Bonn, Nordrhein-Westfalen, 53225, Deutschland",
+  "country": "de",
+  "matched_query": "tbd, germany"
+ },
+ "tulum, quintana roo, mexico": {
+  "lat": 20.429647,
+  "lng": -87.6529306,
+  "display": "Tulum, Quintana Roo, México",
+  "country": "mx",
+  "matched_query": "tulum, quintana roo, mexico"
+ },
+ "yang-yang gun, kangwon-do, korea (south)": {
+  "lat": 38.0598167,
+  "lng": 128.6672466,
+  "display": "양양국제공항, 201, 공항로, 동호리, 손양면, 양양군, 강원특별자치도, 25042, 대한민국",
+  "country": "kr",
+  "matched_query": "yang-yang gun, kangwon-do, korea (south)"
+ },
+ "zwenkau, germany": {
+  "lat": 51.2182735,
+  "lng": 12.324152,
+  "display": "Zwenkau, Landkreis Leipzig, Sachsen, 04442, Deutschland",
+  "country": "de",
+  "matched_query": "zwenkau, germany"
+ },
+ "lapu-lapu, cebu, philippines": {
+  "lat": 10.3126722,
+  "lng": 123.9488177,
+  "display": "Lapu-Lapu, Central Visayas, Philippines",
+  "country": "ph",
+  "matched_query": "{\"city\": \"Lapu-Lapu\", \"country\": \"Philippines\"}",
+  "approx": false,
+  "verified": true
+ },
+ "skottevik, norway": {
+  "lat": 58.1250303,
+  "lng": 8.2308341,
+  "display": "Skottevik feriesenter, Skottevigveien, Hæstad, Lillesand, Agder, 4770, Norge",
+  "country": "no",
+  "matched_query": "{\"q\": \"skottevik, lillesand, norway\", \"countrycodes\": \"no\"}",
+  "approx": false,
+  "verified": true
+ }
+}

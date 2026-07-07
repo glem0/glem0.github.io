@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    /* apply theme before first paint: saved light/dark, else follow the system
+       (?theme=light|dark|auto overrides) */
+    (function () {
+      try {
+        var qs = new URLSearchParams(location.search).get('theme');
+        var t = qs || localStorage.getItem('sdc.theme') || 'auto';
+        var light = t === 'light' || (t !== 'dark' && window.matchMedia &&
+          window.matchMedia('(prefers-color-scheme: light)').matches);
+        if (light) document.documentElement.setAttribute('data-theme', 'light');
+      } catch (e) {}
+    })();
+  </script>
+  <title>Dive NSW: live dive conditions, Byron Bay to Eden</title>
+  <meta name="description" content="Live and 7-day forecast dive conditions for 287 NSW shore and boat dive sites, Byron Bay to Eden: swell, wind, rainfall runoff and estimated visibility rolled into a per-site divability score. Defaults to Sydney; pick any coastal area.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='16' y='7' width='6' height='11' rx='2' fill='%23a7b8c8'/%3E%3Crect x='42' y='7' width='6' height='11' rx='2' fill='%23a7b8c8'/%3E%3Crect x='13' y='9' width='38' height='5' rx='2.5' fill='%23a7b8c8'/%3E%3Crect x='12' y='14' width='17' height='42' rx='8' fill='%233987e5'/%3E%3Crect x='35' y='14' width='17' height='42' rx='8' fill='%235aa2f0'/%3E%3Crect x='12' y='32' width='40' height='7' rx='3.5' fill='%23303f4e'/%3E%3C/svg%3E">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0a0f16" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f2f5f8" media="(prefers-color-scheme: light)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="vendor/leaflet.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="app-header">
+    <div class="brand">
+      <svg class="logo" viewBox="0 0 64 64" aria-hidden="true">
+        <rect x="16" y="7" width="6" height="11" rx="2" fill="#a7b8c8"/>
+        <rect x="42" y="7" width="6" height="11" rx="2" fill="#a7b8c8"/>
+        <rect x="13" y="9" width="38" height="5" rx="2.5" fill="#a7b8c8"/>
+        <rect x="12" y="14" width="17" height="42" rx="8" fill="#3987e5"/>
+        <rect x="35" y="14" width="17" height="42" rx="8" fill="#5aa2f0"/>
+        <rect x="12" y="32" width="40" height="7" rx="3.5" fill="#303f4e"/>
+      </svg>
+      <h1>Dive NSW</h1>
+      <span class="tagline">is it worth getting wet?</span>
+    </div>
+    <div class="head-spacer"></div>
+    <div class="head-stats">
+      <span class="head-stat" id="water-temp"></span>
+      <span id="updated"></span>
+    </div>
+    <button class="icon-btn" id="theme-toggle" type="button" title="Toggle light/dark theme">☀&#xFE0E;</button>
+    <button class="icon-btn" id="refresh" type="button" title="Refresh conditions" aria-label="Refresh conditions"><span class="rfx">↻</span></button>
+    <button class="icon-btn" id="about-open" type="button" title="About these ratings" aria-label="About these ratings">?</button>
+  </header>
+
+  <div id="banner" hidden></div>
+
+  <div class="toolbar">
+    <select id="area" aria-label="Coastal area" title="Coastal area (north to south)"></select>
+    <div class="toolbar-sep"></div>
+    <div class="chip-row" id="day-chips" aria-label="Forecast day"></div>
+    <div class="toolbar-sep"></div>
+    <button class="area-btn" id="region-btn" type="button" title="Choose coastal area">
+      <span class="rg-ico">◉</span><span id="region-lab"></span><span class="rg-car">▾</span>
+    </button>
+    <div class="chip-row" id="type-chips" aria-label="Site type"></div>
+  </div>
+
+  <main class="app-main">
+    <div class="loader-pill" aria-live="polite"><span class="spin-ring" aria-hidden="true"></span><span class="vh">Updating conditions…</span></div>
+    <aside class="sidebar">
+      <div class="sidebar-controls">
+        <input id="search" type="search" placeholder="Search sites…" autocomplete="off">
+        <select id="sort" aria-label="Sort sites">
+          <option value="score">Best first</option>
+          <option value="sea">Calmest sea</option>
+          <option value="wind">Lightest wind</option>
+          <option value="vis">Best vis</option>
+          <option value="level">Easiest first</option>
+          <option value="region">North → south</option>
+          <option value="name">A–Z</option>
+        </select>
+        <button class="icon-btn" id="sort-dir" type="button" title="Reverse order">↓</button>
+      </div>
+      <div id="summary"></div>
+      <div id="daybrief"></div>
+      <div id="site-list"></div>
+    </aside>
+
+    <div id="map"></div>
+
+    <section id="drawer" aria-label="Site details">
+      <div class="drawer-bar">
+        <button class="icon-btn glyph-close" id="drawer-close" type="button" aria-label="Close">✕</button>
+      </div>
+      <div id="drawer-body"></div>
+    </section>
+  </main>
+
+  <dialog id="about">
+    <div class="about-head">
+      <h2>About Dive NSW</h2>
+      <button class="icon-btn glyph-close" id="about-close" type="button" aria-label="Close">✕</button>
+    </div>
+    <p>
+      Every dive site handles weather differently: a howling southerly that closes Shark Point
+      can mean a perfect morning at Kurnell or Clifton Gardens. This page pulls the live marine
+      forecast and rates each site for the conditions it actually feels.
+    </p>
+    <p>
+      Coverage now spans the whole NSW coast, 287 sites from Byron Bay to Eden across 16 coastal
+      areas, following Michael McFadyen's full NSW guides plus operator, club and park
+      documented sites his guides never covered (each flagged in its description). The area picker in the toolbar starts on Sydney;
+      choose another area or "All NSW" and the list, map, best-day markers, tides and water
+      temperature all follow. Your choice is remembered on this device.
+    </p>
+
+    <h3>How the score works</h3>
+    <ul>
+      <li><strong>Sea state (45%)</strong>: both swell trains plus wind waves, combined by wave
+        energy (height²&nbsp;×&nbsp;period) and scaled by each site's directional exposure
+        <em>and depth</em>. A long groundswell hits far harder than chop of the same height;
+        surge reaches roughly period²/4 metres, so a deep wreck ignores what closes a shallow
+        reef, and long-period swell wraps around headlands into "protected" sites.</li>
+      <li><strong>Wind (20%)</strong>: onshore wind over ~10&nbsp;kn kills exposed shore entries;
+        boats want under 15&nbsp;kn unless it's W/NW (which flattens the sea inshore); steep
+        wind-chop stops boat runs regardless of the score.</li>
+      <li><strong>Visibility estimate (35%)</strong>: each site's typical vis with a seasonal factor
+        (winter is statistically far clearer than Oct–Nov), reduced by recent sea state and by rain
+        beyond each water body's tolerance. The open ocean shrugs off most rain; Port Hacking
+        doesn't. Sustained southerlies get a small upwelling bonus.</li>
+    </ul>
+    <p>
+      Each day's rating is the best 3-hour daylight window, so a morning glass-off still counts.
+    </p>
+
+    <details class="model-detail">
+      <summary>The full model, spelled out</summary>
+      <ul>
+        <li><strong>Effective sea state</strong>: for each wave train (primary swell, secondary swell,
+          wind waves at an assumed 5 s), take height × direction exposure × surge factor, then combine
+          as energy: effSea = √Σ [h·f·pf]² · (T/10). The direction exposure f comes from the site's
+          8-sector shelter array; above 11 s period it gets a refraction floor (up to 0.35) because
+          long swell wraps headlands. The surge factor pf compares site depth to the surge reach of
+          T²/4 metres: a 45 m wreck barely feels a 9 s sea (reach ~20 m) but cops a 15 s one (~56 m).</li>
+        <li><strong>Sea score</strong>: 10 at ≤0.25 m effective, 0 at ≥1.7 m × the site's tolerance.
+          A zero sea score caps the whole rating at 1 ("Blown out").</li>
+        <li><strong>Wind score</strong>: wind is weighted by onshore-ness (kn × [0.35 + 0.65·f]),
+          scoring 10 at ≤8 kn down to 0 at ≥26 kn. Hard gates on top: boats capped when wind exceeds
+          15 kn from anything but W/NW (and above 18 kn from anywhere); exposed shore entries capped
+          when the onshore component tops 10 kn; steep wind chop (wind waves over ~1.1 m) caps boat
+          sites at 3.5; ocean current over 2.5 / 3.5 km/h caps boat sites at 6 / 3.5.</li>
+        <li><strong>Visibility estimate</strong>: site baseline × monthly factor (from 1,758 logged
+          dives: July ≈ 1.10, November ≈ 0.81) × southerly-upwelling bonus (up to +15% after ~48 h of
+          S wind over 12 kn), divided by recent sea state (mean effective sea over 48 h; halved
+          weighting for sites deeper than 18 m where currents dominate) and by rainfall beyond the
+          water body's tolerance. Rain is summed over 96 h with a 30 h decay; thresholds per water
+          body (decayed mm): ocean 55, harbour 30, Botany 20, Port Hacking 15, plus per-estuary
+          values statewide (Port Stephens 32, Lake Macquarie entrance 28, Macleay 18, Jervis Bay 42
+          and so on). If a feeder river (11 monitored, Brunswick to Bega) runs above ~3× its 31-day
+          baseline, vis in its receiving water body is cut up to 85%.</li>
+        <li><strong>Overall</strong>: 0.45·sea + 0.20·wind + 0.35·vis, with the caps above. A day's
+          score is the best 3-hour window between sunrise and sunset (today: remaining windows only),
+          which is also the window shown on the card.</li>
+        <li><strong>Tides</strong>: modelled sea level from the marine API (tide + surge), with highs
+          and lows read off the curve. Good for "when is slack"; use official tables for the
+          tide-critical sites.</li>
+        <li><strong>Data cadence</strong>: 3 Open-Meteo requests per load (marine 27 points, weather
+          22 points, flood 11 rivers, one or two per coastal area) cached 30 minutes, plus
+          Beachwatch every 3 hours (its network covers Sydney, the Hunter and the Illawarra). All
+          scoring runs in your browser; the source data covers 3 days of history + 7 of forecast,
+          hourly. Monthly visibility factors were calibrated on Sydney statistics and applied
+          statewide as an approximation.</li>
+      </ul>
+    </details>
+
+    <p>
+      Scores: <strong>7–10 Good · 5–7 Fair · 3–5 Poor · 0–3 No-go/Blown out</strong>.
+      Thresholds and seasonal factors are calibrated against Michael McFadyen's published Sydney
+      statistics (1,700+ logged dives) and his weather-and-diving guides.
+    </p>
+
+    <h3>Data sources</h3>
+    <ul>
+      <li>Marine forecast (two swell partitions, wind waves, ocean currents, sea temperature,
+        modelled sea level): <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo Marine API</a> (CC-BY 4.0)</li>
+      <li>Weather forecast (wind, rainfall, air temperature, cloud):
+        <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo Forecast API</a> (CC-BY 4.0)</li>
+      <li>River discharge for flood-runoff detection (Parramatta, Georges, Hacking, Hawkesbury):
+        Open-Meteo Flood API / GloFAS (CC-BY 4.0)</li>
+      <li>Daily pollution forecasts &amp; water-quality grades: NSW
+        <a href="https://www.beachwatch.nsw.gov.au/" target="_blank" rel="noopener">Beachwatch</a>
+        (© State of NSW; fetched via a public CORS proxy since the API doesn't allow direct
+        browser access. Display only: it never affects the score)</li>
+      <li>Basemaps: Esri World Imagery; © OpenStreetMap contributors © CARTO</li>
+      <li>Site knowledge inspired by decades of Sydney dive lore, especially
+        <a href="https://www.michaelmcfadyenscuba.info/viewpage.php?page_id=1" target="_blank" rel="noopener">
+        Michael McFadyen's dive site guides</a>. Go there for proper site briefings.</li>
+    </ul>
+
+    <h3>Please read this bit</h3>
+    <p class="disclaimer">
+      These ratings are automated estimates from offshore weather models. They know nothing about
+      today's actual water, and visibility is a modelled guess, not a report. Conditions on the rock
+      platform beat any forecast: always assess in person, dive within your training, and if in
+      doubt, don't go out. Tide-critical sites (Shiprock, the Kurnell drift dives) must be planned
+      against official tide tables.
+    </p>
+
+  </dialog>
+
+  <dialog id="region" aria-labelledby="region-title">
+    <div class="region-head">
+      <h2 id="region-title">Coastal area</h2>
+      <button class="icon-btn glyph-close" id="region-close" type="button" aria-label="Close">✕</button>
+    </div>
+    <div id="region-list"></div>
+  </dialog>
+
+  <div id="boot-errors"></div>
+
+  <script src="vendor/leaflet.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/rating.js"></script>
+  <script src="js/conditions.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

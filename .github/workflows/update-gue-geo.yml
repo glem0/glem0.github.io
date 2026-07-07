@@ -1,0 +1,40 @@
+name: Update GUE geo DB
+
+on:
+  schedule:
+    # Daily, after the US/EU business day, so classes posted that day are picked
+    # up overnight. Odd minute to stay off Nominatim's on-the-hour crowds.
+    - cron: '40 17 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-gue-geo
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Geocode new GUE schedule locations
+        working-directory: gue-course-map
+        shell: bash  # explicit -> pipefail, so a script failure isn't masked by tee
+        run: python3 update_geo.py | tee /tmp/update.log
+
+      - name: Commit and push if the geo DB changed
+        run: |
+          if git diff --quiet gue-course-map/; then
+            echo "No new locations — no commit."
+            exit 0
+          fi
+          n=$(grep -c '] OK' /tmp/update.log || true)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add gue-course-map/geo.js gue-course-map/geocode_cache.json gue-course-map/reverse_cache.json
+          git commit -m "gue-course-map: geo DB update (${n:-0} newly located)"
+          git push

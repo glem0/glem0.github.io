@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GUE Course Map</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<meta name="theme-color" content="#0f2438">
+
+<!-- Leaflet + marker clustering (CDN) -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" crossorigin="" />
+
+<style>
+  :root{
+    --bg:#0d1b2a; --panel:#0f2438; --panel-b:#0c1c2b; --panel2:#16324c; --line:#22415f;
+    --text:#eaf2f8; --muted:#9fb6c9; --accent:#38bdf8; --accent2:#0ea5b7;
+    --off:#5b7286; --ph:#7f97ab; --overlay:rgba(13,27,42,.8); --veil:rgba(13,27,42,.55);
+    --shadow:0 8px 30px rgba(0,0,0,.35);
+    color-scheme:dark;
+  }
+  /* Light theme — applied by setting data-theme="light" on <html> (see theme script) */
+  :root[data-theme="light"]{
+    --bg:#dfe8f0; --panel:#ffffff; --panel-b:#f2f6fa; --panel2:#e9f0f6; --line:#d3dfe9;
+    --text:#13293d; --muted:#5c7690; --accent:#0284c7; --accent2:#0ea5b7;
+    --off:#b0bfcc; --ph:#8fa5b8; --overlay:rgba(240,245,250,.85); --veil:rgba(240,245,250,.6);
+    --shadow:0 8px 30px rgba(16,42,67,.16);
+    color-scheme:light;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0}
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       color:var(--text);background:var(--bg);overflow:hidden}
+  #map{position:absolute;inset:0;z-index:0;background:#a9d3e8}
+
+  /* ---- Sidebar ---- */
+  #panel{
+    position:absolute;top:0;left:0;z-index:1000;height:100%;width:340px;max-width:88vw;
+    background:linear-gradient(180deg,var(--panel),var(--panel-b));
+    border-right:1px solid var(--line);box-shadow:var(--shadow);overflow:hidden;
+    display:flex;flex-direction:column;transition:transform .25s ease}
+  #panel.collapsed{transform:translateX(-340px)}
+  .head{padding:16px 18px 12px;border-bottom:1px solid var(--line)}
+  .brand{display:flex;align-items:center;gap:10px}
+  .brand .logo{width:36px;height:36px;border-radius:9px;flex:0 0 auto;background:#fff;padding:3px;
+    display:grid;place-items:center;box-shadow:inset 0 0 0 1px rgba(255,255,255,.15)}
+  .brand .logo img{width:100%;height:100%;object-fit:contain;display:block}
+  .brand h1{font-size:16px;margin:0;letter-spacing:.2px;line-height:1.15}
+  /* tagline sits on its own full-width line so it never wraps beside the logo */
+  .head .sub{font-size:11px;color:var(--muted);margin-top:7px;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .stat{margin-top:12px;display:flex;gap:8px;align-items:baseline}
+  .hbtns{margin-left:auto;display:flex;gap:6px;align-self:center}
+  .hbtn{width:28px;height:28px;display:grid;place-items:center;padding:0;border-radius:8px;
+    border:1px solid var(--line);background:var(--panel2);color:var(--muted);
+    cursor:pointer;transition:.12s}
+  .hbtn:hover{border-color:var(--accent);color:var(--accent)}
+  .hbtn svg{display:block}
+  #refreshBtn.busy svg{animation:spin 1s linear infinite}
+  .stat b{font-size:26px;color:var(--accent);font-variant-numeric:tabular-nums}
+  .stat span{font-size:12px;color:var(--muted)}
+  .status{font-size:11.5px;margin-top:8px;color:var(--muted);display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+  .status .dot{width:8px;height:8px;border-radius:50%;flex:0 0 auto;background:var(--muted)}
+  .status.live .dot{background:#3ddc84;box-shadow:0 0 0 3px rgba(61,220,132,.18)}
+  .status.cached .dot{background:#f4a52e;box-shadow:0 0 0 3px rgba(244,165,46,.18)}
+  .status.err .dot{background:#e23b3b;box-shadow:0 0 0 3px rgba(226,59,59,.18)}
+  .status.loading .dot{background:var(--accent);animation:pulse 1s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+
+  /* overflow-x + pan-y: only ever scroll this pane vertically (date inputs used to
+     overflow sideways on phones, letting the whole pane wiggle left/right) */
+  .body{overflow-y:auto;overflow-x:hidden;touch-action:pan-y;padding:14px 16px 20px;flex:1;
+    -webkit-overflow-scrolling:touch}
+  .section{margin-bottom:18px}
+  .section h2{font-size:11px;text-transform:uppercase;letter-spacing:.9px;color:var(--muted);
+    margin:0 0 8px;font-weight:700}
+  .section h2.dh{display:flex;justify-content:space-between;align-items:center}
+  .mini{background:none;border:none;color:var(--accent);cursor:pointer;font:inherit;
+    font-size:10.5px;font-weight:600;text-transform:none;letter-spacing:0;padding:0}
+  .mini:hover{text-decoration:underline}
+  .mini-group{display:flex;gap:12px}
+  .inst-list{max-height:220px;overflow-y:auto;overflow-x:hidden;margin-top:8px}
+  .search{width:100%;min-width:0;max-width:100%;padding:9px 11px;border-radius:9px;
+    border:1px solid var(--line);
+    background:var(--panel2);color:var(--text);font-size:13px;outline:none}
+  .search::placeholder{color:var(--ph)}
+  .search:focus{border-color:var(--accent)}
+
+  /* From/To must never overlap: strip the native date-widget sizing (iOS refuses to
+     shrink it otherwise) and, as a last resort, wrap to two rows instead of colliding */
+  .row{display:flex;gap:8px;flex-wrap:wrap}
+  .row>div{flex:1 1 116px;min-width:0}
+  .search[type="date"]{-webkit-appearance:none;appearance:none;height:37px}
+  .dates label{font-size:10.5px;color:var(--muted);display:block;margin:0 0 3px 2px}
+
+  .fam{display:flex;align-items:center;gap:10px;padding:7px 8px;border-radius:9px;cursor:pointer;
+    user-select:none;transition:background .12s}
+  .fam:hover{background:var(--panel2)}
+  .fam input{display:none}
+  .swatch{width:14px;height:14px;border-radius:50%;flex:0 0 auto;box-shadow:0 0 0 2px rgba(255,255,255,.12)}
+  .fam .name{flex:1;font-size:13px}
+  .fam .n{font-size:11.5px;color:var(--muted);font-variant-numeric:tabular-nums;
+    background:var(--panel2);padding:1px 8px;border-radius:20px}
+  .fam.off{opacity:.4}
+  .fam.off .swatch{background:var(--off) !important}
+  .fam.partial .swatch{box-shadow:0 0 0 2px var(--panel),0 0 0 4px var(--accent)}
+  .fam-group{margin-bottom:1px}
+  .chev{width:12px;flex:0 0 auto;text-align:center;font-size:9px;color:var(--muted);
+    cursor:pointer;padding:3px 2px;margin:-3px -2px;border-radius:4px;transition:color .12s}
+  .chev:hover{color:var(--text);background:var(--line)}
+  .courses{padding:1px 0 5px 22px}
+  .course{display:flex;align-items:center;gap:9px;padding:5px 8px;border-radius:7px;
+    cursor:pointer;font-size:12px;user-select:none;transition:background .12s}
+  .course:hover{background:var(--panel2)}
+  .course .cbox{width:13px;height:13px;border-radius:4px;flex:0 0 auto;
+    border:1.5px solid var(--accent);background:var(--accent)}
+  .course.off .cbox{background:transparent;border-color:var(--off)}
+  .course .cname{flex:1;color:var(--text)}
+  .course.off .cname{color:var(--muted)}
+  .course.off{opacity:.6}
+  .course .cn{font-size:10.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+
+  .toolbar{display:flex;gap:8px;margin-bottom:10px}
+  .btn{flex:1;padding:7px 8px;border-radius:8px;border:1px solid var(--line);
+    background:var(--panel2);color:var(--text);font-size:12px;cursor:pointer;transition:.12s}
+  .btn:hover{border-color:var(--accent);color:var(--accent)}
+  .muted-note{font-size:11px;color:var(--muted);margin-top:6px;line-height:1.4}
+
+  .foot{font-size:10.5px;color:var(--muted);line-height:1.5;border-top:1px solid var(--line);
+    padding:10px 16px;position:relative}
+  /* soft fade above the footer while the pane has more content below the fold */
+  .foot::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:36px;
+    background:linear-gradient(180deg,transparent,var(--panel-b));
+    pointer-events:none;opacity:0;transition:opacity .2s}
+  .foot.more::before{opacity:1}
+  .foot a{color:var(--accent);text-decoration:none}
+  .foot a:hover{text-decoration:underline}
+
+  /* ---- collapse toggle ---- */
+  #toggle{position:absolute;top:12px;left:352px;z-index:1001;width:38px;height:38px;
+    border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--text);
+    cursor:pointer;box-shadow:var(--shadow);transition:left .25s ease;font-size:16px}
+  #panel.collapsed ~ #toggle{left:12px}
+
+  /* ---- refresh veil: fades the app while a refetch is in flight ---- */
+  #veil{position:absolute;inset:0;z-index:1400;display:grid;place-items:center;
+    background:var(--veil);backdrop-filter:blur(2px);pointer-events:none;
+    opacity:1;transition:opacity .25s ease}
+  #veil.hidden{opacity:0}
+  #veil .spinner{margin:0}
+
+  /* ---- loading / error overlay ---- */
+  #loader{position:absolute;inset:0;z-index:1500;display:grid;place-items:center;
+    background:var(--overlay);backdrop-filter:blur(3px);color:var(--text)}
+  #loader.hidden{display:none}
+  #loader .box{text-align:center;max-width:360px;padding:24px}
+  .spinner{width:42px;height:42px;border-radius:50%;border:3px solid var(--line);
+    border-top-color:var(--accent);margin:0 auto 18px;animation:spin 1s linear infinite}
+  #loader.error .spinner{display:none}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  #loader h3{margin:0 0 8px;font-size:17px}
+  #loader p{margin:0;color:var(--muted);font-size:13px;line-height:1.5}
+  #loader .retry{margin-top:18px;padding:10px 20px;border-radius:9px;border:1px solid var(--line);
+    background:var(--panel2);color:var(--accent);cursor:pointer;font-size:13px;font-family:inherit}
+  #loader .retry:hover{border-color:var(--accent)}
+
+  /* ---- markers & clusters ---- */
+  .gue-dot{border-radius:50%;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.5)}
+  .gue-dot.gue-multi{width:22px;height:22px;display:flex;align-items:center;justify-content:center;
+    color:#fff;font-weight:700;font-size:11px;font-family:system-ui,sans-serif;cursor:pointer}
+  .marker-cluster{background:transparent}
+  .marker-cluster div{background:rgba(14,165,183,.9);color:#fff;font-weight:700;
+    font-family:system-ui,sans-serif;box-shadow:0 2px 8px rgba(0,0,0,.4);border:2px solid rgba(255,255,255,.85)}
+  .marker-cluster span{line-height:30px}
+
+  /* ---- popup ---- */
+  .leaflet-popup-content-wrapper{border-radius:12px}
+  .pop{min-width:210px;font-family:system-ui,sans-serif}
+
+  /* ---- hover list popup (classes at a location) ---- */
+  .gue-pop .leaflet-popup-content-wrapper{padding:0;overflow:hidden;border-radius:12px}
+  .gue-pop .leaflet-popup-content{margin:0;width:auto !important}
+  .gue-pop .pop{min-width:250px}
+  .pl-head{font-size:12px;font-weight:600;color:#0d1b2a;padding:9px 12px 8px;border-bottom:1px solid #e5e9ef;
+    display:flex;justify-content:space-between;gap:8px;align-items:center}
+  .pl-count{font-size:10.5px;font-weight:600;color:#0ea5b7;background:#e6f7f9;padding:1px 8px;border-radius:20px;white-space:nowrap}
+  .pl-list{max-height:min(280px,45vh);overflow-y:auto}
+  .pl-row{display:flex;align-items:center;gap:9px;padding:8px 12px;text-decoration:none;
+    border-bottom:1px solid #f0f2f5;color:#33475b}
+  .pl-row:last-child{border-bottom:none}
+  a.pl-row{cursor:pointer}
+  a.pl-row:hover{background:#f2f8ff}
+  .pl-dot{width:9px;height:9px;border-radius:50%;flex:0 0 auto}
+  .pl-main{display:flex;flex-direction:column;min-width:0;flex:1}
+  .pl-course{font-size:13px;font-weight:600;color:#0d1b2a;line-height:1.2}
+  .pl-meta{font-size:11px;color:#7a8899;margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .pl-go{color:#0ea5b7;font-size:13px;flex:0 0 auto}
+
+  .leaflet-control-attribution{font-size:10px}
+  @media (max-width:640px){
+    #panel{width:300px} #panel.collapsed{transform:translateX(-300px)}
+    #toggle{left:312px}
+    .head .sub{font-size:10.5px}  /* keep the tagline on one line in the narrow panel */
+  }
+</style>
+<!-- Apply the saved theme before first paint so there's no colour flash.
+     Preference lives in localStorage("gue_theme"): "dark" | "light" | "system" (default). -->
+<script>
+(function () {
+  var m; try { m = localStorage.getItem("gue_theme"); } catch (e) {}
+  if (m !== "light" && m !== "dark") m = "system";
+  var dark = m === "system" ? matchMedia("(prefers-color-scheme: dark)").matches : m === "dark";
+  document.documentElement.dataset.theme = dark ? "dark" : "light";
+})();
+</script>
+</head>
+<body>
+<div id="map"></div>
+
+<aside id="panel">
+  <div class="head">
+    <div class="brand">
+      <div class="logo"><img src="https://www.gue.com/sites/default/files/GUE-Logo_2026-Favicon96.png" alt="GUE logo" onerror="this.onerror=null;this.src='favicon.png'"></div>
+      <h1>GUE Course Map</h1>
+    </div>
+    <div class="sub">Global Underwater Explorers · class schedule</div>
+    <div class="stat"><b id="shownCount">0</b><span id="ofCount">classes</span>
+      <span class="hbtns">
+        <button class="hbtn" id="refreshBtn" type="button" title="Refresh schedule" aria-label="Refresh schedule">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2"
+               stroke-linecap="round" stroke-linejoin="round"><path d="M23 4v6h-6"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+        </button>
+        <button class="hbtn" id="themeBtn" type="button" title="Theme" aria-label="Switch theme"></button>
+      </span>
+    </div>
+    <div class="status loading" id="status"><span class="dot"></span><span id="statusText">Loading live schedule…</span></div>
+  </div>
+
+  <div class="body">
+    <div class="section">
+      <h2>Search</h2>
+      <input id="q" class="search" type="search" placeholder="Keywords…" autocomplete="off" />
+    </div>
+
+    <div class="section dates">
+      <h2 class="dh">Date range <button class="mini" id="dateReset" type="button">Reset</button></h2>
+      <div class="row">
+        <div><label>From</label><input id="from" class="search" type="date" /></div>
+        <div><label>To</label><input id="to" class="search" type="date" /></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 class="dh">Course type <span class="mini-group"><button class="mini" id="allBtn">All</button><button class="mini" id="noneBtn">Clear</button></span></h2>
+      <div id="families"></div>
+      <div class="muted-note" id="geonote" style="display:none"></div>
+    </div>
+
+    <div class="section">
+      <h2 class="dh">Instructor <span class="mini-group"><button class="mini" id="instAll">All</button><button class="mini" id="instNone">Clear</button></span></h2>
+      <input id="instSearch" class="search" type="search" placeholder="Filter instructors…" autocomplete="off" />
+      <div id="instructors" class="inst-list"></div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span id="meta">Fetched live from the GUE schedule.</span><br>
+    Data from <a id="srcLink" href="https://www.gue.com/diver-training/gue-class-schedule" target="_blank" rel="noopener">gue.com</a>.
+    Not affiliated with GUE.
+  </div>
+</aside>
+<button id="toggle" title="Show / hide panel">☰</button>
+
+<!-- refresh veil (shown while a refetch is in flight) -->
+<div id="veil" class="hidden"><div class="spinner"></div></div>
+
+<!-- loading / error overlay -->
+<div id="loader">
+  <div class="box">
+    <div class="spinner"></div>
+    <h3 id="loaderTitle">Loading live GUE schedule…</h3>
+    <p id="loaderMsg">Fetching the latest classes from gue.com.</p>
+    <button class="retry" id="loaderRetry" style="display:none">Retry</button>
+  </div>
+</div>
+
+<!-- Theme toggle: cycles system → light → dark. The icon shows the current mode;
+     the saved mode is re-applied before first paint by the script in <head>. -->
+<script>
+(function () {
+  var KEY = "gue_theme";
+  var btn = document.getElementById("themeBtn");
+  var mq = matchMedia("(prefers-color-scheme: dark)");
+  var metaColor = document.querySelector('meta[name="theme-color"]');
+  function svg(inner) {
+    return '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor"' +
+           ' stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' + inner + "</svg>";
+  }
+  var ICON = {
+    system: svg('<circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor" stroke="none"/>'),
+    light:  svg('<circle cx="12" cy="12" r="4.4"/><path d="M12 2v2.4M12 19.6V22M2 12h2.4M19.6 12H22M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M4.9 19.1l1.7-1.7M17.4 6.6l1.7-1.7"/>'),
+    dark:   svg('<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>'),
+  };
+  var NAME = { system: "System", light: "Light", dark: "Dark" };
+  var mode; try { mode = localStorage.getItem(KEY); } catch (e) {}
+  if (mode !== "light" && mode !== "dark") mode = "system";
+
+  function apply() {
+    var t = mode === "system" ? (mq.matches ? "dark" : "light") : mode;
+    document.documentElement.dataset.theme = t;
+    if (metaColor) metaColor.setAttribute("content", t === "dark" ? "#0f2438" : "#ffffff");
+    btn.innerHTML = ICON[mode];
+    btn.title = "Theme: " + NAME[mode] + " (click to change)";
+  }
+  btn.onclick = function () {
+    mode = mode === "system" ? "light" : mode === "light" ? "dark" : "system";
+    try { localStorage.setItem(KEY, mode); } catch (e) {}
+    apply();
+  };
+  if (mq.addEventListener) mq.addEventListener("change", function () { if (mode === "system") apply(); });
+  else if (mq.addListener) mq.addListener(function () { if (mode === "system") apply(); });
+  apply();
+})();
+</script>
+
+<!-- Leaflet + cluster plugin -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin=""></script>
+<!-- Static location -> coordinates lookup (precomputed) -->
+<script src="geo.js"></script>
+<!-- App: live-fetches + parses the schedule in the browser -->
+<script src="app.js"></script>
+</body>
+</html>
