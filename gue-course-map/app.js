@@ -384,14 +384,17 @@
     groups = [...gmap.values()];
     coursesByFamily = byFam;
     instructorCounts = instMap;
-    // Date bounds + prefill the range with the dataset's earliest/latest class.
+    // Date bounds. The default From is TODAY (clamped to the data's range), not the
+    // dataset minimum — the published data can lag behind real time, and classes that
+    // already started must not show unless the user widens the range themselves.
     const isos = classes.map(c => c.iso).filter(Boolean).sort();
     if (isos.length) {
       dataMin = isos[0]; dataMax = isos[isos.length - 1];
       const f = document.getElementById("from"), t = document.getElementById("to");
       f.min = t.min = dataMin; f.max = t.max = dataMax;
       if (!datesInit) {  // once only — don't clobber the user's picks on refresh
-        f.value = state.from = dataMin;
+        const today = todayISO();
+        f.value = state.from = dataMin < today ? (today <= dataMax ? today : dataMax) : dataMin;
         t.value = state.to = dataMax;
         datesInit = true;
       }
@@ -430,6 +433,10 @@
   function fmtWhen(iso) {
     try { return new Date(iso).toLocaleString([], { dateStyle: "medium", timeStyle: "short" }); }
     catch (e) { return iso; }
+  }
+  function todayISO() {  // local date — "past" means past for the visitor
+    const d = new Date();
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
   }
 
   /* ======================= schedule cache ======================= */
