@@ -1,0 +1,48 @@
+name: Update dive calendar
+
+on:
+  schedule:
+    # Once a day, early morning Sydney time (17:23 UTC = 3:23 am AEST / 4:23 am AEDT),
+    # so the day's calendar is fresh before anyone checks it. Odd minute avoids the
+    # on-the-hour crowd.
+    - cron: '23 17 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-dive-calendar
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: dive-calendar/scraper/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r dive-calendar/scraper/requirements.txt
+
+      - name: Scrape the five dive centre calendars
+        run: python dive-calendar/scraper/build.py
+
+      - name: Commit and push if events changed
+        run: |
+          # generated_at changes every run — ignore it so only real event changes commit
+          if git diff -I'"generated_at"' --quiet -- dive-calendar/data; then
+            echo "No event changes — no commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dive-calendar/data
+          git commit -m "dive-calendar: events data update"
+          git push

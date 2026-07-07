@@ -1,0 +1,4 @@
+httpx[http2]>=0.28
+brotli>=1.1
+zstandard>=0.22
+beautifulsoup4>=4.12

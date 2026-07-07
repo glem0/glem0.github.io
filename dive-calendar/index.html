@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Sydney Dive Calendar</title>
+  <meta name="description" content="What's on at Sydney's dive centres — Abyss, Frog Dive, Dive Bondi, Dive Centre Manly and ProDive — in one calendar.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A4%BF%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="app-header">
+      <div class="title-row">
+        <h1><span class="logo" aria-hidden="true">🤿</span>Sydney Dive Calendar</h1>
+        <div class="updated" id="updatedStamp"></div>
+      </div>
+
+      <div class="controls">
+        <div class="month-nav">
+          <button id="prevMonth" class="nav-btn" aria-label="Previous month">‹</button>
+          <h2 id="monthLabel" aria-live="polite">&nbsp;</h2>
+          <button id="nextMonth" class="nav-btn" aria-label="Next month">›</button>
+          <button id="todayBtn">Today</button>
+        </div>
+        <input id="search" type="search" placeholder="Filter… e.g. boat, night, wreck" aria-label="Filter events by text">
+        <div class="view-toggle">
+          <button id="viewMonth" aria-pressed="true">Month</button>
+          <button id="viewList" aria-pressed="false">List</button>
+        </div>
+        <button id="themeBtn" title="Toggle colour theme">Auto</button>
+      </div>
+
+      <div id="filters" class="filters" aria-label="Dive centres"></div>
+    </header>
+
+    <main>
+      <div id="status" class="status">Loading events…</div>
+
+      <div id="gridWrap" class="grid-wrap" hidden>
+        <div class="grid-inner">
+          <div class="weekday-row" aria-hidden="true">
+            <div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div><div>Sun</div>
+          </div>
+          <div id="grid"></div>
+        </div>
+      </div>
+
+      <div id="list" class="list" hidden></div>
+    </main>
+
+    <footer>
+      <div id="sourceStatus" class="source-status"></div>
+      <p>Unofficial aggregator — times are Sydney time and events can change or sell out. Always confirm and book with the dive centre. Event details belong to the respective centres.</p>
+    </footer>
+  </div>
+
+  <dialog id="modal">
+    <div class="modal-body" id="modalBody"></div>
+  </dialog>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
