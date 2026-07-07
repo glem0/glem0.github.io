@@ -1309,5 +1309,23 @@
   "matched_query": "tenero, ticino, switzerland",
   "approx": false,
   "verified": true
+ },
+ "hamburg, hamburg, germany": {
+  "lat": 53.5909051,
+  "lng": 9.9753758,
+  "display": "Universität Hamburg, Rothenburgsort, Hamburg-Mitte, Hamburg, 20539, Deutschland",
+  "country": "de",
+  "matched_query": "hamburg, hamburg, germany",
+  "approx": false,
+  "verified": true
+ },
+ "nanjing, jiangsu, china": {
+  "lat": 32.0438284,
+  "lng": 118.7788631,
+  "display": "南京市, 江苏省, 中国",
+  "country": "cn",
+  "matched_query": "nanjing, jiangsu, china",
+  "approx": false,
+  "verified": true
  }
 }

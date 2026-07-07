@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-07T10:32:32Z",
+ "updated": "2026-07-07T19:24:23Z",
  "classes": [
   {
    "cid": "36126",
@@ -54,6 +54,15 @@
    "location": "Glavotok, Istria county, Croatia",
    "instructor": "Erik Wurz",
    "instructor_id": "25873"
+  },
+  {
+   "cid": "36709",
+   "course": "Gas Blender",
+   "date": "July 9, 2026",
+   "iso": "2026-07-09",
+   "location": "Hamburg, Hamburg, Germany",
+   "instructor": "Keith Kreitner",
+   "instructor_id": "12073"
   },
   {
    "cid": "34669",
@@ -345,7 +354,7 @@
   },
   {
    "cid": "35771",
-   "course": "GUE Technical Fundamentals",
+   "course": "GUE Basic Fundamentals",
    "date": "July 15, 2026",
    "iso": "2026-07-15",
    "location": "Bali, Indonesia",
@@ -506,6 +515,15 @@
    "instructor_id": "75313"
   },
   {
+   "cid": "36707",
+   "course": "GUE Technical Fundamentals",
+   "date": "July 18, 2026",
+   "iso": "2026-07-18",
+   "location": "nanjing, Jiangsu, China",
+   "instructor": "Bo Du",
+   "instructor_id": "17461"
+  },
+  {
    "cid": "34722",
    "course": "Technical Diver 1",
    "date": "July 18, 2026",
@@ -657,6 +675,15 @@
    "location": "Los Angeles, California, United States",
    "instructor": "Kian Farin",
    "instructor_id": "27848"
+  },
+  {
+   "cid": "36708",
+   "course": "Scuba Diver Upgrade to OW",
+   "date": "July 21, 2026",
+   "iso": "2026-07-21",
+   "location": "Ślesin / Honoratka, Poland",
+   "instructor": "Bartek Trzcinski",
+   "instructor_id": "25915"
   },
   {
    "cid": "35647",
