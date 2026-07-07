@@ -25,11 +25,21 @@ var Conditions = (function () {
 
   var BEACHWATCH_URL = 'https://api.beachwatch.nsw.gov.au/public/sites/geojson';
   /* Beachwatch sends no CORS headers, so the browser goes through a public
-     CORS proxy (cors.sh preferred). Public data only; nothing sensitive. */
+     CORS proxy (cors.sh preferred). Public data only; nothing sensitive.
+     r.jina.ai is not a raw passthrough: with Accept: application/json (a
+     CORS-safelisted header, so no preflight) it returns {data:{content}}
+     where content is the target body as a string, hence its unwrap.
+     Order is by measured behaviour (2026-07-08 headless-Chrome timing):
+     cors.sh ~2-3 s, jina ~2-4 s, corsproxy.io rejects non-dev origins but
+     does so fast (and is instant in local dev), allorigins hangs ~20 s
+     when down so it goes last as the hail-mary. */
   var CORS_PROXIES = [
-    function (u) { return 'https://proxy.cors.sh/' + u; },
-    function (u) { return 'https://corsproxy.io/?url=' + encodeURIComponent(u); },
-    function (u) { return 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u); }
+    { wrap: function (u) { return 'https://proxy.cors.sh/' + u; } },
+    { wrap: function (u) { return 'https://r.jina.ai/' + u; },
+      init: { headers: { 'Accept': 'application/json' } },
+      unwrap: function (j) { return JSON.parse(j.data.content); } },
+    { wrap: function (u) { return 'https://corsproxy.io/?url=' + encodeURIComponent(u); } },
+    { wrap: function (u) { return 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u); } }
   ];
 
   function zoneCsv(zones, key) {
@@ -85,12 +95,15 @@ var Conditions = (function () {
   function loadBeachwatch(force) {
     var hit = cacheGet('beachwatch');
     if (!force && hit && Date.now() - hit.t < BW_TTL_MS) return Promise.resolve(hit.data);
-    var attempts = [BEACHWATCH_URL].concat(CORS_PROXIES.map(function (p) { return p(BEACHWATCH_URL); }));
+    var attempts = [{ url: BEACHWATCH_URL }].concat(CORS_PROXIES.map(function (p) {
+      return { url: p.wrap(BEACHWATCH_URL), init: p.init, unwrap: p.unwrap };
+    }));
     var i = 0;
     function next() {
       if (i >= attempts.length) return hit ? Promise.resolve(hit.data) : Promise.resolve(null);
-      var url = attempts[i++];
-      return fetchJson(url).then(function (j) {
+      var a = attempts[i++];
+      return fetchJson(a.url, a.init).then(function (j) {
+        if (a.unwrap) j = a.unwrap(j);
         if (!j || !j.features || !j.features.length) throw new Error('bad payload');
         cachePut('beachwatch', j);
         return j;
@@ -112,8 +125,8 @@ var Conditions = (function () {
     catch (e) { /* private mode / quota, fine, just no cache */ }
   }
 
-  function fetchJson(url) {
-    return fetch(url).then(function (r) {
+  function fetchJson(url, init) {
+    return fetch(url, init).then(function (r) {
       if (!r.ok) throw new Error('HTTP ' + r.status + ' from ' + url.split('?')[0]);
       return r.json();
     });
