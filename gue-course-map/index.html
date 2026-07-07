@@ -64,10 +64,14 @@
   .status{font-size:11.5px;margin-top:8px;color:var(--muted)}
 
   /* overflow-x + pan-y: only ever scroll this pane vertically (date inputs used to
-     overflow sideways on phones, letting the whole pane wiggle left/right) */
-  .body{overflow-y:auto;overflow-x:hidden;touch-action:pan-y;padding:14px 16px 20px;flex:1;
-    -webkit-overflow-scrolling:touch}
+     overflow sideways on phones, letting the whole pane wiggle left/right).
+     Column flex so the last section (instructors) can absorb any leftover height. */
+  .body{overflow-y:auto;overflow-x:hidden;touch-action:pan-y;padding:14px 16px 10px;flex:1;
+    display:flex;flex-direction:column;-webkit-overflow-scrolling:touch}
   .section{margin-bottom:18px}
+  .body>.section{flex:0 0 auto}
+  .body>.section:last-child{flex:1 0 auto;display:flex;flex-direction:column;
+    margin-bottom:0;min-height:0}
   .section h2{font-size:11px;text-transform:uppercase;letter-spacing:.9px;color:var(--muted);
     margin:0 0 8px;font-weight:700}
   .section h2.dh{display:flex;justify-content:space-between;align-items:center}
@@ -75,7 +79,10 @@
     font-size:10.5px;font-weight:600;text-transform:none;letter-spacing:0;padding:0}
   .mini:hover{text-decoration:underline}
   .mini-group{display:flex;gap:12px}
-  .inst-list{max-height:220px;overflow-y:auto;overflow-x:hidden;margin-top:8px}
+  /* taller base on big screens, and it stretches to meet the footer — no dead gap;
+     the plain 260px basis is the fallback for browsers without dvh */
+  .inst-list{flex:1 1 260px;flex-basis:min(320px,34dvh);min-height:220px;
+    overflow-y:auto;overflow-x:hidden;margin-top:8px}
   .search{width:100%;min-width:0;max-width:100%;padding:9px 11px;border-radius:9px;
     border:1px solid var(--line);
     background:var(--panel2);color:var(--text);font-size:13px;outline:none}
@@ -101,10 +108,10 @@
   .fam.off .swatch{background:var(--off) !important}
   .fam.partial .swatch{box-shadow:0 0 0 2px var(--panel),0 0 0 4px var(--accent)}
   .fam-group{margin-bottom:1px}
-  .chev{width:12px;flex:0 0 auto;text-align:center;font-size:9px;color:var(--muted);
-    cursor:pointer;padding:3px 2px;margin:-3px -2px;border-radius:4px;transition:color .12s}
+  .chev{width:18px;flex:0 0 auto;text-align:center;font-size:13px;line-height:1;color:var(--muted);
+    cursor:pointer;padding:6px 4px;margin:-6px -4px;border-radius:6px;transition:color .12s}
   .chev:hover{color:var(--text);background:var(--line)}
-  .courses{padding:1px 0 5px 22px}
+  .courses{padding:1px 0 5px 28px}
   .course{display:flex;align-items:center;gap:9px;padding:5px 8px;border-radius:7px;
     cursor:pointer;font-size:12px;user-select:none;transition:background .12s}
   .course:hover{background:var(--panel2)}
