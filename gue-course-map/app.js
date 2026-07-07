@@ -414,9 +414,23 @@
 
   /* ======================= status / UI ======================= */
   function setStatus(text) { document.getElementById("statusText").textContent = text; }
-  function statusLive(iso) { setStatus("Schedule updated " + fmtWhen(iso)); }
-  function statusCached(iso, stale) {
-    setStatus((stale ? "Cached copy · " : "Schedule updated ") + fmtWhen(iso));
+  // relative "N hours ago" label, re-rendered every minute so an open tab stays honest
+  let lastData = null;  // { iso, stale }
+  function statusLive(iso) { lastData = { iso, stale: false }; renderStatus(); }
+  function statusCached(iso, stale) { lastData = { iso, stale }; renderStatus(); }
+  function renderStatus() {
+    if (!lastData) return;
+    setStatus((lastData.stale ? "Cached copy · updated data " : "Updated data ") + agoText(lastData.iso));
+  }
+  setInterval(renderStatus, 60000);
+  function agoText(iso) {
+    const mins = Math.max(0, Math.round((Date.now() - new Date(iso).getTime()) / 60000));
+    if (mins < 1) return "just now";
+    if (mins < 60) return mins + (mins === 1 ? " minute" : " minutes") + " ago";
+    const h = Math.round(mins / 60);
+    if (h < 48) return h + (h === 1 ? " hour" : " hours") + " ago";
+    const d = Math.round(h / 24);
+    return d + (d === 1 ? " day" : " days") + " ago";
   }
   function hideLoader() { document.getElementById("loader").classList.add("hidden"); }
   function showError(msg) {
@@ -426,10 +440,6 @@
     document.getElementById("loaderMsg").innerHTML = esc(msg) +
       "<br><br>This is usually temporary — retrying normally works.";
     document.getElementById("loaderRetry").style.display = "";
-  }
-  function fmtWhen(iso) {
-    try { return new Date(iso).toLocaleString([], { dateStyle: "medium", timeStyle: "short" }); }
-    catch (e) { return iso; }
   }
   function todayISO() {  // local date — "past" means past for the visitor
     const d = new Date();
