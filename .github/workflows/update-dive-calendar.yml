@@ -31,7 +31,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r dive-calendar/scraper/requirements.txt
 
-      - name: Scrape the five dive centre calendars
+      - name: Scrape the six dive operator calendars
         run: python dive-calendar/scraper/build.py
 
       - name: Commit and push if events changed

@@ -19,6 +19,7 @@
   --c-divebondi: #eda100;
   --c-divesydney: #008300;
   --c-prodive: #4a3aa7;
+  --c-divecharters: #c43e63;
   --c-other: #898781;
 
   --chip-mix: 13%;
@@ -46,6 +47,7 @@
   --c-divebondi: #c98500;
   --c-divesydney: #008300;
   --c-prodive: #9085e9;
+  --c-divecharters: #e0577f;
 
   --chip-mix: 22%;
 }
@@ -68,6 +70,7 @@
     --c-divebondi: #c98500;
     --c-divesydney: #008300;
     --c-prodive: #9085e9;
+    --c-divecharters: #e0577f;
 
     --chip-mix: 22%;
   }
@@ -85,12 +88,13 @@ body {
 }
 
 /* per-centre colour hook */
-.src-abyss      { --c: var(--c-abyss); }
-.src-frogdive   { --c: var(--c-frogdive); }
-.src-divebondi  { --c: var(--c-divebondi); }
-.src-divesydney { --c: var(--c-divesydney); }
-.src-prodive    { --c: var(--c-prodive); }
-.src-other      { --c: var(--c-other); }
+.src-abyss        { --c: var(--c-abyss); }
+.src-frogdive     { --c: var(--c-frogdive); }
+.src-divebondi    { --c: var(--c-divebondi); }
+.src-divesydney   { --c: var(--c-divesydney); }
+.src-prodive      { --c: var(--c-prodive); }
+.src-divecharters { --c: var(--c-divecharters); }
+.src-other        { --c: var(--c-other); }
 
 .wrap {
   max-width: 1180px;
@@ -855,4 +859,9 @@ footer a { color: inherit; }
   /* hide-pattern form: input on its own row, centre picker + button below */
   .hide-rule-form input { flex: 1 1 100%; }
   .hide-rule-form select { flex: 1 1 auto; }
+
+  /* iOS Safari auto-zooms when a focused control's font is under 16px */
+  #search,
+  .hide-rule-form input,
+  .hide-rule-form select { font-size: 16px; }
 }

@@ -93,8 +93,7 @@ def _parse_row(main) -> Event | None:
         end_d = start_d
 
     group = clean_text(tds[3].get_text(" ", strip=True)) or "Dive event"
-    max_places = _int(tds[4].get_text())
-    available = _int(tds[5].get_text())
+    available = _int(tds[5].get_text())   # only used for the sold-out flag
     price = htmllib.unescape(tds[6].get_text(strip=True))
     link = tds[7].find("a")
     url = _clean_url(link.get("href") if link else None)
@@ -124,11 +123,11 @@ def _parse_row(main) -> Event | None:
     if available == 0:
         title += " (sold out)"
 
+    # the places-left count is deliberately not ingested: it changes daily and
+    # would churn a data commit every workflow run
     parts = []
     if price and not re.fullmatch(r"\$0(\.00)?", price):
         parts.append(price)
-    if available and available > 0 and max_places:
-        parts.append(f"{available} of {max_places} places left")
     if spec_title and group.lower() not in spec_title.lower():
         parts.append(group)
     if blurb:

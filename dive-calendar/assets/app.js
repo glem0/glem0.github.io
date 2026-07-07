@@ -3,7 +3,7 @@
   'use strict';
 
   const TZ = 'Australia/Sydney';
-  const KNOWN = new Set(['abyss', 'frogdive', 'divebondi', 'divesydney', 'prodive']);
+  const KNOWN = new Set(['abyss', 'frogdive', 'divebondi', 'divesydney', 'prodive', 'divecharters']);
   const PREFS_KEY = 'diveCal.prefs';
   const DATE_ONLY = /^\d{4}-\d{2}-\d{2}$/;
   const MAX_CHIPS = 4;
