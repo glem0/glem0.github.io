@@ -281,22 +281,24 @@ tr.cve-hover-match td { background: var(--cve-match-bg) !important; }
 @media (max-width: 768px) {
   .header { position: static; padding: 16px; }
   .header-top { margin-bottom: 12px; }
-  .stats { padding: 12px 16px; gap: 12px; }
-  .quick-filters {
-    padding: 10px 16px;
+  /* stats and chip rows: one line, scrollable, soft edges (JS toggles
+     .fade-left/.fade-right) instead of wrapping into a tall stack */
+  .stats, .quick-filters {
     flex-wrap: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
-    /* soft edges hint that the row scrolls; JS toggles the classes */
     --fade-l: 0px;
     --fade-r: 0px;
     -webkit-mask-image: linear-gradient(to right, transparent 0, #000 var(--fade-l), #000 calc(100% - var(--fade-r)), transparent 100%);
     mask-image: linear-gradient(to right, transparent 0, #000 var(--fade-l), #000 calc(100% - var(--fade-r)), transparent 100%);
   }
-  .quick-filters.fade-left { --fade-l: 32px; }
-  .quick-filters.fade-right { --fade-r: 32px; }
-  .quick-filters::-webkit-scrollbar { display: none; }
+  .stats::-webkit-scrollbar, .quick-filters::-webkit-scrollbar { display: none; }
+  .fade-left { --fade-l: 32px; }
+  .fade-right { --fade-r: 32px; }
+  .stats { padding: 10px 16px; gap: 14px; }
+  .stat-item { flex: none; white-space: nowrap; }
+  .quick-filters { padding: 10px 16px; }
   .main { padding: 0 12px 16px; }
   .controls { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
   .search-box { grid-column: 1 / -1; max-width: none; min-width: 0; }
@@ -6558,6 +6560,21 @@ const TOP_COMPONENTS = Object.keys(componentCounts)
 const activeQuickFilters = new Set();
 let currentSort = {col:'date', dir:'desc'};
 let renderGeneration = 0;
+let updateChipFades = () => {};
+let updateStatsFades = () => {};
+
+// Edge fades hint that a bar scrolls horizontally (mobile)
+function attachEdgeFades(el) {
+  const update = () => {
+    const max = el.scrollWidth - el.clientWidth;
+    el.classList.toggle('fade-left', el.scrollLeft > 4);
+    el.classList.toggle('fade-right', max > 4 && el.scrollLeft < max - 4);
+  };
+  el.addEventListener('scroll', update, {passive: true});
+  window.addEventListener('resize', update);
+  update();
+  return update;
+}
 
 function init() {
   // Build version filter (newest release first)
@@ -6631,15 +6648,8 @@ function init() {
   };
   TOP_COMPONENTS.forEach(name => makeChip(name, false));
 
-  // Edge fades when the chip row scrolls (mobile)
-  function updateChipFades() {
-    const max = qf.scrollWidth - qf.clientWidth;
-    qf.classList.toggle('fade-left', qf.scrollLeft > 4);
-    qf.classList.toggle('fade-right', max > 4 && qf.scrollLeft < max - 4);
-  }
-  qf.addEventListener('scroll', updateChipFades, {passive: true});
-  window.addEventListener('resize', updateChipFades);
-  updateChipFades();
+  updateChipFades = attachEdgeFades(qf);
+  updateStatsFades = attachEdgeFades(document.getElementById('statsBar'));
 
   // Any-component picker: adds a chip (kept in the row when deselected)
   const componentAdd = document.getElementById('componentAdd');
@@ -6732,6 +6742,7 @@ function render() {
   document.getElementById('releaseCount').textContent = releases.size;
   document.getElementById('cveCount').textContent = cves.size;
   document.getElementById('componentCount').textContent = components.size;
+  updateStatsFades();
 
   // Update sort arrows
   document.querySelectorAll('.vuln-table th').forEach(th => {
