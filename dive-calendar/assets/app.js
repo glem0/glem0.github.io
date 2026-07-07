@@ -24,6 +24,26 @@
 
   const THEMES = ['auto', 'light', 'dark'];
   const THEME_LABELS = { auto: 'Auto', light: 'Light', dark: 'Dark' };
+  const SVG_OPEN = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"' +
+    ' stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">';
+  const THEME_ICONS = {
+    auto: SVG_OPEN + '<circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor" stroke="none"/></svg>',
+    light: SVG_OPEN + '<circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/>' +
+      '<line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>' +
+      '<line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/>' +
+      '<line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>' +
+      '<line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>',
+    dark: SVG_OPEN + '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>',
+  };
+  const EYE_OFF_MINI = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"' +
+    ' stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+    '<path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94"/>' +
+    '<path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19"/>' +
+    '<path d="M14.12 14.12a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>';
+
+  function compileRule(pattern) {
+    try { return new RegExp(pattern, 'i'); } catch { return null; }
+  }
 
   // ---------- date helpers (all rendering pinned to Sydney) ----------
   const fmtDayKey = new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit' });
@@ -71,10 +91,19 @@
     enabled: new Set(),
     q: '',
     theme: 'auto',
-    hidden: new Set(),        // "source\0title" lookup
-    hiddenPairs: [],          // [[source, title], ...] as persisted
+    hidden: new Set(),        // "source\0title" exact lookup
+    hiddenPairs: [],          // [{s, t}, ...] exact hides, as persisted
+    hiddenRules: [],          // [{s: id|'*', p, rx}, ...] regex hides
     todayKey: fmtDayKey.format(new Date()),
   };
+
+  function isHidden(ev) {
+    if (state.hidden.has(hideKey(ev))) return true;
+    if (!state.hiddenRules.length) return false;
+    const t = normTitle(ev.title);
+    return state.hiddenRules.some((r) => (r.s === '*' || r.s === ev.source) && r.rx.test(t));
+  }
+  const hiddenTotal = () => state.hiddenPairs.length + state.hiddenRules.length;
 
   const sourceById = (id) => state.data.sources.find((s) => s.id === id);
   const sourceName = (id) => (sourceById(id) || {}).name || id;
@@ -90,7 +119,11 @@
         ? state.data.sources.map((s) => s.id).filter((id) => !state.enabled.has(id))
         : [];
       localStorage.setItem(PREFS_KEY, JSON.stringify({
-        view: state.view, disabled, theme: state.theme, hidden: state.hiddenPairs,
+        view: state.view,
+        disabled,
+        theme: state.theme,
+        hidden: state.hiddenPairs.map(({ s, t }) => ({ s, t })),
+        hiddenRules: state.hiddenRules.map(({ s, p }) => ({ s, p })),
       }));
     } catch { /* private mode etc. */ }
   }
@@ -101,8 +134,10 @@
     else document.documentElement.dataset.theme = state.theme;
     const b = $('#themeBtn');
     if (b) {
-      b.textContent = THEME_LABELS[state.theme];
-      b.title = 'Theme: ' + THEME_LABELS[state.theme] + ' — click to change';
+      b.innerHTML = THEME_ICONS[state.theme];
+      const label = 'Theme: ' + THEME_LABELS[state.theme] + ' — click to change';
+      b.title = label;
+      b.setAttribute('aria-label', label);
     }
   }
 
@@ -154,7 +189,7 @@
 
   function passes(ev) {
     if (!state.enabled.has(ev.source)) return false;
-    if (state.hidden.has(hideKey(ev))) return false;
+    if (isHidden(ev)) return false;
     if (state.q) {
       const hay = (ev.title + ' ' + (ev.location || '') + ' ' + (ev.description || '')).toLowerCase();
       if (!hay.includes(state.q)) return false;
@@ -192,12 +227,21 @@
     cell.appendChild(el('div', 'daynum', inMonth ? String(dayNum) : dayNum + ' ' + fmtMonthShort.format(new Date(dayToUTC(dayStr)))));
     const entries = entriesOn(dayStr);
     const visible = entries.length <= MAX_CHIPS + 1 ? entries : entries.slice(0, MAX_CHIPS);
-    for (const entry of visible) cell.appendChild(renderChip(entry));
+    const evWrap = el('div', 'cell-events');
+    for (const entry of visible) evWrap.appendChild(renderChip(entry));
     if (entries.length > visible.length) {
       const more = el('button', 'more-btn', '+' + (entries.length - visible.length) + ' more');
       more.type = 'button';
       more.addEventListener('click', () => openDay(dayStr));
-      cell.appendChild(more);
+      evWrap.appendChild(more);
+    }
+    cell.appendChild(evWrap);
+    if (entries.length) {
+      cell.classList.add('has-events');
+      cell.addEventListener('click', (e) => {   // tap anywhere in the cell (mobile dots)
+        if (e.target.closest('.chip, .more-btn')) return;
+        openDay(dayStr);
+      });
     }
     return cell;
   }
@@ -271,7 +315,7 @@
     for (const [d, arr] of state.byDay) {
       if (monthOf(d) !== state.month) continue;
       for (const x of arr) {
-        if (!x.cont && x.ev.source === sourceId && !state.hidden.has(hideKey(x.ev))) n++;
+        if (!x.cont && x.ev.source === sourceId && !isHidden(x.ev)) n++;
       }
     }
     return n;
@@ -307,14 +351,15 @@
       });
       wrap.appendChild(reset);
     }
-    if (state.hiddenPairs.length) {
-      const hb = el('button', 'filter-reset hidden-count-btn',
-        state.hiddenPairs.length + ' hidden');
-      hb.type = 'button';
-      hb.title = 'Show and restore hidden events';
-      hb.addEventListener('click', openHiddenManager);
-      wrap.appendChild(hb);
-    }
+    const n = hiddenTotal();
+    const hb = el('button', 'hidden-count-btn');
+    hb.type = 'button';
+    hb.innerHTML = EYE_OFF_MINI;
+    if (n) hb.appendChild(el('span', null, n + ' hidden'));
+    hb.title = 'Hidden events and hide patterns';
+    hb.setAttribute('aria-label', hb.title + (n ? ' (' + n + ' active)' : ''));
+    hb.addEventListener('click', openHiddenManager);
+    wrap.appendChild(hb);
   }
 
   function renderFooter() {
@@ -437,7 +482,7 @@
   function hideEvent(ev) {
     const t = normTitle(ev.title);
     if (!state.hidden.has(ev.source + SEP + t)) {
-      state.hiddenPairs.push([ev.source, t]);
+      state.hiddenPairs.push({ s: ev.source, t });
       state.hidden.add(ev.source + SEP + t);
     }
     savePrefs();
@@ -446,10 +491,27 @@
   }
 
   function restorePair(pair) {
-    state.hiddenPairs = state.hiddenPairs.filter((p) => !(p[0] === pair[0] && p[1] === pair[1]));
-    state.hidden.delete(pair[0] + SEP + pair[1]);
+    state.hiddenPairs = state.hiddenPairs.filter((p) => !(p.s === pair.s && p.t === pair.t));
+    state.hidden.delete(pair.s + SEP + pair.t);
     savePrefs();
     render();
+  }
+
+  // wraps a list in a scroll container with a bottom fade while more is below
+  function scrollFadeList(listEl) {
+    const wrap = el('div', 'modal-scroll');
+    listEl.classList.add('scrolly');
+    wrap.appendChild(listEl);
+    const update = () => {
+      const more = listEl.scrollTop + listEl.clientHeight < listEl.scrollHeight - 4;
+      wrap.classList.toggle('more-below', more);
+    };
+    listEl.addEventListener('scroll', update, { passive: true });
+    // measure once the dialog is actually laid out (a <dialog> is display:none until shown)
+    requestAnimationFrame(() => requestAnimationFrame(update));
+    setTimeout(update, 120);
+    if (window.ResizeObserver) new ResizeObserver(update).observe(listEl);
+    return wrap;
   }
 
   function openHiddenManager() {
@@ -457,32 +519,105 @@
     body.textContent = '';
     modalHeader(body, null);
     body.appendChild(el('h3', null, 'Hidden events'));
-    body.appendChild(el('div', 'modal-when', 'These titles are hidden from the calendar. Restore any time.'));
-    const wrap = el('div', 'modal-day-list');
+    body.appendChild(el('div', 'modal-when', 'Hidden titles and patterns never show on the calendar.'));
+
+    const counts = new Map();
+    for (const ev of (state.data.events || [])) {
+      const k = ev.source + SEP + normTitle(ev.title);
+      counts.set(k, (counts.get(k) || 0) + 1);
+    }
+    const ruleCount = (r) => (state.data.events || []).reduce((n, ev) =>
+      n + ((r.s === '*' || r.s === ev.source) && r.rx.test(normTitle(ev.title)) ? 1 : 0), 0);
+    const evs = (n) => n + (n === 1 ? ' event' : ' events');
+
+    const list = el('div', 'modal-day-list');
+    const reopen = () => (hiddenTotal() ? openHiddenManager() : modal().close());
+
     for (const pair of state.hiddenPairs) {
-      const row = el('div', 'hidden-mgr-row ' + srcClass(pair[0]));
+      const row = el('div', 'hidden-mgr-row ' + srcClass(pair.s));
       const label = el('span', 'hidden-mgr-label');
       label.appendChild(el('span', 'dot'));
-      label.appendChild(el('span', null, pair[1]));
-      label.appendChild(el('span', 'hidden-mgr-src', sourceShort(pair[0])));
+      label.appendChild(el('span', 'hidden-mgr-title', pair.t));
+      label.appendChild(el('span', 'hidden-mgr-src', sourceShort(pair.s)));
       row.appendChild(label);
+      row.appendChild(el('span', 'hidden-mgr-count', evs(counts.get(pair.s + SEP + pair.t) || 0)));
       const r = el('button', null, 'Restore');
       r.type = 'button';
+      r.addEventListener('click', () => { restorePair(pair); reopen(); });
+      row.appendChild(r);
+      list.appendChild(row);
+    }
+
+    state.hiddenRules.forEach((rule, i) => {
+      const row = el('div', 'hidden-mgr-row ' + (rule.s === '*' ? 'src-other' : srcClass(rule.s)));
+      const label = el('span', 'hidden-mgr-label');
+      label.appendChild(el('span', 'dot'));
+      const pat = el('code', 'hidden-mgr-title', '/' + rule.p + '/i');
+      label.appendChild(pat);
+      label.appendChild(el('span', 'hidden-mgr-src', rule.s === '*' ? 'all centres' : sourceShort(rule.s)));
+      row.appendChild(label);
+      row.appendChild(el('span', 'hidden-mgr-count', evs(ruleCount(rule))));
+      const r = el('button', null, 'Remove');
+      r.type = 'button';
       r.addEventListener('click', () => {
-        restorePair(pair);
-        if (state.hiddenPairs.length) openHiddenManager();
-        else modal().close();
+        state.hiddenRules.splice(i, 1);
+        savePrefs();
+        render();
+        reopen();
       });
       row.appendChild(r);
-      wrap.appendChild(row);
+      list.appendChild(row);
+    });
+
+    if (!hiddenTotal()) {
+      list.appendChild(el('div', 'hidden-mgr-empty', 'Nothing hidden yet — hide an event via the eye icon in its popup, or add a pattern below.'));
     }
-    body.appendChild(wrap);
-    if (state.hiddenPairs.length > 1) {
+    body.appendChild(scrollFadeList(list));
+
+    // add-a-pattern rule
+    const form = el('form', 'hide-rule-form');
+    const input = el('input');
+    input.type = 'text';
+    input.placeholder = 'Hide by pattern… e.g. hire|snorkel';
+    input.setAttribute('aria-label', 'Hide events matching pattern (regular expression)');
+    const sel = el('select');
+    sel.setAttribute('aria-label', 'Which centre the pattern applies to');
+    const optAll = el('option', null, 'All centres');
+    optAll.value = '*';
+    sel.appendChild(optAll);
+    for (const s of state.data.sources) {
+      const o = el('option', null, s.short || s.name);
+      o.value = s.id;
+      sel.appendChild(o);
+    }
+    const add = el('button', null, 'Hide');
+    add.type = 'submit';
+    form.append(input, sel, add);
+    const err = el('div', 'rule-error');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const p = input.value.trim();
+      if (!p) return;
+      const rx = compileRule(p);
+      if (!rx) {
+        err.textContent = 'Not a valid regular expression.';
+        return;
+      }
+      state.hiddenRules.push({ s: sel.value, p, rx });
+      savePrefs();
+      render();
+      openHiddenManager();
+    });
+    body.appendChild(form);
+    body.appendChild(err);
+
+    if (hiddenTotal() > 1) {
       const all = el('button', 'btn-secondary', 'Restore all');
       all.type = 'button';
       all.style.marginTop = '12px';
       all.addEventListener('click', () => {
         state.hiddenPairs = [];
+        state.hiddenRules = [];
         state.hidden.clear();
         savePrefs();
         render();
@@ -500,7 +635,7 @@
     body.appendChild(el('h3', null, fmtDayLong.format(dateOnDay(dayStr))));
     const wrap = el('div', 'modal-day-list');
     for (const entry of entriesOn(dayStr)) wrap.appendChild(renderRow(entry, dayStr));
-    body.appendChild(wrap);
+    body.appendChild(scrollFadeList(wrap));
     if (!modal().open) modal().showModal();
   }
 
@@ -553,11 +688,17 @@
   async function init() {
     const prefs = loadPrefs();
     applyTheme(prefs.theme);
-    state.hiddenPairs = Array.isArray(prefs.hidden)
-      ? prefs.hidden.filter((p) => Array.isArray(p) && p.length === 2
-          && typeof p[0] === 'string' && typeof p[1] === 'string')
-      : [];
-    state.hidden = new Set(state.hiddenPairs.map((p) => p[0] + SEP + p[1]));
+    // exact hides: migrate the old [source, title] tuple format to {s, t}
+    state.hiddenPairs = (Array.isArray(prefs.hidden) ? prefs.hidden : [])
+      .map((p) => (Array.isArray(p) ? { s: p[0], t: p[1] } : p))
+      .filter((p) => p && typeof p.s === 'string' && typeof p.t === 'string');
+    state.hidden = new Set(state.hiddenPairs.map((p) => p.s + SEP + p.t));
+    state.hiddenRules = (Array.isArray(prefs.hiddenRules) ? prefs.hiddenRules : [])
+      .filter((r) => r && typeof r.s === 'string' && typeof r.p === 'string')
+      .map((r) => ({ s: r.s, p: r.p, rx: compileRule(r.p) }))
+      .filter((r) => r.rx);
+    // best-effort: ask the browser not to evict this origin's storage
+    try { navigator.storage && navigator.storage.persist && navigator.storage.persist(); } catch { /* optional */ }
     $('#themeBtn').addEventListener('click', () => {
       applyTheme(THEMES[(THEMES.indexOf(state.theme) + 1) % THEMES.length]);
       savePrefs();
