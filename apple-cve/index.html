@@ -369,6 +369,7 @@ tr.cve-hover-match td { background: var(--cve-match-bg) !important; }
   <div class="stat-item">across <span class="stat-num" id="releaseCount">0</span> releases</div>
   <div class="stat-item">Total CVEs: <span class="stat-num" id="cveCount">0</span></div>
   <div class="stat-item" title="Distinct component names in the current results (a chip like WebKit matches the whole family, e.g. WebKit Canvas, WebKit Storage, …)">Components: <span class="stat-num" id="componentCount">0</span></div>
+  <div class="stat-item" id="dataUpdated" title="Last time new Apple advisories were added (checked daily at 19:30 UTC)"></div>
 </div>
 
 <div class="quick-filters" id="quickFilters"><span class="qf-label" title="The most frequent components in the database — add any other from the dropdown above">Top components:</span></div>
@@ -391,6 +392,7 @@ tr.cve-hover-match td { background: var(--cve-match-bg) !important; }
 
 <script>
 const DATA = [];
+const DATA_UPDATED = "2026-07-06T23:07:40Z";
 DATA.push({r:"iOS 26.2 / iPadOS 26.2",os:"ios",d:"12 Dec 2025",v:[
   {c:"App Store",desc:"An app may be able to access sensitive payment tokens. A permissions issue was addressed with additional restrictions",cve:["CVE-2025-46288"]},
   {c:"AppleJPEG",desc:"Processing a file may lead to memory corruption. The issue was addressed with improved bounds checks",cve:["CVE-2025-43539"]},
@@ -6820,6 +6822,25 @@ function syncHeaderHeight() {
 }
 window.addEventListener('resize', syncHeaderHeight);
 syncHeaderHeight();
+
+// "updated data N hours ago" line in the stats bar
+(function() {
+  const el = document.getElementById('dataUpdated');
+  const t = new Date(DATA_UPDATED);
+  if (isNaN(t)) { el.style.display = 'none'; return; }
+  const mins = Math.max(0, Math.round((Date.now() - t.getTime()) / 60000));
+  let txt;
+  if (mins < 60) {
+    txt = 'updated data ' + mins + ' minute' + (mins === 1 ? '' : 's') + ' ago';
+  } else if (mins < 48 * 60) {
+    const h = Math.round(mins / 60);
+    txt = 'updated data ' + h + ' hour' + (h === 1 ? '' : 's') + ' ago';
+  } else {
+    const d = Math.round(mins / 1440);
+    txt = 'updated data ' + d + ' days ago';
+  }
+  el.textContent = txt;
+})();
 
 // CVE hover cross-highlight
 (function() {

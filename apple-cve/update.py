@@ -22,6 +22,7 @@ import sys
 import time
 import urllib.error
 import urllib.request
+from datetime import datetime, timezone
 
 INDEX_URL = "https://support.apple.com/en-us/100100"
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -313,6 +314,9 @@ def main():
 
     anchor = page.index('</script>', page.index('const DATA = [];'))
     page = page[:anchor] + '\n'.join(blocks) + '\n' + page[anchor:]
+    stamp = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+    page = re.sub(r'const DATA_UPDATED = "[^"]*";',
+                  'const DATA_UPDATED = "' + stamp + '";', page, count=1)
     with open(index_path, 'w', encoding='utf-8') as f:
         f.write(page)
 
