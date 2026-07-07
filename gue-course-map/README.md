@@ -15,9 +15,8 @@ Plain HTML/JS, no build step. To run locally, serve the folder:
 
 A GitHub Action fetches the GUE schedule a few times a day and publishes it as
 schedule.json, which is what the site renders — the browser never scrapes gue.com.
-The map shows upcoming classes only. The header button re-reads the latest data,
-and the last good copy is kept in localStorage so the map paints instantly on
-return visits.
+The map shows upcoming classes only. The last good copy is kept in localStorage
+so the map paints instantly on return visits.
 
 Coordinates come from geo.js, a generated location -> [lat, lng] table maintained by
 the same Action (update_geo.py): it geocodes new schedule locations, checks each hit

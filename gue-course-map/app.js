@@ -413,19 +413,10 @@
   }
 
   /* ======================= status / UI ======================= */
-  function setStatus(kind, text) {
-    const el = document.getElementById("status");
-    el.className = "status " + kind;
-    document.getElementById("statusText").textContent = text;
-    // while a fetch is in flight: spin the header refresh glyph and fade the app
-    // behind the centred-spinner veil (visual only — the map stays interactive)
-    document.getElementById("refreshBtn").classList.toggle("busy", kind === "loading");
-    document.getElementById("veil").classList.toggle("hidden", kind !== "loading");
-  }
-  function statusLive(iso) { setStatus("live", "Schedule updated " + fmtWhen(iso)); }
+  function setStatus(text) { document.getElementById("statusText").textContent = text; }
+  function statusLive(iso) { setStatus("Schedule updated " + fmtWhen(iso)); }
   function statusCached(iso, stale) {
-    setStatus(stale ? "cached" : "live",
-      (stale ? "Cached copy · " : "Schedule updated ") + fmtWhen(iso));
+    setStatus((stale ? "Cached copy · " : "Schedule updated ") + fmtWhen(iso));
   }
   function hideLoader() { document.getElementById("loader").classList.add("hidden"); }
   function showError(msg) {
@@ -484,9 +475,7 @@
     const haveCache = !!(cached && cached.classes && cached.classes.length);
     if (haveCache) { render(withFamilies(currentClasses(cached.classes)), true); hideLoader(); }  // instant paint
 
-    // Spinner/veil only for a first load or a manual refresh; with a cached paint
-    // on screen the update is quick and quiet.
-    if (force || !haveCache) setStatus("loading", haveCache ? "Refreshing…" : "Loading schedule…");
+    if (!haveCache) setStatus("Loading schedule…");
     try {
       const data = await fetchScheduleData(force);
       saveSchedCache(data);
@@ -572,7 +561,6 @@
     }
   });
   document.getElementById("loaderRetry").onclick = () => load(true);
-  document.getElementById("refreshBtn").onclick = () => load(true);
 
   // Keep the 3 marker copies centred on wherever you've panned to, so markers never
   // run out no matter how far you keep scrolling in one direction.
