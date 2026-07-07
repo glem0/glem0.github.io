@@ -62,21 +62,30 @@ def curl(url, ua, timeout=30):
 def fetch_schedule():
     # Direct first. gue.com sometimes rejects datacenter IPs (e.g. GitHub Actions
     # runners), so fall back to public mirrors that fetch it from their own network.
+    enc = urllib.parse.quote(SCHEDULE_URL, safe="")
     attempts = [
         ("direct", SCHEDULE_URL), ("direct", SCHEDULE_URL),
         ("cors.sh", "https://proxy.cors.sh/" + SCHEDULE_URL),
-        ("allorigins", "https://api.allorigins.win/raw?url=" + urllib.parse.quote(SCHEDULE_URL, safe="")),
+        ("allorigins", "https://api.allorigins.win/raw?url=" + enc),
+        ("codetabs", "https://api.codetabs.com/v1/proxy?quest=" + enc),
     ]
     for i, (name, url) in enumerate(attempts):
-        cmd = ["curl", "-sS", "--compressed", "--max-time", "40",
-               "-H", "User-Agent: " + BROWSER_UA]
+        cmd = ["curl", "-sS", "--compressed", "--http2", "--max-time", "40",
+               "-w", "%{stderr}HTTP %{http_code}, %{size_download} bytes",
+               "-H", "User-Agent: " + BROWSER_UA,
+               "-H", "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+               "-H", "Accept-Language: en-US,en;q=0.9"]
         if name == "direct":
             cmd += ["-H", "Referer: https://www.gue.com/diver-training"]
+        else:  # CORS proxies expect browser-shaped requests
+            cmd += ["-H", "Origin: https://glennmcgui.re",
+                    "-H", "Referer: https://glennmcgui.re/gue-course-map/"]
         p = subprocess.run(cmd + [url], capture_output=True, text=True)
         if p.returncode == 0 and "class-details" in p.stdout:
             if name != "direct":
                 print(f"  (fetched via {name})")
             return p.stdout
+        print(f"  fetch failed [{name}]: {p.stderr.strip()}")
         time.sleep(2 * (i + 1))
     sys.exit("ERROR: could not fetch the GUE schedule (direct and mirrors).")
 

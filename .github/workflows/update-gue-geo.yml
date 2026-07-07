@@ -2,8 +2,12 @@ name: Update GUE geo DB
 
 on:
   schedule:
-    # Daily, after the US/EU business day, so classes posted that day are picked
-    # up overnight. Odd minute to stay off Nominatim's on-the-hour crowds.
+    # Three slots a day: gue.com's CDN intermittently rejects datacenter IPs, and
+    # each run gets a fresh runner IP, so extra attempts ride out the bad draws
+    # (runs are idempotent — no changes, no commit). Odd minute avoids the
+    # on-the-hour crowd on Nominatim.
+    - cron: '40 5 * * *'
+    - cron: '40 11 * * *'
     - cron: '40 17 * * *'
   workflow_dispatch:
 
