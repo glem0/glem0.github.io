@@ -2,12 +2,10 @@ name: Update GUE schedule
 
 on:
   schedule:
-    # Three slots a day: gue.com's CDN intermittently rejects datacenter IPs, and
-    # each run gets a fresh runner IP, so extra attempts ride out the bad draws
-    # (runs are idempotent — no changes, no commit). Odd minute avoids the
-    # on-the-hour crowd on Nominatim.
-    - cron: '40 5 * * *'
-    - cron: '40 11 * * *'
+    # Daily, after the US/EU business day, so classes posted that day are picked
+    # up overnight. Odd minute to stay off Nominatim's on-the-hour crowds.
+    # (gue.com's CDN intermittently rejects datacenter IPs; the mirror fallback
+    # plus the 3-day grace below ride out the bad draws.)
     - cron: '40 17 * * *'
   workflow_dispatch:
 
@@ -39,8 +37,8 @@ jobs:
             exit "$code"
           fi
           # Exit 3 = schedule unreachable (WAF bad draw and/or mirror outages).
-          # The DB is append-only and there are three slots a day, so a missed run
-          # costs nothing — only go red once unreachability persists for 3 days.
+          # The DB is append-only and self-heals on the next run, so a missed day
+          # costs little — only go red once unreachability persists for 3 days.
           last_ok=$(gh run list --workflow update-gue-geo.yml --status success \
                       --limit 1 --json startedAt --jq '.[0].startedAt // empty' || true)
           if [ -n "$last_ok" ] && \
@@ -63,4 +61,10 @@ jobs:
           git add gue-course-map/schedule.json gue-course-map/geo.js \
                   gue-course-map/geocode_cache.json gue-course-map/reverse_cache.json
           git commit -m "gue-course-map: schedule update (${n:-0} newly located)"
+          # Cron workflows in this repo race to push — if one lands between our
+          # checkout and push, rebase our commit onto it and retry.
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase
+          done
           git push

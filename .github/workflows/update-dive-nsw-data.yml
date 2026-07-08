@@ -77,4 +77,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "dive-nsw: beachwatch snapshot"
+          # Cron workflows in this repo race to push — if one lands between our
+          # checkout and push, rebase our commit onto it and retry.
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase
+          done
           git push
