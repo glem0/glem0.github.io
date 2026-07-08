@@ -1363,5 +1363,12 @@
   "matched_query": "san francisco / monterey, california, united states",
   "approx": false,
   "verified": true
+ },
+ "san michele di pagana-rapallo, genova, italy": {
+  "lat": 44.3405803,
+  "lng": 9.2240759,
+  "display": "San Michele di Pagana, Rapallo, Genova, Liguria, 16035, Italia",
+  "matched_query": "San Michele di Pagana/Rapallo, Genova, Italy",
+  "alias_of": "san michele di pagana/rapallo, genova, italy"
  }
 }

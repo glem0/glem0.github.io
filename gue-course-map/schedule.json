@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-08T07:57:26Z",
+ "updated": "2026-07-08T13:14:10Z",
  "classes": [
   {
    "cid": "36090",
@@ -585,6 +585,15 @@
    "location": "Bergen, Norway",
    "instructor": "Gaute W Seljestad",
    "instructor_id": "67553"
+  },
+  {
+   "cid": "36716",
+   "course": "GUE Basic Fundamentals",
+   "date": "July 20, 2026",
+   "iso": "2026-07-20",
+   "location": "San Michele di pagana-Rapallo, Genova, Italy",
+   "instructor": "Niccolo Crespi",
+   "instructor_id": "6627"
   },
   {
    "cid": "35693",
