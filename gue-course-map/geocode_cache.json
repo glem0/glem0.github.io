@@ -1327,5 +1327,41 @@
   "matched_query": "nanjing, jiangsu, china",
   "approx": false,
   "verified": true
+ },
+ "austin, texas, united states": {
+  "lat": 30.2711286,
+  "lng": -97.7436995,
+  "display": "Austin, Travis County, Texas, United States",
+  "country": "us",
+  "matched_query": "austin, texas, united states",
+  "approx": false,
+  "verified": true
+ },
+ "joachimsthal, werbellinsee, brandenburg, germany": {
+  "lat": 52.9638724,
+  "lng": 13.754739,
+  "display": "Joachimsthal Kaiserbahnhof, 2, Bahnhof Werbellinsee, Jägerberg, Elsenau, Joachimsthal, Joachimsthal (Schorfheide), Barnim, Brandenburg, 16247, Deutschland",
+  "country": "de",
+  "matched_query": "joachimsthal, werbellinsee, brandenburg, germany",
+  "approx": false,
+  "verified": true
+ },
+ "joachimthal, werbellinsee, bradenburg, germany": {
+  "lat": 51.1638175,
+  "lng": 10.4478313,
+  "display": "Deutschland",
+  "country": "de",
+  "matched_query": "germany",
+  "approx": true,
+  "verified": true
+ },
+ "san francisco / monterey, california, united states": {
+  "lat": 37.7331368,
+  "lng": -122.465438,
+  "display": "Monterey Boulevard & San Anselmo Avenue, Monterey Boulevard, Saint Francis Wood, San Francisco, California, 94127, United States",
+  "country": "us",
+  "matched_query": "san francisco / monterey, california, united states",
+  "approx": false,
+  "verified": true
  }
 }
