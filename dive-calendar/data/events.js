@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-07-08T09:09:23+10:00",
+ "generated_at": "2026-07-09T04:56:20+10:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-07-01",
@@ -13,7 +13,7 @@ window.__DIVE_DATA__ =
    "short": "Abyss",
    "url": "https://www.abyss.com.au/sydney-dive-calendar",
    "status": "ok",
-   "event_count": 187
+   "event_count": 188
   },
   {
    "id": "frogdive",
@@ -45,7 +45,7 @@ window.__DIVE_DATA__ =
    "short": "ProDive",
    "url": "https://www.prodive.com.au/Calendar.asp?Scubadive=Sydney",
    "status": "ok",
-   "event_count": 420
+   "event_count": 418
   },
   {
    "id": "divecharters",
@@ -112,36 +112,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-07-04#460@book@",
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
-  },
-  {
-   "id": "prodive-c3b8d4dd15f9",
-   "source": "prodive",
-   "title": "Scuba Hire Click & Collect",
-   "start": "2026-07-08T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
-   "location": "ProDive Manly",
-   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
-  },
-  {
-   "id": "prodive-c3ea0379a35c",
-   "source": "prodive",
-   "title": "PRO DIVE Open Water Weekday Scuba Diving Course",
-   "start": "2026-07-08T18:30+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Openwater+Courses/PRO+DIVE+Open+Water+Weekday+Scuba+Diving+Course+-+Sydney+-+Alexandria/1159",
-   "location": "ProDive Alexandria",
-   "description": "$299.00 · Dive Course to 20m [Beginner Level] Multiple Start Dates Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
-  },
-  {
-   "id": "prodive-85c719cbcb8e",
-   "source": "prodive",
-   "title": "PRO DIVE Openwater Weekday Scuba Diving Course",
-   "start": "2026-07-08T18:30+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Openwater+Courses/PRO+DIVE+Openwater+Weekday+Scuba+Diving+Course+-+Sydney+-+Manly/1208",
-   "location": "ProDive Manly",
-   "description": "$299.00 · Dive Course to 20m [Beginner Level] Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
    "id": "divecharters-ac74d8087aeb",
@@ -309,14 +279,6 @@ window.__DIVE_DATA__ =
    "description": "$399.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
-   "id": "divebondi-604dce4e2336",
-   "source": "divebondi",
-   "title": "GUE Doubles Primer",
-   "start": "2026-07-11",
-   "all_day": true,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=557969&preferredDate=2026-07-11&preferredTime=All+day&catalogId=597076"
-  },
-  {
    "id": "prodive-703532a5dd90",
    "source": "prodive",
    "title": "Sydney Double Boat Dive",
@@ -345,20 +307,20 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=422369&preferredDate=2026-07-11&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-94333328b1d3",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-07-11T08:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-07-11&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-50a84e1efd8a",
    "source": "divebondi",
    "title": "Refresher Course",
    "start": "2026-07-11T08:00+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-07-11&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-94333328b1d3",
+   "source": "divebondi",
+   "title": "Guided Shore Dive",
+   "start": "2026-07-11T08:00+10:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-07-11&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "prodive-24a65e95f053",
@@ -635,9 +597,9 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · Seal Diving · Playful fur seals swirl around you with possible whales and rays."
   },
   {
-   "id": "divesydney-4e99ce5eed3c",
+   "id": "divesydney-d229de7268a3",
    "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
+   "title": "Discover Scuba Diving - PADI (sold out)",
    "start": "2026-07-12T14:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-07-12&preferredTime=2%3A00+PM&catalogId=494484"
@@ -1199,20 +1161,20 @@ window.__DIVE_DATA__ =
    "description": "$199.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Dee Why Wide** Rating: Advanced Diver (30m) Depth: 34m"
   },
   {
-   "id": "divebondi-bafe4b7ad104",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-07-19T08:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-07-19&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-584363bab59a",
    "source": "divebondi",
    "title": "PADI Open Water Diver Course",
    "start": "2026-07-19T08:00+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-07-19&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-bafe4b7ad104",
+   "source": "divebondi",
+   "title": "Guided Shore Dive",
+   "start": "2026-07-19T08:00+10:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-07-19&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "prodive-13a9da3afd06",
@@ -4714,6 +4676,16 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-08-26&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
+   "id": "prodive-bfb08be34ed7",
+   "source": "prodive",
+   "title": "Rescue Diver Course",
+   "start": "2026-08-26T09:00+10:00",
+   "all_day": false,
+   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Rescue+Diver/Rescue+Diver+Course+-+Sydney+-+Alexandria/213",
+   "location": "ProDive Alexandria",
+   "description": "$499.00 · Our Rescue Course is the one of the most interesting and enjoyable diving courses which really can boost your confidence levels and improve your dive knowledge of how to prevent and deal with emergency or stressful diving situations"
+  },
+  {
    "id": "prodive-a202d77561b7",
    "source": "prodive",
    "title": "Scuba Hire Click & Collect",
@@ -5500,6 +5472,14 @@ window.__DIVE_DATA__ =
    "all_day": true,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-04#372@book@",
    "description": "A$199.00"
+  },
+  {
+   "id": "divebondi-a342392eeaac",
+   "source": "divebondi",
+   "title": "Guided Bushrangers Bay",
+   "start": "2026-09-04T06:30+10:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-09-04&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
    "id": "divecharters-2bb9b4d3a737",
@@ -6928,20 +6908,20 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-09-19&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-624de5fe3c07",
-   "source": "divebondi",
-   "title": "PADI Rescue Diver Course",
-   "start": "2026-09-19T08:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=432551&preferredDate=2026-09-19&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-8fdc80e3f63a",
    "source": "divebondi",
    "title": "Refresher Course",
    "start": "2026-09-19T08:00+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-09-19&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-624de5fe3c07",
+   "source": "divebondi",
+   "title": "PADI Rescue Diver Course",
+   "start": "2026-09-19T08:00+10:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=432551&preferredDate=2026-09-19&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "prodive-f9308b8c5143",
@@ -7647,20 +7627,20 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-09-26&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-901f1944fe06",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-09-26T08:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-09-26&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-0159bd83a044",
    "source": "divebondi",
    "title": "GUE Basic Fundamentals Course (sold out)",
    "start": "2026-09-26T08:00+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=689880&preferredDate=2026-09-26&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-901f1944fe06",
+   "source": "divebondi",
+   "title": "Guided Shore Dive",
+   "start": "2026-09-26T08:00+10:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-09-26&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "prodive-cf4ce5868b99",
@@ -8040,20 +8020,20 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=502316&preferredDate=2026-09-30&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-adfbbe69c072",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-09-30T09:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-09-30&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-1b9d786ebef5",
    "source": "divebondi",
    "title": "Refresher Course",
    "start": "2026-09-30T09:00+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-09-30&preferredTime=9%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-adfbbe69c072",
+   "source": "divebondi",
+   "title": "Guided Shore Dive",
+   "start": "2026-09-30T09:00+10:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-09-30&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
    "id": "prodive-af7f662475e0",
@@ -10928,6 +10908,15 @@ window.__DIVE_DATA__ =
    "start": "2026-11-07T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-07&preferredTime=2%3A30+PM&catalogId=494484"
+  },
+  {
+   "id": "abyss-0194d17abffc",
+   "source": "abyss",
+   "title": "Christmas Party 2026!!!",
+   "start": "2026-11-07T19:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/social-events",
+   "description": "$99.00 · Social Events · Christmas Party 2026!!!"
   },
   {
    "id": "divecharters-fad51d8ce2ee",
