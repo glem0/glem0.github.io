@@ -123,6 +123,7 @@ window.GUE_GEO = {
 "pg, mindoro occidental, philippines":[13.50658,120.93319],
 "pg, philippines":[13.50658,120.93319],
 "pingtung, taiwan":[22.6828,120.48793],
+"plano, texas, united states":[33.01368,-96.69251],
 "playa del carmen, mexico":[20.64611,-87.0809],
 "playa del carmen, méxico, mexico":[20.64611,-87.0809],
 "playa del carmen, quintana roo, mexico":[20.64611,-87.0809],

@@ -1370,5 +1370,14 @@
   "display": "San Michele di Pagana, Rapallo, Genova, Liguria, 16035, Italia",
   "matched_query": "San Michele di Pagana/Rapallo, Genova, Italy",
   "alias_of": "san michele di pagana/rapallo, genova, italy"
+ },
+ "plano, texas, united states": {
+  "lat": 33.0136764,
+  "lng": -96.6925096,
+  "display": "Plano, Collin County, Texas, United States",
+  "country": "us",
+  "matched_query": "plano, texas, united states",
+  "approx": false,
+  "verified": true
  }
 }

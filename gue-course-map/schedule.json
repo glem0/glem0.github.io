@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-08T13:14:10Z",
+ "updated": "2026-07-08T19:54:01Z",
  "classes": [
   {
    "cid": "36090",
@@ -1541,6 +1541,15 @@
    "instructor_id": "23172"
   },
   {
+   "cid": "36718",
+   "course": "Doubles Primer",
+   "date": "August 8, 2026",
+   "iso": "2026-08-08",
+   "location": "Plano, Texas, United States",
+   "instructor": "Elon Mehr",
+   "instructor_id": "66591"
+  },
+  {
    "cid": "36658",
    "course": "GUE Performance Diver",
    "date": "August 8, 2026",
@@ -1629,6 +1638,15 @@
    "location": "Cala Gonone, Italy",
    "instructor": "Ricardo Constantino",
    "instructor_id": "1591"
+  },
+  {
+   "cid": "36719",
+   "course": "Cave Diver 1",
+   "date": "August 10, 2026",
+   "iso": "2026-08-10",
+   "location": "playa del carmen, Quintana Roo, Mexico",
+   "instructor": "Marcelin Nebenhaus",
+   "instructor_id": "73393"
   },
   {
    "cid": "36288",
@@ -1973,6 +1991,15 @@
    "instructor_id": "10004"
   },
   {
+   "cid": "36723",
+   "course": "GUE Basic Fundamentals",
+   "date": "August 17, 2026",
+   "iso": "2026-08-17",
+   "location": "playa del carmen, Quintana Roo, Mexico",
+   "instructor": "Marcelin Nebenhaus",
+   "instructor_id": "73393"
+  },
+  {
    "cid": "36626",
    "course": "GUE Performance Diver",
    "date": "August 17, 2026",
@@ -1998,6 +2025,15 @@
    "location": "Yekaterinburg, Sverdlovskaya (Yekaterinburg), Russia",
    "instructor": "Sergey Porkhachev",
    "instructor_id": "3666"
+  },
+  {
+   "cid": "36722",
+   "course": "GUE Technical Fundamentals",
+   "date": "August 17, 2026",
+   "iso": "2026-08-17",
+   "location": "playa del carmen, Quintana Roo, Mexico",
+   "instructor": "Marcelin Nebenhaus",
+   "instructor_id": "73393"
   },
   {
    "cid": "35365",
@@ -2250,6 +2286,15 @@
    "location": "Bali, Indonesia",
    "instructor": "Gemma Thomas",
    "instructor_id": "11724"
+  },
+  {
+   "cid": "36720",
+   "course": "Cave Diver 1",
+   "date": "August 24, 2026",
+   "iso": "2026-08-24",
+   "location": "playa del carmen, Quintana Roo, Mexico",
+   "instructor": "Marcelin Nebenhaus",
+   "instructor_id": "73393"
   },
   {
    "cid": "36548",
@@ -3132,6 +3177,15 @@
    "location": "Dahab, Janub Sina', Egypt",
    "instructor": "Sameh Sokar",
    "instructor_id": "18431"
+  },
+  {
+   "cid": "36721",
+   "course": "Cave Diver 1",
+   "date": "September 16, 2026",
+   "iso": "2026-09-16",
+   "location": "playa del carmen, Quintana Roo, Mexico",
+   "instructor": "Marcelin Nebenhaus",
+   "instructor_id": "73393"
   },
   {
    "cid": "35578",
