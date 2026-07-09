@@ -137,7 +137,7 @@ body {
 }
 .search-box input {
   width: 100%;
-  padding: 8px 12px 8px 36px;
+  padding: 8px 32px 8px 36px;
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 6px;
@@ -148,6 +148,23 @@ body {
 }
 .search-box input:focus { border-color: var(--accent); }
 .search-box input::placeholder { color: var(--text-faint); }
+.search-box .clear-search {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 16px;
+  line-height: 1;
+  padding: 4px 6px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.search-box .clear-search:hover { color: var(--text); background: var(--chip); }
+/* hidden while the input is empty (placeholder visible) */
+.search-box input:placeholder-shown ~ .clear-search { display: none; }
 .search-box .icon {
   position: absolute;
   left: 10px;
@@ -262,13 +279,17 @@ select:focus { border-color: var(--accent); }
   text-decoration: none;
   font-family: "SF Mono", Menlo, monospace;
   font-size: 12px;
+  /* reserve highlight space so hover doesn't change layout */
+  padding: 0 3px;
+  margin: 0 -3px;
+  border-radius: 3px;
 }
 .cve-link:hover { text-decoration: underline; }
 .cve-link[data-cve] { cursor: pointer; }
 tr.cve-hover-match { background: var(--cve-match-bg) !important; }
 tr.cve-hover-match td { background: var(--cve-match-bg) !important; }
-.cve-link.cve-hover-source { background: var(--cve-src-bg); border-radius: 3px; padding: 0 3px; }
-.cve-link.cve-hover-peer { background: var(--cve-peer-bg); border-radius: 3px; padding: 0 3px; color: var(--cve-peer-fg); }
+.cve-link.cve-hover-source { background: var(--cve-src-bg); }
+.cve-link.cve-hover-peer { background: var(--cve-peer-bg); color: var(--cve-peer-fg); }
 .desc { color: var(--text-muted); line-height: 1.4; }
 .no-results {
   text-align: center;
@@ -323,7 +344,8 @@ tr.cve-hover-match td { background: var(--cve-match-bg) !important; }
   .vuln-table td .os-badge { margin: 0; }
   .vuln-table td.desc { margin-bottom: 6px; }
   .vuln-table td br { display: none; }
-  .vuln-table td .cve-link { display: inline-block; margin: 0 10px 2px 0; }
+  /* left -3px cancels the base padding; 7px + 3px padding keeps the 10px gap */
+  .vuln-table td .cve-link { display: inline-block; margin: 0 7px 2px -3px; }
   .date-cell { margin-top: 2px; font-size: 11px; color: var(--text-faint); }
 }
 </style>
@@ -342,6 +364,7 @@ tr.cve-hover-match td { background: var(--cve-match-bg) !important; }
     <div class="search-box">
       <span class="icon">&#x1F50D;</span>
       <input type="text" id="searchInput" placeholder="Keywords..">
+      <button type="button" class="clear-search" id="clearSearch" title="Clear search" aria-label="Clear search">&#x2715;</button>
     </div>
     <select id="osFilter">
       <option value="all">All Platforms</option>
@@ -6677,9 +6700,20 @@ function init() {
 
   // Event listeners
   let searchDebounce = null;
-  document.getElementById('searchInput').addEventListener('input', () => {
+  const searchInput = document.getElementById('searchInput');
+  searchInput.addEventListener('input', () => {
     clearTimeout(searchDebounce);
     searchDebounce = setTimeout(render, 120);
+  });
+  const clearSearch = () => {
+    clearTimeout(searchDebounce);
+    searchInput.value = '';
+    render();
+    searchInput.focus();
+  };
+  document.getElementById('clearSearch').addEventListener('click', clearSearch);
+  searchInput.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && searchInput.value) clearSearch();
   });
   document.getElementById('osFilter').addEventListener('change', render);
   document.getElementById('versionFilter').addEventListener('change', render);
