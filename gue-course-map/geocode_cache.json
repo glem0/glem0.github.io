@@ -1379,5 +1379,20 @@
   "matched_query": "plano, texas, united states",
   "approx": false,
   "verified": true
+ },
+ "cebu, philippines": {
+  "lat": null,
+  "lng": null,
+  "display": ""
+ },
+ "oslo/vestfold, oslo, norway": {
+  "lat": null,
+  "lng": null,
+  "display": ""
+ },
+ "sabang, philippines": {
+  "lat": null,
+  "lng": null,
+  "display": ""
  }
 }

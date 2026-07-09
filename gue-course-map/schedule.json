@@ -1,32 +1,23 @@
 {
- "updated": "2026-07-08T19:54:01Z",
+ "updated": "2026-07-09T19:11:34Z",
  "classes": [
   {
-   "cid": "36090",
-   "course": "CCR Fundamentals: Symbios",
-   "date": "July 9, 2026",
-   "iso": "2026-07-09",
-   "location": "Lapu Lapu, Philippines",
-   "instructor": "Jimmy Choo",
-   "instructor_id": "15307"
+   "cid": "36728",
+   "course": "Doubles Primer",
+   "date": "July 10, 2026",
+   "iso": "2026-07-10",
+   "location": "Hangzhou, Zhejiang, China",
+   "instructor": "Hui Jin",
+   "instructor_id": "10441"
   },
   {
-   "cid": "34922",
-   "course": "GUE Performance Diver",
-   "date": "July 9, 2026",
-   "iso": "2026-07-09",
-   "location": "Glavotok, Istria county, Croatia",
-   "instructor": "Erik Wurz",
-   "instructor_id": "25873"
-  },
-  {
-   "cid": "36709",
-   "course": "Gas Blender",
-   "date": "July 9, 2026",
-   "iso": "2026-07-09",
-   "location": "Hamburg, Hamburg, Germany",
-   "instructor": "Keith Kreitner",
-   "instructor_id": "12073"
+   "cid": "36729",
+   "course": "Doubles Primer",
+   "date": "July 10, 2026",
+   "iso": "2026-07-10",
+   "location": "Hangzhou, Zhejiang, China",
+   "instructor": "Hui Jin",
+   "instructor_id": "10441"
   },
   {
    "cid": "34669",
@@ -45,15 +36,6 @@
    "location": "Shanghai, Shanghai, China",
    "instructor": "Yanbin Wu",
    "instructor_id": "23172"
-  },
-  {
-   "cid": "36502",
-   "course": "Open Water Diver",
-   "date": "July 10, 2026",
-   "iso": "2026-07-10",
-   "location": "foshan, Guangdong, China",
-   "instructor": "Huang Weiqi",
-   "instructor_id": "23052"
   },
   {
    "cid": "36341",
@@ -342,15 +324,6 @@
    "location": "Anilao, Batangas, Philippines",
    "instructor": "Miko Zulueta",
    "instructor_id": "8228"
-  },
-  {
-   "cid": "35134",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 16, 2026",
-   "iso": "2026-07-16",
-   "location": "Lysekil , Sweden",
-   "instructor": "Annika Persson",
-   "instructor_id": "9662"
   },
   {
    "cid": "34906",
@@ -963,6 +936,15 @@
    "location": "Civitavecchia, Roma, Italy",
    "instructor": "Claudio Provenzani",
    "instructor_id": "1999"
+  },
+  {
+   "cid": "36712",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "July 25, 2026",
+   "iso": "2026-07-25",
+   "location": "Foshan, China",
+   "instructor": "Huang Weiqi",
+   "instructor_id": "23052"
   },
   {
    "cid": "36316",
@@ -1701,6 +1683,15 @@
    "location": "Cala Gonone, Nuoro, Italy",
    "instructor": "Dorota Czerny",
    "instructor_id": "2276"
+  },
+  {
+   "cid": "36502",
+   "course": "Open Water Diver",
+   "date": "August 10, 2026",
+   "iso": "2026-08-10",
+   "location": "foshan, Guangdong, China",
+   "instructor": "Huang Weiqi",
+   "instructor_id": "23052"
   },
   {
    "cid": "35173",
@@ -2558,6 +2549,15 @@
    "instructor_id": "2276"
   },
   {
+   "cid": "36727",
+   "course": "GUE Basic Fundamentals",
+   "date": "September 1, 2026",
+   "iso": "2026-09-01",
+   "location": "sabang, Philippines",
+   "instructor": "Jingwei Sun",
+   "instructor_id": "70762"
+  },
+  {
    "cid": "35837",
    "course": "Technical Diver 1",
    "date": "September 1, 2026",
@@ -2880,6 +2880,15 @@
    "location": "Skottevic, Norway",
    "instructor": "Keith Kreitner",
    "instructor_id": "12073"
+  },
+  {
+   "cid": "36730",
+   "course": "GUE Technical Fundamentals",
+   "date": "September 9, 2026",
+   "iso": "2026-09-09",
+   "location": "Oslo/vestfold, Oslo, Norway",
+   "instructor": "Marius Svanevik",
+   "instructor_id": "23382"
   },
   {
    "cid": "34501",
@@ -5285,6 +5294,15 @@
    "instructor_id": "10004"
   },
   {
+   "cid": "36725",
+   "course": "Master Diver",
+   "date": "December 7, 2026",
+   "iso": "2026-12-07",
+   "location": "Cebu, Philippines",
+   "instructor": "Gemma Thomas",
+   "instructor_id": "11724"
+  },
+  {
    "cid": "33359",
    "course": "CCR Technical Diver 2",
    "date": "December 8, 2026",
@@ -5319,6 +5337,24 @@
    "location": "Zero Gravity Dive Center - Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Laurent Dahan",
    "instructor_id": "25023"
+  },
+  {
+   "cid": "36259",
+   "course": "Doubles Primer",
+   "date": "December 12, 2026",
+   "iso": "2026-12-12",
+   "location": "foshan, Guangdong, China",
+   "instructor": "Huang Weiqi",
+   "instructor_id": "23052"
+  },
+  {
+   "cid": "36726",
+   "course": "Drysuit Primer",
+   "date": "December 12, 2026",
+   "iso": "2026-12-12",
+   "location": "Cebu, Philippines",
+   "instructor": "Gemma Thomas",
+   "instructor_id": "11724"
   },
   {
    "cid": "36465",
@@ -5362,24 +5398,6 @@
    "date": "December 14, 2026",
    "iso": "2026-12-14",
    "location": "Foshan, China",
-   "instructor": "Huang Weiqi",
-   "instructor_id": "23052"
-  },
-  {
-   "cid": "36712",
-   "course": "GUE Basic Fundamentals",
-   "date": "December 14, 2026",
-   "iso": "2026-12-14",
-   "location": "Foshan, China",
-   "instructor": "Huang Weiqi",
-   "instructor_id": "23052"
-  },
-  {
-   "cid": "36259",
-   "course": "Doubles Primer",
-   "date": "December 15, 2026",
-   "iso": "2026-12-15",
-   "location": "foshan, Guangdong, China",
    "instructor": "Huang Weiqi",
    "instructor_id": "23052"
   },
