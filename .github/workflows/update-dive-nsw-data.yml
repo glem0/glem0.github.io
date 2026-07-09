@@ -27,7 +27,7 @@ jobs:
       - name: Fetch, normalise and validate Beachwatch snapshot
         run: |
           python3 - <<'EOF'
-          import datetime, json, os, re, sys, urllib.request
+          import json, os, re, sys, urllib.request
 
           URL = 'https://api.beachwatch.nsw.gov.au/public/sites/geojson'
           PATH = 'dive-nsw/data/beachwatch.json'
@@ -46,8 +46,8 @@ jobs:
           # changes: the API stamps every response with request-time
           # timestamps (pollutionForecastTimeStamp et al) that would
           # otherwise force a commit per run, and feature order is not
-          # guaranteed. The app reads none of the timestamp fields; the
-          # top-level fetchedAt below is the only freshness signal it uses.
+          # guaranteed. The app reads none of the timestamp fields and
+          # trusts the snapshot as-is (no freshness stamp, no fallback).
           ISO_TIME = re.compile(r'^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}')
 
           def strip_times(v):
@@ -63,7 +63,8 @@ jobs:
               (f.get('properties') or {}).get('siteName') or '',
               (f.get('properties') or {}).get('id') or ''))
 
-          now = datetime.datetime.now(datetime.timezone.utc)
+          snapshot = {'source': URL, 'data': data}
+
           old = None
           if os.path.exists(PATH):
               try:
@@ -72,19 +73,13 @@ jobs:
               except Exception:
                   old = None
 
-          # Skip the commit when nothing changed and the freshness stamp is
-          # recent; re-stamp a few times a day so clients can trust fetchedAt.
-          if old and old.get('data') == data and old.get('fetchedAt'):
-              age_h = (now - datetime.datetime.fromisoformat(
-                  old['fetchedAt'].replace('Z', '+00:00'))).total_seconds() / 3600
-              if age_h < 6:
-                  print('unchanged, stamp %.1f h old, skipping' % age_h)
-                  sys.exit(0)
+          if old == snapshot:
+              print('unchanged, skipping')
+              sys.exit(0)
 
           os.makedirs(os.path.dirname(PATH), exist_ok=True)
           with open(PATH, 'w') as f:
-              json.dump({'fetchedAt': now.strftime('%Y-%m-%dT%H:%M:%SZ'),
-                         'source': URL, 'data': data}, f, indent=2, sort_keys=True)
+              json.dump(snapshot, f, indent=2, sort_keys=True)
               f.write('\n')
           print('wrote %s: %d features' % (PATH, n))
           EOF

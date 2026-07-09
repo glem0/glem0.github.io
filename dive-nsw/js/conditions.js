@@ -23,31 +23,15 @@ var Conditions = (function () {
   var WEATHER_HOURLY = ['precipitation', 'wind_speed_10m', 'wind_direction_10m', 'wind_gusts_10m',
     'temperature_2m', 'cloud_cover'];
 
-  var BEACHWATCH_URL = 'https://api.beachwatch.nsw.gov.au/public/sites/geojson';
-  /* A scheduled GitHub Action (update-dive-nsw-data.yml in the Pages repo)
-     snapshots that feed into data/beachwatch.json a few times a day, wrapped
-     as {fetchedAt, source, data}. Same origin, so no CORS and the Pages CDN
-     is one shared cache for every visitor; a stale or missing snapshot falls
-     through to the live URL and then the proxy chain. */
+  /* Beachwatch's API sends no CORS headers, so a scheduled GitHub Action
+     (update-dive-nsw-data.yml in the Pages repo) snapshots the feed into
+     data/beachwatch.json after each forecast reissue, wrapped as
+     {source, data}. Same origin, so no CORS and the Pages CDN is one
+     shared cache for every visitor. The snapshot is the only source: if
+     it can't be fetched we fall back to whatever localStorage holds,
+     else the Beachwatch panel simply doesn't render. (Means no panel
+     when developing from a checkout without a data/ dir.) */
   var BW_SNAPSHOT_URL = 'data/beachwatch.json';
-  var BW_SNAPSHOT_MAX_AGE_MS = 26 * 60 * 60 * 1000;
-  /* Beachwatch sends no CORS headers, so the browser goes through a public
-     CORS proxy (cors.sh preferred). Public data only; nothing sensitive.
-     r.jina.ai is not a raw passthrough: with Accept: application/json (a
-     CORS-safelisted header, so no preflight) it returns {data:{content}}
-     where content is the target body as a string, hence its unwrap.
-     Order is by measured behaviour (2026-07-08 headless-Chrome timing):
-     cors.sh ~2-3 s, jina ~2-4 s, corsproxy.io rejects non-dev origins but
-     does so fast (and is instant in local dev), allorigins hangs ~20 s
-     when down so it goes last as the hail-mary. */
-  var CORS_PROXIES = [
-    { wrap: function (u) { return 'https://proxy.cors.sh/' + u; } },
-    { wrap: function (u) { return 'https://r.jina.ai/' + u; },
-      init: { headers: { 'Accept': 'application/json' } },
-      unwrap: function (j) { return JSON.parse(j.data.content); } },
-    { wrap: function (u) { return 'https://corsproxy.io/?url=' + encodeURIComponent(u); } },
-    { wrap: function (u) { return 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u); } }
-  ];
 
   function zoneCsv(zones, key) {
     return zones.order.map(function (z) { return zones.points[z][key === 'lat' ? 'lat' : 'lon']; }).join(',');
@@ -102,29 +86,14 @@ var Conditions = (function () {
   function loadBeachwatch(force) {
     var hit = cacheGet('beachwatch');
     if (!force && hit && Date.now() - hit.t < BW_TTL_MS) return Promise.resolve(hit.data);
-    var attempts = [{
-      url: BW_SNAPSHOT_URL,
-      unwrap: function (j) {
-        if (!j || !j.fetchedAt || Date.now() - Date.parse(j.fetchedAt) > BW_SNAPSHOT_MAX_AGE_MS) {
-          throw new Error('snapshot stale');
-        }
-        return j.data;
-      }
-    }, { url: BEACHWATCH_URL }].concat(CORS_PROXIES.map(function (p) {
-      return { url: p.wrap(BEACHWATCH_URL), init: p.init, unwrap: p.unwrap };
-    }));
-    var i = 0;
-    function next() {
-      if (i >= attempts.length) return hit ? Promise.resolve(hit.data) : Promise.resolve(null);
-      var a = attempts[i++];
-      return fetchJson(a.url, a.init).then(function (j) {
-        if (a.unwrap) j = a.unwrap(j);
-        if (!j || !j.features || !j.features.length) throw new Error('bad payload');
-        cachePut('beachwatch', j);
-        return j;
-      }).catch(next);
-    }
-    return next();
+    return fetchJson(BW_SNAPSHOT_URL).then(function (j) {
+      j = j && j.data;
+      if (!j || !j.features || !j.features.length) throw new Error('bad payload');
+      cachePut('beachwatch', j);
+      return j;
+    }).catch(function () {
+      return hit ? hit.data : null;
+    });
   }
 
   /* ---------- tiny cache (works even if localStorage is unavailable) ---------- */

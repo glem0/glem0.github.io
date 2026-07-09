@@ -4169,6 +4169,5 @@
     ],
     "type": "FeatureCollection"
   },
-  "fetchedAt": "2026-07-09T07:44:27Z",
   "source": "https://api.beachwatch.nsw.gov.au/public/sites/geojson"
 }
