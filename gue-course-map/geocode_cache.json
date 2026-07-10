@@ -1381,18 +1381,39 @@
   "verified": true
  },
  "cebu, philippines": {
-  "lat": null,
-  "lng": null,
-  "display": ""
+  "lat": 10.47,
+  "lng": 123.83,
+  "display": "Cebu, Central Visayas, Philippines",
+  "country": "ph",
+  "matched_query": "cebu, philippines",
+  "approx": false,
+  "verified": true
  },
  "oslo/vestfold, oslo, norway": {
-  "lat": null,
-  "lng": null,
-  "display": ""
+  "lat": 59.5021807,
+  "lng": 10.5902222,
+  "display": "Oslofjorden, Østfold, Norge",
+  "country": "no",
+  "matched_query": "oslo/vestfold, norway",
+  "approx": false,
+  "verified": true
  },
  "sabang, philippines": {
-  "lat": null,
-  "lng": null,
-  "display": ""
+  "lat": 11.2473987,
+  "lng": 124.9959195,
+  "display": "Sabang, Tacloban, Eastern Visayas, 6500, Philippines",
+  "country": "ph",
+  "matched_query": "sabang, philippines",
+  "approx": false,
+  "verified": true
+ },
+ "tbd, switzerland": {
+  "lat": 46.7985624,
+  "lng": 8.2319736,
+  "display": "Schweiz/Suisse/Svizzera/Svizra",
+  "country": "ch",
+  "matched_query": "switzerland",
+  "approx": true,
+  "verified": true
  }
 }
