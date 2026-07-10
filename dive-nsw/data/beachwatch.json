@@ -487,8 +487,8 @@
         },
         "properties": {
           "id": "9cf6ec2d-8574-4814-b7db-64ca4075be20",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Bungan Beach"
         },
@@ -591,7 +591,7 @@
           "id": "4904afcf-6313-4456-9f14-cc037087dd76",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Camp Cove"
         },
         "type": "Feature"
@@ -795,7 +795,7 @@
           "id": "06e4aa12-a704-440e-a31c-ce25fcd0057f",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Clovelly Beach"
         },
         "type": "Feature"
@@ -897,7 +897,7 @@
           "id": "7d0a9388-37fc-45f4-8fb3-e60ae4d09b1d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Congwong Bay"
         },
         "type": "Feature"
@@ -931,7 +931,7 @@
           "id": "ca53919d-8e26-40b0-b8cc-edf80ec303d9",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Coogee Beach"
         },
         "type": "Feature"
@@ -1271,7 +1271,7 @@
           "id": "3d9e9c53-9ad7-45ea-9d3f-843827b6e9ce",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Fairlight Beach"
         },
         "type": "Feature"
@@ -1405,8 +1405,8 @@
         },
         "properties": {
           "id": "77556fe0-20d1-4028-9bad-d61b3e046b4c",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Freshwater Beach"
         },
@@ -1441,7 +1441,7 @@
           "id": "042af9fb-da1d-406a-a743-3da81da0a194",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Gordons Bay (East)"
         },
         "type": "Feature"
@@ -1934,7 +1934,7 @@
           "id": "8c7516d0-3f1d-4068-8e9c-0ca60af15a04",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Little Manly Cove"
         },
         "type": "Feature"
@@ -2121,7 +2121,7 @@
           "id": "8c684274-b360-417f-9feb-29b18df57628",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Manly Cove"
         },
         "type": "Feature"
@@ -2155,7 +2155,7 @@
           "id": "c2461939-5613-4c11-8ae0-7331133baf88",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Maroubra Beach"
         },
         "type": "Feature"
@@ -2306,8 +2306,8 @@
         },
         "properties": {
           "id": "dcaa6d83-f59f-463f-aae5-c687f4b0b5fb",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Mona Vale Beach"
         },
@@ -2342,7 +2342,7 @@
           "id": "18141cd1-d0ef-4858-b22a-3fcc5c84f604",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Murray Rose Pool"
         },
         "type": "Feature"
@@ -2374,8 +2374,8 @@
         },
         "properties": {
           "id": "f05ac321-7e70-4c4a-99cd-cc0f8a0acb5d",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Likely",
           "siteName": "Narrabeen Lagoon (Birdwood Park)"
         },
@@ -2493,8 +2493,8 @@
         },
         "properties": {
           "id": "7f188718-1e97-404e-81cf-1bd72927015d",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Unlikely",
           "siteName": "North Curl Curl Beach"
         },
@@ -2578,8 +2578,8 @@
         },
         "properties": {
           "id": "cdf39c61-2988-4ddd-b849-0468cb0e1873",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "North Steyne Beach"
         },
@@ -2631,7 +2631,7 @@
           "id": "c4e9e972-580e-4571-8d2d-a7c0b1fdc604",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Oak Park Beach"
         },
         "type": "Feature"
@@ -2733,7 +2733,7 @@
           "id": "29df3246-4dc4-4a19-9b01-b13fca311257",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Parsley Bay"
         },
         "type": "Feature"
@@ -2867,8 +2867,8 @@
         },
         "properties": {
           "id": "95c134b2-a834-4651-865c-03f6c9f4a54e",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Possible",
           "siteName": "Queenscliff Beach"
         },
@@ -3156,8 +3156,8 @@
         },
         "properties": {
           "id": "995753ed-db2a-4cb8-9349-922cf3312766",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Shelly Beach (Manly)"
         },
@@ -3175,7 +3175,7 @@
           "id": "d9267cc6-7983-47ce-a7ba-a9a1dd932ebb",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Shelly Beach (Sutherland)"
         },
         "type": "Feature"
@@ -3209,7 +3209,7 @@
           "id": "8754523f-35ea-473d-a656-5601d7c6d762",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Silver Beach"
         },
         "type": "Feature"
@@ -3889,7 +3889,7 @@
           "id": "aaaefe71-5959-40e0-a3a0-a620e8bb49ce",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Watsons Bay"
         },
         "type": "Feature"
