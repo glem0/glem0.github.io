@@ -3,6 +3,17 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- iOS Safari auto-zooms the page when focusing a text box whose font is under
+     16px; capping maximum-scale disables just that auto-zoom (iOS deliberately
+     still allows pinch-zoom despite the cap). Added via JS only on iOS because
+     the same cap WOULD disable pinch-zoom on Android. -->
+<script>
+if (/iPhone|iPad|iPod/.test(navigator.userAgent) ||
+    (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) {
+  document.querySelector('meta[name="viewport"]')
+    .setAttribute("content", "width=device-width, initial-scale=1.0, maximum-scale=1.0");
+}
+</script>
 <title>GUE Course Map</title>
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="apple-touch-icon" href="favicon.png">
