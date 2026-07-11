@@ -1,105 +1,6 @@
 {
- "updated": "2026-07-10T19:07:25Z",
+ "updated": "2026-07-11T18:31:29Z",
  "classes": [
-  {
-   "cid": "36080",
-   "course": "Doubles Primer",
-   "date": "July 11, 2026",
-   "iso": "2026-07-11",
-   "location": "Des Moines, Washington, United States",
-   "instructor": "James Fraser",
-   "instructor_id": "26718"
-  },
-  {
-   "cid": "35718",
-   "course": "Doubles Primer",
-   "date": "July 11, 2026",
-   "iso": "2026-07-11",
-   "location": "Shanghai, Shanghai, China",
-   "instructor": "Xiaodong Zhong",
-   "instructor_id": "23171"
-  },
-  {
-   "cid": "36739",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 11, 2026",
-   "iso": "2026-07-11",
-   "location": "LAPULAPU, Cebu, Philippines",
-   "instructor": "Lee Jong Moon",
-   "instructor_id": "20356"
-  },
-  {
-   "cid": "36319",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 11, 2026",
-   "iso": "2026-07-11",
-   "location": "Sydney, New South Wales, Australia",
-   "instructor": "Jingwei Sun",
-   "instructor_id": "70762"
-  },
-  {
-   "cid": "36576",
-   "course": "GUE Performance Diver",
-   "date": "July 11, 2026",
-   "iso": "2026-07-11",
-   "location": "Civitavecchia , Roma, Italy",
-   "instructor": "Claudio Provenzani",
-   "instructor_id": "1999"
-  },
-  {
-   "cid": "36589",
-   "course": "GUE Performance Diver",
-   "date": "July 11, 2026",
-   "iso": "2026-07-11",
-   "location": "Shanghai, Shanghai, China",
-   "instructor": "Jinhui Xiong",
-   "instructor_id": "72355"
-  },
-  {
-   "cid": "36515",
-   "course": "GUE Performance Diver",
-   "date": "July 11, 2026",
-   "iso": "2026-07-11",
-   "location": "Vobster, Somerset, United Kingdom",
-   "instructor": "Marcus Rose",
-   "instructor_id": "13875"
-  },
-  {
-   "cid": "36553",
-   "course": "GUE Performance Diver",
-   "date": "July 11, 2026",
-   "iso": "2026-07-11",
-   "location": "monaco, Monaco",
-   "instructor": "Francesco Cameli",
-   "instructor_id": "22866"
-  },
-  {
-   "cid": "33686",
-   "course": "ITC Rec 1 / Fundamentals",
-   "date": "July 11, 2026",
-   "iso": "2026-07-11",
-   "location": "Vinkeveen, Netherlands",
-   "instructor": "Jp Bresser",
-   "instructor_id": "2458"
-  },
-  {
-   "cid": "36648",
-   "course": "Open Water Diver",
-   "date": "July 11, 2026",
-   "iso": "2026-07-11",
-   "location": "Hangzhou, Zhejiang, China",
-   "instructor": "Hui Jin",
-   "instructor_id": "10441"
-  },
-  {
-   "cid": "36163",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "July 11, 2026",
-   "iso": "2026-07-11",
-   "location": "Thetford Mines, Quebec, Canada",
-   "instructor": "Martin Lessard",
-   "instructor_id": "23048"
-  },
   {
    "cid": "36731",
    "course": "CCR Technical Diver 2",
@@ -720,6 +621,15 @@
    "location": "Dahab, Janub Sina', Egypt",
    "instructor": "Ahmed Hagi",
    "instructor_id": "69051"
+  },
+  {
+   "cid": "36744",
+   "course": "GUE Performance Diver",
+   "date": "July 23, 2026",
+   "iso": "2026-07-23",
+   "location": "Shanghai, Shanghai, China",
+   "instructor": "Xiaodong Zhong",
+   "instructor_id": "23171"
   },
   {
    "cid": "36491",
@@ -5474,6 +5384,15 @@
    "instructor_id": "20747"
   },
   {
+   "cid": "36741",
+   "course": "GUE Performance Diver",
+   "date": "December 22, 2026",
+   "iso": "2026-12-22",
+   "location": "Singapore, Central Singapore, Singapore",
+   "instructor": "Coral Chua",
+   "instructor_id": "75313"
+  },
+  {
    "cid": "35712",
    "course": "Cave Diver 2",
    "date": "December 26, 2026",
@@ -5508,6 +5427,24 @@
    "location": "High Springs, United States",
    "instructor": "Stretch Aaron Altenhein",
    "instructor_id": "10004"
+  },
+  {
+   "cid": "36742",
+   "course": "Doubles Primer",
+   "date": "December 30, 2026",
+   "iso": "2026-12-30",
+   "location": "Bali, Indonesia",
+   "instructor": "Gemma Thomas",
+   "instructor_id": "11724"
+  },
+  {
+   "cid": "36743",
+   "course": "Drysuit Primer",
+   "date": "January 1, 2027",
+   "iso": "2027-01-01",
+   "location": "Bali, Indonesia",
+   "instructor": "Gemma Thomas",
+   "instructor_id": "11724"
   },
   {
    "cid": "35190",
@@ -6018,6 +5955,15 @@
    "course": "Cave Diver 2",
    "date": "April 12, 2027",
    "iso": "2027-04-12",
+   "location": "Cabo de Palos, Spain",
+   "instructor": "Ricardo Constantino",
+   "instructor_id": "1591"
+  },
+  {
+   "cid": "36740",
+   "course": "Cave Diver 2",
+   "date": "April 19, 2027",
+   "iso": "2027-04-19",
    "location": "Cabo de Palos, Spain",
    "instructor": "Ricardo Constantino",
    "instructor_id": "1591"

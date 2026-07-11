@@ -1415,5 +1415,14 @@
   "matched_query": "switzerland",
   "approx": true,
   "verified": true
+ },
+ "singapore, central singapore, singapore": {
+  "lat": 1.2959845,
+  "lng": 103.7766186,
+  "display": "National University of Singapore, one-north, Queenstown, Central Region, Singapore",
+  "country": "sg",
+  "matched_query": "singapore, central singapore, singapore",
+  "approx": false,
+  "verified": true
  }
 }

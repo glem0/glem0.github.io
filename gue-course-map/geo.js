@@ -171,6 +171,7 @@ window.GUE_GEO = {
 "siegburg , nordrhein-westfalen, germany":[50.79283,7.20708],
 "siegburg, germany":[50.79283,7.20708],
 "siegburg, nordrhein-westfalen, germany":[50.79283,7.20708],
+"singapore, central singapore, singapore":[1.29598,103.77662],
 "singapore, singapore":[1.28992,103.85191],
 "skottevic, norway":[58.12503,8.23083],
 "skottevik, norway":[58.12503,8.23083],
