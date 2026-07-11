@@ -404,7 +404,7 @@
           "id": "567a89c6-8c54-45a9-996f-ba57fae68ab5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Brighton Le Sands Baths"
         },
         "type": "Feature"
@@ -421,7 +421,7 @@
           "id": "e34aa8b8-142f-438d-ab18-bedce361e324",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Bronte Beach"
         },
         "type": "Feature"
@@ -965,7 +965,7 @@
           "id": "1cca5d42-6426-4ac9-afdf-8c0c1dfcd6dc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Copacabana Beach"
         },
         "type": "Feature"
@@ -1118,7 +1118,7 @@
           "id": "5ed93442-6ffd-4445-bfb8-1a2d16992400",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Dolls Point Baths"
         },
         "type": "Feature"
@@ -1628,7 +1628,7 @@
           "id": "4f626874-5276-48e7-8bd2-1d8976908cc5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Horderns Beach"
         },
         "type": "Feature"
@@ -1747,7 +1747,7 @@
           "id": "b407a6b2-da5b-46e4-a86d-35b1935cc83d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Kyeemagh Baths"
         },
         "type": "Feature"
@@ -1900,7 +1900,7 @@
           "id": "ed810bcd-b416-4db6-8532-9f9f406bcc11",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Lilli Pilli Baths"
         },
         "type": "Feature"
@@ -2325,7 +2325,7 @@
           "id": "2c616a2d-d12d-4444-817c-456be2d5464a",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Monterey Baths"
         },
         "type": "Feature"
@@ -2342,7 +2342,7 @@
           "id": "18141cd1-d0ef-4858-b22a-3fcc5c84f604",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Murray Rose Pool"
         },
         "type": "Feature"
@@ -2971,7 +2971,7 @@
           "id": "f3ea8946-1d49-4f06-8dcf-89aaf08705a6",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Sandringham Baths"
         },
         "type": "Feature"
@@ -3209,7 +3209,7 @@
           "id": "8754523f-35ea-473d-a656-5601d7c6d762",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Silver Beach"
         },
         "type": "Feature"
@@ -3498,7 +3498,7 @@
           "id": "ee44a257-5c65-4b12-b3de-403a60d951c3",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Tambourine Bay"
         },
         "type": "Feature"
@@ -3787,7 +3787,7 @@
           "id": "32102496-a175-44df-ba83-044eafd627bc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Wamberal Beach"
         },
         "type": "Feature"
@@ -4042,7 +4042,7 @@
           "id": "8309c06d-e9e7-4685-8afe-62d42b83a46f",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Woolwich Baths"
         },
         "type": "Feature"
