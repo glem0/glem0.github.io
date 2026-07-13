@@ -1577,7 +1577,7 @@
           "id": "2f8fd16c-2631-4f56-ae9a-3ada9dbfa8fe",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Gymea Bay Baths"
         },
         "type": "Feature"
@@ -1628,7 +1628,7 @@
           "id": "4f626874-5276-48e7-8bd2-1d8976908cc5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Horderns Beach"
         },
         "type": "Feature"
@@ -3787,7 +3787,7 @@
           "id": "32102496-a175-44df-ba83-044eafd627bc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Wamberal Beach"
         },
         "type": "Feature"
