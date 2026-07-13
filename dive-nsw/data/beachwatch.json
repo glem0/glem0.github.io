@@ -1390,7 +1390,7 @@
           "id": "8bb75641-1783-43b9-861d-df7aa0594cd2",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Frenchmans Bay"
         },
         "type": "Feature"
@@ -1611,7 +1611,7 @@
           "id": "eefcfac8-c063-47b7-9d19-0340f5fa450f",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Hayes Street Beach"
         },
         "type": "Feature"
@@ -1917,7 +1917,7 @@
           "id": "a4e51f37-7089-4f6d-b78a-85f9b84fea87",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Little Bay Beach"
         },
         "type": "Feature"
@@ -3787,7 +3787,7 @@
           "id": "32102496-a175-44df-ba83-044eafd627bc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Wamberal Beach"
         },
         "type": "Feature"
@@ -4093,7 +4093,7 @@
           "id": "c7e2681c-94dd-465b-8c87-9c5a56809c8e",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Yarra Bay"
         },
         "type": "Feature"
