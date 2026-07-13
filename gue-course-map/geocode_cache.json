@@ -1424,5 +1424,14 @@
   "matched_query": "singapore, central singapore, singapore",
   "approx": false,
   "verified": true
+ },
+ "hk, hong kong": {
+  "lat": 22.2818333,
+  "lng": 114.1582831,
+  "display": "香港 Hong Kong, 中国",
+  "country": "cn",
+  "matched_query": "hk, hong kong",
+  "approx": false,
+  "verified": false
  }
 }

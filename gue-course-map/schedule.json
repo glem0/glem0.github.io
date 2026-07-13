@@ -1,60 +1,6 @@
 {
- "updated": "2026-07-12T18:31:53Z",
+ "updated": "2026-07-13T19:02:07Z",
  "classes": [
-  {
-   "cid": "36382",
-   "course": "BLS-D & Oxygen First Aid",
-   "date": "July 13, 2026",
-   "iso": "2026-07-13",
-   "location": "Vinkeveen, Utrecht, Netherlands",
-   "instructor": "Ferry Schram",
-   "instructor_id": "14087"
-  },
-  {
-   "cid": "34880",
-   "course": "Cave Diver 2",
-   "date": "July 13, 2026",
-   "iso": "2026-07-13",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Daniel Riordan",
-   "instructor_id": "146"
-  },
-  {
-   "cid": "34776",
-   "course": "Cave Diver 2",
-   "date": "July 13, 2026",
-   "iso": "2026-07-13",
-   "location": "Sardinia, Italy",
-   "instructor": "Jon Kieren",
-   "instructor_id": "13618"
-  },
-  {
-   "cid": "36187",
-   "course": "Drysuit Primer",
-   "date": "July 13, 2026",
-   "iso": "2026-07-13",
-   "location": "Puidoux, Switzerland",
-   "instructor": "Sabine Sidi-Ali",
-   "instructor_id": "27088"
-  },
-  {
-   "cid": "36221",
-   "course": "GUE Technical Fundamentals",
-   "date": "July 13, 2026",
-   "iso": "2026-07-13",
-   "location": "High Springs, Florida, United States",
-   "instructor": "Stretch Aaron Altenhein",
-   "instructor_id": "10004"
-  },
-  {
-   "cid": "35566",
-   "course": "Technical Diver 2",
-   "date": "July 13, 2026",
-   "iso": "2026-07-13",
-   "location": "Anchorage, Alaska, United States",
-   "instructor": "Gideon Liew",
-   "instructor_id": "428"
-  },
   {
    "cid": "36546",
    "course": "DPV Diver 1",
@@ -72,6 +18,15 @@
    "location": "Puidoux, Switzerland",
    "instructor": "Sabine Sidi-Ali",
    "instructor_id": "27088"
+  },
+  {
+   "cid": "36750",
+   "course": "Doubles Primer",
+   "date": "July 14, 2026",
+   "iso": "2026-07-14",
+   "location": "hk, Hong Kong",
+   "instructor": "Siu Man Sit",
+   "instructor_id": "67279"
   },
   {
    "cid": "36566",
@@ -234,6 +189,15 @@
    "location": "Bali, Indonesia",
    "instructor": "Gemma Thomas",
    "instructor_id": "11724"
+  },
+  {
+   "cid": "36751",
+   "course": "Drysuit Primer",
+   "date": "July 18, 2026",
+   "iso": "2026-07-18",
+   "location": "Shanghai, Shanghai, China",
+   "instructor": "Yanbin Wu",
+   "instructor_id": "23172"
   },
   {
    "cid": "35924",
@@ -794,6 +758,15 @@
    "instructor_id": "1374"
   },
   {
+   "cid": "36754",
+   "course": "GUE Basic Fundamentals",
+   "date": "July 26, 2026",
+   "iso": "2026-07-26",
+   "location": "Dahab, Egypt",
+   "instructor": "Mahmoud Esmat",
+   "instructor_id": "65259"
+  },
+  {
    "cid": "36437",
    "course": "GUE Basic Fundamentals",
    "date": "July 26, 2026",
@@ -990,15 +963,6 @@
    "location": "Sydney, New South Wales, Australia",
    "instructor": "Sebastien Landat",
    "instructor_id": "22757"
-  },
-  {
-   "cid": "36183",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 1, 2026",
-   "iso": "2026-08-01",
-   "location": "Montreal, Quebec, Canada",
-   "instructor": "Imad Farhat",
-   "instructor_id": "19268"
   },
   {
    "cid": "36028",
@@ -2099,6 +2063,15 @@
    "instructor_id": "25023"
   },
   {
+   "cid": "36752",
+   "course": "Rescue Primer",
+   "date": "August 23, 2026",
+   "iso": "2026-08-23",
+   "location": "Vinkeveen, Utrecht, Netherlands",
+   "instructor": "Ferry Schram",
+   "instructor_id": "14087"
+  },
+  {
    "cid": "35071",
    "course": "Technical Diver 1",
    "date": "August 23, 2026",
@@ -3017,15 +2990,6 @@
    "instructor_id": "1591"
   },
   {
-   "cid": "36402",
-   "course": "DPV Diver 1",
-   "date": "September 15, 2026",
-   "iso": "2026-09-15",
-   "location": "Protaras, Famagusta, Cyprus",
-   "instructor": "Imad Farhat",
-   "instructor_id": "19268"
-  },
-  {
    "cid": "36704",
    "course": "GUE Basic Fundamentals",
    "date": "September 15, 2026",
@@ -3672,15 +3636,6 @@
    "location": "Victoria, British Columbia, Canada",
    "instructor": "Jason Cook",
    "instructor_id": "24473"
-  },
-  {
-   "cid": "36184",
-   "course": "GUE Technical Fundamentals",
-   "date": "October 3, 2026",
-   "iso": "2026-10-03",
-   "location": "Montreal, Quebec, Canada",
-   "instructor": "Imad Farhat",
-   "instructor_id": "19268"
   },
   {
    "cid": "35119",
@@ -4988,15 +4943,6 @@
    "instructor_id": "2021"
   },
   {
-   "cid": "36401",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "November 26, 2026",
-   "iso": "2026-11-26",
-   "location": "Protaras, Famagusta, Cyprus",
-   "instructor": "Imad Farhat",
-   "instructor_id": "19268"
-  },
-  {
    "cid": "36309",
    "course": "GUE Performance Diver",
    "date": "November 27, 2026",
@@ -5094,15 +5040,6 @@
    "location": "High Springs , Florida, United States",
    "instructor": "Stretch Aaron Altenhein",
    "instructor_id": "10004"
-  },
-  {
-   "cid": "36182",
-   "course": "GUE Technical Fundamentals",
-   "date": "December 3, 2026",
-   "iso": "2026-12-03",
-   "location": "Larnaca, Cyprus",
-   "instructor": "Imad Farhat",
-   "instructor_id": "19268"
   },
   {
    "cid": "36680",
