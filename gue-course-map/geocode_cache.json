@@ -1433,5 +1433,41 @@
   "matched_query": "hk, hong kong",
   "approx": false,
   "verified": false
+ },
+ "bonaire, florida, united states": {
+  "lat": 27.908065,
+  "lng": -82.7545621,
+  "display": "Bonaire, Largo, Pinellas County, Florida, 33771, United States",
+  "country": "us",
+  "matched_query": "bonaire, florida, united states",
+  "approx": false,
+  "verified": true
+ },
+ "busan, pusan-gwangyoksi, korea (south)": {
+  "lat": 35.1799528,
+  "lng": 129.0752365,
+  "display": "부산광역시, 대한민국",
+  "country": "kr",
+  "matched_query": "busan, korea (south)",
+  "approx": false,
+  "verified": true
+ },
+ "seogwipo, cheju-do, korea (south)": {
+  "lat": 33.252845,
+  "lng": 126.5610278,
+  "display": "서귀포시, 제주특별자치도, 대한민국",
+  "country": "kr",
+  "matched_query": "seogwipo, cheju-do, korea (south)",
+  "approx": false,
+  "verified": true
+ },
+ "tech korea, korea (south)": {
+  "lat": 36.7635507,
+  "lng": 127.281751,
+  "display": "한국기술교육대학교, 1600, 충절로, 동남구, 천안시, 충청남도, 31253, 대한민국",
+  "country": "kr",
+  "matched_query": "tech korea, korea (south)",
+  "approx": false,
+  "verified": true
  }
 }
