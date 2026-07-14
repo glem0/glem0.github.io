@@ -1322,7 +1322,7 @@
           "id": "988c4cd3-eeff-4d2d-813c-2731490b0f01",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Foreshores Beach"
         },
         "type": "Feature"
@@ -1628,7 +1628,7 @@
           "id": "4f626874-5276-48e7-8bd2-1d8976908cc5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Horderns Beach"
         },
         "type": "Feature"
