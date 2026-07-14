@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-14T04:57:04+10:00",
+ "generated_at": "2026-07-15T04:38:42+10:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-07-01",
@@ -28,7 +28,7 @@
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 189
+   "event_count": 187
   },
   {
    "id": "divesydney",
@@ -44,7 +44,7 @@
    "short": "ProDive",
    "url": "https://www.prodive.com.au/Calendar.asp?Scubadive=Sydney",
    "status": "ok",
-   "event_count": 432
+   "event_count": 431
   },
   {
    "id": "divecharters",
@@ -52,7 +52,7 @@
    "short": "Charters",
    "url": "https://www.sydneydivecharters.com.au/bookings/",
    "status": "ok",
-   "event_count": 179
+   "event_count": 178
   }
  ],
  "events": [
@@ -149,32 +149,6 @@
    "url": "https://frogdive.eventcalendarapp.com/u/18702/448384",
    "location": "Fairy Bower",
    "description": "Fairy Bower\nDive Level Green – beginner diver friendly\nAverage Depth 6m | Max...."
-  },
-  {
-   "id": "prodive-b5029761f164",
-   "source": "prodive",
-   "title": "Scuba Hire Click & Collect",
-   "start": "2026-07-14T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
-   "location": "ProDive Manly",
-   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
-  },
-  {
-   "id": "divebondi-c659856180bf",
-   "source": "divebondi",
-   "title": "Refresher Course",
-   "start": "2026-07-15T09:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-07-15&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-f4c2e533042b",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-07-15T09:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-07-15&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
    "id": "prodive-4cb0405a9f17",
@@ -609,15 +583,6 @@
    "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again."
   },
   {
-   "id": "divecharters-1b8674a5ed99",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-07-18T12:30+10:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-07-18#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
-  },
-  {
    "id": "divesydney-826baf90fb0b",
    "source": "divesydney",
    "title": "Discover Scuba Diving - PADI",
@@ -644,20 +609,20 @@
    "description": "$199.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Dee Why Wide** Rating: Advanced Diver (30m) Depth: 34m"
   },
   {
-   "id": "divebondi-bafe4b7ad104",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-07-19T08:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-07-19&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-584363bab59a",
    "source": "divebondi",
    "title": "PADI Open Water Diver Course",
    "start": "2026-07-19T08:00+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-07-19&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-bafe4b7ad104",
+   "source": "divebondi",
+   "title": "Guided Shore Dive",
+   "start": "2026-07-19T08:00+10:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-07-19&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "prodive-13a9da3afd06",
@@ -687,9 +652,9 @@
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=647260&preferredDate=2026-07-19&preferredTime=8%3A30+AM&catalogId=597076"
   },
   {
-   "id": "abyss-745665efab4f",
+   "id": "abyss-cb35ac00e35e",
    "source": "abyss",
-   "title": "Martin Island Seals",
+   "title": "Martin Island Seals (sold out)",
    "start": "2026-07-19T09:00+10:00",
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/scuba-dive-with-seals",
@@ -713,9 +678,9 @@
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-07-19&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
-   "id": "divesydney-6fd08e1b6a05",
+   "id": "divesydney-91cdea30b089",
    "source": "divesydney",
-   "title": "Scuba Refresher",
+   "title": "Scuba Refresher (sold out)",
    "start": "2026-07-19T09:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-07-19&preferredTime=9%3A00+AM&catalogId=494484"
@@ -875,20 +840,20 @@
    "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
   },
   {
-   "id": "divebondi-cb777c6d144d",
-   "source": "divebondi",
-   "title": "Refresher Course",
-   "start": "2026-07-22T09:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-07-22&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-84eac47e6a71",
    "source": "divebondi",
    "title": "Guided Shore Dive",
    "start": "2026-07-22T09:00+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-07-22&preferredTime=9%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-cb777c6d144d",
+   "source": "divebondi",
+   "title": "Refresher Course",
+   "start": "2026-07-22T09:00+10:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-07-22&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
    "id": "prodive-4b23e3b0bba8",
@@ -1153,20 +1118,20 @@
    "description": "$130.00 · Boat Dives · Barrens Hut 30m Boat- MUST BE ADVANCED"
   },
   {
-   "id": "divebondi-dc69c4ffa13b",
-   "source": "divebondi",
-   "title": "Refresher Course",
-   "start": "2026-07-25T08:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-07-25&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-93ae2c9df2eb",
    "source": "divebondi",
    "title": "Guided Shore Dive",
    "start": "2026-07-25T08:00+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-07-25&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-dc69c4ffa13b",
+   "source": "divebondi",
+   "title": "Refresher Course",
+   "start": "2026-07-25T08:00+10:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-07-25&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "divesydney-3e0e3bdc0f1d",
