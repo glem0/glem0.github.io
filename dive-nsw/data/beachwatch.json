@@ -317,8 +317,8 @@
         },
         "properties": {
           "id": "8990825d-b48c-443f-9047-862a0b986621",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Possible",
           "siteName": "Boat Harbour"
         },
@@ -1915,8 +1915,8 @@
         },
         "properties": {
           "id": "a4e51f37-7089-4f6d-b78a-85f9b84fea87",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Little Bay Beach"
         },
@@ -3258,8 +3258,8 @@
         },
         "properties": {
           "id": "b0513e57-bc00-46c6-b560-20d9a2207c35",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "South Cronulla Beach"
         },
