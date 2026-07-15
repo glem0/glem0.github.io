@@ -115,7 +115,7 @@
           "id": "c2d5eaf3-173d-4aa4-8fbc-7bfce5c637eb",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Bar Beach (Newcastle)"
         },
         "type": "Feature"
@@ -2206,7 +2206,7 @@
           "id": "8d14d393-3cf7-43bd-86d4-a03190b323d1",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Merewether Beach"
         },
         "type": "Feature"
@@ -3532,7 +3532,7 @@
           "id": "c8fc3c50-4d0f-48c8-939a-ee100892dee8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Terrigal Beach"
         },
         "type": "Feature"
