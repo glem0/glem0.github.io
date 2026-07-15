@@ -1469,5 +1469,14 @@
   "matched_query": "tech korea, korea (south)",
   "approx": false,
   "verified": true
+ },
+ "gangneung, korea (south)": {
+  "lat": 37.7525313,
+  "lng": 128.8759523,
+  "display": "강릉시, 강원특별자치도, 대한민국",
+  "country": "kr",
+  "matched_query": "gangneung, korea (south)",
+  "approx": false,
+  "verified": true
  }
 }

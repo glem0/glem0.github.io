@@ -1,33 +1,6 @@
 {
- "updated": "2026-07-14T18:45:06Z",
+ "updated": "2026-07-15T18:42:30Z",
  "classes": [
-  {
-   "cid": "35771",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 15, 2026",
-   "iso": "2026-07-15",
-   "location": "Bali, Indonesia",
-   "instructor": "Gemma Thomas",
-   "instructor_id": "11724"
-  },
-  {
-   "cid": "34906",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 15, 2026",
-   "iso": "2026-07-15",
-   "location": "Puidoux, Switzerland",
-   "instructor": "Sabine Sidi-Ali",
-   "instructor_id": "27088"
-  },
-  {
-   "cid": "30756",
-   "course": "Technical Diver 1",
-   "date": "July 15, 2026",
-   "iso": "2026-07-15",
-   "location": "Krnica, Istria county, Croatia",
-   "instructor": "Sven Nelles",
-   "instructor_id": "7698"
-  },
   {
    "cid": "36587",
    "course": "Doubles Primer",
@@ -72,6 +45,15 @@
    "location": "Cabo de Palos, Spain",
    "instructor": "Ricardo Constantino",
    "instructor_id": "1591"
+  },
+  {
+   "cid": "36768",
+   "course": "Doubles Primer",
+   "date": "July 17, 2026",
+   "iso": "2026-07-17",
+   "location": "Tech Korea, Korea (South)",
+   "instructor": "Su Eun Kim",
+   "instructor_id": "14655"
   },
   {
    "cid": "35410",
@@ -119,6 +101,15 @@
    "instructor_id": "18760"
   },
   {
+   "cid": "36773",
+   "course": "Technical Diver 1",
+   "date": "July 17, 2026",
+   "iso": "2026-07-17",
+   "location": "Gangneung, Korea (South)",
+   "instructor": "Jaehun Sim",
+   "instructor_id": "14279"
+  },
+  {
    "cid": "35966",
    "course": "Upgrade to GUE Technical Fundamentals",
    "date": "July 17, 2026",
@@ -126,15 +117,6 @@
    "location": "Bali, Indonesia",
    "instructor": "Gemma Thomas",
    "instructor_id": "11724"
-  },
-  {
-   "cid": "36760",
-   "course": "Doubles Primer",
-   "date": "July 18, 2026",
-   "iso": "2026-07-18",
-   "location": "Tech Korea, Korea (South)",
-   "instructor": "Su Eun Kim",
-   "instructor_id": "14655"
   },
   {
    "cid": "36751",
@@ -216,15 +198,6 @@
    "location": "Gramat, Lot, France",
    "instructor": "Arthur Nguyen-Kim",
    "instructor_id": "26064"
-  },
-  {
-   "cid": "36225",
-   "course": "Cave Diver 2",
-   "date": "July 19, 2026",
-   "iso": "2026-07-19",
-   "location": "Cala Gonone, Nuoro, Italy",
-   "instructor": "Sven Nelles",
-   "instructor_id": "7698"
   },
   {
    "cid": "34923",
@@ -432,15 +405,6 @@
    "location": "Glavotok, Istria county, Croatia",
    "instructor": "Erik Wurz",
    "instructor_id": "25873"
-  },
-  {
-   "cid": "34212",
-   "course": "GUE Performance Diver",
-   "date": "July 22, 2026",
-   "iso": "2026-07-22",
-   "location": "XR Explorers, Kuwait",
-   "instructor": "Yehia Ahmed",
-   "instructor_id": "68430"
   },
   {
    "cid": "35761",
@@ -767,6 +731,15 @@
    "instructor_id": "20747"
   },
   {
+   "cid": "35346",
+   "course": "GUE Technical Fundamentals",
+   "date": "July 27, 2026",
+   "iso": "2026-07-27",
+   "location": "Brockville, Canada",
+   "instructor": "Heison Chak",
+   "instructor_id": "13808"
+  },
+  {
    "cid": "36145",
    "course": "Recreational Dive Leader",
    "date": "July 27, 2026",
@@ -911,15 +884,6 @@
    "instructor_id": "15389"
   },
   {
-   "cid": "36767",
-   "course": "Doubles Primer",
-   "date": "August 1, 2026",
-   "iso": "2026-08-01",
-   "location": "Singapore, Singapore",
-   "instructor": "Zicong Wang",
-   "instructor_id": "73430"
-  },
-  {
    "cid": "35812",
    "course": "Drysuit Primer",
    "date": "August 1, 2026",
@@ -927,6 +891,15 @@
    "location": "Sydney, New South Wales, Australia",
    "instructor": "Sebastien Landat",
    "instructor_id": "22757"
+  },
+  {
+   "cid": "36183",
+   "course": "GUE Basic Fundamentals",
+   "date": "August 1, 2026",
+   "iso": "2026-08-01",
+   "location": "Montreal, Quebec, Canada",
+   "instructor": "Imad Farhat",
+   "instructor_id": "19268"
   },
   {
    "cid": "36028",
@@ -2243,6 +2216,15 @@
    "instructor_id": "20059"
   },
   {
+   "cid": "36771",
+   "course": "Doubles Primer",
+   "date": "August 30, 2026",
+   "iso": "2026-08-30",
+   "location": "Sydney, New South Wales, Australia",
+   "instructor": "Sebastien Landat",
+   "instructor_id": "22757"
+  },
+  {
    "cid": "36559",
    "course": "Technical Diver 1",
    "date": "August 30, 2026",
@@ -2765,6 +2747,15 @@
    "instructor_id": "69051"
   },
   {
+   "cid": "36767",
+   "course": "Doubles Primer",
+   "date": "September 10, 2026",
+   "iso": "2026-09-10",
+   "location": "Singapore, Singapore",
+   "instructor": "Zicong Wang",
+   "instructor_id": "73430"
+  },
+  {
    "cid": "35698",
    "course": "GUE Basic Fundamentals",
    "date": "September 10, 2026",
@@ -2891,6 +2882,15 @@
    "instructor_id": "24473"
   },
   {
+   "cid": "30756",
+   "course": "Technical Diver 1",
+   "date": "September 13, 2026",
+   "iso": "2026-09-13",
+   "location": "Krnica, Istria county, Croatia",
+   "instructor": "Sven Nelles",
+   "instructor_id": "7698"
+  },
+  {
    "cid": "36542",
    "course": "CCR Fundamentals: JJ-CCR",
    "date": "September 14, 2026",
@@ -2979,6 +2979,15 @@
    "location": "Błaskowizna and Hel, Poland",
    "instructor": "Bartek Trzcinski",
    "instructor_id": "25915"
+  },
+  {
+   "cid": "36402",
+   "course": "DPV Diver 1",
+   "date": "September 15, 2026",
+   "iso": "2026-09-15",
+   "location": "Protaras, Famagusta, Cyprus",
+   "instructor": "Imad Farhat",
+   "instructor_id": "19268"
   },
   {
    "cid": "36704",
@@ -3107,6 +3116,15 @@
    "instructor_id": "1374"
   },
   {
+   "cid": "36775",
+   "course": "GUE Performance Diver",
+   "date": "September 19, 2026",
+   "iso": "2026-09-19",
+   "location": "Radstock, Somerset, United Kingdom",
+   "instructor": "Neil Powell",
+   "instructor_id": "15389"
+  },
+  {
    "cid": "34900",
    "course": "Cave Diver 1",
    "date": "September 20, 2026",
@@ -3233,6 +3251,15 @@
    "instructor_id": "24473"
   },
   {
+   "cid": "34212",
+   "course": "GUE Performance Diver",
+   "date": "September 23, 2026",
+   "iso": "2026-09-23",
+   "location": "XR Explorers, Kuwait",
+   "instructor": "Yehia Ahmed",
+   "instructor_id": "68430"
+  },
+  {
    "cid": "36705",
    "course": "DPV Diver 1",
    "date": "September 24, 2026",
@@ -3314,6 +3341,15 @@
    "instructor_id": "6627"
   },
   {
+   "cid": "36770",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "September 25, 2026",
+   "iso": "2026-09-25",
+   "location": "Lapu Lapu, Cebu, Philippines",
+   "instructor": "Jimmy Choo",
+   "instructor_id": "15307"
+  },
+  {
    "cid": "35680",
    "course": "GUE Basic Fundamentals",
    "date": "September 25, 2026",
@@ -3366,15 +3402,6 @@
    "location": "Sydney, New South Wales, Australia",
    "instructor": "Sebastien Landat",
    "instructor_id": "22757"
-  },
-  {
-   "cid": "36663",
-   "course": "GUE Performance Diver",
-   "date": "September 26, 2026",
-   "iso": "2026-09-26",
-   "location": "Karlsruhe, Germany",
-   "instructor": "Peter Gaertner",
-   "instructor_id": "1374"
   },
   {
    "cid": "36668",
@@ -3566,6 +3593,15 @@
    "instructor_id": "304"
   },
   {
+   "cid": "36772",
+   "course": "DPV Diver 1",
+   "date": "October 2, 2026",
+   "iso": "2026-10-02",
+   "location": "Stromberg, Rheinland-Pfalz, Germany",
+   "instructor": "Sven Nelles",
+   "instructor_id": "7698"
+  },
+  {
    "cid": "35160",
    "course": "DPV Diver 1",
    "date": "October 2, 2026",
@@ -3611,6 +3647,15 @@
    "instructor_id": "3674"
   },
   {
+   "cid": "36776",
+   "course": "GUE Performance Diver",
+   "date": "October 3, 2026",
+   "iso": "2026-10-03",
+   "location": "Radstock, Somerset, United Kingdom",
+   "instructor": "Neil Powell",
+   "instructor_id": "15389"
+  },
+  {
    "cid": "36541",
    "course": "GUE Performance Diver",
    "date": "October 3, 2026",
@@ -3636,6 +3681,15 @@
    "location": "Victoria, British Columbia, Canada",
    "instructor": "Jason Cook",
    "instructor_id": "24473"
+  },
+  {
+   "cid": "36184",
+   "course": "GUE Technical Fundamentals",
+   "date": "October 3, 2026",
+   "iso": "2026-10-03",
+   "location": "Montreal, Quebec, Canada",
+   "instructor": "Imad Farhat",
+   "instructor_id": "19268"
   },
   {
    "cid": "35119",
@@ -3717,6 +3771,15 @@
    "location": "Seattle, Washington, United States",
    "instructor": "Kees Beemster Leverenz",
    "instructor_id": "12172"
+  },
+  {
+   "cid": "35954",
+   "course": "Technical Diver 1",
+   "date": "October 5, 2026",
+   "iso": "2026-10-05",
+   "location": "Brockville, Ontario, Canada",
+   "instructor": "Heison Chak",
+   "instructor_id": "13808"
   },
   {
    "cid": "36232",
@@ -4223,6 +4286,15 @@
    "instructor_id": "20747"
   },
   {
+   "cid": "36774",
+   "course": "DPV Diver 1",
+   "date": "October 23, 2026",
+   "iso": "2026-10-23",
+   "location": "Radstock, Somerset, United Kingdom",
+   "instructor": "Neil Powell",
+   "instructor_id": "15389"
+  },
+  {
    "cid": "35944",
    "course": "GUE Basic Fundamentals",
    "date": "October 23, 2026",
@@ -4311,6 +4383,15 @@
    "location": "Zero Greavity Dive centre, Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Annika Persson",
    "instructor_id": "9662"
+  },
+  {
+   "cid": "36225",
+   "course": "Cave Diver 2",
+   "date": "October 26, 2026",
+   "iso": "2026-10-26",
+   "location": "Cala Gonone, Nuoro, Italy",
+   "instructor": "Sven Nelles",
+   "instructor_id": "7698"
   },
   {
    "cid": "35464",
@@ -4943,6 +5024,15 @@
    "instructor_id": "2021"
   },
   {
+   "cid": "36401",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "November 26, 2026",
+   "iso": "2026-11-26",
+   "location": "Protaras, Famagusta, Cyprus",
+   "instructor": "Imad Farhat",
+   "instructor_id": "19268"
+  },
+  {
    "cid": "36309",
    "course": "GUE Performance Diver",
    "date": "November 27, 2026",
@@ -5040,6 +5130,15 @@
    "location": "High Springs , Florida, United States",
    "instructor": "Stretch Aaron Altenhein",
    "instructor_id": "10004"
+  },
+  {
+   "cid": "36182",
+   "course": "GUE Technical Fundamentals",
+   "date": "December 3, 2026",
+   "iso": "2026-12-03",
+   "location": "Larnaca, Cyprus",
+   "instructor": "Imad Farhat",
+   "instructor_id": "19268"
   },
   {
    "cid": "36680",
