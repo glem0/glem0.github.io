@@ -132,7 +132,7 @@
           "id": "e469a86a-1a9b-4e8a-a62d-1b90141b5bd5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Barrenjoey Beach"
         },
         "type": "Feature"
@@ -215,8 +215,8 @@
         },
         "properties": {
           "id": "0d0ff9bb-cd49-4557-8f1b-c818e43d20d7",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Bilarong Reserve"
         },
@@ -319,7 +319,7 @@
           "id": "8990825d-b48c-443f-9047-862a0b986621",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Boat Harbour"
         },
         "type": "Feature"
@@ -487,8 +487,8 @@
         },
         "properties": {
           "id": "9cf6ec2d-8574-4814-b7db-64ca4075be20",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Bungan Beach"
         },
@@ -1405,8 +1405,8 @@
         },
         "properties": {
           "id": "77556fe0-20d1-4028-9bad-d61b3e046b4c",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Freshwater Beach"
         },
@@ -2087,7 +2087,7 @@
           "id": "94c5d756-1093-48db-8dbc-70fbb523b16a",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Malabar Beach"
         },
         "type": "Feature"
@@ -2306,8 +2306,8 @@
         },
         "properties": {
           "id": "dcaa6d83-f59f-463f-aae5-c687f4b0b5fb",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Mona Vale Beach"
         },
@@ -2374,8 +2374,8 @@
         },
         "properties": {
           "id": "f05ac321-7e70-4c4a-99cd-cc0f8a0acb5d",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Possible",
           "siteName": "Narrabeen Lagoon (Birdwood Park)"
         },
@@ -2493,8 +2493,8 @@
         },
         "properties": {
           "id": "7f188718-1e97-404e-81cf-1bd72927015d",
-          "latestResult": "Bad",
-          "latestResultRating": 1,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "North Curl Curl Beach"
         },
@@ -2578,8 +2578,8 @@
         },
         "properties": {
           "id": "cdf39c61-2988-4ddd-b849-0468cb0e1873",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "North Steyne Beach"
         },
@@ -2867,8 +2867,8 @@
         },
         "properties": {
           "id": "95c134b2-a834-4651-865c-03f6c9f4a54e",
-          "latestResult": "Bad",
-          "latestResultRating": 1,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Queenscliff Beach"
         },
@@ -3156,8 +3156,8 @@
         },
         "properties": {
           "id": "995753ed-db2a-4cb8-9349-922cf3312766",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Shelly Beach (Manly)"
         },
