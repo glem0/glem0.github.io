@@ -1,42 +1,6 @@
 {
- "updated": "2026-07-15T18:42:30Z",
+ "updated": "2026-07-16T18:44:17Z",
  "classes": [
-  {
-   "cid": "36587",
-   "course": "Doubles Primer",
-   "date": "July 16, 2026",
-   "iso": "2026-07-16",
-   "location": "Anilao, Batangas, Philippines",
-   "instructor": "Miko Zulueta",
-   "instructor_id": "8228"
-  },
-  {
-   "cid": "36357",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 16, 2026",
-   "iso": "2026-07-16",
-   "location": "San Michele di Pagana/Rapallo, Genova, Italy",
-   "instructor": "Niccolo Crespi",
-   "instructor_id": "6627"
-  },
-  {
-   "cid": "36499",
-   "course": "Upgrade to GUE Basic Fundamentals",
-   "date": "July 16, 2026",
-   "iso": "2026-07-16",
-   "location": "Qiandao lake, Zhejiang, China",
-   "instructor": "Xiaodong Zhong",
-   "instructor_id": "23171"
-  },
-  {
-   "cid": "36509",
-   "course": "Upgrade to GUE Basic Fundamentals",
-   "date": "July 16, 2026",
-   "iso": "2026-07-16",
-   "location": "Qiandao lake, Zhejiang, China",
-   "instructor": "Xiaodong Zhong",
-   "instructor_id": "23171"
-  },
   {
    "cid": "34184",
    "course": "Cave Diver 2",
@@ -45,6 +9,15 @@
    "location": "Cabo de Palos, Spain",
    "instructor": "Ricardo Constantino",
    "instructor_id": "1591"
+  },
+  {
+   "cid": "36783",
+   "course": "Doubles Primer",
+   "date": "July 17, 2026",
+   "iso": "2026-07-17",
+   "location": "Guangzhou, Guangdong, China",
+   "instructor": "Xuan Chen",
+   "instructor_id": "20926"
   },
   {
    "cid": "36768",
@@ -117,6 +90,15 @@
    "location": "Bali, Indonesia",
    "instructor": "Gemma Thomas",
    "instructor_id": "11724"
+  },
+  {
+   "cid": "36779",
+   "course": "Drysuit Primer",
+   "date": "July 18, 2026",
+   "iso": "2026-07-18",
+   "location": "Guangzhou, Guangdong, China",
+   "instructor": "Xuan Chen",
+   "instructor_id": "20926"
   },
   {
    "cid": "36751",
@@ -693,6 +675,15 @@
    "location": "Zero Gravity Dive Center - Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Laurent Dahan",
    "instructor_id": "25023"
+  },
+  {
+   "cid": "36781",
+   "course": "GUE Technical Fundamentals",
+   "date": "July 26, 2026",
+   "iso": "2026-07-26",
+   "location": "GO SEONG, Kangwon-do, Korea (South)",
+   "instructor": "Kyung Jin Kim",
+   "instructor_id": "68526"
   },
   {
    "cid": "35940",
@@ -3260,6 +3251,15 @@
    "instructor_id": "68430"
   },
   {
+   "cid": "36780",
+   "course": "GUE Technical Fundamentals",
+   "date": "September 23, 2026",
+   "iso": "2026-09-23",
+   "location": "LAPULAPU, Cebu, Philippines",
+   "instructor": "Lee Jong Moon",
+   "instructor_id": "20356"
+  },
+  {
    "cid": "36705",
    "course": "DPV Diver 1",
    "date": "September 24, 2026",
@@ -3429,6 +3429,15 @@
    "location": "tbd, Germany",
    "instructor": "Keith Kreitner",
    "instructor_id": "12073"
+  },
+  {
+   "cid": "36782",
+   "course": "CCR Fundamentals: JJ-CCR",
+   "date": "September 27, 2026",
+   "iso": "2026-09-27",
+   "location": "LAPULAPU, Cebu, Philippines",
+   "instructor": "Lee Jong Moon",
+   "instructor_id": "20356"
   },
   {
    "cid": "35795",
@@ -4338,6 +4347,24 @@
    "location": "Kralendijk, Bonaire",
    "instructor": "Steven Millington",
    "instructor_id": "4255"
+  },
+  {
+   "cid": "36777",
+   "course": "Cave Diver 1",
+   "date": "October 25, 2026",
+   "iso": "2026-10-25",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Fred Devos",
+   "instructor_id": "1026"
+  },
+  {
+   "cid": "36778",
+   "course": "Cave Diver 1",
+   "date": "October 25, 2026",
+   "iso": "2026-10-25",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Fred Devos",
+   "instructor_id": "1026"
   },
   {
    "cid": "35217",

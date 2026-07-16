@@ -1478,5 +1478,23 @@
   "matched_query": "gangneung, korea (south)",
   "approx": false,
   "verified": true
+ },
+ "go seong, kangwon-do, korea (south)": {
+  "lat": 37.7725252,
+  "lng": 128.3820739,
+  "display": "강원특별자치도, 대한민국",
+  "country": "kr",
+  "matched_query": "kangwon-do, korea (south)",
+  "approx": true,
+  "verified": true
+ },
+ "guangzhou, guangdong, china": {
+  "lat": 23.1288429,
+  "lng": 113.2589581,
+  "display": "广州市, 广东省, 中国",
+  "country": "cn",
+  "matched_query": "guangzhou, guangdong, china",
+  "approx": false,
+  "verified": true
  }
 }
