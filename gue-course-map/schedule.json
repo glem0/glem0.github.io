@@ -1,96 +1,6 @@
 {
- "updated": "2026-07-16T18:44:17Z",
+ "updated": "2026-07-17T18:38:30Z",
  "classes": [
-  {
-   "cid": "34184",
-   "course": "Cave Diver 2",
-   "date": "July 17, 2026",
-   "iso": "2026-07-17",
-   "location": "Cabo de Palos, Spain",
-   "instructor": "Ricardo Constantino",
-   "instructor_id": "1591"
-  },
-  {
-   "cid": "36783",
-   "course": "Doubles Primer",
-   "date": "July 17, 2026",
-   "iso": "2026-07-17",
-   "location": "Guangzhou, Guangdong, China",
-   "instructor": "Xuan Chen",
-   "instructor_id": "20926"
-  },
-  {
-   "cid": "36768",
-   "course": "Doubles Primer",
-   "date": "July 17, 2026",
-   "iso": "2026-07-17",
-   "location": "Tech Korea, Korea (South)",
-   "instructor": "Su Eun Kim",
-   "instructor_id": "14655"
-  },
-  {
-   "cid": "35410",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 17, 2026",
-   "iso": "2026-07-17",
-   "location": "Vinkeveen, Netherlands",
-   "instructor": "Jp Bresser",
-   "instructor_id": "2458"
-  },
-  {
-   "cid": "36157",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 17, 2026",
-   "iso": "2026-07-17",
-   "location": "Ślesin / Honoratka, Poland",
-   "instructor": "Bartek Trzcinski",
-   "instructor_id": "25915"
-  },
-  {
-   "cid": "35328",
-   "course": "GUE Performance Diver",
-   "date": "July 17, 2026",
-   "iso": "2026-07-17",
-   "location": "Vinkeveen + Enschede, Netherlands",
-   "instructor": "Anne-Marie Bresser",
-   "instructor_id": "2021"
-  },
-  {
-   "cid": "35411",
-   "course": "GUE Technical Fundamentals",
-   "date": "July 17, 2026",
-   "iso": "2026-07-17",
-   "location": "Vinkeveen, Netherlands",
-   "instructor": "Jp Bresser",
-   "instructor_id": "2458"
-  },
-  {
-   "cid": "34787",
-   "course": "Scuba Diver Upgrade to OW",
-   "date": "July 17, 2026",
-   "iso": "2026-07-17",
-   "location": "ALmelo, Netherlands",
-   "instructor": "Matthijs Holtkamp",
-   "instructor_id": "18760"
-  },
-  {
-   "cid": "36773",
-   "course": "Technical Diver 1",
-   "date": "July 17, 2026",
-   "iso": "2026-07-17",
-   "location": "Gangneung, Korea (South)",
-   "instructor": "Jaehun Sim",
-   "instructor_id": "14279"
-  },
-  {
-   "cid": "35966",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "July 17, 2026",
-   "iso": "2026-07-17",
-   "location": "Bali, Indonesia",
-   "instructor": "Gemma Thomas",
-   "instructor_id": "11724"
-  },
   {
    "cid": "36779",
    "course": "Drysuit Primer",
@@ -297,15 +207,6 @@
    "location": "Krnica, Istria county, Croatia",
    "instructor": "Derk Remmers",
    "instructor_id": "2366"
-  },
-  {
-   "cid": "36488",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 21, 2026",
-   "iso": "2026-07-21",
-   "location": "Dahab, Egypt",
-   "instructor": "Mahmoud Esmat",
-   "instructor_id": "65259"
   },
   {
    "cid": "36412",
@@ -560,15 +461,6 @@
    "instructor_id": "17695"
   },
   {
-   "cid": "36547",
-   "course": "Drysuit Primer",
-   "date": "July 25, 2026",
-   "iso": "2026-07-25",
-   "location": "Dahab, Egypt",
-   "instructor": "Mahmoud Esmat",
-   "instructor_id": "65259"
-  },
-  {
    "cid": "36671",
    "course": "Drysuit Primer",
    "date": "July 25, 2026",
@@ -659,15 +551,6 @@
    "instructor_id": "1374"
   },
   {
-   "cid": "36754",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 26, 2026",
-   "iso": "2026-07-26",
-   "location": "Dahab, Egypt",
-   "instructor": "Mahmoud Esmat",
-   "instructor_id": "65259"
-  },
-  {
    "cid": "36437",
    "course": "GUE Basic Fundamentals",
    "date": "July 26, 2026",
@@ -711,6 +594,15 @@
    "location": "Athens, Greece",
    "instructor": "Nikos Vardakas",
    "instructor_id": "1991"
+  },
+  {
+   "cid": "36754",
+   "course": "GUE Basic Fundamentals",
+   "date": "July 27, 2026",
+   "iso": "2026-07-27",
+   "location": "Dahab, Egypt",
+   "instructor": "Mahmoud Esmat",
+   "instructor_id": "65259"
   },
   {
    "cid": "35692",
@@ -4160,6 +4052,15 @@
    "instructor_id": "7698"
   },
   {
+   "cid": "36784",
+   "course": "Navigation Primer",
+   "date": "October 17, 2026",
+   "iso": "2026-10-17",
+   "location": "Dahab, Egypt",
+   "instructor": "Mahmoud Esmat",
+   "instructor_id": "65259"
+  },
+  {
    "cid": "36529",
    "course": "Technical Diver 1",
    "date": "October 17, 2026",
@@ -4248,6 +4149,15 @@
    "location": "Playa del Carmen, Quintana Roo, Mexico",
    "instructor": "Emőke Wagner",
    "instructor_id": "20747"
+  },
+  {
+   "cid": "36785",
+   "course": "Rescue Primer",
+   "date": "October 19, 2026",
+   "iso": "2026-10-19",
+   "location": "Dahab, Egypt",
+   "instructor": "Mahmoud Esmat",
+   "instructor_id": "65259"
   },
   {
    "cid": "36395",
