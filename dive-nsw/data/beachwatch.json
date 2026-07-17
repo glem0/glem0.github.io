@@ -30,7 +30,7 @@
           "id": "3271b4a4-73e7-4e4d-a34b-4863064de6a9",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Austinmer Beach"
         },
         "type": "Feature"
@@ -98,7 +98,7 @@
           "id": "e6daf905-fb81-4aea-911d-fa3350abd298",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Balmoral Baths"
         },
         "type": "Feature"
@@ -115,7 +115,7 @@
           "id": "c2d5eaf3-173d-4aa4-8fbc-7bfce5c637eb",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Bar Beach (Newcastle)"
         },
         "type": "Feature"
@@ -200,7 +200,7 @@
           "id": "6d89378c-15b4-4f59-993b-8a4e89910e7d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Bellambi Beach"
         },
         "type": "Feature"
@@ -234,7 +234,7 @@
           "id": "2d4c2558-f2de-43e4-8590-8682bc5aaf52",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Bilgola Beach"
         },
         "type": "Feature"
@@ -353,7 +353,7 @@
           "id": "405ce99c-7a0b-43f7-8d28-2ee0b65eebb5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Bondi Beach"
         },
         "type": "Feature"
@@ -489,7 +489,7 @@
           "id": "9cf6ec2d-8574-4814-b7db-64ca4075be20",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Bungan Beach"
         },
         "type": "Feature"
@@ -591,7 +591,7 @@
           "id": "4904afcf-6313-4456-9f14-cc037087dd76",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Camp Cove"
         },
         "type": "Feature"
@@ -710,7 +710,7 @@
           "id": "90ce83b9-78a8-48c2-bb26-4af4e31111c6",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "Chinamans Beach"
         },
         "type": "Feature"
@@ -744,7 +744,7 @@
           "id": "ff59b0d0-b560-4892-986c-f987ba3e9dd0",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "Clareville Beach"
         },
         "type": "Feature"
@@ -761,7 +761,7 @@
           "id": "442ebbc9-d136-4279-b452-609dd1ad9e36",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Clifton Gardens"
         },
         "type": "Feature"
@@ -795,7 +795,7 @@
           "id": "06e4aa12-a704-440e-a31c-ce25fcd0057f",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Clovelly Beach"
         },
         "type": "Feature"
@@ -846,7 +846,7 @@
           "id": "9aac94a6-0188-44c5-92ab-60068862371d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Collaroy Beach"
         },
         "type": "Feature"
@@ -897,7 +897,7 @@
           "id": "7d0a9388-37fc-45f4-8fb3-e60ae4d09b1d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Congwong Bay"
         },
         "type": "Feature"
@@ -931,7 +931,7 @@
           "id": "ca53919d-8e26-40b0-b8cc-edf80ec303d9",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Coogee Beach"
         },
         "type": "Feature"
@@ -999,7 +999,7 @@
           "id": "59245001-2685-498f-b47c-d66437c282f4",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Corrimal Beach"
         },
         "type": "Feature"
@@ -1101,7 +1101,7 @@
           "id": "98261de4-b6b8-4555-ac3c-f86c4bd8f413",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Dee Why Beach"
         },
         "type": "Feature"
@@ -1169,7 +1169,7 @@
           "id": "70704ffa-ebc9-4d90-825a-a62461f7ed11",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "Edwards Beach"
         },
         "type": "Feature"
@@ -1271,7 +1271,7 @@
           "id": "3d9e9c53-9ad7-45ea-9d3f-843827b6e9ce",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Fairlight Beach"
         },
         "type": "Feature"
@@ -1407,7 +1407,7 @@
           "id": "77556fe0-20d1-4028-9bad-d61b3e046b4c",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "Freshwater Beach"
         },
         "type": "Feature"
@@ -1441,7 +1441,7 @@
           "id": "042af9fb-da1d-406a-a743-3da81da0a194",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Gordons Bay (East)"
         },
         "type": "Feature"
@@ -1509,7 +1509,7 @@
           "id": "05ffb6c1-96ce-4da5-995d-62d27a03cd55",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Greenwich Baths"
         },
         "type": "Feature"
@@ -1696,7 +1696,7 @@
           "id": "aa2327bb-ce84-4eed-86f5-937eb5bddd33",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "Jibbon Beach"
         },
         "type": "Feature"
@@ -1917,7 +1917,7 @@
           "id": "a4e51f37-7089-4f6d-b78a-85f9b84fea87",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Little Bay Beach"
         },
         "type": "Feature"
@@ -1934,7 +1934,7 @@
           "id": "8c7516d0-3f1d-4068-8e9c-0ca60af15a04",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Little Manly Cove"
         },
         "type": "Feature"
@@ -1951,7 +1951,7 @@
           "id": "93ec689a-b568-4cef-8c51-1eaafbbb51a5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Long Reef Beach"
         },
         "type": "Feature"
@@ -2121,7 +2121,7 @@
           "id": "8c684274-b360-417f-9feb-29b18df57628",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Manly Cove"
         },
         "type": "Feature"
@@ -2155,7 +2155,7 @@
           "id": "c2461939-5613-4c11-8ae0-7331133baf88",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Maroubra Beach"
         },
         "type": "Feature"
@@ -2206,7 +2206,7 @@
           "id": "8d14d393-3cf7-43bd-86d4-a03190b323d1",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Merewether Beach"
         },
         "type": "Feature"
@@ -2308,7 +2308,7 @@
           "id": "dcaa6d83-f59f-463f-aae5-c687f4b0b5fb",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Mona Vale Beach"
         },
         "type": "Feature"
@@ -2410,7 +2410,7 @@
           "id": "f81d4377-2a8e-4f39-9988-f94d9c95d9be",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Newport Beach"
         },
         "type": "Feature"
@@ -2427,7 +2427,7 @@
           "id": "816de31e-1418-41c9-8987-992538b32c07",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "Nielsen Park"
         },
         "type": "Feature"
@@ -2478,7 +2478,7 @@
           "id": "f40362ee-ce75-4473-a7e5-cb8d062611fc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "North Cronulla Beach"
         },
         "type": "Feature"
@@ -2495,7 +2495,7 @@
           "id": "7f188718-1e97-404e-81cf-1bd72927015d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "North Curl Curl Beach"
         },
         "type": "Feature"
@@ -2529,7 +2529,7 @@
           "id": "79eb1688-05c6-491a-9eaa-cbe3811a7f3d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "North Narrabeen Beach"
         },
         "type": "Feature"
@@ -2546,7 +2546,7 @@
           "id": "8cb9490e-dafb-4647-b25b-98cfb777acd6",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "North Scotland Island"
         },
         "type": "Feature"
@@ -2580,7 +2580,7 @@
           "id": "cdf39c61-2988-4ddd-b849-0468cb0e1873",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "North Steyne Beach"
         },
         "type": "Feature"
@@ -2631,7 +2631,7 @@
           "id": "c4e9e972-580e-4571-8d2d-a7c0b1fdc604",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Oak Park Beach"
         },
         "type": "Feature"
@@ -2716,7 +2716,7 @@
           "id": "0d9bfd7d-0628-4f8d-b165-d3ca71c9612a",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "Paradise Beach Baths"
         },
         "type": "Feature"
@@ -2869,7 +2869,7 @@
           "id": "95c134b2-a834-4651-865c-03f6c9f4a54e",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Queenscliff Beach"
         },
         "type": "Feature"
@@ -3158,7 +3158,7 @@
           "id": "995753ed-db2a-4cb8-9349-922cf3312766",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "Shelly Beach (Manly)"
         },
         "type": "Feature"
@@ -3175,7 +3175,7 @@
           "id": "d9267cc6-7983-47ce-a7ba-a9a1dd932ebb",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Shelly Beach (Sutherland)"
         },
         "type": "Feature"
@@ -3260,7 +3260,7 @@
           "id": "b0513e57-bc00-46c6-b560-20d9a2207c35",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "South Cronulla Beach"
         },
         "type": "Feature"
@@ -3277,7 +3277,7 @@
           "id": "0b9ecba4-3a52-468d-867b-8936d862754b",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "South Curl Curl Beach"
         },
         "type": "Feature"
@@ -3328,7 +3328,7 @@
           "id": "ccd00273-502a-4a03-bb59-b4e0d63536dc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "South Scotland Island"
         },
         "type": "Feature"
@@ -3345,7 +3345,7 @@
           "id": "224fc6a1-f98a-4a10-9603-91dacf9e54b8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "South Steyne Beach"
         },
         "type": "Feature"
@@ -3515,7 +3515,7 @@
           "id": "ad19c3a4-de25-422c-a124-cdf6587298c0",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "Taylors Point Baths"
         },
         "type": "Feature"
@@ -3651,7 +3651,7 @@
           "id": "1e7d7228-ef9b-4e3d-9236-9cabe23e1ea4",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Thirroul Beach"
         },
         "type": "Feature"
@@ -3702,7 +3702,7 @@
           "id": "811e1dd7-4a4b-4146-a1c6-c05c67a24d03",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Turimetta Beach"
         },
         "type": "Feature"
@@ -3872,7 +3872,7 @@
           "id": "767e63ca-9d8c-4ef8-bc6a-928ac8f1cd62",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Warriewood Beach"
         },
         "type": "Feature"
@@ -3889,7 +3889,7 @@
           "id": "aaaefe71-5959-40e0-a3a0-a620e8bb49ce",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Watsons Bay"
         },
         "type": "Feature"
@@ -4059,7 +4059,7 @@
           "id": "242c462b-2dd9-4a42-991a-1e51b124823c",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Woonona Beach"
         },
         "type": "Feature"
