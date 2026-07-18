@@ -302,7 +302,7 @@
           "id": "7f2de7a4-bbe9-4a13-8285-ffcc81fb9f10",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "Blue Lagoon"
         },
         "type": "Feature"
@@ -1968,7 +1968,7 @@
           "id": "1757939f-2645-4e10-9bb6-9047585096a0",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "MacMasters Beach"
         },
         "type": "Feature"
@@ -2461,7 +2461,7 @@
           "id": "443f8062-d8b3-41ee-b3cf-78be24ab5b5c",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "North Avoca Beach"
         },
         "type": "Feature"
@@ -2495,7 +2495,7 @@
           "id": "7f188718-1e97-404e-81cf-1bd72927015d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "North Curl Curl Beach"
         },
         "type": "Feature"
@@ -2833,8 +2833,8 @@
         },
         "properties": {
           "id": "0459d12c-12e0-4a7c-89f9-bbed3ffe683e",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Pretty Beach Baths"
         },
@@ -3532,7 +3532,7 @@
           "id": "c8fc3c50-4d0f-48c8-939a-ee100892dee8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Terrigal Beach"
         },
         "type": "Feature"
@@ -3547,8 +3547,8 @@
         },
         "properties": {
           "id": "840a7220-029b-4ba8-8718-8bde9f8f0a24",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Terrigal Lagoon"
         },
@@ -3598,9 +3598,9 @@
         },
         "properties": {
           "id": "7527ec65-90ea-41a6-b370-e78f94d1b6cd",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
-          "pollutionForecast": "Likely",
+          "latestResult": "Good",
+          "latestResultRating": 4,
+          "pollutionForecast": "Unlikely",
           "siteName": "The Entrance Channel"
         },
         "type": "Feature"
@@ -3802,8 +3802,8 @@
         },
         "properties": {
           "id": "13f16f4c-1a2a-4193-a1ed-f909c987d7bb",
-          "latestResult": "Bad",
-          "latestResultRating": 1,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Wamberal Lagoon"
         },
