@@ -1496,5 +1496,39 @@
   "matched_query": "guangzhou, guangdong, china",
   "approx": false,
   "verified": true
+ },
+ "porto valtravaglia, varese, italy": {
+  "lat": 45.9613696,
+  "lng": 8.6818093,
+  "display": "Porto Valtravaglia, Comunità Montana Valli del Verbano, Varese, Lombardia, Italia",
+  "country": "it",
+  "matched_query": "porto valtravaglia, varese, italy",
+  "approx": false,
+  "verified": true
+ },
+ "tilburg-breda, noord-brabant, netherlands": {
+  "lat": 51.5896484,
+  "lng": 4.736805,
+  "display": "Van Tilburg Bastianen Daf, 1, Heilaar-Noordweg, IABC, Breda, Noord-Brabant, Nederland, 4814 RR, Nederland",
+  "country": "nl",
+  "matched_query": "tilburg-breda, noord-brabant, netherlands",
+  "approx": false,
+  "verified": true
+ },
+ "wageningen, netherlands": {
+  "lat": 51.9685817,
+  "lng": 5.6682981,
+  "display": "Wageningen, Gelderland, Nederland",
+  "country": "nl",
+  "matched_query": "wageningen, netherlands",
+  "approx": false,
+  "verified": true
+ },
+ "yixing, jiangsu, china": {
+  "lat": 34.2946508,
+  "lng": 119.2469531,
+  "display": "伊新路步行街, 灌云县, 连云港市, 灌云县, 江苏省, 中国",
+  "matched_query": "Yixin, Jiangsu, China",
+  "alias_of": "yixin, jiangsu, china"
  }
 }
