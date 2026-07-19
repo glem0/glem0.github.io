@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-07-19T04:16:35+10:00",
+ "generated_at": "2026-07-20T04:17:02+10:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-07-01",
@@ -13,7 +13,7 @@ window.__DIVE_DATA__ =
    "short": "Abyss",
    "url": "https://www.abyss.com.au/sydney-dive-calendar",
    "status": "ok",
-   "event_count": 172
+   "event_count": 167
   },
   {
    "id": "frogdive",
@@ -37,7 +37,7 @@ window.__DIVE_DATA__ =
    "short": "DC Manly",
    "url": "https://divesydney.com.au/dive-calendar/",
    "status": "ok",
-   "event_count": 358
+   "event_count": 354
   },
   {
    "id": "prodive",
@@ -45,7 +45,7 @@ window.__DIVE_DATA__ =
    "short": "ProDive",
    "url": "https://www.prodive.com.au/Calendar.asp?Scubadive=Sydney",
    "status": "ok",
-   "event_count": 441
+   "event_count": 436
   },
   {
    "id": "divecharters",
@@ -191,109 +191,6 @@ window.__DIVE_DATA__ =
    "description": "Clifton Gardens\nDive Level Green – beginner diver friendly\nAverage Depth 8m ..."
   },
   {
-   "id": "prodive-8ab63b634c25",
-   "source": "prodive",
-   "title": "Sydney Double Boat Dive",
-   "start": "2026-07-19T07:30+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Boat+Dives/Sydney+Double+Boat+Dive+-+Sydney+-+Manly/240",
-   "location": "ProDive Manly",
-   "description": "$199.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Dee Why Wide** Rating: Advanced Diver (30m) Depth: 34m"
-  },
-  {
-   "id": "prodive-13a9da3afd06",
-   "source": "prodive",
-   "title": "Guided Shore Dives (Double Dive)",
-   "start": "2026-07-19T08:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Shore+Dives/Guided+Shore+Dives+(Double+Dive)+-+Sydney+-+Alexandria/1046",
-   "location": "ProDive Alexandria",
-   "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Bare Island** Rating: Open Water Diver(20m) Depth: 20m"
-  },
-  {
-   "id": "abyss-6747d8e562f3",
-   "source": "abyss",
-   "title": "PADI Drysuit 19-07-2026",
-   "start": "2026-07-19T08:30+10:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/dry-suit-diver",
-   "description": "$299.00 · DrySuit Diver Course · PADI Drysuit Course"
-  },
-  {
-   "id": "abyss-cb35ac00e35e",
-   "source": "abyss",
-   "title": "Martin Island Seals (sold out)",
-   "start": "2026-07-19T09:00+10:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/scuba-dive-with-seals",
-   "description": "$130.00 · Seal Diving · Playful fur seals swirl around you with possible whales and rays."
-  },
-  {
-   "id": "abyss-5ba37b8fe990",
-   "source": "abyss",
-   "title": "Weedy SeaDragon (sold out)",
-   "start": "2026-07-19T09:00+10:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/marine-marvels-dives",
-   "description": "$49.01 · Marine Marvels Dives · Weedy SeaDragon up close, guided by a marine biologist."
-  },
-  {
-   "id": "abyss-019588b86975",
-   "source": "abyss",
-   "title": "Chinese EFR 19/19-07-2026",
-   "start": "2026-07-19T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/emergency-first-response",
-   "description": "$175.00 · Emergency First Response Course · Chinese EFR-Primary Care (CPR) & Secondary Care AED"
-  },
-  {
-   "id": "abyss-d63700a2b7b2",
-   "source": "abyss",
-   "title": "The Steps",
-   "start": "2026-07-19T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
-   "description": "Guided Shore Dives · The Steps at Kurnell weedy sea dragons shore dive (15m)"
-  },
-  {
-   "id": "prodive-47f601f00f70",
-   "source": "prodive",
-   "title": "Discover Scuba at Shelly Beach",
-   "start": "2026-07-19T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Scuba+Introductory+Dive/Discover+Scuba+at+Shelly+Beach+-+Sydney+-+Manly/1727",
-   "location": "ProDive Manly",
-   "description": "$249.00 · Come and discover the enchanting realm of our underwater world! Our PRO DIVE Try a Dive program offers individuals without scuba diving certification the opportunity to experience the excitement and adventure of diving, all while under the guidance of one of our expert PRO DIVE Instructors."
-  },
-  {
-   "id": "prodive-32fae197b5fc",
-   "source": "prodive",
-   "title": "Refresher Scuba Dive",
-   "start": "2026-07-19T12:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
-   "location": "ProDive Alexandria",
-   "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again."
-  },
-  {
-   "id": "prodive-dea211e544ee",
-   "source": "prodive",
-   "title": "Refresher Dive",
-   "start": "2026-07-19T12:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Refresher+Dive/Refresher+Dive+-+Sydney+-+Manly/193",
-   "location": "ProDive Manly",
-   "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again."
-  },
-  {
-   "id": "divesydney-feb31428cc41",
-   "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
-   "start": "2026-07-19T14:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-07-19&preferredTime=2%3A00+PM&catalogId=494484"
-  },
-  {
    "id": "abyss-ac926a37f843",
    "source": "abyss",
    "title": "20.07.2026/20-07-2026 (sold out)",
@@ -314,22 +211,6 @@ window.__DIVE_DATA__ =
    "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Gordons Bay** Rating: Open Water Diver(20m) Depth: 14m"
   },
   {
-   "id": "divesydney-93479d10f95b",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-07-20T09:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-07-20&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-ff6da38d6765",
-   "source": "divesydney",
-   "title": "Scuba Refresher",
-   "start": "2026-07-20T09:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-07-20&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
    "id": "prodive-80d433bccc14",
    "source": "prodive",
    "title": "Scuba Hire Click & Collect",
@@ -348,14 +229,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
    "location": "ProDive Alexandria",
    "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again."
-  },
-  {
-   "id": "divesydney-3357f46bd377",
-   "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
-   "start": "2026-07-20T14:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-07-20&preferredTime=2%3A00+PM&catalogId=494484"
   },
   {
    "id": "divesydney-6aac4060aa19",
@@ -511,20 +384,20 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-07-24&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divesydney-2795155051f3",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-07-24T09:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-07-24&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
    "id": "divesydney-1d096aaef793",
    "source": "divesydney",
    "title": "Scuba Refresher",
    "start": "2026-07-24T09:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-07-24&preferredTime=9%3A00+AM&catalogId=494484"
+  },
+  {
+   "id": "divesydney-2795155051f3",
+   "source": "divesydney",
+   "title": "Double Guided Shore Dive",
+   "start": "2026-07-24T09:00+10:00",
+   "all_day": false,
+   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-07-24&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
    "id": "abyss-0270b15f869b",
@@ -1213,9 +1086,9 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-07-31&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
-   "id": "abyss-c01d41c752be",
+   "id": "abyss-c31037e17eb5",
    "source": "abyss",
-   "title": "Climbing Social",
+   "title": "Climbing Social 31-07-2026",
    "start": "2026-07-31T18:00+10:00",
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/social-events",
@@ -3642,13 +3515,13 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-08-23&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
-   "id": "abyss-6463d15eec18",
+   "id": "abyss-98e6c54f11fd",
    "source": "abyss",
-   "title": "Shiprock Twilight Dive",
-   "start": "2026-08-23T15:30+10:00",
+   "title": "Coral, Pizza and Beer 23-08-2026",
+   "start": "2026-08-23T15:00+10:00",
    "all_day": false,
-   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
-   "description": "Guided Shore Dives · Shiprock Twilight Dive 23/8/26"
+   "url": "https://www.abyss.com.au/charters/social-events",
+   "description": "Social Events · Bronte Connolly from UTS Future Reefs & the Sydney Coral Project"
   },
   {
    "id": "divecharters-b6100159a573",
@@ -8073,9 +7946,9 @@ window.__DIVE_DATA__ =
    "description": "$279.00 · The most popular specialty course. Scuba diving with enriched air nitrox gives you more no decompression time, especially on repetitive scuba dives."
   },
   {
-   "id": "abyss-87b4a51eb448",
+   "id": "abyss-3b5748653016",
    "source": "abyss",
-   "title": "EFR 10-10-2026",
+   "title": "Emergency First Response",
    "start": "2026-10-10T10:00+11:00",
    "all_day": false,
    "url": "https://www.abyss.com.au/courses/emergency-first-response",
@@ -8173,9 +8046,9 @@ window.__DIVE_DATA__ =
    "description": "$219.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Long Reef/The Apartments - Shark Dive** Rating: Open Water Diver(20m) Depth: 25m"
   },
   {
-   "id": "abyss-b6e928ded191",
+   "id": "abyss-d97b8e312b9f",
    "source": "abyss",
-   "title": "PPB 11-10-2026",
+   "title": "Peak Performance Buoyancy",
    "start": "2026-10-11T08:00+11:00",
    "all_day": false,
    "url": "https://www.abyss.com.au/courses/peak-performance-buoyancy",
@@ -8730,15 +8603,6 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-10-17&preferredTime=8%3A30+AM&catalogId=494484"
   },
   {
-   "id": "abyss-641d46eb44eb",
-   "source": "abyss",
-   "title": "Mermaid 17 Oct/17-10-2026",
-   "start": "2026-10-17T09:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/how-to-become-a-mermaid",
-   "description": "$450.00 · PADI Mermaid Course · PADI Mermaid course"
-  },
-  {
    "id": "abyss-42506ee52c5a",
    "source": "abyss",
    "title": "PADI Refresher Course",
@@ -8746,6 +8610,15 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/courses/reactivate-your-diving",
    "description": "$199.00 · PADI REFRESHER COURSE SYDNEY · Refresher Course (PADI Reactivate)"
+  },
+  {
+   "id": "abyss-641d46eb44eb",
+   "source": "abyss",
+   "title": "Mermaid 17 Oct/17-10-2026",
+   "start": "2026-10-17T09:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/courses/how-to-become-a-mermaid",
+   "description": "$450.00 · PADI Mermaid Course · PADI Mermaid course"
   },
   {
    "id": "abyss-f8fb764eb505",
