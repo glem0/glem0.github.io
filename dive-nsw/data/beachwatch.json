@@ -317,8 +317,8 @@
         },
         "properties": {
           "id": "8990825d-b48c-443f-9047-862a0b986621",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Possible",
           "siteName": "Boat Harbour"
         },
@@ -1915,8 +1915,8 @@
         },
         "properties": {
           "id": "a4e51f37-7089-4f6d-b78a-85f9b84fea87",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Possible",
           "siteName": "Little Bay Beach"
         },
@@ -2085,8 +2085,8 @@
         },
         "properties": {
           "id": "94c5d756-1093-48db-8dbc-70fbb523b16a",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Possible",
           "siteName": "Malabar Beach"
         },
@@ -2629,8 +2629,8 @@
         },
         "properties": {
           "id": "c4e9e972-580e-4571-8d2d-a7c0b1fdc604",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Oak Park Beach"
         },
@@ -3309,8 +3309,8 @@
         },
         "properties": {
           "id": "6908705e-c176-4f65-bfd1-39b19ca1d340",
-          "latestResult": "Bad",
-          "latestResultRating": 1,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "South Maroubra Rockpool"
         },
@@ -4108,8 +4108,8 @@
         },
         "properties": {
           "id": "cdd2e0a4-a1a0-4cc7-b3e7-1d98f2c37f35",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Yarramundi Reserve"
         },
