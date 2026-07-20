@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-20T04:17:02+10:00",
+ "generated_at": "2026-07-21T05:15:56+10:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-07-01",
@@ -12,7 +12,7 @@
    "short": "Abyss",
    "url": "https://www.abyss.com.au/sydney-dive-calendar",
    "status": "ok",
-   "event_count": 167
+   "event_count": 166
   },
   {
    "id": "frogdive",
@@ -28,7 +28,7 @@
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 177
+   "event_count": 175
   },
   {
    "id": "divesydney",
@@ -36,7 +36,7 @@
    "short": "DC Manly",
    "url": "https://divesydney.com.au/dive-calendar/",
    "status": "ok",
-   "event_count": 354
+   "event_count": 353
   },
   {
    "id": "prodive",
@@ -44,7 +44,7 @@
    "short": "ProDive",
    "url": "https://www.prodive.com.au/Calendar.asp?Scubadive=Sydney",
    "status": "ok",
-   "event_count": 436
+   "event_count": 433
   },
   {
    "id": "divecharters",
@@ -188,70 +188,6 @@
    "url": "https://frogdive.eventcalendarapp.com/u/18702/448382",
    "location": "Clifton Gardens",
    "description": "Clifton Gardens\nDive Level Green – beginner diver friendly\nAverage Depth 8m ..."
-  },
-  {
-   "id": "abyss-ac926a37f843",
-   "source": "abyss",
-   "title": "20.07.2026/20-07-2026 (sold out)",
-   "start": "2026-07-20T08:00+10:00",
-   "all_day": false,
-   "end": "2026-07-21",
-   "url": "https://www.abyss.com.au/courses/padi-advanced-open-water-course",
-   "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
-  },
-  {
-   "id": "prodive-f129c8ba1950",
-   "source": "prodive",
-   "title": "Guided Shore Dives (Double Dive)",
-   "start": "2026-07-20T08:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Shore+Dives/Guided+Shore+Dives+(Double+Dive)+-+Sydney+-+Alexandria/1046",
-   "location": "ProDive Alexandria",
-   "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Gordons Bay** Rating: Open Water Diver(20m) Depth: 14m"
-  },
-  {
-   "id": "prodive-80d433bccc14",
-   "source": "prodive",
-   "title": "Scuba Hire Click & Collect",
-   "start": "2026-07-20T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
-   "location": "ProDive Manly",
-   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
-  },
-  {
-   "id": "prodive-4eb5da934f3c",
-   "source": "prodive",
-   "title": "Refresher Scuba Dive",
-   "start": "2026-07-20T12:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
-   "location": "ProDive Alexandria",
-   "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again."
-  },
-  {
-   "id": "divesydney-6aac4060aa19",
-   "source": "divesydney",
-   "title": "Snorkel Safari",
-   "start": "2026-07-20T14:30+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-07-20&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divebondi-a96620399c02",
-   "source": "divebondi",
-   "title": "Guided Bushrangers Bay",
-   "start": "2026-07-21T06:30+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-07-21&preferredTime=6%3A30+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-b8161bec1342",
-   "source": "divebondi",
-   "title": "PADI Open Water Diver Course",
-   "start": "2026-07-21T09:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-07-21&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
    "id": "prodive-7b191e583fd4",
@@ -586,9 +522,9 @@
    "description": "$599.00 · This course can be taken after completing the PRO DIVE Open Water Course. The course aims to advance your diving knowledge & skills."
   },
   {
-   "id": "divesydney-cbc714c2d990",
+   "id": "divesydney-e2df852a242a",
    "source": "divesydney",
-   "title": "Double Guided Shore Dive (sold out)",
+   "title": "Double Guided Shore Dive",
    "start": "2026-07-25T09:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-07-25&preferredTime=9%3A00+AM&catalogId=494484"
@@ -613,9 +549,9 @@
    "description": "Guided Shore Dives · ,Leap to Steps Drift for confident divers shore dive (18-22m)"
   },
   {
-   "id": "divesydney-2f7bb918063b",
+   "id": "divesydney-536809e64623",
    "source": "divesydney",
-   "title": "Double Guided Shore Dive",
+   "title": "Double Guided Shore Dive (sold out)",
    "start": "2026-07-25T10:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-07-25&preferredTime=10%3A00+AM&catalogId=494484"
@@ -702,9 +638,9 @@
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
-   "id": "frogdive-f169a53267eb",
+   "id": "frogdive-d2ae9b8a78a6",
    "source": "frogdive",
-   "title": "SHORE DIVE SHELLY BEACH",
+   "title": "SHORE DIVE FULL",
    "start": "2026-07-26T07:45+10:00",
    "all_day": false,
    "end": "2026-07-26T08:15+10:00",
