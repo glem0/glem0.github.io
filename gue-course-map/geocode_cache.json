@@ -1530,5 +1530,23 @@
   "display": "伊新路步行街, 灌云县, 连云港市, 灌云县, 江苏省, 中国",
   "matched_query": "Yixin, Jiangsu, China",
   "alias_of": "yixin, jiangsu, china"
+ },
+ "changwon, kyongsang-namdo, korea (south)": {
+  "lat": 35.227956,
+  "lng": 128.6818586,
+  "display": "창원시, 경상남도, 대한민국",
+  "country": "kr",
+  "matched_query": "changwon, korea (south)",
+  "approx": false,
+  "verified": true
+ },
+ "finsle ligure, liguria, italy": {
+  "lat": 44.4777617,
+  "lng": 8.7026296,
+  "display": "Liguria, Italia",
+  "country": "it",
+  "matched_query": "liguria, italy",
+  "approx": true,
+  "verified": true
  }
 }
