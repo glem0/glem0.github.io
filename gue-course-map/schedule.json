@@ -1,105 +1,6 @@
 {
- "updated": "2026-07-20T19:15:50Z",
+ "updated": "2026-07-22T18:44:59Z",
  "classes": [
-  {
-   "cid": "36279",
-   "course": "CCR Technical Diver 1: JJ-CCR",
-   "date": "July 21, 2026",
-   "iso": "2026-07-21",
-   "location": "Finsle Ligure, Liguria, Italy",
-   "instructor": "Derk Remmers",
-   "instructor_id": "2366"
-  },
-  {
-   "cid": "36412",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 21, 2026",
-   "iso": "2026-07-21",
-   "location": "Los Angeles, California, United States",
-   "instructor": "Kian Farin",
-   "instructor_id": "27848"
-  },
-  {
-   "cid": "36708",
-   "course": "Scuba Diver Upgrade to OW",
-   "date": "July 21, 2026",
-   "iso": "2026-07-21",
-   "location": "Ślesin / Honoratka, Poland",
-   "instructor": "Bartek Trzcinski",
-   "instructor_id": "25915"
-  },
-  {
-   "cid": "35647",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "July 21, 2026",
-   "iso": "2026-07-21",
-   "location": "Third Dimension Diving, Tulum, Quintana Roo, Mexico",
-   "instructor": "Ivo Chiarino",
-   "instructor_id": "21332"
-  },
-  {
-   "cid": "36613",
-   "course": "Cave Diver 1",
-   "date": "July 22, 2026",
-   "iso": "2026-07-22",
-   "location": "Playa del Carmen, Quintana Roo, Mexico",
-   "instructor": "Emőke Wagner",
-   "instructor_id": "20747"
-  },
-  {
-   "cid": "35905",
-   "course": "Drysuit Primer",
-   "date": "July 22, 2026",
-   "iso": "2026-07-22",
-   "location": "Dahab, Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
-  },
-  {
-   "cid": "36094",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 22, 2026",
-   "iso": "2026-07-22",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
-  },
-  {
-   "cid": "36108",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 22, 2026",
-   "iso": "2026-07-22",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
-  },
-  {
-   "cid": "35979",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 22, 2026",
-   "iso": "2026-07-22",
-   "location": "Manado, Indonesia",
-   "instructor": "Jimmy Choo",
-   "instructor_id": "15307"
-  },
-  {
-   "cid": "34924",
-   "course": "GUE Performance Diver",
-   "date": "July 22, 2026",
-   "iso": "2026-07-22",
-   "location": "Glavotok, Istria county, Croatia",
-   "instructor": "Rosa Van Der Ven",
-   "instructor_id": "73442"
-  },
-  {
-   "cid": "35761",
-   "course": "GUE Technical Fundamentals",
-   "date": "July 22, 2026",
-   "iso": "2026-07-22",
-   "location": "foshan, Guangdong, China",
-   "instructor": "Huang Weiqi",
-   "instructor_id": "23052"
-  },
   {
    "cid": "35694",
    "course": "DPV Diver 1",
@@ -470,6 +371,24 @@
    "instructor_id": "15307"
   },
   {
+   "cid": "36835",
+   "course": "Drysuit Primer",
+   "date": "July 28, 2026",
+   "iso": "2026-07-28",
+   "location": "Los Angeles, California, United States",
+   "instructor": "Kian Farin",
+   "instructor_id": "27848"
+  },
+  {
+   "cid": "36832",
+   "course": "Drysuit Primer",
+   "date": "July 28, 2026",
+   "iso": "2026-07-28",
+   "location": "Tioman, Malaysia",
+   "instructor": "Gemma Thomas",
+   "instructor_id": "11724"
+  },
+  {
    "cid": "36787",
    "course": "GUE Performance Diver",
    "date": "July 28, 2026",
@@ -542,6 +461,15 @@
    "instructor_id": "1991"
   },
   {
+   "cid": "36805",
+   "course": "GUE Performance Diver",
+   "date": "July 30, 2026",
+   "iso": "2026-07-30",
+   "location": "Bangkok, Bangkok , Thailand",
+   "instructor": "Sanya Lohitnavy",
+   "instructor_id": "3674"
+  },
+  {
    "cid": "36384",
    "course": "GUE Technical Fundamentals",
    "date": "July 30, 2026",
@@ -585,6 +513,15 @@
    "location": "Stromberg, Rheinland-Pfalz, Germany",
    "instructor": "Sven Nelles",
    "instructor_id": "7698"
+  },
+  {
+   "cid": "36833",
+   "course": "GUE Basic Fundamentals",
+   "date": "July 31, 2026",
+   "iso": "2026-07-31",
+   "location": "Dahab, Janub Sina', Egypt",
+   "instructor": "Ahmed Hagi",
+   "instructor_id": "69051"
   },
   {
    "cid": "36447",
@@ -738,6 +675,15 @@
    "location": "Tioman, Malaysia",
    "instructor": "Gemma Thomas",
    "instructor_id": "11724"
+  },
+  {
+   "cid": "36817",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "August 1, 2026",
+   "iso": "2026-08-01",
+   "location": "sydney, New South Wales, Australia",
+   "instructor": "Jingwei Sun",
+   "instructor_id": "70762"
   },
   {
    "cid": "32201",
@@ -902,6 +848,15 @@
    "instructor_id": "69051"
   },
   {
+   "cid": "36837",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "August 6, 2026",
+   "iso": "2026-08-06",
+   "location": "High Springs, Florida, United States",
+   "instructor": "Dimitris Fifis",
+   "instructor_id": "9369"
+  },
+  {
    "cid": "36469",
    "course": "Drysuit Primer",
    "date": "August 6, 2026",
@@ -920,6 +875,15 @@
    "instructor_id": "9369"
   },
   {
+   "cid": "36836",
+   "course": "GUE Technical Fundamentals",
+   "date": "August 6, 2026",
+   "iso": "2026-08-06",
+   "location": "High Springs, Florida, United States",
+   "instructor": "Dimitris Fifis",
+   "instructor_id": "9369"
+  },
+  {
    "cid": "34775",
    "course": "GUE Technical Fundamentals",
    "date": "August 6, 2026",
@@ -930,6 +894,15 @@
   },
   {
    "cid": "35575",
+   "course": "Doubles Primer",
+   "date": "August 7, 2026",
+   "iso": "2026-08-07",
+   "location": "Bangkok, Bangkok , Thailand",
+   "instructor": "Sanya Lohitnavy",
+   "instructor_id": "3674"
+  },
+  {
+   "cid": "36806",
    "course": "Doubles Primer",
    "date": "August 7, 2026",
    "iso": "2026-08-07",
@@ -1017,6 +990,15 @@
    "location": "Plano, Texas, United States",
    "instructor": "Elon Mehr",
    "instructor_id": "66591"
+  },
+  {
+   "cid": "36834",
+   "course": "GUE Performance Diver",
+   "date": "August 8, 2026",
+   "iso": "2026-08-08",
+   "location": "Numazu, Shizuoka, Japan",
+   "instructor": "Raeni Liu",
+   "instructor_id": "27319"
   },
   {
    "cid": "36758",
@@ -1641,6 +1623,15 @@
   },
   {
    "cid": "36449",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "August 21, 2026",
+   "iso": "2026-08-21",
+   "location": "Bangkok, Bangkok , Thailand",
+   "instructor": "Sanya Lohitnavy",
+   "instructor_id": "3674"
+  },
+  {
+   "cid": "36807",
    "course": "Upgrade to GUE Technical Fundamentals",
    "date": "August 21, 2026",
    "iso": "2026-08-21",
@@ -2540,6 +2531,15 @@
    "instructor_id": "25255"
   },
   {
+   "cid": "36808",
+   "course": "Doubles Primer",
+   "date": "September 11, 2026",
+   "iso": "2026-09-11",
+   "location": "Bangkok, Bangkok , Thailand",
+   "instructor": "Sanya Lohitnavy",
+   "instructor_id": "3674"
+  },
+  {
    "cid": "36397",
    "course": "GUE Basic Fundamentals",
    "date": "September 12, 2026",
@@ -2601,15 +2601,6 @@
    "location": "Gramat, France",
    "instructor": "Irene Homberger",
    "instructor_id": "13377"
-  },
-  {
-   "cid": "33998",
-   "course": "Cave Diver 1",
-   "date": "September 13, 2026",
-   "iso": "2026-09-13",
-   "location": "Gramat, France",
-   "instructor": "Per Normark",
-   "instructor_id": "19962"
   },
   {
    "cid": "35083",
@@ -2775,6 +2766,15 @@
   },
   {
    "cid": "35578",
+   "course": "GUE Basic Fundamentals",
+   "date": "September 16, 2026",
+   "iso": "2026-09-16",
+   "location": "Bangkok, Bangkok , Thailand",
+   "instructor": "Sanya Lohitnavy",
+   "instructor_id": "3674"
+  },
+  {
+   "cid": "36809",
    "course": "GUE Basic Fundamentals",
    "date": "September 16, 2026",
    "iso": "2026-09-16",
@@ -3359,6 +3359,15 @@
    "instructor_id": "68750"
   },
   {
+   "cid": "36804",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "October 2, 2026",
+   "iso": "2026-10-02",
+   "location": "Los Angeles, California, United States",
+   "instructor": "Steven Millington",
+   "instructor_id": "4255"
+  },
+  {
    "cid": "35290",
    "course": "Cave Diver 1",
    "date": "October 2, 2026",
@@ -3584,6 +3593,15 @@
    "instructor_id": "20747"
   },
   {
+   "cid": "36810",
+   "course": "GUE Technical Fundamentals",
+   "date": "October 7, 2026",
+   "iso": "2026-10-07",
+   "location": "Bangkok, Bangkok , Thailand",
+   "instructor": "Sanya Lohitnavy",
+   "instructor_id": "3674"
+  },
+  {
    "cid": "34502",
    "course": "GUE Technical Fundamentals",
    "date": "October 7, 2026",
@@ -3800,6 +3818,15 @@
    "instructor_id": "2458"
   },
   {
+   "cid": "36818",
+   "course": "Technical Diver 1",
+   "date": "October 13, 2026",
+   "iso": "2026-10-13",
+   "location": "Des Moines, Washington, United States",
+   "instructor": "James Fraser",
+   "instructor_id": "26718"
+  },
+  {
    "cid": "34514",
    "course": "Technical Diver 1",
    "date": "October 13, 2026",
@@ -3807,15 +3834,6 @@
    "location": "Victoria, British Columbia, Canada",
    "instructor": "Jason Cook",
    "instructor_id": "24473"
-  },
-  {
-   "cid": "36524",
-   "course": "GUE Basic Fundamentals",
-   "date": "October 14, 2026",
-   "iso": "2026-10-14",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
   },
   {
    "cid": "36535",
@@ -4286,6 +4304,15 @@
    "instructor_id": "895"
   },
   {
+   "cid": "36819",
+   "course": "CCR Fundamentals: JJ-CCR",
+   "date": "October 31, 2026",
+   "iso": "2026-10-31",
+   "location": "Lysekil, Sweden",
+   "instructor": "Per Normark",
+   "instructor_id": "19962"
+  },
+  {
    "cid": "36304",
    "course": "GUE Performance Diver",
    "date": "October 31, 2026",
@@ -4502,6 +4529,15 @@
    "instructor_id": "68473"
   },
   {
+   "cid": "36820",
+   "course": "DPV Diver 1",
+   "date": "November 6, 2026",
+   "iso": "2026-11-06",
+   "location": "Lysekil, Sweden",
+   "instructor": "Per Normark",
+   "instructor_id": "19962"
+  },
+  {
    "cid": "36677",
    "course": "GUE Basic Fundamentals",
    "date": "November 6, 2026",
@@ -4509,6 +4545,15 @@
    "location": "Siegburg, Nordrhein-Westfalen, Germany",
    "instructor": "Benjamin Ott",
    "instructor_id": "11806"
+  },
+  {
+   "cid": "36811",
+   "course": "GUE Performance Diver",
+   "date": "November 6, 2026",
+   "iso": "2026-11-06",
+   "location": "Bangkok, Bangkok , Thailand",
+   "instructor": "Sanya Lohitnavy",
+   "instructor_id": "3674"
   },
   {
    "cid": "36681",
@@ -4572,6 +4617,15 @@
    "location": "Cabo de Palos, Spain",
    "instructor": "Ricardo Constantino",
    "instructor_id": "1591"
+  },
+  {
+   "cid": "36812",
+   "course": "GUE Basic Fundamentals",
+   "date": "November 11, 2026",
+   "iso": "2026-11-11",
+   "location": "Bangkok, Bangkok , Thailand",
+   "instructor": "Sanya Lohitnavy",
+   "instructor_id": "3674"
   },
   {
    "cid": "36481",
@@ -4727,6 +4781,15 @@
    "instructor_id": "10004"
   },
   {
+   "cid": "36813",
+   "course": "Doubles Primer",
+   "date": "November 20, 2026",
+   "iso": "2026-11-20",
+   "location": "Bangkok, Bangkok , Thailand",
+   "instructor": "Sanya Lohitnavy",
+   "instructor_id": "3674"
+  },
+  {
    "cid": "36153",
    "course": "CCR Technical Diver 1: JJ-CCR",
    "date": "November 22, 2026",
@@ -4815,6 +4878,15 @@
    "location": "Kralendijk, Bonaire",
    "instructor": "Jp Bresser",
    "instructor_id": "2458"
+  },
+  {
+   "cid": "36814",
+   "course": "Advanced Open Water Diver",
+   "date": "November 25, 2026",
+   "iso": "2026-11-25",
+   "location": "Bangkok, Bangkok , Thailand",
+   "instructor": "Sanya Lohitnavy",
+   "instructor_id": "3674"
   },
   {
    "cid": "34527",
@@ -5069,6 +5141,15 @@
    "instructor_id": "25023"
   },
   {
+   "cid": "36815",
+   "course": "GUE Performance Diver",
+   "date": "December 11, 2026",
+   "iso": "2026-12-11",
+   "location": "Bangkok, Bangkok , Thailand",
+   "instructor": "Sanya Lohitnavy",
+   "instructor_id": "3674"
+  },
+  {
    "cid": "36259",
    "course": "Doubles Primer",
    "date": "December 12, 2026",
@@ -5148,6 +5229,24 @@
    "location": "Victoria, British Columbia, Canada",
    "instructor": "Jason Cook",
    "instructor_id": "24473"
+  },
+  {
+   "cid": "36816",
+   "course": "GUE Basic Fundamentals",
+   "date": "December 16, 2026",
+   "iso": "2026-12-16",
+   "location": "Bangkok, Bangkok , Thailand",
+   "instructor": "Sanya Lohitnavy",
+   "instructor_id": "3674"
+  },
+  {
+   "cid": "36827",
+   "course": "GUE Basic Fundamentals",
+   "date": "December 16, 2026",
+   "iso": "2026-12-16",
+   "location": "Bangkok, Bangkok , Thailand",
+   "instructor": "Sanya Lohitnavy",
+   "instructor_id": "3674"
   },
   {
    "cid": "25891",
@@ -5825,6 +5924,15 @@
    "instructor_id": "1591"
   },
   {
+   "cid": "36821",
+   "course": "CCR Fundamentals: JJ-CCR",
+   "date": "April 18, 2027",
+   "iso": "2027-04-18",
+   "location": "Finale Ligure, Italy",
+   "instructor": "Per Normark",
+   "instructor_id": "19962"
+  },
+  {
    "cid": "36740",
    "course": "Cave Diver 2",
    "date": "April 19, 2027",
@@ -5897,6 +6005,15 @@
    "instructor_id": "7698"
   },
   {
+   "cid": "36822",
+   "course": "CCR Fundamentals: JJ-CCR",
+   "date": "May 19, 2027",
+   "iso": "2027-05-19",
+   "location": "Lysekil, Sweden",
+   "instructor": "Per Normark",
+   "instructor_id": "19962"
+  },
+  {
    "cid": "36505",
    "course": "ITC Rec 1 / Fundamentals",
    "date": "May 23, 2027",
@@ -5933,6 +6050,15 @@
    "instructor_id": "2276"
   },
   {
+   "cid": "36823",
+   "course": "GUE Basic Fundamentals",
+   "date": "May 28, 2027",
+   "iso": "2027-05-28",
+   "location": "Lysekil, Sweden",
+   "instructor": "Per Normark",
+   "instructor_id": "19962"
+  },
+  {
    "cid": "33618",
    "course": "Cave Diver 1",
    "date": "May 30, 2027",
@@ -5949,6 +6075,33 @@
    "location": "Third Dimension Diving, Tulum, Quintana Roo, Mexico",
    "instructor": "Ivo Chiarino",
    "instructor_id": "21332"
+  },
+  {
+   "cid": "36824",
+   "course": "DPV Diver 1",
+   "date": "June 4, 2027",
+   "iso": "2027-06-04",
+   "location": "Hästholmen, Sweden",
+   "instructor": "Per Normark",
+   "instructor_id": "19962"
+  },
+  {
+   "cid": "36825",
+   "course": "GUE Technical Fundamentals",
+   "date": "June 10, 2027",
+   "iso": "2027-06-10",
+   "location": "Lysekil, Sweden",
+   "instructor": "Per Normark",
+   "instructor_id": "19962"
+  },
+  {
+   "cid": "36826",
+   "course": "DPV Diver 1",
+   "date": "June 18, 2027",
+   "iso": "2027-06-18",
+   "location": "Lysekil, Sweden",
+   "instructor": "Per Normark",
+   "instructor_id": "19962"
   },
   {
    "cid": "30799",

@@ -1548,5 +1548,32 @@
   "matched_query": "liguria, italy",
   "approx": true,
   "verified": true
+ },
+ "finale ligure, italy": {
+  "lat": 44.1691474,
+  "lng": 8.3435917,
+  "display": "Finale Ligure, Savona, Liguria, 17024, Italia",
+  "country": "it",
+  "matched_query": "finale ligure, italy",
+  "approx": false,
+  "verified": true
+ },
+ "hästholmen, sweden": {
+  "lat": 58.2785395,
+  "lng": 14.638577,
+  "display": "Hästholmen, Ödeshögs kommun, Östergötlands län, 599 39, Sverige",
+  "country": "se",
+  "matched_query": "hästholmen, sweden",
+  "approx": false,
+  "verified": true
+ },
+ "lysekil, sweden": {
+  "lat": 58.2771735,
+  "lng": 11.4430987,
+  "display": "Lysekil, Lysekils kommun, Västra Götalands län, 453 35, Sverige",
+  "country": "se",
+  "matched_query": "lysekil, sweden",
+  "approx": false,
+  "verified": true
  }
 }
