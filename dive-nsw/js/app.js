@@ -35,6 +35,67 @@
   var SITE_BY_ID = {};
   DIVE_SITES.forEach(function (s) { SITE_BY_ID[s.id] = s; });
 
+  /* ---------------- favourites ---------------- */
+
+  /* favourite site ids, persisted; favourites pin to the top of the list */
+  var favs = (function () {
+    try {
+      var raw = JSON.parse(localStorage.getItem('sdc.favs') || '[]');
+      var out = {};
+      if (Array.isArray(raw)) raw.forEach(function (id) { if (SITE_BY_ID[id]) out[id] = true; });
+      return out;
+    } catch (e) { return {}; }
+  })();
+  function isFav(id) { return favs[id] === true; }
+  function toggleFav(id) {
+    if (favs[id]) delete favs[id]; else favs[id] = true;
+    try { localStorage.setItem('sdc.favs', JSON.stringify(Object.keys(favs))); } catch (e) {}
+    /* the drawer rebuild below destroys the button mid-press; keep keyboard focus on it */
+    var refocus = document.activeElement && document.activeElement.classList &&
+      document.activeElement.classList.contains('dd-fav');
+    /* the list rebuild strands the hovered card (a removed element never fires
+       mouseleave), which would leave that site's marker stuck in its hover ring */
+    var hovered = hoverId;
+    hoverId = null;
+    renderList();
+    if (hovered) refreshMarker(hovered);
+    if (state.area === 'all') renderMarkers();   // favourites are exempt from thinning
+    if (state.open === id) {
+      renderDetail(true);
+      if (refocus) {
+        var b = q('#drawer .dd-fav');
+        if (b) b.focus();
+      }
+    }
+  }
+  /* star toggle: a SPAN on cards (the card is already a button, and buttons
+     can't nest), a real BUTTON in the drawer for keyboard users */
+  var lastListFav = 0;
+  function favToggle(id, tag) {
+    var el = h(tag, (tag === 'button' ? 'dd-fav' : 'sc-fav') + (isFav(id) ? ' faved' : ''),
+      isFav(id) ? '★︎' : '☆︎');
+    el.title = isFav(id) ? 'Remove from favourites' : 'Add to favourites';
+    if (tag === 'button') {
+      el.type = 'button';
+      /* fixed name + aria-pressed; a name that flips would double-encode the state */
+      el.setAttribute('aria-label', 'Favourite');
+      el.setAttribute('aria-pressed', isFav(id) ? 'true' : 'false');
+    } else {
+      el.setAttribute('aria-hidden', 'true');
+    }
+    el.addEventListener('click', function (e) {
+      e.stopPropagation();   // don't open the site card behind the star
+      if (tag === 'span') {
+        /* pinning re-orders the list under the pointer, so the second half of a
+           double-click would star whichever card slides into this slot */
+        if (Date.now() - lastListFav < 350) return;
+        lastListFav = Date.now();
+      }
+      toggleFav(id);
+    });
+    return el;
+  }
+
   /* ---------------- areas ---------------- */
 
   function areaInfo(a) { return a === 'all' ? AREAS.all : AREAS.info[a]; }
@@ -312,6 +373,9 @@
       if (!cells[key] || score > cells[key].score) cells[key] = { site: s, score: score };
     });
     var out = Object.keys(cells).map(function (k) { return cells[k].site; });
+    sites.forEach(function (s) {
+      if (isFav(s.id) && out.indexOf(s) < 0) out.push(s);   // never thin away a favourite
+    });
     if (state.open && SITE_BY_ID[state.open] &&
         sites.indexOf(SITE_BY_ID[state.open]) >= 0 && out.indexOf(SITE_BY_ID[state.open]) < 0) {
       out.push(SITE_BY_ID[state.open]);   // never thin away the open site
@@ -579,6 +643,12 @@
     });
     if (state.sortDir === -1) sites.reverse();
 
+    /* favourites always float to the top, keeping the chosen sort within each group */
+    var pinned = sites.filter(function (s) { return isFav(s.id); });
+    if (pinned.length) {
+      sites = pinned.concat(sites.filter(function (s) { return !isFav(s.id); }));
+    }
+
     sites.forEach(function (site) {
       var r = dayRating(site.id);
       var card = h('button', 'site-card' + (state.open === site.id ? ' selected' : ''));
@@ -586,6 +656,7 @@
 
       var top = h('div', 'sc-top');
       top.appendChild(h('span', 'sc-name', site.name));
+      top.appendChild(favToggle(site.id, 'span'));
       top.appendChild(ratingChip(r, true));
       card.appendChild(top);
 
@@ -602,7 +673,12 @@
       }
 
       if (r && r.score < 3) card.classList.add('dim');
-      card.addEventListener('click', function () { openDetail(site.id, { fly: true }); });
+      card.addEventListener('click', function () {
+        /* the tail of a double-click on a star lands on whichever card slid
+           into that slot; don't open a site the user never aimed at */
+        if (Date.now() - lastListFav < 350) return;
+        openDetail(site.id, { fly: true });
+      });
       card.addEventListener('mouseenter', function () { hoverId = site.id; refreshMarker(site.id); });
       card.addEventListener('mouseleave', function () {
         if (hoverId === site.id) hoverId = null;
@@ -721,6 +797,7 @@
     var head = h('div', 'dd-head');
     var nameRow = h('div', 'dd-name-row');
     nameRow.appendChild(h('h2', 'dd-name', site.name));
+    nameRow.appendChild(favToggle(site.id, 'button'));
     head.appendChild(nameRow);
     head.appendChild(h('div', 'dd-meta', site.region + ' · ' +
       (site.type === 'shore' ? 'Shore dive' : 'Boat dive') + ' · ' + site.depth + ' · ' + site.level));

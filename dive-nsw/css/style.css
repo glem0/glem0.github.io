@@ -18,6 +18,7 @@
   --fair: #ffc233;
   --poor: #ff9166;
   --nogo: #e85c5c;
+  --fav: #ffc233;
   --score-ink: #12242f;
   color-scheme: dark;
   --banner-bg: #3a2a12;
@@ -61,6 +62,7 @@
   --danger-ink: #a02222;
   --legend-bg: rgba(255, 255, 255, 0.92);
   --rain-ink: #1c5cab;
+  --fav: #b07c00;
 }
 
 * { box-sizing: border-box; }
@@ -390,8 +392,29 @@ body.refreshing .rfx { animation: spin 1s linear infinite; }
 .site-card.dim { opacity: 0.72; }
 .site-card.dim:hover, .site-card.dim.selected { opacity: 1; }
 .sc-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
-.sc-name { font-weight: 600; font-size: 13.5px; }
+.sc-name { font-weight: 600; font-size: 13.5px; flex: 1 1 auto; }
 .sc-meta { color: var(--muted); font-size: 12px; margin-top: 3px; }
+/* favourite star: quiet outline until hovered or set
+   (resting opacity keeps the blend ≥3:1 on the card surface in each theme) */
+.sc-fav {
+  flex: none;
+  font-size: 15px;
+  line-height: 1;
+  color: var(--muted);
+  opacity: 0.75;
+  padding: 4px 5px;
+  margin: -4px -3px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+:root[data-theme="light"] .sc-fav { opacity: 0.85; }
+.sc-fav:hover { opacity: 1; background: var(--raised); }
+.site-card.selected .sc-fav:hover, .site-card:hover .sc-fav:hover { background: var(--surface); }
+.sc-fav.faved { opacity: 1; color: var(--fav); }
+/* fingers need a bigger star than mouse pointers do */
+@media (pointer: coarse) {
+  .sc-fav { font-size: 17px; padding: 7px 9px; margin: -7px -6px; }
+}
 .lvl-badge {
   border: 1px solid var(--border);
   border-radius: 4px;
@@ -538,7 +561,25 @@ body.refreshing .rfx { animation: spin 1s linear infinite; }
 }
 
 .dd-head { margin-bottom: 4px; }
-.dd-name { font-size: 19px; margin: 2px 0 4px; }
+.dd-name-row { display: flex; align-items: flex-start; gap: 10px; }
+.dd-name { font-size: 19px; margin: 2px 0 4px; flex: 1 1 auto; }
+.dd-fav {
+  flex: none;
+  margin-top: 3px;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+.dd-fav:hover { background: var(--raised); color: var(--ink); }
+.dd-fav.faved {
+  color: var(--fav);
+  border-color: color-mix(in srgb, var(--fav) 45%, var(--border));
+}
 .dd-meta { color: var(--muted); font-size: 12.5px; }
 .dd-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px; }
 .tag {
