@@ -1575,5 +1575,14 @@
   "matched_query": "lysekil, sweden",
   "approx": false,
   "verified": true
+ },
+ "atalya, antalya, turkey": {
+  "lat": 36.9114619,
+  "lng": 30.6845687,
+  "display": "Atalya Diş Kliniği, 50/A, Mehmet Akif Caddesi, Ulus Mahallesi, Kepez, Antalya, Akdeniz Bölgesi, 07025, Türkiye",
+  "country": "tr",
+  "matched_query": "atalya, antalya, turkey",
+  "approx": false,
+  "verified": true
  }
 }

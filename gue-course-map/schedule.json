@@ -1,69 +1,6 @@
 {
- "updated": "2026-07-22T18:44:59Z",
+ "updated": "2026-07-23T18:48:16Z",
  "classes": [
-  {
-   "cid": "35694",
-   "course": "DPV Diver 1",
-   "date": "July 23, 2026",
-   "iso": "2026-07-23",
-   "location": "Playa del Carmen, Quintana Roo, Mexico",
-   "instructor": "Emőke Wagner",
-   "instructor_id": "20747"
-  },
-  {
-   "cid": "36765",
-   "course": "Doubles Primer",
-   "date": "July 23, 2026",
-   "iso": "2026-07-23",
-   "location": "Zero Gravity Dive Center - Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Laurent Dahan",
-   "instructor_id": "25023"
-  },
-  {
-   "cid": "36634",
-   "course": "GUE Performance Diver",
-   "date": "July 23, 2026",
-   "iso": "2026-07-23",
-   "location": "Dahab, Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
-  },
-  {
-   "cid": "36744",
-   "course": "GUE Performance Diver",
-   "date": "July 23, 2026",
-   "iso": "2026-07-23",
-   "location": "Shanghai, Shanghai, China",
-   "instructor": "Xiaodong Zhong",
-   "instructor_id": "23171"
-  },
-  {
-   "cid": "36491",
-   "course": "GUE Technical Fundamentals",
-   "date": "July 23, 2026",
-   "iso": "2026-07-23",
-   "location": "Dahab , Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
-  },
-  {
-   "cid": "34696",
-   "course": "GUE Technical Fundamentals",
-   "date": "July 23, 2026",
-   "iso": "2026-07-23",
-   "location": "Hemmoor, Niedersachsen, Germany",
-   "instructor": "Daniel Schulte",
-   "instructor_id": "6754"
-  },
-  {
-   "cid": "35858",
-   "course": "Technical Diver 1",
-   "date": "July 23, 2026",
-   "iso": "2026-07-23",
-   "location": "Monterey Bay, California, United States",
-   "instructor": "Gideon Liew",
-   "instructor_id": "428"
-  },
   {
    "cid": "36021",
    "course": "CCR Fundamentals: JJ-CCR",
@@ -236,6 +173,15 @@
    "instructor_id": "22757"
   },
   {
+   "cid": "36841",
+   "course": "Open Water Diver",
+   "date": "July 25, 2026",
+   "iso": "2026-07-25",
+   "location": "Tenero, Ticino, Switzerland",
+   "instructor": "Ivan Wagner",
+   "instructor_id": "10571"
+  },
+  {
    "cid": "36578",
    "course": "Upgrade to GUE Basic Fundamentals",
    "date": "July 25, 2026",
@@ -369,6 +315,15 @@
    "location": "Manado, Indonesia",
    "instructor": "Jimmy Choo",
    "instructor_id": "15307"
+  },
+  {
+   "cid": "36842",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "July 27, 2026",
+   "iso": "2026-07-27",
+   "location": "Stromberg, Rheinland-Pfalz, Germany",
+   "instructor": "Sven Nelles",
+   "instructor_id": "7698"
   },
   {
    "cid": "36835",
@@ -821,6 +776,15 @@
    "instructor_id": "14654"
   },
   {
+   "cid": "36844",
+   "course": "GUE Performance Diver",
+   "date": "August 4, 2026",
+   "iso": "2026-08-04",
+   "location": "Atalya, Antalya, Turkey",
+   "instructor": "Nevcan Uludaş",
+   "instructor_id": "20397"
+  },
+  {
    "cid": "36468",
    "course": "Doubles Primer",
    "date": "August 5, 2026",
@@ -864,15 +828,6 @@
    "location": "Shanghai, China",
    "instructor": "Gemma Thomas",
    "instructor_id": "11724"
-  },
-  {
-   "cid": "30143",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 6, 2026",
-   "iso": "2026-08-06",
-   "location": "Schwetzingen, Germany",
-   "instructor": "Dimitris Fifis",
-   "instructor_id": "9369"
   },
   {
    "cid": "36836",
@@ -1298,24 +1253,6 @@
    "instructor_id": "23172"
   },
   {
-   "cid": "36665",
-   "course": "Doubles Primer",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Neuss, Nordrhein-Westfalen, Germany",
-   "instructor": "Frederik Bring",
-   "instructor_id": "68473"
-  },
-  {
-   "cid": "36666",
-   "course": "Drysuit Primer",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Neuss, Nordrhein-Westfalen, Germany",
-   "instructor": "Frederik Bring",
-   "instructor_id": "68473"
-  },
-  {
    "cid": "36250",
    "course": "Drysuit Primer",
    "date": "August 15, 2026",
@@ -1323,15 +1260,6 @@
    "location": "Zürich, Zürich, Switzerland",
    "instructor": "Maximilian Fahr",
    "instructor_id": "66486"
-  },
-  {
-   "cid": "36664",
-   "course": "GUE Performance Diver",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Neuss, Nordrhein-Westfalen, Germany",
-   "instructor": "Frederik Bring",
-   "instructor_id": "68473"
   },
   {
    "cid": "36374",
@@ -1766,6 +1694,15 @@
    "instructor_id": "22757"
   },
   {
+   "cid": "36843",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "August 22, 2026",
+   "iso": "2026-08-22",
+   "location": "Stromberg, Rheinland-Pfalz, Germany",
+   "instructor": "Sven Nelles",
+   "instructor_id": "7698"
+  },
+  {
    "cid": "34276",
    "course": "CCR Technical Diver 2",
    "date": "August 23, 2026",
@@ -1845,15 +1782,6 @@
    "location": "Bali, Indonesia",
    "instructor": "Gemma Thomas",
    "instructor_id": "11724"
-  },
-  {
-   "cid": "36690",
-   "course": "GUE Technical Fundamentals",
-   "date": "August 25, 2026",
-   "iso": "2026-08-25",
-   "location": "Raleigh, North Carolina, United States",
-   "instructor": "Stretch Aaron Altenhein",
-   "instructor_id": "10004"
   },
   {
    "cid": "35519",
@@ -2963,6 +2891,15 @@
    "instructor_id": "1956"
   },
   {
+   "cid": "36838",
+   "course": "DPV Diver 1",
+   "date": "September 21, 2026",
+   "iso": "2026-09-21",
+   "location": "Monterey, California, United States",
+   "instructor": "Alberto Nava",
+   "instructor_id": "2073"
+  },
+  {
    "cid": "36693",
    "course": "Doubles Primer",
    "date": "September 21, 2026",
@@ -3116,6 +3053,15 @@
    "instructor_id": "15307"
   },
   {
+   "cid": "36839",
+   "course": "DPV Diver 1",
+   "date": "September 25, 2026",
+   "iso": "2026-09-25",
+   "location": "Monterey, California, United States",
+   "instructor": "Alberto Nava",
+   "instructor_id": "2073"
+  },
+  {
    "cid": "35680",
    "course": "GUE Basic Fundamentals",
    "date": "September 25, 2026",
@@ -3123,15 +3069,6 @@
    "location": "Leipzig, Sachsen, Germany",
    "instructor": "Keith Kreitner",
    "instructor_id": "12073"
-  },
-  {
-   "cid": "35265",
-   "course": "GUE Basic Fundamentals",
-   "date": "September 25, 2026",
-   "iso": "2026-09-25",
-   "location": "Neuss, Nordrhein-Westfalen, Germany",
-   "instructor": "Frederik Bring",
-   "instructor_id": "68473"
   },
   {
    "cid": "35907",
@@ -3998,6 +3935,15 @@
    "instructor_id": "1444"
   },
   {
+   "cid": "36840",
+   "course": "CCR Fundamentals: JJ-CCR",
+   "date": "October 19, 2026",
+   "iso": "2026-10-19",
+   "location": "LAPULAPU, Cebu, Philippines",
+   "instructor": "Lee Jong Moon",
+   "instructor_id": "20356"
+  },
+  {
    "cid": "36413",
    "course": "CCR Fundamentals: Symbios",
    "date": "October 19, 2026",
@@ -4518,15 +4464,6 @@
    "location": "Santa Margherita, Genova, Italy",
    "instructor": "Francesco Cameli",
    "instructor_id": "22866"
-  },
-  {
-   "cid": "36154",
-   "course": "GUE Technical Fundamentals",
-   "date": "November 5, 2026",
-   "iso": "2026-11-05",
-   "location": "München, Bayern, Germany",
-   "instructor": "Frederik Bring",
-   "instructor_id": "68473"
   },
   {
    "cid": "36820",

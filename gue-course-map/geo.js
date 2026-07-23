@@ -7,6 +7,7 @@ window.GUE_GEO = {
 "almelo, netherlands":[52.35636,6.66362],
 "anchorage, alaska, united states":[61.21631,-149.89485],
 "anilao, batangas, philippines":[13.76077,120.92796],
+"atalya, antalya, turkey":[36.91146,30.68457],
 "athens, greece":[37.97556,23.73483],
 "attersee, austria":[47.91439,13.53561],
 "augsburg, bayern, germany":[48.36903,10.89795],
