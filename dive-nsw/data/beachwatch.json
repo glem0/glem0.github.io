@@ -317,8 +317,8 @@
         },
         "properties": {
           "id": "8990825d-b48c-443f-9047-862a0b986621",
-          "latestResult": "Bad",
-          "latestResultRating": 1,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Boat Harbour"
         },
@@ -2597,7 +2597,7 @@
           "id": "51a141aa-f0ba-433b-83d8-3ebba1e56c85",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "North Wollongong Beach"
         },
         "type": "Feature"
@@ -2629,8 +2629,8 @@
         },
         "properties": {
           "id": "c4e9e972-580e-4571-8d2d-a7c0b1fdc604",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Oak Park Beach"
         },
