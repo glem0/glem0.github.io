@@ -1584,5 +1584,23 @@
   "matched_query": "atalya, antalya, turkey",
   "approx": false,
   "verified": true
+ },
+ "lago di bracciano, roma, italy": {
+  "lat": 42.1210581,
+  "lng": 12.2302748,
+  "display": "Lago di Bracciano, Bracciano, Roma Capitale, Lazio, 00069, Italia",
+  "country": "it",
+  "matched_query": "lago di bracciano, roma, italy",
+  "approx": false,
+  "verified": true
+ },
+ "toronto, canada": {
+  "lat": 43.6534817,
+  "lng": -79.3839347,
+  "display": "Toronto, Golden Horseshoe, Ontario, Canada",
+  "country": "ca",
+  "matched_query": "toronto, canada",
+  "approx": false,
+  "verified": true
  }
 }
