@@ -1,132 +1,6 @@
 {
- "updated": "2026-07-24T19:03:06Z",
+ "updated": "2026-07-25T18:33:52Z",
  "classes": [
-  {
-   "cid": "36398",
-   "course": "Cave Diver 1",
-   "date": "July 25, 2026",
-   "iso": "2026-07-25",
-   "location": "Nuttlar, Germany",
-   "instructor": "Peter Gaertner",
-   "instructor_id": "1374"
-  },
-  {
-   "cid": "36629",
-   "course": "Doubles Primer",
-   "date": "July 25, 2026",
-   "iso": "2026-07-25",
-   "location": "Beijing, Beijing, China",
-   "instructor": "Xuan Chen",
-   "instructor_id": "20926"
-  },
-  {
-   "cid": "34670",
-   "course": "Doubles Primer",
-   "date": "July 25, 2026",
-   "iso": "2026-07-25",
-   "location": "Toronto, Ontario, Canada",
-   "instructor": "Alain Eid",
-   "instructor_id": "17695"
-  },
-  {
-   "cid": "36793",
-   "course": "Drysuit Primer",
-   "date": "July 25, 2026",
-   "iso": "2026-07-25",
-   "location": "Hangzhou, Zhejiang, China",
-   "instructor": "Jinhui Xiong",
-   "instructor_id": "72355"
-  },
-  {
-   "cid": "36671",
-   "course": "Drysuit Primer",
-   "date": "July 25, 2026",
-   "iso": "2026-07-25",
-   "location": "Shanghai, Shanghai, China",
-   "instructor": "Yanbin Wu",
-   "instructor_id": "23172"
-  },
-  {
-   "cid": "36355",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 25, 2026",
-   "iso": "2026-07-25",
-   "location": "Des Moines, Washington, United States",
-   "instructor": "James Fraser",
-   "instructor_id": "26718"
-  },
-  {
-   "cid": "36377",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 25, 2026",
-   "iso": "2026-07-25",
-   "location": "Shanghai, Shanghai, China",
-   "instructor": "Xiaodong Zhong",
-   "instructor_id": "23171"
-  },
-  {
-   "cid": "34650",
-   "course": "GUE Performance Diver",
-   "date": "July 25, 2026",
-   "iso": "2026-07-25",
-   "location": "Tioman, Malaysia",
-   "instructor": "Gemma Thomas",
-   "instructor_id": "11724"
-  },
-  {
-   "cid": "35532",
-   "course": "GUE Performance Diver",
-   "date": "July 25, 2026",
-   "iso": "2026-07-25",
-   "location": "Tioman, Malaysia",
-   "instructor": "Gemma Thomas",
-   "instructor_id": "11724"
-  },
-  {
-   "cid": "36786",
-   "course": "GUE Technical Fundamentals",
-   "date": "July 25, 2026",
-   "iso": "2026-07-25",
-   "location": "Porto Valtravaglia, Varese, Italy",
-   "instructor": "Romano Rampazzo",
-   "instructor_id": "2428"
-  },
-  {
-   "cid": "36841",
-   "course": "Open Water Diver",
-   "date": "July 25, 2026",
-   "iso": "2026-07-25",
-   "location": "Tenero, Ticino, Switzerland",
-   "instructor": "Ivan Wagner",
-   "instructor_id": "10571"
-  },
-  {
-   "cid": "36578",
-   "course": "Upgrade to GUE Basic Fundamentals",
-   "date": "July 25, 2026",
-   "iso": "2026-07-25",
-   "location": "Civitavecchia, Roma, Italy",
-   "instructor": "Claudio Provenzani",
-   "instructor_id": "1999"
-  },
-  {
-   "cid": "36845",
-   "course": "Upgrade to GUE Basic Fundamentals",
-   "date": "July 25, 2026",
-   "iso": "2026-07-25",
-   "location": "Lago di Bracciano, Roma, Italy",
-   "instructor": "Claudio Provenzani",
-   "instructor_id": "1999"
-  },
-  {
-   "cid": "36712",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "July 25, 2026",
-   "iso": "2026-07-25",
-   "location": "Foshan, China",
-   "instructor": "Huang Weiqi",
-   "instructor_id": "23052"
-  },
   {
    "cid": "36316",
    "course": "CCR Fundamentals: Symbios",
@@ -162,6 +36,15 @@
    "location": "GO SEONG, Kangwon-do, Korea (South)",
    "instructor": "Kyung Jin Kim",
    "instructor_id": "68526"
+  },
+  {
+   "cid": "36854",
+   "course": "Upgrade to GUE Basic Fundamentals",
+   "date": "July 26, 2026",
+   "iso": "2026-07-26",
+   "location": "Vinkeveen, Netherlands",
+   "instructor": "Anne-Marie Bresser",
+   "instructor_id": "2021"
   },
   {
    "cid": "35940",
@@ -416,15 +299,6 @@
    "instructor_id": "68425"
   },
   {
-   "cid": "33369",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 31, 2026",
-   "iso": "2026-07-31",
-   "location": "Stromberg, Rheinland-Pfalz, Germany",
-   "instructor": "Sven Nelles",
-   "instructor_id": "7698"
-  },
-  {
    "cid": "36797",
    "course": "GUE Performance Diver",
    "date": "July 31, 2026",
@@ -497,15 +371,6 @@
    "instructor_id": "69051"
   },
   {
-   "cid": "32212",
-   "course": "GUE Performance Diver",
-   "date": "August 1, 2026",
-   "iso": "2026-08-01",
-   "location": "Stromberg, Rheinland-Pfalz, Germany",
-   "instructor": "Sven Nelles",
-   "instructor_id": "7698"
-  },
-  {
    "cid": "35026",
    "course": "Technical Diver 1",
    "date": "August 1, 2026",
@@ -513,15 +378,6 @@
    "location": "Hangzhou, Zhejiang, China",
    "instructor": "Yanbin Wu",
    "instructor_id": "23172"
-  },
-  {
-   "cid": "30926",
-   "course": "Technical Diver 1",
-   "date": "August 1, 2026",
-   "iso": "2026-08-01",
-   "location": "Hemmoor, Niedersachsen, Germany",
-   "instructor": "Daniel Schulte",
-   "instructor_id": "6754"
   },
   {
    "cid": "36393",
@@ -540,15 +396,6 @@
    "location": "Dutch Springs, Pennsylvania, United States",
    "instructor": "Ivo Chiarino",
    "instructor_id": "21332"
-  },
-  {
-   "cid": "33137",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "August 1, 2026",
-   "iso": "2026-08-01",
-   "location": "Hemmoor, Niedersachsen, Germany",
-   "instructor": "Daniel Schulte",
-   "instructor_id": "6754"
   },
   {
    "cid": "35969",
@@ -621,15 +468,6 @@
    "location": "Korntal-Münchingen, Germany",
    "instructor": "Peter Gaertner",
    "instructor_id": "1374"
-  },
-  {
-   "cid": "35866",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "August 2, 2026",
-   "iso": "2026-08-02",
-   "location": "Hemmoor, Niedersachsen, Germany",
-   "instructor": "Daniel Schulte",
-   "instructor_id": "6754"
   },
   {
    "cid": "35689",
@@ -722,6 +560,15 @@
    "instructor_id": "67329"
   },
   {
+   "cid": "36852",
+   "course": "Navigation Primer",
+   "date": "August 5, 2026",
+   "iso": "2026-08-05",
+   "location": "Stromberg, Rheinland-Pfalz, Germany",
+   "instructor": "Sven Nelles",
+   "instructor_id": "7698"
+  },
+  {
    "cid": "36287",
    "course": "Upgrade to GUE Basic Fundamentals",
    "date": "August 5, 2026",
@@ -765,6 +612,15 @@
    "location": "Zürich, Zürich, Switzerland",
    "instructor": "Esther Trösch",
    "instructor_id": "64918"
+  },
+  {
+   "cid": "29480",
+   "course": "Deep Primer",
+   "date": "August 7, 2026",
+   "iso": "2026-08-07",
+   "location": "Stromberg, Rheinland-Pfalz , Germany",
+   "instructor": "Sven Nelles",
+   "instructor_id": "7698"
   },
   {
    "cid": "35575",
@@ -1154,15 +1010,6 @@
    "instructor_id": "20747"
   },
   {
-   "cid": "29480",
-   "course": "Deep Primer",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Stromberg, Rheinland-Pfalz , Germany",
-   "instructor": "Sven Nelles",
-   "instructor_id": "7698"
-  },
-  {
    "cid": "36673",
    "course": "Doubles Primer",
    "date": "August 15, 2026",
@@ -1188,6 +1035,24 @@
    "location": "Zürich, Zürich, Switzerland",
    "instructor": "Maximilian Fahr",
    "instructor_id": "66486"
+  },
+  {
+   "cid": "33369",
+   "course": "GUE Basic Fundamentals",
+   "date": "August 15, 2026",
+   "iso": "2026-08-15",
+   "location": "Stromberg, Rheinland-Pfalz, Germany",
+   "instructor": "Sven Nelles",
+   "instructor_id": "7698"
+  },
+  {
+   "cid": "32212",
+   "course": "GUE Performance Diver",
+   "date": "August 15, 2026",
+   "iso": "2026-08-15",
+   "location": "Stromberg, Rheinland-Pfalz, Germany",
+   "instructor": "Sven Nelles",
+   "instructor_id": "7698"
   },
   {
    "cid": "36374",
@@ -3233,6 +3098,33 @@
    "instructor_id": "68750"
   },
   {
+   "cid": "30926",
+   "course": "Technical Diver 1",
+   "date": "October 1, 2026",
+   "iso": "2026-10-01",
+   "location": "Hemmoor, Niedersachsen, Germany",
+   "instructor": "Daniel Schulte",
+   "instructor_id": "6754"
+  },
+  {
+   "cid": "33137",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "October 1, 2026",
+   "iso": "2026-10-01",
+   "location": "Hemmoor, Niedersachsen, Germany",
+   "instructor": "Daniel Schulte",
+   "instructor_id": "6754"
+  },
+  {
+   "cid": "35866",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "October 1, 2026",
+   "iso": "2026-10-01",
+   "location": "Hemmoor, Niedersachsen, Germany",
+   "instructor": "Daniel Schulte",
+   "instructor_id": "6754"
+  },
+  {
    "cid": "36804",
    "course": "CCR Fundamentals: Symbios",
    "date": "October 2, 2026",
@@ -5112,6 +5004,15 @@
    "location": "Foshan, China",
    "instructor": "Huang Weiqi",
    "instructor_id": "23052"
+  },
+  {
+   "cid": "36857",
+   "course": "GUE Basic Fundamentals",
+   "date": "December 15, 2026",
+   "iso": "2026-12-15",
+   "location": "Cabo de Palos, Spain",
+   "instructor": "Ricardo Constantino",
+   "instructor_id": "1591"
   },
   {
    "cid": "36313",
