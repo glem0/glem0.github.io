@@ -846,7 +846,7 @@
           "id": "9aac94a6-0188-44c5-92ab-60068862371d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Likely",
           "siteName": "Collaroy Beach"
         },
         "type": "Feature"
@@ -1101,7 +1101,7 @@
           "id": "98261de4-b6b8-4555-ac3c-f86c4bd8f413",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Dee Why Beach"
         },
         "type": "Feature"
@@ -1951,7 +1951,7 @@
           "id": "93ec689a-b568-4cef-8c51-1eaafbbb51a5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Long Reef Beach"
         },
         "type": "Feature"
