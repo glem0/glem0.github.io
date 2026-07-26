@@ -1,60 +1,6 @@
 {
- "updated": "2026-07-25T18:33:52Z",
+ "updated": "2026-07-26T18:38:31Z",
  "classes": [
-  {
-   "cid": "36316",
-   "course": "CCR Fundamentals: Symbios",
-   "date": "July 26, 2026",
-   "iso": "2026-07-26",
-   "location": "Los Angeles, California, United States",
-   "instructor": "Steven Millington",
-   "instructor_id": "4255"
-  },
-  {
-   "cid": "36203",
-   "course": "Drysuit Primer",
-   "date": "July 26, 2026",
-   "iso": "2026-07-26",
-   "location": "Kressbronn, Germany",
-   "instructor": "Peter Gaertner",
-   "instructor_id": "1374"
-  },
-  {
-   "cid": "36437",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 26, 2026",
-   "iso": "2026-07-26",
-   "location": "Zero Gravity Dive Center - Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Laurent Dahan",
-   "instructor_id": "25023"
-  },
-  {
-   "cid": "36781",
-   "course": "GUE Technical Fundamentals",
-   "date": "July 26, 2026",
-   "iso": "2026-07-26",
-   "location": "GO SEONG, Kangwon-do, Korea (South)",
-   "instructor": "Kyung Jin Kim",
-   "instructor_id": "68526"
-  },
-  {
-   "cid": "36854",
-   "course": "Upgrade to GUE Basic Fundamentals",
-   "date": "July 26, 2026",
-   "iso": "2026-07-26",
-   "location": "Vinkeveen, Netherlands",
-   "instructor": "Anne-Marie Bresser",
-   "instructor_id": "2021"
-  },
-  {
-   "cid": "35940",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "July 26, 2026",
-   "iso": "2026-07-26",
-   "location": "Schwetzingen , Baden-Württemberg, Germany",
-   "instructor": "Esther Trösch",
-   "instructor_id": "64918"
-  },
   {
    "cid": "35458",
    "course": "DPV Cave",
@@ -173,15 +119,6 @@
    "instructor_id": "11026"
   },
   {
-   "cid": "36802",
-   "course": "GUE Technical Fundamentals",
-   "date": "July 28, 2026",
-   "iso": "2026-07-28",
-   "location": "Changwon, Kyongsang-namdo, Korea (South)",
-   "instructor": "Myoung Hoon Kim",
-   "instructor_id": "17486"
-  },
-  {
    "cid": "36438",
    "course": "Upgrade to GUE Basic Fundamentals",
    "date": "July 28, 2026",
@@ -207,6 +144,15 @@
    "location": "Gdansk, Poland",
    "instructor": "Bartek Trzcinski",
    "instructor_id": "25915"
+  },
+  {
+   "cid": "36864",
+   "course": "Drysuit Primer",
+   "date": "July 29, 2026",
+   "iso": "2026-07-29",
+   "location": "Hangzhou, Zhejiang, China",
+   "instructor": "Jinhui Xiong",
+   "instructor_id": "72355"
   },
   {
    "cid": "36087",
@@ -470,6 +416,15 @@
    "instructor_id": "1374"
   },
   {
+   "cid": "36859",
+   "course": "Gas Blender",
+   "date": "August 2, 2026",
+   "iso": "2026-08-02",
+   "location": "Numazu, Shizuoka, Japan",
+   "instructor": "Thomas Jonsson",
+   "instructor_id": "2359"
+  },
+  {
    "cid": "35689",
    "course": "Cave Diver 1",
    "date": "August 3, 2026",
@@ -477,6 +432,24 @@
    "location": "Playa del Carmen, Quintana Roo, Mexico",
    "instructor": "Emőke Wagner",
    "instructor_id": "20747"
+  },
+  {
+   "cid": "36860",
+   "course": "Doubles Primer",
+   "date": "August 3, 2026",
+   "iso": "2026-08-03",
+   "location": "Monterey Bay, California, United States",
+   "instructor": "Gideon Liew",
+   "instructor_id": "428"
+  },
+  {
+   "cid": "36867",
+   "course": "Drysuit Primer",
+   "date": "August 3, 2026",
+   "iso": "2026-08-03",
+   "location": "Stromberg, Rheinland-Pfalz, Germany",
+   "instructor": "Sven Nelles",
+   "instructor_id": "7698"
   },
   {
    "cid": "36284",
@@ -531,6 +504,15 @@
    "location": "Yangyang , Kangwon-do, Korea (South)",
    "instructor": "Kyungsoo Kim",
    "instructor_id": "14654"
+  },
+  {
+   "cid": "36868",
+   "course": "Doubles Primer",
+   "date": "August 4, 2026",
+   "iso": "2026-08-04",
+   "location": "Stromberg, Rheinland-Pfalz, Germany",
+   "instructor": "Sven Nelles",
+   "instructor_id": "7698"
   },
   {
    "cid": "36844",
@@ -720,6 +702,15 @@
    "location": "Plano, Texas, United States",
    "instructor": "Elon Mehr",
    "instructor_id": "66591"
+  },
+  {
+   "cid": "36861",
+   "course": "GUE Basic Fundamentals",
+   "date": "August 8, 2026",
+   "iso": "2026-08-08",
+   "location": "Sydney, New South Wales, Australia",
+   "instructor": "Duncan Paterson",
+   "instructor_id": "18320"
   },
   {
    "cid": "36834",
