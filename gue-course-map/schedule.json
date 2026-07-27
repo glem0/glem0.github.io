@@ -1,86 +1,14 @@
 {
- "updated": "2026-07-26T18:38:31Z",
+ "updated": "2026-07-27T19:00:47Z",
  "classes": [
   {
-   "cid": "35458",
-   "course": "DPV Cave",
-   "date": "July 27, 2026",
-   "iso": "2026-07-27",
-   "location": "Cajarc, France",
-   "instructor": "Jp Bresser",
-   "instructor_id": "2458"
-  },
-  {
-   "cid": "36792",
+   "cid": "36877",
    "course": "Doubles Primer",
-   "date": "July 27, 2026",
-   "iso": "2026-07-27",
-   "location": "Hangzhou, Zhejiang, China",
-   "instructor": "Jinhui Xiong",
-   "instructor_id": "72355"
-  },
-  {
-   "cid": "35643",
-   "course": "Drysuit Primer",
-   "date": "July 27, 2026",
-   "iso": "2026-07-27",
-   "location": "Athens, Greece",
-   "instructor": "Nikos Vardakas",
-   "instructor_id": "1991"
-  },
-  {
-   "cid": "36754",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 27, 2026",
-   "iso": "2026-07-27",
-   "location": "Dahab, Egypt",
-   "instructor": "Mahmoud Esmat",
-   "instructor_id": "65259"
-  },
-  {
-   "cid": "35692",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 27, 2026",
-   "iso": "2026-07-27",
-   "location": "Playa del Carmen, Quintana Roo, Mexico",
-   "instructor": "Emőke Wagner",
-   "instructor_id": "20747"
-  },
-  {
-   "cid": "35346",
-   "course": "GUE Technical Fundamentals",
-   "date": "July 27, 2026",
-   "iso": "2026-07-27",
-   "location": "Brockville, Canada",
-   "instructor": "Heison Chak",
-   "instructor_id": "13808"
-  },
-  {
-   "cid": "36145",
-   "course": "Recreational Dive Leader",
-   "date": "July 27, 2026",
-   "iso": "2026-07-27",
-   "location": "Tioman, Malaysia",
-   "instructor": "Gemma Thomas",
-   "instructor_id": "11724"
-  },
-  {
-   "cid": "36420",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "July 27, 2026",
-   "iso": "2026-07-27",
-   "location": "Manado, Indonesia",
-   "instructor": "Jimmy Choo",
-   "instructor_id": "15307"
-  },
-  {
-   "cid": "36842",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "July 27, 2026",
-   "iso": "2026-07-27",
-   "location": "Stromberg, Rheinland-Pfalz, Germany",
-   "instructor": "Sven Nelles",
-   "instructor_id": "7698"
+   "date": "July 28, 2026",
+   "iso": "2026-07-28",
+   "location": "Antalya, Antalya, Turkey",
+   "instructor": "Nevcan Uludaş",
+   "instructor_id": "20397"
   },
   {
    "cid": "36835",
@@ -146,13 +74,13 @@
    "instructor_id": "25915"
   },
   {
-   "cid": "36864",
-   "course": "Drysuit Primer",
+   "cid": "36876",
+   "course": "GUE Performance Diver",
    "date": "July 29, 2026",
    "iso": "2026-07-29",
-   "location": "Hangzhou, Zhejiang, China",
-   "instructor": "Jinhui Xiong",
-   "instructor_id": "72355"
+   "location": "Antalya, Antalya, Turkey",
+   "instructor": "Nevcan Uludaş",
+   "instructor_id": "20397"
   },
   {
    "cid": "36087",
@@ -443,6 +371,15 @@
    "instructor_id": "428"
   },
   {
+   "cid": "36869",
+   "course": "Doubles Primer",
+   "date": "August 3, 2026",
+   "iso": "2026-08-03",
+   "location": "Monterey Bay, California, United States",
+   "instructor": "Gideon Liew",
+   "instructor_id": "428"
+  },
+  {
    "cid": "36867",
    "course": "Drysuit Primer",
    "date": "August 3, 2026",
@@ -621,6 +558,15 @@
    "location": "Bangkok, Bangkok , Thailand",
    "instructor": "Sanya Lohitnavy",
    "instructor_id": "3674"
+  },
+  {
+   "cid": "36870",
+   "course": "Drysuit Primer",
+   "date": "August 7, 2026",
+   "iso": "2026-08-07",
+   "location": "Hangzhou, Zhejiang, China",
+   "instructor": "Jinhui Xiong",
+   "instructor_id": "72355"
   },
   {
    "cid": "35973",
@@ -936,6 +882,15 @@
    "location": "Singapore, Singapore",
    "instructor": "Gemma Thomas",
    "instructor_id": "11724"
+  },
+  {
+   "cid": "36884",
+   "course": "Doubles Primer",
+   "date": "August 13, 2026",
+   "iso": "2026-08-13",
+   "location": "Dea Moines, Washington, United States",
+   "instructor": "James Fraser",
+   "instructor_id": "26718"
   },
   {
    "cid": "36643",
@@ -1307,6 +1262,15 @@
    "instructor_id": "20747"
   },
   {
+   "cid": "36872",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "August 20, 2026",
+   "iso": "2026-08-20",
+   "location": "Schwetzingen , Hessen, Germany",
+   "instructor": "Esther Trösch",
+   "instructor_id": "64918"
+  },
+  {
    "cid": "32209",
    "course": "BLS-D & Oxygen First Aid",
    "date": "August 21, 2026",
@@ -1559,6 +1523,15 @@
    "instructor_id": "3297"
   },
   {
+   "cid": "36878",
+   "course": "ITC GUE Performance Diver",
+   "date": "August 24, 2026",
+   "iso": "2026-08-24",
+   "location": "Antalya, Antalya, Turkey",
+   "instructor": "Nevcan Uludaş",
+   "instructor_id": "20397"
+  },
+  {
    "cid": "35968",
    "course": "DPV Diver 1",
    "date": "August 25, 2026",
@@ -1566,6 +1539,15 @@
    "location": "Bali, Indonesia",
    "instructor": "Gemma Thomas",
    "instructor_id": "11724"
+  },
+  {
+   "cid": "36874",
+   "course": "GUE Performance Diver",
+   "date": "August 25, 2026",
+   "iso": "2026-08-25",
+   "location": "Foshan, Guangdong, China",
+   "instructor": "Huang Weiqi",
+   "instructor_id": "23052"
   },
   {
    "cid": "35519",
@@ -2259,6 +2241,15 @@
    "location": "Bangkok, Bangkok , Thailand",
    "instructor": "Sanya Lohitnavy",
    "instructor_id": "3674"
+  },
+  {
+   "cid": "36880",
+   "course": "GUE Performance Diver",
+   "date": "September 11, 2026",
+   "iso": "2026-09-11",
+   "location": "Tulamben, Bali, Indonesia",
+   "instructor": "Coral Chua",
+   "instructor_id": "75313"
   },
   {
    "cid": "36397",
@@ -3395,6 +3386,15 @@
    "instructor_id": "12073"
   },
   {
+   "cid": "35637",
+   "course": "GUE Performance Diver",
+   "date": "October 9, 2026",
+   "iso": "2026-10-09",
+   "location": "Kressbronn am Bodensee, Baden-Württemberg, Germany",
+   "instructor": "Oliver Reimer",
+   "instructor_id": "15479"
+  },
+  {
    "cid": "36570",
    "course": "Rescue Primer",
    "date": "October 9, 2026",
@@ -3402,15 +3402,6 @@
    "location": "Hemmoor, Germany",
    "instructor": "Keith Kreitner",
    "instructor_id": "12073"
-  },
-  {
-   "cid": "35187",
-   "course": "Doubles Primer",
-   "date": "October 10, 2026",
-   "iso": "2026-10-10",
-   "location": "Schwetzingen, Baden-Württemberg, Germany",
-   "instructor": "Esther Trösch",
-   "instructor_id": "64918"
   },
   {
    "cid": "34673",
@@ -3582,6 +3573,15 @@
    "location": "Vinkeveen, Netherlands",
    "instructor": "Jp Bresser",
    "instructor_id": "2458"
+  },
+  {
+   "cid": "36881",
+   "course": "GUE Performance Diver",
+   "date": "October 13, 2026",
+   "iso": "2026-10-13",
+   "location": "Tulamben, Bali, Indonesia",
+   "instructor": "Coral Chua",
+   "instructor_id": "75313"
   },
   {
    "cid": "36818",
@@ -3908,6 +3908,15 @@
    "instructor_id": "11724"
   },
   {
+   "cid": "36875",
+   "course": "GUE Technical Fundamentals",
+   "date": "October 23, 2026",
+   "iso": "2026-10-23",
+   "location": "Tilburg, Noord-Brabant, Netherlands",
+   "instructor": "Rick Van Beerendonk",
+   "instructor_id": "21650"
+  },
+  {
    "cid": "34674",
    "course": "GUE Basic Fundamentals",
    "date": "October 24, 2026",
@@ -4169,6 +4178,15 @@
    "instructor_id": "1411"
   },
   {
+   "cid": "36882",
+   "course": "GUE Performance Diver",
+   "date": "November 1, 2026",
+   "iso": "2026-11-01",
+   "location": "Tulamben, Bali, Indonesia",
+   "instructor": "Coral Chua",
+   "instructor_id": "75313"
+  },
+  {
    "cid": "35201",
    "course": "CCR Cave",
    "date": "November 2, 2026",
@@ -4320,6 +4338,15 @@
    "location": "Bangkok, Bangkok , Thailand",
    "instructor": "Sanya Lohitnavy",
    "instructor_id": "3674"
+  },
+  {
+   "cid": "36883",
+   "course": "GUE Performance Diver",
+   "date": "November 6, 2026",
+   "iso": "2026-11-06",
+   "location": "Tulamben, Bali, Indonesia",
+   "instructor": "Coral Chua",
+   "instructor_id": "75313"
   },
   {
    "cid": "36681",
@@ -4646,15 +4673,6 @@
    "instructor_id": "304"
   },
   {
-   "cid": "35050",
-   "course": "Technical Diver 1",
-   "date": "November 23, 2026",
-   "iso": "2026-11-23",
-   "location": "Zero Gravity Dive centre, Puerto Aventuras , Quintana Roo, Mexico",
-   "instructor": "Annika Persson",
-   "instructor_id": "9662"
-  },
-  {
    "cid": "35471",
    "course": "Upgrade to CCR Tech 1: JJ-CCR",
    "date": "November 23, 2026",
@@ -4763,15 +4781,6 @@
    "instructor_id": "25023"
   },
   {
-   "cid": "36654",
-   "course": "Cave Diver 1",
-   "date": "November 30, 2026",
-   "iso": "2026-11-30",
-   "location": "Zero Gravity Dive center, Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Annika Persson",
-   "instructor_id": "9662"
-  },
-  {
    "cid": "35192",
    "course": "Cave Diver 2",
    "date": "November 30, 2026",
@@ -4806,6 +4815,15 @@
    "location": "Kralendijk, Bonaire",
    "instructor": "Jp Bresser",
    "instructor_id": "2458"
+  },
+  {
+   "cid": "35050",
+   "course": "Technical Diver 1",
+   "date": "November 30, 2026",
+   "iso": "2026-11-30",
+   "location": "Zero Gravity Dive centre, Puerto Aventuras , Quintana Roo, Mexico",
+   "instructor": "Annika Persson",
+   "instructor_id": "9662"
   },
   {
    "cid": "36450",
@@ -5222,6 +5240,15 @@
    "instructor_id": "68474"
   },
   {
+   "cid": "36879",
+   "course": "GUE Performance Diver",
+   "date": "January 6, 2027",
+   "iso": "2027-01-06",
+   "location": "Tulamben, Bali, Indonesia",
+   "instructor": "Coral Chua",
+   "instructor_id": "75313"
+  },
+  {
    "cid": "36486",
    "course": "CCR Fundamentals: JJ-CCR",
    "date": "January 7, 2027",
@@ -5301,6 +5328,15 @@
    "location": "Playa del Carmen, Quintana Roo, Mexico",
    "instructor": "Emőke Wagner",
    "instructor_id": "20747"
+  },
+  {
+   "cid": "35187",
+   "course": "Doubles Primer",
+   "date": "January 16, 2027",
+   "iso": "2027-01-16",
+   "location": "Schwetzingen, Baden-Württemberg, Germany",
+   "instructor": "Esther Trösch",
+   "instructor_id": "64918"
   },
   {
    "cid": "36755",
