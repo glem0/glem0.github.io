@@ -1628,5 +1628,23 @@
   "matched_query": "schwetzingen, germany",
   "approx": false,
   "verified": true
+ },
+ "hemmoor o. nordhausen, germany": {
+  "lat": 51.1638175,
+  "lng": 10.4478313,
+  "display": "Deutschland",
+  "country": "de",
+  "matched_query": "germany",
+  "approx": true,
+  "verified": true
+ },
+ "münster, nordrhein-westfalen, germany": {
+  "lat": 51.9625101,
+  "lng": 7.6251879,
+  "display": "Münster, Nordrhein-Westfalen, Deutschland",
+  "country": "de",
+  "matched_query": "münster, nordrhein-westfalen, germany",
+  "approx": false,
+  "verified": true
  }
 }
