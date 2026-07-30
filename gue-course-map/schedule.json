@@ -1,78 +1,6 @@
 {
- "updated": "2026-07-29T18:35:45Z",
+ "updated": "2026-07-30T18:59:11Z",
  "classes": [
-  {
-   "cid": "36896",
-   "course": "BLS-D & Oxygen First Aid Refresher",
-   "date": "July 30, 2026",
-   "iso": "2026-07-30",
-   "location": "Münster, Nordrhein-Westfalen, Germany",
-   "instructor": "Daniel Schulte",
-   "instructor_id": "6754"
-  },
-  {
-   "cid": "36087",
-   "course": "Doubles Primer",
-   "date": "July 30, 2026",
-   "iso": "2026-07-30",
-   "location": "XR Explorers, Kuwait",
-   "instructor": "Yehia Ahmed",
-   "instructor_id": "68430"
-  },
-  {
-   "cid": "35644",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 30, 2026",
-   "iso": "2026-07-30",
-   "location": "Athens, Greece",
-   "instructor": "Nikos Vardakas",
-   "instructor_id": "1991"
-  },
-  {
-   "cid": "36805",
-   "course": "GUE Performance Diver",
-   "date": "July 30, 2026",
-   "iso": "2026-07-30",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
-  },
-  {
-   "cid": "36384",
-   "course": "GUE Technical Fundamentals",
-   "date": "July 30, 2026",
-   "iso": "2026-07-30",
-   "location": "Victoria, British Columbia, Canada",
-   "instructor": "Jason Cook",
-   "instructor_id": "24473"
-  },
-  {
-   "cid": "36143",
-   "course": "Technical Diver 1",
-   "date": "July 30, 2026",
-   "iso": "2026-07-30",
-   "location": "Monterey, California, United States",
-   "instructor": "Alberto Nava",
-   "instructor_id": "2073"
-  },
-  {
-   "cid": "36167",
-   "course": "Technical Diver 1",
-   "date": "July 30, 2026",
-   "iso": "2026-07-30",
-   "location": "Ognina, Siracusa, Italy",
-   "instructor": "Fabio Portella",
-   "instructor_id": "21572"
-  },
-  {
-   "cid": "36901",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "July 30, 2026",
-   "iso": "2026-07-30",
-   "location": "Tioman, Malaysia",
-   "instructor": "Gemma Thomas",
-   "instructor_id": "11724"
-  },
   {
    "cid": "35713",
    "course": "DPV Diver 1",
@@ -327,15 +255,6 @@
   },
   {
    "cid": "36860",
-   "course": "Doubles Primer",
-   "date": "August 3, 2026",
-   "iso": "2026-08-03",
-   "location": "Monterey Bay, California, United States",
-   "instructor": "Gideon Liew",
-   "instructor_id": "428"
-  },
-  {
-   "cid": "36869",
    "course": "Doubles Primer",
    "date": "August 3, 2026",
    "iso": "2026-08-03",
@@ -3332,6 +3251,15 @@
    "instructor_id": "20747"
   },
   {
+   "cid": "36903",
+   "course": "GUE Performance Diver",
+   "date": "October 5, 2026",
+   "iso": "2026-10-05",
+   "location": "pintung, PingTung County, Taiwan",
+   "instructor": "Liu Yen Chun",
+   "instructor_id": "27215"
+  },
+  {
    "cid": "36446",
    "course": "GUE Technical Fundamentals",
    "date": "October 5, 2026",
@@ -4592,6 +4520,15 @@
    "instructor_id": "2458"
   },
   {
+   "cid": "36904",
+   "course": "CCR Technical Diver 2",
+   "date": "November 17, 2026",
+   "iso": "2026-11-17",
+   "location": "Kralendijk, Bonaire",
+   "instructor": "Jp Bresser",
+   "instructor_id": "2458"
+  },
+  {
    "cid": "35711",
    "course": "DPV Diver 1",
    "date": "November 17, 2026",
@@ -5043,15 +4980,6 @@
   },
   {
    "cid": "36004",
-   "course": "CCR Cave",
-   "date": "December 14, 2026",
-   "iso": "2026-12-14",
-   "location": "High Springs, Florida, United States",
-   "instructor": "Kirill A. Egorov",
-   "instructor_id": "1411"
-  },
-  {
-   "cid": "36005",
    "course": "CCR Cave",
    "date": "December 14, 2026",
    "iso": "2026-12-14",
@@ -5663,6 +5591,15 @@
    "instructor_id": "21332"
   },
   {
+   "cid": "36907",
+   "course": "Cave Diver 2",
+   "date": "February 21, 2027",
+   "iso": "2027-02-21",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Fred Devos",
+   "instructor_id": "1026"
+  },
+  {
    "cid": "36227",
    "course": "Cave Diver 2",
    "date": "February 22, 2027",
@@ -6012,6 +5949,15 @@
    "location": "Glavotok on Krk, Istria county, Croatia",
    "instructor": "Erik Wurz",
    "instructor_id": "25873"
+  },
+  {
+   "cid": "36905",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "August 23, 2027",
+   "iso": "2027-08-23",
+   "location": "Vinkeveen, Netherlands",
+   "instructor": "Jp Bresser",
+   "instructor_id": "2458"
   },
   {
    "cid": "36380",

@@ -1646,5 +1646,14 @@
   "matched_query": "münster, nordrhein-westfalen, germany",
   "approx": false,
   "verified": true
+ },
+ "pintung, pingtung county, taiwan": {
+  "lat": 22.6861275,
+  "lng": 120.4891017,
+  "display": "屏東中學, 忠孝路, 北勢頭, 勝利里, 屏東市, 屏東縣, 900, 臺灣",
+  "country": "tw",
+  "matched_query": "pintung, pingtung county, taiwan",
+  "approx": false,
+  "verified": true
  }
 }
