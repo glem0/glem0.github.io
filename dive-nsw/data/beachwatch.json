@@ -319,7 +319,7 @@
           "id": "8990825d-b48c-443f-9047-862a0b986621",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Boat Harbour"
         },
         "type": "Feature"
@@ -795,7 +795,7 @@
           "id": "06e4aa12-a704-440e-a31c-ce25fcd0057f",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Clovelly Beach"
         },
         "type": "Feature"
@@ -931,7 +931,7 @@
           "id": "ca53919d-8e26-40b0-b8cc-edf80ec303d9",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Coogee Beach"
         },
         "type": "Feature"
@@ -1390,7 +1390,7 @@
           "id": "8bb75641-1783-43b9-861d-df7aa0594cd2",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Frenchmans Bay"
         },
         "type": "Feature"
@@ -1441,7 +1441,7 @@
           "id": "042af9fb-da1d-406a-a743-3da81da0a194",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Gordons Bay (East)"
         },
         "type": "Feature"
@@ -1577,7 +1577,7 @@
           "id": "2f8fd16c-2631-4f56-ae9a-3ada9dbfa8fe",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Gymea Bay Baths"
         },
         "type": "Feature"
@@ -1628,7 +1628,7 @@
           "id": "4f626874-5276-48e7-8bd2-1d8976908cc5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Horderns Beach"
         },
         "type": "Feature"
@@ -1917,7 +1917,7 @@
           "id": "a4e51f37-7089-4f6d-b78a-85f9b84fea87",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Little Bay Beach"
         },
         "type": "Feature"
@@ -2087,7 +2087,7 @@
           "id": "94c5d756-1093-48db-8dbc-70fbb523b16a",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Malabar Beach"
         },
         "type": "Feature"
@@ -2954,7 +2954,7 @@
           "id": "93c7a40f-bf76-420d-9c53-2435adda70b9",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Rose Bay Beach"
         },
         "type": "Feature"
