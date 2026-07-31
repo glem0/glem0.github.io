@@ -1,78 +1,6 @@
 {
- "updated": "2026-07-30T18:59:11Z",
+ "updated": "2026-07-31T18:57:13Z",
  "classes": [
-  {
-   "cid": "35713",
-   "course": "DPV Diver 1",
-   "date": "July 31, 2026",
-   "iso": "2026-07-31",
-   "location": "Schwetzingen, Baden-Württemberg, Germany",
-   "instructor": "Christof Müller-Schmahl",
-   "instructor_id": "65203"
-  },
-  {
-   "cid": "34742",
-   "course": "DPV Diver 1",
-   "date": "July 31, 2026",
-   "iso": "2026-07-31",
-   "location": "Stromberg, Rheinland-Pfalz, Germany",
-   "instructor": "Sven Nelles",
-   "instructor_id": "7698"
-  },
-  {
-   "cid": "36902",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 31, 2026",
-   "iso": "2026-07-31",
-   "location": "Dahab, Egypt",
-   "instructor": "Mahmoud Esmat",
-   "instructor_id": "65259"
-  },
-  {
-   "cid": "36833",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 31, 2026",
-   "iso": "2026-07-31",
-   "location": "Dahab, Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
-  },
-  {
-   "cid": "36447",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 31, 2026",
-   "iso": "2026-07-31",
-   "location": "München, Germany",
-   "instructor": "Christian Schweiger",
-   "instructor_id": "68425"
-  },
-  {
-   "cid": "36797",
-   "course": "GUE Performance Diver",
-   "date": "July 31, 2026",
-   "iso": "2026-07-31",
-   "location": "Gdansk, Poland",
-   "instructor": "Bartek Trzcinski",
-   "instructor_id": "25915"
-  },
-  {
-   "cid": "36171",
-   "course": "GUE Performance Diver",
-   "date": "July 31, 2026",
-   "iso": "2026-07-31",
-   "location": "Shanghai, Shanghai, China",
-   "instructor": "Xiaodong Zhong",
-   "instructor_id": "23171"
-  },
-  {
-   "cid": "36895",
-   "course": "Upgrade to GUE Basic Fundamentals",
-   "date": "July 31, 2026",
-   "iso": "2026-07-31",
-   "location": "Vinkeveen, Netherlands",
-   "instructor": "Anne-Marie Bresser",
-   "instructor_id": "2021"
-  },
   {
    "cid": "36669",
    "course": "DPV Diver 1",
@@ -315,6 +243,15 @@
    "location": "Shanghai, Shanghai, China",
    "instructor": "Xiaodong Zhong",
    "instructor_id": "23171"
+  },
+  {
+   "cid": "36911",
+   "course": "GUE Technical Fundamentals",
+   "date": "August 3, 2026",
+   "iso": "2026-08-03",
+   "location": "Taipei, Taipei City, Taiwan",
+   "instructor": "Liu Yen Chun",
+   "instructor_id": "27215"
   },
   {
    "cid": "33574",
@@ -920,6 +857,15 @@
    "instructor_id": "13875"
   },
   {
+   "cid": "36910",
+   "course": "GUE Performance Diver",
+   "date": "August 15, 2026",
+   "iso": "2026-08-15",
+   "location": "changshu, Jiangsu, China",
+   "instructor": "Cheng Feiming",
+   "instructor_id": "68591"
+  },
+  {
    "cid": "36289",
    "course": "GUE Technical Fundamentals",
    "date": "August 15, 2026",
@@ -1152,6 +1098,15 @@
    "location": "Alexandria Bay, New York, United States",
    "instructor": "Bob Sherwood",
    "instructor_id": "34"
+  },
+  {
+   "cid": "36915",
+   "course": "Doubles Primer",
+   "date": "August 20, 2026",
+   "iso": "2026-08-20",
+   "location": "Playa Del Carmen, Quintana Roo, Mexico",
+   "instructor": "Emőke Wagner",
+   "instructor_id": "20747"
   },
   {
    "cid": "36369",
@@ -1494,6 +1449,15 @@
    "location": "Victoria or Vancouver, British Columbia, Canada",
    "instructor": "Jason Cook",
    "instructor_id": "24473"
+  },
+  {
+   "cid": "36914",
+   "course": "GUE Performance Diver",
+   "date": "August 26, 2026",
+   "iso": "2026-08-26",
+   "location": "Neufeld, Burgenland, Austria",
+   "instructor": "Zsolt Szilagyi",
+   "instructor_id": "1444"
   },
   {
    "cid": "36498",
@@ -2531,6 +2495,15 @@
    "instructor_id": "15389"
   },
   {
+   "cid": "36913",
+   "course": "Cave Diver 1",
+   "date": "September 20, 2026",
+   "iso": "2026-09-20",
+   "location": "Budapest + Croatia, Budapest, Hungary",
+   "instructor": "Zsolt Szilagyi",
+   "instructor_id": "1444"
+  },
+  {
    "cid": "34900",
    "course": "Cave Diver 1",
    "date": "September 20, 2026",
@@ -3321,6 +3294,15 @@
    "location": "Hemmoor, Germany",
    "instructor": "Sebastian Von Koss",
    "instructor_id": "20802"
+  },
+  {
+   "cid": "36912",
+   "course": "Scientific Diver",
+   "date": "October 7, 2026",
+   "iso": "2026-10-07",
+   "location": "Rügen, Mecklenburg-Vorpommern, Germany",
+   "instructor": "Henning May",
+   "instructor_id": "10673"
   },
   {
    "cid": "36556",

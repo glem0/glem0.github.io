@@ -1655,5 +1655,41 @@
   "matched_query": "pintung, pingtung county, taiwan",
   "approx": false,
   "verified": true
+ },
+ "changshu, jiangsu, china": {
+  "lat": 31.6572954,
+  "lng": 120.7480757,
+  "display": "常熟市, 苏州市, 江苏省, 215500, 中国",
+  "country": "cn",
+  "matched_query": "changshu, jiangsu, china",
+  "approx": false,
+  "verified": true
+ },
+ "neufeld, burgenland, austria": {
+  "lat": 47.2474505,
+  "lng": 16.3424858,
+  "display": "Neufeld, Welgersdorf, Großpetersdorf, Bezirk Oberwart, Burgenland, Österreich",
+  "country": "at",
+  "matched_query": "neufeld, burgenland, austria",
+  "approx": false,
+  "verified": true
+ },
+ "rügen, mecklenburg-vorpommern, germany": {
+  "lat": 54.4529015,
+  "lng": 13.3882344,
+  "display": "Rügen, Mecklenburg-Vorpommern, Deutschland",
+  "country": "de",
+  "matched_query": "rügen, mecklenburg-vorpommern, germany",
+  "approx": false,
+  "verified": true
+ },
+ "taipei, taipei city, taiwan": {
+  "lat": 25.0612686,
+  "lng": 121.4598089,
+  "display": "新北產業園區, 五工路, 新莊北側知識產業園區, 福基里, 新莊區, 頭前, 新北市, 24888, 臺灣",
+  "country": "tw",
+  "matched_query": "taipei, taipei city, taiwan",
+  "approx": false,
+  "verified": true
  }
 }
