@@ -795,7 +795,7 @@
           "id": "06e4aa12-a704-440e-a31c-ce25fcd0057f",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Clovelly Beach"
         },
         "type": "Feature"
@@ -931,7 +931,7 @@
           "id": "ca53919d-8e26-40b0-b8cc-edf80ec303d9",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Coogee Beach"
         },
         "type": "Feature"
@@ -1050,7 +1050,7 @@
           "id": "b26de7f7-65b8-4f72-b954-991ddbacb3e9",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Davidson Reserve"
         },
         "type": "Feature"
@@ -1441,7 +1441,7 @@
           "id": "042af9fb-da1d-406a-a743-3da81da0a194",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Gordons Bay (East)"
         },
         "type": "Feature"
@@ -2631,7 +2631,7 @@
           "id": "c4e9e972-580e-4571-8d2d-a7c0b1fdc604",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Oak Park Beach"
         },
         "type": "Feature"
@@ -3175,7 +3175,7 @@
           "id": "d9267cc6-7983-47ce-a7ba-a9a1dd932ebb",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Shelly Beach (Sutherland)"
         },
         "type": "Feature"
