@@ -183,7 +183,7 @@
           "id": "6e9006c1-4bc7-4154-800a-a237388965ab",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "Bayview Baths"
         },
         "type": "Feature"
@@ -625,7 +625,7 @@
           "id": "3797a81b-936e-4e27-a813-e6c611ee2d99",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Carss Point Baths"
         },
         "type": "Feature"
@@ -1220,7 +1220,7 @@
           "id": "48228c69-739e-4287-9843-40a25a3b0a3a",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Elvina Bay"
         },
         "type": "Feature"
@@ -1526,7 +1526,7 @@
           "id": "d88adb6c-c5a2-4cee-b883-c749140ce033",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Gunnamatta Bay Baths"
         },
         "type": "Feature"
@@ -2325,7 +2325,7 @@
           "id": "2c616a2d-d12d-4444-817c-456be2d5464a",
           "latestResult": "Bad",
           "latestResultRating": 1,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Monterey Baths"
         },
         "type": "Feature"
@@ -2376,7 +2376,7 @@
           "id": "f05ac321-7e70-4c4a-99cd-cc0f8a0acb5d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Narrabeen Lagoon (Birdwood Park)"
         },
         "type": "Feature"
@@ -2478,7 +2478,7 @@
           "id": "f40362ee-ce75-4473-a7e5-cb8d062611fc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "North Cronulla Beach"
         },
         "type": "Feature"
@@ -2631,7 +2631,7 @@
           "id": "c4e9e972-580e-4571-8d2d-a7c0b1fdc604",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Oak Park Beach"
         },
         "type": "Feature"
@@ -2648,7 +2648,7 @@
           "id": "f4785861-61c1-4acb-b841-2609962ed0c7",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Oatley Bay Baths"
         },
         "type": "Feature"
@@ -2903,7 +2903,7 @@
           "id": "5f3a9a0e-ffdc-45e4-a776-983887af540d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Ramsgate Baths"
         },
         "type": "Feature"
@@ -2971,7 +2971,7 @@
           "id": "f3ea8946-1d49-4f06-8dcf-89aaf08705a6",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Sandringham Baths"
         },
         "type": "Feature"
@@ -3175,7 +3175,7 @@
           "id": "d9267cc6-7983-47ce-a7ba-a9a1dd932ebb",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Shelly Beach (Sutherland)"
         },
         "type": "Feature"
@@ -3260,7 +3260,7 @@
           "id": "b0513e57-bc00-46c6-b560-20d9a2207c35",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "South Cronulla Beach"
         },
         "type": "Feature"
@@ -3532,7 +3532,7 @@
           "id": "c8fc3c50-4d0f-48c8-939a-ee100892dee8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Terrigal Beach"
         },
         "type": "Feature"
