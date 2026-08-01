@@ -1691,5 +1691,14 @@
   "matched_query": "taipei, taipei city, taiwan",
   "approx": false,
   "verified": true
+ },
+ "sydney, australia": {
+  "lat": -33.8698439,
+  "lng": 151.2082848,
+  "display": "Sydney, New South Wales, Australia",
+  "country": "au",
+  "matched_query": "sydney, australia",
+  "approx": false,
+  "verified": true
  }
 }

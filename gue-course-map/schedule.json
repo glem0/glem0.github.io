@@ -1,105 +1,6 @@
 {
- "updated": "2026-07-31T18:57:13Z",
+ "updated": "2026-08-01T18:34:55Z",
  "classes": [
-  {
-   "cid": "36669",
-   "course": "DPV Diver 1",
-   "date": "August 1, 2026",
-   "iso": "2026-08-01",
-   "location": "Foshang, Guangdong, China",
-   "instructor": "Huang Weiqi",
-   "instructor_id": "23052"
-  },
-  {
-   "cid": "36247",
-   "course": "Doubles Primer",
-   "date": "August 1, 2026",
-   "iso": "2026-08-01",
-   "location": "Radstock, Somerset, United Kingdom",
-   "instructor": "Neil Powell",
-   "instructor_id": "15389"
-  },
-  {
-   "cid": "35812",
-   "course": "Drysuit Primer",
-   "date": "August 1, 2026",
-   "iso": "2026-08-01",
-   "location": "Sydney, New South Wales, Australia",
-   "instructor": "Sebastien Landat",
-   "instructor_id": "22757"
-  },
-  {
-   "cid": "36183",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 1, 2026",
-   "iso": "2026-08-01",
-   "location": "Montreal, Quebec, Canada",
-   "instructor": "Imad Farhat",
-   "instructor_id": "19268"
-  },
-  {
-   "cid": "36028",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 1, 2026",
-   "iso": "2026-08-01",
-   "location": "Yekaterinburg , Sverdlovskaya (Yekaterinburg), Russia",
-   "instructor": "Andrei Dmitriev",
-   "instructor_id": "6578"
-  },
-  {
-   "cid": "36286",
-   "course": "GUE Performance Diver",
-   "date": "August 1, 2026",
-   "iso": "2026-08-01",
-   "location": "Dahab , Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
-  },
-  {
-   "cid": "35026",
-   "course": "Technical Diver 1",
-   "date": "August 1, 2026",
-   "iso": "2026-08-01",
-   "location": "Hangzhou, Zhejiang, China",
-   "instructor": "Yanbin Wu",
-   "instructor_id": "23172"
-  },
-  {
-   "cid": "36393",
-   "course": "Technical Diver 1",
-   "date": "August 1, 2026",
-   "iso": "2026-08-01",
-   "location": "Shepton Mallet, United Kingdom",
-   "instructor": "Richard Walker",
-   "instructor_id": "755"
-  },
-  {
-   "cid": "36646",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "August 1, 2026",
-   "iso": "2026-08-01",
-   "location": "Dutch Springs, Pennsylvania, United States",
-   "instructor": "Ivo Chiarino",
-   "instructor_id": "21332"
-  },
-  {
-   "cid": "35969",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "August 1, 2026",
-   "iso": "2026-08-01",
-   "location": "Tioman, Malaysia",
-   "instructor": "Gemma Thomas",
-   "instructor_id": "11724"
-  },
-  {
-   "cid": "36817",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "August 1, 2026",
-   "iso": "2026-08-01",
-   "location": "sydney, New South Wales, Australia",
-   "instructor": "Jingwei Sun",
-   "instructor_id": "70762"
-  },
   {
    "cid": "35893",
    "course": "Cave Diver 1",
@@ -243,6 +144,15 @@
    "location": "Shanghai, Shanghai, China",
    "instructor": "Xiaodong Zhong",
    "instructor_id": "23171"
+  },
+  {
+   "cid": "36921",
+   "course": "GUE Performance Diver",
+   "date": "August 3, 2026",
+   "iso": "2026-08-03",
+   "location": "changshu, Jiangsu, China",
+   "instructor": "Cheng Feiming",
+   "instructor_id": "68591"
   },
   {
    "cid": "36911",
@@ -468,15 +378,6 @@
    "location": "Plano, Texas, United States",
    "instructor": "Elon Mehr",
    "instructor_id": "66591"
-  },
-  {
-   "cid": "36861",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 8, 2026",
-   "iso": "2026-08-08",
-   "location": "Sydney, New South Wales, Australia",
-   "instructor": "Duncan Paterson",
-   "instructor_id": "18320"
   },
   {
    "cid": "36834",
@@ -1154,6 +1055,15 @@
    "instructor_id": "7698"
   },
   {
+   "cid": "36917",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "August 21, 2026",
+   "iso": "2026-08-21",
+   "location": "Sydney, Australia",
+   "instructor": "Duncan Paterson",
+   "instructor_id": "18320"
+  },
+  {
    "cid": "36621",
    "course": "GUE Basic Fundamentals",
    "date": "August 21, 2026",
@@ -1523,6 +1433,15 @@
    "instructor_id": "15479"
   },
   {
+   "cid": "36918",
+   "course": "Doubles Primer",
+   "date": "August 28, 2026",
+   "iso": "2026-08-28",
+   "location": "Dahab, Janub Sina', Egypt",
+   "instructor": "Ahmed Hagi",
+   "instructor_id": "69051"
+  },
+  {
    "cid": "35898",
    "course": "GUE Basic Fundamentals",
    "date": "August 28, 2026",
@@ -1566,6 +1485,15 @@
    "location": "Sydney, New South Wales, Australia",
    "instructor": "Sebastien Landat",
    "instructor_id": "22757"
+  },
+  {
+   "cid": "36919",
+   "course": "Drysuit Primer",
+   "date": "August 30, 2026",
+   "iso": "2026-08-30",
+   "location": "Dahab, Janub Sina', Egypt",
+   "instructor": "Ahmed Hagi",
+   "instructor_id": "69051"
   },
   {
    "cid": "36559",
@@ -5706,6 +5634,24 @@
    "location": "Zero Gravity Dive centre, Puerto Aventuras, Mexico",
    "instructor": "Annika Persson",
    "instructor_id": "9662"
+  },
+  {
+   "cid": "36916",
+   "course": "Cave Diver 1",
+   "date": "March 28, 2027",
+   "iso": "2027-03-28",
+   "location": "Gramat, France",
+   "instructor": "Irene Homberger",
+   "instructor_id": "13377"
+  },
+  {
+   "cid": "36920",
+   "course": "Cave Diver 1",
+   "date": "March 28, 2027",
+   "iso": "2027-03-28",
+   "location": "Gramat, France",
+   "instructor": "Irene Homberger",
+   "instructor_id": "13377"
   },
   {
    "cid": "36847",

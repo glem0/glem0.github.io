@@ -205,6 +205,7 @@ window.GUE_GEO = {
 "stromberg, rheinland-pfalz , germany":[49.9448,7.77636],
 "stromberg, rheinland-pfalz, germany":[49.9448,7.77636],
 "switzerland, switzerland":[46.93942,7.46536],
+"sydney, australia":[-33.86984,151.20828],
 "sydney, new south wales, australia":[-33.86984,151.20828],
 "taipei, taipei city, taiwan":[25.06127,121.45981],
 "tanger , tanger-tetouan, morocco":[35.77501,-5.79568],
