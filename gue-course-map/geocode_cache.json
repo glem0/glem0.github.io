@@ -1700,5 +1700,50 @@
   "matched_query": "sydney, australia",
   "approx": false,
   "verified": true
+ },
+ "hamburg, germany": {
+  "lat": 53.5501721,
+  "lng": 10.0013165,
+  "display": "Hamburg, Deutschland",
+  "country": "de",
+  "matched_query": "hamburg, germany",
+  "approx": false,
+  "verified": true
+ },
+ "honoratka, poland": {
+  "lat": 52.3253822,
+  "lng": 18.2928124,
+  "display": "Honoratka, gmina Ślesin, powiat koniński, województwo wielkopolskie, 62-561, Polska",
+  "country": "pl",
+  "matched_query": "honoratka, poland",
+  "approx": false,
+  "verified": true
+ },
+ "leipzig o. nordhausen, germany": {
+  "lat": 51.1638175,
+  "lng": 10.4478313,
+  "display": "Deutschland",
+  "country": "de",
+  "matched_query": "germany",
+  "approx": true,
+  "verified": true
+ },
+ "tbd, malta": {
+  "lat": 35.9311442,
+  "lng": 14.3951627,
+  "display": "Malta",
+  "country": "mt",
+  "matched_query": "malta",
+  "approx": true,
+  "verified": true
+ },
+ "tdb, malta": {
+  "lat": 35.9311442,
+  "lng": 14.3951627,
+  "display": "Malta",
+  "country": "mt",
+  "matched_query": "malta",
+  "approx": true,
+  "verified": true
  }
 }
