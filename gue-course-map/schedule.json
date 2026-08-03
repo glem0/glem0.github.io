@@ -1,96 +1,6 @@
 {
- "updated": "2026-08-02T18:36:46Z",
+ "updated": "2026-08-03T19:09:27Z",
  "classes": [
-  {
-   "cid": "35689",
-   "course": "Cave Diver 1",
-   "date": "August 3, 2026",
-   "iso": "2026-08-03",
-   "location": "Playa del Carmen, Quintana Roo, Mexico",
-   "instructor": "Emőke Wagner",
-   "instructor_id": "20747"
-  },
-  {
-   "cid": "36860",
-   "course": "Doubles Primer",
-   "date": "August 3, 2026",
-   "iso": "2026-08-03",
-   "location": "Monterey Bay, California, United States",
-   "instructor": "Gideon Liew",
-   "instructor_id": "428"
-  },
-  {
-   "cid": "36867",
-   "course": "Drysuit Primer",
-   "date": "August 3, 2026",
-   "iso": "2026-08-03",
-   "location": "Stromberg, Rheinland-Pfalz, Germany",
-   "instructor": "Sven Nelles",
-   "instructor_id": "7698"
-  },
-  {
-   "cid": "36284",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 3, 2026",
-   "iso": "2026-08-03",
-   "location": "Cabo de Palos, Murcia, Spain",
-   "instructor": "Julio Cesar Cepeda Vargas",
-   "instructor_id": "20167"
-  },
-  {
-   "cid": "35826",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 3, 2026",
-   "iso": "2026-08-03",
-   "location": "High Springs , Florida, United States",
-   "instructor": "Stretch Aaron Altenhein",
-   "instructor_id": "10004"
-  },
-  {
-   "cid": "36418",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 3, 2026",
-   "iso": "2026-08-03",
-   "location": "Los Angeles, California, United States",
-   "instructor": "Kian Farin",
-   "instructor_id": "27848"
-  },
-  {
-   "cid": "35498",
-   "course": "GUE Performance Diver",
-   "date": "August 3, 2026",
-   "iso": "2026-08-03",
-   "location": "Kralendijk, Bonaire",
-   "instructor": "Douwe Musch",
-   "instructor_id": "67329"
-  },
-  {
-   "cid": "36534",
-   "course": "GUE Performance Diver",
-   "date": "August 3, 2026",
-   "iso": "2026-08-03",
-   "location": "Shanghai, Shanghai, China",
-   "instructor": "Xiaodong Zhong",
-   "instructor_id": "23171"
-  },
-  {
-   "cid": "36921",
-   "course": "GUE Performance Diver",
-   "date": "August 3, 2026",
-   "iso": "2026-08-03",
-   "location": "changshu, Jiangsu, China",
-   "instructor": "Cheng Feiming",
-   "instructor_id": "68591"
-  },
-  {
-   "cid": "36911",
-   "course": "GUE Technical Fundamentals",
-   "date": "August 3, 2026",
-   "iso": "2026-08-03",
-   "location": "Taipei, Taipei City, Taiwan",
-   "instructor": "Liu Yen Chun",
-   "instructor_id": "27215"
-  },
   {
    "cid": "33574",
    "course": "DPV Diver 1",
@@ -108,15 +18,6 @@
    "location": "Stromberg, Rheinland-Pfalz, Germany",
    "instructor": "Sven Nelles",
    "instructor_id": "7698"
-  },
-  {
-   "cid": "36844",
-   "course": "GUE Performance Diver",
-   "date": "August 4, 2026",
-   "iso": "2026-08-04",
-   "location": "Atalya, Antalya, Turkey",
-   "instructor": "Nevcan Uludaş",
-   "instructor_id": "20397"
   },
   {
    "cid": "36468",
@@ -452,15 +353,6 @@
    "instructor_id": "16137"
   },
   {
-   "cid": "36701",
-   "course": "GUE Technical Fundamentals",
-   "date": "August 10, 2026",
-   "iso": "2026-08-10",
-   "location": "Incheon / Yangyang , Korea (South)",
-   "instructor": "Kyungsoo Kim",
-   "instructor_id": "14654"
-  },
-  {
    "cid": "36252",
    "course": "GUE Technical Fundamentals",
    "date": "August 10, 2026",
@@ -632,6 +524,24 @@
    "instructor_id": "23172"
   },
   {
+   "cid": "36665",
+   "course": "Doubles Primer",
+   "date": "August 15, 2026",
+   "iso": "2026-08-15",
+   "location": "Neuss, Nordrhein-Westfalen, Germany",
+   "instructor": "Frederik Bring",
+   "instructor_id": "68473"
+  },
+  {
+   "cid": "36666",
+   "course": "Drysuit Primer",
+   "date": "August 15, 2026",
+   "iso": "2026-08-15",
+   "location": "Neuss, Nordrhein-Westfalen, Germany",
+   "instructor": "Frederik Bring",
+   "instructor_id": "68473"
+  },
+  {
    "cid": "36849",
    "course": "Drysuit Primer",
    "date": "August 15, 2026",
@@ -657,6 +567,15 @@
    "location": "Stromberg, Rheinland-Pfalz, Germany",
    "instructor": "Sven Nelles",
    "instructor_id": "7698"
+  },
+  {
+   "cid": "36664",
+   "course": "GUE Performance Diver",
+   "date": "August 15, 2026",
+   "iso": "2026-08-15",
+   "location": "Neuss, Nordrhein-Westfalen, Germany",
+   "instructor": "Frederik Bring",
+   "instructor_id": "68473"
   },
   {
    "cid": "32212",
@@ -929,6 +848,15 @@
    "instructor_id": "20747"
   },
   {
+   "cid": "36940",
+   "course": "Doubles Primer",
+   "date": "August 18, 2026",
+   "iso": "2026-08-18",
+   "location": "Tech Korea, Korea (South)",
+   "instructor": "Su Eun Kim",
+   "instructor_id": "14655"
+  },
+  {
    "cid": "36598",
    "course": "CCR Fundamentals: JJ-CCR",
    "date": "August 20, 2026",
@@ -1064,15 +992,6 @@
    "instructor_id": "65259"
   },
   {
-   "cid": "35348",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 22, 2026",
-   "iso": "2026-08-22",
-   "location": "Joachimthal, Werbellinsee, Bradenburg, Germany",
-   "instructor": "Oliver Ober",
-   "instructor_id": "68750"
-  },
-  {
    "cid": "36937",
    "course": "GUE Performance Diver",
    "date": "August 22, 2026",
@@ -1080,15 +999,6 @@
    "location": "Honoratka, Poland",
    "instructor": "Bartek Trzcinski",
    "instructor_id": "25915"
-  },
-  {
-   "cid": "36710",
-   "course": "GUE Performance Diver",
-   "date": "August 22, 2026",
-   "iso": "2026-08-22",
-   "location": "Joachimsthal, Werbellinsee, Brandenburg, Germany",
-   "instructor": "Oliver Ober",
-   "instructor_id": "68750"
   },
   {
    "cid": "36511",
@@ -1388,6 +1298,24 @@
    "instructor_id": "69051"
   },
   {
+   "cid": "35348",
+   "course": "GUE Basic Fundamentals",
+   "date": "August 28, 2026",
+   "iso": "2026-08-28",
+   "location": "Hemmoor, Kreidesee, Niedersachsen, Germany",
+   "instructor": "Oliver Ober",
+   "instructor_id": "68750"
+  },
+  {
+   "cid": "36946",
+   "course": "GUE Basic Fundamentals",
+   "date": "August 28, 2026",
+   "iso": "2026-08-28",
+   "location": "Neuss, Nordrhein-Westfalen, Germany",
+   "instructor": "Frederik Bring",
+   "instructor_id": "68473"
+  },
+  {
    "cid": "35898",
    "course": "GUE Basic Fundamentals",
    "date": "August 28, 2026",
@@ -1395,6 +1323,15 @@
    "location": "Tilburg, Noord-Brabant, Netherlands",
    "instructor": "Rick Van Beerendonk",
    "instructor_id": "21650"
+  },
+  {
+   "cid": "36710",
+   "course": "GUE Performance Diver",
+   "date": "August 28, 2026",
+   "iso": "2026-08-28",
+   "location": "Hemmoor, Kreidesee, Niedersachsen, Germany",
+   "instructor": "Oliver Ober",
+   "instructor_id": "68750"
   },
   {
    "cid": "35527",
@@ -1971,6 +1908,15 @@
    "location": "Singapore, Singapore",
    "instructor": "Zicong Wang",
    "instructor_id": "73430"
+  },
+  {
+   "cid": "36942",
+   "course": "GUE Basic Fundamentals",
+   "date": "September 10, 2026",
+   "iso": "2026-09-10",
+   "location": "Bergen, Norway",
+   "instructor": "Gaute W Seljestad",
+   "instructor_id": "67553"
   },
   {
    "cid": "35698",
@@ -2639,6 +2585,15 @@
    "instructor_id": "12073"
   },
   {
+   "cid": "35265",
+   "course": "GUE Basic Fundamentals",
+   "date": "September 25, 2026",
+   "iso": "2026-09-25",
+   "location": "Neuss, Nordrhein-Westfalen, Germany",
+   "instructor": "Frederik Bring",
+   "instructor_id": "68473"
+  },
+  {
    "cid": "35907",
    "course": "GUE Performance Diver",
    "date": "September 25, 2026",
@@ -3278,15 +3233,6 @@
    "instructor_id": "1956"
   },
   {
-   "cid": "30702",
-   "course": "CCR Technical Diver 2",
-   "date": "October 12, 2026",
-   "iso": "2026-10-12",
-   "location": "Yangyang , Kangwon-do, Korea (South)",
-   "instructor": "Kyungsoo Kim",
-   "instructor_id": "14654"
-  },
-  {
    "cid": "35704",
    "course": "Cave Diver 1",
    "date": "October 12, 2026",
@@ -3663,6 +3609,15 @@
    "location": "Schwetzingen, Baden-Württemberg, Germany",
    "instructor": "Esther Trösch",
    "instructor_id": "64918"
+  },
+  {
+   "cid": "36945",
+   "course": "GUE Performance Diver",
+   "date": "October 23, 2026",
+   "iso": "2026-10-23",
+   "location": "Pintung, PingTung County, Taiwan",
+   "instructor": "Liu Yen Chun",
+   "instructor_id": "27215"
   },
   {
    "cid": "36396",
@@ -4106,6 +4061,15 @@
    "instructor_id": "22866"
   },
   {
+   "cid": "36154",
+   "course": "GUE Technical Fundamentals",
+   "date": "November 5, 2026",
+   "iso": "2026-11-05",
+   "location": "München, Bayern, Germany",
+   "instructor": "Frederik Bring",
+   "instructor_id": "68473"
+  },
+  {
    "cid": "36820",
    "course": "DPV Diver 1",
    "date": "November 6, 2026",
@@ -4203,6 +4167,15 @@
    "location": "Zero Gravity Dive centre, Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Annika Persson",
    "instructor_id": "9662"
+  },
+  {
+   "cid": "30702",
+   "course": "CCR Technical Diver 2",
+   "date": "November 10, 2026",
+   "iso": "2026-11-10",
+   "location": "Yangyang , Kangwon-do, Korea (South)",
+   "instructor": "Kyungsoo Kim",
+   "instructor_id": "14654"
   },
   {
    "cid": "36383",
@@ -5042,6 +5015,15 @@
    "instructor_id": "7698"
   },
   {
+   "cid": "36943",
+   "course": "GUE Technical Fundamentals",
+   "date": "January 4, 2027",
+   "iso": "2027-01-04",
+   "location": "Pintung, PingTung County, Taiwan",
+   "instructor": "Liu Yen Chun",
+   "instructor_id": "27215"
+  },
+  {
    "cid": "36749",
    "course": "Open Water Diver",
    "date": "January 4, 2027",
@@ -5312,6 +5294,15 @@
    "instructor_id": "20747"
   },
   {
+   "cid": "36944",
+   "course": "GUE Technical Fundamentals",
+   "date": "February 1, 2027",
+   "iso": "2027-02-01",
+   "location": "Pintung, PingTung County, Taiwan",
+   "instructor": "Liu Yen Chun",
+   "instructor_id": "27215"
+  },
+  {
    "cid": "32210",
    "course": "GUE Basic Fundamentals",
    "date": "February 3, 2027",
@@ -5337,6 +5328,15 @@
    "location": "Puerto Aventuras, Mexico",
    "instructor": "Jp Bresser",
    "instructor_id": "2458"
+  },
+  {
+   "cid": "36947",
+   "course": "Cave Diver 2",
+   "date": "February 10, 2027",
+   "iso": "2027-02-10",
+   "location": "Third Dimension Diving, Tulum, Quintana Roo, Mexico",
+   "instructor": "Ivo Chiarino",
+   "instructor_id": "21332"
   },
   {
    "cid": "23539",
