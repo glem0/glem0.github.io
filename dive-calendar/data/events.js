@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-08-03T04:19:49+10:00",
+ "generated_at": "2026-08-04T05:04:32+10:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-08-01",
@@ -29,7 +29,7 @@ window.__DIVE_DATA__ =
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 206
+   "event_count": 203
   },
   {
    "id": "divesydney",
@@ -37,7 +37,7 @@ window.__DIVE_DATA__ =
    "short": "DC Manly",
    "url": "https://divesydney.com.au/dive-calendar/",
    "status": "ok",
-   "event_count": 436
+   "event_count": 435
   },
   {
    "id": "prodive",
@@ -45,7 +45,7 @@ window.__DIVE_DATA__ =
    "short": "ProDive",
    "url": "https://www.prodive.com.au/Calendar.asp?Scubadive=Sydney",
    "status": "ok",
-   "event_count": 439
+   "event_count": 436
   },
   {
    "id": "divecharters",
@@ -87,44 +87,6 @@ window.__DIVE_DATA__ =
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
-   "id": "prodive-d00e0972650f",
-   "source": "prodive",
-   "title": "Guided Shore Dives (Double Dive)",
-   "start": "2026-08-03T08:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Shore+Dives/Guided+Shore+Dives+(Double+Dive)+-+Sydney+-+Alexandria/1046",
-   "location": "ProDive Alexandria",
-   "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Shelly Beach** Rating: Open Water Diver(20m) Depth: 14m"
-  },
-  {
-   "id": "prodive-71ea592de379",
-   "source": "prodive",
-   "title": "Scuba Hire Click & Collect",
-   "start": "2026-08-03T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
-   "location": "ProDive Manly",
-   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
-  },
-  {
-   "id": "prodive-0caa21c96ca9",
-   "source": "prodive",
-   "title": "Refresher Scuba Dive",
-   "start": "2026-08-03T12:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
-   "location": "ProDive Alexandria",
-   "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again."
-  },
-  {
-   "id": "divesydney-7b0a9bbd202b",
-   "source": "divesydney",
-   "title": "Snorkel Safari",
-   "start": "2026-08-03T14:30+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-08-03&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
    "id": "divecharters-8658f4ff6d86",
    "source": "divecharters",
    "title": "DSD - Discover Scuba Dive - Hire Gear Included",
@@ -132,30 +94,6 @@ window.__DIVE_DATA__ =
    "all_day": true,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-08-04#326@book@",
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
-  },
-  {
-   "id": "divebondi-d8a4e6de92c6",
-   "source": "divebondi",
-   "title": "Guided Bushrangers Bay",
-   "start": "2026-08-04T06:30+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-08-04&preferredTime=6%3A30+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-6b0f566be86d",
-   "source": "divebondi",
-   "title": "PADI Open Water Diver Course (sold out)",
-   "start": "2026-08-04T09:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-08-04&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-eaa199e80abe",
-   "source": "divebondi",
-   "title": "PADI Discover Scuba Diving Experience (sold out)",
-   "start": "2026-08-04T09:30+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433267&preferredDate=2026-08-04&preferredTime=9%3A30+AM&catalogId=597076"
   },
   {
    "id": "prodive-333bb5e37c1c",
@@ -303,20 +241,20 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-08-07&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divesydney-a7f922856fc4",
+   "id": "divesydney-0bb80a03356f",
    "source": "divesydney",
-   "title": "Double Guided Shore Dive",
+   "title": "Double Guided Shore Dive (sold out)",
    "start": "2026-08-07T09:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-07&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
-   "id": "divesydney-917e4c9d1a3b",
+   "id": "divesydney-60c78716e8ab",
    "source": "divesydney",
-   "title": "Scuba Refresher",
-   "start": "2026-08-07T09:00+10:00",
+   "title": "Double Guided Shore Dive",
+   "start": "2026-08-07T09:30+10:00",
    "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-08-07&preferredTime=9%3A00+AM&catalogId=494484"
+   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-07&preferredTime=9%3A30+AM&catalogId=494484"
   },
   {
    "id": "abyss-54ee3a2dd760",
@@ -472,7 +410,7 @@ window.__DIVE_DATA__ =
    "start": "2026-08-08T09:00+10:00",
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/social-events",
-   "description": "Social Events · Keep Australia Beautiful Cleanup Dive – Sutherland Point"
+   "description": "Social Events · Keep Australia Beautiful Cleanup Shore Dive – Sutherland Point"
   },
   {
    "id": "divebondi-e0dee93f0f80",
@@ -662,9 +600,9 @@ window.__DIVE_DATA__ =
    "description": "Guided Shore Dives · Voodoo lots of fish and unique rock formations, shore dive (18m)"
   },
   {
-   "id": "divesydney-0e0da2a62aef",
+   "id": "divesydney-656bbe4c4dab",
    "source": "divesydney",
-   "title": "Double Guided Shore Dive",
+   "title": "Double Guided Shore Dive (sold out)",
    "start": "2026-08-09T10:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-09&preferredTime=10%3A00+AM&catalogId=494484"
@@ -848,9 +786,9 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433401&preferredDate=2026-08-12&preferredTime=5%3A00+PM&catalogId=597076"
   },
   {
-   "id": "frogdive-9401346bd3a7",
+   "id": "frogdive-da82f637cabb",
    "source": "frogdive",
-   "title": "NIGHT DIVE CLIFTON GARDENS",
+   "title": "NIGHT DIVE FULL",
    "start": "2026-08-12T18:00+10:00",
    "all_day": false,
    "end": "2026-08-12T18:30+10:00",
@@ -2418,15 +2356,6 @@ window.__DIVE_DATA__ =
    "description": "Guided Shore Dives · Oak Park at Cronulla big blue groper shore dive (10m)"
   },
   {
-   "id": "abyss-b834c4fa387e",
-   "source": "abyss",
-   "title": "Bare Island",
-   "start": "2026-08-28T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
-   "description": "Guided Shore Dives · Bare Island colourful sponges, easy shore dive (12-18m)"
-  },
-  {
    "id": "prodive-1a9c1eb14955",
    "source": "prodive",
    "title": "Scuba Hire Click & Collect",
@@ -2604,13 +2533,13 @@ window.__DIVE_DATA__ =
    "description": "$175.00 · Emergency First Response Course · EFR-Primary Care (CPR) & Secondary Care AED"
   },
   {
-   "id": "abyss-51d2bbae8b45",
+   "id": "abyss-604bdd39afaa",
    "source": "abyss",
-   "title": "Last weekend of Winter Dive + BBQ",
+   "title": "Bare Island",
    "start": "2026-08-29T10:00+10:00",
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/guided-shore-dives",
-   "description": "Guided Shore Dives · Last weekend of Winter Oak Park Shore Dive + BBQ back at the shop"
+   "description": "Guided Shore Dives · Bare Island colourful sponges, easy shore dive (12-18m)"
   },
   {
    "id": "prodive-6dfc3c14218e",
@@ -4507,6 +4436,16 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Manly/Openwater+Courses/PRO+DIVE+Openwater+Weekend+Scuba+Diving+Course+-+Sydney+-+Manly/1207",
    "location": "ProDive Manly",
    "description": "$399.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
+  },
+  {
+   "id": "abyss-3b6e7cae2e7b",
+   "source": "abyss",
+   "title": "Chinese Montague Island Trip",
+   "start": "2026-09-19T07:00+10:00",
+   "all_day": false,
+   "end": "2026-09-20",
+   "url": "https://www.abyss.com.au/trips/montague-island",
+   "description": "$569.00 · Chinese Montague Island Seal Diving Weekend"
   },
   {
    "id": "prodive-a915cfe82c4b",
