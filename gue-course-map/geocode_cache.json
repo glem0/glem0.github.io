@@ -1745,5 +1745,32 @@
   "matched_query": "malta",
   "approx": true,
   "verified": true
+ },
+ "antalya/kas, turkey": {
+  "lat": 36.2137218,
+  "lng": 29.83923,
+  "display": "Turkey man help with payment by card. Socket, Likya Yolu 6.03, Üçağız, Kaleüçağız, Demre, Antalya, Akdeniz Bölgesi, 07573, Türkiye",
+  "country": "tr",
+  "matched_query": "antalya/kas, turkey",
+  "approx": false,
+  "verified": true
+ },
+ "cdmx, distrito federal, mexico": {
+  "lat": 19.4326296,
+  "lng": -99.1331785,
+  "display": "Ciudad de México, Cuauhtémoc, Ciudad de México, México",
+  "country": "mx",
+  "matched_query": "cdmx, distrito federal, mexico",
+  "approx": false,
+  "verified": true
+ },
+ "los angeles & avalon, catalina island, california, united states": {
+  "lat": 33.3437602,
+  "lng": -118.326676,
+  "display": "United States Post Office, Calle del Paseo, Pebbly Beach, Avalon, Los Angeles County, California, 90704, United States",
+  "country": "us",
+  "matched_query": "los angeles & avalon, united states",
+  "approx": false,
+  "verified": true
  }
 }
