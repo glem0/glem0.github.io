@@ -1772,5 +1772,23 @@
   "matched_query": "los angeles & avalon, united states",
   "approx": false,
   "verified": true
+ },
+ "hk, new territories, hong kong": {
+  "lat": 22.3125986,
+  "lng": 113.9172999,
+  "display": "香港國際機場 Hong Kong International Airport, 機場路 Airport Road, 赤鱲角 Chek Lap Kok, 大嶼山 Lantau, 離島區 Islands District, 新界 New Territories, 香港 Hong Kong, 中国",
+  "country": "cn",
+  "matched_query": "hk, new territories, hong kong",
+  "approx": false,
+  "verified": false
+ },
+ "third dimension diving, tulum, mexico": {
+  "lat": 20.429647,
+  "lng": -87.6529306,
+  "display": "Tulum, Quintana Roo, México",
+  "country": "mx",
+  "matched_query": "tulum, mexico",
+  "approx": true,
+  "verified": true
  }
 }

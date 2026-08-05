@@ -1,42 +1,6 @@
 {
- "updated": "2026-08-04T19:10:55Z",
+ "updated": "2026-08-05T19:04:27Z",
  "classes": [
-  {
-   "cid": "36468",
-   "course": "Doubles Primer",
-   "date": "August 5, 2026",
-   "iso": "2026-08-05",
-   "location": "Shanghai, China",
-   "instructor": "Gemma Thomas",
-   "instructor_id": "11724"
-  },
-  {
-   "cid": "36002",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 5, 2026",
-   "iso": "2026-08-05",
-   "location": "Kralendijk, Bonaire",
-   "instructor": "Douwe Musch",
-   "instructor_id": "67329"
-  },
-  {
-   "cid": "36852",
-   "course": "Navigation Primer",
-   "date": "August 5, 2026",
-   "iso": "2026-08-05",
-   "location": "Stromberg, Rheinland-Pfalz, Germany",
-   "instructor": "Sven Nelles",
-   "instructor_id": "7698"
-  },
-  {
-   "cid": "36287",
-   "course": "Upgrade to GUE Basic Fundamentals",
-   "date": "August 5, 2026",
-   "iso": "2026-08-05",
-   "location": "Dahab, Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
-  },
   {
    "cid": "36837",
    "course": "CCR Fundamentals: Symbios",
@@ -54,6 +18,15 @@
    "location": "LAPULAPU, Cebu, Philippines",
    "instructor": "Lee Jong Moon",
    "instructor_id": "20356"
+  },
+  {
+   "cid": "36966",
+   "course": "Doubles Primer",
+   "date": "August 6, 2026",
+   "iso": "2026-08-06",
+   "location": "Dahab , Janub Sina', Egypt",
+   "instructor": "Ahmed Hagi",
+   "instructor_id": "69051"
   },
   {
    "cid": "36469",
@@ -261,15 +234,6 @@
    "location": "Bonaire, Bonaire",
    "instructor": "Kirill A. Egorov",
    "instructor_id": "1411"
-  },
-  {
-   "cid": "36241",
-   "course": "Cave Diver 1",
-   "date": "August 9, 2026",
-   "iso": "2026-08-09",
-   "location": "High Springs, Florida, United States",
-   "instructor": "Stretch Aaron Altenhein",
-   "instructor_id": "10004"
   },
   {
    "cid": "36409",
@@ -857,15 +821,6 @@
    "instructor_id": "20747"
   },
   {
-   "cid": "36940",
-   "course": "Doubles Primer",
-   "date": "August 18, 2026",
-   "iso": "2026-08-18",
-   "location": "Tech Korea, Korea (South)",
-   "instructor": "Su Eun Kim",
-   "instructor_id": "14655"
-  },
-  {
    "cid": "36598",
    "course": "CCR Fundamentals: JJ-CCR",
    "date": "August 20, 2026",
@@ -1109,6 +1064,15 @@
    "instructor_id": "2366"
   },
   {
+   "cid": "36748",
+   "course": "CCR Technical Diver 2",
+   "date": "August 23, 2026",
+   "iso": "2026-08-23",
+   "location": "Quartu S. Elena, Cagliari, Italy",
+   "instructor": "Stefano Di Cosimo",
+   "instructor_id": "5680"
+  },
+  {
    "cid": "36179",
    "course": "GUE Performance Diver",
    "date": "August 23, 2026",
@@ -1161,6 +1125,15 @@
    "location": "Honoratka, Poland",
    "instructor": "Bartek Trzcinski",
    "instructor_id": "25915"
+  },
+  {
+   "cid": "36940",
+   "course": "Doubles Primer",
+   "date": "August 24, 2026",
+   "iso": "2026-08-24",
+   "location": "Tech Korea, Korea (South)",
+   "instructor": "Su Eun Kim",
+   "instructor_id": "14655"
   },
   {
    "cid": "36548",
@@ -1901,6 +1874,15 @@
    "instructor_id": "20802"
   },
   {
+   "cid": "36517",
+   "course": "CCR Fundamentals: JJ-CCR",
+   "date": "September 10, 2026",
+   "iso": "2026-09-10",
+   "location": "Quartu S. Elena, Cagliari, Italy",
+   "instructor": "Stefano Di Cosimo",
+   "instructor_id": "5680"
+  },
+  {
    "cid": "36705",
    "course": "DPV Diver 1",
    "date": "September 10, 2026",
@@ -1929,6 +1911,15 @@
   },
   {
    "cid": "36942",
+   "course": "GUE Basic Fundamentals",
+   "date": "September 10, 2026",
+   "iso": "2026-09-10",
+   "location": "Bergen, Norway",
+   "instructor": "Gaute W Seljestad",
+   "instructor_id": "67553"
+  },
+  {
+   "cid": "36964",
    "course": "GUE Basic Fundamentals",
    "date": "September 10, 2026",
    "iso": "2026-09-10",
@@ -1998,6 +1989,15 @@
    "location": "Tulamben, Bali, Indonesia",
    "instructor": "Coral Chua",
    "instructor_id": "75313"
+  },
+  {
+   "cid": "36965",
+   "course": "Doubles Primer",
+   "date": "September 12, 2026",
+   "iso": "2026-09-12",
+   "location": "hk, New Territories, Hong Kong",
+   "instructor": "Siu Man Sit",
+   "instructor_id": "67279"
   },
   {
    "cid": "36397",
@@ -3071,15 +3071,6 @@
    "instructor_id": "12172"
   },
   {
-   "cid": "35954",
-   "course": "Technical Diver 1",
-   "date": "October 5, 2026",
-   "iso": "2026-10-05",
-   "location": "Brockville, Ontario, Canada",
-   "instructor": "Heison Chak",
-   "instructor_id": "13808"
-  },
-  {
    "cid": "36232",
    "course": "ITC GUE Fundamentals",
    "date": "October 6, 2026",
@@ -3944,6 +3935,15 @@
    "instructor_id": "4255"
   },
   {
+   "cid": "36241",
+   "course": "Cave Diver 1",
+   "date": "November 1, 2026",
+   "iso": "2026-11-01",
+   "location": "High Springs, Florida, United States",
+   "instructor": "Stretch Aaron Altenhein",
+   "instructor_id": "10004"
+  },
+  {
    "cid": "35707",
    "course": "Cave Diver 2",
    "date": "November 1, 2026",
@@ -4005,15 +4005,6 @@
    "location": "Semporna , Sabah, Malaysia",
    "instructor": "Jimmy Choo",
    "instructor_id": "15307"
-  },
-  {
-   "cid": "36696",
-   "course": "GUE Basic Fundamentals",
-   "date": "November 2, 2026",
-   "iso": "2026-11-02",
-   "location": "High Springs, Florida, United States",
-   "instructor": "Stretch Aaron Altenhein",
-   "instructor_id": "10004"
   },
   {
    "cid": "36471",
@@ -4763,6 +4754,15 @@
    "instructor_id": "14654"
   },
   {
+   "cid": "36963",
+   "course": "Cave Diver 2",
+   "date": "December 8, 2026",
+   "iso": "2026-12-08",
+   "location": "Third Dimension Diving, Tulum, Mexico",
+   "instructor": "Ivo Chiarino",
+   "instructor_id": "21332"
+  },
+  {
    "cid": "34504",
    "course": "GUE Technical Fundamentals",
    "date": "December 9, 2026",
@@ -5292,6 +5292,15 @@
    "location": "Dauin, Philippines",
    "instructor": "Per Normark",
    "instructor_id": "19962"
+  },
+  {
+   "cid": "36696",
+   "course": "GUE Basic Fundamentals",
+   "date": "January 25, 2027",
+   "iso": "2027-01-25",
+   "location": "High Springs, Florida, United States",
+   "instructor": "Stretch Aaron Altenhein",
+   "instructor_id": "10004"
   },
   {
    "cid": "36020",
