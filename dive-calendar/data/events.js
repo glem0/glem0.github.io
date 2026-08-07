@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-08-06T05:02:41+10:00",
+ "generated_at": "2026-08-08T04:11:46+10:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-08-01",
@@ -13,7 +13,7 @@ window.__DIVE_DATA__ =
    "short": "Abyss",
    "url": "https://www.abyss.com.au/sydney-dive-calendar",
    "status": "ok",
-   "event_count": 151
+   "event_count": 150
   },
   {
    "id": "frogdive",
@@ -29,7 +29,7 @@ window.__DIVE_DATA__ =
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 202
+   "event_count": 196
   },
   {
    "id": "divesydney",
@@ -37,7 +37,7 @@ window.__DIVE_DATA__ =
    "short": "DC Manly",
    "url": "https://divesydney.com.au/dive-calendar/",
    "status": "ok",
-   "event_count": 435
+   "event_count": 426
   },
   {
    "id": "prodive",
@@ -45,7 +45,7 @@ window.__DIVE_DATA__ =
    "short": "ProDive",
    "url": "https://www.prodive.com.au/Calendar.asp?Scubadive=Sydney",
    "status": "ok",
-   "event_count": 428
+   "event_count": 421
   },
   {
    "id": "divecharters",
@@ -53,10 +53,19 @@ window.__DIVE_DATA__ =
    "short": "Charters",
    "url": "https://www.sydneydivecharters.com.au/bookings/",
    "status": "ok",
-   "event_count": 191
+   "event_count": 190
   }
  ],
  "events": [
+  {
+   "id": "divecharters-419f5aa38d4c",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-08-01T07:40+10:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-08-01#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
   {
    "id": "frogdive-26ac558e0603",
    "source": "frogdive",
@@ -67,15 +76,6 @@ window.__DIVE_DATA__ =
    "url": "https://frogdive.eventcalendarapp.com/u/18702/460784",
    "location": "Bare Island",
    "description": "Bare Island\nATTENTION!\nORANGE LEVEL DIVE – meaning intermediate dive experience ..."
-  },
-  {
-   "id": "divecharters-b337be445904",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-08-01T12:30+10:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-08-01#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divecharters-05a1eb68e831",
@@ -123,24 +123,6 @@ window.__DIVE_DATA__ =
    "description": "A$299.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
-   "id": "prodive-c4ed346e6fa4",
-   "source": "prodive",
-   "title": "Scuba Hire Click & Collect",
-   "start": "2026-08-06T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
-   "location": "ProDive Manly",
-   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
-  },
-  {
-   "id": "divebondi-0b07cb38c991",
-   "source": "divebondi",
-   "title": "Guided Night Dive",
-   "start": "2026-08-06T17:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=434402&preferredDate=2026-08-06&preferredTime=5%3A00+PM&catalogId=597076"
-  },
-  {
    "id": "divecharters-9b7adf8ea3e0",
    "source": "divecharters",
    "title": "Freediving / Snorkeling",
@@ -159,115 +141,6 @@ window.__DIVE_DATA__ =
    "description": "A$170.00 · Week day morning Tec 1 Dives depart at 0700am from Rose Bay wharf. Little Manly pickup available on request at checkout booking form. Dive depths are between 40-51metres dependent on the depth of the wreck of the day. ***Sydney Dive Charters caters for open circuit, CCR, side mount and scooters. Numbers on board are limited to 8. ***…"
   },
   {
-   "id": "prodive-54fb4dbe50a8",
-   "source": "prodive",
-   "title": "Guided Shore Dives (Double Dive)",
-   "start": "2026-08-07T08:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Shore+Dives/Guided+Shore+Dives+(Double+Dive)+-+Sydney+-+Alexandria/1046",
-   "location": "ProDive Alexandria",
-   "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Shelly Beach** Rating: Open Water Diver(20m) Depth: 14m"
-  },
-  {
-   "id": "divebondi-b2580e3e50fa",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-08-07T09:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-08-07&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divesydney-0bb80a03356f",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive (sold out)",
-   "start": "2026-08-07T09:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-07&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-60c78716e8ab",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-08-07T09:30+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-07&preferredTime=9%3A30+AM&catalogId=494484"
-  },
-  {
-   "id": "abyss-54ee3a2dd760",
-   "source": "abyss",
-   "title": "Leap to Steps",
-   "start": "2026-08-07T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
-   "description": "Guided Shore Dives · Leap to steps Drift for confident divers shore dive (18-22m)"
-  },
-  {
-   "id": "prodive-55fec0daaa31",
-   "source": "prodive",
-   "title": "Scuba Hire Click & Collect",
-   "start": "2026-08-07T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
-   "location": "ProDive Manly",
-   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
-  },
-  {
-   "id": "prodive-b287bfb828b3",
-   "source": "prodive",
-   "title": "Discover Scuba at Shelly Beach",
-   "start": "2026-08-07T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Scuba+Introductory+Dive/Discover+Scuba+at+Shelly+Beach+-+Sydney+-+Manly/1727",
-   "location": "ProDive Manly",
-   "description": "$249.00 · Come and discover the enchanting realm of our underwater world! Our PRO DIVE Try a Dive program offers individuals without scuba diving certification the opportunity to experience the excitement and adventure of diving, all while under the guidance of one of our expert PRO DIVE Instructors."
-  },
-  {
-   "id": "prodive-33a48c081a74",
-   "source": "prodive",
-   "title": "Refresher Scuba Dive",
-   "start": "2026-08-07T12:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
-   "location": "ProDive Alexandria",
-   "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again. Dive Site: Shelly Beach** Rating: Open Water Diver(20m) Depth: 14m"
-  },
-  {
-   "id": "divesydney-bd984a1de3e4",
-   "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
-   "start": "2026-08-07T14:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-08-07&preferredTime=2%3A00+PM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-24bcf1da5bcd",
-   "source": "divesydney",
-   "title": "Snorkel Safari",
-   "start": "2026-08-07T14:30+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-08-07&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "prodive-0c138b633a9e",
-   "source": "prodive",
-   "title": "PRO DIVE Open Water Weekend Scuba Diving Course",
-   "start": "2026-08-07T18:30+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Openwater+Courses/PRO+DIVE+Open+Water+Weekend+Scuba+Diving+Course+-+Sydney+-+Alexandria/1075",
-   "location": "ProDive Alexandria",
-   "description": "$399.00 · Dive Course to 20m [Beginner Level] Multiple Start Dates [2 per week] Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
-  },
-  {
-   "id": "prodive-54d92356c7e0",
-   "source": "prodive",
-   "title": "PRO DIVE Openwater Weekend Scuba Diving Course",
-   "start": "2026-08-07T18:30+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Openwater+Courses/PRO+DIVE+Openwater+Weekend+Scuba+Diving+Course+-+Sydney+-+Manly/1207",
-   "location": "ProDive Manly",
-   "description": "$399.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
-  },
-  {
    "id": "prodive-3819f27cd149",
    "source": "prodive",
    "title": "Double boat dive - ( you must book with a buddy)",
@@ -278,6 +151,15 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · This is for those who prefer to dive unguided and bring all there own gear. There is no option to add gear , you will also need to bring a buddy. We will supply the boat, a dive briefing and refresments. This trip will allow for 2x 60min dives with out having to deal the hassels of diving with a group Dive Site: Long Reef/The Apartments - Shark Dive** Rating: Open Water Diver(20m) Depth: 25m"
   },
   {
+   "id": "divecharters-954e46134aae",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-08-08T07:40+10:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-08-08#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "prodive-baa0f07ffdd4",
    "source": "prodive",
    "title": "Sydney Double Boat Dive",
@@ -286,38 +168,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Manly/Boat+Dives/Sydney+Double+Boat+Dive+-+Sydney+-+Manly/240",
    "location": "ProDive Manly",
    "description": "$199.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Long Reef/The Apartments - Shark Dive** Rating: Open Water Diver(20m) Depth: 25m"
-  },
-  {
-   "id": "divebondi-dda90077a511",
-   "source": "divebondi",
-   "title": "PADI Advanced Open Water Course",
-   "start": "2026-08-08T08:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=422369&preferredDate=2026-08-08&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-e6b8620a3d40",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-08-08T08:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-08-08&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-68ba8983bb70",
-   "source": "divebondi",
-   "title": "Refresher Course",
-   "start": "2026-08-08T08:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-08-08&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divesydney-64bb814f691c",
-   "source": "divesydney",
-   "title": "Photography Double Guided Shore Dive (sold out)",
-   "start": "2026-08-08T08:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=674734&preferredDate=2026-08-08&preferredTime=8%3A00+AM&catalogId=494484"
   },
   {
    "id": "prodive-c5c7956f5e1c",
@@ -339,30 +189,6 @@ window.__DIVE_DATA__ =
    "description": "Social Events · Keep Australia Beautiful Cleanup Shore Dive – Sutherland Point"
   },
   {
-   "id": "divebondi-e0dee93f0f80",
-   "source": "divebondi",
-   "title": "GUE Basic Fundamentals Course",
-   "start": "2026-08-08T09:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=689880&preferredDate=2026-08-08&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divesydney-714e12679cc6",
-   "source": "divesydney",
-   "title": "Scuba Refresher",
-   "start": "2026-08-08T09:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-08-08&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-ebe32fddd549",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive (sold out)",
-   "start": "2026-08-08T09:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-08&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
    "id": "prodive-de21bf5f98ab",
    "source": "prodive",
    "title": "Enriched Air Nitrox Course",
@@ -371,14 +197,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Manly/Enriched+Air+Nitrox/Enriched+Air+Nitrox+Course+-+Sydney+-+Manly/1639",
    "location": "ProDive Manly",
    "description": "$279.00 · The most popular specialty course. Scuba diving with enriched air nitrox gives you more no decompression time, especially on repetitive scuba dives."
-  },
-  {
-   "id": "divesydney-5f1b01f394ce",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-08-08T10:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-08&preferredTime=10%3A00+AM&catalogId=494484"
   },
   {
    "id": "prodive-a70b961b5090",
@@ -408,15 +226,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
    "location": "ProDive Alexandria",
    "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again. Dive Site: Shelly Beach** Rating: Open Water Diver(20m) Depth: 14m"
-  },
-  {
-   "id": "divecharters-a31fab99170d",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-08-08T12:30+10:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-08-08#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-a8f777afa02d",
@@ -482,20 +291,12 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · Seal Diving · Playful fur seals swirl around you with possible whales and rays."
   },
   {
-   "id": "divesydney-7cb7d07bd4a8",
+   "id": "divesydney-b8833e6b28df",
    "source": "divesydney",
-   "title": "Double Guided Shore Dive",
+   "title": "Double Guided Shore Dive (sold out)",
    "start": "2026-08-09T09:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-09&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-891b3f63e6f4",
-   "source": "divesydney",
-   "title": "Scuba Refresher",
-   "start": "2026-08-09T09:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-08-09&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
    "id": "abyss-3ba025b93f11",
@@ -507,9 +308,9 @@ window.__DIVE_DATA__ =
    "description": "Guided Shore Dives · Voodoo lots of fish and unique rock formations, shore dive (18m)"
   },
   {
-   "id": "divesydney-656bbe4c4dab",
+   "id": "divesydney-0e0da2a62aef",
    "source": "divesydney",
-   "title": "Double Guided Shore Dive (sold out)",
+   "title": "Double Guided Shore Dive",
    "start": "2026-08-09T10:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-09&preferredTime=10%3A00+AM&catalogId=494484"
@@ -569,20 +370,20 @@ window.__DIVE_DATA__ =
    "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Gordons Bay** Rating: Open Water Diver(20m) Depth: 14m"
   },
   {
-   "id": "divesydney-a44a19c6b7ff",
-   "source": "divesydney",
-   "title": "Scuba Refresher",
-   "start": "2026-08-10T09:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-08-10&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
    "id": "divesydney-3f9841a1ed37",
    "source": "divesydney",
    "title": "Double Guided Shore Dive",
    "start": "2026-08-10T09:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-10&preferredTime=9%3A00+AM&catalogId=494484"
+  },
+  {
+   "id": "divesydney-a44a19c6b7ff",
+   "source": "divesydney",
+   "title": "Scuba Refresher",
+   "start": "2026-08-10T09:00+10:00",
+   "all_day": false,
+   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-08-10&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
    "id": "prodive-e2f0324d9929",
@@ -805,20 +606,20 @@ window.__DIVE_DATA__ =
    "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Bare Island** Rating: Open Water Diver(20m) Depth: 20m"
   },
   {
-   "id": "divesydney-6c4332698d78",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-08-14T09:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-14&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
    "id": "divesydney-88800962433f",
    "source": "divesydney",
    "title": "Scuba Refresher",
    "start": "2026-08-14T09:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-08-14&preferredTime=9%3A00+AM&catalogId=494484"
+  },
+  {
+   "id": "divesydney-6c4332698d78",
+   "source": "divesydney",
+   "title": "Double Guided Shore Dive",
+   "start": "2026-08-14T09:00+10:00",
+   "all_day": false,
+   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-14&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
    "id": "abyss-50fc361c82c1",
@@ -923,6 +724,15 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · This is for those who prefer to dive unguided and bring all there own gear. There is no option to add gear , you will also need to bring a buddy. We will supply the boat, a dive briefing and refresments. This trip will allow for 2x 60min dives with out having to deal the hassels of diving with a group Dive Site: Magic Point - Shark Dive** Rating: Open Water Diver(20m) Depth: 23m"
   },
   {
+   "id": "divecharters-ca7e56a8ee84",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-08-15T07:40+10:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-08-15#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "frogdive-c9391b4f2ab3",
    "source": "frogdive",
    "title": "SHORE DIVE CLIFTON GARDENS",
@@ -998,20 +808,20 @@ window.__DIVE_DATA__ =
    "description": "$795.00 · Tec 45 - 15,16,17 aug"
   },
   {
-   "id": "divesydney-64d33a9607cc",
-   "source": "divesydney",
-   "title": "Scuba Refresher",
-   "start": "2026-08-15T09:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-08-15&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
    "id": "divesydney-eed5a695e2d3",
    "source": "divesydney",
    "title": "Double Guided Shore Dive",
    "start": "2026-08-15T09:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-15&preferredTime=9%3A00+AM&catalogId=494484"
+  },
+  {
+   "id": "divesydney-64d33a9607cc",
+   "source": "divesydney",
+   "title": "Scuba Refresher",
+   "start": "2026-08-15T09:00+10:00",
+   "all_day": false,
+   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-08-15&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
    "id": "prodive-23466101d5d1",
@@ -1062,15 +872,6 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · Boat Dives · Barrens Hut 30m Boat- MUST BE ADVANCED"
   },
   {
-   "id": "divecharters-39787b5d3836",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-08-15T12:30+10:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-08-15#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
-  },
-  {
    "id": "divesydney-4b7434fc8738",
    "source": "divesydney",
    "title": "Discover Scuba Diving - PADI",
@@ -1095,15 +896,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Manly/Boat+Dives/Double+boat+dive+-+(+you+must+book+with+a+buddy)+-+Sydney+-+Manly/1770",
    "location": "ProDive Manly",
    "description": "$130.00 · This is for those who prefer to dive unguided and bring all there own gear. There is no option to add gear , you will also need to bring a buddy. We will supply the boat, a dive briefing and refresments. This trip will allow for 2x 60min dives with out having to deal the hassels of diving with a group Dive Site: Long Reef/The Apartments - Shark Dive** Rating: Open Water Diver(20m) Depth: 25m"
-  },
-  {
-   "id": "divecharters-c2b311da8a8e",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50 Boarding/ 8am Departure Rose Bay Public Wharf",
-   "start": "2026-08-16T07:40+10:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-08-16#248@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "prodive-7ade7d29f6d1",
@@ -1152,9 +944,9 @@ window.__DIVE_DATA__ =
    "description": "$299.00 · DrySuit Diver Course · PADI Drysuit Course"
   },
   {
-   "id": "divebondi-c6414e49fc41",
+   "id": "divebondi-98f1d34735c1",
    "source": "divebondi",
-   "title": "Advanced Shore Dive",
+   "title": "Advanced Shore Dive (sold out)",
    "start": "2026-08-16T08:30+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=647260&preferredDate=2026-08-16&preferredTime=8%3A30+AM&catalogId=597076"
@@ -1258,20 +1050,20 @@ window.__DIVE_DATA__ =
    "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Freshwater** Rating: Open Water Diver(20m) Depth: 18"
   },
   {
-   "id": "divesydney-ef8320f71aa4",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-08-17T09:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-17&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
    "id": "divesydney-954c64df5352",
    "source": "divesydney",
    "title": "Scuba Refresher",
    "start": "2026-08-17T09:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-08-17&preferredTime=9%3A00+AM&catalogId=494484"
+  },
+  {
+   "id": "divesydney-ef8320f71aa4",
+   "source": "divesydney",
+   "title": "Double Guided Shore Dive",
+   "start": "2026-08-17T09:00+10:00",
+   "all_day": false,
+   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-17&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
    "id": "prodive-baeb203ccc15",
@@ -1611,6 +1403,15 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · This is for those who prefer to dive unguided and bring all there own gear. There is no option to add gear , you will also need to bring a buddy. We will supply the boat, a dive briefing and refresments. This trip will allow for 2x 60min dives with out having to deal the hassels of diving with a group Dive Site: Long Reef/The Apartments - Shark Dive** Rating: Open Water Diver(20m) Depth: 25m"
   },
   {
+   "id": "divecharters-e8f2fc2c0ccd",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-08-22T07:40+10:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-08-22#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "prodive-ad4f978b6705",
    "source": "prodive",
    "title": "Sydney Double Boat Dive",
@@ -1683,20 +1484,20 @@ window.__DIVE_DATA__ =
    "description": "$99.00 · Single Seal Dive At Martin Island"
   },
   {
-   "id": "divesydney-58899d078393",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-08-22T09:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-22&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
    "id": "divesydney-a0f8d53ab950",
    "source": "divesydney",
    "title": "Scuba Refresher",
    "start": "2026-08-22T09:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-08-22&preferredTime=9%3A00+AM&catalogId=494484"
+  },
+  {
+   "id": "divesydney-58899d078393",
+   "source": "divesydney",
+   "title": "Double Guided Shore Dive",
+   "start": "2026-08-22T09:00+10:00",
+   "all_day": false,
+   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-22&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
    "id": "prodive-1f8b725e185c",
@@ -1764,15 +1565,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
    "location": "ProDive Alexandria",
    "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again. Dive Site: Freshwater** Rating: Open Water Diver(20m) Depth: 18"
-  },
-  {
-   "id": "divecharters-adaf41c44150",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-08-22T12:30+10:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-08-22#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-c275bc6ba6d9",
@@ -2236,20 +2028,20 @@ window.__DIVE_DATA__ =
    "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Gordons Bay** Rating: Open Water Diver(20m) Depth: 14m"
   },
   {
-   "id": "divesydney-66365ca28ec9",
-   "source": "divesydney",
-   "title": "Scuba Refresher",
-   "start": "2026-08-28T09:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-08-28&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
    "id": "divesydney-3f23788c7cba",
    "source": "divesydney",
    "title": "Double Guided Shore Dive",
    "start": "2026-08-28T09:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-28&preferredTime=9%3A00+AM&catalogId=494484"
+  },
+  {
+   "id": "divesydney-66365ca28ec9",
+   "source": "divesydney",
+   "title": "Scuba Refresher",
+   "start": "2026-08-28T09:00+10:00",
+   "all_day": false,
+   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-08-28&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
    "id": "abyss-084229085bb5",
@@ -2343,6 +2135,15 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Manly/Boat+Dives/Double+boat+dive+-+(+you+must+book+with+a+buddy)+-+Sydney+-+Manly/1770",
    "location": "ProDive Manly",
    "description": "$130.00 · This is for those who prefer to dive unguided and bring all there own gear. There is no option to add gear , you will also need to bring a buddy. We will supply the boat, a dive briefing and refresments. This trip will allow for 2x 60min dives with out having to deal the hassels of diving with a group Dive Site: Magic Point - Shark Dive** Rating: Open Water Diver(20m) Depth: 23m"
+  },
+  {
+   "id": "divecharters-62c0fff38a3b",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-08-29T07:40+10:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-08-29#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "frogdive-bc594b17e8aa",
@@ -2465,15 +2266,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
    "location": "ProDive Alexandria",
    "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again. Dive Site: Bare Island** Rating: Open Water Diver(20m) Depth: 20m"
-  },
-  {
-   "id": "divecharters-c553ceb0c174",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-08-29T12:30+10:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-08-29#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-fe7197f98d00",
@@ -2838,14 +2630,6 @@ window.__DIVE_DATA__ =
    "description": "A$299.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
-   "id": "divebondi-b20f144b7bed",
-   "source": "divebondi",
-   "title": "Guided Bushrangers Bay",
-   "start": "2026-09-03T06:30+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-09-03&preferredTime=6%3A30+AM&catalogId=597076"
-  },
-  {
    "id": "prodive-24286b60cd85",
    "source": "prodive",
    "title": "Scuba Hire Click & Collect",
@@ -3046,6 +2830,15 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · This is for those who prefer to dive unguided and bring all there own gear. There is no option to add gear , you will also need to bring a buddy. We will supply the boat, a dive briefing and refresments. This trip will allow for 2x 60min dives with out having to deal the hassels of diving with a group Dive Site: Long Reef/The Apartments - Shark Dive** Rating: Open Water Diver(20m) Depth: 25m"
   },
   {
+   "id": "divecharters-6841c5fec29d",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-09-05T07:40+10:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-05#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "prodive-e34c9f8c4a32",
    "source": "prodive",
    "title": "Sydney Double Boat Dive",
@@ -3164,15 +2957,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
    "location": "ProDive Alexandria",
    "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again. Dive Site: Freshwater** Rating: Open Water Diver(20m) Depth: 18"
-  },
-  {
-   "id": "divecharters-13202af3d142",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-09-05T12:30+10:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-05#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-d1d728ade140",
@@ -3674,6 +3458,15 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · This is for those who prefer to dive unguided and bring all there own gear. There is no option to add gear , you will also need to bring a buddy. We will supply the boat, a dive briefing and refresments. This trip will allow for 2x 60min dives with out having to deal the hassels of diving with a group Dive Site: Magic Point - Shark Dive** Rating: Open Water Diver(20m) Depth: 23m"
   },
   {
+   "id": "divecharters-03164af01815",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-09-12T07:40+10:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-12#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "frogdive-0a6b9577165a",
    "source": "frogdive",
    "title": "SHORE DIVE CLIFTON GARDENS",
@@ -3695,20 +3488,20 @@ window.__DIVE_DATA__ =
    "description": "$199.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Magic Point - Shark Dive** Rating: Open Water Diver(20m) Depth: 23m"
   },
   {
-   "id": "divebondi-184767181b27",
-   "source": "divebondi",
-   "title": "PADI Advanced Open Water Course",
-   "start": "2026-09-12T08:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=422369&preferredDate=2026-09-12&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-92a51aa45586",
    "source": "divebondi",
    "title": "Guided Shore Dive",
    "start": "2026-09-12T08:00+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-09-12&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-184767181b27",
+   "source": "divebondi",
+   "title": "PADI Advanced Open Water Course",
+   "start": "2026-09-12T08:00+10:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=422369&preferredDate=2026-09-12&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "divesydney-9b13c969dd48",
@@ -3799,15 +3592,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/scuba-dive-with-seals",
    "description": "$130.00 · Seal Diving · Playful fur seals swirl around you with possible whales and rays."
-  },
-  {
-   "id": "divecharters-66b911da2614",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-09-12T12:30+10:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-12#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-80b49b84fcfc",
@@ -4343,6 +4127,15 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · This is for those who prefer to dive unguided and bring all there own gear. There is no option to add gear , you will also need to bring a buddy. We will supply the boat, a dive briefing and refresments. This trip will allow for 2x 60min dives with out having to deal the hassels of diving with a group Dive Site: Long Reef/The Apartments - Shark Dive** Rating: Open Water Diver(20m) Depth: 25m"
   },
   {
+   "id": "divecharters-adea8c01c418",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-09-19T07:40+10:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-19#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "prodive-e88ea69f217c",
    "source": "prodive",
    "title": "Sydney Double Boat Dive",
@@ -4487,15 +4280,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
    "location": "ProDive Alexandria",
    "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again. Dive Site: Freshwater** Rating: Open Water Diver(20m) Depth: 18"
-  },
-  {
-   "id": "divecharters-343818b40aa0",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-09-19T12:30+10:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-19#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-aa49a111ff13",
@@ -4839,6 +4623,14 @@ window.__DIVE_DATA__ =
    "description": "A$299.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
+   "id": "divebondi-81aabf373be7",
+   "source": "divebondi",
+   "title": "Refresher Course",
+   "start": "2026-09-24T09:00+10:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-09-24&preferredTime=9%3A00+AM&catalogId=597076"
+  },
+  {
    "id": "prodive-58034b2056d7",
    "source": "prodive",
    "title": "Scuba Hire Click & Collect",
@@ -5049,6 +4841,15 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · This is for those who prefer to dive unguided and bring all there own gear. There is no option to add gear , you will also need to bring a buddy. We will supply the boat, a dive briefing and refresments. This trip will allow for 2x 60min dives with out having to deal the hassels of diving with a group Dive Site: Magic Point - Shark Dive** Rating: Open Water Diver(20m) Depth: 23m"
   },
   {
+   "id": "divecharters-5e9b331f3b8c",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-09-26T07:40+10:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-26#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "prodive-7a46835ce9be",
    "source": "prodive",
    "title": "Sydney Double Boat Dive",
@@ -5077,20 +4878,20 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-09-26&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-901f1944fe06",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-09-26T08:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-09-26&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-0159bd83a044",
    "source": "divebondi",
    "title": "GUE Basic Fundamentals Course (sold out)",
    "start": "2026-09-26T08:00+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=689880&preferredDate=2026-09-26&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-901f1944fe06",
+   "source": "divebondi",
+   "title": "Guided Shore Dive",
+   "start": "2026-09-26T08:00+10:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-09-26&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "prodive-cf4ce5868b99",
@@ -5185,15 +4986,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
    "location": "ProDive Alexandria",
    "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again. Dive Site: Gordons Bay** Rating: Open Water Diver(20m) Depth: 14m"
-  },
-  {
-   "id": "divecharters-925b59eda0ad",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-09-26T12:30+10:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-26#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-94a33b155b7c",
@@ -5454,20 +5246,20 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=502316&preferredDate=2026-09-30&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-1b9d786ebef5",
-   "source": "divebondi",
-   "title": "Refresher Course",
-   "start": "2026-09-30T09:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-09-30&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-adfbbe69c072",
    "source": "divebondi",
    "title": "Guided Shore Dive",
    "start": "2026-09-30T09:00+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-09-30&preferredTime=9%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-1b9d786ebef5",
+   "source": "divebondi",
+   "title": "Refresher Course",
+   "start": "2026-09-30T09:00+10:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-09-30&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
    "id": "divesydney-e673fc1eb5d9",
@@ -5698,6 +5490,15 @@ window.__DIVE_DATA__ =
    "description": "$350.00 · No Experience Needed · Dive with wild sharks at Bushrangers Bay, no cage!"
   },
   {
+   "id": "divecharters-d9e12caac370",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-10-03T07:40+10:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-03#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "frogdive-8cea4223c8f1",
    "source": "frogdive",
    "title": "SHORE DIVE FAIRY BOWER",
@@ -5853,15 +5654,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
    "location": "ProDive Alexandria",
    "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again."
-  },
-  {
-   "id": "divecharters-e6dec364e425",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-10-03T12:30+10:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-03#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-fbf370ea00bb",
@@ -6348,6 +6140,15 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-10-10&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
+   "id": "divecharters-39b3bdbb0faf",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-10-10T07:40+11:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-10#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "prodive-25c9d29909b3",
    "source": "prodive",
    "title": "Sydney Double Boat Dive",
@@ -6490,15 +6291,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
    "location": "ProDive Alexandria",
    "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again."
-  },
-  {
-   "id": "divecharters-93156bc4485d",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-10-10T12:30+11:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-10#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-7a239dc127f6",
@@ -7040,6 +6832,15 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
+   "id": "divecharters-af4319aca6ab",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-10-17T07:40+11:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-17#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "frogdive-16b8500cf6db",
    "source": "frogdive",
    "title": "SHORE DIVE SHELLY BEACH",
@@ -7230,15 +7031,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
    "location": "ProDive Alexandria",
    "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again."
-  },
-  {
-   "id": "divecharters-07d3367fa883",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-10-17T12:30+11:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-17#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-58d3ac123bd2",
@@ -7728,6 +7520,15 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-10-24&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
+   "id": "divecharters-70b2ffe4f0c5",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-10-24T07:40+11:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-24#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "prodive-0e98d433b94d",
    "source": "prodive",
    "title": "Sydney Double Boat Dive",
@@ -7872,15 +7673,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
    "location": "ProDive Alexandria",
    "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again."
-  },
-  {
-   "id": "divecharters-1893d009d609",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-10-24T12:30+11:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-24#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-876e7e4c43f3",
@@ -8396,6 +8188,15 @@ window.__DIVE_DATA__ =
    "description": "$549.00 · Forster Weekend · Weekend adventure with grey nurse sharks, seals and scenic reefs"
   },
   {
+   "id": "divecharters-8b11e6463682",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-10-31T07:40+11:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-31#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "frogdive-02f8c97b433c",
    "source": "frogdive",
    "title": "SHORE DIVE FAIRY BOWER",
@@ -8523,15 +8324,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Manly/Boat+Dives/Sydney+Double+Boat+Dive+-+Sydney+-+Manly/240",
    "location": "ProDive Manly",
    "description": "$219.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board."
-  },
-  {
-   "id": "divecharters-5acf5fb47aab",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-10-31T12:30+11:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-31#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-3eca3dac72c0",
@@ -9071,6 +8863,15 @@ window.__DIVE_DATA__ =
    "description": "$120.00 · Tech Boat Dives · SS Tuggerah - 46m Tec Must be Tec certified, Sans Souci pick up"
   },
   {
+   "id": "divecharters-a091726d406c",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-11-07T07:40+11:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-07#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "prodive-e49716dc4247",
    "source": "prodive",
    "title": "Sydney Double Boat Dive",
@@ -9215,15 +9016,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Manly/Boat+Dives/Sydney+Double+Boat+Dive+-+Sydney+-+Manly/240",
    "location": "ProDive Manly",
    "description": "$219.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board."
-  },
-  {
-   "id": "divecharters-31ab02e3ad13",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-11-07T12:30+11:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-07#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-d84c71c92827",
@@ -9773,6 +9565,15 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
+   "id": "divecharters-6de7fb0de6c2",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-11-14T07:40+11:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-14#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "prodive-a19043819217",
    "source": "prodive",
    "title": "Sydney Double Boat Dive",
@@ -9926,15 +9727,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Manly/Boat+Dives/Sydney+Double+Boat+Dive+-+Sydney+-+Manly/240",
    "location": "ProDive Manly",
    "description": "$219.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board."
-  },
-  {
-   "id": "divecharters-0c8bb9e95aa6",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-11-14T12:30+11:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-14#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-ff2cc504eb20",
@@ -10457,6 +10249,15 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-11-21&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
+   "id": "divecharters-495a577be93e",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-11-21T07:40+11:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-21#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "prodive-6e0ef1d9ed8c",
    "source": "prodive",
    "title": "Sydney Double Boat Dive",
@@ -10592,15 +10393,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/boat-dives",
    "description": "$130.00 · Boat Dives · Big Siagon 18m Boat dive rock wall and boulders"
-  },
-  {
-   "id": "divecharters-54693da2c9db",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-11-21T12:30+11:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-21#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-bd063ec97a1a",
@@ -10919,6 +10711,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-27&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-e59819eb10d6",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-11-28T07:40+11:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-28#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "abyss-bbd05c50fbb2",
    "source": "abyss",
    "title": "Henry Head Boat Dive",
@@ -10984,15 +10785,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/boat-dives",
    "description": "$130.00 · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
-  },
-  {
-   "id": "divecharters-0a7779da3709",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-11-28T12:30+11:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-28#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-561dff40b9fb",
@@ -11277,6 +11069,15 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-12-05&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
+   "id": "divecharters-a696bdd92847",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-12-05T07:40+11:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-05#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "abyss-f572fe9a7dde",
    "source": "abyss",
    "title": "Tec 40",
@@ -11335,15 +11136,6 @@ window.__DIVE_DATA__ =
    "start": "2026-12-05T10:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-12-05&preferredTime=10%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-a61a6f6415c1",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-12-05T12:30+11:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-05#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-ac644896d1c6",
@@ -11626,6 +11418,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-12-11&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-3815bd157ada",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-12-12T07:40+11:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-12#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "abyss-b8c864e9725c",
    "source": "abyss",
    "title": "AOW 12-12-2026",
@@ -11682,15 +11483,6 @@ window.__DIVE_DATA__ =
    "start": "2026-12-12T10:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-12-12&preferredTime=10%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-5d1e3b48e800",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-12-12T12:30+11:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-12#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-9610dae240ad",
@@ -11989,6 +11781,15 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-12-19&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
+   "id": "divecharters-64e524de5909",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-12-19T07:40+11:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-19#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "divebondi-7149b1d10fcd",
    "source": "divebondi",
    "title": "Guided Shore Dive",
@@ -12035,15 +11836,6 @@ window.__DIVE_DATA__ =
    "start": "2026-12-19T10:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-12-19&preferredTime=10%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-9f9019c46e68",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-12-19T12:30+11:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-19#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-8ce698400b9b",
@@ -12400,6 +12192,15 @@ window.__DIVE_DATA__ =
    "description": "$3895.00 · Vanuatu New Year Dive Adventure · Explore Vanuatu on a seven-night New Year trip with 10 boat dives"
   },
   {
+   "id": "divecharters-7b7e759a3dae",
+   "source": "divecharters",
+   "title": "Double Boat Dives - Departing 7.40am Little Manly / 7.50am Boarding/ 8am Departure Rose Bay Public Wharf",
+   "start": "2026-12-26T07:40+11:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-26#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
    "id": "divebondi-26a2928db82c",
    "source": "divebondi",
    "title": "Guided Shore Dive",
@@ -12414,15 +12215,6 @@ window.__DIVE_DATA__ =
    "start": "2026-12-26T08:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-12-26&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divecharters-c3a5cc3d9fe1",
-   "source": "divecharters",
-   "title": "Double Boat Dives - Departing 1230pm Little Manly Boat Ramp",
-   "start": "2026-12-26T12:30+11:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-26#460@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divebondi-cd2420efcda4",
