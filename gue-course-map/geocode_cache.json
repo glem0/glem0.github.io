@@ -1790,5 +1790,39 @@
   "matched_query": "tulum, mexico",
   "approx": true,
   "verified": true
+ },
+ "avalon, california, united states": {
+  "lat": 33.34221,
+  "lng": -118.3272612,
+  "display": "Avalon, Los Angeles County, California, 90704, United States",
+  "country": "us",
+  "matched_query": "avalon, california, united states",
+  "approx": false,
+  "verified": true
+ },
+ "gdańsk, poland": {
+  "lat": 54.4288032,
+  "lng": 18.798327,
+  "display": "Gdańsk, województwo pomorskie, Polska",
+  "matched_query": "Gdansk, Poland",
+  "alias_of": "gdansk, poland"
+ },
+ "kressbronn am bodensee , baden-württemberg, germany": {
+  "lat": 47.5965788,
+  "lng": 9.6003273,
+  "display": "Kressbronn am Bodensee, GVV Eriskirch-Kressbronn am Bodensee-Langenargen, Bodenseekreis, Baden-Württemberg, 88079, Deutschland",
+  "country": "de",
+  "matched_query": "kressbronn am bodensee , baden-württemberg, germany",
+  "approx": false,
+  "verified": true
+ },
+ "santa margherita ligure, italy": {
+  "lat": 44.3281018,
+  "lng": 9.1927075,
+  "display": "Santa Margherita Ligure, Genova, Liguria, 16038, Italia",
+  "country": "it",
+  "matched_query": "santa margherita ligure, italy",
+  "approx": false,
+  "verified": true
  }
 }
