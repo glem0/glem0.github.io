@@ -1824,5 +1824,15 @@
   "matched_query": "santa margherita ligure, italy",
   "approx": false,
   "verified": true
+ },
+ "nan jing, jiangsu, china": {
+  "lat": 32.0438284,
+  "lng": 118.7788631,
+  "display": "南京市, 江苏省, 中国",
+  "country": "cn",
+  "matched_query": "nanjing, jiangsu, china",
+  "approx": false,
+  "verified": true,
+  "alias_of": "nanjing, jiangsu, china"
  }
 }

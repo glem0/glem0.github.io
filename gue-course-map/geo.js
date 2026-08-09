@@ -132,6 +132,7 @@ window.GUE_GEO = {
 "münchen, bayern, germany":[48.13711,11.57538],
 "münchen, germany":[48.13711,11.57538],
 "münster, nordrhein-westfalen, germany":[51.96251,7.62519],
+"nan jing, jiangsu, china":[32.04383,118.77886],
 "nanjing, jiangsu, china":[32.04383,118.77886],
 "nanning, guangxi, china":[22.81577,108.31802],
 "neufeld, burgenland, austria":[47.24745,16.34249],
