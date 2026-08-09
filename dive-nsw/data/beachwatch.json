@@ -132,7 +132,7 @@
           "id": "e469a86a-1a9b-4e8a-a62d-1b90141b5bd5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Barrenjoey Beach"
         },
         "type": "Feature"
@@ -1577,7 +1577,7 @@
           "id": "2f8fd16c-2631-4f56-ae9a-3ada9dbfa8fe",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Gymea Bay Baths"
         },
         "type": "Feature"
@@ -1628,7 +1628,7 @@
           "id": "4f626874-5276-48e7-8bd2-1d8976908cc5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Horderns Beach"
         },
         "type": "Feature"
@@ -1951,7 +1951,7 @@
           "id": "93ec689a-b568-4cef-8c51-1eaafbbb51a5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Long Reef Beach"
         },
         "type": "Feature"
@@ -2325,7 +2325,7 @@
           "id": "2c616a2d-d12d-4444-817c-456be2d5464a",
           "latestResult": "Bad",
           "latestResultRating": 1,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Monterey Baths"
         },
         "type": "Feature"
@@ -2648,7 +2648,7 @@
           "id": "f4785861-61c1-4acb-b841-2609962ed0c7",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Oatley Bay Baths"
         },
         "type": "Feature"
@@ -2954,7 +2954,7 @@
           "id": "93c7a40f-bf76-420d-9c53-2435adda70b9",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Rose Bay Beach"
         },
         "type": "Feature"
