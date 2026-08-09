@@ -319,7 +319,7 @@
           "id": "8990825d-b48c-443f-9047-862a0b986621",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Boat Harbour"
         },
         "type": "Feature"
@@ -2087,7 +2087,7 @@
           "id": "94c5d756-1093-48db-8dbc-70fbb523b16a",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Malabar Beach"
         },
         "type": "Feature"
@@ -2376,7 +2376,7 @@
           "id": "f05ac321-7e70-4c4a-99cd-cc0f8a0acb5d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Narrabeen Lagoon (Birdwood Park)"
         },
         "type": "Feature"
@@ -2903,7 +2903,7 @@
           "id": "5f3a9a0e-ffdc-45e4-a776-983887af540d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Ramsgate Baths"
         },
         "type": "Feature"
@@ -2971,7 +2971,7 @@
           "id": "f3ea8946-1d49-4f06-8dcf-89aaf08705a6",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Sandringham Baths"
         },
         "type": "Feature"
@@ -3532,7 +3532,7 @@
           "id": "c8fc3c50-4d0f-48c8-939a-ee100892dee8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Terrigal Beach"
         },
         "type": "Feature"
@@ -3753,7 +3753,7 @@
           "id": "613465c8-6d0b-46a4-a8cb-adcbc4c18982",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Umina Beach"
         },
         "type": "Feature"
