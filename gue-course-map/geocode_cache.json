@@ -1834,5 +1834,30 @@
   "approx": false,
   "verified": true,
   "alias_of": "nanjing, jiangsu, china"
+ },
+ ":portland, connecticut, united states": {
+  "lat": 41.5729076,
+  "lng": -72.6406905,
+  "display": "Portland, Lower Connecticut River Valley Planning Region, Connecticut, 06480, United States",
+  "matched_query": "Portland, Connecticut, United States",
+  "alias_of": "portland, connecticut, united states"
+ },
+ "st. julian, malta": {
+  "lat": 35.9199225,
+  "lng": 14.4877119,
+  "display": "San Ġiljan, Reġjun tal-Lvant, Malta",
+  "country": "mt",
+  "matched_query": "st. julian, malta",
+  "approx": false,
+  "verified": true
+ },
+ "tecwaters shop oder hemmoor, germany": {
+  "lat": 51.1638175,
+  "lng": 10.4478313,
+  "display": "Deutschland",
+  "country": "de",
+  "matched_query": "germany",
+  "approx": true,
+  "verified": true
  }
 }

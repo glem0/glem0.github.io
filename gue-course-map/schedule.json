@@ -1,87 +1,6 @@
 {
- "updated": "2026-08-09T18:02:24Z",
+ "updated": "2026-08-10T18:29:23Z",
  "classes": [
-  {
-   "cid": "35785",
-   "course": "Cave Diver 1",
-   "date": "August 10, 2026",
-   "iso": "2026-08-10",
-   "location": "Cala Gonone, Italy",
-   "instructor": "Ricardo Constantino",
-   "instructor_id": "1591"
-  },
-  {
-   "cid": "36719",
-   "course": "Cave Diver 1",
-   "date": "August 10, 2026",
-   "iso": "2026-08-10",
-   "location": "playa del carmen, Quintana Roo, Mexico",
-   "instructor": "Marcelin Nebenhaus",
-   "instructor_id": "73393"
-  },
-  {
-   "cid": "36676",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 10, 2026",
-   "iso": "2026-08-10",
-   "location": "Yang-yang gun, Kangwon-do, Korea (South)",
-   "instructor": "Youngwoo Seo",
-   "instructor_id": "16137"
-  },
-  {
-   "cid": "36682",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 10, 2026",
-   "iso": "2026-08-10",
-   "location": "Yang-yang gun, Kangwon-do, Korea (South)",
-   "instructor": "Youngwoo Seo",
-   "instructor_id": "16137"
-  },
-  {
-   "cid": "36252",
-   "course": "GUE Technical Fundamentals",
-   "date": "August 10, 2026",
-   "iso": "2026-08-10",
-   "location": "Portland, Connecticut, United States",
-   "instructor": "Edward Hayes",
-   "instructor_id": "3297"
-  },
-  {
-   "cid": "36212",
-   "course": "Open Water Diver",
-   "date": "August 10, 2026",
-   "iso": "2026-08-10",
-   "location": "Cala Gonone, Nuoro, Italy",
-   "instructor": "Dorota Czerny",
-   "instructor_id": "2276"
-  },
-  {
-   "cid": "36894",
-   "course": "Open Water Diver",
-   "date": "August 10, 2026",
-   "iso": "2026-08-10",
-   "location": "Third Dimension Diving, Tulum, Quintana Roo, Mexico",
-   "instructor": "Ivo Chiarino",
-   "instructor_id": "21332"
-  },
-  {
-   "cid": "36502",
-   "course": "Open Water Diver",
-   "date": "August 10, 2026",
-   "iso": "2026-08-10",
-   "location": "foshan, Guangdong, China",
-   "instructor": "Huang Weiqi",
-   "instructor_id": "23052"
-  },
-  {
-   "cid": "36632",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "August 10, 2026",
-   "iso": "2026-08-10",
-   "location": "Siegburg , Germany",
-   "instructor": "Sebastian Von Koss",
-   "instructor_id": "20802"
-  },
   {
    "cid": "36522",
    "course": "CCR Fundamentals: Symbios",
@@ -360,6 +279,15 @@
    "location": "Sydney, New South Wales, Australia",
    "instructor": "Sebastien Landat",
    "instructor_id": "22757"
+  },
+  {
+   "cid": "36991",
+   "course": "Upgrade to GUE Basic Fundamentals",
+   "date": "August 15, 2026",
+   "iso": "2026-08-15",
+   "location": ":Portland, Connecticut, United States",
+   "instructor": "Edward Hayes",
+   "instructor_id": "3297"
   },
   {
    "cid": "36276",
@@ -891,6 +819,15 @@
    "location": "Kralendijk, Bonaire",
    "instructor": "Douwe Musch",
    "instructor_id": "67329"
+  },
+  {
+   "cid": "36992",
+   "course": "GUE Technical Fundamentals",
+   "date": "August 24, 2026",
+   "iso": "2026-08-24",
+   "location": "Dahab , Janub Sina', Egypt",
+   "instructor": "Ahmed Hagi",
+   "instructor_id": "69051"
   },
   {
    "cid": "36974",
@@ -1784,6 +1721,15 @@
    "instructor_id": "2021"
   },
   {
+   "cid": "36998",
+   "course": "Rescue Primer",
+   "date": "September 12, 2026",
+   "iso": "2026-09-12",
+   "location": "Hemmoor, Germany",
+   "instructor": "Keith Kreitner",
+   "instructor_id": "12073"
+  },
+  {
    "cid": "36618",
    "course": "Upgrade to GUE Basic Fundamentals",
    "date": "September 12, 2026",
@@ -2268,6 +2214,15 @@
    "location": "Portland, Connecticut, United States",
    "instructor": "Edward Hayes",
    "instructor_id": "3297"
+  },
+  {
+   "cid": "36997",
+   "course": "DPV Diver 1",
+   "date": "September 22, 2026",
+   "iso": "2026-09-22",
+   "location": "Sydney, New South Wales, Australia",
+   "instructor": "Duncan Paterson",
+   "instructor_id": "18320"
   },
   {
    "cid": "35883",
@@ -3390,7 +3345,7 @@
    "course": "BLS-D & Oxygen First Aid",
    "date": "October 23, 2026",
    "iso": "2026-10-23",
-   "location": "Hemmoor, Germany",
+   "location": "TecWaters Shop oder Hemmoor, Germany",
    "instructor": "Keith Kreitner",
    "instructor_id": "12073"
   },
@@ -4349,6 +4304,15 @@
    "instructor_id": "69051"
   },
   {
+   "cid": "36995",
+   "course": "Advanced Open Water Diver",
+   "date": "November 30, 2026",
+   "iso": "2026-11-30",
+   "location": "St. Julian, Malta",
+   "instructor": "Kaddi Vogel",
+   "instructor_id": "71865"
+  },
+  {
    "cid": "36530",
    "course": "CCR Technical Diver 1: JJ-CCR",
    "date": "November 30, 2026",
@@ -4412,20 +4376,29 @@
    "instructor_id": "67329"
   },
   {
-   "cid": "36925",
-   "course": "GUE Technical Fundamentals",
+   "cid": "36996",
+   "course": "GUE Basic Fundamentals",
    "date": "November 30, 2026",
    "iso": "2026-11-30",
-   "location": "tdb, Malta",
+   "location": "St. Julian, Malta",
    "instructor": "Keith Kreitner",
    "instructor_id": "12073"
   },
   {
-   "cid": "36924",
-   "course": "Master Diver",
+   "cid": "36993",
+   "course": "GUE Performance Diver",
    "date": "November 30, 2026",
    "iso": "2026-11-30",
-   "location": "tbd, Malta",
+   "location": "St. Julian, Malta",
+   "instructor": "Kaddi Vogel",
+   "instructor_id": "71865"
+  },
+  {
+   "cid": "36925",
+   "course": "GUE Technical Fundamentals",
+   "date": "November 30, 2026",
+   "iso": "2026-11-30",
+   "location": "St. Julian, Malta",
    "instructor": "Keith Kreitner",
    "instructor_id": "12073"
   },
@@ -4439,6 +4412,15 @@
    "instructor_id": "2458"
   },
   {
+   "cid": "35681",
+   "course": "Technical Diver 1",
+   "date": "November 30, 2026",
+   "iso": "2026-11-30",
+   "location": "St. Julian, Malta",
+   "instructor": "Keith Kreitner",
+   "instructor_id": "12073"
+  },
+  {
    "cid": "35050",
    "course": "Technical Diver 1",
    "date": "November 30, 2026",
@@ -4448,15 +4430,6 @@
    "instructor_id": "9662"
   },
   {
-   "cid": "35681",
-   "course": "Technical Diver 1",
-   "date": "November 30, 2026",
-   "iso": "2026-11-30",
-   "location": "tbd, Malta",
-   "instructor": "Keith Kreitner",
-   "instructor_id": "12073"
-  },
-  {
    "cid": "36450",
    "course": "GUE Technical Fundamentals",
    "date": "December 1, 2026",
@@ -4464,6 +4437,15 @@
    "location": "High Springs , Florida, United States",
    "instructor": "Stretch Aaron Altenhein",
    "instructor_id": "10004"
+  },
+  {
+   "cid": "36994",
+   "course": "Navigation Primer",
+   "date": "December 2, 2026",
+   "iso": "2026-12-02",
+   "location": "St. Julian, Malta",
+   "instructor": "Kaddi Vogel",
+   "instructor_id": "71865"
   },
   {
    "cid": "36182",
@@ -5070,6 +5052,15 @@
   },
   {
    "cid": "36897",
+   "course": "Cave Diver 1",
+   "date": "January 25, 2027",
+   "iso": "2027-01-25",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Daniel Riordan",
+   "instructor_id": "146"
+  },
+  {
+   "cid": "36999",
    "course": "Cave Diver 1",
    "date": "January 25, 2027",
    "iso": "2027-01-25",
