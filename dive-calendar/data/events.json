@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10T03:56:56+10:00",
+ "generated_at": "2026-08-11T04:11:57+10:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-08-01",
@@ -36,7 +36,7 @@
    "short": "DC Manly",
    "url": "https://divesydney.com.au/dive-calendar/",
    "status": "ok",
-   "event_count": 444
+   "event_count": 442
   },
   {
    "id": "prodive",
@@ -44,7 +44,7 @@
    "short": "ProDive",
    "url": "https://www.prodive.com.au/Calendar.asp?Scubadive=Sydney",
    "status": "ok",
-   "event_count": 431
+   "event_count": 428
   },
   {
    "id": "divecharters",
@@ -167,52 +167,6 @@
    "all_day": true,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-08-10#326@book@",
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
-  },
-  {
-   "id": "prodive-80ec3f197224",
-   "source": "prodive",
-   "title": "Guided Shore Dives (Double Dive)",
-   "start": "2026-08-10T08:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Shore+Dives/Guided+Shore+Dives+(Double+Dive)+-+Sydney+-+Alexandria/1046",
-   "location": "ProDive Alexandria",
-   "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Gordons Bay** Rating: Open Water Diver(20m) Depth: 14m"
-  },
-  {
-   "id": "prodive-e2f0324d9929",
-   "source": "prodive",
-   "title": "Scuba Hire Click & Collect",
-   "start": "2026-08-10T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
-   "location": "ProDive Manly",
-   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
-  },
-  {
-   "id": "prodive-89039eaef10e",
-   "source": "prodive",
-   "title": "Refresher Scuba Dive",
-   "start": "2026-08-10T12:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
-   "location": "ProDive Alexandria",
-   "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again. Dive Site: Gordons Bay** Rating: Open Water Diver(20m) Depth: 14m"
-  },
-  {
-   "id": "divesydney-7e098a7404d0",
-   "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
-   "start": "2026-08-10T14:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-08-10&preferredTime=2%3A00+PM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-621f977add42",
-   "source": "divesydney",
-   "title": "Snorkel Safari",
-   "start": "2026-08-10T14:30+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-08-10&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
    "id": "divecharters-082233f703bb",
@@ -609,9 +563,9 @@
    "description": "$795.00 · Tec 45 - 15,16,17 aug"
   },
   {
-   "id": "divesydney-64d33a9607cc",
+   "id": "divesydney-ba745178928a",
    "source": "divesydney",
-   "title": "Scuba Refresher",
+   "title": "Scuba Refresher (sold out)",
    "start": "2026-08-15T09:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-08-15&preferredTime=9%3A00+AM&catalogId=494484"
