@@ -1,42 +1,6 @@
 {
- "updated": "2026-08-10T18:29:23Z",
+ "updated": "2026-08-11T18:29:58Z",
  "classes": [
-  {
-   "cid": "36522",
-   "course": "CCR Fundamentals: Symbios",
-   "date": "August 11, 2026",
-   "iso": "2026-08-11",
-   "location": "Los Angeles, California, United States",
-   "instructor": "Steven Millington",
-   "instructor_id": "4255"
-  },
-  {
-   "cid": "36519",
-   "course": "Doubles Primer",
-   "date": "August 11, 2026",
-   "iso": "2026-08-11",
-   "location": "Siegburg, Germany",
-   "instructor": "Sebastian Von Koss",
-   "instructor_id": "20802"
-  },
-  {
-   "cid": "36967",
-   "course": "Drysuit Primer",
-   "date": "August 11, 2026",
-   "iso": "2026-08-11",
-   "location": "Avalon, California, United States",
-   "instructor": "Kian Farin",
-   "instructor_id": "27848"
-  },
-  {
-   "cid": "36986",
-   "course": "Drysuit Primer",
-   "date": "August 11, 2026",
-   "iso": "2026-08-11",
-   "location": "Hemmoor, Niedersachsen, Germany",
-   "instructor": "Keith Kreitner",
-   "instructor_id": "12073"
-  },
   {
    "cid": "35970",
    "course": "Doubles Primer",
@@ -200,6 +164,15 @@
    "instructor_id": "7698"
   },
   {
+   "cid": "37003",
+   "course": "GUE Performance Diver",
+   "date": "August 15, 2026",
+   "iso": "2026-08-15",
+   "location": "Hangzhou, Zhejiang, China",
+   "instructor": "Jinhui Xiong",
+   "instructor_id": "72355"
+  },
+  {
    "cid": "36664",
    "course": "GUE Performance Diver",
    "date": "August 15, 2026",
@@ -297,15 +270,6 @@
    "location": "Zürich, Zürich, Switzerland",
    "instructor": "Maximilian Fahr",
    "instructor_id": "66486"
-  },
-  {
-   "cid": "36545",
-   "course": "GUE Technical Fundamentals",
-   "date": "August 16, 2026",
-   "iso": "2026-08-16",
-   "location": "Dahab, Egypt",
-   "instructor": "Mahmoud Esmat",
-   "instructor_id": "65259"
   },
   {
    "cid": "36230",
@@ -459,15 +423,6 @@
    "location": "Malapascua, Cebu, Philippines",
    "instructor": "Graham Blackmore",
    "instructor_id": "895"
-  },
-  {
-   "cid": "36415",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "August 17, 2026",
-   "iso": "2026-08-17",
-   "location": "Los Angeles, California, United States",
-   "instructor": "Kian Farin",
-   "instructor_id": "27848"
   },
   {
    "cid": "36368",
@@ -1181,11 +1136,11 @@
    "instructor_id": "25255"
   },
   {
-   "cid": "35327",
-   "course": "Doubles Primer",
+   "cid": "37002",
+   "course": "Drysuit Primer",
    "date": "September 3, 2026",
    "iso": "2026-09-03",
-   "location": "Athens, Greece",
+   "location": "Athens , Greece",
    "instructor": "Nikos Vardakas",
    "instructor_id": "1991"
   },
@@ -1215,15 +1170,6 @@
    "location": "Dahab , Janub Sina', Egypt",
    "instructor": "Ahmed Hagi",
    "instructor_id": "69051"
-  },
-  {
-   "cid": "35326",
-   "course": "GUE Basic Fundamentals",
-   "date": "September 4, 2026",
-   "iso": "2026-09-04",
-   "location": "Athens, Greece",
-   "instructor": "Nikos Vardakas",
-   "instructor_id": "1991"
   },
   {
    "cid": "35577",
@@ -1287,6 +1233,15 @@
    "location": "Gramat, France",
    "instructor": "Irene Homberger",
    "instructor_id": "13377"
+  },
+  {
+   "cid": "35327",
+   "course": "Doubles Primer",
+   "date": "September 5, 2026",
+   "iso": "2026-09-05",
+   "location": "Athens, Greece",
+   "instructor": "Nikos Vardakas",
+   "instructor_id": "1991"
   },
   {
    "cid": "36198",
@@ -1422,6 +1377,15 @@
    "location": "Gramat, France",
    "instructor": "Per Normark",
    "instructor_id": "19962"
+  },
+  {
+   "cid": "35326",
+   "course": "GUE Basic Fundamentals",
+   "date": "September 6, 2026",
+   "iso": "2026-09-06",
+   "location": "Athens, Greece",
+   "instructor": "Nikos Vardakas",
+   "instructor_id": "1991"
   },
   {
    "cid": "36624",
@@ -2217,6 +2181,15 @@
   },
   {
    "cid": "36997",
+   "course": "DPV Diver 1",
+   "date": "September 22, 2026",
+   "iso": "2026-09-22",
+   "location": "Sydney, New South Wales, Australia",
+   "instructor": "Duncan Paterson",
+   "instructor_id": "18320"
+  },
+  {
+   "cid": "37000",
    "course": "DPV Diver 1",
    "date": "September 22, 2026",
    "iso": "2026-09-22",
@@ -3863,6 +3836,15 @@
    "instructor_id": "11806"
   },
   {
+   "cid": "37007",
+   "course": "GUE Basic Fundamentals",
+   "date": "November 6, 2026",
+   "iso": "2026-11-06",
+   "location": "Tulamben , Bali, Indonesia",
+   "instructor": "Jimmy Choo",
+   "instructor_id": "15307"
+  },
+  {
    "cid": "36811",
    "course": "GUE Performance Diver",
    "date": "November 6, 2026",
@@ -4727,6 +4709,15 @@
    "instructor_id": "20747"
   },
   {
+   "cid": "37004",
+   "course": "GUE Performance Diver",
+   "date": "December 18, 2026",
+   "iso": "2026-12-18",
+   "location": "changshu, Jiangsu, China",
+   "instructor": "Feiming Cheng",
+   "instructor_id": "68591"
+  },
+  {
    "cid": "34528",
    "course": "CCR Fundamentals: JJ-CCR",
    "date": "December 20, 2026",
@@ -4923,6 +4914,15 @@
    "location": "Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Christophe Le Maillot",
    "instructor_id": "304"
+  },
+  {
+   "cid": "37005",
+   "course": "Cave Diver 2",
+   "date": "January 10, 2027",
+   "iso": "2027-01-10",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Fred Devos",
+   "instructor_id": "1026"
   },
   {
    "cid": "36652",
@@ -5492,6 +5492,15 @@
    "instructor_id": "9662"
   },
   {
+   "cid": "37001",
+   "course": "DPV Cave",
+   "date": "March 26, 2027",
+   "iso": "2027-03-26",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Christophe Le Maillot",
+   "instructor_id": "304"
+  },
+  {
    "cid": "36920",
    "course": "Cave Diver 1",
    "date": "March 28, 2027",
@@ -5499,15 +5508,6 @@
    "location": "Gramat, France",
    "instructor": "Irene Homberger",
    "instructor_id": "13377"
-  },
-  {
-   "cid": "36972",
-   "course": "DPV Cave",
-   "date": "March 31, 2027",
-   "iso": "2027-03-31",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Christophe Le Maillot",
-   "instructor_id": "304"
   },
   {
    "cid": "36847",

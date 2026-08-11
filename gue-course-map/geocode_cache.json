@@ -1859,5 +1859,23 @@
   "matched_query": "germany",
   "approx": true,
   "verified": true
+ },
+ "athens , greece": {
+  "lat": 37.9755648,
+  "lng": 23.7348324,
+  "display": "Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 105 57, Ελλάς",
+  "country": "gr",
+  "matched_query": "athens , greece",
+  "approx": false,
+  "verified": true
+ },
+ "tulamben , bali, indonesia": {
+  "lat": -8.2948774,
+  "lng": 115.5941905,
+  "display": "Tulamben, Kubu, Karangasem, Bali, 80853, Indonesia",
+  "country": "id",
+  "matched_query": "tulamben , bali, indonesia",
+  "approx": false,
+  "verified": true
  }
 }
