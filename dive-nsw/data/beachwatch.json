@@ -1050,7 +1050,7 @@
           "id": "b26de7f7-65b8-4f72-b954-991ddbacb3e9",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Davidson Reserve"
         },
         "type": "Feature"
@@ -1390,7 +1390,7 @@
           "id": "8bb75641-1783-43b9-861d-df7aa0594cd2",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Frenchmans Bay"
         },
         "type": "Feature"
@@ -2903,7 +2903,7 @@
           "id": "5f3a9a0e-ffdc-45e4-a776-983887af540d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Ramsgate Baths"
         },
         "type": "Feature"
@@ -3260,7 +3260,7 @@
           "id": "b0513e57-bc00-46c6-b560-20d9a2207c35",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "South Cronulla Beach"
         },
         "type": "Feature"
@@ -3498,7 +3498,7 @@
           "id": "ee44a257-5c65-4b12-b3de-403a60d951c3",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Tambourine Bay"
         },
         "type": "Feature"
@@ -3532,7 +3532,7 @@
           "id": "c8fc3c50-4d0f-48c8-939a-ee100892dee8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Terrigal Beach"
         },
         "type": "Feature"
@@ -3753,7 +3753,7 @@
           "id": "613465c8-6d0b-46a4-a8cb-adcbc4c18982",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Umina Beach"
         },
         "type": "Feature"
@@ -4042,7 +4042,7 @@
           "id": "8309c06d-e9e7-4685-8afe-62d42b83a46f",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Woolwich Baths"
         },
         "type": "Feature"
