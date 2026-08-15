@@ -319,7 +319,7 @@
           "id": "8990825d-b48c-443f-9047-862a0b986621",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Boat Harbour"
         },
         "type": "Feature"
@@ -625,7 +625,7 @@
           "id": "3797a81b-936e-4e27-a813-e6c611ee2d99",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Carss Point Baths"
         },
         "type": "Feature"
@@ -1577,7 +1577,7 @@
           "id": "2f8fd16c-2631-4f56-ae9a-3ada9dbfa8fe",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Gymea Bay Baths"
         },
         "type": "Feature"
@@ -1628,7 +1628,7 @@
           "id": "4f626874-5276-48e7-8bd2-1d8976908cc5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Horderns Beach"
         },
         "type": "Feature"
@@ -1900,7 +1900,7 @@
           "id": "ed810bcd-b416-4db6-8532-9f9f406bcc11",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Lilli Pilli Baths"
         },
         "type": "Feature"
@@ -2376,7 +2376,7 @@
           "id": "f05ac321-7e70-4c4a-99cd-cc0f8a0acb5d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Narrabeen Lagoon (Birdwood Park)"
         },
         "type": "Feature"
@@ -2478,7 +2478,7 @@
           "id": "f40362ee-ce75-4473-a7e5-cb8d062611fc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "North Cronulla Beach"
         },
         "type": "Feature"
@@ -2648,7 +2648,7 @@
           "id": "f4785861-61c1-4acb-b841-2609962ed0c7",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Oatley Bay Baths"
         },
         "type": "Feature"
@@ -3260,7 +3260,7 @@
           "id": "b0513e57-bc00-46c6-b560-20d9a2207c35",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "South Cronulla Beach"
         },
         "type": "Feature"
