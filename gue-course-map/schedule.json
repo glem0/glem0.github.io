@@ -1,168 +1,6 @@
 {
- "updated": "2026-08-14T18:29:25Z",
+ "updated": "2026-08-15T17:55:16Z",
  "classes": [
-  {
-   "cid": "35695",
-   "course": "Cave Diver 2",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Playa Del Carmen, Quintana Roo, Mexico",
-   "instructor": "Emőke Wagner",
-   "instructor_id": "20747"
-  },
-  {
-   "cid": "36673",
-   "course": "Doubles Primer",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Hangzhou, Zhejiang, China",
-   "instructor": "Yanbin Wu",
-   "instructor_id": "23172"
-  },
-  {
-   "cid": "36665",
-   "course": "Doubles Primer",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Neuss, Nordrhein-Westfalen, Germany",
-   "instructor": "Frederik Bring",
-   "instructor_id": "68473"
-  },
-  {
-   "cid": "36949",
-   "course": "Doubles Primer",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Portland, Connecticut, United States",
-   "instructor": "Edward Hayes",
-   "instructor_id": "3297"
-  },
-  {
-   "cid": "36666",
-   "course": "Drysuit Primer",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Neuss, Nordrhein-Westfalen, Germany",
-   "instructor": "Frederik Bring",
-   "instructor_id": "68473"
-  },
-  {
-   "cid": "36950",
-   "course": "Drysuit Primer",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Portland, Connecticut, United States",
-   "instructor": "Edward Hayes",
-   "instructor_id": "3297"
-  },
-  {
-   "cid": "36849",
-   "course": "Drysuit Primer",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Toronto, Canada",
-   "instructor": "Alain Eid",
-   "instructor_id": "17695"
-  },
-  {
-   "cid": "36250",
-   "course": "Drysuit Primer",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Zürich, Zürich, Switzerland",
-   "instructor": "Maximilian Fahr",
-   "instructor_id": "66486"
-  },
-  {
-   "cid": "37021",
-   "course": "GUE Performance Diver",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Dubai, Dubai, United Arab Emirates",
-   "instructor": "Fernando Sagaseta De Ilurdoz Vega",
-   "instructor_id": "66299"
-  },
-  {
-   "cid": "37003",
-   "course": "GUE Performance Diver",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Hangzhou, Zhejiang, China",
-   "instructor": "Jinhui Xiong",
-   "instructor_id": "72355"
-  },
-  {
-   "cid": "36664",
-   "course": "GUE Performance Diver",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Neuss, Nordrhein-Westfalen, Germany",
-   "instructor": "Frederik Bring",
-   "instructor_id": "68473"
-  },
-  {
-   "cid": "36374",
-   "course": "GUE Performance Diver",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Thetford Mines, Quebec, Canada",
-   "instructor": "Martin Lessard",
-   "instructor_id": "23048"
-  },
-  {
-   "cid": "35657",
-   "course": "GUE Performance Diver",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Vobster, Somerset, United Kingdom",
-   "instructor": "Marcus Rose",
-   "instructor_id": "13875"
-  },
-  {
-   "cid": "36910",
-   "course": "GUE Performance Diver",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "changshu, Jiangsu, China",
-   "instructor": "Feiming Cheng",
-   "instructor_id": "68591"
-  },
-  {
-   "cid": "34671",
-   "course": "GUE Technical Fundamentals",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Toronto, Ontario, Canada",
-   "instructor": "Alain Eid",
-   "instructor_id": "17695"
-  },
-  {
-   "cid": "36172",
-   "course": "Rescue Primer",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Stromberg,",
-   "instructor": "Peter Gaertner",
-   "instructor_id": "1374"
-  },
-  {
-   "cid": "36599",
-   "course": "Rescue Primer",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": "Sydney, New South Wales, Australia",
-   "instructor": "Sebastien Landat",
-   "instructor_id": "22757"
-  },
-  {
-   "cid": "36991",
-   "course": "Upgrade to GUE Basic Fundamentals",
-   "date": "August 15, 2026",
-   "iso": "2026-08-15",
-   "location": ":Portland, Connecticut, United States",
-   "instructor": "Edward Hayes",
-   "instructor_id": "3297"
-  },
   {
    "cid": "36276",
    "course": "Doubles Primer",
@@ -2468,6 +2306,15 @@
    "instructor_id": "25255"
   },
   {
+   "cid": "37025",
+   "course": "Doubles Primer",
+   "date": "October 2, 2026",
+   "iso": "2026-10-02",
+   "location": "pingtung, PingTung County, Taiwan",
+   "instructor": "Liu Yen Chun",
+   "instructor_id": "27215"
+  },
+  {
    "cid": "36120",
    "course": "GUE Basic Fundamentals",
    "date": "October 2, 2026",
@@ -3220,6 +3067,15 @@
    "date": "October 23, 2026",
    "iso": "2026-10-23",
    "location": "TecWaters Shop oder Hemmoor, Germany",
+   "instructor": "Keith Kreitner",
+   "instructor_id": "12073"
+  },
+  {
+   "cid": "37024",
+   "course": "BLS-D & Oxygen First Aid Refresher",
+   "date": "October 23, 2026",
+   "iso": "2026-10-23",
+   "location": "Hemmoor, Germany",
    "instructor": "Keith Kreitner",
    "instructor_id": "12073"
   },
