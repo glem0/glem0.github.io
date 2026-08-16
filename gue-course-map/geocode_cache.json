@@ -1932,5 +1932,42 @@
   "matched_query": "wellington, wellington, new zealand",
   "approx": false,
   "verified": true
+ },
+ "akumal, quintana roo, mexico": {
+  "lat": 20.398797,
+  "lng": -87.3173404,
+  "display": "Akumal, Tulum, Quintana Roo, 77737, México",
+  "country": "mx",
+  "matched_query": "akumal, quintana roo, mexico",
+  "approx": false,
+  "verified": true
+ },
+ "alumal, quintana roo, mexico": {
+  "lat": 20.398797,
+  "lng": -87.3173404,
+  "display": "Akumal, Tulum, Quintana Roo, 77737, México",
+  "country": "mx",
+  "matched_query": "akumal, quintana roo, mexico",
+  "approx": false,
+  "verified": true,
+  "alias_of": "akumal, quintana roo, mexico"
+ },
+ "budapest+croatia, budapest, hungary": {
+  "lat": 47.4978789,
+  "lng": 19.0402383,
+  "display": "Budapest, Közép-Magyarország, Magyarország",
+  "country": "hu",
+  "matched_query": "budapest, hungary",
+  "approx": true,
+  "verified": true
+ },
+ "hong kong, hong kong, hong kong": {
+  "lat": 22.2818333,
+  "lng": 114.1582831,
+  "display": "香港 Hong Kong, 中国",
+  "country": "cn",
+  "matched_query": "hong kong, hong kong, hong kong",
+  "approx": false,
+  "verified": false
  }
 }

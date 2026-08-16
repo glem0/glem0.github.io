@@ -1,60 +1,6 @@
 {
- "updated": "2026-08-15T17:55:16Z",
+ "updated": "2026-08-16T17:52:32Z",
  "classes": [
-  {
-   "cid": "36276",
-   "course": "Doubles Primer",
-   "date": "August 16, 2026",
-   "iso": "2026-08-16",
-   "location": "Zürich, Zürich, Switzerland",
-   "instructor": "Maximilian Fahr",
-   "instructor_id": "66486"
-  },
-  {
-   "cid": "36230",
-   "course": "GUE Technical Fundamentals",
-   "date": "August 16, 2026",
-   "iso": "2026-08-16",
-   "location": "Los Angeles, California, United States",
-   "instructor": "Kian Farin",
-   "instructor_id": "27848"
-  },
-  {
-   "cid": "35999",
-   "course": "GUE Technical Fundamentals",
-   "date": "August 16, 2026",
-   "iso": "2026-08-16",
-   "location": "Oslo, Norway",
-   "instructor": "Annika Persson",
-   "instructor_id": "9662"
-  },
-  {
-   "cid": "36922",
-   "course": "Gas Blender",
-   "date": "August 16, 2026",
-   "iso": "2026-08-16",
-   "location": "Hamburg, Germany",
-   "instructor": "Keith Kreitner",
-   "instructor_id": "12073"
-  },
-  {
-   "cid": "35117",
-   "course": "Technical Diver 1",
-   "date": "August 16, 2026",
-   "iso": "2026-08-16",
-   "location": "Krnica, Istria county, Croatia",
-   "instructor": "Daniel Schulte",
-   "instructor_id": "6754"
-  },
-  {
-   "cid": "34512",
-   "course": "Technical Diver 1",
-   "date": "August 16, 2026",
-   "iso": "2026-08-16",
-   "location": "Victoria, British Columbia, Canada",
-   "instructor": "Jason Cook",
-   "instructor_id": "24473"
-  },
   {
    "cid": "36795",
    "course": "CCR Fundamentals: Symbios",
@@ -146,6 +92,15 @@
    "instructor_id": "73393"
   },
   {
+   "cid": "37036",
+   "course": "Gas Blender",
+   "date": "August 17, 2026",
+   "iso": "2026-08-17",
+   "location": "Hong Kong, Hong Kong, Hong Kong",
+   "instructor": "Andrew Couch",
+   "instructor_id": "22082"
+  },
+  {
    "cid": "36452",
    "course": "Open Water Diver",
    "date": "August 17, 2026",
@@ -171,6 +126,15 @@
    "location": "Playa del Carmen, Quintana Roo, Mexico",
    "instructor": "Emőke Wagner",
    "instructor_id": "20747"
+  },
+  {
+   "cid": "37032",
+   "course": "GUE Technical Fundamentals",
+   "date": "August 18, 2026",
+   "iso": "2026-08-18",
+   "location": "Alumal, Quintana Roo, Mexico",
+   "instructor": "Alessandro Vezzani",
+   "instructor_id": "22617"
   },
   {
    "cid": "36598",
@@ -434,15 +398,6 @@
    "instructor_id": "2366"
   },
   {
-   "cid": "36748",
-   "course": "CCR Technical Diver 2",
-   "date": "August 23, 2026",
-   "iso": "2026-08-23",
-   "location": "Quartu S. Elena, Cagliari, Italy",
-   "instructor": "Stefano Di Cosimo",
-   "instructor_id": "5680"
-  },
-  {
    "cid": "36179",
    "course": "GUE Performance Diver",
    "date": "August 23, 2026",
@@ -540,6 +495,15 @@
    "location": "Portland, Connecticut, United States",
    "instructor": "Edward Hayes",
    "instructor_id": "3297"
+  },
+  {
+   "cid": "37033",
+   "course": "Open Water Diver",
+   "date": "August 24, 2026",
+   "iso": "2026-08-24",
+   "location": "Alumal, Quintana Roo, Mexico",
+   "instructor": "Alessandro Vezzani",
+   "instructor_id": "22617"
   },
   {
    "cid": "36583",
@@ -1208,6 +1172,15 @@
    "instructor_id": "26064"
   },
   {
+   "cid": "37034",
+   "course": "Doubles Primer",
+   "date": "September 8, 2026",
+   "iso": "2026-09-08",
+   "location": "Akumal, Quintana Roo, Mexico",
+   "instructor": "Alessandro Vezzani",
+   "instructor_id": "22617"
+  },
+  {
    "cid": "36730",
    "course": "GUE Technical Fundamentals",
    "date": "September 9, 2026",
@@ -1478,6 +1451,15 @@
    "instructor_id": "7698"
   },
   {
+   "cid": "37035",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "September 13, 2026",
+   "iso": "2026-09-13",
+   "location": "Dahab , Janub Sina', Egypt",
+   "instructor": "Ahmed Hagi",
+   "instructor_id": "69051"
+  },
+  {
    "cid": "36542",
    "course": "CCR Fundamentals: JJ-CCR",
    "date": "September 14, 2026",
@@ -1577,6 +1559,15 @@
    "instructor_id": "19614"
   },
   {
+   "cid": "37031",
+   "course": "GUE Technical Fundamentals",
+   "date": "September 14, 2026",
+   "iso": "2026-09-14",
+   "location": "Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Emőke Wagner",
+   "instructor_id": "20747"
+  },
+  {
    "cid": "36951",
    "course": "GUE Technical Fundamentals",
    "date": "September 14, 2026",
@@ -1649,8 +1640,8 @@
    "instructor_id": "3674"
   },
   {
-   "cid": "36888",
-   "course": "Doubles Primer",
+   "cid": "37028",
+   "course": "GUE Performance Diver",
    "date": "September 17, 2026",
    "iso": "2026-09-17",
    "location": "Puidoux, Switzerland",
@@ -1705,15 +1696,6 @@
   {
    "cid": "34908",
    "course": "GUE Basic Fundamentals",
-   "date": "September 18, 2026",
-   "iso": "2026-09-18",
-   "location": "Puidoux, Switzerland",
-   "instructor": "Sabine Sidi-Ali",
-   "instructor_id": "27088"
-  },
-  {
-   "cid": "34907",
-   "course": "GUE Technical Fundamentals",
    "date": "September 18, 2026",
    "iso": "2026-09-18",
    "location": "Puidoux, Switzerland",
@@ -2144,6 +2126,15 @@
    "instructor_id": "20059"
   },
   {
+   "cid": "37029",
+   "course": "Cave Diver 1",
+   "date": "September 28, 2026",
+   "iso": "2026-09-28",
+   "location": "Puerto Aventuras , Quintana Roo, Mexico",
+   "instructor": "Daniel Riordan",
+   "instructor_id": "146"
+  },
+  {
    "cid": "36554",
    "course": "Cave Diver 2",
    "date": "September 28, 2026",
@@ -2450,6 +2441,15 @@
    "instructor_id": "1374"
   },
   {
+   "cid": "37038",
+   "course": "Cave Diver 2",
+   "date": "October 4, 2026",
+   "iso": "2026-10-04",
+   "location": "Cala Gonone, Nuoro, Italy",
+   "instructor": "Zsolt Szilagyi",
+   "instructor_id": "1444"
+  },
+  {
    "cid": "35362",
    "course": "Technical Diver 3",
    "date": "October 4, 2026",
@@ -2585,15 +2585,6 @@
    "instructor_id": "12073"
   },
   {
-   "cid": "34275",
-   "course": "Cave Diver 1",
-   "date": "October 9, 2026",
-   "iso": "2026-10-09",
-   "location": "Gramat, Lot, France",
-   "instructor": "Annika Persson",
-   "instructor_id": "9662"
-  },
-  {
    "cid": "36572",
    "course": "GUE Basic Fundamentals",
    "date": "October 9, 2026",
@@ -2610,6 +2601,15 @@
    "location": "Kressbronn am Bodensee, Baden-Württemberg, Germany",
    "instructor": "Oliver Reimer",
    "instructor_id": "15479"
+  },
+  {
+   "cid": "34275",
+   "course": "Cave Diver 1",
+   "date": "October 10, 2026",
+   "iso": "2026-10-10",
+   "location": "Gramat, Lot, France",
+   "instructor": "Annika Persson",
+   "instructor_id": "9662"
   },
   {
    "cid": "34673",
@@ -2835,15 +2835,6 @@
    "location": "Hemmoor, Niedersachsen, Germany",
    "instructor": "Frederik Bring",
    "instructor_id": "68473"
-  },
-  {
-   "cid": "36148",
-   "course": "GUE Basic Fundamentals",
-   "date": "October 16, 2026",
-   "iso": "2026-10-16",
-   "location": "Switzerland, Switzerland",
-   "instructor": "Irene Homberger",
-   "instructor_id": "13377"
   },
   {
    "cid": "36149",
@@ -3087,6 +3078,15 @@
    "location": "Radstock, Somerset, United Kingdom",
    "instructor": "Neil Powell",
    "instructor_id": "15389"
+  },
+  {
+   "cid": "37027",
+   "course": "DPV Diver 1",
+   "date": "October 23, 2026",
+   "iso": "2026-10-23",
+   "location": "Zurich, Switzerland",
+   "instructor": "Irene Homberger",
+   "instructor_id": "13377"
   },
   {
    "cid": "35944",
@@ -3710,6 +3710,15 @@
    "instructor_id": "13618"
   },
   {
+   "cid": "37037",
+   "course": "Drysuit Primer",
+   "date": "November 14, 2026",
+   "iso": "2026-11-14",
+   "location": "Puidoux, Switzerland",
+   "instructor": "Sabine Sidi-Ali",
+   "instructor_id": "27088"
+  },
+  {
    "cid": "36594",
    "course": "GUE Performance Diver",
    "date": "November 14, 2026",
@@ -3726,6 +3735,15 @@
    "location": "Sydney, New South Wales, Australia",
    "instructor": "Sebastien Landat",
    "instructor_id": "22757"
+  },
+  {
+   "cid": "37039",
+   "course": "Cave Diver 1",
+   "date": "November 15, 2026",
+   "iso": "2026-11-15",
+   "location": "Budapest+Croatia, Budapest, Hungary",
+   "instructor": "Zsolt Szilagyi",
+   "instructor_id": "1444"
   },
   {
    "cid": "28346",
@@ -4187,6 +4205,15 @@
    "instructor_id": "11806"
   },
   {
+   "cid": "37026",
+   "course": "GUE Performance Diver",
+   "date": "December 4, 2026",
+   "iso": "2026-12-04",
+   "location": "Zurich, Switzerland",
+   "instructor": "Irene Homberger",
+   "instructor_id": "13377"
+  },
+  {
    "cid": "36267",
    "course": "Upgrade to CCR Tech 1: JJ-CCR",
    "date": "December 4, 2026",
@@ -4554,6 +4581,15 @@
    "location": "Mactan , Cebu, Philippines",
    "instructor": "Kyungsoo Kim",
    "instructor_id": "14654"
+  },
+  {
+   "cid": "36748",
+   "course": "CCR Technical Diver 2",
+   "date": "January 3, 2027",
+   "iso": "2027-01-03",
+   "location": "Quartu S. Elena, Cagliari, Italy",
+   "instructor": "Stefano Di Cosimo",
+   "instructor_id": "5680"
   },
   {
    "cid": "36602",
