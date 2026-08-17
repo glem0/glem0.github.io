@@ -1,123 +1,6 @@
 {
- "updated": "2026-08-16T17:52:32Z",
+ "updated": "2026-08-17T17:59:59Z",
  "classes": [
-  {
-   "cid": "36795",
-   "course": "CCR Fundamentals: Symbios",
-   "date": "August 17, 2026",
-   "iso": "2026-08-17",
-   "location": "Schwetzingen, Baden-Württemberg, Germany",
-   "instructor": "Derk Remmers",
-   "instructor_id": "2366"
-  },
-  {
-   "cid": "36887",
-   "course": "DPV Diver 1",
-   "date": "August 17, 2026",
-   "iso": "2026-08-17",
-   "location": "High Springs, Florida, United States",
-   "instructor": "Jon Kieren",
-   "instructor_id": "13618"
-  },
-  {
-   "cid": "36177",
-   "course": "DPV Diver 1",
-   "date": "August 17, 2026",
-   "iso": "2026-08-17",
-   "location": "Scuba Academie Vinkeveen, Netherlands, Utrecht, Netherlands",
-   "instructor": "Laurent Dahan",
-   "instructor_id": "25023"
-  },
-  {
-   "cid": "36222",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 17, 2026",
-   "iso": "2026-08-17",
-   "location": "High Springs , Florida, United States",
-   "instructor": "Stretch Aaron Altenhein",
-   "instructor_id": "10004"
-  },
-  {
-   "cid": "36723",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 17, 2026",
-   "iso": "2026-08-17",
-   "location": "playa del carmen, Quintana Roo, Mexico",
-   "instructor": "Marcelin Nebenhaus",
-   "instructor_id": "73393"
-  },
-  {
-   "cid": "36626",
-   "course": "GUE Performance Diver",
-   "date": "August 17, 2026",
-   "iso": "2026-08-17",
-   "location": "Vinkeveen, Utrecht, Netherlands",
-   "instructor": "Ferry Schram",
-   "instructor_id": "14087"
-  },
-  {
-   "cid": "36990",
-   "course": "GUE Technical Fundamentals",
-   "date": "August 17, 2026",
-   "iso": "2026-08-17",
-   "location": "Hangzhou, Zhejiang, China",
-   "instructor": "Hui Jin",
-   "instructor_id": "10441"
-  },
-  {
-   "cid": "36253",
-   "course": "GUE Technical Fundamentals",
-   "date": "August 17, 2026",
-   "iso": "2026-08-17",
-   "location": "Portland, Connecticut, United States",
-   "instructor": "Edward Hayes",
-   "instructor_id": "3297"
-  },
-  {
-   "cid": "36683",
-   "course": "GUE Technical Fundamentals",
-   "date": "August 17, 2026",
-   "iso": "2026-08-17",
-   "location": "Yekaterinburg, Sverdlovskaya (Yekaterinburg), Russia",
-   "instructor": "Sergey Porkhachev",
-   "instructor_id": "3666"
-  },
-  {
-   "cid": "36722",
-   "course": "GUE Technical Fundamentals",
-   "date": "August 17, 2026",
-   "iso": "2026-08-17",
-   "location": "playa del carmen, Quintana Roo, Mexico",
-   "instructor": "Marcelin Nebenhaus",
-   "instructor_id": "73393"
-  },
-  {
-   "cid": "37036",
-   "course": "Gas Blender",
-   "date": "August 17, 2026",
-   "iso": "2026-08-17",
-   "location": "Hong Kong, Hong Kong, Hong Kong",
-   "instructor": "Andrew Couch",
-   "instructor_id": "22082"
-  },
-  {
-   "cid": "36452",
-   "course": "Open Water Diver",
-   "date": "August 17, 2026",
-   "iso": "2026-08-17",
-   "location": "Foshan, Guangdong, China",
-   "instructor": "Huang Weiqi",
-   "instructor_id": "23052"
-  },
-  {
-   "cid": "35365",
-   "course": "Technical Diver 3",
-   "date": "August 17, 2026",
-   "iso": "2026-08-17",
-   "location": "Malapascua, Cebu, Philippines",
-   "instructor": "Graham Blackmore",
-   "instructor_id": "895"
-  },
   {
    "cid": "36368",
    "course": "Doubles Primer",
@@ -135,6 +18,15 @@
    "location": "Alumal, Quintana Roo, Mexico",
    "instructor": "Alessandro Vezzani",
    "instructor_id": "22617"
+  },
+  {
+   "cid": "37040",
+   "course": "Drysuit Primer",
+   "date": "August 19, 2026",
+   "iso": "2026-08-19",
+   "location": "PG, Batangas, Philippines",
+   "instructor": "Xiaodong Zhong",
+   "instructor_id": "23171"
   },
   {
    "cid": "36598",
@@ -693,15 +585,6 @@
    "location": "Leipzig, Germany",
    "instructor": "Keith Kreitner",
    "instructor_id": "12073"
-  },
-  {
-   "cid": "36062",
-   "course": "Doubles Primer",
-   "date": "August 30, 2026",
-   "iso": "2026-08-30",
-   "location": "Osezaki, Shizuoka, Japan",
-   "instructor": "Yousuke Ogiwara",
-   "instructor_id": "20059"
   },
   {
    "cid": "36771",
@@ -1701,15 +1584,6 @@
    "location": "Puidoux, Switzerland",
    "instructor": "Sabine Sidi-Ali",
    "instructor_id": "27088"
-  },
-  {
-   "cid": "35656",
-   "course": "CCR Fundamentals: JJ-CCR",
-   "date": "September 19, 2026",
-   "iso": "2026-09-19",
-   "location": "Osezaki, Shizuoka, Japan",
-   "instructor": "Yousuke Ogiwara",
-   "instructor_id": "20059"
   },
   {
    "cid": "36156",
@@ -3332,6 +3206,15 @@
    "instructor_id": "19962"
   },
   {
+   "cid": "36062",
+   "course": "Doubles Primer",
+   "date": "October 31, 2026",
+   "iso": "2026-10-31",
+   "location": "Osezaki, Shizuoka, Japan",
+   "instructor": "Yousuke Ogiwara",
+   "instructor_id": "20059"
+  },
+  {
    "cid": "36304",
    "course": "GUE Performance Diver",
    "date": "October 31, 2026",
@@ -4662,6 +4545,15 @@
    "location": "LAPULAPU, Cebu, Philippines",
    "instructor": "Lee Jong Moon",
    "instructor_id": "20356"
+  },
+  {
+   "cid": "35656",
+   "course": "CCR Fundamentals: JJ-CCR",
+   "date": "January 8, 2027",
+   "iso": "2027-01-08",
+   "location": "Osezaki, Shizuoka, Japan",
+   "instructor": "Yousuke Ogiwara",
+   "instructor_id": "20059"
   },
   {
    "cid": "36633",
