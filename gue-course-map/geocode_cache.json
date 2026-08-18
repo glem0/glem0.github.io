@@ -1969,5 +1969,39 @@
   "matched_query": "hong kong, hong kong, hong kong",
   "approx": false,
   "verified": false
+ },
+ "monterey , california, united states": {
+  "lat": 36.2231079,
+  "lng": -121.387742,
+  "display": "Monterey County, California, United States",
+  "matched_query": "Monterrey, California, United States",
+  "alias_of": "monterrey, california, united states"
+ },
+ "steinkjer, nord-trondelag, norway": {
+  "lat": 64.050737,
+  "lng": 11.481909,
+  "display": "Steinkjer, Trøndelag, Norge",
+  "country": "no",
+  "matched_query": "steinkjer, norway",
+  "approx": false,
+  "verified": true
+ },
+ "wakatobi, indonesia": {
+  "lat": -5.3156704,
+  "lng": 123.5850437,
+  "display": "Wakatobi, Sulawesi Tenggara, Indonesia",
+  "country": "id",
+  "matched_query": "wakatobi, indonesia",
+  "approx": false,
+  "verified": true
+ },
+ "zero gravity dive centre, quintana roo, mexico": {
+  "lat": 19.6666671,
+  "lng": -88.5000001,
+  "display": "Quintana Roo, México",
+  "country": "mx",
+  "matched_query": "quintana roo, mexico",
+  "approx": true,
+  "verified": true
  }
 }
