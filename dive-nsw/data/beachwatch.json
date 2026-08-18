@@ -183,7 +183,7 @@
           "id": "6e9006c1-4bc7-4154-800a-a237388965ab",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Bayview Baths"
         },
         "type": "Feature"
@@ -200,7 +200,7 @@
           "id": "6d89378c-15b4-4f59-993b-8a4e89910e7d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Bellambi Beach"
         },
         "type": "Feature"
@@ -319,7 +319,7 @@
           "id": "8990825d-b48c-443f-9047-862a0b986621",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Boat Harbour"
         },
         "type": "Feature"
@@ -710,7 +710,7 @@
           "id": "90ce83b9-78a8-48c2-bb26-4af4e31111c6",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Chinamans Beach"
         },
         "type": "Feature"
@@ -880,7 +880,7 @@
           "id": "e5e6bafe-894c-4111-9173-2bd369adf0b8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Como Baths"
         },
         "type": "Feature"
@@ -897,7 +897,7 @@
           "id": "7d0a9388-37fc-45f4-8fb3-e60ae4d09b1d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Congwong Bay"
         },
         "type": "Feature"
@@ -999,7 +999,7 @@
           "id": "59245001-2685-498f-b47c-d66437c282f4",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Corrimal Beach"
         },
         "type": "Feature"
@@ -1118,7 +1118,7 @@
           "id": "5ed93442-6ffd-4445-bfb8-1a2d16992400",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Dolls Point Baths"
         },
         "type": "Feature"
@@ -1169,7 +1169,7 @@
           "id": "70704ffa-ebc9-4d90-825a-a62461f7ed11",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Edwards Beach"
         },
         "type": "Feature"
@@ -1390,7 +1390,7 @@
           "id": "8bb75641-1783-43b9-861d-df7aa0594cd2",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Frenchmans Bay"
         },
         "type": "Feature"
@@ -1509,7 +1509,7 @@
           "id": "05ffb6c1-96ce-4da5-995d-62d27a03cd55",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Greenwich Baths"
         },
         "type": "Feature"
@@ -1526,7 +1526,7 @@
           "id": "d88adb6c-c5a2-4cee-b883-c749140ce033",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Gunnamatta Bay Baths"
         },
         "type": "Feature"
@@ -1577,7 +1577,7 @@
           "id": "2f8fd16c-2631-4f56-ae9a-3ada9dbfa8fe",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Gymea Bay Baths"
         },
         "type": "Feature"
@@ -1611,7 +1611,7 @@
           "id": "eefcfac8-c063-47b7-9d19-0340f5fa450f",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Hayes Street Beach"
         },
         "type": "Feature"
@@ -1679,7 +1679,7 @@
           "id": "17c612fb-a4c3-4061-8482-77c278225037",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Jew Fish Bay Baths"
         },
         "type": "Feature"
@@ -1900,7 +1900,7 @@
           "id": "ed810bcd-b416-4db6-8532-9f9f406bcc11",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Lilli Pilli Baths"
         },
         "type": "Feature"
@@ -1917,7 +1917,7 @@
           "id": "a4e51f37-7089-4f6d-b78a-85f9b84fea87",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Little Bay Beach"
         },
         "type": "Feature"
@@ -1951,7 +1951,7 @@
           "id": "93ec689a-b568-4cef-8c51-1eaafbbb51a5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Long Reef Beach"
         },
         "type": "Feature"
@@ -2087,7 +2087,7 @@
           "id": "94c5d756-1093-48db-8dbc-70fbb523b16a",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Malabar Beach"
         },
         "type": "Feature"
@@ -2461,7 +2461,7 @@
           "id": "443f8062-d8b3-41ee-b3cf-78be24ab5b5c",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "North Avoca Beach"
         },
         "type": "Feature"
@@ -2631,7 +2631,7 @@
           "id": "c4e9e972-580e-4571-8d2d-a7c0b1fdc604",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Oak Park Beach"
         },
         "type": "Feature"
@@ -3175,7 +3175,7 @@
           "id": "d9267cc6-7983-47ce-a7ba-a9a1dd932ebb",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Shelly Beach (Sutherland)"
         },
         "type": "Feature"
@@ -3515,7 +3515,7 @@
           "id": "ad19c3a4-de25-422c-a124-cdf6587298c0",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Taylors Point Baths"
         },
         "type": "Feature"
@@ -4093,7 +4093,7 @@
           "id": "c7e2681c-94dd-465b-8c87-9c5a56809c8e",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Yarra Bay"
         },
         "type": "Feature"
