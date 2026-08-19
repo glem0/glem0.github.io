@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-08-19T03:52:20+10:00",
+ "generated_at": "2026-08-20T03:50:12+10:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-08-01",
@@ -45,7 +45,7 @@ window.__DIVE_DATA__ =
    "short": "ProDive",
    "url": "https://www.prodive.com.au/Calendar.asp?Scubadive=Sydney",
    "status": "ok",
-   "event_count": 431
+   "event_count": 428
   },
   {
    "id": "divecharters",
@@ -261,36 +261,6 @@ window.__DIVE_DATA__ =
    "all_day": true,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-08-19#326@book@",
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
-  },
-  {
-   "id": "prodive-9e2c69904d19",
-   "source": "prodive",
-   "title": "Scuba Hire Click & Collect",
-   "start": "2026-08-19T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
-   "location": "ProDive Manly",
-   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
-  },
-  {
-   "id": "prodive-87f9e2985c27",
-   "source": "prodive",
-   "title": "PRO DIVE Open Water Weekday Scuba Diving Course",
-   "start": "2026-08-19T18:30+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Openwater+Courses/PRO+DIVE+Open+Water+Weekday+Scuba+Diving+Course+-+Sydney+-+Alexandria/1159",
-   "location": "ProDive Alexandria",
-   "description": "$399.00 · Dive Course to 20m [Beginner Level] Multiple Start Dates Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
-  },
-  {
-   "id": "prodive-20adac6e402f",
-   "source": "prodive",
-   "title": "PRO DIVE Openwater Weekday Scuba Diving Course",
-   "start": "2026-08-19T18:30+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Openwater+Courses/PRO+DIVE+Openwater+Weekday+Scuba+Diving+Course+-+Sydney+-+Manly/1208",
-   "location": "ProDive Manly",
-   "description": "$399.00 · Dive Course to 20m [Beginner Level] Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
    "id": "divecharters-9deb56a4b665",
@@ -559,9 +529,9 @@ window.__DIVE_DATA__ =
    "description": "$49.01 · Marine Marvels Dives · Weedy SeaDragon up close, guided by a marine biologist."
   },
   {
-   "id": "abyss-d6244faa6a8a",
+   "id": "abyss-60c723b349b0",
    "source": "abyss",
-   "title": "Single Seal Dive (sold out)",
+   "title": "Single Seal Dive",
    "start": "2026-08-22T09:00+10:00",
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/single-seal-dive",
@@ -1422,9 +1392,9 @@ window.__DIVE_DATA__ =
    "description": "$350.00 · PADI Aware Shark Conservation Course · Discover why sharks matter and how divers can protect them."
   },
   {
-   "id": "divebondi-4068c20ac6df",
+   "id": "divebondi-47f245a2ed63",
    "source": "divebondi",
-   "title": "PADI Open Water Diver Course (sold out)",
+   "title": "PADI Open Water Diver Course",
    "start": "2026-08-30T08:00+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-08-30&preferredTime=8%3A00+AM&catalogId=597076"
@@ -1448,9 +1418,9 @@ window.__DIVE_DATA__ =
    "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Shelly Beach ( Cabbage Tree Bay)** Rating: Open Water Diver(20m) Depth: 14m"
   },
   {
-   "id": "divebondi-6d7f0eb7cf4e",
+   "id": "divebondi-dc6190eaeaeb",
    "source": "divebondi",
-   "title": "Advanced Shore Dive",
+   "title": "Advanced Shore Dive (sold out)",
    "start": "2026-08-30T08:30+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=647260&preferredDate=2026-08-30&preferredTime=8%3A30+AM&catalogId=597076"
