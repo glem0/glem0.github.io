@@ -2003,5 +2003,14 @@
   "matched_query": "quintana roo, mexico",
   "approx": true,
   "verified": true
+ },
+ "sao sebastiao, são paulo, brazil": {
+  "lat": -23.8027866,
+  "lng": -45.4070527,
+  "display": "São Sebastião, São Paulo, Região Sudeste, Brasil",
+  "country": "br",
+  "matched_query": "sao sebastiao, são paulo, brazil",
+  "approx": false,
+  "verified": true
  }
 }

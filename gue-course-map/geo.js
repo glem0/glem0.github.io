@@ -201,6 +201,7 @@ window.GUE_GEO = {
 "santa margherita ligure, genova, italy":[44.3281,9.19271],
 "santa margherita ligure, italy":[44.3281,9.19271],
 "santa margherita, genova, italy":[44.3281,9.19271],
+"sao sebastiao, são paulo, brazil":[-23.80279,-45.40705],
 "sardinia, italy":[40.09128,9.03058],
 "schneverdingen, hemmoor, niedersachsen, germany":[53.11878,9.78735],
 "schwetzingen , baden-württemberg, germany":[49.38329,8.57351],
