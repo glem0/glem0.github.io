@@ -317,8 +317,8 @@
         },
         "properties": {
           "id": "8990825d-b48c-443f-9047-862a0b986621",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Possible",
           "siteName": "Boat Harbour"
         },
@@ -778,7 +778,7 @@
           "id": "6c79de5b-7c82-48bc-91df-318374838a43",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Clontarf Pool"
         },
         "type": "Feature"
@@ -997,8 +997,8 @@
         },
         "properties": {
           "id": "59245001-2685-498f-b47c-d66437c282f4",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Possible",
           "siteName": "Corrimal Beach"
         },
@@ -1220,7 +1220,7 @@
           "id": "48228c69-739e-4287-9843-40a25a3b0a3a",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Elvina Bay"
         },
         "type": "Feature"
@@ -2648,7 +2648,7 @@
           "id": "f4785861-61c1-4acb-b841-2609962ed0c7",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "Oatley Bay Baths"
         },
         "type": "Feature"
@@ -4008,7 +4008,7 @@
           "id": "7421bc96-ef0b-48c3-9824-2bbc4b61d836",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Woodford Bay"
         },
         "type": "Feature"
