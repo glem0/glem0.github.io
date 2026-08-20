@@ -472,7 +472,7 @@
           "id": "4688b205-c2e6-4e39-937b-2cdf76a044c8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Bulli Beach"
         },
         "type": "Feature"
@@ -2087,7 +2087,7 @@
           "id": "94c5d756-1093-48db-8dbc-70fbb523b16a",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Malabar Beach"
         },
         "type": "Feature"
@@ -3532,7 +3532,7 @@
           "id": "c8fc3c50-4d0f-48c8-939a-ee100892dee8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Terrigal Beach"
         },
         "type": "Feature"
@@ -3753,7 +3753,7 @@
           "id": "613465c8-6d0b-46a4-a8cb-adcbc4c18982",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Umina Beach"
         },
         "type": "Feature"
