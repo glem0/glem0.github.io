@@ -540,7 +540,7 @@
           "id": "aaaf12b3-c680-448d-ba07-27df0b2af9bb",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Cabarita Beach"
         },
         "type": "Feature"
@@ -880,7 +880,7 @@
           "id": "e5e6bafe-894c-4111-9173-2bd369adf0b8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Como Baths"
         },
         "type": "Feature"
@@ -1118,7 +1118,7 @@
           "id": "5ed93442-6ffd-4445-bfb8-1a2d16992400",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Dolls Point Baths"
         },
         "type": "Feature"
