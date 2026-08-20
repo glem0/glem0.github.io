@@ -2012,5 +2012,23 @@
   "matched_query": "sao sebastiao, são paulo, brazil",
   "approx": false,
   "verified": true
+ },
+ "fort lauderdale, florida, united states": {
+  "lat": 26.1223084,
+  "lng": -80.1433786,
+  "display": "Fort Lauderdale, Broward County, Florida, United States",
+  "country": "us",
+  "matched_query": "fort lauderdale, florida, united states",
+  "approx": false,
+  "verified": true
+ },
+ "koror, koror, palau": {
+  "lat": 7.343275,
+  "lng": 134.4766767,
+  "display": "Koror, Belau",
+  "country": "pw",
+  "matched_query": "koror, koror, palau",
+  "approx": false,
+  "verified": false
  }
 }
