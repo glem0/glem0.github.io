@@ -1,51 +1,6 @@
 {
- "updated": "2026-08-20T17:59:33Z",
+ "updated": "2026-08-21T18:00:18Z",
  "classes": [
-  {
-   "cid": "36917",
-   "course": "CCR Fundamentals: Symbios",
-   "date": "August 21, 2026",
-   "iso": "2026-08-21",
-   "location": "Sydney, Australia",
-   "instructor": "Duncan Paterson",
-   "instructor_id": "18320"
-  },
-  {
-   "cid": "36621",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 21, 2026",
-   "iso": "2026-08-21",
-   "location": "Tilburg, Noord-Brabant, Netherlands",
-   "instructor": "Rick Van Beerendonk",
-   "instructor_id": "21650"
-  },
-  {
-   "cid": "36672",
-   "course": "GUE Performance Diver",
-   "date": "August 21, 2026",
-   "iso": "2026-08-21",
-   "location": "Tulamben, Bali, Indonesia",
-   "instructor": "Coral Chua",
-   "instructor_id": "75313"
-  },
-  {
-   "cid": "36449",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "August 21, 2026",
-   "iso": "2026-08-21",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
-  },
-  {
-   "cid": "36807",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "August 21, 2026",
-   "iso": "2026-08-21",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
-  },
   {
    "cid": "35934",
    "course": "CCR Fundamentals: Symbios",
@@ -182,6 +137,15 @@
    "instructor_id": "2366"
   },
   {
+   "cid": "37087",
+   "course": "GUE Performance Diver",
+   "date": "August 23, 2026",
+   "iso": "2026-08-23",
+   "location": "Beijing, Beijing, China",
+   "instructor": "Xuan Chen",
+   "instructor_id": "20926"
+  },
+  {
    "cid": "36179",
    "course": "GUE Performance Diver",
    "date": "August 23, 2026",
@@ -225,15 +189,6 @@
    "location": "playa del carmen, Quintana Roo, Mexico",
    "instructor": "Marcelin Nebenhaus",
    "instructor_id": "73393"
-  },
-  {
-   "cid": "37071",
-   "course": "Doubles Primer",
-   "date": "August 24, 2026",
-   "iso": "2026-08-24",
-   "location": "Hangzhou, Zhejiang, China",
-   "instructor": "Jinhui Xiong",
-   "instructor_id": "72355"
   },
   {
    "cid": "36959",
@@ -443,6 +398,15 @@
    "instructor_id": "15479"
   },
   {
+   "cid": "37084",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "August 28, 2026",
+   "iso": "2026-08-28",
+   "location": "LAPULAPU, Cebu, Philippines",
+   "instructor": "Lee Jong Moon",
+   "instructor_id": "20356"
+  },
+  {
    "cid": "36919",
    "course": "Drysuit Primer",
    "date": "August 28, 2026",
@@ -531,6 +495,15 @@
    "location": "Shanghai, Shanghai, China",
    "instructor": "Xiaodong Zhong",
    "instructor_id": "23171"
+  },
+  {
+   "cid": "37086",
+   "course": "ITC GUE Fundamentals",
+   "date": "August 30, 2026",
+   "iso": "2026-08-30",
+   "location": "mactan, Cebu, Philippines",
+   "instructor": "David Sinwoo Lee",
+   "instructor_id": "17681"
   },
   {
    "cid": "36559",
@@ -1928,6 +1901,15 @@
    "instructor_id": "1374"
   },
   {
+   "cid": "37089",
+   "course": "GUE Performance Diver",
+   "date": "September 26, 2026",
+   "iso": "2026-09-26",
+   "location": "Plano, Texas, United States",
+   "instructor": "Elon Mehr",
+   "instructor_id": "66591"
+  },
+  {
    "cid": "36421",
    "course": "GUE Performance Diver",
    "date": "September 26, 2026",
@@ -2709,6 +2691,15 @@
    "location": "Victoria, British Columbia, Canada",
    "instructor": "Jason Cook",
    "instructor_id": "24473"
+  },
+  {
+   "cid": "37083",
+   "course": "Upgrade to GUE Basic Fundamentals",
+   "date": "October 13, 2026",
+   "iso": "2026-10-13",
+   "location": "Siegburg, Germany",
+   "instructor": "Sebastian Von Koss",
+   "instructor_id": "20802"
   },
   {
    "cid": "36535",
@@ -3818,6 +3809,15 @@
    "instructor_id": "23171"
   },
   {
+   "cid": "37085",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "November 19, 2026",
+   "iso": "2026-11-19",
+   "location": "LAPULAPU, Cebu, Philippines",
+   "instructor": "Lee Jong Moon",
+   "instructor_id": "20356"
+  },
+  {
    "cid": "36404",
    "course": "DPV Diver 1",
    "date": "November 19, 2026",
@@ -4365,6 +4365,15 @@
    "location": "High Springs, Florida, United States",
    "instructor": "Kirill A. Egorov",
    "instructor_id": "1411"
+  },
+  {
+   "cid": "37088",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "December 14, 2026",
+   "iso": "2026-12-14",
+   "location": "LAPULAPU, Cebu, Philippines",
+   "instructor": "Lee Jong Moon",
+   "instructor_id": "20356"
   },
   {
    "cid": "36980",
@@ -5006,15 +5015,6 @@
    "instructor_id": "21332"
   },
   {
-   "cid": "23539",
-   "course": "Scientific Diver",
-   "date": "February 11, 2027",
-   "iso": "2027-02-11",
-   "location": "Helsinki, Finland",
-   "instructor": "Erik Wurz",
-   "instructor_id": "25873"
-  },
-  {
    "cid": "36208",
    "course": "GUE Technical Fundamentals",
    "date": "February 12, 2027",
@@ -5060,15 +5060,6 @@
    "instructor_id": "20747"
   },
   {
-   "cid": "36732",
-   "course": "Drysuit Primer",
-   "date": "February 15, 2027",
-   "iso": "2027-02-15",
-   "location": "Dahab, Egypt",
-   "instructor": "Jennifer Thomson",
-   "instructor_id": "68474"
-  },
-  {
    "cid": "35948",
    "course": "DPV Cave",
    "date": "February 16, 2027",
@@ -5085,15 +5076,6 @@
    "location": "Dahab, Janub Sina', Egypt",
    "instructor": "Sameh Sokar",
    "instructor_id": "18431"
-  },
-  {
-   "cid": "36733",
-   "course": "Doubles Primer",
-   "date": "February 18, 2027",
-   "iso": "2027-02-18",
-   "location": "Dahab, Egypt",
-   "instructor": "Jennifer Thomson",
-   "instructor_id": "68474"
   },
   {
    "cid": "34686",
@@ -5589,15 +5571,6 @@
    "location": "Lysekil, Sweden",
    "instructor": "Per Normark",
    "instructor_id": "19962"
-  },
-  {
-   "cid": "30799",
-   "course": "GUE Basic Fundamentals",
-   "date": "July 6, 2027",
-   "iso": "2027-07-06",
-   "location": "Glavotok on Krk, Istria county, Croatia",
-   "instructor": "Erik Wurz",
-   "instructor_id": "25873"
   },
   {
    "cid": "32209",
