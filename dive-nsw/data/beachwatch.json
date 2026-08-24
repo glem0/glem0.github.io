@@ -64,7 +64,7 @@
           "id": "0d6cacd4-5992-486a-b6a8-7d4c810f56bd",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Forecast not available",
+          "pollutionForecast": "Unlikely",
           "siteName": "Avoca Beach"
         },
         "type": "Feature"
@@ -351,8 +351,8 @@
         },
         "properties": {
           "id": "405ce99c-7a0b-43f7-8d28-2ee0b65eebb5",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Bondi Beach"
         },
@@ -965,7 +965,7 @@
           "id": "1cca5d42-6426-4ac9-afdf-8c0c1dfcd6dc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Forecast not available",
+          "pollutionForecast": "Unlikely",
           "siteName": "Copacabana Beach"
         },
         "type": "Feature"
@@ -1339,7 +1339,7 @@
           "id": "6b98f579-4248-4df3-8a2c-c84a66d5812e",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Forecast not available",
+          "pollutionForecast": "Unlikely",
           "siteName": "Forrester's Beach"
         },
         "type": "Feature"
@@ -1730,7 +1730,7 @@
           "id": "934e455d-0497-41f0-94f1-64bbf9884491",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Forecast not available",
+          "pollutionForecast": "Unlikely",
           "siteName": "Killcare Beach"
         },
         "type": "Feature"
@@ -1951,7 +1951,7 @@
           "id": "93ec689a-b568-4cef-8c51-1eaafbbb51a5",
           "latestResult": "Poor",
           "latestResultRating": 2,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Long Reef Beach"
         },
         "type": "Feature"
@@ -1968,7 +1968,7 @@
           "id": "1757939f-2645-4e10-9bb6-9047585096a0",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Forecast not available",
+          "pollutionForecast": "Unlikely",
           "siteName": "MacMasters Beach"
         },
         "type": "Feature"
@@ -2461,7 +2461,7 @@
           "id": "443f8062-d8b3-41ee-b3cf-78be24ab5b5c",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Forecast not available",
+          "pollutionForecast": "Unlikely",
           "siteName": "North Avoca Beach"
         },
         "type": "Feature"
@@ -2665,7 +2665,7 @@
           "id": "0fd921b9-1d2a-4a90-b722-72ce0426d3a5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Forecast not available",
+          "pollutionForecast": "Possible",
           "siteName": "Ocean Beach"
         },
         "type": "Feature"
@@ -2750,7 +2750,7 @@
           "id": "a04458a2-3e39-4005-b4a9-f8822fb66781",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Forecast not available",
+          "pollutionForecast": "Unlikely",
           "siteName": "Pearl Beach"
         },
         "type": "Feature"
@@ -3479,8 +3479,8 @@
         },
         "properties": {
           "id": "d8174dde-e864-4a58-b997-e140bea7c5d6",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Tamarama Beach"
         },
@@ -3532,7 +3532,7 @@
           "id": "c8fc3c50-4d0f-48c8-939a-ee100892dee8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Terrigal Beach"
         },
         "type": "Feature"
@@ -3753,7 +3753,7 @@
           "id": "613465c8-6d0b-46a4-a8cb-adcbc4c18982",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Forecast not available",
+          "pollutionForecast": "Unlikely",
           "siteName": "Umina Beach"
         },
         "type": "Feature"
@@ -3787,7 +3787,7 @@
           "id": "32102496-a175-44df-ba83-044eafd627bc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Forecast not available",
+          "pollutionForecast": "Unlikely",
           "siteName": "Wamberal Beach"
         },
         "type": "Feature"
