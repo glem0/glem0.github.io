@@ -2030,5 +2030,58 @@
   "matched_query": "koror, koror, palau",
   "approx": false,
   "verified": false
+ },
+ "auckland, auckland, new zealand": {
+  "lat": -36.852095,
+  "lng": 174.7631803,
+  "display": "Auckland, Waitematā, Auckland, 1010, New Zealand / Aotearoa",
+  "country": "nz",
+  "matched_query": "auckland, auckland, new zealand",
+  "approx": false,
+  "verified": true
+ },
+ "kalendijk, bonaire": {
+  "lat": 12.1472869,
+  "lng": -68.2740206,
+  "display": "Kralendijk, Bonaire, Nederland",
+  "matched_query": "Kralendijk, Bonaire",
+  "alias_of": "kralendijk, bonaire"
+ },
+ "sai kung, new territories, hong kong": {
+  "lat": 22.3828895,
+  "lng": 114.2744993,
+  "display": "西貢（惠民路） Sai Kung (Wai Man Road), 惠民路 Wai Man Road, 西貢市中心 Sai Kung Town Centre, 西貢區 Sai Kung District, 新界 New Territories, 香港 Hong Kong, 中国",
+  "country": "cn",
+  "matched_query": "sai kung, new territories, hong kong",
+  "approx": false,
+  "verified": false
+ },
+ "seogipo, cheju-do, korea (south)": {
+  "lat": 33.252845,
+  "lng": 126.5610278,
+  "display": "서귀포시, 제주특별자치도, 대한민국",
+  "country": "kr",
+  "matched_query": "seogwipo, cheju-do, korea (south)",
+  "approx": false,
+  "verified": true,
+  "alias_of": "seogwipo, cheju-do, korea (south)"
+ },
+ "yang yang, korea (south)": {
+  "lat": 37.5229745,
+  "lng": 127.0404821,
+  "display": "양(YANG), 410, 도산대로, 청담동, 강남구, 서울특별시, 06062, 대한민국",
+  "country": "kr",
+  "matched_query": "yang yang, korea (south)",
+  "approx": false,
+  "verified": true
+ },
+ "yekaterinburg , russia": {
+  "lat": 56.8382071,
+  "lng": 60.6007886,
+  "display": "Екатеринбург, городской округ Екатеринбург, Свердловская область, Уральский федеральный округ, Россия",
+  "country": "ru",
+  "matched_query": "yekaterinburg , russia",
+  "approx": false,
+  "verified": true
  }
 }
