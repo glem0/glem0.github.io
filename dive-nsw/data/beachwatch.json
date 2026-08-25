@@ -625,7 +625,7 @@
           "id": "3797a81b-936e-4e27-a813-e6c611ee2d99",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Carss Point Baths"
         },
         "type": "Feature"
@@ -1949,9 +1949,9 @@
         },
         "properties": {
           "id": "93ec689a-b568-4cef-8c51-1eaafbbb51a5",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
-          "pollutionForecast": "Possible",
+          "latestResult": "Good",
+          "latestResultRating": 4,
+          "pollutionForecast": "Unlikely",
           "siteName": "Long Reef Beach"
         },
         "type": "Feature"
@@ -2408,8 +2408,8 @@
         },
         "properties": {
           "id": "f81d4377-2a8e-4f39-9988-f94d9c95d9be",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Newport Beach"
         },
@@ -2527,8 +2527,8 @@
         },
         "properties": {
           "id": "79eb1688-05c6-491a-9eaa-cbe3811a7f3d",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "North Narrabeen Beach"
         },
@@ -2578,8 +2578,8 @@
         },
         "properties": {
           "id": "cdf39c61-2988-4ddd-b849-0468cb0e1873",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "North Steyne Beach"
         },
@@ -2867,8 +2867,8 @@
         },
         "properties": {
           "id": "95c134b2-a834-4651-865c-03f6c9f4a54e",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Queenscliff Beach"
         },
@@ -3156,8 +3156,8 @@
         },
         "properties": {
           "id": "995753ed-db2a-4cb8-9349-922cf3312766",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Shelly Beach (Manly)"
         },
