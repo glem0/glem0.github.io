@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-08-26T03:54:21+10:00",
+ "generated_at": "2026-08-27T05:27:49+10:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-08-01",
@@ -29,7 +29,7 @@ window.__DIVE_DATA__ =
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 203
+   "event_count": 202
   },
   {
    "id": "divesydney",
@@ -45,7 +45,7 @@ window.__DIVE_DATA__ =
    "short": "ProDive",
    "url": "https://www.prodive.com.au/Calendar.asp?Scubadive=Sydney",
    "status": "ok",
-   "event_count": 432
+   "event_count": 428
   },
   {
    "id": "divecharters",
@@ -345,46 +345,6 @@ window.__DIVE_DATA__ =
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
-   "id": "prodive-bfb08be34ed7",
-   "source": "prodive",
-   "title": "Rescue Diver Course",
-   "start": "2026-08-26T09:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Rescue+Diver/Rescue+Diver+Course+-+Sydney+-+Alexandria/213",
-   "location": "ProDive Alexandria",
-   "description": "$599.00 · Our Rescue Course is the one of the most interesting and enjoyable diving courses which really can boost your confidence levels and improve your dive knowledge of how to prevent and deal with emergency or stressful diving situations"
-  },
-  {
-   "id": "prodive-a202d77561b7",
-   "source": "prodive",
-   "title": "Scuba Hire Click & Collect",
-   "start": "2026-08-26T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
-   "location": "ProDive Manly",
-   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
-  },
-  {
-   "id": "prodive-91a40117566d",
-   "source": "prodive",
-   "title": "PRO DIVE Open Water Weekday Scuba Diving Course",
-   "start": "2026-08-26T18:30+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Openwater+Courses/PRO+DIVE+Open+Water+Weekday+Scuba+Diving+Course+-+Sydney+-+Alexandria/1159",
-   "location": "ProDive Alexandria",
-   "description": "$399.00 · Dive Course to 20m [Beginner Level] Multiple Start Dates Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
-  },
-  {
-   "id": "prodive-ab19ffb27c90",
-   "source": "prodive",
-   "title": "PRO DIVE Openwater Weekday Scuba Diving Course",
-   "start": "2026-08-26T18:30+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Openwater+Courses/PRO+DIVE+Openwater+Weekday+Scuba+Diving+Course+-+Sydney+-+Manly/1208",
-   "location": "ProDive Manly",
-   "description": "$399.00 · Dive Course to 20m [Beginner Level] Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
-  },
-  {
    "id": "divecharters-6a546ac23612",
    "source": "divecharters",
    "title": "DSD - Discover Scuba Dive - Hire Gear Included",
@@ -421,14 +381,6 @@ window.__DIVE_DATA__ =
    "end": "2026-09-13",
    "url": "https://www.abyss.com.au/trips/wrecks-of-truk-lagoon",
    "description": "$9525.00 · Wrecks of Truk Lagoon · Dive the Legendary Wrecks of Truk Lagoon"
-  },
-  {
-   "id": "divebondi-5129200b3a92",
-   "source": "divebondi",
-   "title": "Guided Snorkel Tour",
-   "start": "2026-08-27T10:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=439435&preferredDate=2026-08-27&preferredTime=10%3A00+AM&catalogId=597076"
   },
   {
    "id": "prodive-b585abd49474",
@@ -858,9 +810,9 @@ window.__DIVE_DATA__ =
    "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Shelly Beach ( Cabbage Tree Bay)** Rating: Open Water Diver(20m) Depth: 14m"
   },
   {
-   "id": "divebondi-dc6190eaeaeb",
+   "id": "divebondi-6d7f0eb7cf4e",
    "source": "divebondi",
-   "title": "Advanced Shore Dive (sold out)",
+   "title": "Advanced Shore Dive",
    "start": "2026-08-30T08:30+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=647260&preferredDate=2026-08-30&preferredTime=8%3A30+AM&catalogId=597076"
@@ -875,9 +827,9 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · Seal Diving · Playful fur seals swirl around you with possible whales and rays."
   },
   {
-   "id": "divesydney-ef5cfbb649d7",
+   "id": "divesydney-0623174cb3f2",
    "source": "divesydney",
-   "title": "Double Guided Shore Dive",
+   "title": "Double Guided Shore Dive (sold out)",
    "start": "2026-08-30T09:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-08-30&preferredTime=9%3A00+AM&catalogId=494484"
@@ -891,9 +843,9 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-08-30&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
-   "id": "abyss-b94de44945d7",
+   "id": "abyss-dee99321b231",
    "source": "abyss",
-   "title": "Voodoo",
+   "title": "Voodoo (sold out)",
    "start": "2026-08-30T10:00+10:00",
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/guided-shore-dives",
@@ -5286,21 +5238,21 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-10-16&preferredTime=8%3A30+AM&catalogId=494484"
   },
   {
-   "id": "abyss-3e75b5d995ae",
-   "source": "abyss",
-   "title": "Martin Island Seal Dive",
-   "start": "2026-10-16T09:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/scuba-dive-with-seals",
-   "description": "$130.00 · Seal Diving · Playful fur seals swirl around you with possible whales and rays."
-  },
-  {
    "id": "divesydney-ee3ee5a79c6b",
    "source": "divesydney",
    "title": "Double Guided Shore Dive",
    "start": "2026-10-16T09:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-10-16&preferredTime=9%3A00+AM&catalogId=494484"
+  },
+  {
+   "id": "abyss-d93a0e3b066b",
+   "source": "abyss",
+   "title": "Martin Island Seal Dive",
+   "start": "2026-10-16T10:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/scuba-dive-with-seals",
+   "description": "$130.00 · Seal Diving · Playful fur seals swirl around you with possible whales and rays."
   },
   {
    "id": "prodive-4406cb1a2d48",
