@@ -115,7 +115,7 @@
           "id": "c2d5eaf3-173d-4aa4-8fbc-7bfce5c637eb",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Bar Beach (Newcastle)"
         },
         "type": "Feature"
@@ -540,7 +540,7 @@
           "id": "aaaf12b3-c680-448d-ba07-27df0b2af9bb",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Cabarita Beach"
         },
         "type": "Feature"
@@ -1407,7 +1407,7 @@
           "id": "77556fe0-20d1-4028-9bad-d61b3e046b4c",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Freshwater Beach"
         },
         "type": "Feature"
@@ -1441,7 +1441,7 @@
           "id": "042af9fb-da1d-406a-a743-3da81da0a194",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Gordons Bay (East)"
         },
         "type": "Feature"
@@ -2206,7 +2206,7 @@
           "id": "8d14d393-3cf7-43bd-86d4-a03190b323d1",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Merewether Beach"
         },
         "type": "Feature"
@@ -2580,7 +2580,7 @@
           "id": "cdf39c61-2988-4ddd-b849-0468cb0e1873",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "North Steyne Beach"
         },
         "type": "Feature"
@@ -3158,7 +3158,7 @@
           "id": "995753ed-db2a-4cb8-9349-922cf3312766",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Shelly Beach (Manly)"
         },
         "type": "Feature"
@@ -3345,7 +3345,7 @@
           "id": "224fc6a1-f98a-4a10-9603-91dacf9e54b8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "South Steyne Beach"
         },
         "type": "Feature"
