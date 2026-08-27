@@ -895,8 +895,8 @@
         },
         "properties": {
           "id": "7d0a9388-37fc-45f4-8fb3-e60ae4d09b1d",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Unlikely",
           "siteName": "Congwong Bay"
         },
@@ -1116,8 +1116,8 @@
         },
         "properties": {
           "id": "5ed93442-6ffd-4445-bfb8-1a2d16992400",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Possible",
           "siteName": "Dolls Point Baths"
         },
@@ -1900,7 +1900,7 @@
           "id": "ed810bcd-b416-4db6-8532-9f9f406bcc11",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Lilli Pilli Baths"
         },
         "type": "Feature"
@@ -2323,8 +2323,8 @@
         },
         "properties": {
           "id": "2c616a2d-d12d-4444-817c-456be2d5464a",
-          "latestResult": "Bad",
-          "latestResultRating": 1,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Possible",
           "siteName": "Monterey Baths"
         },
@@ -2869,7 +2869,7 @@
           "id": "95c134b2-a834-4651-865c-03f6c9f4a54e",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Queenscliff Beach"
         },
         "type": "Feature"
@@ -3889,7 +3889,7 @@
           "id": "aaaefe71-5959-40e0-a3a0-a620e8bb49ce",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Watsons Bay"
         },
         "type": "Feature"
