@@ -1,78 +1,6 @@
 {
- "updated": "2026-08-26T19:25:48Z",
+ "updated": "2026-08-28T01:37:30Z",
  "classes": [
-  {
-   "cid": "37152",
-   "course": "DPV Diver 1",
-   "date": "August 27, 2026",
-   "iso": "2026-08-27",
-   "location": "Yekaterinburg , Russia",
-   "instructor": "Andrei Dmitriev",
-   "instructor_id": "6578"
-  },
-  {
-   "cid": "35679",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 27, 2026",
-   "iso": "2026-08-27",
-   "location": "Leipzig, Sachsen, Germany",
-   "instructor": "Keith Kreitner",
-   "instructor_id": "12073"
-  },
-  {
-   "cid": "37070",
-   "course": "GUE Performance Diver",
-   "date": "August 27, 2026",
-   "iso": "2026-08-27",
-   "location": "Fort Lauderdale, Florida, United States",
-   "instructor": "Max Philip Frenkel",
-   "instructor_id": "24581"
-  },
-  {
-   "cid": "37066",
-   "course": "GUE Performance Diver",
-   "date": "August 27, 2026",
-   "iso": "2026-08-27",
-   "location": "Hangzhou, Zhejiang, China",
-   "instructor": "Jinhui Xiong",
-   "instructor_id": "72355"
-  },
-  {
-   "cid": "35685",
-   "course": "GUE Performance Diver",
-   "date": "August 27, 2026",
-   "iso": "2026-08-27",
-   "location": "Leipzig, Sachsen, Germany",
-   "instructor": "Kaddi Vogel",
-   "instructor_id": "71865"
-  },
-  {
-   "cid": "36180",
-   "course": "GUE Technical Fundamentals",
-   "date": "August 27, 2026",
-   "iso": "2026-08-27",
-   "location": "Scuba Academie Vinkeveen, Netherlands, Utrecht, Netherlands",
-   "instructor": "Laurent Dahan",
-   "instructor_id": "25023"
-  },
-  {
-   "cid": "36207",
-   "course": "Open Water Diver",
-   "date": "August 27, 2026",
-   "iso": "2026-08-27",
-   "location": "Tilburg, Netherlands",
-   "instructor": "Paul Berkhout",
-   "instructor_id": "15580"
-  },
-  {
-   "cid": "34440",
-   "course": "Scuba Diver Upgrade to OW",
-   "date": "August 27, 2026",
-   "iso": "2026-08-27",
-   "location": "Kressbronn am Bodensee, Baden-Württemberg, Germany",
-   "instructor": "Oliver Reimer",
-   "instructor_id": "15479"
-  },
   {
    "cid": "37084",
    "course": "CCR Fundamentals: Symbios",
@@ -128,6 +56,15 @@
    "instructor_id": "68750"
   },
   {
+   "cid": "37165",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "August 28, 2026",
+   "iso": "2026-08-28",
+   "location": "Foshang, Guangdong, China",
+   "instructor": "Huang Weiqi",
+   "instructor_id": "23052"
+  },
+  {
    "cid": "37067",
    "course": "Drysuit Primer",
    "date": "August 29, 2026",
@@ -135,6 +72,15 @@
    "location": "Hangzhou, Zhejiang, China",
    "instructor": "Jinhui Xiong",
    "instructor_id": "72355"
+  },
+  {
+   "cid": "37168",
+   "course": "Drysuit Primer",
+   "date": "August 29, 2026",
+   "iso": "2026-08-29",
+   "location": "Hk, Hong Kong",
+   "instructor": "Siu Man Sit",
+   "instructor_id": "67279"
   },
   {
    "cid": "35527",
@@ -180,15 +126,6 @@
    "location": "Shanghai, Shanghai, China",
    "instructor": "Xiaodong Zhong",
    "instructor_id": "23171"
-  },
-  {
-   "cid": "37086",
-   "course": "ITC GUE Fundamentals",
-   "date": "August 30, 2026",
-   "iso": "2026-08-30",
-   "location": "mactan, Cebu, Philippines",
-   "instructor": "David Sinwoo Lee",
-   "instructor_id": "17681"
   },
   {
    "cid": "36559",
@@ -497,6 +434,15 @@
    "instructor_id": "10004"
   },
   {
+   "cid": "37169",
+   "course": "GUE Basic Fundamentals",
+   "date": "September 5, 2026",
+   "iso": "2026-09-05",
+   "location": "Portland, Connecticut, United States",
+   "instructor": "Edward Hayes",
+   "instructor_id": "3297"
+  },
+  {
    "cid": "36139",
    "course": "GUE Basic Fundamentals",
    "date": "September 5, 2026",
@@ -612,6 +558,15 @@
    "location": "Third Dimension Diving, Tulum, Quintana Roo, Mexico",
    "instructor": "Ivo Chiarino",
    "instructor_id": "21332"
+  },
+  {
+   "cid": "37166",
+   "course": "Doubles Primer",
+   "date": "September 7, 2026",
+   "iso": "2026-09-07",
+   "location": "Foshang, Guangdong, China",
+   "instructor": "Huang Weiqi",
+   "instructor_id": "23052"
   },
   {
    "cid": "35972",
@@ -1883,6 +1838,15 @@
    "instructor_id": "21332"
   },
   {
+   "cid": "37167",
+   "course": "GUE Technical Fundamentals",
+   "date": "October 1, 2026",
+   "iso": "2026-10-01",
+   "location": "Hilversum, Utrecht, Netherlands",
+   "instructor": "Sander Evering",
+   "instructor_id": "12706"
+  },
+  {
    "cid": "35064",
    "course": "ITC Recreational Diver 1",
    "date": "October 1, 2026",
@@ -3089,6 +3053,15 @@
    "instructor_id": "895"
   },
   {
+   "cid": "37164",
+   "course": "GUE Basic Fundamentals",
+   "date": "October 30, 2026",
+   "iso": "2026-10-30",
+   "location": "San Michele di pagana/Rapallo, Genova, Italy",
+   "instructor": "Niccolo Crespi",
+   "instructor_id": "6627"
+  },
+  {
    "cid": "36304",
    "course": "GUE Performance Diver",
    "date": "October 30, 2026",
@@ -3746,6 +3719,15 @@
    "instructor_id": "23171"
   },
   {
+   "cid": "28347",
+   "course": "Cave Diver 1",
+   "date": "November 21, 2026",
+   "iso": "2026-11-21",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Sven Nelles",
+   "instructor_id": "7698"
+  },
+  {
    "cid": "36977",
    "course": "DPV Diver 1",
    "date": "November 21, 2026",
@@ -3771,15 +3753,6 @@
    "location": "Playa del Carmen, Quintana Roo, Mexico",
    "instructor": "Emőke Wagner",
    "instructor_id": "20747"
-  },
-  {
-   "cid": "28347",
-   "course": "Cave Diver 1",
-   "date": "November 22, 2026",
-   "iso": "2026-11-22",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Sven Nelles",
-   "instructor_id": "7698"
   },
   {
    "cid": "35757",

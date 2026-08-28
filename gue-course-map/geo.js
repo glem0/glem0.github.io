@@ -92,6 +92,7 @@ window.GUE_GEO = {
 "high springs , florida, united states":[29.82683,-82.59686],
 "high springs, florida, united states":[29.82683,-82.59686],
 "high springs, united states":[29.82683,-82.59686],
+"hilversum, utrecht, netherlands":[52.23159,5.17349],
 "hk, hong kong":[22.28183,114.15828],
 "hk, new territories, hong kong":[22.3126,113.9173],
 "hong kong, hong kong, hong kong":[22.28183,114.15828],

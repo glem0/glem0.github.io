@@ -2083,5 +2083,14 @@
   "matched_query": "yekaterinburg , russia",
   "approx": false,
   "verified": true
+ },
+ "hilversum, utrecht, netherlands": {
+  "lat": 52.231587,
+  "lng": 5.1734935,
+  "display": "Hilversum, Noord-Holland, Nederland",
+  "country": "nl",
+  "matched_query": "hilversum, netherlands",
+  "approx": false,
+  "verified": true
  }
 }
