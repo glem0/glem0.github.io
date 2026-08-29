@@ -99,6 +99,7 @@ window.GUE_GEO = {
 "hk, new territories, hong kong":[22.3126,113.9173],
 "hong kong, hong kong, hong kong":[22.28183,114.15828],
 "honolulu, hawaii, united states":[21.30455,-157.85568],
+"honoratka,":[52.32538,18.29281],
 "honoratka, poland":[52.32538,18.29281],
 "hurghada, al bahr al ahmar, egypt":[27.22256,33.83071],
 "hästholmen, sweden":[58.27854,14.63858],

@@ -1,42 +1,6 @@
 {
- "updated": "2026-08-29T01:08:18Z",
+ "updated": "2026-08-29T19:58:40Z",
  "classes": [
-  {
-   "cid": "37067",
-   "course": "Drysuit Primer",
-   "date": "August 29, 2026",
-   "iso": "2026-08-29",
-   "location": "Hangzhou, Zhejiang, China",
-   "instructor": "Jinhui Xiong",
-   "instructor_id": "72355"
-  },
-  {
-   "cid": "37168",
-   "course": "Drysuit Primer",
-   "date": "August 29, 2026",
-   "iso": "2026-08-29",
-   "location": "Hk, Hong Kong",
-   "instructor": "Siu Man Sit",
-   "instructor_id": "67279"
-  },
-  {
-   "cid": "35527",
-   "course": "Drysuit Primer",
-   "date": "August 29, 2026",
-   "iso": "2026-08-29",
-   "location": "Sydney, New South Wales, Australia",
-   "instructor": "Sebastien Landat",
-   "instructor_id": "22757"
-  },
-  {
-   "cid": "36574",
-   "course": "Upgrade to GUE Basic Fundamentals",
-   "date": "August 29, 2026",
-   "iso": "2026-08-29",
-   "location": "Leipzig, Germany",
-   "instructor": "Keith Kreitner",
-   "instructor_id": "12073"
-  },
   {
    "cid": "37118",
    "course": "Doubles Primer",
@@ -1145,15 +1109,6 @@
    "instructor_id": "1591"
   },
   {
-   "cid": "33773",
-   "course": "Cave Diver 1",
-   "date": "September 18, 2026",
-   "iso": "2026-09-18",
-   "location": "Salangen, Troms, Norway",
-   "instructor": "Annika Persson",
-   "instructor_id": "9662"
-  },
-  {
    "cid": "35700",
    "course": "Cave Diver 2",
    "date": "September 18, 2026",
@@ -1469,6 +1424,15 @@
    "instructor_id": "2073"
   },
   {
+   "cid": "37185",
+   "course": "Doubles Primer",
+   "date": "September 24, 2026",
+   "iso": "2026-09-24",
+   "location": "Honoratka,",
+   "instructor": "Bartek Trzcinski",
+   "instructor_id": "25915"
+  },
+  {
    "cid": "36205",
    "course": "Rescue Primer",
    "date": "September 24, 2026",
@@ -1541,6 +1505,15 @@
    "instructor_id": "20356"
   },
   {
+   "cid": "37184",
+   "course": "GUE Technical Fundamentals",
+   "date": "September 25, 2026",
+   "iso": "2026-09-25",
+   "location": "Monaco, Monaco",
+   "instructor": "Francesco Cameli",
+   "instructor_id": "22866"
+  },
+  {
    "cid": "37090",
    "course": "Upgrade to CCR Tech 1: JJ-CCR",
    "date": "September 25, 2026",
@@ -1548,15 +1521,6 @@
    "location": "Seattle, Washington, United States",
    "instructor": "Kees Beemster Leverenz",
    "instructor_id": "12172"
-  },
-  {
-   "cid": "33774",
-   "course": "Cave Diver 1",
-   "date": "September 26, 2026",
-   "iso": "2026-09-26",
-   "location": "Plura - Røyrvik, Nordland, Norway",
-   "instructor": "Annika Persson",
-   "instructor_id": "9662"
   },
   {
    "cid": "37018",
@@ -5780,6 +5744,15 @@
    "instructor_id": "1956"
   },
   {
+   "cid": "33774",
+   "course": "Cave Diver 1",
+   "date": "July 5, 2027",
+   "iso": "2027-07-05",
+   "location": "Plura - Røyrvik, Nordland, Norway",
+   "instructor": "Annika Persson",
+   "instructor_id": "9662"
+  },
+  {
    "cid": "37138",
    "course": "CCR Fundamentals: Symbios",
    "date": "July 12, 2027",
@@ -5814,6 +5787,15 @@
    "location": "Vinkeveen, Netherlands",
    "instructor": "Jp Bresser",
    "instructor_id": "2458"
+  },
+  {
+   "cid": "33773",
+   "course": "Cave Diver 1",
+   "date": "September 7, 2027",
+   "iso": "2027-09-07",
+   "location": "Salangen, Troms, Norway",
+   "instructor": "Annika Persson",
+   "instructor_id": "9662"
   },
   {
    "cid": "37139",

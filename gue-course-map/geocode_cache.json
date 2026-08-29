@@ -2108,5 +2108,14 @@
   "display": "High Springs, Alachua County, Florida, 32655, United States",
   "matched_query": "High Springs , Florida, United States",
   "alias_of": "high springs , florida, united states"
+ },
+ "honoratka,": {
+  "lat": 52.3253822,
+  "lng": 18.2928124,
+  "display": "Honoratka, gmina Ślesin, powiat koniński, województwo wielkopolskie, 62-561, Polska",
+  "country": "pl",
+  "matched_query": "honoratka,",
+  "approx": false,
+  "verified": false
  }
 }
