@@ -2092,5 +2092,21 @@
   "matched_query": "hilversum, netherlands",
   "approx": false,
   "verified": true
+ },
+ "changshu, china": {
+  "lat": 31.6572954,
+  "lng": 120.7480757,
+  "display": "常熟市, 苏州市, 江苏省, 215500, 中国",
+  "country": "cn",
+  "matched_query": "changshu, china",
+  "approx": false,
+  "verified": true
+ },
+ "highsprings , florida, united states": {
+  "lat": 29.8268319,
+  "lng": -82.5968583,
+  "display": "High Springs, Alachua County, Florida, 32655, United States",
+  "matched_query": "High Springs , Florida, United States",
+  "alias_of": "high springs , florida, united states"
  }
 }

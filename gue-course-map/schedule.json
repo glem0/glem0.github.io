@@ -1,69 +1,6 @@
 {
- "updated": "2026-08-28T01:37:30Z",
+ "updated": "2026-08-29T01:08:18Z",
  "classes": [
-  {
-   "cid": "37084",
-   "course": "CCR Fundamentals: Symbios",
-   "date": "August 28, 2026",
-   "iso": "2026-08-28",
-   "location": "LAPULAPU, Cebu, Philippines",
-   "instructor": "Lee Jong Moon",
-   "instructor_id": "20356"
-  },
-  {
-   "cid": "36919",
-   "course": "Drysuit Primer",
-   "date": "August 28, 2026",
-   "iso": "2026-08-28",
-   "location": "Dahab, Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
-  },
-  {
-   "cid": "35348",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 28, 2026",
-   "iso": "2026-08-28",
-   "location": "Hemmoor, Kreidesee, Niedersachsen, Germany",
-   "instructor": "Oliver Ober",
-   "instructor_id": "68750"
-  },
-  {
-   "cid": "36946",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 28, 2026",
-   "iso": "2026-08-28",
-   "location": "Neuss, Nordrhein-Westfalen, Germany",
-   "instructor": "Frederik Bring",
-   "instructor_id": "68473"
-  },
-  {
-   "cid": "35898",
-   "course": "GUE Basic Fundamentals",
-   "date": "August 28, 2026",
-   "iso": "2026-08-28",
-   "location": "Tilburg, Noord-Brabant, Netherlands",
-   "instructor": "Rick Van Beerendonk",
-   "instructor_id": "21650"
-  },
-  {
-   "cid": "36710",
-   "course": "GUE Performance Diver",
-   "date": "August 28, 2026",
-   "iso": "2026-08-28",
-   "location": "Hemmoor, Kreidesee, Niedersachsen, Germany",
-   "instructor": "Oliver Ober",
-   "instructor_id": "68750"
-  },
-  {
-   "cid": "37165",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "August 28, 2026",
-   "iso": "2026-08-28",
-   "location": "Foshang, Guangdong, China",
-   "instructor": "Huang Weiqi",
-   "instructor_id": "23052"
-  },
   {
    "cid": "37067",
    "course": "Drysuit Primer",
@@ -459,6 +396,15 @@
    "location": "Shanghai, Shanghai, China",
    "instructor": "Yanbin Wu",
    "instructor_id": "23172"
+  },
+  {
+   "cid": "37173",
+   "course": "GUE Performance Diver",
+   "date": "September 5, 2026",
+   "iso": "2026-09-05",
+   "location": "changshu, China",
+   "instructor": "Feiming Cheng",
+   "instructor_id": "68591"
   },
   {
    "cid": "36140",
@@ -2000,6 +1946,15 @@
    "instructor_id": "69051"
   },
   {
+   "cid": "37175",
+   "course": "GUE Basic Fundamentals",
+   "date": "October 3, 2026",
+   "iso": "2026-10-03",
+   "location": "Sydney, New South Wales, Australia",
+   "instructor": "Jingwei Sun",
+   "instructor_id": "70762"
+  },
+  {
    "cid": "36798",
    "course": "GUE Performance Diver",
    "date": "October 3, 2026",
@@ -2169,6 +2124,15 @@
    "location": "Brockville, Ontario, Canada",
    "instructor": "Heison Chak",
    "instructor_id": "13808"
+  },
+  {
+   "cid": "37174",
+   "course": "GUE Performance Diver",
+   "date": "October 6, 2026",
+   "iso": "2026-10-06",
+   "location": "nanjing, Jiangsu, China",
+   "instructor": "Bo Du",
+   "instructor_id": "17461"
   },
   {
    "cid": "35769",
@@ -3501,6 +3465,24 @@
    "location": "Cabo de Palos, Spain",
    "instructor": "Ricardo Constantino",
    "instructor_id": "1591"
+  },
+  {
+   "cid": "37171",
+   "course": "Doubles Primer",
+   "date": "November 10, 2026",
+   "iso": "2026-11-10",
+   "location": "Pintung, PingTung County, Taiwan",
+   "instructor": "Liu Yen Chun",
+   "instructor_id": "27215"
+  },
+  {
+   "cid": "37172",
+   "course": "Doubles Primer",
+   "date": "November 10, 2026",
+   "iso": "2026-11-10",
+   "location": "Pintung, PingTung County, Taiwan",
+   "instructor": "Liu Yen Chun",
+   "instructor_id": "27215"
   },
   {
    "cid": "36812",
@@ -5240,6 +5222,15 @@
    "instructor_id": "9662"
   },
   {
+   "cid": "37177",
+   "course": "Cave Diver 2",
+   "date": "March 1, 2027",
+   "iso": "2027-03-01",
+   "location": "Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Emőke Wagner",
+   "instructor_id": "20747"
+  },
+  {
    "cid": "35664",
    "course": "CCR Fundamentals: Symbios",
    "date": "March 6, 2027",
@@ -5276,6 +5267,15 @@
    "instructor_id": "12073"
   },
   {
+   "cid": "37178",
+   "course": "GUE Technical Fundamentals",
+   "date": "March 8, 2027",
+   "iso": "2027-03-08",
+   "location": "Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Emőke Wagner",
+   "instructor_id": "20747"
+  },
+  {
    "cid": "36931",
    "course": "Master Diver",
    "date": "March 8, 2027",
@@ -5294,6 +5294,15 @@
    "instructor_id": "12073"
   },
   {
+   "cid": "37179",
+   "course": "DPV Diver 1",
+   "date": "March 14, 2027",
+   "iso": "2027-03-14",
+   "location": "Playa Del Carmen, Quintana Roo, Mexico",
+   "instructor": "Emőke Wagner",
+   "instructor_id": "20747"
+  },
+  {
    "cid": "37128",
    "course": "Cave Diver 1",
    "date": "March 15, 2027",
@@ -5310,6 +5319,15 @@
    "location": "Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "John Kendall",
    "instructor_id": "1956"
+  },
+  {
+   "cid": "37180",
+   "course": "GUE Basic Fundamentals",
+   "date": "March 15, 2027",
+   "iso": "2027-03-15",
+   "location": "Playa Del Carmen, Quintana Roo, Mexico",
+   "instructor": "Emőke Wagner",
+   "instructor_id": "20747"
   },
   {
    "cid": "35899",
@@ -5366,6 +5384,24 @@
    "instructor_id": "13377"
   },
   {
+   "cid": "37181",
+   "course": "Cave Diver 2",
+   "date": "March 29, 2027",
+   "iso": "2027-03-29",
+   "location": "Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Emőke Wagner",
+   "instructor_id": "20747"
+  },
+  {
+   "cid": "37176",
+   "course": "GUE Technical Fundamentals",
+   "date": "March 29, 2027",
+   "iso": "2027-03-29",
+   "location": "Highsprings , Florida, United States",
+   "instructor": "Stretch Aaron Altenhein",
+   "instructor_id": "10004"
+  },
+  {
    "cid": "36847",
    "course": "Documentation Diver",
    "date": "April 2, 2027",
@@ -5418,6 +5454,15 @@
    "location": "Dormagen, Germany",
    "instructor": "Sebastian Von Koss",
    "instructor_id": "20802"
+  },
+  {
+   "cid": "37182",
+   "course": "Cave Diver 1",
+   "date": "April 12, 2027",
+   "iso": "2027-04-12",
+   "location": "Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Emőke Wagner",
+   "instructor_id": "20747"
   },
   {
    "cid": "37131",
