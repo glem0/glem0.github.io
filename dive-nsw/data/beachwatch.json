@@ -215,8 +215,8 @@
         },
         "properties": {
           "id": "0d0ff9bb-cd49-4557-8f1b-c818e43d20d7",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Bilarong Reserve"
         },
@@ -317,8 +317,8 @@
         },
         "properties": {
           "id": "8990825d-b48c-443f-9047-862a0b986621",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Unlikely",
           "siteName": "Boat Harbour"
         },
@@ -1322,7 +1322,7 @@
           "id": "988c4cd3-eeff-4d2d-813c-2731490b0f01",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Foreshores Beach"
         },
         "type": "Feature"
@@ -1951,7 +1951,7 @@
           "id": "93ec689a-b568-4cef-8c51-1eaafbbb51a5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Long Reef Beach"
         },
         "type": "Feature"
@@ -2374,9 +2374,9 @@
         },
         "properties": {
           "id": "f05ac321-7e70-4c4a-99cd-cc0f8a0acb5d",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
-          "pollutionForecast": "Possible",
+          "latestResult": "Good",
+          "latestResultRating": 4,
+          "pollutionForecast": "Unlikely",
           "siteName": "Narrabeen Lagoon (Birdwood Park)"
         },
         "type": "Feature"
@@ -2495,7 +2495,7 @@
           "id": "7f188718-1e97-404e-81cf-1bd72927015d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "North Curl Curl Beach"
         },
         "type": "Feature"
@@ -2527,8 +2527,8 @@
         },
         "properties": {
           "id": "79eb1688-05c6-491a-9eaa-cbe3811a7f3d",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "North Narrabeen Beach"
         },
@@ -2954,7 +2954,7 @@
           "id": "93c7a40f-bf76-420d-9c53-2435adda70b9",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Rose Bay Beach"
         },
         "type": "Feature"
