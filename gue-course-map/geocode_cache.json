@@ -2117,5 +2117,28 @@
   "matched_query": "honoratka,",
   "approx": false,
   "verified": false
+ },
+ "monaco, monaco, monaco": {
+  "lat": 43.7309697,
+  "lng": 7.4248152,
+  "display": "Monaco",
+  "country": "mc",
+  "matched_query": "monaco, monaco, monaco",
+  "approx": false,
+  "verified": true
+ },
+ "puertp aventuras, mexico": {
+  "lat": 20.5066683,
+  "lng": -87.2300626,
+  "display": "Ciudad Aventuras, Playa del Carmen, Quintana Roo, México",
+  "matched_query": "Puerto Aventuras , Mexico",
+  "alias_of": "puerto aventuras , mexico"
+ },
+ "zürich , switzerland": {
+  "lat": 47.3744489,
+  "lng": 8.5410422,
+  "display": "Zürich, Bezirk Zürich, Zürich, Schweiz/Suisse/Svizzera/Svizra",
+  "matched_query": "Zurich, Switzerland",
+  "alias_of": "zurich, switzerland"
  }
 }
