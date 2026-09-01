@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-01T08:01:09+10:00",
+ "generated_at": "2026-09-02T06:02:51+10:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-09-01",
@@ -28,7 +28,7 @@
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 235
+   "event_count": 233
   },
   {
    "id": "divesydney",
@@ -44,7 +44,7 @@
    "short": "ProDive",
    "url": "https://www.prodive.com.au/Calendar.asp?Scubadive=Sydney",
    "status": "ok",
-   "event_count": 427
+   "event_count": 426
   },
   {
    "id": "divecharters",
@@ -66,16 +66,6 @@
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
-   "id": "prodive-0d451f1a3791",
-   "source": "prodive",
-   "title": "Scuba Hire Click & Collect",
-   "start": "2026-09-01T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
-   "location": "ProDive Manly",
-   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
-  },
-  {
    "id": "divecharters-6de20c3c1d51",
    "source": "divecharters",
    "title": "DSD - Discover Scuba Dive - Hire Gear Included",
@@ -83,22 +73,6 @@
    "all_day": true,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-02#326@book@",
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
-  },
-  {
-   "id": "divebondi-0aae814e03dc",
-   "source": "divebondi",
-   "title": "Refresher Course (sold out)",
-   "start": "2026-09-02T09:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-09-02&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-264f80e971c0",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-09-02T09:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-09-02&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
    "id": "prodive-cc3ca29b0d75",
@@ -1500,6 +1474,14 @@
    "description": "$2595.00 · Abyss Vanuatu Dive Trips · Vanuatu dive trips with warm reefs, turtles and island time."
   },
   {
+   "id": "divesydney-dd82966943f6",
+   "source": "divesydney",
+   "title": "Discover Scuba Diving - PADI (sold out)",
+   "start": "2026-09-18",
+   "all_day": true,
+   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-09-18&preferredTime=All+day&catalogId=494484"
+  },
+  {
    "id": "divecharters-656e0d5d276a",
    "source": "divecharters",
    "title": "Freediving / Snorkeling",
@@ -1609,14 +1591,6 @@
    "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
    "location": "ProDive Alexandria",
    "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again. Dive Site: Freshwater** Rating: Open Water Diver(20m) Depth: 18"
-  },
-  {
-   "id": "divesydney-87e36faf906c",
-   "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
-   "start": "2026-09-18T14:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-09-18&preferredTime=2%3A00+PM&catalogId=494484"
   },
   {
    "id": "divesydney-c9277776c110",
