@@ -2140,5 +2140,23 @@
   "display": "Zürich, Bezirk Zürich, Zürich, Schweiz/Suisse/Svizzera/Svizra",
   "matched_query": "Zurich, Switzerland",
   "alias_of": "zurich, switzerland"
+ },
+ "los angeles/ventura counties , california, united states": {
+  "lat": 36.7014631,
+  "lng": -118.755997,
+  "display": "California, United States",
+  "country": "us",
+  "matched_query": "california, united states",
+  "approx": true,
+  "verified": true
+ },
+ "st. prex, vaud, switzerland": {
+  "lat": 46.4809059,
+  "lng": 6.4586004,
+  "display": "Saint-Prex, District de Morges, Vaud, 1162, Schweiz/Suisse/Svizzera/Svizra",
+  "country": "ch",
+  "matched_query": "st. prex, vaud, switzerland",
+  "approx": false,
+  "verified": true
  }
 }

@@ -1,33 +1,6 @@
 {
- "updated": "2026-08-31T22:01:30Z",
+ "updated": "2026-09-01T20:08:21Z",
  "classes": [
-  {
-   "cid": "37094",
-   "course": "Drysuit Primer",
-   "date": "September 1, 2026",
-   "iso": "2026-09-01",
-   "location": "Shanghai, Shanghai, China",
-   "instructor": "Yanbin Wu",
-   "instructor_id": "23172"
-  },
-  {
-   "cid": "36727",
-   "course": "GUE Basic Fundamentals",
-   "date": "September 1, 2026",
-   "iso": "2026-09-01",
-   "location": "sabang, Philippines",
-   "instructor": "Jingwei Sun",
-   "instructor_id": "70762"
-  },
-  {
-   "cid": "35837",
-   "course": "Technical Diver 1",
-   "date": "September 1, 2026",
-   "iso": "2026-09-01",
-   "location": "Finale Ligure, Savona, Italy",
-   "instructor": "Maximilian Fahr",
-   "instructor_id": "66486"
-  },
   {
    "cid": "35194",
    "course": "CCR Fundamentals: JJ-CCR",
@@ -587,6 +560,15 @@
    "instructor_id": "12073"
   },
   {
+   "cid": "37242",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "September 11, 2026",
+   "iso": "2026-09-11",
+   "location": "St. Prex, Vaud, Switzerland",
+   "instructor": "Richard Spikings",
+   "instructor_id": "21570"
+  },
+  {
    "cid": "37065",
    "course": "Doubles Primer",
    "date": "September 12, 2026",
@@ -756,15 +738,6 @@
    "location": "Victoria, British Columbia, Canada",
    "instructor": "Jason Cook",
    "instructor_id": "24473"
-  },
-  {
-   "cid": "30756",
-   "course": "Technical Diver 1",
-   "date": "September 13, 2026",
-   "iso": "2026-09-13",
-   "location": "Krnica, Istria county, Croatia",
-   "instructor": "Sven Nelles",
-   "instructor_id": "7698"
   },
   {
    "cid": "37081",
@@ -1136,6 +1109,15 @@
    "instructor_id": "17461"
   },
   {
+   "cid": "37239",
+   "course": "GUE Technical Fundamentals",
+   "date": "September 20, 2026",
+   "iso": "2026-09-20",
+   "location": "Osezaki, Shizuoka, Japan",
+   "instructor": "Yousuke Ogiwara",
+   "instructor_id": "20059"
+  },
+  {
    "cid": "37023",
    "course": "GUE Technical Fundamentals",
    "date": "September 20, 2026",
@@ -1244,6 +1226,15 @@
    "instructor_id": "10004"
   },
   {
+   "cid": "37241",
+   "course": "Doubles Primer",
+   "date": "September 21, 2026",
+   "iso": "2026-09-21",
+   "location": "Singapore, Singapore",
+   "instructor": "Zicong Wang",
+   "instructor_id": "73430"
+  },
+  {
    "cid": "36115",
    "course": "GUE Technical Fundamentals",
    "date": "September 21, 2026",
@@ -1316,15 +1307,6 @@
    "instructor_id": "20747"
   },
   {
-   "cid": "37187",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "September 22, 2026",
-   "iso": "2026-09-22",
-   "location": "Pintung, PingTung County, Taiwan",
-   "instructor": "Liu Yen Chun",
-   "instructor_id": "27215"
-  },
-  {
    "cid": "34212",
    "course": "GUE Performance Diver",
    "date": "September 23, 2026",
@@ -1368,6 +1350,15 @@
    "location": "Tilburg, Noord-Brabant, Netherlands",
    "instructor": "Paul Berkhout",
    "instructor_id": "15580"
+  },
+  {
+   "cid": "36655",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "September 24, 2026",
+   "iso": "2026-09-24",
+   "location": "Dahab , Janub Sina', Egypt",
+   "instructor": "Ahmed Hagi",
+   "instructor_id": "69051"
   },
   {
    "cid": "36333",
@@ -1793,15 +1784,6 @@
    "instructor_id": "25255"
   },
   {
-   "cid": "37025",
-   "course": "Doubles Primer",
-   "date": "October 2, 2026",
-   "iso": "2026-10-02",
-   "location": "pingtung, PingTung County, Taiwan",
-   "instructor": "Liu Yen Chun",
-   "instructor_id": "27215"
-  },
-  {
    "cid": "36120",
    "course": "GUE Basic Fundamentals",
    "date": "October 2, 2026",
@@ -2117,6 +2099,15 @@
    "instructor_id": "12073"
   },
   {
+   "cid": "37025",
+   "course": "Doubles Primer",
+   "date": "October 9, 2026",
+   "iso": "2026-10-09",
+   "location": "pingtung, PingTung County, Taiwan",
+   "instructor": "Liu Yen Chun",
+   "instructor_id": "27215"
+  },
+  {
    "cid": "36572",
    "course": "GUE Basic Fundamentals",
    "date": "October 9, 2026",
@@ -2160,6 +2151,15 @@
    "location": "Guangzhou, Guangdong, China",
    "instructor": "Xuan Chen",
    "instructor_id": "20926"
+  },
+  {
+   "cid": "37240",
+   "course": "Doubles Primer",
+   "date": "October 10, 2026",
+   "iso": "2026-10-10",
+   "location": "Los Angeles/Ventura Counties , California, United States",
+   "instructor": "Tom Figueroa",
+   "instructor_id": "17242"
   },
   {
    "cid": "34673",
@@ -2583,6 +2583,15 @@
    "location": "Dahab, Egypt",
    "instructor": "Mahmoud Esmat",
    "instructor_id": "65259"
+  },
+  {
+   "cid": "30756",
+   "course": "Technical Diver 1",
+   "date": "October 19, 2026",
+   "iso": "2026-10-19",
+   "location": "Krnica, Istria county, Croatia",
+   "instructor": "Sven Nelles",
+   "instructor_id": "7698"
   },
   {
    "cid": "36581",
@@ -3330,15 +3339,6 @@
    "location": "Cabo de Palos, Spain",
    "instructor": "Ricardo Constantino",
    "instructor_id": "1591"
-  },
-  {
-   "cid": "37171",
-   "course": "Doubles Primer",
-   "date": "November 10, 2026",
-   "iso": "2026-11-10",
-   "location": "Pintung, PingTung County, Taiwan",
-   "instructor": "Liu Yen Chun",
-   "instructor_id": "27215"
   },
   {
    "cid": "37172",
@@ -4889,6 +4889,24 @@
    "instructor_id": "21332"
   },
   {
+   "cid": "23539",
+   "course": "Scientific Diver",
+   "date": "February 11, 2027",
+   "iso": "2027-02-11",
+   "location": "Helsinki, Finland",
+   "instructor": "Erik Wurz",
+   "instructor_id": "25873"
+  },
+  {
+   "cid": "37192",
+   "course": "Drysuit Primer",
+   "date": "February 14, 2027",
+   "iso": "2027-02-14",
+   "location": "Dahab, Egypt",
+   "instructor": "Jennifer Thomson",
+   "instructor_id": "68474"
+  },
+  {
    "cid": "35666",
    "course": "CCR Cave",
    "date": "February 15, 2027",
@@ -4934,15 +4952,6 @@
    "instructor_id": "20747"
   },
   {
-   "cid": "37192",
-   "course": "Drysuit Primer",
-   "date": "February 15, 2027",
-   "iso": "2027-02-15",
-   "location": "Dahab, Egypt",
-   "instructor": "Jennifer Thomson",
-   "instructor_id": "68474"
-  },
-  {
    "cid": "36656",
    "course": "CCR Technical Diver 1: JJ-CCR",
    "date": "February 17, 2027",
@@ -4950,15 +4959,6 @@
    "location": "Dahab, Janub Sina', Egypt",
    "instructor": "Sameh Sokar",
    "instructor_id": "18431"
-  },
-  {
-   "cid": "37193",
-   "course": "Doubles Primer",
-   "date": "February 18, 2027",
-   "iso": "2027-02-18",
-   "location": "Dahab, Egypt",
-   "instructor": "Jennifer Thomson",
-   "instructor_id": "68474"
   },
   {
    "cid": "34686",
@@ -5868,6 +5868,15 @@
    "location": "Plura - Røyrvik, Nordland, Norway",
    "instructor": "Annika Persson",
    "instructor_id": "9662"
+  },
+  {
+   "cid": "30799",
+   "course": "GUE Basic Fundamentals",
+   "date": "July 6, 2027",
+   "iso": "2027-07-06",
+   "location": "Glavotok on Krk, Istria county, Croatia",
+   "instructor": "Erik Wurz",
+   "instructor_id": "25873"
   },
   {
    "cid": "37138",
