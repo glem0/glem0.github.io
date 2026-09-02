@@ -2158,5 +2158,14 @@
   "matched_query": "st. prex, vaud, switzerland",
   "approx": false,
   "verified": true
+ },
+ "tilburg , noord-brabant, netherlands": {
+  "lat": 51.5856185,
+  "lng": 5.0660616,
+  "display": "Tilburg, Noord-Brabant, Nederland",
+  "country": "nl",
+  "matched_query": "tilburg , noord-brabant, netherlands",
+  "approx": false,
+  "verified": true
  }
 }

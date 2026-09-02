@@ -263,6 +263,7 @@ window.GUE_GEO = {
 "thetford mines, quebec, canada":[46.09133,-71.30127],
 "third dimension diving, tulum, mexico":[20.42965,-87.65293],
 "third dimension diving, tulum, quintana roo, mexico":[20.42965,-87.65293],
+"tilburg , noord-brabant, netherlands":[51.58562,5.06606],
 "tilburg, netherlands":[51.58562,5.06606],
 "tilburg, noord-brabant, netherlands":[51.58562,5.06606],
 "tilburg-breda, noord-brabant, netherlands":[51.58965,4.73681],
