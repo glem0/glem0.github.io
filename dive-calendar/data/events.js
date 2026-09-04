@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-09-04T06:01:24+10:00",
+ "generated_at": "2026-09-05T05:46:33+10:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-09-01",
@@ -13,7 +13,7 @@ window.__DIVE_DATA__ =
    "short": "Abyss",
    "url": "https://www.abyss.com.au/sydney-dive-calendar",
    "status": "ok",
-   "event_count": 127
+   "event_count": 126
   },
   {
    "id": "frogdive",
@@ -29,7 +29,7 @@ window.__DIVE_DATA__ =
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 232
+   "event_count": 229
   },
   {
    "id": "divesydney",
@@ -37,7 +37,7 @@ window.__DIVE_DATA__ =
    "short": "DC Manly",
    "url": "https://divesydney.com.au/dive-calendar/",
    "status": "ok",
-   "event_count": 553
+   "event_count": 550
   },
   {
    "id": "prodive",
@@ -45,7 +45,7 @@ window.__DIVE_DATA__ =
    "short": "ProDive",
    "url": "https://www.prodive.com.au/Calendar.asp?Scubadive=Sydney",
    "status": "ok",
-   "event_count": 428
+   "event_count": 420
   },
   {
    "id": "divecharters",
@@ -53,7 +53,7 @@ window.__DIVE_DATA__ =
    "short": "Charters",
    "url": "https://www.sydneydivecharters.com.au/bookings/",
    "status": "ok",
-   "event_count": 192
+   "event_count": 235
   }
  ],
  "events": [
@@ -103,16 +103,6 @@ window.__DIVE_DATA__ =
    "description": "A$199.00"
   },
   {
-   "id": "prodive-026e31a51c1b",
-   "source": "prodive",
-   "title": "Double boat dive - ( you must book with a buddy)",
-   "start": "2026-09-04T07:30+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Boat+Dives/Double+boat+dive+-+(+you+must+book+with+a+buddy)+-+Sydney+-+Manly/1770",
-   "location": "ProDive Manly",
-   "description": "$130.00 · This is for those who prefer to dive unguided and bring all there own gear. There is no option to add gear , you will also need to bring a buddy. We will supply the boat, a dive briefing and refresments. This trip will allow for 2x 60min dives with out having to deal the hassels of diving with a group Dive Site: Long Reef/The Apartments - Shark Dive** Rating: Open Water Diver(20m) Depth: 25m"
-  },
-  {
    "id": "divecharters-2bb9b4d3a737",
    "source": "divecharters",
    "title": "Tec45/T1 Dives - Friday 7.30am Departure Rose Bay",
@@ -122,113 +112,19 @@ window.__DIVE_DATA__ =
    "description": "A$170.00 · Week day morning Tec 1 Dives depart at 0700am from Rose Bay wharf. Little Manly pickup available on request at checkout booking form. Dive depths are between 40-51metres dependent on the depth of the wreck of the day. ***Sydney Dive Charters caters for open circuit, CCR, side mount and scooters. Numbers on board are limited to 8. ***…"
   },
   {
-   "id": "prodive-0ce81d115d69",
-   "source": "prodive",
-   "title": "Sydney Double Boat Dive",
-   "start": "2026-09-04T07:45+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Boat+Dives/Sydney+Double+Boat+Dive+-+Sydney+-+Manly/240",
-   "location": "ProDive Manly",
-   "description": "$199.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Long Reef/The Apartments - Shark Dive** Rating: Open Water Diver(20m) Depth: 25m"
+   "id": "divecharters-4e6a0081f930",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-09-05",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-05#508@book@",
+   "description": "A$199.00"
   },
   {
-   "id": "prodive-9dbb061f8861",
-   "source": "prodive",
-   "title": "Guided Shore Dives (Double Dive)",
-   "start": "2026-09-04T08:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Shore+Dives/Guided+Shore+Dives+(Double+Dive)+-+Sydney+-+Alexandria/1046",
-   "location": "ProDive Alexandria",
-   "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Shelly Beach ( Cabbage Tree Bay)** Rating: Open Water Diver(20m) Depth: 14m"
-  },
-  {
-   "id": "abyss-86c948730014",
+   "id": "abyss-cae8cc931cc3",
    "source": "abyss",
-   "title": "Avelo 4 sep",
-   "start": "2026-09-04T09:15+10:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/avelo-dive-course",
-   "description": "$699.00 · Avelo Dive Course · Avelo Dive Course"
-  },
-  {
-   "id": "prodive-cbdd07432c51",
-   "source": "prodive",
-   "title": "Scuba Hire Click & Collect",
-   "start": "2026-09-04T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
-   "location": "ProDive Manly",
-   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
-  },
-  {
-   "id": "prodive-51f849071799",
-   "source": "prodive",
-   "title": "Discover Scuba at Shelly Beach",
-   "start": "2026-09-04T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Scuba+Introductory+Dive/Discover+Scuba+at+Shelly+Beach+-+Sydney+-+Manly/1727",
-   "location": "ProDive Manly",
-   "description": "$249.00 · Come and discover the enchanting realm of our underwater world! Our PRO DIVE Try a Dive program offers individuals without scuba diving certification the opportunity to experience the excitement and adventure of diving, all while under the guidance of one of our expert PRO DIVE Instructors."
-  },
-  {
-   "id": "prodive-54a551b3401a",
-   "source": "prodive",
-   "title": "Refresher Scuba Dive",
-   "start": "2026-09-04T12:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
-   "location": "ProDive Alexandria",
-   "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again. Dive Site: Shelly Beach ( Cabbage Tree Bay)** Rating: Open Water Diver(20m) Depth: 14m"
-  },
-  {
-   "id": "divesydney-c5ff76d138ed",
-   "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
-   "start": "2026-09-04T14:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-09-04&preferredTime=2%3A00+PM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-9ea9002c7c7d",
-   "source": "divesydney",
-   "title": "Snorkel Safari",
-   "start": "2026-09-04T14:30+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-09-04&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "prodive-b6334fe3f879",
-   "source": "prodive",
-   "title": "PRO DIVE Open Water Weekend Scuba Diving Course",
-   "start": "2026-09-04T18:30+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Openwater+Courses/PRO+DIVE+Open+Water+Weekend+Scuba+Diving+Course+-+Sydney+-+Alexandria/1075",
-   "location": "ProDive Alexandria",
-   "description": "$399.00 · Dive Course to 20m [Beginner Level] Multiple Start Dates [2 per week] Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
-  },
-  {
-   "id": "prodive-26f8c2532646",
-   "source": "prodive",
-   "title": "PRO DIVE Openwater Weekend Scuba Diving Course",
-   "start": "2026-09-04T18:30+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Openwater+Courses/PRO+DIVE+Openwater+Weekend+Scuba+Diving+Course+-+Sydney+-+Manly/1207",
-   "location": "ProDive Manly",
-   "description": "$399.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
-  },
-  {
-   "id": "divebondi-3511c9ae7585",
-   "source": "divebondi",
-   "title": "Guided Bushrangers Bay (sold out)",
+   "title": "SS Tuggerah",
    "start": "2026-09-05T06:30+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-09-05&preferredTime=6%3A30+AM&catalogId=597076"
-  },
-  {
-   "id": "abyss-654ba040a836",
-   "source": "abyss",
-   "title": "SS Tuggerah (sold out)",
-   "start": "2026-09-05T07:00+10:00",
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/tech-boat-dives",
    "description": "$120.00 · Tech Boat Dives · SS Tuggerah - 46m Tec Must be Tec certified, Sans Souci pick up"
@@ -264,22 +160,6 @@ window.__DIVE_DATA__ =
    "description": "$599.00 · PADI Rescue Diver Course | Enhance Safety & Confidence in Diving · Rescue Diver"
   },
   {
-   "id": "divebondi-17df3d973642",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-09-05T08:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-09-05&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-a15e923cf0fc",
-   "source": "divebondi",
-   "title": "Refresher Course",
-   "start": "2026-09-05T08:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-09-05&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "prodive-a87aa02ac72a",
    "source": "prodive",
    "title": "Guided Shore Dives (Double Dive)",
@@ -288,23 +168,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Shore+Dives/Guided+Shore+Dives+(Double+Dive)+-+Sydney+-+Alexandria/1046",
    "location": "ProDive Alexandria",
    "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Freshwater** Rating: Open Water Diver(20m) Depth: 18"
-  },
-  {
-   "id": "divecharters-f04f40a15de8",
-   "source": "divecharters",
-   "title": "8am Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
-   "start": "2026-09-05T08:00+10:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-05#19@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
-  },
-  {
-   "id": "divesydney-a8d1c954fba7",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-09-05T09:00+10:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-09-05&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
    "id": "prodive-8da662c53144",
@@ -373,6 +236,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-09-05&preferredTime=2%3A00+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-42d4267cc24d",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-09-06",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-06#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "prodive-665986a362cd",
    "source": "prodive",
    "title": "Double boat dive - ( you must book with a buddy)",
@@ -423,13 +295,13 @@ window.__DIVE_DATA__ =
    "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: North Bondi** Rating: Open Water Diver(20m) Depth: 22m"
   },
   {
-   "id": "divecharters-03ab34c04a1d",
+   "id": "divecharters-e2a84f5460fb",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2026-09-06T08:00+10:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-06#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "abyss-d41e77fb8660",
@@ -855,6 +727,15 @@ window.__DIVE_DATA__ =
    "description": "$399.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
+   "id": "divecharters-4486bcd3eb2d",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-09-12",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-12#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-2cb521163a41",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -1022,6 +903,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-09-12&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-e6bb07602273",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-09-13",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-13#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "prodive-26b71a6e9181",
    "source": "prodive",
    "title": "Double boat dive - ( you must book with a buddy)",
@@ -1068,13 +958,13 @@ window.__DIVE_DATA__ =
    "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Shelly Beach ( Cabbage Tree Bay)** Rating: Open Water Diver(20m) Depth: 14m"
   },
   {
-   "id": "divecharters-a157e10a8f10",
+   "id": "divecharters-87b01e24db28",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2026-09-13T08:00+10:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-13#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divebondi-565c31867fee",
@@ -1518,9 +1408,18 @@ window.__DIVE_DATA__ =
    "description": "$399.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
-   "id": "abyss-3b6e7cae2e7b",
+   "id": "divecharters-450ed66f233f",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-09-19",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-19#508@book@",
+   "description": "A$199.00"
+  },
+  {
+   "id": "abyss-0e3151b353b4",
    "source": "abyss",
-   "title": "Chinese Montague Island Trip",
+   "title": "Chinese Montague Island Trip (sold out)",
    "start": "2026-09-19T07:00+10:00",
    "all_day": false,
    "end": "2026-09-20",
@@ -1699,6 +1598,15 @@ window.__DIVE_DATA__ =
    "start": "2026-09-19T14:30+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-09-19&preferredTime=2%3A30+PM&catalogId=494484"
+  },
+  {
+   "id": "divecharters-fae6c2555dba",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-09-20",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-20#508@book@",
+   "description": "A$199.00"
   },
   {
    "id": "divebondi-5971c913f546",
@@ -2224,6 +2132,15 @@ window.__DIVE_DATA__ =
    "description": "$1495.00 · The PRO DIVE Divemaster Course is a practical based program where you will learn to run and lead, shore dives, boat dives, weekend and overseas dive trips as well as assist on dive courses. A tailored itinerary will be put together for you, so you can meet the course requirements. This course is available either on a part time or full time basis."
   },
   {
+   "id": "divecharters-c8402c3649ff",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-09-26",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-26#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-b3bcc7e129e6",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -2279,9 +2196,9 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-09-26&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-3bc310c9bee9",
+   "id": "divebondi-6194cf3fc718",
    "source": "divebondi",
-   "title": "PADI Open Water Diver Course",
+   "title": "PADI Open Water Diver Course (sold out)",
    "start": "2026-09-26T08:00+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-09-26&preferredTime=8%3A00+AM&catalogId=597076"
@@ -2440,6 +2357,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-09-26&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-11f88d045516",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-09-27",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-27#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "prodive-7d9a9fd72a03",
    "source": "prodive",
    "title": "Double boat dive - ( you must book with a buddy)",
@@ -2479,13 +2405,13 @@ window.__DIVE_DATA__ =
    "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Shelly Beach ( Cabbage Tree Bay)** Rating: Open Water Diver(20m) Depth: 14m"
   },
   {
-   "id": "divecharters-a2cdb7a47d17",
+   "id": "divecharters-661d98cf4430",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2026-09-27T08:00+10:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-27#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divebondi-0b15e5903ee1",
@@ -2889,6 +2815,15 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
+   "id": "divecharters-e34bb0b75989",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-10-03",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-03#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "abyss-142bef9f0d77",
    "source": "abyss",
    "title": "Shell harbour shark 3 oct",
@@ -3089,6 +3024,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-03&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-31a756b0eb35",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-10-04",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-04#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-4c2f50eed4b4",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay (sold out)",
@@ -3126,13 +3070,13 @@ window.__DIVE_DATA__ =
    "description": "$79.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: North Bondi** Rating: Open Water Diver(20m) Depth: 22m"
   },
   {
-   "id": "divecharters-e95afcc94478",
+   "id": "divecharters-6091e6c73bd6",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2026-10-04T08:00+11:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-04#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-acdb405817e3",
@@ -3557,6 +3501,15 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
+   "id": "divecharters-8868af019764",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-10-10",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-10#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-2b8477962c5a",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -3734,6 +3687,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-10&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-55fd2eefe2b4",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-10-11",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-11#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "frogdive-8952698cc4d8",
    "source": "frogdive",
    "title": "TREASURE HUNT",
@@ -3783,13 +3745,13 @@ window.__DIVE_DATA__ =
    "description": "$79.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Shelly Beach ( Cabbage Tree Bay)** Rating: Open Water Diver(20m) Depth: 14m"
   },
   {
-   "id": "divecharters-95fb56f95970",
+   "id": "divecharters-1636fd6054d7",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2026-10-11T08:00+11:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-11#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divebondi-3df41f49dd70",
@@ -4257,6 +4219,15 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
+   "id": "divecharters-dd7a63b85307",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-10-17",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-17#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "frogdive-16b8500cf6db",
    "source": "frogdive",
    "title": "SHORE DIVE SHELLY BEACH",
@@ -4474,6 +4445,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-17&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-f4b9c443fcdc",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-10-18",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-18#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-d50583d73c03",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -4502,13 +4482,13 @@ window.__DIVE_DATA__ =
    "description": "$79.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Bare Island** Rating: Open Water Diver(20m) Depth: 20m"
   },
   {
-   "id": "divecharters-da84e1a5e2cf",
+   "id": "divecharters-02d84aa056a6",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2026-10-18T08:00+11:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-18#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "abyss-75d573b7224c",
@@ -4937,6 +4917,15 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
+   "id": "divecharters-8bac6b524286",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-10-24",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-24#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-a522e244d9ff",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -5133,6 +5122,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-24&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-fd6c63ac157a",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-10-25",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-25#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "frogdive-5f712bdd3dc7",
    "source": "frogdive",
    "title": "SHORE DIVE CLIFTON GARDENS",
@@ -5173,13 +5171,13 @@ window.__DIVE_DATA__ =
    "description": "$79.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Shelly Beach ( Cabbage Tree Bay)** Rating: Open Water Diver(20m) Depth: 14m"
   },
   {
-   "id": "divecharters-62ca80955641",
+   "id": "divecharters-c69cc5e62c7a",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2026-10-25T08:00+11:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-25#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divebondi-aadd5d401220",
@@ -5251,9 +5249,9 @@ window.__DIVE_DATA__ =
    "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again."
   },
   {
-   "id": "divesydney-68f47c2b30af",
+   "id": "divesydney-14f4b6c21d26",
    "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
+   "title": "Discover Scuba Diving - PADI (sold out)",
    "start": "2026-10-25T14:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-10-25&preferredTime=2%3A00+PM&catalogId=494484"
@@ -5628,6 +5626,15 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
+   "id": "divecharters-0d06fef580ec",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-10-31",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-31#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-f6d97a4d21b2",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -5800,6 +5807,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-31&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-7113cbfac366",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-11-01",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-01#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-51f70d4ff2ba",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -5837,13 +5853,13 @@ window.__DIVE_DATA__ =
    "description": "$79.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Gordons Bay** Rating: Open Water Diver(20m) Depth: 14m"
   },
   {
-   "id": "divecharters-d1f1e5f5cd30",
+   "id": "divecharters-235187a778d4",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2026-11-01T08:00+11:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-01#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divebondi-f142f17f47be",
@@ -6336,6 +6352,15 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=434000&preferredDate=2026-11-07&preferredTime=All+day&catalogId=597076"
   },
   {
+   "id": "divecharters-417808d1bd3f",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-11-07",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-07#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-f30ecd803278",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -6542,6 +6567,15 @@ window.__DIVE_DATA__ =
    "description": "$99.00 · Social Events · Enjoy a 3-course sit-down dinner with great company."
   },
   {
+   "id": "divecharters-c6f78216229c",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-11-08",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-08#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "prodive-0c9108d24013",
    "source": "prodive",
    "title": "Sydney Double Boat Dive",
@@ -6580,13 +6614,13 @@ window.__DIVE_DATA__ =
    "description": "$79.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Shelly Beach ( Cabbage Tree Bay)** Rating: Open Water Diver(20m) Depth: 14m"
   },
   {
-   "id": "divecharters-b693366f26fb",
+   "id": "divecharters-ce92eaaf8212",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2026-11-08T08:00+11:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-08#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divebondi-945b9a57db5e",
@@ -7096,6 +7130,15 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
+   "id": "divecharters-84bdd119eb9a",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-11-14",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-14#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-4bc72598d3c4",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -7284,6 +7327,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-14&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-7bc7415a894a",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-11-15",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-15#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-fcbd8f58f64e",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -7329,13 +7381,13 @@ window.__DIVE_DATA__ =
    "description": "$79.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Bare Island** Rating: Open Water Diver(20m) Depth: 20m"
   },
   {
-   "id": "divecharters-7a91c1c7d92a",
+   "id": "divecharters-84c3d00c9a3b",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2026-11-15T08:00+11:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-15#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-49fd2127df61",
@@ -7820,6 +7872,15 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
+   "id": "divecharters-35c0322393fb",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-11-21",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-21#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-73662fd7f2ae",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -8037,6 +8098,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-21&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-9a2bf92e5132",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-11-22",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-22#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-cc4811ea5d96",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -8074,13 +8144,13 @@ window.__DIVE_DATA__ =
    "description": "$79.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Shelly Beach ( Cabbage Tree Bay)** Rating: Open Water Diver(20m) Depth: 14m"
   },
   {
-   "id": "divecharters-afbe2b505484",
+   "id": "divecharters-0a45f2ccd14f",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2026-11-22T08:00+11:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-22#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divebondi-4a63aef08aba",
@@ -8599,6 +8669,15 @@ window.__DIVE_DATA__ =
    "description": "$1495.00 · The PRO DIVE Divemaster Course is a practical based program where you will learn to run and lead, shore dives, boat dives, weekend and overseas dive trips as well as assist on dive courses. A tailored itinerary will be put together for you, so you can meet the course requirements. This course is available either on a part time or full time basis."
   },
   {
+   "id": "divecharters-da8fa3356080",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-11-28",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-28#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-f886cc791979",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -8779,6 +8858,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-28&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-72c1b1152949",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-11-29",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-29#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-e6f8c51ef181",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -8816,13 +8904,13 @@ window.__DIVE_DATA__ =
    "description": "$79.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: North Bondi** Rating: Open Water Diver(20m) Depth: 22m"
   },
   {
-   "id": "divecharters-fc589f174a94",
+   "id": "divecharters-ceb75e604b68",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2026-11-29T08:00+11:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-29#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divebondi-13696579b17d",
@@ -9297,6 +9385,15 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
+   "id": "divecharters-c77b66d0b114",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-12-05",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-05#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-fdede8e6ddfb",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -9469,6 +9566,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-12-05&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-a9e1c214109a",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-12-06",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-06#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "prodive-139659a5a36d",
    "source": "prodive",
    "title": "Sydney Double Boat Dive",
@@ -9489,13 +9595,13 @@ window.__DIVE_DATA__ =
    "description": "$79.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Shelly Beach ( Cabbage Tree Bay)** Rating: Open Water Diver(20m) Depth: 14m"
   },
   {
-   "id": "divecharters-4c7097be0653",
+   "id": "divecharters-1fab53258fe9",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2026-12-06T08:00+11:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-06#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divebondi-c8d335a054a4",
@@ -9977,6 +10083,15 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
+   "id": "divecharters-227b831b7689",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-12-12",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-12#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-691c479d4bb4",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -10155,6 +10270,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-12-12&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-2834cb9dbd80",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-12-13",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-13#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-a9a5998b8504",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -10183,13 +10307,13 @@ window.__DIVE_DATA__ =
    "description": "$79.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Bare Island** Rating: Open Water Diver(20m) Depth: 20m"
   },
   {
-   "id": "divecharters-809d8631d695",
+   "id": "divecharters-e2fc833092e8",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2026-12-13T08:00+11:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-13#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-e4ec9548c3a0",
@@ -10619,6 +10743,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-12-18&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-bf262990a6e1",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-12-19",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-19#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-18ed1f787185",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -10700,13 +10833,22 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-12-19&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
-   "id": "divecharters-6836a0d0da08",
+   "id": "divecharters-30ba7f49f537",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-12-20",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-20#508@book@",
+   "description": "A$199.00"
+  },
+  {
+   "id": "divecharters-a9c7a3d78a74",
+   "source": "divecharters",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2026-12-20T08:00+11:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-20#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divebondi-b61fd44eccfb",
@@ -11028,6 +11170,15 @@ window.__DIVE_DATA__ =
    "description": "A$170.00 · Week day morning Tec 1 Dives depart at 0700am from Rose Bay wharf. Little Manly pickup available on request at checkout booking form. Dive depths are between 40-51metres dependent on the depth of the wreck of the day. ***Sydney Dive Charters caters for open circuit, CCR, side mount and scooters. Numbers on board are limited to 8. ***…"
   },
   {
+   "id": "divecharters-913acfed35cd",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-12-26",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-26#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-a328fab00e93",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -11079,6 +11230,15 @@ window.__DIVE_DATA__ =
    "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
+   "id": "divecharters-3dcb60b21a61",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2026-12-27",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-27#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-cd2420efcda4",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -11087,13 +11247,13 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-12-27&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
-   "id": "divecharters-37f5983783ec",
+   "id": "divecharters-7a97cbd634f9",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2026-12-27T08:00+11:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-27#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divebondi-53cba13a813d",
@@ -11423,6 +11583,15 @@ window.__DIVE_DATA__ =
    "description": "A$170.00 · Week day morning Tec 1 Dives depart at 0700am from Rose Bay wharf. Little Manly pickup available on request at checkout booking form. Dive depths are between 40-51metres dependent on the depth of the wreck of the day. ***Sydney Dive Charters caters for open circuit, CCR, side mount and scooters. Numbers on board are limited to 8. ***…"
   },
   {
+   "id": "divecharters-45d4df6e56b3",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2027-01-02",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-02#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-b205ee5fc0dc",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -11514,13 +11683,22 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-02&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
-   "id": "divecharters-c70f558aa0a8",
+   "id": "divecharters-e38bd5f27b3d",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "$199 Tank & Weight Included",
+   "start": "2027-01-03",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-03#508@book@",
+   "description": "A$199.00"
+  },
+  {
+   "id": "divecharters-921361fdd602",
+   "source": "divecharters",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2027-01-03T08:00+11:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-03#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divebondi-80d715706440",
@@ -11965,6 +12143,15 @@ window.__DIVE_DATA__ =
    "description": "$175.00 · Emergency First Response Course · EFR-Primary Care (CPR) & Secondary Care AED"
   },
   {
+   "id": "divecharters-68e17b7bc5cb",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2027-01-09",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-09#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-cbf019f3bfdb",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -12056,6 +12243,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-09&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-8bd194c19cd8",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2027-01-10",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-10#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-60ab5b60b1d8",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -12064,13 +12260,13 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2027-01-10&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
-   "id": "divecharters-671ae10e896c",
+   "id": "divecharters-65fc3b81f274",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2027-01-10T08:00+11:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-10#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divesydney-7ff8e22c53dd",
@@ -12466,6 +12662,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-15&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-217150de5350",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2027-01-16",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-16#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-fb9d4474325c",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -12555,13 +12760,22 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-16&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
-   "id": "divecharters-f297bd587dc5",
+   "id": "divecharters-67468f0a4a83",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "$199 Tank & Weight Included",
+   "start": "2027-01-17",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-17#508@book@",
+   "description": "A$199.00"
+  },
+  {
+   "id": "divecharters-8288498cd551",
+   "source": "divecharters",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2027-01-17T08:00+11:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-17#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divebondi-7ee242b0f665",
@@ -12970,6 +13184,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-22&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-0065385e3b75",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2027-01-23",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-23#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-da0639515287",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -13051,6 +13274,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-23&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-c9a1700ef548",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2027-01-24",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-24#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-5b07cdf8d925",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -13059,13 +13291,13 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2027-01-24&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
-   "id": "divecharters-3ab6a9d42f7a",
+   "id": "divecharters-346246adb47a",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2027-01-24T08:00+11:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-24#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divebondi-33b2ef8bbc51",
@@ -13442,6 +13674,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-29&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "divecharters-d04090621af0",
+   "source": "divecharters",
+   "title": "$199 Tank & Weight Included",
+   "start": "2027-01-30",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-30#508@book@",
+   "description": "A$199.00"
+  },
+  {
    "id": "divebondi-f018257cfc42",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -13543,13 +13784,22 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-30&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
-   "id": "divecharters-cc7f637a20b3",
+   "id": "divecharters-e8c9e6400942",
    "source": "divecharters",
-   "title": "8am - Double Boat Dive - Including Free Tank & Weight - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
+   "title": "$199 Tank & Weight Included",
+   "start": "2027-01-31",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-31#508@book@",
+   "description": "A$199.00"
+  },
+  {
+   "id": "divecharters-80e88dcd3893",
+   "source": "divecharters",
+   "title": "8am - Double Boat Dive - Departing 7.30am Little Manly / 7.45 Boarding Rose Bay Public Wharf",
    "start": "2027-01-31T08:00+11:00",
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-31#248@book@",
-   "description": "A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divebondi-e5c69e94f043",
