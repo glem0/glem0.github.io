@@ -2167,5 +2167,30 @@
   "matched_query": "tilburg , noord-brabant, netherlands",
   "approx": false,
   "verified": true
+ },
+ "foahang, guangdong, china": {
+  "lat": 34.4523088,
+  "lng": 114.2657736,
+  "display": "佛尚, 付尚村, 尉氏县, 开封市, 河南省, 中国",
+  "matched_query": "Foshang, China",
+  "alias_of": "foshang, guangdong, china"
+ },
+ "new territories, hong kong": {
+  "lat": 22.4300716,
+  "lng": 114.0724197,
+  "display": "新界 New Territories, 香港 Hong Kong, 中国",
+  "country": "cn",
+  "matched_query": "new territories, hong kong",
+  "approx": false,
+  "verified": false
+ },
+ "taipei, taiwan": {
+  "lat": 25.0375198,
+  "lng": 121.5636796,
+  "display": "臺北市, 臺灣",
+  "country": "tw",
+  "matched_query": "taipei, taiwan",
+  "approx": false,
+  "verified": true
  }
 }

@@ -1,96 +1,6 @@
 {
- "updated": "2026-09-02T20:05:44Z",
+ "updated": "2026-09-04T19:49:49Z",
  "classes": [
-  {
-   "cid": "37002",
-   "course": "Drysuit Primer",
-   "date": "September 3, 2026",
-   "iso": "2026-09-03",
-   "location": "Athens , Greece",
-   "instructor": "Nikos Vardakas",
-   "instructor_id": "1991"
-  },
-  {
-   "cid": "37093",
-   "course": "Drysuit Primer",
-   "date": "September 3, 2026",
-   "iso": "2026-09-03",
-   "location": "Shanghai, Shanghai, China",
-   "instructor": "Yanbin Wu",
-   "instructor_id": "23172"
-  },
-  {
-   "cid": "37244",
-   "course": "GUE Performance Diver",
-   "date": "September 3, 2026",
-   "iso": "2026-09-03",
-   "location": "Tilburg , Noord-Brabant, Netherlands",
-   "instructor": "Richard Van De Logt",
-   "instructor_id": "11026"
-  },
-  {
-   "cid": "34489",
-   "course": "GUE Performance Diver",
-   "date": "September 3, 2026",
-   "iso": "2026-09-03",
-   "location": "Victoria, British Columbia, Canada",
-   "instructor": "Jason Cook",
-   "instructor_id": "24473"
-  },
-  {
-   "cid": "36366",
-   "course": "GUE Technical Fundamentals",
-   "date": "September 3, 2026",
-   "iso": "2026-09-03",
-   "location": "Błaskowizna, Poland",
-   "instructor": "Bartek Trzcinski",
-   "instructor_id": "25915"
-  },
-  {
-   "cid": "37064",
-   "course": "GUE Basic Fundamentals",
-   "date": "September 4, 2026",
-   "iso": "2026-09-04",
-   "location": "Sao Sebastiao, São Paulo, Brazil",
-   "instructor": "Sergio R Schirato",
-   "instructor_id": "20842"
-  },
-  {
-   "cid": "35577",
-   "course": "GUE Performance Diver",
-   "date": "September 4, 2026",
-   "iso": "2026-09-04",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
-  },
-  {
-   "cid": "34711",
-   "course": "GUE Performance Diver",
-   "date": "September 4, 2026",
-   "iso": "2026-09-04",
-   "location": "Singapore, Singapore",
-   "instructor": "Zicong Wang",
-   "instructor_id": "73430"
-  },
-  {
-   "cid": "35640",
-   "course": "GUE Technical Fundamentals",
-   "date": "September 4, 2026",
-   "iso": "2026-09-04",
-   "location": "Dahab, Egypt",
-   "instructor": "Mahmoud Esmat",
-   "instructor_id": "65259"
-  },
-  {
-   "cid": "36659",
-   "course": "Open Water Diver",
-   "date": "September 4, 2026",
-   "iso": "2026-09-04",
-   "location": "Shanghai, Shanghai, China",
-   "instructor": "Xiaodong Zhong",
-   "instructor_id": "23171"
-  },
   {
    "cid": "36746",
    "course": "Cave Diver 1",
@@ -182,6 +92,15 @@
    "instructor_id": "20802"
   },
   {
+   "cid": "37250",
+   "course": "GUE Basic Fundamentals",
+   "date": "September 5, 2026",
+   "iso": "2026-09-05",
+   "location": "Tioman, Malaysia",
+   "instructor": "Gemma Thomas",
+   "instructor_id": "11724"
+  },
+  {
    "cid": "37202",
    "course": "GUE Performance Diver",
    "date": "September 5, 2026",
@@ -209,6 +128,15 @@
    "instructor_id": "68591"
   },
   {
+   "cid": "37249",
+   "course": "GUE Technical Fundamentals",
+   "date": "September 5, 2026",
+   "iso": "2026-09-05",
+   "location": "New Territories, Hong Kong",
+   "instructor": "Andrew Couch",
+   "instructor_id": "22082"
+  },
+  {
    "cid": "36140",
    "course": "GUE Technical Fundamentals",
    "date": "September 5, 2026",
@@ -234,6 +162,15 @@
    "location": "Mactan, Cebu, Philippines",
    "instructor": "Gideon Liew",
    "instructor_id": "428"
+  },
+  {
+   "cid": "37261",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "September 5, 2026",
+   "iso": "2026-09-05",
+   "location": "Third Dimension Diving, Tulum, Quintana Roo, Mexico",
+   "instructor": "Ivo Chiarino",
+   "instructor_id": "21332"
   },
   {
    "cid": "34735",
@@ -297,15 +234,6 @@
    "location": "Victoria, British Columbia, Canada",
    "instructor": "Jason Cook",
    "instructor_id": "24473"
-  },
-  {
-   "cid": "37204",
-   "course": "Upgrade to GUE Basic Fundamentals",
-   "date": "September 6, 2026",
-   "iso": "2026-09-06",
-   "location": "Tioman, Malaysia",
-   "instructor": "Gemma Thomas",
-   "instructor_id": "11724"
   },
   {
    "cid": "37151",
@@ -477,15 +405,6 @@
    "location": "Singapore, Singapore",
    "instructor": "Zicong Wang",
    "instructor_id": "73430"
-  },
-  {
-   "cid": "36942",
-   "course": "GUE Basic Fundamentals",
-   "date": "September 10, 2026",
-   "iso": "2026-09-10",
-   "location": "Bergen, Norway",
-   "instructor": "Gaute W Seljestad",
-   "instructor_id": "67553"
   },
   {
    "cid": "36964",
@@ -875,6 +794,15 @@
    "instructor_id": "19268"
   },
   {
+   "cid": "37257",
+   "course": "Doubles Primer",
+   "date": "September 15, 2026",
+   "iso": "2026-09-15",
+   "location": "Taipei, Taiwan",
+   "instructor": "Gideon Liew",
+   "instructor_id": "428"
+  },
+  {
    "cid": "36704",
    "course": "GUE Basic Fundamentals",
    "date": "September 15, 2026",
@@ -972,6 +900,15 @@
    "location": "Playa del Carmen, Quintana Roo, Mexico",
    "instructor": "Emőke Wagner",
    "instructor_id": "20747"
+  },
+  {
+   "cid": "37256",
+   "course": "Doubles Primer",
+   "date": "September 18, 2026",
+   "iso": "2026-09-18",
+   "location": "Nanning, Guangxi, China",
+   "instructor": "Yanbin Wu",
+   "instructor_id": "23172"
   },
   {
    "cid": "34908",
@@ -1613,6 +1550,15 @@
    "instructor_id": "20747"
   },
   {
+   "cid": "37252",
+   "course": "GUE Performance Diver",
+   "date": "September 28, 2026",
+   "iso": "2026-09-28",
+   "location": "Zero Gravity Dive Center - Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Laurent Dahan",
+   "instructor_id": "25023"
+  },
+  {
    "cid": "35195",
    "course": "Technical Diver 1",
    "date": "September 28, 2026",
@@ -1719,15 +1665,6 @@
    "location": "Hemmoor, Niedersachsen, Germany",
    "instructor": "Daniel Schulte",
    "instructor_id": "6754"
-  },
-  {
-   "cid": "33934",
-   "course": "Technical Diver 1",
-   "date": "October 1, 2026",
-   "iso": "2026-10-01",
-   "location": "Ontario/Quebec, Canada",
-   "instructor": "Michael Pinault",
-   "instructor_id": "11259"
   },
   {
    "cid": "33137",
@@ -2225,6 +2162,15 @@
    "instructor_id": "69051"
   },
   {
+   "cid": "37258",
+   "course": "Technical Diver 1",
+   "date": "October 10, 2026",
+   "iso": "2026-10-10",
+   "location": "LAPULAPU, Cebu, Philippines",
+   "instructor": "Lee Jong Moon",
+   "instructor_id": "20356"
+  },
+  {
    "cid": "36528",
    "course": "Technical Diver 1",
    "date": "October 10, 2026",
@@ -2513,13 +2459,13 @@
    "instructor_id": "13808"
   },
   {
-   "cid": "36840",
+   "cid": "37255",
    "course": "CCR Fundamentals: JJ-CCR",
    "date": "October 19, 2026",
    "iso": "2026-10-19",
-   "location": "LAPULAPU, Cebu, Philippines",
-   "instructor": "Lee Jong Moon",
-   "instructor_id": "20356"
+   "location": "foshang, Guangdong, China",
+   "instructor": "Huang Weiqi",
+   "instructor_id": "23052"
   },
   {
    "cid": "36413",
@@ -3197,6 +3143,15 @@
    "instructor_id": "68473"
   },
   {
+   "cid": "37085",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "November 6, 2026",
+   "iso": "2026-11-06",
+   "location": "LAPULAPU, Cebu, Philippines",
+   "instructor": "Lee Jong Moon",
+   "instructor_id": "20356"
+  },
+  {
    "cid": "36820",
    "course": "DPV Diver 1",
    "date": "November 6, 2026",
@@ -3377,6 +3332,15 @@
    "instructor_id": "3674"
   },
   {
+   "cid": "37259",
+   "course": "CCR Fundamentals: JJ-CCR",
+   "date": "November 13, 2026",
+   "iso": "2026-11-13",
+   "location": "LAPULAPU, Cebu, Philippines",
+   "instructor": "Lee Jong Moon",
+   "instructor_id": "20356"
+  },
+  {
    "cid": "36948",
    "course": "CCR Fundamentals: Symbios",
    "date": "November 13, 2026",
@@ -3393,6 +3357,15 @@
    "location": "Shanghai, Shanghai, China",
    "instructor": "Xiaodong Zhong",
    "instructor_id": "23171"
+  },
+  {
+   "cid": "37260",
+   "course": "CCR Fundamentals: JJ-CCR",
+   "date": "November 14, 2026",
+   "iso": "2026-11-14",
+   "location": "Foahang, Guangdong, China",
+   "instructor": "Huang Weiqi",
+   "instructor_id": "23052"
   },
   {
    "cid": "36481",
@@ -3528,15 +3501,6 @@
    "location": "Zero Gravity Dive Center - Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Laurent Dahan",
    "instructor_id": "25023"
-  },
-  {
-   "cid": "37085",
-   "course": "CCR Fundamentals: Symbios",
-   "date": "November 20, 2026",
-   "iso": "2026-11-20",
-   "location": "LAPULAPU, Cebu, Philippines",
-   "instructor": "Lee Jong Moon",
-   "instructor_id": "20356"
   },
   {
    "cid": "36434",
@@ -3863,6 +3827,15 @@
    "instructor_id": "27215"
   },
   {
+   "cid": "37251",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "December 2, 2026",
+   "iso": "2026-12-02",
+   "location": "Schwetzingen, Baden-Württemberg, Germany",
+   "instructor": "Derk Remmers",
+   "instructor_id": "2366"
+  },
+  {
    "cid": "37078",
    "course": "GUE Basic Fundamentals",
    "date": "December 2, 2026",
@@ -3897,6 +3870,15 @@
    "location": "Siegburg, Germany",
    "instructor": "Benjamin Ott",
    "instructor_id": "11806"
+  },
+  {
+   "cid": "37254",
+   "course": "Doubles Primer",
+   "date": "December 4, 2026",
+   "iso": "2026-12-04",
+   "location": "playa del carmen, Quintana Roo, Mexico",
+   "instructor": "Marcelin Nebenhaus",
+   "instructor_id": "73393"
   },
   {
    "cid": "37026",
@@ -4097,15 +4079,6 @@
    "instructor_id": "20747"
   },
   {
-   "cid": "35852",
-   "course": "Cave Diver 2",
-   "date": "December 13, 2026",
-   "iso": "2026-12-13",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Osama Gobara",
-   "instructor_id": "1344"
-  },
-  {
    "cid": "36004",
    "course": "CCR Cave",
    "date": "December 14, 2026",
@@ -4212,6 +4185,15 @@
    "location": "Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Christophe Le Maillot",
    "instructor_id": "304"
+  },
+  {
+   "cid": "37262",
+   "course": "DPV Diver 1",
+   "date": "December 17, 2026",
+   "iso": "2026-12-17",
+   "location": "foshang, Guangdong, China",
+   "instructor": "Huang Weiqi",
+   "instructor_id": "23052"
   },
   {
    "cid": "35709",
@@ -4358,15 +4340,6 @@
    "instructor_id": "14654"
   },
   {
-   "cid": "36038",
-   "course": "DPV Cave",
-   "date": "January 2, 2027",
-   "iso": "2027-01-02",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Osama Gobara",
-   "instructor_id": "1344"
-  },
-  {
    "cid": "36748",
    "course": "CCR Technical Diver 2",
    "date": "January 3, 2027",
@@ -4511,15 +4484,6 @@
    "instructor_id": "9662"
   },
   {
-   "cid": "36039",
-   "course": "Cave Diver 2",
-   "date": "January 11, 2027",
-   "iso": "2027-01-11",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Osama Gobara",
-   "instructor_id": "1344"
-  },
-  {
    "cid": "36605",
    "course": "GUE Technical Fundamentals",
    "date": "January 11, 2027",
@@ -4626,15 +4590,6 @@
    "location": "Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "John Kendall",
    "instructor_id": "1956"
-  },
-  {
-   "cid": "36040",
-   "course": "Cave Sidemount",
-   "date": "January 18, 2027",
-   "iso": "2027-01-18",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Osama Gobara",
-   "instructor_id": "1344"
   },
   {
    "cid": "36127",
@@ -4808,15 +4763,6 @@
    "instructor_id": "21332"
   },
   {
-   "cid": "36037",
-   "course": "Cave Diver 2",
-   "date": "February 1, 2027",
-   "iso": "2027-02-01",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Osama Gobara",
-   "instructor_id": "1344"
-  },
-  {
    "cid": "36612",
    "course": "GUE Performance Diver",
    "date": "February 1, 2027",
@@ -4914,15 +4860,6 @@
    "location": "Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "John Kendall",
    "instructor_id": "1956"
-  },
-  {
-   "cid": "36036",
-   "course": "Cave Sidemount",
-   "date": "February 8, 2027",
-   "iso": "2027-02-08",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Osama Gobara",
-   "instructor_id": "1344"
   },
   {
    "cid": "36947",
@@ -5208,7 +5145,7 @@
    "course": "Cave Diver 1",
    "date": "March 8, 2027",
    "iso": "2027-03-08",
-   "location": "Zero Gravity Dive centre, Quintana Roo, Mexico",
+   "location": "Zero Gravity Dive centre, Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Annika Persson",
    "instructor_id": "9662"
   },
@@ -5265,6 +5202,15 @@
    "location": "Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "John Kendall",
    "instructor_id": "1956"
+  },
+  {
+   "cid": "37263",
+   "course": "Cave Diver 1",
+   "date": "March 15, 2027",
+   "iso": "2027-03-15",
+   "location": "Zero Gravity Dive Centre, Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Annika Persson",
+   "instructor_id": "9662"
   },
   {
    "cid": "37129",
@@ -6120,15 +6066,6 @@
    "location": "Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "John Kendall",
    "instructor_id": "1956"
-  },
-  {
-   "cid": "36041",
-   "course": "Cave Sidemount",
-   "date": "November 1, 2027",
-   "iso": "2027-11-01",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Osama Gobara",
-   "instructor_id": "1344"
   },
   {
    "cid": "37145",
