@@ -317,8 +317,8 @@
         },
         "properties": {
           "id": "8990825d-b48c-443f-9047-862a0b986621",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Boat Harbour"
         },
@@ -351,8 +351,8 @@
         },
         "properties": {
           "id": "405ce99c-7a0b-43f7-8d28-2ee0b65eebb5",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Bondi Beach"
         },
@@ -3479,8 +3479,8 @@
         },
         "properties": {
           "id": "d8174dde-e864-4a58-b997-e140bea7c5d6",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Tamarama Beach"
         },
