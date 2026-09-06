@@ -1,68 +1,14 @@
 {
- "updated": "2026-09-05T19:26:40Z",
+ "updated": "2026-09-06T19:28:05Z",
  "classes": [
   {
-   "cid": "34735",
-   "course": "Cave Diver 1",
-   "date": "September 6, 2026",
-   "iso": "2026-09-06",
-   "location": "Cajarc, France",
-   "instructor": "Jp Bresser",
-   "instructor_id": "2458"
-  },
-  {
-   "cid": "33766",
-   "course": "Cave Diver 1",
-   "date": "September 6, 2026",
-   "iso": "2026-09-06",
+   "cid": "37273",
+   "course": "CCR Fundamentals: JJ-CCR",
+   "date": "September 7, 2026",
+   "iso": "2026-09-07",
    "location": "Cala Gonone, Nuoro, Italy",
-   "instructor": "Peter Gaertner",
-   "instructor_id": "1374"
-  },
-  {
-   "cid": "34137",
-   "course": "Cave Diver 1",
-   "date": "September 6, 2026",
-   "iso": "2026-09-06",
-   "location": "Gramat, France",
-   "instructor": "Irene Homberger",
-   "instructor_id": "13377"
-  },
-  {
-   "cid": "33997",
-   "course": "Cave Diver 1",
-   "date": "September 6, 2026",
-   "iso": "2026-09-06",
-   "location": "Gramat, France",
-   "instructor": "Per Normark",
-   "instructor_id": "19962"
-  },
-  {
-   "cid": "35326",
-   "course": "GUE Basic Fundamentals",
-   "date": "September 6, 2026",
-   "iso": "2026-09-06",
-   "location": "Athens, Greece",
-   "instructor": "Nikos Vardakas",
-   "instructor_id": "1991"
-  },
-  {
-   "cid": "36624",
-   "course": "GUE Basic Fundamentals",
-   "date": "September 6, 2026",
-   "iso": "2026-09-06",
-   "location": "Dahab, Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
-  },
-  {
-   "cid": "36123",
-   "course": "GUE Performance Diver",
-   "date": "September 6, 2026",
-   "iso": "2026-09-06",
-   "location": "Victoria, British Columbia, Canada",
-   "instructor": "Jason Cook",
-   "instructor_id": "24473"
+   "instructor": "Marco Colman",
+   "instructor_id": "11850"
   },
   {
    "cid": "37151",
@@ -623,15 +569,6 @@
    "instructor_id": "19268"
   },
   {
-   "cid": "37257",
-   "course": "Doubles Primer",
-   "date": "September 15, 2026",
-   "iso": "2026-09-15",
-   "location": "Taipei, Taiwan",
-   "instructor": "Gideon Liew",
-   "instructor_id": "428"
-  },
-  {
    "cid": "36704",
    "course": "GUE Basic Fundamentals",
    "date": "September 15, 2026",
@@ -639,6 +576,15 @@
    "location": "Athens, Greece",
    "instructor": "Nikos Vardakas",
    "instructor_id": "1991"
+  },
+  {
+   "cid": "37269",
+   "course": "GUE Technical Fundamentals",
+   "date": "September 15, 2026",
+   "iso": "2026-09-15",
+   "location": "Taipei, Taiwan",
+   "instructor": "Gideon Liew",
+   "instructor_id": "428"
   },
   {
    "cid": "35255",
@@ -675,15 +621,6 @@
    "location": "Bangkok, Bangkok , Thailand",
    "instructor": "Sanya Lohitnavy",
    "instructor_id": "3674"
-  },
-  {
-   "cid": "37266",
-   "course": "GUE Basic Fundamentals",
-   "date": "September 16, 2026",
-   "iso": "2026-09-16",
-   "location": "Taipei, Taiwan",
-   "instructor": "Gideon Liew",
-   "instructor_id": "428"
   },
   {
    "cid": "37112",
@@ -812,15 +749,6 @@
    "instructor_id": "15389"
   },
   {
-   "cid": "37215",
-   "course": "Upgrade to GUE Basic Fundamentals",
-   "date": "September 19, 2026",
-   "iso": "2026-09-19",
-   "location": "Foshang, Guangdong, China",
-   "instructor": "Huang Weiqi",
-   "instructor_id": "23052"
-  },
-  {
    "cid": "37061",
    "course": "Upgrade to GUE Basic Fundamentals",
    "date": "September 19, 2026",
@@ -891,6 +819,15 @@
    "location": "Pintung, PingTung County, Taiwan",
    "instructor": "Liu Yen Chun",
    "instructor_id": "27215"
+  },
+  {
+   "cid": "37274",
+   "course": "BLS-D & Oxygen First Aid",
+   "date": "September 21, 2026",
+   "iso": "2026-09-21",
+   "location": "Zürich, Zürich, Switzerland",
+   "instructor": "Maximilian Fahr",
+   "instructor_id": "66486"
   },
   {
    "cid": "36460",
@@ -1242,6 +1179,15 @@
    "location": "Aachen, Germany",
    "instructor": "Benjamin Ott",
    "instructor_id": "11806"
+  },
+  {
+   "cid": "37271",
+   "course": "GUE Basic Fundamentals",
+   "date": "September 26, 2026",
+   "iso": "2026-09-26",
+   "location": "Dahab, Janub Sina', Egypt",
+   "instructor": "Ahmed Hagi",
+   "instructor_id": "69051"
   },
   {
    "cid": "36595",
@@ -3395,6 +3341,15 @@
    "instructor_id": "2359"
   },
   {
+   "cid": "37272",
+   "course": "Doubles Primer",
+   "date": "November 21, 2026",
+   "iso": "2026-11-21",
+   "location": "foshan, Guangdong, China",
+   "instructor": "Huang Weiqi",
+   "instructor_id": "23052"
+  },
+  {
    "cid": "36153",
    "course": "CCR Technical Diver 1: JJ-CCR",
    "date": "November 22, 2026",
@@ -3528,6 +3483,15 @@
    "location": "Protaras, Famagusta, Cyprus",
    "instructor": "Imad Farhat",
    "instructor_id": "19268"
+  },
+  {
+   "cid": "37268",
+   "course": "DPV Diver 1",
+   "date": "November 27, 2026",
+   "iso": "2026-11-27",
+   "location": "Yixing, Jiangsu, China",
+   "instructor": "Xiaodong Zhong",
+   "instructor_id": "23171"
   },
   {
    "cid": "36309",
