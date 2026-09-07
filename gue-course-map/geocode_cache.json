@@ -2192,5 +2192,23 @@
   "matched_query": "taipei, taiwan",
   "approx": false,
   "verified": true
+ },
+ "jestetten, baden-württemberg, germany": {
+  "lat": 47.65,
+  "lng": 8.56667,
+  "display": "Jestetten, GVV Jestetten, Landkreis Waldshut, Baden-Württemberg, 79798, Deutschland",
+  "country": "de",
+  "matched_query": "jestetten, baden-württemberg, germany",
+  "approx": false,
+  "verified": true
+ },
+ "padova, padova, italy": {
+  "lat": 45.3984428,
+  "lng": 11.8956829,
+  "display": "Padova, Veneto, 35121-35143, Italia",
+  "country": "it",
+  "matched_query": "padova, padova, italy",
+  "approx": false,
+  "verified": true
  }
 }
