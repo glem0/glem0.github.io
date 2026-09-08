@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-09-08T06:44:01+10:00",
+ "generated_at": "2026-09-09T06:02:05+10:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-09-01",
@@ -13,7 +13,7 @@ window.__DIVE_DATA__ =
    "short": "Abyss",
    "url": "https://www.abyss.com.au/sydney-dive-calendar",
    "status": "ok",
-   "event_count": 124
+   "event_count": 123
   },
   {
    "id": "frogdive",
@@ -29,7 +29,7 @@ window.__DIVE_DATA__ =
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 226
+   "event_count": 225
   },
   {
    "id": "divesydney",
@@ -45,7 +45,7 @@ window.__DIVE_DATA__ =
    "short": "ProDive",
    "url": "https://www.prodive.com.au/Calendar.asp?Scubadive=Sydney",
    "status": "ok",
-   "event_count": 429
+   "event_count": 428
   },
   {
    "id": "divecharters",
@@ -53,7 +53,7 @@ window.__DIVE_DATA__ =
    "short": "Charters",
    "url": "https://www.sydneydivecharters.com.au/bookings/",
    "status": "ok",
-   "event_count": 235
+   "event_count": 191
   }
  ],
  "events": [
@@ -112,24 +112,6 @@ window.__DIVE_DATA__ =
    "description": "A$170.00 · Week day morning Tec 1 Dives depart at 0700am from Rose Bay wharf. Little Manly pickup available on request at checkout booking form. Dive depths are between 40-51metres dependent on the depth of the wreck of the day. ***Sydney Dive Charters caters for open circuit, CCR, side mount and scooters. Numbers on board are limited to 8. ***…"
   },
   {
-   "id": "divecharters-4e6a0081f930",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-09-05",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-05#508@book@",
-   "description": "A$199.00"
-  },
-  {
-   "id": "divecharters-42d4267cc24d",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-09-06",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-06#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "frogdive-5a4f133c7ca9",
    "source": "frogdive",
    "title": "SHORE DIVE FAIRY BOWER",
@@ -168,25 +150,6 @@ window.__DIVE_DATA__ =
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
-   "id": "abyss-b02335261c5d",
-   "source": "abyss",
-   "title": "Avelo Dive Course",
-   "start": "2026-09-08T09:15+10:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/avelo-dive-course",
-   "description": "$699.00 · Avelo Dive Course"
-  },
-  {
-   "id": "prodive-6acc8fd62c21",
-   "source": "prodive",
-   "title": "Scuba Hire Click & Collect",
-   "start": "2026-09-08T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
-   "location": "ProDive Manly",
-   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
-  },
-  {
    "id": "divecharters-b213c262d276",
    "source": "divecharters",
    "title": "DSD - Discover Scuba Dive - Hire Gear Included",
@@ -194,14 +157,6 @@ window.__DIVE_DATA__ =
    "all_day": true,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-09#326@book@",
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
-  },
-  {
-   "id": "divebondi-f051ab97e521",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-09-09T09:00+10:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-09-09&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
    "id": "prodive-f01568cf8204",
@@ -331,7 +286,7 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Shore+Dives/Guided+Shore+Dives+(Double+Dive)+-+Sydney+-+Alexandria/1046",
    "location": "ProDive Alexandria",
-   "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: North Bondi** Rating: Open Water Diver(20m) Depth: 22m"
+   "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Gordons Bay** Rating: Open Water Diver(20m) Depth: 14m"
   },
   {
    "id": "divesydney-4e03d3f0a1bd",
@@ -342,9 +297,9 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-09-11&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
-   "id": "divesydney-ad250ab1a6f2",
+   "id": "divesydney-16683cb5b1e3",
    "source": "divesydney",
-   "title": "Double Guided Shore Dive",
+   "title": "Double Guided Shore Dive (sold out)",
    "start": "2026-09-11T09:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-09-11&preferredTime=9%3A00+AM&catalogId=494484"
@@ -423,15 +378,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Manly/Openwater+Courses/PRO+DIVE+Openwater+Weekend+Scuba+Diving+Course+-+Sydney+-+Manly/1207",
    "location": "ProDive Manly",
    "description": "$399.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
-  },
-  {
-   "id": "divecharters-4486bcd3eb2d",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-09-12",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-12#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "divebondi-2cb521163a41",
@@ -585,9 +531,9 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · Seal Diving · Playful fur seals swirl around you with possible whales and rays."
   },
   {
-   "id": "divesydney-80b49b84fcfc",
+   "id": "divesydney-9c055eda0c7f",
    "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
+   "title": "Discover Scuba Diving - PADI (sold out)",
    "start": "2026-09-12T14:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-09-12&preferredTime=2%3A00+PM&catalogId=494484"
@@ -599,15 +545,6 @@ window.__DIVE_DATA__ =
    "start": "2026-09-12T14:30+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-09-12&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-e6bb07602273",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-09-13",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-13#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "prodive-26b71a6e9181",
@@ -776,7 +713,7 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Shore+Dives/Guided+Shore+Dives+(Double+Dive)+-+Sydney+-+Alexandria/1046",
    "location": "ProDive Alexandria",
-   "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Kurnell** Rating: Open Water Diver(20m) Depth: 5m-22m"
+   "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Shelly Beach ( Cabbage Tree Bay)** Rating: Open Water Diver(20m) Depth: 14m"
   },
   {
    "id": "divesydney-7f016d224654",
@@ -1106,15 +1043,6 @@ window.__DIVE_DATA__ =
    "description": "$399.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
-   "id": "divecharters-450ed66f233f",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-09-19",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-19#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "abyss-0e3151b353b4",
    "source": "abyss",
    "title": "Chinese Montague Island Trip (sold out)",
@@ -1296,15 +1224,6 @@ window.__DIVE_DATA__ =
    "start": "2026-09-19T14:30+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-09-19&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-fae6c2555dba",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-09-20",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-20#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "divebondi-5971c913f546",
@@ -1830,15 +1749,6 @@ window.__DIVE_DATA__ =
    "description": "$1495.00 · The PRO DIVE Divemaster Course is a practical based program where you will learn to run and lead, shore dives, boat dives, weekend and overseas dive trips as well as assist on dive courses. A tailored itinerary will be put together for you, so you can meet the course requirements. This course is available either on a part time or full time basis."
   },
   {
-   "id": "divecharters-c8402c3649ff",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-09-26",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-26#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "divebondi-b3bcc7e129e6",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -2053,15 +1963,6 @@ window.__DIVE_DATA__ =
    "start": "2026-09-26T14:30+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-09-26&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-11f88d045516",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-09-27",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-27#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "prodive-7d9a9fd72a03",
@@ -2513,15 +2414,6 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
-   "id": "divecharters-e34bb0b75989",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-10-03",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-03#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "abyss-142bef9f0d77",
    "source": "abyss",
    "title": "Shell harbour shark 3 oct",
@@ -2722,18 +2614,9 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-03&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
-   "id": "divecharters-31a756b0eb35",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-10-04",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-04#508@book@",
-   "description": "A$199.00"
-  },
-  {
-   "id": "divebondi-4c2f50eed4b4",
+   "id": "divebondi-bdba728f31f0",
    "source": "divebondi",
-   "title": "Guided Bushrangers Bay (sold out)",
+   "title": "Guided Bushrangers Bay",
    "start": "2026-10-04T06:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-10-04&preferredTime=6%3A30+AM&catalogId=597076"
@@ -3208,15 +3091,6 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
-   "id": "divecharters-8868af019764",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-10-10",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-10#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "divebondi-2b8477962c5a",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -3402,15 +3276,6 @@ window.__DIVE_DATA__ =
    "start": "2026-10-10T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-10&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-55fd2eefe2b4",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-10-11",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-11#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "frogdive-8952698cc4d8",
@@ -3936,15 +3801,6 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
-   "id": "divecharters-dd7a63b85307",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-10-17",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-17#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "frogdive-16b8500cf6db",
    "source": "frogdive",
    "title": "SHORE DIVE SHELLY BEACH",
@@ -4160,15 +4016,6 @@ window.__DIVE_DATA__ =
    "start": "2026-10-17T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-17&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-f4b9c443fcdc",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-10-18",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-18#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "divebondi-d50583d73c03",
@@ -4634,15 +4481,6 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
-   "id": "divecharters-8bac6b524286",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-10-24",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-24#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "divebondi-a522e244d9ff",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -4837,15 +4675,6 @@ window.__DIVE_DATA__ =
    "start": "2026-10-24T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-24&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-fd6c63ac157a",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-10-25",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-25#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "frogdive-5f712bdd3dc7",
@@ -5352,15 +5181,6 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
-   "id": "divecharters-0d06fef580ec",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-10-31",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-31#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "divebondi-f6d97a4d21b2",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -5549,15 +5369,6 @@ window.__DIVE_DATA__ =
    "start": "2026-10-31T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-31&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-7113cbfac366",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-11-01",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-01#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "divebondi-51f70d4ff2ba",
@@ -6096,15 +5907,6 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=434000&preferredDate=2026-11-07&preferredTime=All+day&catalogId=597076"
   },
   {
-   "id": "divecharters-417808d1bd3f",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-11-07",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-07#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "divebondi-f30ecd803278",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -6132,15 +5934,6 @@ window.__DIVE_DATA__ =
    "description": "$219.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Magic Point - Shark Dive** Rating: Open Water Diver(20m) Depth: 23m"
   },
   {
-   "id": "abyss-1dbc6c2f0531",
-   "source": "abyss",
-   "title": "Enriched Air Diver",
-   "start": "2026-11-07T08:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
-   "description": "$345.00 · Enriched Air (Nitrox) Diver"
-  },
-  {
    "id": "abyss-dcce5f24d1ef",
    "source": "abyss",
    "title": "AOW 07-11-2026",
@@ -6149,6 +5942,15 @@ window.__DIVE_DATA__ =
    "end": "2026-11-08",
    "url": "https://www.abyss.com.au/courses/padi-advanced-open-water-course",
    "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
+  },
+  {
+   "id": "abyss-1dbc6c2f0531",
+   "source": "abyss",
+   "title": "Enriched Air Diver",
+   "start": "2026-11-07T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
+   "description": "$345.00 · Enriched Air (Nitrox) Diver"
   },
   {
    "id": "divebondi-a72b144c54f1",
@@ -6309,15 +6111,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/social-events",
    "description": "$99.00 · Social Events · Enjoy a 3-course sit-down dinner with great company."
-  },
-  {
-   "id": "divecharters-c6f78216229c",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-11-08",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-08#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "prodive-0c9108d24013",
@@ -6874,15 +6667,6 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
-   "id": "divecharters-84bdd119eb9a",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-11-14",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-14#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "divebondi-4bc72598d3c4",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -7069,15 +6853,6 @@ window.__DIVE_DATA__ =
    "start": "2026-11-14T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-14&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-7bc7415a894a",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-11-15",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-15#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "divebondi-fcbd8f58f64e",
@@ -7616,15 +7391,6 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
-   "id": "divecharters-35c0322393fb",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-11-21",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-21#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "divebondi-73662fd7f2ae",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -7840,15 +7606,6 @@ window.__DIVE_DATA__ =
    "start": "2026-11-21T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-21&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-9a2bf92e5132",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-11-22",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-22#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "divebondi-cc4811ea5d96",
@@ -8413,15 +8170,6 @@ window.__DIVE_DATA__ =
    "description": "$1495.00 · The PRO DIVE Divemaster Course is a practical based program where you will learn to run and lead, shore dives, boat dives, weekend and overseas dive trips as well as assist on dive courses. A tailored itinerary will be put together for you, so you can meet the course requirements. This course is available either on a part time or full time basis."
   },
   {
-   "id": "divecharters-da8fa3356080",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-11-28",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-28#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "divebondi-f886cc791979",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -8600,15 +8348,6 @@ window.__DIVE_DATA__ =
    "start": "2026-11-28T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-28&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-72c1b1152949",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-11-29",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-29#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "divebondi-e6f8c51ef181",
@@ -9129,15 +8868,6 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
-   "id": "divecharters-c77b66d0b114",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-12-05",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-05#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "divebondi-fdede8e6ddfb",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -9156,14 +8886,14 @@ window.__DIVE_DATA__ =
    "description": "$219.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Magic Point - Shark Dive** Rating: Open Water Diver(20m) Depth: 23m"
   },
   {
-   "id": "abyss-f572fe9a7dde",
+   "id": "abyss-0d57d9a10bb2",
    "source": "abyss",
-   "title": "Tec 40",
+   "title": "AOW 05-12-2026",
    "start": "2026-12-05T08:00+11:00",
    "all_day": false,
    "end": "2026-12-06",
-   "url": "https://www.abyss.com.au/courses/tec-40",
-   "description": "$745.00 · tec 40"
+   "url": "https://www.abyss.com.au/courses/padi-advanced-open-water-course",
+   "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
   },
   {
    "id": "abyss-0224e3bd321a",
@@ -9175,14 +8905,14 @@ window.__DIVE_DATA__ =
    "description": "$345.00 · Enriched Air (Nitrox) Diver"
   },
   {
-   "id": "abyss-0d57d9a10bb2",
+   "id": "abyss-f572fe9a7dde",
    "source": "abyss",
-   "title": "AOW 05-12-2026",
+   "title": "Tec 40",
    "start": "2026-12-05T08:00+11:00",
    "all_day": false,
    "end": "2026-12-06",
-   "url": "https://www.abyss.com.au/courses/padi-advanced-open-water-course",
-   "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
+   "url": "https://www.abyss.com.au/courses/tec-40",
+   "description": "$745.00 · tec 40"
   },
   {
    "id": "divebondi-1193993cf531",
@@ -9308,15 +9038,6 @@ window.__DIVE_DATA__ =
    "start": "2026-12-05T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-12-05&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-a9e1c214109a",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-12-06",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-06#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "prodive-139659a5a36d",
@@ -9827,15 +9548,6 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
-   "id": "divecharters-227b831b7689",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-12-12",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-12#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "divebondi-691c479d4bb4",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -10012,15 +9724,6 @@ window.__DIVE_DATA__ =
    "start": "2026-12-12T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-12-12&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-2834cb9dbd80",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-12-13",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-13#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "divebondi-a9a5998b8504",
@@ -10547,15 +10250,6 @@ window.__DIVE_DATA__ =
    "description": "$499.00 · Dive Course to 20m [Beginner Level] Mulitple Start Dates [2 per week] Fri Evening Saturday & Sunday Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
-   "id": "divecharters-bf262990a6e1",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-12-19",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-19#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "divebondi-18ed1f787185",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -10725,15 +10419,6 @@ window.__DIVE_DATA__ =
    "start": "2026-12-19T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-12-19&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-30ba7f49f537",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-12-20",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-20#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "prodive-3de060c6a25c",
@@ -11154,15 +10839,6 @@ window.__DIVE_DATA__ =
    "description": "A$170.00 · Week day morning Tec 1 Dives depart at 0700am from Rose Bay wharf. Little Manly pickup available on request at checkout booking form. Dive depths are between 40-51metres dependent on the depth of the wreck of the day. ***Sydney Dive Charters caters for open circuit, CCR, side mount and scooters. Numbers on board are limited to 8. ***…"
   },
   {
-   "id": "divecharters-913acfed35cd",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-12-26",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-26#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "divebondi-a328fab00e93",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -11212,15 +10888,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-26#19@book@",
    "description": "A$175.00 - A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
-  },
-  {
-   "id": "divecharters-3dcb60b21a61",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2026-12-27",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-27#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "divebondi-cd2420efcda4",
@@ -11567,15 +11234,6 @@ window.__DIVE_DATA__ =
    "description": "A$170.00 · Week day morning Tec 1 Dives depart at 0700am from Rose Bay wharf. Little Manly pickup available on request at checkout booking form. Dive depths are between 40-51metres dependent on the depth of the wreck of the day. ***Sydney Dive Charters caters for open circuit, CCR, side mount and scooters. Numbers on board are limited to 8. ***…"
   },
   {
-   "id": "divecharters-45d4df6e56b3",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2027-01-02",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-02#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "divebondi-b205ee5fc0dc",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -11665,15 +11323,6 @@ window.__DIVE_DATA__ =
    "start": "2027-01-02T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-02&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-e38bd5f27b3d",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2027-01-03",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-03#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "divecharters-fb562db0c5cf",
@@ -12127,15 +11776,6 @@ window.__DIVE_DATA__ =
    "description": "$175.00 · Emergency First Response Course · EFR-Primary Care (CPR) & Secondary Care AED"
   },
   {
-   "id": "divecharters-68e17b7bc5cb",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2027-01-09",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-09#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "divebondi-cbf019f3bfdb",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -12225,15 +11865,6 @@ window.__DIVE_DATA__ =
    "start": "2027-01-09T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-09&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-8bd194c19cd8",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2027-01-10",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-10#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "divebondi-60ab5b60b1d8",
@@ -12646,15 +12277,6 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-15&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
-   "id": "divecharters-217150de5350",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2027-01-16",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-16#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "divebondi-fb9d4474325c",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -12742,15 +12364,6 @@ window.__DIVE_DATA__ =
    "start": "2027-01-16T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-16&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-67468f0a4a83",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2027-01-17",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-17#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "divecharters-7dba5b5f5c4f",
@@ -13168,15 +12781,6 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-22&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
-   "id": "divecharters-0065385e3b75",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2027-01-23",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-23#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "divebondi-da0639515287",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
@@ -13256,15 +12860,6 @@ window.__DIVE_DATA__ =
    "start": "2027-01-23T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-23&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-c9a1700ef548",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2027-01-24",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-24#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "divebondi-5b07cdf8d925",
@@ -13658,31 +13253,12 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-29&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
-   "id": "divecharters-d04090621af0",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2027-01-30",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-30#508@book@",
-   "description": "A$199.00"
-  },
-  {
    "id": "divebondi-f018257cfc42",
    "source": "divebondi",
    "title": "Guided Bushrangers Bay",
    "start": "2027-01-30T06:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2027-01-30&preferredTime=6%3A30+AM&catalogId=597076"
-  },
-  {
-   "id": "abyss-d5ea91dafb4e",
-   "source": "abyss",
-   "title": "Advanced Open Water",
-   "start": "2027-01-30T08:00+11:00",
-   "all_day": false,
-   "end": "2027-01-31",
-   "url": "https://www.abyss.com.au/courses/padi-advanced-open-water-course",
-   "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
   },
   {
    "id": "abyss-9dfc66b15adf",
@@ -13693,6 +13269,16 @@ window.__DIVE_DATA__ =
    "end": "2027-01-31",
    "url": "https://www.abyss.com.au/courses/deep-diver",
    "description": "$599.00 · Deep Diver Course · Deep Diver Course"
+  },
+  {
+   "id": "abyss-d5ea91dafb4e",
+   "source": "abyss",
+   "title": "Advanced Open Water",
+   "start": "2027-01-30T08:00+11:00",
+   "all_day": false,
+   "end": "2027-01-31",
+   "url": "https://www.abyss.com.au/courses/padi-advanced-open-water-course",
+   "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
   },
   {
    "id": "divebondi-027385cd8745",
@@ -13766,15 +13352,6 @@ window.__DIVE_DATA__ =
    "start": "2027-01-30T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-30&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divecharters-e8c9e6400942",
-   "source": "divecharters",
-   "title": "$199 Tank & Weight Included",
-   "start": "2027-01-31",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2027-01-31#508@book@",
-   "description": "A$199.00"
   },
   {
    "id": "divecharters-93b7963de4fe",
