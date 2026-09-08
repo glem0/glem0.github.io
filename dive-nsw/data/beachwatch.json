@@ -1543,7 +1543,7 @@
           "id": "3397c49e-fd59-4b4f-a2d6-57c2a08450a6",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Gurney Crescent Baths"
         },
         "type": "Feature"
@@ -1611,7 +1611,7 @@
           "id": "eefcfac8-c063-47b7-9d19-0340f5fa450f",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Hayes Street Beach"
         },
         "type": "Feature"
