@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T06:02:05+10:00",
+ "generated_at": "2026-09-10T05:55:32+10:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-09-01",
@@ -44,7 +44,7 @@
    "short": "ProDive",
    "url": "https://www.prodive.com.au/Calendar.asp?Scubadive=Sydney",
    "status": "ok",
-   "event_count": 428
+   "event_count": 425
   },
   {
    "id": "divecharters",
@@ -158,36 +158,6 @@
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
-   "id": "prodive-f01568cf8204",
-   "source": "prodive",
-   "title": "Scuba Hire Click & Collect",
-   "start": "2026-09-09T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
-   "location": "ProDive Manly",
-   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
-  },
-  {
-   "id": "prodive-38d9d34ad993",
-   "source": "prodive",
-   "title": "PRO DIVE Open Water Weekday Scuba Diving Course",
-   "start": "2026-09-09T18:30+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Openwater+Courses/PRO+DIVE+Open+Water+Weekday+Scuba+Diving+Course+-+Sydney+-+Alexandria/1159",
-   "location": "ProDive Alexandria",
-   "description": "$399.00 · Dive Course to 20m [Beginner Level] Multiple Start Dates Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
-  },
-  {
-   "id": "prodive-b2ab21dea731",
-   "source": "prodive",
-   "title": "PRO DIVE Openwater Weekday Scuba Diving Course",
-   "start": "2026-09-09T18:30+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Openwater+Courses/PRO+DIVE+Openwater+Weekday+Scuba+Diving+Course+-+Sydney+-+Manly/1208",
-   "location": "ProDive Manly",
-   "description": "$399.00 · Dive Course to 20m [Beginner Level] Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
-  },
-  {
    "id": "divecharters-1fe37b808b27",
    "source": "divecharters",
    "title": "DSD - Discover Scuba Dive - Hire Gear Included",
@@ -241,9 +211,9 @@
    "description": "A$199.00"
   },
   {
-   "id": "divebondi-2dd0a3b5b717",
+   "id": "divebondi-6710cc07a8a5",
    "source": "divebondi",
-   "title": "Guided Bushrangers Bay",
+   "title": "Guided Bushrangers Bay (sold out)",
    "start": "2026-09-11T06:30+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-09-11&preferredTime=6%3A30+AM&catalogId=597076"
@@ -407,9 +377,9 @@
    "description": "$199.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Magic Point - Shark Dive** Rating: Open Water Diver(20m) Depth: 23m"
   },
   {
-   "id": "divebondi-92a51aa45586",
+   "id": "divebondi-3026ec9d500d",
    "source": "divebondi",
-   "title": "Guided Shore Dive",
+   "title": "Guided Shore Dive (sold out)",
    "start": "2026-09-12T08:00+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-09-12&preferredTime=8%3A00+AM&catalogId=597076"
@@ -450,9 +420,9 @@
    "description": "A$175.00 - A$199.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
-   "id": "divesydney-5f0f028ddd8b",
+   "id": "divesydney-3f5e427df0f5",
    "source": "divesydney",
-   "title": "Scuba Refresher",
+   "title": "Scuba Refresher (sold out)",
    "start": "2026-09-12T09:00+10:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-09-12&preferredTime=9%3A00+AM&catalogId=494484"
@@ -574,9 +544,9 @@
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-09-13&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-0717b28503e2",
+   "id": "divebondi-c309cbe4b62a",
    "source": "divebondi",
-   "title": "PADI Open Water Diver Course",
+   "title": "PADI Open Water Diver Course (sold out)",
    "start": "2026-09-13T08:00+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-09-13&preferredTime=8%3A00+AM&catalogId=597076"
@@ -1225,9 +1195,9 @@
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-09-19&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
-   "id": "divebondi-5971c913f546",
+   "id": "divebondi-dc0d7b7a870e",
    "source": "divebondi",
-   "title": "Guided Bushrangers Bay",
+   "title": "Guided Bushrangers Bay (sold out)",
    "start": "2026-09-20T06:30+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-09-20&preferredTime=6%3A30+AM&catalogId=597076"
@@ -1803,9 +1773,9 @@
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-09-26&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-6194cf3fc718",
+   "id": "divebondi-3bc310c9bee9",
    "source": "divebondi",
-   "title": "PADI Open Water Diver Course (sold out)",
+   "title": "PADI Open Water Diver Course",
    "start": "2026-09-26T08:00+10:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-09-26&preferredTime=8%3A00+AM&catalogId=597076"
