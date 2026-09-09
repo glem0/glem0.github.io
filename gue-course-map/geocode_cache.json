@@ -2210,5 +2210,32 @@
   "matched_query": "padova, padova, italy",
   "approx": false,
   "verified": true
+ },
+ "locarno, ticino, switzerland": {
+  "lat": 46.1695739,
+  "lng": 8.7954859,
+  "display": "Locarno, Circolo di Locarno, Distretto di Locarno, Ticino, Schweiz/Suisse/Svizzera/Svizra",
+  "country": "ch",
+  "matched_query": "locarno, ticino, switzerland",
+  "approx": false,
+  "verified": true
+ },
+ "marina di gioiosa ionica, italy": {
+  "lat": 38.3006628,
+  "lng": 16.3303619,
+  "display": "Marina di Gioiosa Ionica, Reggio Calabria, Calabria, 89046, Italia",
+  "country": "it",
+  "matched_query": "marina di gioiosa ionica, italy",
+  "approx": false,
+  "verified": true
+ },
+ "san giljan, malta": {
+  "lat": 35.9199225,
+  "lng": 14.4877119,
+  "display": "San Ġiljan, Reġjun tal-Lvant, Malta",
+  "country": "mt",
+  "matched_query": "san giljan, malta",
+  "approx": false,
+  "verified": true
  }
 }
