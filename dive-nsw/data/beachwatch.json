@@ -132,7 +132,7 @@
           "id": "e469a86a-1a9b-4e8a-a62d-1b90141b5bd5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Barrenjoey Beach"
         },
         "type": "Feature"
@@ -319,7 +319,7 @@
           "id": "8990825d-b48c-443f-9047-862a0b986621",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Boat Harbour"
         },
         "type": "Feature"
@@ -625,7 +625,7 @@
           "id": "3797a81b-936e-4e27-a813-e6c611ee2d99",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "Carss Point Baths"
         },
         "type": "Feature"
@@ -880,7 +880,7 @@
           "id": "e5e6bafe-894c-4111-9173-2bd369adf0b8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Como Baths"
         },
         "type": "Feature"
@@ -1050,7 +1050,7 @@
           "id": "b26de7f7-65b8-4f72-b954-991ddbacb3e9",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Davidson Reserve"
         },
         "type": "Feature"
@@ -1679,7 +1679,7 @@
           "id": "17c612fb-a4c3-4061-8482-77c278225037",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Jew Fish Bay Baths"
         },
         "type": "Feature"
@@ -3498,7 +3498,7 @@
           "id": "ee44a257-5c65-4b12-b3de-403a60d951c3",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Tambourine Bay"
         },
         "type": "Feature"
@@ -3753,7 +3753,7 @@
           "id": "613465c8-6d0b-46a4-a8cb-adcbc4c18982",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Umina Beach"
         },
         "type": "Feature"
@@ -4042,7 +4042,7 @@
           "id": "8309c06d-e9e7-4685-8afe-62d42b83a46f",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Woolwich Baths"
         },
         "type": "Feature"
