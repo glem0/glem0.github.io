@@ -2237,5 +2237,34 @@
   "matched_query": "san giljan, malta",
   "approx": false,
   "verified": true
+ },
+ "changzhou, jiangsu, china": {
+  "lat": 31.6572954,
+  "lng": 120.7480757,
+  "display": "常熟市, 苏州市, 江苏省, 215500, 中国",
+  "country": "cn",
+  "matched_query": "changshu, jiangsu, china",
+  "approx": false,
+  "verified": true,
+  "alias_of": "changshu, jiangsu, china"
+ },
+ "istanbul, istanbul, turkey": {
+  "lat": 41.006381,
+  "lng": 28.9758715,
+  "display": "İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye",
+  "country": "tr",
+  "matched_query": "istanbul, istanbul, turkey",
+  "approx": false,
+  "verified": true
+ },
+ "seoguipo, cheju-do, korea (south)": {
+  "lat": 33.252845,
+  "lng": 126.5610278,
+  "display": "서귀포시, 제주특별자치도, 대한민국",
+  "country": "kr",
+  "matched_query": "seogwipo, cheju-do, korea (south)",
+  "approx": false,
+  "verified": true,
+  "alias_of": "seogipo, cheju-do, korea (south)"
  }
 }
