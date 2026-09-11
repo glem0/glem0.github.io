@@ -2495,7 +2495,7 @@
           "id": "7f188718-1e97-404e-81cf-1bd72927015d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "North Curl Curl Beach"
         },
         "type": "Feature"
@@ -2833,8 +2833,8 @@
         },
         "properties": {
           "id": "0459d12c-12e0-4a7c-89f9-bbed3ffe683e",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Pretty Beach Baths"
         },
@@ -2867,8 +2867,8 @@
         },
         "properties": {
           "id": "95c134b2-a834-4651-865c-03f6c9f4a54e",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Queenscliff Beach"
         },
@@ -3343,8 +3343,8 @@
         },
         "properties": {
           "id": "224fc6a1-f98a-4a10-9603-91dacf9e54b8",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "South Steyne Beach"
         },
@@ -3547,8 +3547,8 @@
         },
         "properties": {
           "id": "840a7220-029b-4ba8-8718-8bde9f8f0a24",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Terrigal Lagoon"
         },
@@ -3615,8 +3615,8 @@
         },
         "properties": {
           "id": "80bcb522-2c7b-47b6-83c6-346db2d3aa89",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "The Entrance Ocean Baths"
         },
@@ -3802,8 +3802,8 @@
         },
         "properties": {
           "id": "13f16f4c-1a2a-4193-a1ed-f909c987d7bb",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Wamberal Lagoon"
         },
@@ -4074,8 +4074,8 @@
         },
         "properties": {
           "id": "1bddd545-7f5f-4b78-936f-be3ee4d49f68",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Woy Woy Baths"
         },
@@ -4125,8 +4125,8 @@
         },
         "properties": {
           "id": "b1e523df-149c-4b56-99b0-3f2f8bc4a7d2",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Yattalunga Baths"
         },
