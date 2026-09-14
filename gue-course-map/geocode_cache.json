@@ -2266,5 +2266,23 @@
   "approx": false,
   "verified": true,
   "alias_of": "seogipo, cheju-do, korea (south)"
+ },
+ "enschede, netherlands": {
+  "lat": 52.2209855,
+  "lng": 6.8940537,
+  "display": "Enschede, Overijssel, Nederland",
+  "country": "nl",
+  "matched_query": "enschede, netherlands",
+  "approx": false,
+  "verified": true
+ },
+ "muralto, ticino, switzerland": {
+  "lat": 46.1737791,
+  "lng": 8.8011979,
+  "display": "Muralto, Circolo di Locarno, Distretto di Locarno, Ticino, Schweiz/Suisse/Svizzera/Svizra",
+  "country": "ch",
+  "matched_query": "muralto, ticino, switzerland",
+  "approx": false,
+  "verified": true
  }
 }
