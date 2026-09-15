@@ -296,6 +296,7 @@ window.GUE_GEO = {
 "wageningen, netherlands":[51.96858,5.6683],
 "wakatobi, indonesia":[-5.31567,123.58504],
 "walcourt , namur, belgium":[50.2514,4.43141],
+"walcourt, namur, belgium":[50.2514,4.43141],
 "wellington, wellington, new zealand":[-41.2888,174.77721],
 "xr explorers, kuwait":[29.37965,47.97342],
 "yang yang, korea (south)":[37.52297,127.04048],

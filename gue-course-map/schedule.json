@@ -1,51 +1,6 @@
 {
- "updated": "2026-09-14T21:02:40Z",
+ "updated": "2026-09-15T20:25:10Z",
  "classes": [
-  {
-   "cid": "36402",
-   "course": "DPV Diver 1",
-   "date": "September 15, 2026",
-   "iso": "2026-09-15",
-   "location": "Protaras, Famagusta, Cyprus",
-   "instructor": "Imad Farhat",
-   "instructor_id": "19268"
-  },
-  {
-   "cid": "37314",
-   "course": "Doubles Primer",
-   "date": "September 15, 2026",
-   "iso": "2026-09-15",
-   "location": "hk, Hong Kong",
-   "instructor": "Siu Man Sit",
-   "instructor_id": "67279"
-  },
-  {
-   "cid": "36704",
-   "course": "GUE Basic Fundamentals",
-   "date": "September 15, 2026",
-   "iso": "2026-09-15",
-   "location": "Athens, Greece",
-   "instructor": "Nikos Vardakas",
-   "instructor_id": "1991"
-  },
-  {
-   "cid": "37269",
-   "course": "GUE Technical Fundamentals",
-   "date": "September 15, 2026",
-   "iso": "2026-09-15",
-   "location": "Taipei, Taiwan",
-   "instructor": "Gideon Liew",
-   "instructor_id": "428"
-  },
-  {
-   "cid": "35255",
-   "course": "Technical Diver 1",
-   "date": "September 15, 2026",
-   "iso": "2026-09-15",
-   "location": "Dahab, Janub Sina', Egypt",
-   "instructor": "Sameh Sokar",
-   "instructor_id": "18431"
-  },
   {
    "cid": "36721",
    "course": "Cave Diver 1",
@@ -929,15 +884,6 @@
    "instructor_id": "11724"
   },
   {
-   "cid": "31726",
-   "course": "Open Water Diver",
-   "date": "October 1, 2026",
-   "iso": "2026-10-01",
-   "location": "Schneverdingen, Hemmoor, Niedersachsen, Germany",
-   "instructor": "Oliver Ober",
-   "instructor_id": "68750"
-  },
-  {
    "cid": "30926",
    "course": "Technical Diver 1",
    "date": "October 1, 2026",
@@ -1757,6 +1703,15 @@
    "instructor_id": "7698"
   },
   {
+   "cid": "37344",
+   "course": "GUE Performance Diver",
+   "date": "October 17, 2026",
+   "iso": "2026-10-17",
+   "location": "Walcourt, Namur, Belgium",
+   "instructor": "Jérôme Descamps",
+   "instructor_id": "25255"
+  },
+  {
    "cid": "36784",
    "course": "Navigation Primer",
    "date": "October 17, 2026",
@@ -1874,6 +1829,15 @@
    "instructor_id": "20747"
   },
   {
+   "cid": "37074",
+   "course": "GUE Basic Fundamentals",
+   "date": "October 19, 2026",
+   "iso": "2026-10-19",
+   "location": "Dahab , Janub Sina', Egypt",
+   "instructor": "Ahmed Hagi",
+   "instructor_id": "69051"
+  },
+  {
    "cid": "36900",
    "course": "GUE Performance Diver",
    "date": "October 19, 2026",
@@ -1908,15 +1872,6 @@
    "location": "High Springs, United States",
    "instructor": "Stretch Aaron Altenhein",
    "instructor_id": "10004"
-  },
-  {
-   "cid": "37074",
-   "course": "GUE Basic Fundamentals",
-   "date": "October 20, 2026",
-   "iso": "2026-10-20",
-   "location": "Dahab , Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
   },
   {
    "cid": "35706",
@@ -4925,6 +4880,15 @@
    "instructor_id": "15307"
   },
   {
+   "cid": "31726",
+   "course": "Open Water Diver",
+   "date": "April 1, 2027",
+   "iso": "2027-04-01",
+   "location": "Schneverdingen, Hemmoor, Niedersachsen, Germany",
+   "instructor": "Oliver Ober",
+   "instructor_id": "68750"
+  },
+  {
    "cid": "36847",
    "course": "Documentation Diver",
    "date": "April 2, 2027",
@@ -4950,6 +4914,15 @@
    "location": "Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "John Kendall",
    "instructor_id": "1956"
+  },
+  {
+   "cid": "36042",
+   "course": "DPV Cave",
+   "date": "April 5, 2027",
+   "iso": "2027-04-05",
+   "location": "Cala Gonone, Nuoro, Italy",
+   "instructor": "Zsolt Szilagyi",
+   "instructor_id": "1444"
   },
   {
    "cid": "35992",
@@ -5841,15 +5814,6 @@
    "location": "Puerto Aventuras , Quintana Roo, Mexico",
    "instructor": "John Kendall",
    "instructor_id": "1956"
-  },
-  {
-   "cid": "36042",
-   "course": "DPV Cave",
-   "date": "April 17, 2028",
-   "iso": "2028-04-17",
-   "location": "Cala Gonone, Nuoro, Italy",
-   "instructor": "Zsolt Szilagyi",
-   "instructor_id": "1444"
   },
   {
    "cid": "32212",

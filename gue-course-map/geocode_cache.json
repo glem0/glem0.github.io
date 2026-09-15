@@ -2284,5 +2284,14 @@
   "matched_query": "muralto, ticino, switzerland",
   "approx": false,
   "verified": true
+ },
+ "walcourt, namur, belgium": {
+  "lat": 50.2513997,
+  "lng": 4.4314089,
+  "display": "Walcourt, Philippeville, Namur, Wallonie, België / Belgique / Belgien",
+  "country": "be",
+  "matched_query": "walcourt, namur, belgium",
+  "approx": false,
+  "verified": true
  }
 }
