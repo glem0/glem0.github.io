@@ -871,6 +871,23 @@
       {
         "geometry": {
           "coordinates": [
+            150.828263156,
+            -33.432824027
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "id": "91cb3b19-ad2c-42a3-9bb1-2e1323cd094b",
+          "latestResult": "Good",
+          "latestResultRating": 4,
+          "pollutionForecast": "Forecast not available",
+          "siteName": "Colo River Park"
+        },
+        "type": "Feature"
+      },
+      {
+        "geometry": {
+          "coordinates": [
             151.070646,
             -33.996858
           ],
