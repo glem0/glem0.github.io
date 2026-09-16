@@ -1,42 +1,6 @@
 {
- "updated": "2026-09-15T20:25:10Z",
+ "updated": "2026-09-16T20:24:14Z",
  "classes": [
-  {
-   "cid": "36721",
-   "course": "Cave Diver 1",
-   "date": "September 16, 2026",
-   "iso": "2026-09-16",
-   "location": "playa del carmen, Quintana Roo, Mexico",
-   "instructor": "Marcelin Nebenhaus",
-   "instructor_id": "73393"
-  },
-  {
-   "cid": "35578",
-   "course": "GUE Basic Fundamentals",
-   "date": "September 16, 2026",
-   "iso": "2026-09-16",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
-  },
-  {
-   "cid": "36809",
-   "course": "GUE Basic Fundamentals",
-   "date": "September 16, 2026",
-   "iso": "2026-09-16",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
-  },
-  {
-   "cid": "37112",
-   "course": "GUE Performance Diver",
-   "date": "September 16, 2026",
-   "iso": "2026-09-16",
-   "location": "Yang yang, Korea (South)",
-   "instructor": "Gemma Thomas",
-   "instructor_id": "11724"
-  },
   {
    "cid": "37028",
    "course": "GUE Performance Diver",
@@ -108,6 +72,15 @@
    "location": "Stromberg, Rheinland-Pfalz, Germany",
    "instructor": "Sven Nelles",
    "instructor_id": "7698"
+  },
+  {
+   "cid": "37346",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "September 19, 2026",
+   "iso": "2026-09-19",
+   "location": "Mactan, Cebu, Philippines",
+   "instructor": "Jimmy Choo",
+   "instructor_id": "15307"
   },
   {
    "cid": "37339",
@@ -2373,7 +2346,7 @@
    "course": "GUE Basic Fundamentals",
    "date": "November 2, 2026",
    "iso": "2026-11-02",
-   "location": "San Giljan, Malta",
+   "location": "St. Julian's, Malta",
    "instructor": "Mark Devoldere",
    "instructor_id": "7497"
   },
@@ -2385,6 +2358,15 @@
    "location": "Kralendijk, Bonaire",
    "instructor": "Douwe Musch",
    "instructor_id": "67329"
+  },
+  {
+   "cid": "37349",
+   "course": "Navigation Primer",
+   "date": "November 2, 2026",
+   "iso": "2026-11-02",
+   "location": "Dahab, Egypt",
+   "instructor": "Mahmoud Esmat",
+   "instructor_id": "65259"
   },
   {
    "cid": "37110",
@@ -2450,6 +2432,15 @@
    "instructor_id": "24473"
   },
   {
+   "cid": "37351",
+   "course": "Rescue Primer",
+   "date": "November 4, 2026",
+   "iso": "2026-11-04",
+   "location": "Dahab, Egypt",
+   "instructor": "Mahmoud Esmat",
+   "instructor_id": "65259"
+  },
+  {
    "cid": "37060",
    "course": "Technical Diver 1",
    "date": "November 4, 2026",
@@ -2457,6 +2448,15 @@
    "location": "Cabo de Palos, Spain",
    "instructor": "Ricardo Constantino",
    "instructor_id": "1591"
+  },
+  {
+   "cid": "37353",
+   "course": "Deep Primer",
+   "date": "November 5, 2026",
+   "iso": "2026-11-05",
+   "location": "St. Julian's, Malta",
+   "instructor": "Mark Devoldere",
+   "instructor_id": "7497"
   },
   {
    "cid": "36592",
@@ -2472,7 +2472,7 @@
    "course": "GUE Basic Fundamentals",
    "date": "November 5, 2026",
    "iso": "2026-11-05",
-   "location": "San Giljan, Malta",
+   "location": "St. Julian's, Malta",
    "instructor": "Mark Devoldere",
    "instructor_id": "7497"
   },
@@ -2504,6 +2504,15 @@
    "instructor_id": "22866"
   },
   {
+   "cid": "37348",
+   "course": "GUE Performance Diver",
+   "date": "November 5, 2026",
+   "iso": "2026-11-05",
+   "location": "St. Julian's, Malta",
+   "instructor": "Mark Devoldere",
+   "instructor_id": "7497"
+  },
+  {
    "cid": "36154",
    "course": "GUE Technical Fundamentals",
    "date": "November 5, 2026",
@@ -2511,6 +2520,24 @@
    "location": "München, Bayern, Germany",
    "instructor": "Frederik Bring",
    "instructor_id": "68473"
+  },
+  {
+   "cid": "37352",
+   "course": "Navigation Primer",
+   "date": "November 5, 2026",
+   "iso": "2026-11-05",
+   "location": "St. Julian's, Malta",
+   "instructor": "Mark Devoldere",
+   "instructor_id": "7497"
+  },
+  {
+   "cid": "37347",
+   "course": "Scuba Diver",
+   "date": "November 5, 2026",
+   "iso": "2026-11-05",
+   "location": "St Julian's, Malta",
+   "instructor": "Mark Devoldere",
+   "instructor_id": "7497"
   },
   {
    "cid": "37085",
@@ -3690,6 +3717,15 @@
    "location": "Singapore, Central Singapore, Singapore",
    "instructor": "Coral Chua",
    "instructor_id": "75313"
+  },
+  {
+   "cid": "37345",
+   "course": "GUE Technical Fundamentals",
+   "date": "December 25, 2026",
+   "iso": "2026-12-25",
+   "location": "PuertoGalera, Mindoro Oriental, Philippines",
+   "instructor": "Bo Du",
+   "instructor_id": "17461"
   },
   {
    "cid": "37334",
@@ -4986,6 +5022,15 @@
    "location": "Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "John Kendall",
    "instructor_id": "1956"
+  },
+  {
+   "cid": "37350",
+   "course": "Cave Sidemount",
+   "date": "April 12, 2027",
+   "iso": "2027-04-12",
+   "location": "Cala Gonone, Nuoro, Italy",
+   "instructor": "Zsolt Szilagyi",
+   "instructor_id": "1444"
   },
   {
    "cid": "37194",

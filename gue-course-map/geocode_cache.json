@@ -2293,5 +2293,33 @@
   "matched_query": "walcourt, namur, belgium",
   "approx": false,
   "verified": true
+ },
+ "puertogalera, mindoro oriental, philippines": {
+  "lat": 13.2,
+  "lng": 121.2,
+  "display": "Oriental Mindoro, Mimaropa, Philippines",
+  "country": "ph",
+  "matched_query": "mindoro oriental, philippines",
+  "approx": true,
+  "verified": true
+ },
+ "st julian's, malta": {
+  "lat": 35.9199225,
+  "lng": 14.4877119,
+  "display": "San Ġiljan, Reġjun tal-Lvant, Malta",
+  "country": "mt",
+  "matched_query": "st julian's, malta",
+  "approx": false,
+  "verified": true
+ },
+ "st. julian's, malta": {
+  "lat": 35.9199225,
+  "lng": 14.4877119,
+  "display": "San Ġiljan, Reġjun tal-Lvant, Malta",
+  "country": "mt",
+  "matched_query": "st julian's, malta",
+  "approx": false,
+  "verified": true,
+  "alias_of": "st julian's, malta"
  }
 }
