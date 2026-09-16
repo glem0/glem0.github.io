@@ -1968,7 +1968,7 @@
           "id": "93ec689a-b568-4cef-8c51-1eaafbbb51a5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Long Reef Beach"
         },
         "type": "Feature"
@@ -2495,7 +2495,7 @@
           "id": "f40362ee-ce75-4473-a7e5-cb8d062611fc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "North Cronulla Beach"
         },
         "type": "Feature"
@@ -2884,8 +2884,8 @@
         },
         "properties": {
           "id": "95c134b2-a834-4651-865c-03f6c9f4a54e",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Queenscliff Beach"
         },
@@ -3277,7 +3277,7 @@
           "id": "b0513e57-bc00-46c6-b560-20d9a2207c35",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "South Cronulla Beach"
         },
         "type": "Feature"
@@ -3360,8 +3360,8 @@
         },
         "properties": {
           "id": "224fc6a1-f98a-4a10-9603-91dacf9e54b8",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "South Steyne Beach"
         },
