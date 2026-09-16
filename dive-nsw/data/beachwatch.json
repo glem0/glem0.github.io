@@ -1543,7 +1543,7 @@
           "id": "d88adb6c-c5a2-4cee-b883-c749140ce033",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Gunnamatta Bay Baths"
         },
         "type": "Feature"
@@ -2495,7 +2495,7 @@
           "id": "f40362ee-ce75-4473-a7e5-cb8d062611fc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "North Cronulla Beach"
         },
         "type": "Feature"
@@ -3277,7 +3277,7 @@
           "id": "b0513e57-bc00-46c6-b560-20d9a2207c35",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "South Cronulla Beach"
         },
         "type": "Feature"
