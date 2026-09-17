@@ -64,7 +64,7 @@
           "id": "0d6cacd4-5992-486a-b6a8-7d4c810f56bd",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Avoca Beach"
         },
         "type": "Feature"
@@ -98,7 +98,7 @@
           "id": "e6daf905-fb81-4aea-911d-fa3350abd298",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Balmoral Baths"
         },
         "type": "Feature"
@@ -132,7 +132,7 @@
           "id": "e469a86a-1a9b-4e8a-a62d-1b90141b5bd5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Barrenjoey Beach"
         },
         "type": "Feature"
@@ -1968,7 +1968,7 @@
           "id": "93ec689a-b568-4cef-8c51-1eaafbbb51a5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Long Reef Beach"
         },
         "type": "Feature"
