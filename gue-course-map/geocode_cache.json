@@ -2321,5 +2321,40 @@
   "approx": false,
   "verified": true,
   "alias_of": "st julian's, malta"
+ },
+ "cebu, cebu, philippines": {
+  "lat": 10.2943421,
+  "lng": 123.9021033,
+  "display": "Basilica Minore del Santo Niño, Osmeña Boulevard, San Roque, Duljo Fatima, Cebu City, Central Visayas, 6000, Philippines",
+  "country": "ph",
+  "matched_query": "cebu, cebu, philippines",
+  "approx": false,
+  "verified": true
+ },
+ "köln, nordrhein-westfalen, germany": {
+  "lat": 50.938361,
+  "lng": 6.959974,
+  "display": "Köln, Nordrhein-Westfalen, Deutschland",
+  "country": "de",
+  "matched_query": "köln, nordrhein-westfalen, germany",
+  "approx": false,
+  "verified": true
+ },
+ "offenburg, germany": {
+  "lat": 48.4695984,
+  "lng": 7.9429235,
+  "display": "Offenburg, VVG der Stadt Offenburg, Ortenaukreis, Baden-Württemberg, Deutschland",
+  "country": "de",
+  "matched_query": "offenburg, germany",
+  "approx": false,
+  "verified": true
+ },
+ "yangyang-gun, kangwon-do, korea (south)": {
+  "lat": 38.0598167,
+  "lng": 128.6672466,
+  "display": "양양국제공항, 201, 공항로, 동호리, 손양면, 양양군, 강원특별자치도, 25042, 대한민국",
+  "country": "kr",
+  "matched_query": "yang-yang gun, kangwon-do, korea (south)",
+  "alias_of": "yang-yang gun, kangwon-do, korea (south)"
  }
 }

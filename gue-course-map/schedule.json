@@ -1,24 +1,6 @@
 {
- "updated": "2026-09-16T20:24:14Z",
+ "updated": "2026-09-17T20:32:08Z",
  "classes": [
-  {
-   "cid": "37028",
-   "course": "GUE Performance Diver",
-   "date": "September 17, 2026",
-   "iso": "2026-09-17",
-   "location": "Puidoux, Switzerland",
-   "instructor": "Sabine Sidi-Ali",
-   "instructor_id": "27088"
-  },
-  {
-   "cid": "36504",
-   "course": "GUE Technical Fundamentals",
-   "date": "September 17, 2026",
-   "iso": "2026-09-17",
-   "location": "Hemmoor, Niedersachsen, Germany",
-   "instructor": "Daniel Schulte",
-   "instructor_id": "6754"
-  },
   {
    "cid": "36715",
    "course": "CCR Technical Diver 1: JJ-CCR",
@@ -243,15 +225,6 @@
    "location": "Zürich, Zürich, Switzerland",
    "instructor": "Maximilian Fahr",
    "instructor_id": "66486"
-  },
-  {
-   "cid": "36460",
-   "course": "CCR Fundamentals: Symbios",
-   "date": "September 21, 2026",
-   "iso": "2026-09-21",
-   "location": "Lapu Lapu, Cebu, Philippines",
-   "instructor": "Jimmy Choo",
-   "instructor_id": "15307"
   },
   {
    "cid": "36461",
@@ -749,6 +722,15 @@
    "instructor_id": "20747"
   },
   {
+   "cid": "37356",
+   "course": "GUE Basic Fundamentals",
+   "date": "September 28, 2026",
+   "iso": "2026-09-28",
+   "location": "Yangyang-gun, Kangwon-do, Korea (South)",
+   "instructor": "Youngwoo Seo",
+   "instructor_id": "16137"
+  },
+  {
    "cid": "37252",
    "course": "GUE Performance Diver",
    "date": "September 28, 2026",
@@ -756,6 +738,15 @@
    "location": "Zero Gravity Dive Center - Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Laurent Dahan",
    "instructor_id": "25023"
+  },
+  {
+   "cid": "37359",
+   "course": "Gas Blender",
+   "date": "September 28, 2026",
+   "iso": "2026-09-28",
+   "location": "Köln, Nordrhein-Westfalen, Germany",
+   "instructor": "Sven Nelles",
+   "instructor_id": "7698"
   },
   {
    "cid": "35195",
@@ -810,6 +801,15 @@
    "location": "Antalya/Kas, Turkey",
    "instructor": "Derk Remmers",
    "instructor_id": "2366"
+  },
+  {
+   "cid": "37355",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "October 1, 2026",
+   "iso": "2026-10-01",
+   "location": "Cebu, Cebu, Philippines",
+   "instructor": "Andrew Couch",
+   "instructor_id": "22082"
   },
   {
    "cid": "35702",
@@ -1181,6 +1181,15 @@
    "instructor_id": "13808"
   },
   {
+   "cid": "37360",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "October 5, 2026",
+   "iso": "2026-10-05",
+   "location": "Stromberg, Rheinland-Pfalz, Germany",
+   "instructor": "Sven Nelles",
+   "instructor_id": "7698"
+  },
+  {
    "cid": "37333",
    "course": "Doubles Primer",
    "date": "October 6, 2026",
@@ -1197,6 +1206,15 @@
    "location": "nanjing, Jiangsu, China",
    "instructor": "Bo Du",
    "instructor_id": "17461"
+  },
+  {
+   "cid": "37354",
+   "course": "Gas Blender",
+   "date": "October 6, 2026",
+   "iso": "2026-10-06",
+   "location": "Sydney, New South Wales, Australia",
+   "instructor": "Duncan Paterson",
+   "instructor_id": "18320"
   },
   {
    "cid": "35769",
@@ -3503,6 +3521,15 @@
    "instructor_id": "1591"
   },
   {
+   "cid": "37357",
+   "course": "GUE Performance Diver",
+   "date": "December 12, 2026",
+   "iso": "2026-12-12",
+   "location": "Offenburg, Germany",
+   "instructor": "Christian Schweiger",
+   "instructor_id": "68425"
+  },
+  {
    "cid": "37106",
    "course": "GUE Performance Diver",
    "date": "December 12, 2026",
@@ -3681,6 +3708,15 @@
    "location": "Dahab , Janub Sina', Egypt",
    "instructor": "Ahmed Hagi",
    "instructor_id": "69051"
+  },
+  {
+   "cid": "37358",
+   "course": "GUE Performance Diver",
+   "date": "December 19, 2026",
+   "iso": "2026-12-19",
+   "location": "Offenburg, Germany",
+   "instructor": "Christian Schweiger",
+   "instructor_id": "68425"
   },
   {
    "cid": "34528",
