@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-09-20T05:26:42+10:00",
+ "generated_at": "2026-09-21T05:36:07+10:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-09-01",
@@ -13,7 +13,7 @@ window.__DIVE_DATA__ =
    "short": "Abyss",
    "url": "https://www.abyss.com.au/sydney-dive-calendar",
    "status": "ok",
-   "event_count": 112
+   "event_count": 108
   },
   {
    "id": "frogdive",
@@ -47,7 +47,7 @@ window.__DIVE_DATA__ =
    "short": "ProDive",
    "url": "https://www.prodive.com.au/Calendar.asp?Scubadive=Sydney",
    "status": "ok",
-   "event_count": 432
+   "event_count": 427
   },
   {
    "id": "divecharters",
@@ -270,25 +270,6 @@ window.__DIVE_DATA__ =
    "description": "A$170.00 · Week day morning Tec 1 Dives depart at 0700am from Rose Bay wharf. Little Manly pickup available on request at checkout booking form. Dive depths are between 40-51metres dependent on the depth of the wreck of the day. ***Sydney Dive Charters caters for open circuit, CCR, side mount and scooters. Numbers on board are limited to 8. ***…"
   },
   {
-   "id": "abyss-0b65ebfc8297",
-   "source": "abyss",
-   "title": "Bushrangers",
-   "start": "2026-09-20T07:00+10:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/real-shark-diving-in-ocean",
-   "description": "$350.00 · No Experience Needed · Dive with wild sharks at Bushrangers Bay, no cage!"
-  },
-  {
-   "id": "prodive-1894802857b9",
-   "source": "prodive",
-   "title": "Double boat dive - ( you must book with a buddy)",
-   "start": "2026-09-20T07:30+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Boat+Dives/Double+boat+dive+-+(+you+must+book+with+a+buddy)+-+Sydney+-+Manly/1770",
-   "location": "ProDive Manly",
-   "description": "$130.00 · This is for those who prefer to dive unguided and bring all there own gear. There is no option to add gear , you will also need to bring a buddy. We will supply the boat, a dive briefing and refresments. This trip will allow for 2x 60min dives with out having to deal the hassels of diving with a group Dive Site: Dee Why Wide** Rating: Advanced Diver (30m) Depth: 37m"
-  },
-  {
    "id": "frogdive-44695619a19d",
    "source": "frogdive",
    "title": "SHORE DIVE SHELLY BEACH",
@@ -297,73 +278,6 @@ window.__DIVE_DATA__ =
    "end": "2026-09-20T08:15+10:00",
    "url": "https://frogdive.eventcalendarapp.com/u/18702/460779",
    "description": "Shelly Beach - Manly\nDive Level Green – beginner diver friendly\nAverage Depth ..."
-  },
-  {
-   "id": "prodive-33bf9d298e75",
-   "source": "prodive",
-   "title": "Sydney Double Boat Dive",
-   "start": "2026-09-20T07:45+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Boat+Dives/Sydney+Double+Boat+Dive+-+Sydney+-+Manly/240",
-   "location": "ProDive Manly",
-   "description": "$199.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Dee Why Wide** Rating: Advanced Diver (30m) Depth: 37m"
-  },
-  {
-   "id": "abyss-5cd3e17a334c",
-   "source": "abyss",
-   "title": "Aware Shark Conservation",
-   "start": "2026-09-20T08:00+10:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/padi-aware-shark-conservation-course-dive-with-purpose",
-   "description": "$350.00 · PADI Aware Shark Conservation Course · Discover why sharks matter and how divers can protect them."
-  },
-  {
-   "id": "prodive-3ea2f8e19548",
-   "source": "prodive",
-   "title": "Guided Shore Dives (Double Dive)",
-   "start": "2026-09-20T08:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Shore+Dives/Guided+Shore+Dives+(Double+Dive)+-+Sydney+-+Alexandria/1046",
-   "location": "ProDive Alexandria",
-   "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Gordons Bay** Rating: Open Water Diver(20m) Depth: 14m"
-  },
-  {
-   "id": "abyss-8c2bb8ab3dd2",
-   "source": "abyss",
-   "title": "Martin Island Seals (sold out)",
-   "start": "2026-09-20T09:00+10:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/scuba-dive-with-seals",
-   "description": "$130.00 · Seal Diving · Playful fur seals swirl around you with possible whales and rays."
-  },
-  {
-   "id": "abyss-37635395f028",
-   "source": "abyss",
-   "title": "Leap To Steps (sold out)",
-   "start": "2026-09-20T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
-   "description": "Guided Shore Dives · Leap to steps Drift for confident divers shore dive (18-22m)"
-  },
-  {
-   "id": "prodive-02521f185dfe",
-   "source": "prodive",
-   "title": "Discover Scuba at Shelly Beach",
-   "start": "2026-09-20T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Scuba+Introductory+Dive/Discover+Scuba+at+Shelly+Beach+-+Sydney+-+Manly/1727",
-   "location": "ProDive Manly",
-   "description": "$249.00 · Come and discover the enchanting realm of our underwater world! Our PRO DIVE Try a Dive program offers individuals without scuba diving certification the opportunity to experience the excitement and adventure of diving, all while under the guidance of one of our expert PRO DIVE Instructors."
-  },
-  {
-   "id": "prodive-a46b821b7b42",
-   "source": "prodive",
-   "title": "Refresher Scuba Dive",
-   "start": "2026-09-20T12:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
-   "location": "ProDive Alexandria",
-   "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again. Dive Site: Gordons Bay** Rating: Open Water Diver(20m) Depth: 14m"
   },
   {
    "id": "divecharters-d9d65779d8f8",
@@ -695,15 +609,6 @@ window.__DIVE_DATA__ =
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
-   "id": "abyss-c5b920674f8d",
-   "source": "abyss",
-   "title": "60473-1/26-09-2026",
-   "start": "2026-09-26T09:00+10:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/equipment-specialist",
-   "description": "$250.00 · Equipment Specialist Course · Equipment Specialist Course"
-  },
-  {
    "id": "abyss-3db445ac6f20",
    "source": "abyss",
    "title": "Enriched Air Diver",
@@ -711,6 +616,15 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/courses/enriched-air-diver",
    "description": "$345.00 · Enriched Air (Nitrox) Diver"
+  },
+  {
+   "id": "abyss-c5b920674f8d",
+   "source": "abyss",
+   "title": "60473-1/26-09-2026",
+   "start": "2026-09-26T09:00+10:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/courses/equipment-specialist",
+   "description": "$250.00 · Equipment Specialist Course · Equipment Specialist Course"
   },
   {
    "id": "prodive-73872456153f",
@@ -1112,15 +1026,6 @@ window.__DIVE_DATA__ =
    "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
   },
   {
-   "id": "abyss-9bccb287967c",
-   "source": "abyss",
-   "title": "Enriched Air Diver",
-   "start": "2026-10-03T08:00+10:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
-   "description": "$345.00 · Enriched Air (Nitrox) Diver"
-  },
-  {
    "id": "abyss-b402d794075b",
    "source": "abyss",
    "title": "Aware Shark Conservation",
@@ -1128,6 +1033,15 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/courses/padi-aware-shark-conservation-course-dive-with-purpose",
    "description": "$350.00 · PADI Aware Shark Conservation Course · Discover why sharks matter and how divers can protect them."
+  },
+  {
+   "id": "abyss-9bccb287967c",
+   "source": "abyss",
+   "title": "Enriched Air Diver",
+   "start": "2026-10-03T08:00+10:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
+   "description": "$345.00 · Enriched Air (Nitrox) Diver"
   },
   {
    "id": "abyss-fc6a45ebce62",
@@ -2106,6 +2020,15 @@ window.__DIVE_DATA__ =
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
+   "id": "abyss-42506ee52c5a",
+   "source": "abyss",
+   "title": "PADI Refresher Course",
+   "start": "2026-10-17T09:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/courses/reactivate-your-diving",
+   "description": "$199.00 · PADI REFRESHER COURSE SYDNEY · Refresher Course (PADI Reactivate)"
+  },
+  {
    "id": "abyss-f34b5954c37b",
    "source": "abyss",
    "title": "Freediving 17-10-26/17-10-2026",
@@ -2114,15 +2037,6 @@ window.__DIVE_DATA__ =
    "end": "2026-10-18",
    "url": "https://www.abyss.com.au/courses/padi-freediver-course",
    "description": "$599.00 · PADI Freediver Course · Freediver Course"
-  },
-  {
-   "id": "abyss-42506ee52c5a",
-   "source": "abyss",
-   "title": "PADI Refresher Course",
-   "start": "2026-10-17T09:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/reactivate-your-diving",
-   "description": "$199.00 · PADI REFRESHER COURSE SYDNEY · Refresher Course (PADI Reactivate)"
   },
   {
    "id": "abyss-f8fb764eb505",
@@ -2608,15 +2522,6 @@ window.__DIVE_DATA__ =
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
-   "id": "abyss-487ef320a694",
-   "source": "abyss",
-   "title": "EQUIP 24-10-2027",
-   "start": "2026-10-24T09:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/equipment-specialist",
-   "description": "$250.00 · Equipment Specialist Course · Equipment Specialist Course"
-  },
-  {
    "id": "abyss-eca34e9e788e",
    "source": "abyss",
    "title": "Enriched Air Diver",
@@ -2624,6 +2529,15 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/courses/enriched-air-diver",
    "description": "$345.00 · Enriched Air (Nitrox) Diver"
+  },
+  {
+   "id": "abyss-487ef320a694",
+   "source": "abyss",
+   "title": "EQUIP 24-10-2027",
+   "start": "2026-10-24T09:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/courses/equipment-specialist",
+   "description": "$250.00 · Equipment Specialist Course · Equipment Specialist Course"
   },
   {
    "id": "abyss-cf5b1a3933b0",
@@ -3528,6 +3442,15 @@ window.__DIVE_DATA__ =
    "description": "$219.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Magic Point - Shark Dive** Rating: Open Water Diver(20m) Depth: 23m"
   },
   {
+   "id": "abyss-1dbc6c2f0531",
+   "source": "abyss",
+   "title": "Enriched Air Diver",
+   "start": "2026-11-07T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
+   "description": "$345.00 · Enriched Air (Nitrox) Diver"
+  },
+  {
    "id": "abyss-dcce5f24d1ef",
    "source": "abyss",
    "title": "AOW 07-11-2026",
@@ -3536,15 +3459,6 @@ window.__DIVE_DATA__ =
    "end": "2026-11-08",
    "url": "https://www.abyss.com.au/courses/padi-advanced-open-water-course",
    "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
-  },
-  {
-   "id": "abyss-1dbc6c2f0531",
-   "source": "abyss",
-   "title": "Enriched Air Diver",
-   "start": "2026-11-07T08:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
-   "description": "$345.00 · Enriched Air (Nitrox) Diver"
   },
   {
    "id": "prodive-02280620eb01",
@@ -3952,15 +3866,6 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · This is for those who prefer to dive unguided and bring all there own gear. There is no option to add gear , you will also need to bring a buddy. We will supply the boat, a dive briefing and refresments. This trip will allow for 2x 60min dives with out having to deal the hassels of diving with a group Dive Site: Magic Point - Shark Dive** Rating: Open Water Diver(20m) Depth: 23m"
   },
   {
-   "id": "abyss-60f66789243f",
-   "source": "abyss",
-   "title": "Shiprock & Oak Park Dive",
-   "start": "2026-11-13T10:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
-   "description": "Guided Shore Dives · Ship Rock wall and bubble cave & Oak Park shore dive (16m & 10m)"
-  },
-  {
    "id": "prodive-0ca4d7216e3b",
    "source": "prodive",
    "title": "Scuba Hire Click & Collect",
@@ -4067,6 +3972,15 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-14#19@book@",
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
+   "id": "abyss-562b742cbc18",
+   "source": "abyss",
+   "title": "Refresher Course",
+   "start": "2026-11-14T09:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/courses/reactivate-your-diving",
+   "description": "$199.00 · PADI REFRESHER COURSE SYDNEY · Refresher Course (PADI Reactivate)"
   },
   {
    "id": "abyss-4b9a98615b4d",
@@ -4495,15 +4409,6 @@ window.__DIVE_DATA__ =
    "description": "$219.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Magic Point - Shark Dive** Rating: Open Water Diver(20m) Depth: 23m"
   },
   {
-   "id": "abyss-65bbcba0b72f",
-   "source": "abyss",
-   "title": "Enriched Air Diver",
-   "start": "2026-11-21T08:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
-   "description": "$345.00 · Enriched Air (Nitrox) Diver"
-  },
-  {
    "id": "abyss-b0deecf28f1d",
    "source": "abyss",
    "title": "AOW 21-11-2026",
@@ -4512,6 +4417,15 @@ window.__DIVE_DATA__ =
    "end": "2026-11-22",
    "url": "https://www.abyss.com.au/courses/padi-advanced-open-water-course",
    "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
+  },
+  {
+   "id": "abyss-65bbcba0b72f",
+   "source": "abyss",
+   "title": "Enriched Air Diver",
+   "start": "2026-11-21T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
+   "description": "$345.00 · Enriched Air (Nitrox) Diver"
   },
   {
    "id": "abyss-515e9d9d792a",
@@ -5464,15 +5378,6 @@ window.__DIVE_DATA__ =
    "description": "$219.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Magic Point - Shark Dive** Rating: Open Water Diver(20m) Depth: 23m"
   },
   {
-   "id": "abyss-0224e3bd321a",
-   "source": "abyss",
-   "title": "Enriched Air Diver",
-   "start": "2026-12-05T08:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
-   "description": "$345.00 · Enriched Air (Nitrox) Diver"
-  },
-  {
    "id": "abyss-0d57d9a10bb2",
    "source": "abyss",
    "title": "AOW 05-12-2026",
@@ -5491,6 +5396,15 @@ window.__DIVE_DATA__ =
    "end": "2026-12-06",
    "url": "https://www.abyss.com.au/courses/tec-40",
    "description": "$745.00 · tec 40"
+  },
+  {
+   "id": "abyss-0224e3bd321a",
+   "source": "abyss",
+   "title": "Enriched Air Diver",
+   "start": "2026-12-05T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
+   "description": "$345.00 · Enriched Air (Nitrox) Diver"
   },
   {
    "id": "prodive-f94670769d13",
@@ -5894,15 +5808,6 @@ window.__DIVE_DATA__ =
    "description": "$219.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Long Reef/The Apartments - Shark Dive** Rating: Open Water Diver(20m) Depth: 25m"
   },
   {
-   "id": "abyss-92fd8d46a32a",
-   "source": "abyss",
-   "title": "Enriched Air Diver",
-   "start": "2026-12-12T08:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
-   "description": "$345.00 · Enriched Air (Nitrox) Diver"
-  },
-  {
    "id": "abyss-b8c864e9725c",
    "source": "abyss",
    "title": "AOW 12-12-2026",
@@ -5911,6 +5816,15 @@ window.__DIVE_DATA__ =
    "end": "2026-12-13",
    "url": "https://www.abyss.com.au/courses/padi-advanced-open-water-course",
    "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
+  },
+  {
+   "id": "abyss-92fd8d46a32a",
+   "source": "abyss",
+   "title": "Enriched Air Diver",
+   "start": "2026-12-12T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
+   "description": "$345.00 · Enriched Air (Nitrox) Diver"
   },
   {
    "id": "prodive-665bcfca4f42",
@@ -7171,16 +7085,6 @@ window.__DIVE_DATA__ =
    "description": "A$170.00 · Week day morning Tec 1 Dives depart at 0700am from Rose Bay wharf. Little Manly pickup available on request at checkout booking form. Dive depths are between 40-51metres dependent on the depth of the wreck of the day. ***Sydney Dive Charters caters for open circuit, CCR, side mount and scooters. Numbers on board are limited to 8. ***…"
   },
   {
-   "id": "abyss-9dfc66b15adf",
-   "source": "abyss",
-   "title": "PADI Deep Diver",
-   "start": "2027-01-30T08:00+11:00",
-   "all_day": false,
-   "end": "2027-01-31",
-   "url": "https://www.abyss.com.au/courses/deep-diver",
-   "description": "$599.00 · Deep Diver Course · Deep Diver Course"
-  },
-  {
    "id": "abyss-d5ea91dafb4e",
    "source": "abyss",
    "title": "Advanced Open Water",
@@ -7189,6 +7093,16 @@ window.__DIVE_DATA__ =
    "end": "2027-01-31",
    "url": "https://www.abyss.com.au/courses/padi-advanced-open-water-course",
    "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
+  },
+  {
+   "id": "abyss-9dfc66b15adf",
+   "source": "abyss",
+   "title": "PADI Deep Diver",
+   "start": "2027-01-30T08:00+11:00",
+   "all_day": false,
+   "end": "2027-01-31",
+   "url": "https://www.abyss.com.au/courses/deep-diver",
+   "description": "$599.00 · Deep Diver Course · Deep Diver Course"
   },
   {
    "id": "divecharters-7cc6a61bb84d",
