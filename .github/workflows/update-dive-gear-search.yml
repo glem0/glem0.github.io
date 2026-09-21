@@ -1,0 +1,97 @@
+name: Update dive gear prices
+
+on:
+  schedule:
+    # Once a week. GitHub cron is UTC and knows nothing about daylight saving: Sunday 18:23 UTC is
+    # Monday 04:23 AEST (April-October) / 05:23 AEDT (October-April) in Sydney, when the shops are
+    # quiet. The odd minute stays off the on-the-hour scheduler crowd, where runs get delayed or dropped.
+    - cron: '23 18 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-dive-gear-search
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: dive-gear-search
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          # no `cache:` on purpose - the scraper has zero npm dependencies and there is no lockfile
+
+      - name: Run tests
+        run: npm test
+
+      - name: Scrape retailers and rebuild the index
+        # Exits 0 as long as at least one retailer returned fresh data. A retailer that fails (or
+        # returns a suspiciously small catalogue) keeps the committed data/retailers/<key>.json from
+        # the last run and is marked stale in data/meta.json. Exits 1 only when no retailer
+        # succeeded: nothing is committed and the site keeps serving last week's data.
+        id: scrape
+        run: |
+          set -euo pipefail
+          node scraper/index.js
+          test -s data/products.json && test -s data/meta.json
+
+      - name: Scrape summary
+        # Runs after a failed scrape too (meta.json is still written when every retailer is stale),
+        # but not when the scrape never started (tests red, checkout failed, job cancelled).
+        if: ${{ !cancelled() && steps.scrape.outcome != 'skipped' }}
+        run: |
+          set -euo pipefail
+          if [ ! -s data/meta.json ]; then
+            echo "::error::the scrape step ran but data/meta.json was not produced - every retailer failed or the build crashed"
+            exit 1
+          fi
+          echo "Generated: $(jq -r .generatedAt data/meta.json)"
+          echo
+          printf '%-18s %-7s %8s  %-24s  %s\n' RETAILER STATUS PRODUCTS FETCHED ERROR
+          jq -r '.retailers[] | [.key, .status, (.count|tostring), (.fetchedAt // "-"), (.error // "")] | @tsv' data/meta.json |
+            while IFS="$(printf '\t')" read -r key status count fetched err; do
+              printf '%-18s %-7s %8s  %-24s  %s\n' "$key" "$status" "$count" "$fetched" "$err"
+            done
+          echo
+          jq -r '.totals | "Totals: \(.products) products, \(.groups) groups (\(.multiRetailerGroups) span several retailers), \(.excluded) excluded"' data/meta.json
+          jq -r '[.retailers[] | select(.status != "ok")] | if length > 0 then "::warning::\(length) retailer(s) not ok: \(map("\(.key)=\(.status)") | join(", "))" else empty end' data/meta.json
+
+          # Same table on the run's Summary page.
+          {
+            echo "### Scrape summary"
+            echo
+            echo "| Retailer | Status | Products | Fetched | Error |"
+            echo "|---|---|---:|---|---|"
+            jq -r '.retailers[] | "| \(.key) | \(.status) | \(.count) | \(.fetchedAt // "-") | \((.error // "") | gsub("\\|"; "\\|")) |"' data/meta.json
+            echo
+            jq -r '"**Totals:** \(.totals.products) products, \(.totals.groups) groups (\(.totals.multiRetailerGroups) span several retailers), \(.totals.excluded) excluded. Generated \(.generatedAt)."' data/meta.json
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit and push if anything changed
+        working-directory: .
+        run: |
+          git add dive-gear-search/data
+          if git diff --cached --quiet; then
+            echo "Data unchanged — no commit."
+            exit 0
+          fi
+          summary=$(jq -r '"\(.totals.products) products, \([.retailers[] | select(.status == "ok")] | length) of \(.retailers | length) retailers fresh"' dive-gear-search/data/meta.json)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "dive-gear-search: weekly price update (${summary})"
+          # Cron workflows in this repo race to push — if one lands between our
+          # checkout and push, rebase our commit onto it and retry.
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase
+          done
+          git push

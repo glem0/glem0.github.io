@@ -1,0 +1,119 @@
+// Generic Shopify storefront catalogue fetcher.
+//
+// Every Shopify store exposes  GET /products.json?limit=250&page=N  (and per-collection
+// /collections/<handle>/products.json). Prices there are dollar strings on each variant;
+// there is no product-level price. Stop when a page returns an empty array.
+
+import { fetchJson } from './http.js';
+import { makeProduct } from './product.js';
+import { stripTags } from './html.js';
+import { normalizeBrand, brandFromTitle } from './normalize.js';
+
+/**
+ * Fetch every product from a Shopify store.
+ * @param {string} base      e.g. 'https://adreno.com.au'
+ * @param {object} [opts]
+ * @param {string} [opts.collection]  restrict to /collections/<handle>/products.json
+ * @param {number} [opts.maxPages]    safety cap (default 60 => 15,000 products)
+ * @param {function} [opts.log]
+ * @returns {Promise<object[]>} raw Shopify product objects
+ */
+export async function fetchShopifyProducts(base, { collection = '', maxPages = 60, log = () => {} } = {}) {
+  const root = base.replace(/\/$/, '');
+  const path = collection ? `/collections/${collection}/products.json` : '/products.json';
+  const seen = new Set();
+  const out = [];
+  for (let page = 1; page <= maxPages; page += 1) {
+    const url = `${root}${path}?limit=250&page=${page}`;
+    const data = await fetchJson(url);
+    const products = Array.isArray(data.products) ? data.products : [];
+    if (products.length === 0) break;
+    for (const p of products) {
+      if (seen.has(p.id)) continue;
+      seen.add(p.id);
+      out.push(p);
+    }
+    log(`${root}: page ${page} -> ${products.length} products (total ${out.length})`);
+    if (products.length < 250) break;
+  }
+  return out;
+}
+
+/** Strip Shopify tracking params and force https + canonical /products/<handle>. */
+export function productUrl(base, handle) {
+  return `${base.replace(/\/$/, '')}/products/${handle}`;
+}
+
+/** Best image for a product: first product image, else first variant featured image. */
+export function primaryImage(p) {
+  const src = p.images?.[0]?.src || p.image?.src || p.variants?.find((v) => v.featured_image?.src)?.featured_image?.src || '';
+  return src ? src.replace(/^http:/, 'https:') : '';
+}
+
+const ZERO = (s) => s === null || s === undefined || s === '' || Number(s) === 0;
+
+/**
+ * Convert one raw Shopify product to the canonical Product.
+ * @param {object} raw           product from products.json
+ * @param {object} cfg
+ * @param {string} cfg.retailer  retailer key
+ * @param {string} cfg.base      store base URL
+ * @param {function} [cfg.category]   (raw) => category string; default product_type
+ * @param {function} [cfg.brand]      (raw) => brand string; default: title prefix, else vendor
+ */
+export function shopifyToProduct(raw, cfg) {
+  const variants = (raw.variants || []).map((v) => ({
+    title: v.title === 'Default Title' ? 'Default' : v.title,
+    price: ZERO(v.price) ? null : v.price,
+    compareAtPrice: ZERO(v.compare_at_price) ? null : v.compare_at_price,
+    available: Boolean(v.available),
+    sku: v.sku || '',
+  }));
+  const brand = cfg.brand ? cfg.brand(raw) : brandFromTitle(raw.title) || normalizeBrand(raw.vendor) || raw.vendor || '';
+  return makeProduct({
+    retailer: cfg.retailer,
+    sourceId: raw.id,
+    title: raw.title,
+    brand,
+    category: cfg.category ? cfg.category(raw) : raw.product_type || '',
+    url: productUrl(cfg.base, raw.handle),
+    image: primaryImage(raw),
+    variants,
+    tags: (raw.tags || []).slice(0, 30),
+    description: stripTags(raw.body_html || '').slice(0, 300),
+  });
+}
+
+/**
+ * Convenience: build a retailer module for a plain Shopify store.
+ * @param {object} cfg  { key, name, homepage, base?, collection?, category?, brand?, keep?(raw)=>bool }
+ */
+export function shopifyRetailer(cfg) {
+  const base = (cfg.base || cfg.homepage).replace(/\/$/, '');
+  return {
+    key: cfg.key,
+    name: cfg.name,
+    homepage: cfg.homepage,
+    platform: 'shopify',
+    base,
+    async fetch({ log } = {}) {
+      const raws = await fetchShopifyProducts(base, { collection: cfg.collection, log: log || (() => {}) });
+      const out = [];
+      let dropped = 0;
+      for (const raw of raws) {
+        if (cfg.keep && !cfg.keep(raw)) {
+          dropped += 1;
+          continue;
+        }
+        try {
+          out.push(shopifyToProduct(raw, { retailer: cfg.key, base, category: cfg.category, brand: cfg.brand }));
+        } catch (err) {
+          dropped += 1;
+          if (log) log(`${cfg.key}: skipped ${raw.handle}: ${err.message}`);
+        }
+      }
+      if (log) log(`${cfg.key}: ${out.length} products (${dropped} dropped by filter)`);
+      return out;
+    },
+  };
+}

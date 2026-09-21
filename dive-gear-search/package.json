@@ -1,0 +1,16 @@
+{
+  "name": "dive-gear-search",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "description": "Static price-comparison search across Australian scuba dive gear retailers",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "scrape": "node scraper/index.js",
+    "scrape:one": "node scraper/index.js --only",
+    "build": "node scraper/build.js",
+    "serve": "python3 -m http.server 8080",
+    "test": "node --test scraper/test/*.test.js"
+  }
+}
