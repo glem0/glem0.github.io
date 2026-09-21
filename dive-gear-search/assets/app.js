@@ -91,11 +91,21 @@ function relTime(iso) {
   return new Date(t).toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric' });
 }
 
-/** Shopify's CDN resizes on demand; ask for a card-sized image instead of the original. */
-function thumb(u, width = 400) {
-  if (!/^https:\/\/cdn\.shopify\.com\//i.test(u) || /[?&]width=/.test(u)) return u;
-  return `${u}${u.includes('?') ? '&' : '?'}width=${width}`;
+/**
+ * Shopify's CDN resizes on demand. Instead of the original, ask for card-sized renditions and let
+ * the browser pick by its own pixel density: a card ~360 CSS px wide is ~720 device px on a 2x
+ * screen and ~1080 on a 3x phone, where a single 400 px image is upscaled and looks blurry.
+ * `sizes` is the slot's CSS width. Other hosts get their original image untouched.
+ */
+const SHOPIFY_WIDTHS = [400, 800, 1200];
+const shopifyResized = (u, width) => `${u}${u.includes('?') ? '&' : '?'}width=${width}`;
+function imgSrcAttrs(u, sizes) {
+  if (!/^https:\/\/cdn\.shopify\.com\//i.test(u) || /[?&]width=/.test(u)) return `src="${esc(u)}"`;
+  const srcset = SHOPIFY_WIDTHS.map((w) => `${esc(shopifyResized(u, w))} ${w}w`).join(', ');
+  return `src="${esc(shopifyResized(u, SHOPIFY_WIDTHS[0]))}" srcset="${srcset}" sizes="${sizes}"`;
 }
+/** CSS width of the image slot: list thumbs are 64-80 px; a compare card spans the phone width and is at most ~420 px on wider layouts. */
+const IMG_SIZES = { 'card-media': '(min-width: 900px) 420px, calc(100vw - 32px)', thumb: '80px' };
 
 function debounce(fn, ms) {
   let t;
@@ -277,7 +287,7 @@ function updateFacets(facets) {
 function mediaHtml(image, cls) {
   const img = safeUrl(image);
   if (!img) return `<div class="${cls} no-image"><span class="ph" aria-hidden="true">🤿</span></div>`;
-  return `<div class="${cls}"><img src="${esc(thumb(img))}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="400" height="300"></div>`;
+  return `<div class="${cls}"><img ${imgSrcAttrs(img, IMG_SIZES[cls] || '100vw')} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="400" height="300"></div>`;
 }
 
 function priceHtml(p) {
