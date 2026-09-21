@@ -62,7 +62,7 @@ up to a week old; the exact time is in the header and the footer.
 
 The one exception is the **Check live** button on offers from Shopify stores: Shopify's
 `/products/<handle>.js` endpoint does allow cross-origin reads, so the page can re-fetch that one
-product's current price and stock on demand.
+product's current price and stock on demand (pinned to Australian pricing, wherever the viewer is).
 
 ### Repository layout
 
@@ -311,6 +311,12 @@ cheapest price in a group alongside the others.
   data (every one is `stale` or `failed`) the scraper exits 1 and nothing is committed, so the
   last good data stays online. When `--previous-url` is given and cannot be fetched the log says
   `<key>: previous data not available from <url>: ...`.
+- **Currency.** Shopify Markets lets a shop answer in another currency, and with other prices,
+  depending on the country a request comes from, and the GitHub runner is in the United States:
+  Perth Scuba's whole catalogue came back in USD on the first scheduled run. Every Shopify request
+  now carries `?country=AU&currency=AUD`, and `scraper/lib/shopify.js` first reads the store's own
+  `Shopify.currency` marker under those parameters; a store that still answers in another currency
+  is marked `stale` (previous data kept) instead of being published.
 - The very first run has nothing to fall back to, so a retailer that fails then simply shows as
   `failed` until a later run succeeds, and a suspiciously small result (fewer than 15 products) is
   kept rather than discarded: the retailer is `ok` with `error: "warning: only N products"`.

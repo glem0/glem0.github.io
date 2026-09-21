@@ -548,6 +548,11 @@ select { max-width: 100%; }
   .status-row { flex-wrap: nowrap; }
   .status-row p { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
   .updated { flex: none; }
+  /* A compare card spans the whole phone width, so let its 4:3 photo box fill it instead of
+     letterboxing a 200 px strip; list thumbnails go from 64 to 96 px. */
+  .card-media { max-height: none; }
+  .row { grid-template-columns: 96px 1fr; }
+  .row .thumb { width: 96px; height: 96px; }
 }
 
 /* ---------- desktop ---------- */

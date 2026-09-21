@@ -104,8 +104,8 @@ function imgSrcAttrs(u, sizes) {
   const srcset = SHOPIFY_WIDTHS.map((w) => `${esc(shopifyResized(u, w))} ${w}w`).join(', ');
   return `src="${esc(shopifyResized(u, SHOPIFY_WIDTHS[0]))}" srcset="${srcset}" sizes="${sizes}"`;
 }
-/** CSS width of the image slot: list thumbs are 64-80 px; a compare card spans the phone width and is at most ~420 px on wider layouts. */
-const IMG_SIZES = { 'card-media': '(min-width: 900px) 420px, calc(100vw - 32px)', thumb: '80px' };
+/** CSS width of the image slot: list thumbs are 64-96 px; a compare card spans the phone width and is at most ~420 px on wider layouts. */
+const IMG_SIZES = { 'card-media': '(min-width: 900px) 420px, calc(100vw - 32px)', thumb: '96px' };
 
 function debounce(fn, ms) {
   let t;
@@ -503,7 +503,9 @@ async function liveCheck(btn) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(new DOMException(`Timed out after ${LIVE_TIMEOUT_MS / 1000} s`, 'TimeoutError')), LIVE_TIMEOUT_MS);
   try {
-    const target = `${url}.js`; // data-url is already the canonical origin + /products/<handle> from liveUrl()
+    // data-url is already the canonical origin + /products/<handle> from liveUrl(). The market context
+    // keeps the answer in AUD for a viewer abroad (Shopify Markets would otherwise localise it).
+    const target = `${url}.js?country=AU&currency=AUD`;
     const res = await fetch(target, { mode: 'cors', credentials: 'omit', signal: ctrl.signal });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const j = await res.json();

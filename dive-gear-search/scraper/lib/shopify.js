@@ -3,11 +3,56 @@
 // Every Shopify store exposes  GET /products.json?limit=250&page=N  (and per-collection
 // /collections/<handle>/products.json). Prices there are dollar strings on each variant;
 // there is no product-level price. Stop when a page returns an empty array.
+//
+// Shopify Markets: a store can answer in a different currency (and, with market price lists,
+// different prices) depending on the country the request comes from, and the GitHub Actions runner
+// is in the United States: Perth Scuba's catalogue came back in USD on the first scheduled run.
+// Every storefront request therefore carries ?country=AU&currency=AUD, which Shopify honours on its
+// JSON endpoints and pages, and before a catalogue is read the store's own `Shopify.currency` marker
+// is checked under the same parameters. A store that still answers in another currency fails the
+// run (its previous data is kept) rather than publishing prices in the wrong currency.
 
-import { fetchJson } from './http.js';
+import { fetchJson, fetchText } from './http.js';
 import { makeProduct } from './product.js';
 import { stripTags } from './html.js';
 import { normalizeBrand, brandFromTitle } from './normalize.js';
+
+export const MARKET = { country: 'AU', currency: 'AUD' };
+
+/** Append the market context to a storefront URL. */
+export function withMarket(url) {
+  return `${url}${url.includes('?') ? '&' : '?'}country=${MARKET.country}&currency=${MARKET.currency}`;
+}
+
+/** The `Shopify.currency = {"active":"AUD","rate":"1.0"}` marker Shopify themes embed, or null. */
+export function parseStoreCurrency(html) {
+  const m = /Shopify\.currency\s*=\s*(\{[^}]*\})/.exec(String(html || ''));
+  if (!m) return null;
+  try {
+    const j = JSON.parse(m[1]);
+    return j && typeof j.active === 'string' ? { active: j.active, rate: Number(j.rate) } : null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Check which market the store serves this runner under the pinned context. Throws when it is not
+ * MARKET.currency; returns null (and logs) when the theme has no marker to check.
+ */
+export async function assertMarket(base, { log = () => {} } = {}) {
+  const root = base.replace(/\/$/, '');
+  const html = await fetchText(withMarket(`${root}/`), { accept: 'text/html' });
+  const cur = parseStoreCurrency(html);
+  if (!cur) {
+    log(`${root}: no Shopify.currency marker on the storefront, cannot verify the market`);
+    return null;
+  }
+  if (cur.active !== MARKET.currency) {
+    throw new Error(`storefront answers in ${cur.active} (rate ${cur.rate}) despite ?country=${MARKET.country}&currency=${MARKET.currency}: Shopify Markets is serving another market to this runner`);
+  }
+  return cur;
+}
 
 /**
  * Fetch every product from a Shopify store.
@@ -24,7 +69,7 @@ export async function fetchShopifyProducts(base, { collection = '', maxPages = 6
   const seen = new Set();
   const out = [];
   for (let page = 1; page <= maxPages; page += 1) {
-    const url = `${root}${path}?limit=250&page=${page}`;
+    const url = withMarket(`${root}${path}?limit=250&page=${page}`);
     const data = await fetchJson(url);
     const products = Array.isArray(data.products) ? data.products : [];
     if (products.length === 0) break;
@@ -97,6 +142,7 @@ export function shopifyRetailer(cfg) {
     platform: 'shopify',
     base,
     async fetch({ log } = {}) {
+      await assertMarket(base, { log: log || (() => {}) });
       const raws = await fetchShopifyProducts(base, { collection: cfg.collection, log: log || (() => {}) });
       const out = [];
       let dropped = 0;
