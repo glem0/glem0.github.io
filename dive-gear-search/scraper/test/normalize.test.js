@@ -262,3 +262,10 @@ test('groupProducts: SKU-joined clusters take part in complete linkage, with a p
   assert.notEqual(tails[0].g, tails[1].g);
   assert.notEqual(tails[4].g, tails[5].g);
 });
+
+test('brand: My Dive Gear placeholders and TUSA distributor name', () => {
+  assert.equal(normalizeBrand('Not specified'), '');
+  assert.equal(normalizeBrand('My Dive Gear'), '');
+  assert.equal(normalizeBrand('Tabata Australia Pty Ltd'), 'tusa');
+  assert.equal(displayBrand('tusa', 'Tabata Australia Pty Ltd'), 'TUSA');
+});

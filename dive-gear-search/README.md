@@ -22,6 +22,7 @@ Which retailers are indexed is decided by the modules in `scraper/retailers/`. O
 | [Dive Bondi](https://divebondi.com.au/) | `divebondi` | Shopify | `/products.json` |
 | [Dive Swansea](https://diveswansea.com.au/) | `diveswansea` | Shopify | `/products.json`; tags fill in the category where `product_type` is blank |
 | [Frog Dive](https://www.frogdive.com.au/) | `frogdive` | Shopify | `/products.json` (the `/pages/scuba-diving-list` URL is a static landing page; the whole store is indexed) |
+| [My Dive Gear](https://www.mydivegear.com.au/) | `mydivegear` | Shopify | `/products.json`; `product_type` is always "General", so the tags stand in for the category and a third of the catalogue (untagged) is classified from the title alone; the vendor is "Not specified" for a third of products and TUSA is listed as its distributor "Tabata Australia Pty Ltd" (both handled in `normalize.js`) |
 | [Online Dive Gear](https://www.onlinedivegear.com.au/) | `onlinedivegear` | Shopify | `/products.json` |
 | [Perth Scuba](https://perthscuba.com/) | `perthscuba` | Shopify | `/products.json` |
 | [Scuba Dive Shop](https://scubadiveshop.com.au/) | `scubadiveshop` | Shopify | `/products.json` (the vendor field is usually the shop itself, so the shared title-prefix brand rule does the work) |
@@ -56,7 +57,7 @@ Browser
 The page never searches a retailer directly. A script on `github.io` is blocked by the browser's
 same-origin policy from reading most of the shops (they don't send `Access-Control-Allow-Origin`
 headers, and Cloudflare challenges non-browser clients on some of them), and a live search would hit
-ten shops on every keystroke anyway. So the fetching happens once a week on a GitHub Actions runner,
+eleven shops on every keystroke anyway. So the fetching happens once a week on a GitHub Actions runner,
 where there is no browser and no CORS, and the site only ever loads its own JSON. Prices are therefore
 up to a week old; the exact time is in the header and the footer.
 

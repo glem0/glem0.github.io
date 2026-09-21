@@ -104,7 +104,8 @@ const ZERO = (s) => s === null || s === undefined || s === '' || Number(s) === 0
  * @param {string} cfg.retailer  retailer key
  * @param {string} cfg.base      store base URL
  * @param {function} [cfg.category]   (raw) => category string; default product_type
- * @param {function} [cfg.brand]      (raw) => brand string; default: title prefix, else vendor
+ * @param {function} [cfg.brand]      (raw) => brand string; default: title prefix, else the vendor unless it
+ *                                     is a known non-brand (the shop's own name, "Not specified", ...)
  */
 export function shopifyToProduct(raw, cfg) {
   const variants = (raw.variants || []).map((v) => ({
@@ -114,7 +115,7 @@ export function shopifyToProduct(raw, cfg) {
     available: Boolean(v.available),
     sku: v.sku || '',
   }));
-  const brand = cfg.brand ? cfg.brand(raw) : brandFromTitle(raw.title) || normalizeBrand(raw.vendor) || raw.vendor || '';
+  const brand = cfg.brand ? cfg.brand(raw) : brandFromTitle(raw.title) || (normalizeBrand(raw.vendor) ? raw.vendor : '');
   return makeProduct({
     retailer: cfg.retailer,
     sourceId: raw.id,

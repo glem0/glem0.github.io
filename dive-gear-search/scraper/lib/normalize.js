@@ -30,7 +30,7 @@ const BRAND_ALIASES = [
   ['hollis', ['hollis']],
   ['suunto', ['suunto']],
   ['garmin', ['garmin']],
-  ['tusa', ['tusa']],
+  ['tusa', ['tusa', 'tabata', 'tabata australia']],
   ['halcyon', ['halcyon']],
   ['oms', ['oms', 'ocean management systems']],
   ['waterproof', ['waterproof']],
@@ -94,7 +94,8 @@ const BRAND_ALIAS_LIST = [...BRAND_MAP.keys()].sort((a, b) => b.length - a.lengt
 // Vendors that are the store itself or a multi-brand distributor: not a consumer brand.
 const NOT_A_BRAND = new Set(['odg', 'onlinedivegear com au', 'onlinedivegear', 'online dive gear', 'dive swansea', 'diveswansea', 'adventure underwater products',
   'aup', 'perth scuba', 'perthscuba', 'dive bondi', 'divebondi', 'frog dive', 'frogdive', 'scuba doctor', 'the scuba doctor', 'tec dive gear', 'tecdivegear',
-  'scuba dive shop', 'scubadiveshop', 'scubadiveshop com au', 'scuba culture', 'dive centre bondi', 'dive center bondi', 'dive gear australia', 'divegearaustralia', 'o', 'pro', 'zd', 'ssi', 'padi', 'unknown', 'n a', 'na', 'none', 'generic', 'various']);
+  'scuba dive shop', 'scubadiveshop', 'scubadiveshop com au', 'scuba culture', 'dive centre bondi', 'dive center bondi', 'dive gear australia', 'divegearaustralia', 'my dive gear', 'mydivegear',
+  'o', 'pro', 'zd', 'ssi', 'padi', 'unknown', 'not specified', 'n a', 'na', 'none', 'generic', 'various']);
 
 export function normalizeBrand(raw) {
   const s = String(raw || '').toLowerCase().replace(/[^a-z0-9& ]+/g, ' ').replace(/\s+/g, ' ').trim();

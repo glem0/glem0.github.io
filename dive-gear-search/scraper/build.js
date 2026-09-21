@@ -187,7 +187,7 @@ export function enrich(product) {
     id: product.id,
     r: product.retailer,
     t: product.title,
-    b: displayBrand(bn, product.brand) || product.brand || '',
+    b: displayBrand(bn, product.brand), // '' when there is no brand: a raw vendor that normalizes to nothing is a shop name or "Not specified"
     bn,
     c,
     rc: product.category || '',

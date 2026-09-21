@@ -58,3 +58,13 @@ test('shopifyToProduct: variant prices stay dollar strings parsed by makeProduct
   assert.deepEqual(p.variants[1], { title: 'DIN', price: null, compareAtPrice: null, available: false, sku: '' });
   assert.equal(p.url, 'https://shop.example/products/mk25');
 });
+
+test('shopifyToProduct: the vendor is the brand only when it is a real one; a title prefix wins; casing survives', () => {
+  const raw = (over) => ({ id: 1, title: 'Widget', handle: 'w', vendor: '', product_type: 'General', variants: [{ title: 'Default Title', price: '10.00', available: true }], images: [], tags: [], ...over });
+  const brandOf = (over) => shopifyToProduct(raw(over), { retailer: 'shop', base: 'https://shop.example' }).brand;
+  assert.equal(brandOf({ vendor: 'Not specified' }), ''); // My Dive Gear's placeholder
+  assert.equal(brandOf({ vendor: 'My Dive Gear' }), ''); // the shop itself
+  assert.equal(brandOf({ vendor: 'K01' }), 'K01'); // unknown to the alias table: kept as written
+  assert.equal(brandOf({ vendor: 'Tabata Australia Pty Ltd' }), 'Tabata Australia Pty Ltd'); // distributor alias -> tusa at build time
+  assert.equal(brandOf({ vendor: 'Not specified', title: 'Apeks XTX50 Regulator' }), 'apeks');
+});
