@@ -24,9 +24,12 @@ Which retailers are indexed is decided by the modules in `scraper/retailers/`. O
 | [Frog Dive](https://www.frogdive.com.au/) | `frogdive` | Shopify | `/products.json` (the `/pages/scuba-diving-list` URL is a static landing page; the whole store is indexed) |
 | [My Dive Gear](https://www.mydivegear.com.au/) | `mydivegear` | Shopify | `/products.json`; `product_type` is always "General", so the tags stand in for the category and a third of the catalogue (untagged) is classified from the title alone; the vendor is "Not specified" for a third of products and TUSA is listed as its distributor "Tabata Australia Pty Ltd" (both handled in `normalize.js`) |
 | [Online Dive Gear](https://www.onlinedivegear.com.au/) | `onlinedivegear` | Shopify | `/products.json` |
+| [Infinity Dive](https://infinitydive.com/) | `infinitydive` | Shopify | `/products.json`; `product_type` is a taxonomy path ("Sporting Goods:Scuba & Snorkelling:Masks") whose last segment is the category; courses, hire and swimwear are dropped or filed as clothing by the classifier |
+| [Extreme Watersport Shop](https://extremewatersportshop.com/) | `extremewatersportshop` | Shopify | `/products.json` (clean product types; "Rental" and "Course" listings are dropped by the classifier) |
 | [Perth Scuba](https://perthscuba.com/) | `perthscuba` | Shopify | `/products.json` |
 | [Scuba Dive Shop](https://scubadiveshop.com.au/) | `scubadiveshop` | Shopify | `/products.json` (the vendor field is usually the shop itself, so the shared title-prefix brand rule does the work) |
 | [Dive Gear Australia](https://divegearaustralia.com.au/) | `divegearaustralia` | WooCommerce | public Store API `/wp-json/wc/store/v1/products` (the only path not behind the site's Cloudflare challenge), plus per-variation prices for products whose variants differ in price; throttled to one request every 1.5 s (~170 requests, 4-5 minutes). **Not indexed:** the shop's ~65 build-your-own scuba and snorkelling *packages* (WooCommerce "composite" products): the API carries no price for them and the page that does is Cloudflare-challenged |
+| [Gold Coast Dive Adventures](https://goldcoastdiveadventures.com.au/) | `goldcoastdiveadventures` | WooCommerce | public Store API, one page (a dive charter with a ~36-product gear shop); its "Fave gear" staff-picks category is treated as merchandising |
 | [Tec Dive Gear](https://www.tecdivegear.com.au/) | `tecdivegear` | custom (legacy PHP) | no JSON feed: category pages are parsed for the product list, then one HTML product page per item for brand, SKU, sizes and availability (~530 requests, about 2 minutes) |
 | [The Scuba Doctor](https://www.scubadoctor.com.au/diveshop/) | `scubadoctor` | Zen Cart | the shop's own JSON search endpoint (`POST /diveshop/ajax_search.php`) pages the whole catalogue in ~51 requests, each row a product family with every size/colour as a variant. Cloudflare blocks Node's `fetch` on this host by TLS fingerprint, so the module falls back to the system `curl --http1.1` with the same User-Agent and rate limit; if the GitHub Actions runner's curl is blocked too, the run keeps the previously published data (see *Data freshness*) |
 
@@ -57,7 +60,7 @@ Browser
 The page never searches a retailer directly. A script on `github.io` is blocked by the browser's
 same-origin policy from reading most of the shops (they don't send `Access-Control-Allow-Origin`
 headers, and Cloudflare challenges non-browser clients on some of them), and a live search would hit
-eleven shops on every keystroke anyway. So the fetching happens once a week on a GitHub Actions runner,
+fourteen shops on every keystroke anyway. So the fetching happens once a week on a GitHub Actions runner,
 where there is no browser and no CORS, and the site only ever loads its own JSON. Prices are therefore
 up to a week old; the exact time is in the header and the footer.
 
@@ -74,6 +77,7 @@ scraper/build.js          merges data/retailers/*.json -> data/products.json + d
 scraper/retailers/*.js    one module per shop
 scraper/lib/product.js    makeProduct(): the Product record every module must return; parsePrice()
 scraper/lib/shopify.js    shopifyRetailer(): a complete module for any Shopify store in one call
+scraper/lib/woocommerce.js wooRetailer(): the same for any WooCommerce shop with the public Store API
 scraper/lib/http.js       fetch with UA, timeout, retries/backoff and per-host rate limiting
 scraper/lib/html.js       regex/JSON-LD helpers for shops that only expose HTML
 scraper/lib/normalize.js  brand aliases, category classifier, title tokeniser, similarity
@@ -216,6 +220,22 @@ Optional `shopifyRetailer` settings: `base` (the store URL to read `/products.js
 build product links on, when it differs from `homepage`), `collection` (index one collection
 instead of the whole store), `keep(raw)` (drop non-dive products), `category(raw)` and
 `brand(raw)` (override how the raw product maps to those fields). `scraper/retailers/adreno.js` uses `keep` and `category`.
+
+A WooCommerce shop is one call too, as long as its public Store API (`/wp-json/wc/store/v1/products`)
+answers; `scraper/lib/woocommerce.js` documents what the API gives and how prices, variants and
+categories are read from it:
+
+```js
+import { wooRetailer } from '../lib/woocommerce.js';
+
+export default wooRetailer({ key: 'myshop', name: 'My Shop', homepage: 'https://myshop.com.au/' });
+```
+
+Optional `wooRetailer` settings: `api` (when the Store API is not under the homepage), `rootSegment`
+(the category tree's root slug, default `dive-gear`), `marketingSegment` (a RegExp of extra category
+slugs to treat as merchandising, like Gold Coast Dive Adventures' `fave-gear`), `http` (rate-limit
+overrides) and `skipVariationsEnv`. `scraper/retailers/divegearaustralia.js` keeps that shop's
+Cloudflare notes on top of the same module.
 
 Then:
 

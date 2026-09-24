@@ -269,3 +269,9 @@ test('brand: My Dive Gear placeholders and TUSA distributor name', () => {
   assert.equal(normalizeBrand('Tabata Australia Pty Ltd'), 'tusa');
   assert.equal(displayBrand('tusa', 'Tabata Australia Pty Ltd'), 'TUSA');
 });
+
+test('classify: a trip advertised by its number of nights is excluded whatever its category says', () => {
+  assert.equal(classifyCategory('Dive Travel', "Raja Ampat 6-Night X'mas Dive Adventure - December 20-26, 2026"), 'exclude');
+  assert.equal(classifyCategory('Dive Travel', 'Fourth Element Expedition Duffel Bag Grey'), 'bag');
+  assert.equal(classifyCategory('Dive Lights', 'Apollo Nightfish Flash Light - 1200 Lumens'), 'torch');
+});
