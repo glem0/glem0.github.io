@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-09-21T05:36:07+10:00",
+ "generated_at": "2026-09-25T06:37:05+10:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-09-01",
@@ -13,7 +13,7 @@ window.__DIVE_DATA__ =
    "short": "Abyss",
    "url": "https://www.abyss.com.au/sydney-dive-calendar",
    "status": "ok",
-   "event_count": 108
+   "event_count": 111
   },
   {
    "id": "frogdive",
@@ -47,7 +47,7 @@ window.__DIVE_DATA__ =
    "short": "ProDive",
    "url": "https://www.prodive.com.au/Calendar.asp?Scubadive=Sydney",
    "status": "ok",
-   "event_count": 427
+   "event_count": 421
   },
   {
    "id": "divecharters",
@@ -289,36 +289,6 @@ window.__DIVE_DATA__ =
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
-   "id": "prodive-561121de6c85",
-   "source": "prodive",
-   "title": "Guided Shore Dives (Double Dive)",
-   "start": "2026-09-21T08:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Shore+Dives/Guided+Shore+Dives+(Double+Dive)+-+Sydney+-+Alexandria/1046",
-   "location": "ProDive Alexandria",
-   "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Freshwater** Rating: Open Water Diver(20m) Depth: 18"
-  },
-  {
-   "id": "prodive-2216e8fe5f37",
-   "source": "prodive",
-   "title": "Scuba Hire Click & Collect",
-   "start": "2026-09-21T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
-   "location": "ProDive Manly",
-   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
-  },
-  {
-   "id": "prodive-b768f5eb2a35",
-   "source": "prodive",
-   "title": "Refresher Scuba Dive",
-   "start": "2026-09-21T12:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
-   "location": "ProDive Alexandria",
-   "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again. Dive Site: Freshwater** Rating: Open Water Diver(20m) Depth: 18"
-  },
-  {
    "id": "divecharters-1d2cce5519d3",
    "source": "divecharters",
    "title": "DSD - Discover Scuba Dive - Hire Gear Included",
@@ -328,16 +298,6 @@ window.__DIVE_DATA__ =
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
-   "id": "prodive-3fb77b8392ca",
-   "source": "prodive",
-   "title": "Scuba Hire Click & Collect",
-   "start": "2026-09-22T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
-   "location": "ProDive Manly",
-   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
-  },
-  {
    "id": "divecharters-a933b836d51a",
    "source": "divecharters",
    "title": "DSD - Discover Scuba Dive - Hire Gear Included",
@@ -345,36 +305,6 @@ window.__DIVE_DATA__ =
    "all_day": true,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-23#326@book@",
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
-  },
-  {
-   "id": "prodive-bfa51ae5d9c5",
-   "source": "prodive",
-   "title": "Scuba Hire Click & Collect",
-   "start": "2026-09-23T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
-   "location": "ProDive Manly",
-   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
-  },
-  {
-   "id": "prodive-e59aacd70041",
-   "source": "prodive",
-   "title": "PRO DIVE Open Water Weekday Scuba Diving Course",
-   "start": "2026-09-23T18:30+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Openwater+Courses/PRO+DIVE+Open+Water+Weekday+Scuba+Diving+Course+-+Sydney+-+Alexandria/1159",
-   "location": "ProDive Alexandria",
-   "description": "$399.00 · Dive Course to 20m [Beginner Level] Multiple Start Dates Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
-  },
-  {
-   "id": "prodive-6982204ea8d9",
-   "source": "prodive",
-   "title": "PRO DIVE Openwater Weekday Scuba Diving Course",
-   "start": "2026-09-23T18:30+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Openwater+Courses/PRO+DIVE+Openwater+Weekday+Scuba+Diving+Course+-+Sydney+-+Manly/1208",
-   "location": "ProDive Manly",
-   "description": "$399.00 · Dive Course to 20m [Beginner Level] Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
   },
   {
    "id": "divecharters-8be04b3bb53c",
@@ -393,45 +323,6 @@ window.__DIVE_DATA__ =
    "all_day": true,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-24#339@book@",
    "description": "A$299.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
-  },
-  {
-   "id": "abyss-f74c44e1b2de",
-   "source": "abyss",
-   "title": "60519-1/24-09-2026 (sold out)",
-   "start": "2026-09-24T08:00+10:00",
-   "all_day": false,
-   "end": "2026-09-25",
-   "url": "https://www.abyss.com.au/courses/padi-freediver-course",
-   "description": "$599.00 · PADI Freediver Course · Freediver Course"
-  },
-  {
-   "id": "abyss-5279c013c99d",
-   "source": "abyss",
-   "title": "Mermaid 24 Oct/24-10-2026",
-   "start": "2026-09-24T09:00+10:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/how-to-become-a-mermaid",
-   "description": "$450.00 · PADI Mermaid Course · PADI Mermaid course"
-  },
-  {
-   "id": "prodive-58034b2056d7",
-   "source": "prodive",
-   "title": "Scuba Hire Click & Collect",
-   "start": "2026-09-24T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
-   "location": "ProDive Manly",
-   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
-  },
-  {
-   "id": "abyss-d116ec6e1f09",
-   "source": "abyss",
-   "title": "Vanuatu Family",
-   "start": "2026-09-24T17:00+10:00",
-   "all_day": false,
-   "end": "2026-09-30",
-   "url": "https://www.abyss.com.au/trips/",
-   "description": "$2295.00 · Dive event · Family dive trips with warm reefs, turtles and island time."
   },
   {
    "id": "divecharters-bab1738829ce",
@@ -551,9 +442,18 @@ window.__DIVE_DATA__ =
    "description": "$1495.00 · The PRO DIVE Divemaster Course is a practical based program where you will learn to run and lead, shore dives, boat dives, weekend and overseas dive trips as well as assist on dive courses. A tailored itinerary will be put together for you, so you can meet the course requirements. This course is available either on a part time or full time basis."
   },
   {
-   "id": "abyss-df7c298f9cd5",
+   "id": "divecharters-130e8b1b89fe",
+   "source": "divecharters",
+   "title": "DSD - Discover Scuba Dive - Hire Gear Included",
+   "start": "2026-09-26",
+   "all_day": true,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-26#326@book@",
+   "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
+  },
+  {
+   "id": "abyss-a7de02cfd6bc",
    "source": "abyss",
-   "title": "Undola Tec Dive",
+   "title": "Undola Tec Dive (sold out)",
    "start": "2026-09-26T07:00+10:00",
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/tech-boat-dives",
@@ -598,15 +498,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Shore+Dives/Guided+Shore+Dives+(Double+Dive)+-+Sydney+-+Alexandria/1046",
    "location": "ProDive Alexandria",
    "description": "$69.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Gordons Bay** Rating: Open Water Diver(20m) Depth: 14m"
-  },
-  {
-   "id": "divecharters-9e66a8a07244",
-   "source": "divecharters",
-   "title": "8am Saturday Double Boat Dive - Departing 0730 Little Manly / 0745 Boarding Rose Bay Public Wharf",
-   "start": "2026-09-26T08:00+10:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-09-26#19@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "abyss-3db445ac6f20",
@@ -664,16 +555,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/guided-shore-dives",
    "description": "Guided Shore Dives · Voodoo lots of fish and unique rock formations, shore dive (18m)"
-  },
-  {
-   "id": "prodive-94469508a20d",
-   "source": "prodive",
-   "title": "Discover Scuba at Shelly Beach",
-   "start": "2026-09-26T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Scuba+Introductory+Dive/Discover+Scuba+at+Shelly+Beach+-+Sydney+-+Manly/1727",
-   "location": "ProDive Manly",
-   "description": "$249.00 · Come and discover the enchanting realm of our underwater world! Our PRO DIVE Try a Dive program offers individuals without scuba diving certification the opportunity to experience the excitement and adventure of diving, all while under the guidance of one of our expert PRO DIVE Instructors."
   },
   {
    "id": "abyss-7087b4d55e82",
@@ -750,16 +631,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/guided-shore-dives",
    "description": "Guided Shore Dives · Oak Park at Cronulla big blue groper shore dive (10m)"
-  },
-  {
-   "id": "prodive-1dc8410b468c",
-   "source": "prodive",
-   "title": "Discover Scuba at Shelly Beach",
-   "start": "2026-09-27T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Scuba+Introductory+Dive/Discover+Scuba+at+Shelly+Beach+-+Sydney+-+Manly/1727",
-   "location": "ProDive Manly",
-   "description": "$249.00 · Come and discover the enchanting realm of our underwater world! Our PRO DIVE Try a Dive program offers individuals without scuba diving certification the opportunity to experience the excitement and adventure of diving, all while under the guidance of one of our expert PRO DIVE Instructors."
   },
   {
    "id": "prodive-44b1dfd17a9b",
@@ -1111,16 +982,6 @@ window.__DIVE_DATA__ =
    "description": "$279.00 · The most popular specialty course. Scuba diving with enriched air nitrox gives you more no decompression time, especially on repetitive scuba dives."
   },
   {
-   "id": "prodive-ebd998acd696",
-   "source": "prodive",
-   "title": "Discover Scuba at Shelly Beach",
-   "start": "2026-10-03T10:00+10:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Scuba+Introductory+Dive/Discover+Scuba+at+Shelly+Beach+-+Sydney+-+Manly/1727",
-   "location": "ProDive Manly",
-   "description": "$249.00 · Come and discover the enchanting realm of our underwater world! Our PRO DIVE Try a Dive program offers individuals without scuba diving certification the opportunity to experience the excitement and adventure of diving, all while under the guidance of one of our expert PRO DIVE Instructors."
-  },
-  {
    "id": "abyss-07271ee9e478",
    "source": "abyss",
    "title": "Magic Point Shark Dive",
@@ -1206,16 +1067,6 @@ window.__DIVE_DATA__ =
    "description": "$25.00 · Marine Marvels Dives · Meet Weedy SeaDragon up close guided by a marine biologist."
   },
   {
-   "id": "prodive-5ceb252464a7",
-   "source": "prodive",
-   "title": "Discover Scuba at Shelly Beach",
-   "start": "2026-10-04T10:00+11:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Scuba+Introductory+Dive/Discover+Scuba+at+Shelly+Beach+-+Sydney+-+Manly/1727",
-   "location": "ProDive Manly",
-   "description": "$249.00 · Come and discover the enchanting realm of our underwater world! Our PRO DIVE Try a Dive program offers individuals without scuba diving certification the opportunity to experience the excitement and adventure of diving, all while under the guidance of one of our expert PRO DIVE Instructors."
-  },
-  {
    "id": "prodive-9b079cdaae2d",
    "source": "prodive",
    "title": "Refresher Scuba Dive",
@@ -1224,6 +1075,15 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
    "location": "ProDive Alexandria",
    "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again. Dive Site: Gordons Bay** Rating: Open Water Diver(20m) Depth: 14m"
+  },
+  {
+   "id": "abyss-c84f5ede1811",
+   "source": "abyss",
+   "title": "FDT 4/10",
+   "start": "2026-10-04T13:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/freedive-training",
+   "description": "$40.00 · Freedive Training · Freediving depth Training for certified diver"
   },
   {
    "id": "divecharters-d3e6b017980e",
@@ -1563,16 +1423,6 @@ window.__DIVE_DATA__ =
    "description": "$175.00 · Emergency First Response Course · EFR-Primary Care (CPR) & Secondary Care AED"
   },
   {
-   "id": "prodive-1cc3edeccf71",
-   "source": "prodive",
-   "title": "Discover Scuba at Shelly Beach",
-   "start": "2026-10-10T10:00+11:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Scuba+Introductory+Dive/Discover+Scuba+at+Shelly+Beach+-+Sydney+-+Manly/1727",
-   "location": "ProDive Manly",
-   "description": "$249.00 · Come and discover the enchanting realm of our underwater world! Our PRO DIVE Try a Dive program offers individuals without scuba diving certification the opportunity to experience the excitement and adventure of diving, all while under the guidance of one of our expert PRO DIVE Instructors."
-  },
-  {
    "id": "prodive-ff48d07dd1ec",
    "source": "prodive",
    "title": "Advanced Open Water Scuba Diving Course",
@@ -1677,16 +1527,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/guided-shore-dives",
    "description": "Guided Shore Dives · Oak Park at Cronulla big blue groper shore dive (10m)"
-  },
-  {
-   "id": "prodive-853bce452db9",
-   "source": "prodive",
-   "title": "Discover Scuba at Shelly Beach",
-   "start": "2026-10-11T10:00+11:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Scuba+Introductory+Dive/Discover+Scuba+at+Shelly+Beach+-+Sydney+-+Manly/1727",
-   "location": "ProDive Manly",
-   "description": "$249.00 · Come and discover the enchanting realm of our underwater world! Our PRO DIVE Try a Dive program offers individuals without scuba diving certification the opportunity to experience the excitement and adventure of diving, all while under the guidance of one of our expert PRO DIVE Instructors."
   },
   {
    "id": "prodive-69ea199e771a",
@@ -2068,16 +1908,6 @@ window.__DIVE_DATA__ =
    "description": "$695.00 · This PRO DIVE Deep Dive Workshop is an excellent follow-on from the Advanced Diver certification. Deep diving has special requirements and techniques allowing divers to safely investigate deeper dive sites beyond 18 metres, down to 40metres. You will have the opportunity of diving the waters off Sydney from our award-winning dive boat Sealife V."
   },
   {
-   "id": "prodive-336f4e4e8f76",
-   "source": "prodive",
-   "title": "Discover Scuba at Shelly Beach",
-   "start": "2026-10-17T10:00+11:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Scuba+Introductory+Dive/Discover+Scuba+at+Shelly+Beach+-+Sydney+-+Manly/1727",
-   "location": "ProDive Manly",
-   "description": "$249.00 · Come and discover the enchanting realm of our underwater world! Our PRO DIVE Try a Dive program offers individuals without scuba diving certification the opportunity to experience the excitement and adventure of diving, all while under the guidance of one of our expert PRO DIVE Instructors."
-  },
-  {
    "id": "prodive-f7908ac17f45",
    "source": "prodive",
    "title": "Advanced Open Water Scuba Diving Course",
@@ -2146,15 +1976,6 @@ window.__DIVE_DATA__ =
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
-   "id": "abyss-75d573b7224c",
-   "source": "abyss",
-   "title": "Single Seal Dive",
-   "start": "2026-10-18T09:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/single-seal-dive",
-   "description": "$99.00 · Single Seal Dive At Martin Island"
-  },
-  {
    "id": "abyss-0c7dc1aff629",
    "source": "abyss",
    "title": "Sutherland Point Dive",
@@ -2164,14 +1985,13 @@ window.__DIVE_DATA__ =
    "description": "Guided Shore Dives · Sutherland Point easy entry, weedy sea dragons shore dive (14m)"
   },
   {
-   "id": "prodive-5105dcf2e9bc",
-   "source": "prodive",
-   "title": "Discover Scuba at Shelly Beach",
-   "start": "2026-10-18T10:00+11:00",
+   "id": "abyss-75d573b7224c",
+   "source": "abyss",
+   "title": "Single Seal Dive",
+   "start": "2026-10-18T09:00+11:00",
    "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Scuba+Introductory+Dive/Discover+Scuba+at+Shelly+Beach+-+Sydney+-+Manly/1727",
-   "location": "ProDive Manly",
-   "description": "$249.00 · Come and discover the enchanting realm of our underwater world! Our PRO DIVE Try a Dive program offers individuals without scuba diving certification the opportunity to experience the excitement and adventure of diving, all while under the guidance of one of our expert PRO DIVE Instructors."
+   "url": "https://www.abyss.com.au/charters/single-seal-dive",
+   "description": "$99.00 · Single Seal Dive At Martin Island"
   },
   {
    "id": "abyss-0b420e4b48cf",
@@ -2522,6 +2342,15 @@ window.__DIVE_DATA__ =
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
+   "id": "abyss-487ef320a694",
+   "source": "abyss",
+   "title": "EQUIP 24-10-2027",
+   "start": "2026-10-24T09:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/courses/equipment-specialist",
+   "description": "$250.00 · Equipment Specialist Course · Equipment Specialist Course"
+  },
+  {
    "id": "abyss-eca34e9e788e",
    "source": "abyss",
    "title": "Enriched Air Diver",
@@ -2531,13 +2360,13 @@ window.__DIVE_DATA__ =
    "description": "$345.00 · Enriched Air (Nitrox) Diver"
   },
   {
-   "id": "abyss-487ef320a694",
+   "id": "abyss-71e4d9ed57be",
    "source": "abyss",
-   "title": "EQUIP 24-10-2027",
+   "title": "Mermaid 24 Oct/24-10-2026",
    "start": "2026-10-24T09:00+11:00",
    "all_day": false,
-   "url": "https://www.abyss.com.au/courses/equipment-specialist",
-   "description": "$250.00 · Equipment Specialist Course · Equipment Specialist Course"
+   "url": "https://www.abyss.com.au/courses/how-to-become-a-mermaid",
+   "description": "$450.00 · PADI Mermaid Course · PADI Mermaid course"
   },
   {
    "id": "abyss-cf5b1a3933b0",
@@ -2557,16 +2386,6 @@ window.__DIVE_DATA__ =
    "url": "https://www.prodive.com.au/Sydney+-+Manly/Enriched+Air+Nitrox/Enriched+Air+Nitrox+Course+-+Sydney+-+Manly/1639",
    "location": "ProDive Manly",
    "description": "$279.00 · The most popular specialty course. Scuba diving with enriched air nitrox gives you more no decompression time, especially on repetitive scuba dives."
-  },
-  {
-   "id": "prodive-ab69835ba6d8",
-   "source": "prodive",
-   "title": "Discover Scuba at Shelly Beach",
-   "start": "2026-10-24T10:00+11:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Scuba+Introductory+Dive/Discover+Scuba+at+Shelly+Beach+-+Sydney+-+Manly/1727",
-   "location": "ProDive Manly",
-   "description": "$249.00 · Come and discover the enchanting realm of our underwater world! Our PRO DIVE Try a Dive program offers individuals without scuba diving certification the opportunity to experience the excitement and adventure of diving, all while under the guidance of one of our expert PRO DIVE Instructors."
   },
   {
    "id": "prodive-bade24bca192",
@@ -2664,16 +2483,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/guided-shore-dives",
    "description": "Guided Shore Dives · Voodoo lots of fish and unique rock formations, shore dive (18m)"
-  },
-  {
-   "id": "prodive-8bcf6de4b0db",
-   "source": "prodive",
-   "title": "Discover Scuba at Shelly Beach",
-   "start": "2026-10-25T10:00+11:00",
-   "all_day": false,
-   "url": "https://www.prodive.com.au/Sydney+-+Manly/Scuba+Introductory+Dive/Discover+Scuba+at+Shelly+Beach+-+Sydney+-+Manly/1727",
-   "location": "ProDive Manly",
-   "description": "$249.00 · Come and discover the enchanting realm of our underwater world! Our PRO DIVE Try a Dive program offers individuals without scuba diving certification the opportunity to experience the excitement and adventure of diving, all while under the guidance of one of our expert PRO DIVE Instructors."
   },
   {
    "id": "prodive-7f521233843a",
@@ -2897,6 +2706,15 @@ window.__DIVE_DATA__ =
    "description": "$699.00 · Avelo Dive Course · Avelo Dive Course"
   },
   {
+   "id": "abyss-3dd80a13b764",
+   "source": "abyss",
+   "title": "Leap to Steps Dive",
+   "start": "2026-10-30T10:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
+   "description": "Guided Shore Dives · Leap to steps Drift for confident divers shore dive (18-22m)"
+  },
+  {
    "id": "prodive-bb4ecc0baf2c",
    "source": "prodive",
    "title": "Scuba Hire Click & Collect",
@@ -3014,6 +2832,15 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-31#19@book@",
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
+   "id": "abyss-c30a3ed30ad6",
+   "source": "abyss",
+   "title": "Bare Island Dive",
+   "start": "2026-10-31T09:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
+   "description": "Guided Shore Dives · Bare Island colourful sponges, easy shore dive (12-18m)"
   },
   {
    "id": "prodive-d1f7b49de072",
@@ -3577,15 +3404,6 @@ window.__DIVE_DATA__ =
    "description": "$219.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Long Reef/The Apartments - Shark Dive** Rating: Open Water Diver(20m) Depth: 25m"
   },
   {
-   "id": "abyss-0f338f1c8171",
-   "source": "abyss",
-   "title": "Weedy Seadragon Dive",
-   "start": "2026-11-08T08:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/marine-marvels-dives",
-   "description": "$49.01 · Marine Marvels Dives · Weedy SeaDragon up close, guided by a marine biologist."
-  },
-  {
    "id": "abyss-912e429dbd2a",
    "source": "abyss",
    "title": "Magic Point Shark Dive",
@@ -3593,6 +3411,15 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/boat-dives",
    "description": "$130.00 · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
+  },
+  {
+   "id": "abyss-0f338f1c8171",
+   "source": "abyss",
+   "title": "Weedy Seadragon Dive",
+   "start": "2026-11-08T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/marine-marvels-dives",
+   "description": "$49.01 · Marine Marvels Dives · Weedy SeaDragon up close, guided by a marine biologist."
   },
   {
    "id": "prodive-07cdf93152aa",
@@ -4922,6 +4749,16 @@ window.__DIVE_DATA__ =
    "description": "$219.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Long Reef/The Apartments - Shark Dive** Rating: Open Water Diver(20m) Depth: 25m"
   },
   {
+   "id": "abyss-cae35f3d16da",
+   "source": "abyss",
+   "title": "60497-1/28-11-2026",
+   "start": "2026-11-28T08:00+11:00",
+   "all_day": false,
+   "end": "2026-11-29",
+   "url": "https://www.abyss.com.au/courses/sidemount-diver",
+   "description": "$599.00 · Sidemount Diver Course · Learn streamlined sidemount setup for better balance and freedom."
+  },
+  {
    "id": "abyss-bbd05c50fbb2",
    "source": "abyss",
    "title": "Henry Head Boat Dive",
@@ -5388,6 +5225,15 @@ window.__DIVE_DATA__ =
    "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
   },
   {
+   "id": "abyss-0224e3bd321a",
+   "source": "abyss",
+   "title": "Enriched Air Diver",
+   "start": "2026-12-05T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
+   "description": "$345.00 · Enriched Air (Nitrox) Diver"
+  },
+  {
    "id": "abyss-f572fe9a7dde",
    "source": "abyss",
    "title": "Tec 40",
@@ -5396,15 +5242,6 @@ window.__DIVE_DATA__ =
    "end": "2026-12-06",
    "url": "https://www.abyss.com.au/courses/tec-40",
    "description": "$745.00 · tec 40"
-  },
-  {
-   "id": "abyss-0224e3bd321a",
-   "source": "abyss",
-   "title": "Enriched Air Diver",
-   "start": "2026-12-05T08:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
-   "description": "$345.00 · Enriched Air (Nitrox) Diver"
   },
   {
    "id": "prodive-f94670769d13",
@@ -5808,6 +5645,15 @@ window.__DIVE_DATA__ =
    "description": "$219.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Long Reef/The Apartments - Shark Dive** Rating: Open Water Diver(20m) Depth: 25m"
   },
   {
+   "id": "abyss-92fd8d46a32a",
+   "source": "abyss",
+   "title": "Enriched Air Diver",
+   "start": "2026-12-12T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
+   "description": "$345.00 · Enriched Air (Nitrox) Diver"
+  },
+  {
    "id": "abyss-b8c864e9725c",
    "source": "abyss",
    "title": "AOW 12-12-2026",
@@ -5816,15 +5662,6 @@ window.__DIVE_DATA__ =
    "end": "2026-12-13",
    "url": "https://www.abyss.com.au/courses/padi-advanced-open-water-course",
    "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
-  },
-  {
-   "id": "abyss-92fd8d46a32a",
-   "source": "abyss",
-   "title": "Enriched Air Diver",
-   "start": "2026-12-12T08:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
-   "description": "$345.00 · Enriched Air (Nitrox) Diver"
   },
   {
    "id": "prodive-665bcfca4f42",
@@ -6267,6 +6104,15 @@ window.__DIVE_DATA__ =
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
+   "id": "abyss-f932c27291c9",
+   "source": "abyss",
+   "title": "PADI Reactivate Refresher",
+   "start": "2026-12-19T09:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/courses/reactivate-your-diving",
+   "description": "$199.00 · PADI REFRESHER COURSE SYDNEY · Refresher Course (PADI Reactivate)"
+  },
+  {
    "id": "prodive-837b57615e2a",
    "source": "prodive",
    "title": "Enriched Air Nitrox Course",
@@ -6658,6 +6504,46 @@ window.__DIVE_DATA__ =
    "description": "$645.00 · This course can be taken after completing the PRO DIVE Open Water Course. The course aims to advance your diving knowledge & skills."
   },
   {
+   "id": "prodive-b883144c3004",
+   "source": "prodive",
+   "title": "Refresher Scuba Dive",
+   "start": "2026-12-26T12:00+11:00",
+   "all_day": false,
+   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
+   "location": "ProDive Alexandria",
+   "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again."
+  },
+  {
+   "id": "prodive-1b44980743e9",
+   "source": "prodive",
+   "title": "Sydney Double Boat Dive",
+   "start": "2026-12-27T07:45+11:00",
+   "all_day": false,
+   "url": "https://www.prodive.com.au/Sydney+-+Manly/Boat+Dives/Sydney+Double+Boat+Dive+-+Sydney+-+Manly/240",
+   "location": "ProDive Manly",
+   "description": "$219.00 · Sydney's Premier Dive Boat PRO DIVE's award winning Sealife V. Offering mid week and weekend trips. We visit 2 different dive sites each trip and we have full range of gear hire on board. Dive Site: Magic Point - Shark Dive** Rating: Open Water Diver(20m) Depth: 23m"
+  },
+  {
+   "id": "prodive-77631d6a302e",
+   "source": "prodive",
+   "title": "Guided Shore Dives (Double Dive)",
+   "start": "2026-12-27T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Shore+Dives/Guided+Shore+Dives+(Double+Dive)+-+Sydney+-+Alexandria/1046",
+   "location": "ProDive Alexandria",
+   "description": "$79.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Kurnell** Rating: Open Water Diver(20m) Depth: 5m-22m"
+  },
+  {
+   "id": "prodive-39e757af972b",
+   "source": "prodive",
+   "title": "Double boat dive - ( you must book with a buddy)",
+   "start": "2026-12-27T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.prodive.com.au/Sydney+-+Manly/Boat+Dives/Double+boat+dive+-+(+you+must+book+with+a+buddy)+-+Sydney+-+Manly/1770",
+   "location": "ProDive Manly",
+   "description": "$130.00 · This is for those who prefer to dive unguided and bring all there own gear. There is no option to add gear , you will also need to bring a buddy. We will supply the boat, a dive briefing and refresments. This trip will allow for 2x 60min dives with out having to deal the hassels of diving with a group Dive Site: Magic Point - Shark Dive** Rating: Open Water Diver(20m) Depth: 23m"
+  },
+  {
    "id": "divecharters-82288617aabc",
    "source": "divecharters",
    "title": "8am Sunday Double Boat Dive - Departing 0730 Little Manly / 0745 Boarding Rose Bay Public Wharf",
@@ -6665,6 +6551,26 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-27#248@book@",
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
+  },
+  {
+   "id": "prodive-258c4a424e57",
+   "source": "prodive",
+   "title": "Discover Scuba at Shelly Beach",
+   "start": "2026-12-27T10:00+11:00",
+   "all_day": false,
+   "url": "https://www.prodive.com.au/Sydney+-+Manly/Scuba+Introductory+Dive/Discover+Scuba+at+Shelly+Beach+-+Sydney+-+Manly/1727",
+   "location": "ProDive Manly",
+   "description": "$249.00 · Come and discover the enchanting realm of our underwater world! Our PRO DIVE Try a Dive program offers individuals without scuba diving certification the opportunity to experience the excitement and adventure of diving, all while under the guidance of one of our expert PRO DIVE Instructors."
+  },
+  {
+   "id": "prodive-f5267b90fbde",
+   "source": "prodive",
+   "title": "Refresher Scuba Dive",
+   "start": "2026-12-27T12:00+11:00",
+   "all_day": false,
+   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
+   "location": "ProDive Alexandria",
+   "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again. Dive Site: Freshwater** Rating: Open Water Diver(20m) Depth: 18"
   },
   {
    "id": "divecharters-a3c0e2fcbcd3",
@@ -6676,6 +6582,46 @@ window.__DIVE_DATA__ =
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
+   "id": "prodive-54d8bb031df1",
+   "source": "prodive",
+   "title": "Guided Shore Dives (Double Dive)",
+   "start": "2026-12-28T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Shore+Dives/Guided+Shore+Dives+(Double+Dive)+-+Sydney+-+Alexandria/1046",
+   "location": "ProDive Alexandria",
+   "description": "$79.00 · This is a great opportunity to experience some of the great dive sites off Sydney's shores. Join PRO DIVE's Team, as we travel around Sydney's dive sites and show you all the amazing sea life that beckons. Our shore dives are fully guided and suitable for all levels of dive experience. Dive Site: Gordons Bay** Rating: Open Water Diver(20m) Depth: 14m"
+  },
+  {
+   "id": "prodive-f8a389551454",
+   "source": "prodive",
+   "title": "Scuba Hire Click & Collect",
+   "start": "2026-12-28T10:00+11:00",
+   "all_day": false,
+   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
+   "location": "ProDive Manly",
+   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
+  },
+  {
+   "id": "prodive-7804681cca44",
+   "source": "prodive",
+   "title": "Refresher Scuba Dive",
+   "start": "2026-12-28T12:00+11:00",
+   "all_day": false,
+   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Refresher+Dive/Refresher+Scuba+Dive+-+Sydney+-+Alexandria/1015",
+   "location": "ProDive Alexandria",
+   "description": "$199.00 · The minimum requirement to join this Refresher Dive is to be an Open Water Certified diver. This is a most enjoyable way of getting back into diving. The Refresher helps to re-garner your confidence and will definitely ensure the dive bug bites again."
+  },
+  {
+   "id": "prodive-440f2873f3f1",
+   "source": "prodive",
+   "title": "PRO DIVE Open Water Weekday Scuba Diving Course",
+   "start": "2026-12-28T18:30+11:00",
+   "all_day": false,
+   "url": "https://www.prodive.com.au/Sydney+-+Alexandria/Openwater+Courses/PRO+DIVE+Open+Water+Weekday+Scuba+Diving+Course+-+Sydney+-+Alexandria/1159",
+   "location": "ProDive Alexandria",
+   "description": "$499.00 · Dive Course to 20m [Beginner Level] Multiple Start Dates Scuba Gear [Equipment Included] International License [Dive worldwide] No Experience Needed"
+  },
+  {
    "id": "divecharters-d31f3af072f0",
    "source": "divecharters",
    "title": "DSD - Discover Scuba Dive - Hire Gear Included",
@@ -6685,6 +6631,16 @@ window.__DIVE_DATA__ =
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
+   "id": "prodive-8d282dad386e",
+   "source": "prodive",
+   "title": "Scuba Hire Click & Collect",
+   "start": "2026-12-29T10:00+11:00",
+   "all_day": false,
+   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
+   "location": "ProDive Manly",
+   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
+  },
+  {
    "id": "divecharters-81961f3f0603",
    "source": "divecharters",
    "title": "DSD - Discover Scuba Dive - Hire Gear Included",
@@ -6692,6 +6648,16 @@ window.__DIVE_DATA__ =
    "all_day": true,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-12-30#326@book@",
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
+  },
+  {
+   "id": "prodive-dcf0555979b9",
+   "source": "prodive",
+   "title": "Scuba Hire Click & Collect",
+   "start": "2026-12-30T10:00+11:00",
+   "all_day": false,
+   "url": "https://www.prodive.com.au/Sydney+-+Manly/Equipment+Hire/Scuba+Hire+Click++Collect+-+Sydney+-+Manly/1652",
+   "location": "ProDive Manly",
+   "description": "$20.00 · Grab your gear from 08:00 and return by 16:00 at the Dive Centre Must be prebooked or call 99775966"
   },
   {
    "id": "divecharters-9afe586c8e87",
