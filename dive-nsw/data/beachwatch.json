@@ -982,7 +982,7 @@
           "id": "1cca5d42-6426-4ac9-afdf-8c0c1dfcd6dc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Copacabana Beach"
         },
         "type": "Feature"
