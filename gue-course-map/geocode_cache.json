@@ -2356,5 +2356,87 @@
   "country": "kr",
   "matched_query": "yang-yang gun, kangwon-do, korea (south)",
   "alias_of": "yang-yang gun, kangwon-do, korea (south)"
+ },
+ "auckland, new zealand": {
+  "lat": -36.852095,
+  "lng": 174.7631803,
+  "display": "Auckland, Waitematā, Auckland, 1010, New Zealand / Aotearoa",
+  "country": "nz",
+  "matched_query": "auckland, new zealand",
+  "approx": false,
+  "verified": true
+ },
+ "high springs, florida,": {
+  "lat": 29.8268319,
+  "lng": -82.5968583,
+  "display": "High Springs, Alachua County, Florida, 32655, United States",
+  "country": "us",
+  "matched_query": "high springs, florida,",
+  "approx": false,
+  "verified": false
+ },
+ "hurghada, egypt": {
+  "lat": 27.222556,
+  "lng": 33.8307062,
+  "display": "الغردقة, البحر الأحمر, 84512, مصر",
+  "country": "eg",
+  "matched_query": "hurghada, egypt",
+  "approx": false,
+  "verified": true
+ },
+ "jeju, cheju-do, korea (south)": {
+  "lat": 33.4998289,
+  "lng": 126.5313902,
+  "display": "제주시, 제주특별자치도, 대한민국",
+  "country": "kr",
+  "matched_query": "jeju, cheju-do, korea (south)",
+  "approx": false,
+  "verified": true
+ },
+ "puerto aventuras / akumal, quintana roo, mexico": {
+  "lat": 19.6666671,
+  "lng": -88.5000001,
+  "display": "Quintana Roo, México",
+  "country": "mx",
+  "matched_query": "quintana roo, mexico",
+  "approx": true,
+  "verified": true
+ },
+ "san michele di pagana/rapallo, italy": {
+  "lat": 44.3405803,
+  "lng": 9.2240759,
+  "display": "San Michele di Pagana, Rapallo, Genova, Liguria, 16035, Italia",
+  "country": "it",
+  "matched_query": "san michele di pagana/rapallo, italy",
+  "approx": false,
+  "verified": true
+ },
+ "siracusa, siracusa, italy": {
+  "lat": 37.0315752,
+  "lng": 15.2124277,
+  "display": "Siracusa, Sicilia, 96100, Italia",
+  "country": "it",
+  "matched_query": "siracusa, siracusa, italy",
+  "approx": false,
+  "verified": true
+ },
+ "xlendi gozo, malta": {
+  "lat": 36.0311977,
+  "lng": 14.2182656,
+  "display": "Ix-Xlendi, Il-Munxar, Reġjun Għawdex, XLN 1101, Malta",
+  "country": "mt",
+  "matched_query": "xlendi gozo, malta",
+  "approx": false,
+  "verified": true
+ },
+ "αthens, greece": {
+  "lat": 37.9755648,
+  "lng": 23.7348324,
+  "display": "Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 105 57, Ελλάς",
+  "country": "gr",
+  "matched_query": "athens , greece",
+  "approx": false,
+  "verified": true,
+  "alias_of": "athens , greece"
  }
 }
