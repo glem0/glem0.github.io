@@ -1,7 +1,7 @@
 """Sydney Dive Charters — Checkfront booking portal.
 
 Their WordPress site (Cloudflare, blocks non-browser TLS) embeds the hosted
-portal at sydneydivecharters.checkfront.com, which answers plain httpx:
+portal at sydneydivecharters.checkfront.com, which has no bot wall:
     /reserve/inventory/?category_id=N            items of a category (JSON-wrapped HTML)
     /reserve/api/?call=calendar_full&filter_item_id=N&start_date&end_date
                                                  {"calendar_data": {"YYYYMMDD": 0|1}}

@@ -9,15 +9,13 @@ from __future__ import annotations
 
 import html as htmllib
 import json
-import os
 import re
-import tempfile
 from datetime import date, datetime
 from urllib.parse import parse_qs, parse_qsl, urlencode, urlsplit, urlunsplit
 
 from bs4 import BeautifulSoup
 
-from common import Event, Window, browser_headers, curl_fetch, parse_time, polite_sleep, sydney_iso
+from common import Event, Window, browser_headers, parse_time, polite_sleep, post, sydney_iso
 
 SOLD_OUT_RE = re.compile(r"\(\s*sold\s*out\s*\)", re.I)
 
@@ -81,34 +79,25 @@ def fetch_rezdy(source_id: str, base: str, catalog_id: int, window: Window) -> l
     seen: set[tuple[str, str]] = set()
     endpoint = f"{base}/productsMonthlyCalendar/{catalog_id}"
     page_url = f"{endpoint}?iframe=true"   # the widget page whose jQuery issues the XHRs
-    jar_fd, jar = tempfile.mkstemp(suffix=".cookies")
-    os.close(jar_fd)
-    try:
-        for i, (year, month) in enumerate(window.months):
-            if i:
-                polite_sleep()
-            body = curl_fetch(   # via curl: Rezdy's WAF rejects Python TLS stacks
-                endpoint,
-                params={"iframe": "true"},
-                data={"calMonth": month, "calYear": year},
-                headers=browser_headers(endpoint, referer=page_url, method="POST", jquery=True),
-                cookie_jar=jar,   # keep AWSALB/PHPSESSID across months like a browser
-            )
-            data = json.loads(body)   # content-type lies; body is JSON
-            avail = (data or {}).get("monthlyAvailability") or {}
-            for day_key, snippets in avail.items():
-                for snippet in snippets:
-                    ev = _parse_snippet(source_id, base, day_key, snippet)
-                    if ev is None:
-                        continue
-                    key = (ev.title, ev.start)
-                    if key in seen:
-                        continue
-                    seen.add(key)
-                    events.append(ev)
-    finally:
-        try:
-            os.unlink(jar)
-        except OSError:
-            pass
+    for i, (year, month) in enumerate(window.months):
+        if i:
+            polite_sleep()
+        r = post(   # session cookies (AWSALB/PHPSESSID/__cf_bm) carry across months
+            endpoint,
+            params={"iframe": "true"},
+            data={"calMonth": month, "calYear": year},
+            headers=browser_headers(endpoint, referer=page_url, method="POST", jquery=True),
+        )
+        data = json.loads(r.text)   # content-type lies; body is JSON
+        avail = (data or {}).get("monthlyAvailability") or {}
+        for day_key, snippets in avail.items():
+            for snippet in snippets:
+                ev = _parse_snippet(source_id, base, day_key, snippet)
+                if ev is None:
+                    continue
+                key = (ev.title, ev.start)
+                if key in seen:
+                    continue
+                seen.add(key)
+                events.append(ev)
     return events

@@ -3,33 +3,26 @@ from __future__ import annotations
 
 import hashlib
 import re
-import shutil
-import subprocess
 import time
 from dataclasses import dataclass
 from datetime import date, datetime
-from urllib.parse import urlencode, urlsplit
+from urllib.parse import urlsplit
 from zoneinfo import ZoneInfo
 
-import httpx
+from curl_cffi.requests import Response, Session
+from curl_cffi.requests.exceptions import HTTPError, RequestException
 
 SYDNEY = ZoneInfo("Australia/Sydney")
 
-# One consistent Chrome identity — bump CHROME_MAJOR periodically; a stale UA is
-# itself a bot signal. (Chrome froze the macOS platform token at 10_15_7.)
-CHROME_MAJOR = "138"
-UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
-      f"(KHTML, like Gecko) Chrome/{CHROME_MAJOR}.0.0.0 Safari/537.36")
-SEC_CH_UA = (f'"Google Chrome";v="{CHROME_MAJOR}", '
-             f'"Chromium";v="{CHROME_MAJOR}", "Not=A?Brand";v="8"')
+# Every request goes through curl_cffi impersonating the newest Chrome profile it
+# ships: TLS/HTTP2 fingerprint plus the matching User-Agent, sec-ch-ua client hints
+# and Accept-Encoding come from the profile, so they never drift apart (Rezdy sits
+# behind Cloudflare Bot Management, which blocks plain curl/Python TLS stacks).
+IMPERSONATE = "chrome"
 
-# sent on every request, like Chrome's client hints
+# sent on every request on top of the profile's own headers
 BASE_HEADERS = {
-    "User-Agent": UA,
     "Accept-Language": "en-AU,en;q=0.9",
-    "sec-ch-ua": SEC_CH_UA,
-    "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": '"macOS"',
 }
 REQUEST_DELAY = 1.2   # seconds between paginated requests to the same site
 TIMEOUT = 30
@@ -72,7 +65,7 @@ class Event:
         return d
 
 
-_session: httpx.Client | None = None
+_session: Session | None = None
 
 
 def _origin(url: str) -> str:
@@ -87,8 +80,9 @@ def browser_headers(url: str, *, kind: str = "xhr", referer: str | None = None,
     kind="document": top-level navigation (address bar / link click).
     kind="xhr": fetch/XMLHttpRequest issued by a page (pass that page as referer);
     jquery=True adds X-Requested-With like jQuery does.
+    A None value tells curl_cffi to drop that header from the profile defaults.
     """
-    h: dict[str, str] = {}
+    h: dict[str, str | None] = {}
     if kind == "document":
         h["Accept"] = ("text/html,application/xhtml+xml,application/xml;q=0.9,"
                        "image/avif,image/webp,image/apng,*/*;q=0.8,"
@@ -106,6 +100,8 @@ def browser_headers(url: str, *, kind: str = "xhr", referer: str | None = None,
         h["Sec-Fetch-Site"] = "cross-site" if cross else "same-origin"
         h["Sec-Fetch-Mode"] = "cors"
         h["Sec-Fetch-Dest"] = "empty"
+        h["Sec-Fetch-User"] = None              # navigation-only headers in the profile
+        h["Upgrade-Insecure-Requests"] = None
         if cross or method.upper() != "GET":   # Chrome's Origin rules for CORS/POST
             h["Origin"] = page_origin
         if jquery:
@@ -115,115 +111,54 @@ def browser_headers(url: str, *, kind: str = "xhr", referer: str | None = None,
     return h
 
 
-def session() -> httpx.Client:
-    # HTTP/2 is required: Rezdy's load balancer answers 405/bot-wall on HTTP/1.1.
-    # With brotli+zstandard installed httpx advertises Chrome's full
-    # "gzip, deflate, br, zstd" Accept-Encoding. Cookies persist like a browser tab.
+def session() -> Session:
+    # One session for the whole run: cookies (Rezdy's AWSALB/PHPSESSID, Cloudflare's
+    # __cf_bm) persist across requests like a browser tab; HTTP/2 via ALPN.
     global _session
     if _session is None:
-        _session = httpx.Client(
-            http2=True,
-            follow_redirects=True,
+        _session = Session(
+            impersonate=IMPERSONATE,
+            allow_redirects=True,
             timeout=TIMEOUT,
             headers=BASE_HEADERS,
         )
     return _session
 
 
-def _request(method: str, url: str, **kw) -> httpx.Response:
-    last = None
-    for attempt in range(RETRIES):
-        try:
-            r = session().request(method, url, **kw)
-            r.raise_for_status()
-            return r
-        except httpx.HTTPStatusError as exc:
-            last = exc
-            if attempt >= RETRIES - 1:
-                break
-            status = exc.response.status_code
-            if status in (429, 503):   # rate limited — honour Retry-After, else back off hard
-                ra = exc.response.headers.get("retry-after", "")
-                wait = int(ra) if ra.isdigit() else BACKOFF_429 * (attempt + 1)
-                print(f"    rate limited ({status}) on {url} — waiting {min(wait, MAX_BACKOFF)}s")
-                time.sleep(min(wait, MAX_BACKOFF))
-            elif status >= 500:
-                time.sleep(2 * (attempt + 1))
-            else:
-                break   # other 4xx — retrying identical requests won't help
-        except httpx.HTTPError as exc:   # transport errors
-            last = exc
-            if attempt < RETRIES - 1:
-                time.sleep(2 * (attempt + 1))
-    raise last
-
-
-def get(url: str, **kw) -> httpx.Response:
-    return _request("GET", url, **kw)
-
-
-def post(url: str, **kw) -> httpx.Response:
-    return _request("POST", url, **kw)
-
-
-def curl_fetch(url: str, *, params: dict | None = None, data: dict | None = None,
-               headers: dict | None = None, cookie_jar: str | None = None) -> str:
-    """HTTP/2 fetch via the system curl.
-
-    Rezdy's AWS WAF fingerprints the TLS client and rejects Python HTTP stacks
-    (405 + human-verification page) while accepting curl, so those requests
-    shell out. Sends the same browser identity headers as the httpx session;
-    pass cookie_jar (a file path) to persist cookies across calls like a
-    browser session. Returns the response body; raises on curl error/non-200.
-    """
-    if shutil.which("curl") is None:
-        raise RuntimeError("curl not found on PATH (needed for Rezdy sources)")
-    if params:
-        url = f"{url}?{urlencode(params)}"
-    cmd = ["curl", "-sS", "--http2", "--compressed", "--max-time", str(TIMEOUT),
-           "-A", UA, "-D", "-", "-w", "\n%{http_code}"]
-    if cookie_jar:
-        cmd += ["-b", cookie_jar, "-c", cookie_jar]
-    all_headers = {k: v for k, v in BASE_HEADERS.items() if k != "User-Agent"}
-    all_headers.update(headers or {})
-    for k, v in all_headers.items():
-        cmd += ["-H", f"{k}: {v}"]
-    if data is not None:
-        cmd += ["--data", urlencode(data)]
-    cmd.append(url)
-
+def _request(method: str, url: str, **kw) -> Response:
     last: Exception | None = None
     for attempt in range(RETRIES):
         try:
-            out = subprocess.run(cmd, capture_output=True, text=True, timeout=TIMEOUT + 15)
-            if out.returncode != 0:
-                raise RuntimeError(f"curl exit {out.returncode}: {out.stderr.strip()[:200]}")
-            raw, _, status = out.stdout.rpartition("\n")
-            # -D - prefixes response headers; blank-line boundary may be \n\n or \r\n\r\n
-            parts = re.split(r"\r?\n\r?\n", raw, maxsplit=1)
-            head, body = (parts[0], parts[1]) if len(parts) == 2 else ("", raw)
-            status = status.strip()
-            if status == "200":
-                return body
-            if status in ("429", "503") and attempt < RETRIES - 1:
-                m = re.search(r"^retry-after:\s*(\d+)", head, re.I | re.M)
-                wait = int(m.group(1)) if m else BACKOFF_429 * (attempt + 1)
-                print(f"    rate limited ({status}) on {url} — waiting {min(wait, MAX_BACKOFF)}s")
-                time.sleep(min(wait, MAX_BACKOFF))
-                last = RuntimeError(f"curl HTTP {status} for {url}")
-                continue
-            raise RuntimeError(f"curl HTTP {status} for {url}")
-        except RuntimeError as exc:
-            last = exc
-            if "curl HTTP" in str(exc):
-                raise                      # non-retryable status already decided above
-            if attempt < RETRIES - 1:
-                time.sleep(2 * (attempt + 1))
-        except subprocess.TimeoutExpired as exc:
+            r = session().request(method, url, **kw)
+        except RequestException as exc:   # transport errors (DNS, TLS, timeout)
             last = exc
             if attempt < RETRIES - 1:
                 time.sleep(2 * (attempt + 1))
+            continue
+        if r.ok:
+            return r
+        status = r.status_code
+        last = HTTPError(f"HTTP {status} for {r.url}", 0, r)
+        if attempt >= RETRIES - 1:
+            break
+        if status in (429, 503):   # rate limited — honour Retry-After, else back off hard
+            ra = r.headers.get("retry-after", "")
+            wait = int(ra) if ra.isdigit() else BACKOFF_429 * (attempt + 1)
+            print(f"    rate limited ({status}) on {url} — waiting {min(wait, MAX_BACKOFF)}s")
+            time.sleep(min(wait, MAX_BACKOFF))
+        elif status >= 500:
+            time.sleep(2 * (attempt + 1))
+        else:
+            break   # other 4xx — retrying identical requests won't help
     raise last
+
+
+def get(url: str, **kw) -> Response:
+    return _request("GET", url, **kw)
+
+
+def post(url: str, **kw) -> Response:
+    return _request("POST", url, **kw)
 
 
 def polite_sleep(seconds: float | None = None) -> None:
