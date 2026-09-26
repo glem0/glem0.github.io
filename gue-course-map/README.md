@@ -26,4 +26,4 @@ append-only, so hand fixes stick. Anything still missing from the table is geoco
 live in the browser as a stopgap until the next run. Run it manually with
 `python3 update_geo.py`; `--validate` audits the whole DB.
 
-Map data © OpenStreetMap contributors & CARTO. Course data © GUE.
+Map data © OpenStreetMap contributors. Course data © GUE.

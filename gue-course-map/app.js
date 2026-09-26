@@ -129,10 +129,13 @@
   }).setView([25, 5], 2);
   L.control.zoom({ position: "topright" }).addTo(map);
   L.control.scale({ position: "bottomright", imperial: false }).addTo(map);
-  // Original CARTO Voyager basemap — colourful and clean, with its own tidy labels.
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: "abcd", maxZoom: 19,
+  // OpenStreetMap's standard tiles. (CARTO Voyager, used before, started watermarking
+  // keyless requests with "API KEY REQUIRED" in Sept 2026.) Per the OSM tile usage
+  // policy: exact URL with no {s} subdomains, no @2x variant, light use only, and the
+  // browser's Referer must reach tile.openstreetmap.org (so no strict Referrer-Policy).
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 19,
   }).addTo(map);
   const WORLD_COPIES = [-360, 0, 360];  // longitude offsets each marker is duplicated into
 
