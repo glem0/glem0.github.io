@@ -2438,5 +2438,23 @@
   "approx": false,
   "verified": true,
   "alias_of": "athens , greece"
+ },
+ "limassol, cyprus": {
+  "lat": 34.6852901,
+  "lng": 33.0332657,
+  "display": "Λεμεσός, Δήμος Λεμεσού, Επαρχία Λεμεσού, Κύπρος, 3085, Κύπρος - Kıbrıs",
+  "country": "cy",
+  "matched_query": "limassol, cyprus",
+  "approx": false,
+  "verified": true
+ },
+ "puerto galera, mindoro occidental, philippines": {
+  "lat": 13.4990275,
+  "lng": 120.8865528,
+  "display": "Puerto Galera Beach Club, Mindoro Circumferential Road, Lucutan, Udalo, Puerto Galera, Oriental Mindoro, Mimaropa, Philippines",
+  "country": "ph",
+  "matched_query": "puerto galera, mindoro occidental, philippines",
+  "approx": false,
+  "verified": true
  }
 }

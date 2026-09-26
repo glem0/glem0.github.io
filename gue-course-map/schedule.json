@@ -1,114 +1,6 @@
 {
- "updated": "2026-09-25T20:43:35Z",
+ "updated": "2026-09-26T06:59:21Z",
  "classes": [
-  {
-   "cid": "37186",
-   "course": "Doubles Primer",
-   "date": "September 26, 2026",
-   "iso": "2026-09-26",
-   "location": "Dubai, Dubai, United Arab Emirates",
-   "instructor": "Jesper Kjøller",
-   "instructor_id": "4437"
-  },
-  {
-   "cid": "37391",
-   "course": "Doubles Primer",
-   "date": "September 26, 2026",
-   "iso": "2026-09-26",
-   "location": "sydney, New South Wales, Australia",
-   "instructor": "Jingwei Sun",
-   "instructor_id": "70762"
-  },
-  {
-   "cid": "36678",
-   "course": "Drysuit Primer",
-   "date": "September 26, 2026",
-   "iso": "2026-09-26",
-   "location": "Aachen, Germany",
-   "instructor": "Benjamin Ott",
-   "instructor_id": "11806"
-  },
-  {
-   "cid": "37408",
-   "course": "GUE Basic Fundamentals",
-   "date": "September 26, 2026",
-   "iso": "2026-09-26",
-   "location": "Dahab, Egypt",
-   "instructor": "Mahmoud Esmat",
-   "instructor_id": "65259"
-  },
-  {
-   "cid": "37271",
-   "course": "GUE Basic Fundamentals",
-   "date": "September 26, 2026",
-   "iso": "2026-09-26",
-   "location": "Dahab, Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
-  },
-  {
-   "cid": "36595",
-   "course": "GUE Basic Fundamentals",
-   "date": "September 26, 2026",
-   "iso": "2026-09-26",
-   "location": "Sydney, New South Wales, Australia",
-   "instructor": "Sebastien Landat",
-   "instructor_id": "22757"
-  },
-  {
-   "cid": "36668",
-   "course": "GUE Performance Diver",
-   "date": "September 26, 2026",
-   "iso": "2026-09-26",
-   "location": "Karlsruhe, Germany",
-   "instructor": "Peter Gaertner",
-   "instructor_id": "1374"
-  },
-  {
-   "cid": "37089",
-   "course": "GUE Performance Diver",
-   "date": "September 26, 2026",
-   "iso": "2026-09-26",
-   "location": "Plano, Texas, United States",
-   "instructor": "Elon Mehr",
-   "instructor_id": "66591"
-  },
-  {
-   "cid": "36421",
-   "course": "GUE Performance Diver",
-   "date": "September 26, 2026",
-   "iso": "2026-09-26",
-   "location": "Schwetzingen, Baden-Württemberg, Germany",
-   "instructor": "Christof Müller-Schmahl",
-   "instructor_id": "65203"
-  },
-  {
-   "cid": "37442",
-   "course": "Gas Blender",
-   "date": "September 26, 2026",
-   "iso": "2026-09-26",
-   "location": "Victoria, British Columbia, Canada",
-   "instructor": "Jason Cook",
-   "instructor_id": "24473"
-  },
-  {
-   "cid": "37154",
-   "course": "Master Diver",
-   "date": "September 26, 2026",
-   "iso": "2026-09-26",
-   "location": "Sydney, New South Wales, Australia",
-   "instructor": "Duncan Paterson",
-   "instructor_id": "18320"
-  },
-  {
-   "cid": "36527",
-   "course": "Technical Diver 1",
-   "date": "September 26, 2026",
-   "iso": "2026-09-26",
-   "location": "Vlore, Albania",
-   "instructor": "Maximilian Fahr",
-   "instructor_id": "66486"
-  },
   {
    "cid": "36782",
    "course": "CCR Fundamentals: JJ-CCR",
@@ -162,6 +54,15 @@
    "location": "Osezaki, Shizuoka, Japan",
    "instructor": "Yousuke Ogiwara",
    "instructor_id": "20059"
+  },
+  {
+   "cid": "37443",
+   "course": "GUE Performance Diver",
+   "date": "September 27, 2026",
+   "iso": "2026-09-27",
+   "location": "puerto galera, Mindoro Occidental, Philippines",
+   "instructor": "Jinsong Ye",
+   "instructor_id": "23227"
   },
   {
    "cid": "37386",
@@ -1388,6 +1289,15 @@
    "instructor_id": "10004"
   },
   {
+   "cid": "37444",
+   "course": "Doubles Primer",
+   "date": "October 22, 2026",
+   "iso": "2026-10-22",
+   "location": "Singapore, Central Singapore, Singapore",
+   "instructor": "Coral Chua",
+   "instructor_id": "75313"
+  },
+  {
    "cid": "35706",
    "course": "GUE Technical Fundamentals",
    "date": "October 22, 2026",
@@ -1856,15 +1766,6 @@
    "instructor_id": "69051"
   },
   {
-   "cid": "36882",
-   "course": "GUE Performance Diver",
-   "date": "November 1, 2026",
-   "iso": "2026-11-01",
-   "location": "Tulamben, Bali, Indonesia",
-   "instructor": "Coral Chua",
-   "instructor_id": "75313"
-  },
-  {
    "cid": "36989",
    "course": "GUE Technical Fundamentals",
    "date": "November 1, 2026",
@@ -2180,15 +2081,6 @@
    "instructor_id": "73430"
   },
   {
-   "cid": "36883",
-   "course": "GUE Performance Diver",
-   "date": "November 6, 2026",
-   "iso": "2026-11-06",
-   "location": "Tulamben, Bali, Indonesia",
-   "instructor": "Coral Chua",
-   "instructor_id": "75313"
-  },
-  {
    "cid": "36681",
    "course": "GUE Technical Fundamentals",
    "date": "November 6, 2026",
@@ -2277,6 +2169,15 @@
    "location": "Krnica, Croatia",
    "instructor": "Bartek Trzcinski",
    "instructor_id": "25915"
+  },
+  {
+   "cid": "37445",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "November 9, 2026",
+   "iso": "2026-11-09",
+   "location": "Limassol, Cyprus",
+   "instructor": "Dimitris Fifis",
+   "instructor_id": "9369"
   },
   {
    "cid": "37216",
