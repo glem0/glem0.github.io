@@ -404,7 +404,7 @@
           "id": "567a89c6-8c54-45a9-996f-ba57fae68ab5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Brighton Le Sands Baths"
         },
         "type": "Feature"
@@ -1764,7 +1764,7 @@
           "id": "b407a6b2-da5b-46e4-a86d-35b1935cc83d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Kyeemagh Baths"
         },
         "type": "Feature"
@@ -3549,7 +3549,7 @@
           "id": "c8fc3c50-4d0f-48c8-939a-ee100892dee8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Terrigal Beach"
         },
         "type": "Feature"
