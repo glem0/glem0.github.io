@@ -65,6 +65,7 @@ window.GUE_GEO = {
 "dormagen, germany":[51.09344,6.84162],
 "dubai, dubai, united arab emirates":[25.07428,55.18856],
 "dutch springs, pennsylvania, united states":[40.68392,-75.3556],
+"elite divers international | playa del carmen, quintana roo, mexico":[19.66667,-88.5],
 "enschede, netherlands":[52.22099,6.89405],
 "faro, faro, portugal":[37.01629,-7.93518],
 "finale ligure, genova, italy":[44.1712,8.35221],

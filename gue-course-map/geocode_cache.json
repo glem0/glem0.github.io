@@ -2456,5 +2456,14 @@
   "matched_query": "puerto galera, mindoro occidental, philippines",
   "approx": false,
   "verified": true
+ },
+ "elite divers international | playa del carmen, quintana roo, mexico": {
+  "lat": 19.6666671,
+  "lng": -88.5000001,
+  "display": "Quintana Roo, México",
+  "country": "mx",
+  "matched_query": "quintana roo, mexico",
+  "approx": true,
+  "verified": true
  }
 }
