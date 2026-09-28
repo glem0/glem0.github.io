@@ -115,7 +115,7 @@
           "id": "c2d5eaf3-173d-4aa4-8fbc-7bfce5c637eb",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Bar Beach (Newcastle)"
         },
         "type": "Feature"
@@ -506,7 +506,7 @@
           "id": "1aba81aa-c38f-4452-9fce-13d0d86bc09e",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Burwood North Beach"
         },
         "type": "Feature"
@@ -523,7 +523,7 @@
           "id": "3f803844-0ac7-4f5d-bba4-a3b07cb20034",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Burwood South Beach"
         },
         "type": "Feature"
@@ -1152,7 +1152,7 @@
           "id": "ead2c228-836e-40b5-9495-0485c25561da",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Dudley Beach"
         },
         "type": "Feature"
@@ -1441,7 +1441,7 @@
           "id": "a4c7f46a-3bf4-4c2c-a141-7d49a0ba1484",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "Glenrock Lagoon Beach"
         },
         "type": "Feature"
@@ -2223,7 +2223,7 @@
           "id": "8d14d393-3cf7-43bd-86d4-a03190b323d1",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "Merewether Beach"
         },
         "type": "Feature"
@@ -2665,7 +2665,7 @@
           "id": "f4785861-61c1-4acb-b841-2609962ed0c7",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Oatley Bay Baths"
         },
         "type": "Feature"
@@ -2937,7 +2937,7 @@
           "id": "aa48b082-3fb2-4915-a3e0-ddc83739f294",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "Redhead Beach"
         },
         "type": "Feature"
@@ -3379,7 +3379,7 @@
           "id": "5a4e8fe1-938a-4ae9-8bfc-778a27f8aabd",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "South Stockton Beach"
         },
         "type": "Feature"
@@ -3481,7 +3481,7 @@
           "id": "e76d87f3-90d9-47aa-b71f-90cda6b6374b",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Swansea Heads Little Beach"
         },
         "type": "Feature"
@@ -3549,7 +3549,7 @@
           "id": "c8fc3c50-4d0f-48c8-939a-ee100892dee8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Terrigal Beach"
         },
         "type": "Feature"
