@@ -417,7 +417,7 @@ tr.cve-hover-match td { background: var(--cve-match-bg) !important; }
 
 <script>
 const DATA = [];
-const DATA_UPDATED = "2026-09-14T22:36:29Z";
+const DATA_UPDATED = "2026-09-28T23:51:36Z";
 DATA.push({r:"iOS 26.2 / iPadOS 26.2",os:"ios",d:"12 Dec 2025",v:[
   {c:"App Store",desc:"An app may be able to access sensitive payment tokens. A permissions issue was addressed with additional restrictions",cve:["CVE-2025-46288"]},
   {c:"AppleJPEG",desc:"Processing a file may lead to memory corruption. The issue was addressed with improved bounds checks",cve:["CVE-2025-43539"]},
@@ -7895,6 +7895,15 @@ DATA.push({r:"iOS 27 / iPadOS 27",os:"ios",d:"14 Sep 2026",v:[
   {c:"Wi-Fi3",desc:"An attacker with physical access to an unlocked device may be able to view Wi-Fi passwords without authentication. An authentication issue was addressed with improved state management",cve:["CVE-2026-43674"]},
   {c:"Wi-Fi Connectivity",desc:"An app may be able to access sensitive user data. An authorization issue was addressed with improved state management",cve:["CVE-2026-84636"]},
   {c:"XPC",desc:"An app may be able to access sensitive user data. An authorization issue was addressed with improved state management",cve:["CVE-2026-84617"]},
+]});
+DATA.push({r:"macOS Sequoia 15.8.1",os:"macos",d:"28 Sep 2026",v:[
+  {c:"CoreGraphics",desc:"Processing a maliciously crafted file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27. An out-of-bounds write issue was addressed with improved bounds checking",cve:["CVE-2026-86950"]},
+]});
+DATA.push({r:"macOS Tahoe 26.7.1",os:"macos",d:"28 Sep 2026",v:[
+  {c:"CoreGraphics",desc:"Processing a maliciously crafted file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27. An out-of-bounds write issue was addressed with improved bounds checking",cve:["CVE-2026-86950"]},
+]});
+DATA.push({r:"iOS 26.7.1 / iPadOS 26.7.1",os:"ios",d:"28 Sep 2026",v:[
+  {c:"CoreGraphics",desc:"Processing a maliciously crafted file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27. An out-of-bounds write issue was addressed with improved bounds checking",cve:["CVE-2026-86950"]},
 ]});
 </script>
 <script>
