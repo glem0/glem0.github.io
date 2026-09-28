@@ -946,8 +946,8 @@
         },
         "properties": {
           "id": "ca53919d-8e26-40b0-b8cc-edf80ec303d9",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Unlikely",
           "siteName": "Coogee Beach"
         },
@@ -1152,7 +1152,7 @@
           "id": "ead2c228-836e-40b5-9495-0485c25561da",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Dudley Beach"
         },
         "type": "Feature"
@@ -1424,7 +1424,7 @@
           "id": "77556fe0-20d1-4028-9bad-d61b3e046b4c",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Freshwater Beach"
         },
         "type": "Feature"
@@ -1441,7 +1441,7 @@
           "id": "a4c7f46a-3bf4-4c2c-a141-7d49a0ba1484",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Glenrock Lagoon Beach"
         },
         "type": "Feature"
@@ -2223,7 +2223,7 @@
           "id": "8d14d393-3cf7-43bd-86d4-a03190b323d1",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Merewether Beach"
         },
         "type": "Feature"
@@ -2597,7 +2597,7 @@
           "id": "cdf39c61-2988-4ddd-b849-0468cb0e1873",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "North Steyne Beach"
         },
         "type": "Feature"
@@ -2937,7 +2937,7 @@
           "id": "aa48b082-3fb2-4915-a3e0-ddc83739f294",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Likely",
           "siteName": "Redhead Beach"
         },
         "type": "Feature"
@@ -3175,7 +3175,7 @@
           "id": "995753ed-db2a-4cb8-9349-922cf3312766",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Shelly Beach (Manly)"
         },
         "type": "Feature"
@@ -3326,8 +3326,8 @@
         },
         "properties": {
           "id": "6908705e-c176-4f65-bfd1-39b19ca1d340",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "South Maroubra Rockpool"
         },
@@ -3362,7 +3362,7 @@
           "id": "224fc6a1-f98a-4a10-9603-91dacf9e54b8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "South Steyne Beach"
         },
         "type": "Feature"
@@ -3464,7 +3464,7 @@
           "id": "b9187edd-7914-4f35-8d1b-198afbacab59",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Surf Beach Kiama"
         },
         "type": "Feature"
@@ -3532,7 +3532,7 @@
           "id": "ad19c3a4-de25-422c-a124-cdf6587298c0",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Taylors Point Baths"
         },
         "type": "Feature"
