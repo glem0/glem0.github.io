@@ -46,6 +46,7 @@ window.GUE_GEO = {
 "cal gonone, nuoro, italy":[40.28209,9.63434],
 "cala gonone, italy":[40.28209,9.63434],
 "cala gonone, nuoro, italy":[40.28209,9.63434],
+"castelfranco veneto, italy":[45.66047,11.92932],
 "cdmx, distrito federal, mexico":[19.43263,-99.13318],
 "cebu, cebu, philippines":[10.29434,123.9021],
 "cebu, philippines":[10.47,123.83],

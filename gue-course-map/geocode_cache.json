@@ -2465,5 +2465,14 @@
   "matched_query": "quintana roo, mexico",
   "approx": true,
   "verified": true
+ },
+ "castelfranco veneto, italy": {
+  "lat": 45.6604722,
+  "lng": 11.9293206,
+  "display": "Castelfranco Veneto, Fonte, Treviso, Veneto, 31033, Italia",
+  "country": "it",
+  "matched_query": "castelfranco veneto, italy",
+  "approx": false,
+  "verified": true
  }
 }
