@@ -1,33 +1,6 @@
 {
- "updated": "2026-09-28T22:37:37Z",
+ "updated": "2026-09-29T21:31:16Z",
  "classes": [
-  {
-   "cid": "35482",
-   "course": "CCR Technical Diver 2",
-   "date": "September 29, 2026",
-   "iso": "2026-09-29",
-   "location": "Finale Ligure, Savona, Italy",
-   "instructor": "Graham Blackmore",
-   "instructor_id": "895"
-  },
-  {
-   "cid": "37469",
-   "course": "Doubles Primer",
-   "date": "September 29, 2026",
-   "iso": "2026-09-29",
-   "location": "Dahab , Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
-  },
-  {
-   "cid": "35908",
-   "course": "Doubles Primer",
-   "date": "September 29, 2026",
-   "iso": "2026-09-29",
-   "location": "LAPULAPU, Cebu, Philippines",
-   "instructor": "Lee Jong Moon",
-   "instructor_id": "20356"
-  },
   {
    "cid": "37252",
    "course": "GUE Performance Diver",
@@ -1019,6 +992,15 @@
    "instructor_id": "27088"
   },
   {
+   "cid": "37484",
+   "course": "Drysuit Primer",
+   "date": "October 17, 2026",
+   "iso": "2026-10-17",
+   "location": "Dahab , Janub Sina', Egypt",
+   "instructor": "Ahmed Hagi",
+   "instructor_id": "69051"
+  },
+  {
    "cid": "37344",
    "course": "GUE Performance Diver",
    "date": "October 17, 2026",
@@ -1154,6 +1136,15 @@
    "instructor_id": "69051"
   },
   {
+   "cid": "37474",
+   "course": "GUE Basic Fundamentals",
+   "date": "October 19, 2026",
+   "iso": "2026-10-19",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Laurent Dahan",
+   "instructor_id": "25023"
+  },
+  {
    "cid": "36900",
    "course": "GUE Performance Diver",
    "date": "October 19, 2026",
@@ -1161,6 +1152,15 @@
    "location": "Vinkeveen, Netherlands",
    "instructor": "Jp Bresser",
    "instructor_id": "2458"
+  },
+  {
+   "cid": "37473",
+   "course": "GUE Technical Fundamentals",
+   "date": "October 19, 2026",
+   "iso": "2026-10-19",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Laurent Dahan",
+   "instructor_id": "25023"
   },
   {
    "cid": "30756",
@@ -1379,6 +1379,15 @@
    "instructor_id": "1026"
   },
   {
+   "cid": "37475",
+   "course": "Cave Diver 1",
+   "date": "October 25, 2026",
+   "iso": "2026-10-25",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Laurent Dahan",
+   "instructor_id": "25023"
+  },
+  {
    "cid": "35217",
    "course": "Cave Diver 2",
    "date": "October 25, 2026",
@@ -1577,6 +1586,15 @@
    "instructor_id": "20059"
   },
   {
+   "cid": "37476",
+   "course": "Doubles Primer",
+   "date": "October 31, 2026",
+   "iso": "2026-10-31",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Laurent Dahan",
+   "instructor_id": "25023"
+  },
+  {
    "cid": "36650",
    "course": "GUE Performance Diver",
    "date": "October 31, 2026",
@@ -1748,6 +1766,15 @@
    "instructor_id": "67329"
   },
   {
+   "cid": "37477",
+   "course": "GUE Performance Diver",
+   "date": "November 2, 2026",
+   "iso": "2026-11-02",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Laurent Dahan",
+   "instructor_id": "25023"
+  },
+  {
    "cid": "37349",
    "course": "Navigation Primer",
    "date": "November 2, 2026",
@@ -1872,6 +1899,15 @@
    "location": "Leipzig, Sachsen, Germany",
    "instructor": "Kaddi Vogel",
    "instructor_id": "71865"
+  },
+  {
+   "cid": "37478",
+   "course": "GUE Basic Fundamentals",
+   "date": "November 5, 2026",
+   "iso": "2026-11-05",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Laurent Dahan",
+   "instructor_id": "25023"
   },
   {
    "cid": "37301",
@@ -3206,6 +3242,15 @@
    "instructor_id": "3674"
   },
   {
+   "cid": "37479",
+   "course": "Cave Diver 1",
+   "date": "December 17, 2026",
+   "iso": "2026-12-17",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Laurent Dahan",
+   "instructor_id": "25023"
+  },
+  {
    "cid": "25891",
    "course": "Cave Diver 1",
    "date": "December 17, 2026",
@@ -3420,6 +3465,33 @@
    "location": "Playa del Carmen, Quintana Roo, Mexico",
    "instructor": "Emőke Wagner",
    "instructor_id": "20747"
+  },
+  {
+   "cid": "37480",
+   "course": "DPV Diver 1",
+   "date": "December 28, 2026",
+   "iso": "2026-12-28",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Laurent Dahan",
+   "instructor_id": "25023"
+  },
+  {
+   "cid": "37481",
+   "course": "GUE Basic Fundamentals",
+   "date": "December 28, 2026",
+   "iso": "2026-12-28",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Laurent Dahan",
+   "instructor_id": "25023"
+  },
+  {
+   "cid": "37482",
+   "course": "GUE Technical Fundamentals",
+   "date": "December 28, 2026",
+   "iso": "2026-12-28",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Laurent Dahan",
+   "instructor_id": "25023"
   },
   {
    "cid": "36742",
@@ -3656,6 +3728,15 @@
    "instructor_id": "1411"
   },
   {
+   "cid": "37123",
+   "course": "Cave Diver 1",
+   "date": "January 10, 2027",
+   "iso": "2027-01-10",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "John Kendall",
+   "instructor_id": "1956"
+  },
+  {
    "cid": "37005",
    "course": "Cave Diver 2",
    "date": "January 10, 2027",
@@ -3663,15 +3744,6 @@
    "location": "Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Fred Devos",
    "instructor_id": "1026"
-  },
-  {
-   "cid": "37122",
-   "course": "CCR Fundamentals: Symbios",
-   "date": "January 11, 2027",
-   "iso": "2027-01-11",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "John Kendall",
-   "instructor_id": "1956"
   },
   {
    "cid": "36652",
@@ -3791,6 +3863,15 @@
    "instructor_id": "1411"
   },
   {
+   "cid": "37122",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "January 18, 2027",
+   "iso": "2027-01-18",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "John Kendall",
+   "instructor_id": "1956"
+  },
+  {
    "cid": "36604",
    "course": "Cave Diver 1",
    "date": "January 18, 2027",
@@ -3800,15 +3881,6 @@
    "instructor_id": "20747"
   },
   {
-   "cid": "37123",
-   "course": "Cave Diver 1",
-   "date": "January 18, 2027",
-   "iso": "2027-01-18",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "John Kendall",
-   "instructor_id": "1956"
-  },
-  {
    "cid": "35480",
    "course": "Cave Diver 1",
    "date": "January 18, 2027",
@@ -3816,15 +3888,6 @@
    "location": "Zero Gravity Dive centre, Puerto Aventuras, Mexico",
    "instructor": "Annika Persson",
    "instructor_id": "9662"
-  },
-  {
-   "cid": "37124",
-   "course": "Cave Diver 2",
-   "date": "January 18, 2027",
-   "iso": "2027-01-18",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "John Kendall",
-   "instructor_id": "1956"
   },
   {
    "cid": "37418",
@@ -3843,15 +3906,6 @@
    "location": "Dauin, Philippines",
    "instructor": "Per Normark",
    "instructor_id": "19962"
-  },
-  {
-   "cid": "37309",
-   "course": "GUE Technical Fundamentals",
-   "date": "January 18, 2027",
-   "iso": "2027-01-18",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "John Kendall",
-   "instructor_id": "1956"
   },
   {
    "cid": "35912",
@@ -4743,6 +4797,15 @@
    "location": "Pingtung, PingTung County, Taiwan",
    "instructor": "Liu Yen Chun",
    "instructor_id": "27215"
+  },
+  {
+   "cid": "37483",
+   "course": "GUE Performance Diver",
+   "date": "April 1, 2027",
+   "iso": "2027-04-01",
+   "location": "Schwetzingen , Baden-Württemberg, Germany",
+   "instructor": "Esther Trösch",
+   "instructor_id": "64918"
   },
   {
    "cid": "31726",
