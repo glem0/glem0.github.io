@@ -132,7 +132,7 @@
           "id": "e469a86a-1a9b-4e8a-a62d-1b90141b5bd5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Barrenjoey Beach"
         },
         "type": "Feature"
@@ -319,7 +319,7 @@
           "id": "8990825d-b48c-443f-9047-862a0b986621",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Boat Harbour"
         },
         "type": "Feature"
@@ -555,8 +555,8 @@
         },
         "properties": {
           "id": "6b3d7a0d-c0bd-4e51-81a3-1b247a99eb67",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Cabbage Tree Bay"
         },
@@ -572,8 +572,8 @@
         },
         "properties": {
           "id": "90992928-9137-4736-9a91-bcd5b9c8f53e",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Forecast not available",
           "siteName": "Cabbage Tree Bay Rockpool"
         },
@@ -606,8 +606,8 @@
         },
         "properties": {
           "id": "7de64da2-6534-4bd2-a01a-260b1d30e4b5",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Forecast not available",
           "siteName": "Canton Beach"
         },
@@ -982,7 +982,7 @@
           "id": "1cca5d42-6426-4ac9-afdf-8c0c1dfcd6dc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Copacabana Beach"
         },
         "type": "Feature"
@@ -1067,7 +1067,7 @@
           "id": "b26de7f7-65b8-4f72-b954-991ddbacb3e9",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Davidson Reserve"
         },
         "type": "Feature"
@@ -1575,8 +1575,8 @@
         },
         "properties": {
           "id": "bbd71df5-10ea-40d5-9f0f-8f16d1bbb397",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Forecast not available",
           "siteName": "Gwandalan"
         },
@@ -1847,8 +1847,8 @@
         },
         "properties": {
           "id": "68037838-94c8-47d7-8c24-646edd2c0c7e",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Forecast not available",
           "siteName": "Lake Munmorah Baths"
         },
@@ -2153,8 +2153,8 @@
         },
         "properties": {
           "id": "c8b52a7e-dcb4-4a57-8271-5f5438b507dd",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Forecast not available",
           "siteName": "Mannering Park Baths"
         },
@@ -3428,8 +3428,8 @@
         },
         "properties": {
           "id": "7cd805f7-677a-4bd8-a4ab-c8f7698de781",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Summerland Point Baths (Sandy Beach Reserve)"
         },
@@ -3515,7 +3515,7 @@
           "id": "ee44a257-5c65-4b12-b3de-403a60d951c3",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Tambourine Bay"
         },
         "type": "Feature"
@@ -3700,8 +3700,8 @@
         },
         "properties": {
           "id": "799a3d44-7fa3-4e89-bf3d-697714c64944",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Toowoon Bay"
         },
@@ -3770,7 +3770,7 @@
           "id": "613465c8-6d0b-46a4-a8cb-adcbc4c18982",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Umina Beach"
         },
         "type": "Feature"
@@ -4059,7 +4059,7 @@
           "id": "8309c06d-e9e7-4685-8afe-62d42b83a46f",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Woolwich Baths"
         },
         "type": "Feature"
