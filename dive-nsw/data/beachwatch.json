@@ -64,7 +64,7 @@
           "id": "0d6cacd4-5992-486a-b6a8-7d4c810f56bd",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Avoca Beach"
         },
         "type": "Feature"
@@ -1594,7 +1594,7 @@
           "id": "2f8fd16c-2631-4f56-ae9a-3ada9dbfa8fe",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Gymea Bay Baths"
         },
         "type": "Feature"
@@ -2767,7 +2767,7 @@
           "id": "a04458a2-3e39-4005-b4a9-f8822fb66781",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Pearl Beach"
         },
         "type": "Feature"
@@ -2971,7 +2971,7 @@
           "id": "93c7a40f-bf76-420d-9c53-2435adda70b9",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Rose Bay Beach"
         },
         "type": "Feature"
@@ -3190,8 +3190,8 @@
         },
         "properties": {
           "id": "d9267cc6-7983-47ce-a7ba-a9a1dd932ebb",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Shelly Beach (Sutherland)"
         },
@@ -3275,8 +3275,8 @@
         },
         "properties": {
           "id": "b0513e57-bc00-46c6-b560-20d9a2207c35",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "South Cronulla Beach"
         },
