@@ -2474,5 +2474,50 @@
   "matched_query": "castelfranco veneto, italy",
   "approx": false,
   "verified": true
+ },
+ "antwerpen, belgium": {
+  "lat": 51.2211097,
+  "lng": 4.3997081,
+  "display": "Antwerpen, Vlaanderen, België / Belgique / Belgien",
+  "country": "be",
+  "matched_query": "antwerpen, belgium",
+  "approx": false,
+  "verified": true
+ },
+ "elite divers international | playa del carmen , quintana roo, mexico": {
+  "lat": 19.6666671,
+  "lng": -88.5000001,
+  "display": "Quintana Roo, México",
+  "country": "mx",
+  "matched_query": "quintana roo, mexico",
+  "approx": true,
+  "verified": true
+ },
+ "manado, sulawesi utara, indonesia": {
+  "lat": 1.4900447,
+  "lng": 124.8407673,
+  "display": "Manado, Sulawesi Utara, Indonesia",
+  "country": "id",
+  "matched_query": "manado, sulawesi utara, indonesia",
+  "approx": false,
+  "verified": true
+ },
+ "tossa de mar, girona, spain": {
+  "lat": 41.7197773,
+  "lng": 2.9312155,
+  "display": "Tossa de Mar, la Selva, Girona, Catalunya, 17320, España",
+  "country": "es",
+  "matched_query": "tossa de mar, girona, spain",
+  "approx": false,
+  "verified": true
+ },
+ "zero gravity - puerto aventuras, quintana roo, mexico": {
+  "lat": 20.5052647,
+  "lng": -87.2303853,
+  "display": "Zero Gravity, Carretera Reforma Agraria - Puerto Juárez, Ciudad Aventuras, Playa del Carmen, Quintana Roo, 77734, México",
+  "country": "mx",
+  "matched_query": "zero gravity - puerto aventuras, quintana roo, mexico",
+  "approx": false,
+  "verified": true
  }
 }

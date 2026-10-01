@@ -1,87 +1,6 @@
 {
- "updated": "2026-09-29T21:31:16Z",
+ "updated": "2026-10-01T21:58:57Z",
  "classes": [
-  {
-   "cid": "37252",
-   "course": "GUE Performance Diver",
-   "date": "September 30, 2026",
-   "iso": "2026-09-30",
-   "location": "Zero Gravity Dive Center - Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Laurent Dahan",
-   "instructor_id": "25023"
-  },
-  {
-   "cid": "36960",
-   "course": "CCR Fundamentals: JJ-CCR",
-   "date": "October 1, 2026",
-   "iso": "2026-10-01",
-   "location": "Antalya/Kas, Turkey",
-   "instructor": "Derk Remmers",
-   "instructor_id": "2366"
-  },
-  {
-   "cid": "37355",
-   "course": "CCR Fundamentals: Symbios",
-   "date": "October 1, 2026",
-   "iso": "2026-10-01",
-   "location": "Cebu, Cebu, Philippines",
-   "instructor": "Andrew Couch",
-   "instructor_id": "22082"
-  },
-  {
-   "cid": "37470",
-   "course": "Doubles Primer",
-   "date": "October 1, 2026",
-   "iso": "2026-10-01",
-   "location": "Seattle, Washington, United States",
-   "instructor": "Kees Beemster Leverenz",
-   "instructor_id": "12172"
-  },
-  {
-   "cid": "35702",
-   "course": "GUE Basic Fundamentals",
-   "date": "October 1, 2026",
-   "iso": "2026-10-01",
-   "location": "Playa del Carmen, Quintana Roo, Mexico",
-   "instructor": "Emőke Wagner",
-   "instructor_id": "20747"
-  },
-  {
-   "cid": "37287",
-   "course": "GUE Performance Diver",
-   "date": "October 1, 2026",
-   "iso": "2026-10-01",
-   "location": "changshu, Jiangsu, China",
-   "instructor": "Feiming Cheng",
-   "instructor_id": "68591"
-  },
-  {
-   "cid": "37167",
-   "course": "GUE Technical Fundamentals",
-   "date": "October 1, 2026",
-   "iso": "2026-10-01",
-   "location": "Hilversum, Utrecht, Netherlands",
-   "instructor": "Sander Evering",
-   "instructor_id": "12706"
-  },
-  {
-   "cid": "35064",
-   "course": "ITC Recreational Diver 1",
-   "date": "October 1, 2026",
-   "iso": "2026-10-01",
-   "location": "High Springs, Florida,",
-   "instructor": "Gemma Thomas",
-   "instructor_id": "11724"
-  },
-  {
-   "cid": "37407",
-   "course": "Open Water Diver",
-   "date": "October 1, 2026",
-   "iso": "2026-10-01",
-   "location": "Dahab, Egypt",
-   "instructor": "Mahmoud Esmat",
-   "instructor_id": "65259"
-  },
   {
    "cid": "36804",
    "course": "CCR Fundamentals: Symbios",
@@ -164,6 +83,24 @@
    "instructor_id": "2021"
   },
   {
+   "cid": "37511",
+   "course": "GUE Technical Fundamentals",
+   "date": "October 2, 2026",
+   "iso": "2026-10-02",
+   "location": "Tossa de Mar, Girona, Spain",
+   "instructor": "Raul Alvarez Garcia",
+   "instructor_id": "20656"
+  },
+  {
+   "cid": "37512",
+   "course": "GUE Technical Fundamentals",
+   "date": "October 2, 2026",
+   "iso": "2026-10-02",
+   "location": "Tossa de Mar, Girona, Spain",
+   "instructor": "Raul Alvarez Garcia",
+   "instructor_id": "20656"
+  },
+  {
    "cid": "36983",
    "course": "Upgrade to GUE Basic Fundamentals",
    "date": "October 2, 2026",
@@ -171,15 +108,6 @@
    "location": "Kressbronn am Bodensee , Baden-Württemberg, Germany",
    "instructor": "Oliver Reimer",
    "instructor_id": "15479"
-  },
-  {
-   "cid": "36300",
-   "course": "GUE Basic Fundamentals",
-   "date": "October 3, 2026",
-   "iso": "2026-10-03",
-   "location": "Dahab , Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
   },
   {
    "cid": "37175",
@@ -281,13 +209,13 @@
    "instructor_id": "10673"
   },
   {
-   "cid": "37258",
-   "course": "Technical Diver 1",
+   "cid": "37486",
+   "course": "GUE Performance Diver",
    "date": "October 4, 2026",
    "iso": "2026-10-04",
-   "location": "LAPULAPU, Cebu, Philippines",
-   "instructor": "Lee Jong Moon",
-   "instructor_id": "20356"
+   "location": "Hangzhou, Zhejiang, China",
+   "instructor": "Jinhui Xiong",
+   "instructor_id": "72355"
   },
   {
    "cid": "35362",
@@ -335,6 +263,15 @@
    "instructor_id": "68425"
   },
   {
+   "cid": "36446",
+   "course": "GUE Basic Fundamentals",
+   "date": "October 5, 2026",
+   "iso": "2026-10-05",
+   "location": "Seattle, Washington, United States",
+   "instructor": "Kees Beemster Leverenz",
+   "instructor_id": "12172"
+  },
+  {
    "cid": "35739",
    "course": "GUE Performance Diver",
    "date": "October 5, 2026",
@@ -362,13 +299,13 @@
    "instructor_id": "27215"
   },
   {
-   "cid": "36446",
+   "cid": "37514",
    "course": "GUE Technical Fundamentals",
    "date": "October 5, 2026",
    "iso": "2026-10-05",
-   "location": "Seattle, Washington, United States",
-   "instructor": "Kees Beemster Leverenz",
-   "instructor_id": "12172"
+   "location": "Kralendijk, Bonaire",
+   "instructor": "Douwe Musch",
+   "instructor_id": "67329"
   },
   {
    "cid": "36232",
@@ -623,6 +560,15 @@
    "instructor_id": "69051"
   },
   {
+   "cid": "37508",
+   "course": "GUE Technical Fundamentals",
+   "date": "October 10, 2026",
+   "iso": "2026-10-10",
+   "location": "Zero Gravity - Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Laurent Dahan",
+   "instructor_id": "25023"
+  },
+  {
    "cid": "36528",
    "course": "Technical Diver 1",
    "date": "October 10, 2026",
@@ -675,15 +621,6 @@
    "location": "Guangzhou, Guangdong, China",
    "instructor": "Xuan Chen",
    "instructor_id": "20926"
-  },
-  {
-   "cid": "37387",
-   "course": "Gas Blender",
-   "date": "October 11, 2026",
-   "iso": "2026-10-11",
-   "location": "Zürich, Zürich, Switzerland",
-   "instructor": "Maximilian Fahr",
-   "instructor_id": "66486"
   },
   {
    "cid": "37019",
@@ -1055,6 +992,15 @@
    "instructor_id": "1444"
   },
   {
+   "cid": "37387",
+   "course": "Gas Blender",
+   "date": "October 18, 2026",
+   "iso": "2026-10-18",
+   "location": "Zürich, Zürich, Switzerland",
+   "instructor": "Maximilian Fahr",
+   "instructor_id": "66486"
+  },
+  {
    "cid": "37117",
    "course": "CCR Fundamentals: JJ-CCR",
    "date": "October 19, 2026",
@@ -1125,15 +1071,6 @@
    "location": "Playa del Carmen, Quintana Roo, Mexico",
    "instructor": "Emőke Wagner",
    "instructor_id": "20747"
-  },
-  {
-   "cid": "37074",
-   "course": "GUE Basic Fundamentals",
-   "date": "October 19, 2026",
-   "iso": "2026-10-19",
-   "location": "Dahab , Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
   },
   {
    "cid": "37474",
@@ -1262,15 +1199,6 @@
    "instructor_id": "27215"
   },
   {
-   "cid": "36875",
-   "course": "GUE Technical Fundamentals",
-   "date": "October 23, 2026",
-   "iso": "2026-10-23",
-   "location": "Tilburg, Noord-Brabant, Netherlands",
-   "instructor": "Rick Van Beerendonk",
-   "instructor_id": "21650"
-  },
-  {
    "cid": "36885",
    "course": "Upgrade to GUE Technical Fundamentals",
    "date": "October 23, 2026",
@@ -1395,6 +1323,15 @@
    "location": "High Springs, Florida, United States",
    "instructor": "Kirill A. Egorov",
    "instructor_id": "1411"
+  },
+  {
+   "cid": "37485",
+   "course": "Drysuit Primer",
+   "date": "October 25, 2026",
+   "iso": "2026-10-25",
+   "location": "Antwerpen, Belgium",
+   "instructor": "Rick Van Beerendonk",
+   "instructor_id": "21650"
   },
   {
    "cid": "37050",
@@ -1658,15 +1595,6 @@
    "instructor_id": "7698"
   },
   {
-   "cid": "32650",
-   "course": "CCR Fundamentals: JJ-CCR",
-   "date": "November 1, 2026",
-   "iso": "2026-11-01",
-   "location": "Krnica, Istria county, Croatia",
-   "instructor": "Derk Remmers",
-   "instructor_id": "2366"
-  },
-  {
    "cid": "36639",
    "course": "CCR Fundamentals: Symbios",
    "date": "November 1, 2026",
@@ -1701,15 +1629,6 @@
    "location": "High Springs, Florida, United States",
    "instructor": "Kirill A. Egorov",
    "instructor_id": "1411"
-  },
-  {
-   "cid": "37075",
-   "course": "GUE Basic Fundamentals",
-   "date": "November 1, 2026",
-   "iso": "2026-11-01",
-   "location": "Dahab , Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
   },
   {
    "cid": "36989",
@@ -1800,6 +1719,15 @@
    "location": "Cala Gonone, Nuoro, Italy",
    "instructor": "Zsolt Szilagyi",
    "instructor_id": "1444"
+  },
+  {
+   "cid": "37075",
+   "course": "GUE Basic Fundamentals",
+   "date": "November 3, 2026",
+   "iso": "2026-11-03",
+   "location": "Dahab , Janub Sina', Egypt",
+   "instructor": "Ahmed Hagi",
+   "instructor_id": "69051"
   },
   {
    "cid": "37158",
@@ -1982,15 +1910,6 @@
    "instructor_id": "7497"
   },
   {
-   "cid": "37085",
-   "course": "CCR Fundamentals: Symbios",
-   "date": "November 6, 2026",
-   "iso": "2026-11-06",
-   "location": "LAPULAPU, Cebu, Philippines",
-   "instructor": "Lee Jong Moon",
-   "instructor_id": "20356"
-  },
-  {
    "cid": "36820",
    "course": "DPV Diver 1",
    "date": "November 6, 2026",
@@ -2052,6 +1971,15 @@
    "location": "Siegburg, Germany",
    "instructor": "Benjamin Ott",
    "instructor_id": "11806"
+  },
+  {
+   "cid": "36875",
+   "course": "GUE Technical Fundamentals",
+   "date": "November 6, 2026",
+   "iso": "2026-11-06",
+   "location": "Tilburg, Noord-Brabant, Netherlands",
+   "instructor": "Rick Van Beerendonk",
+   "instructor_id": "21650"
   },
   {
    "cid": "37439",
@@ -2225,15 +2153,6 @@
    "instructor_id": "7698"
   },
   {
-   "cid": "37259",
-   "course": "CCR Fundamentals: JJ-CCR",
-   "date": "November 13, 2026",
-   "iso": "2026-11-13",
-   "location": "LAPULAPU, Cebu, Philippines",
-   "instructor": "Lee Jong Moon",
-   "instructor_id": "20356"
-  },
-  {
    "cid": "36948",
    "course": "CCR Fundamentals: Symbios",
    "date": "November 13, 2026",
@@ -2286,6 +2205,15 @@
    "location": "Sydney, New South Wales, Australia",
    "instructor": "Sebastien Landat",
    "instructor_id": "22757"
+  },
+  {
+   "cid": "37509",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "November 15, 2026",
+   "iso": "2026-11-15",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "John Kendall",
+   "instructor_id": "1956"
   },
   {
    "cid": "37039",
@@ -3161,15 +3089,6 @@
    "instructor_id": "1411"
   },
   {
-   "cid": "37088",
-   "course": "CCR Fundamentals: Symbios",
-   "date": "December 14, 2026",
-   "iso": "2026-12-14",
-   "location": "LAPULAPU, Cebu, Philippines",
-   "instructor": "Lee Jong Moon",
-   "instructor_id": "20356"
-  },
-  {
    "cid": "37457",
    "course": "Cave Diver 1",
    "date": "December 14, 2026",
@@ -3645,15 +3564,6 @@
    "location": "Tulamben, Bali, Indonesia",
    "instructor": "Coral Chua",
    "instructor_id": "75313"
-  },
-  {
-   "cid": "36486",
-   "course": "CCR Fundamentals: JJ-CCR",
-   "date": "January 7, 2027",
-   "iso": "2027-01-07",
-   "location": "LAPULAPU, Cebu, Philippines",
-   "instructor": "Lee Jong Moon",
-   "instructor_id": "20356"
   },
   {
    "cid": "35656",
@@ -4331,6 +4241,15 @@
    "instructor_id": "146"
   },
   {
+   "cid": "37490",
+   "course": "Cave Diver 1",
+   "date": "February 15, 2027",
+   "iso": "2027-02-15",
+   "location": "Zero Gravity - Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Laurent Dahan",
+   "instructor_id": "25023"
+  },
+  {
    "cid": "36609",
    "course": "Cave Diver 2",
    "date": "February 15, 2027",
@@ -4358,6 +4277,15 @@
    "instructor_id": "18431"
   },
   {
+   "cid": "37513",
+   "course": "GUE Performance Diver",
+   "date": "February 20, 2027",
+   "iso": "2027-02-20",
+   "location": "Dahab, Egypt",
+   "instructor": "Jennifer Thomson",
+   "instructor_id": "68474"
+  },
+  {
    "cid": "34686",
    "course": "Cave Diver 1",
    "date": "February 21, 2027",
@@ -4374,6 +4302,15 @@
    "location": "Wakatobi, Indonesia",
    "instructor": "Per Normark",
    "instructor_id": "19962"
+  },
+  {
+   "cid": "37491",
+   "course": "Cave Diver 1",
+   "date": "February 21, 2027",
+   "iso": "2027-02-21",
+   "location": "Zero Gravity - Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Laurent Dahan",
+   "instructor_id": "25023"
   },
   {
    "cid": "36907",
@@ -4466,6 +4403,15 @@
    "instructor_id": "10673"
   },
   {
+   "cid": "37495",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "February 24, 2027",
+   "iso": "2027-02-24",
+   "location": "Finale Ligure, Genova, Italy",
+   "instructor": "Derk Remmers",
+   "instructor_id": "2366"
+  },
+  {
    "cid": "36611",
    "course": "GUE Basic Fundamentals",
    "date": "February 25, 2027",
@@ -4491,6 +4437,15 @@
    "location": "Puerto Aventuras, Mexico",
    "instructor": "Jp Bresser",
    "instructor_id": "2458"
+  },
+  {
+   "cid": "37492",
+   "course": "Cave Diver 1",
+   "date": "March 1, 2027",
+   "iso": "2027-03-01",
+   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen , Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
   },
   {
    "cid": "37222",
@@ -4529,6 +4484,15 @@
    "instructor_id": "2458"
   },
   {
+   "cid": "37489",
+   "course": "Technical Diver 2",
+   "date": "March 1, 2027",
+   "iso": "2027-03-01",
+   "location": "Finale Ligure, Genova, Italy",
+   "instructor": "Derk Remmers",
+   "instructor_id": "2366"
+  },
+  {
    "cid": "19322",
    "course": "Cave Diver 1",
    "date": "March 3, 2027",
@@ -4563,6 +4527,15 @@
    "location": "Honolulu, Hawaii, United States",
    "instructor": "Stretch Aaron Altenhein",
    "instructor_id": "10004"
+  },
+  {
+   "cid": "37493",
+   "course": "Cave Diver 1",
+   "date": "March 8, 2027",
+   "iso": "2027-03-08",
+   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
   },
   {
    "cid": "37042",
@@ -4617,6 +4590,15 @@
    "location": "Playa Del Carmen, Quintana Roo, Mexico",
    "instructor": "Emőke Wagner",
    "instructor_id": "20747"
+  },
+  {
+   "cid": "37494",
+   "course": "Cave Diver 1",
+   "date": "March 15, 2027",
+   "iso": "2027-03-15",
+   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
   },
   {
    "cid": "37128",
@@ -4709,6 +4691,15 @@
    "instructor_id": "2458"
   },
   {
+   "cid": "37496",
+   "course": "Cave Diver 1",
+   "date": "March 22, 2027",
+   "iso": "2027-03-22",
+   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
+  },
+  {
    "cid": "37213",
    "course": "GUE Performance Diver",
    "date": "March 22, 2027",
@@ -4752,6 +4743,15 @@
    "location": "Vinkeveen, Netherlands",
    "instructor": "Jp Bresser",
    "instructor_id": "2458"
+  },
+  {
+   "cid": "37497",
+   "course": "Cave Diver 1",
+   "date": "March 29, 2027",
+   "iso": "2027-03-29",
+   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
   },
   {
    "cid": "37181",
@@ -4862,6 +4862,15 @@
    "instructor_id": "1591"
   },
   {
+   "cid": "37498",
+   "course": "Cave Diver 1",
+   "date": "April 5, 2027",
+   "iso": "2027-04-05",
+   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
+  },
+  {
    "cid": "36042",
    "course": "DPV Cave",
    "date": "April 5, 2027",
@@ -4905,6 +4914,15 @@
    "location": "Dormagen, Germany",
    "instructor": "Sebastian Von Koss",
    "instructor_id": "20802"
+  },
+  {
+   "cid": "37499",
+   "course": "Cave Diver 1",
+   "date": "April 12, 2027",
+   "iso": "2027-04-12",
+   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
   },
   {
    "cid": "37182",
@@ -5024,6 +5042,15 @@
    "instructor_id": "20747"
   },
   {
+   "cid": "37500",
+   "course": "Cave Diver 1",
+   "date": "April 19, 2027",
+   "iso": "2027-04-19",
+   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
+  },
+  {
    "cid": "36740",
    "course": "Cave Diver 2",
    "date": "April 19, 2027",
@@ -5114,6 +5141,15 @@
    "instructor_id": "64918"
   },
   {
+   "cid": "37501",
+   "course": "Cave Diver 1",
+   "date": "April 26, 2027",
+   "iso": "2027-04-26",
+   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
+  },
+  {
    "cid": "37199",
    "course": "GUE Performance Diver",
    "date": "May 1, 2027",
@@ -5157,6 +5193,15 @@
    "location": "Puerto Aventuras , Quintana Roo, Mexico",
    "instructor": "John Kendall",
    "instructor_id": "1956"
+  },
+  {
+   "cid": "37502",
+   "course": "Cave Diver 1",
+   "date": "May 3, 2027",
+   "iso": "2027-05-03",
+   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
   },
   {
    "cid": "37198",
@@ -5240,6 +5285,24 @@
    "instructor_id": "7698"
   },
   {
+   "cid": "37503",
+   "course": "Cave Diver 1",
+   "date": "May 10, 2027",
+   "iso": "2027-05-10",
+   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
+  },
+  {
+   "cid": "37488",
+   "course": "GUE Basic Fundamentals",
+   "date": "May 10, 2027",
+   "iso": "2027-05-10",
+   "location": "Manado, Sulawesi Utara, Indonesia",
+   "instructor": "Jimmy Choo",
+   "instructor_id": "15307"
+  },
+  {
    "cid": "37237",
    "course": "GUE Technical Fundamentals",
    "date": "May 10, 2027",
@@ -5256,6 +5319,15 @@
    "location": "Cala Gonone, Nuoro, Italy",
    "instructor": "Sven Nelles",
    "instructor_id": "7698"
+  },
+  {
+   "cid": "37504",
+   "course": "Cave Diver 1",
+   "date": "May 17, 2027",
+   "iso": "2027-05-17",
+   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
   },
   {
    "cid": "37200",
@@ -5310,6 +5382,15 @@
    "location": "Krnica, Croatia",
    "instructor": "Jp Bresser",
    "instructor_id": "2458"
+  },
+  {
+   "cid": "37505",
+   "course": "Cave Diver 1",
+   "date": "May 24, 2027",
+   "iso": "2027-05-24",
+   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
   },
   {
    "cid": "37201",
@@ -5411,6 +5492,15 @@
    "instructor_id": "2458"
   },
   {
+   "cid": "37506",
+   "course": "Cave Diver 1",
+   "date": "May 31, 2027",
+   "iso": "2027-05-31",
+   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
+  },
+  {
    "cid": "37377",
    "course": "GUE Performance Diver",
    "date": "May 31, 2027",
@@ -5490,6 +5580,15 @@
    "location": "Lysekil, Sweden",
    "instructor": "Per Normark",
    "instructor_id": "19962"
+  },
+  {
+   "cid": "37510",
+   "course": "GUE Basic Fundamentals",
+   "date": "June 8, 2027",
+   "iso": "2027-06-08",
+   "location": "Incheon / Yangyang , Korea (South)",
+   "instructor": "Kyungsoo Kim",
+   "instructor_id": "14654"
   },
   {
    "cid": "36825",
@@ -5589,6 +5688,24 @@
    "location": "Glavotok on Krk, Istria county, Croatia",
    "instructor": "Erik Wurz",
    "instructor_id": "25873"
+  },
+  {
+   "cid": "36852",
+   "course": "Navigation Primer",
+   "date": "July 8, 2027",
+   "iso": "2027-07-08",
+   "location": "Stromberg, Rheinland-Pfalz, Germany",
+   "instructor": "Sven Nelles",
+   "instructor_id": "7698"
+  },
+  {
+   "cid": "29480",
+   "course": "Deep Primer",
+   "date": "July 10, 2027",
+   "iso": "2027-07-10",
+   "location": "Stromberg, Rheinland-Pfalz , Germany",
+   "instructor": "Sven Nelles",
+   "instructor_id": "7698"
   },
   {
    "cid": "37138",
@@ -5850,6 +5967,15 @@
    "location": "Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "John Kendall",
    "instructor_id": "1956"
+  },
+  {
+   "cid": "32650",
+   "course": "CCR Fundamentals: JJ-CCR",
+   "date": "December 1, 2027",
+   "iso": "2027-12-01",
+   "location": "Krnica, Istria county, Croatia",
+   "instructor": "Derk Remmers",
+   "instructor_id": "2366"
   },
   {
    "cid": "37148",
