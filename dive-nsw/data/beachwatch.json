@@ -946,8 +946,8 @@
         },
         "properties": {
           "id": "ca53919d-8e26-40b0-b8cc-edf80ec303d9",
-          "latestResult": "Bad",
-          "latestResultRating": 1,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Coogee Beach"
         },
@@ -1645,7 +1645,7 @@
           "id": "4f626874-5276-48e7-8bd2-1d8976908cc5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Horderns Beach"
         },
         "type": "Feature"
@@ -2102,8 +2102,8 @@
         },
         "properties": {
           "id": "94c5d756-1093-48db-8dbc-70fbb523b16a",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Unlikely",
           "siteName": "Malabar Beach"
         },
@@ -2512,7 +2512,7 @@
           "id": "7f188718-1e97-404e-81cf-1bd72927015d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "North Curl Curl Beach"
         },
         "type": "Feature"
@@ -3326,8 +3326,8 @@
         },
         "properties": {
           "id": "6908705e-c176-4f65-bfd1-39b19ca1d340",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "South Maroubra Rockpool"
         },
