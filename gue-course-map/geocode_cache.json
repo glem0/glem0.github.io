@@ -2519,5 +2519,23 @@
   "matched_query": "zero gravity - puerto aventuras, quintana roo, mexico",
   "approx": false,
   "verified": true
+ },
+ "mooloolaba, queensland, australia": {
+  "lat": -26.6852565,
+  "lng": 153.1131849,
+  "display": "Mooloolaba, Sunshine Coast, Queensland, Australia",
+  "country": "au",
+  "matched_query": "mooloolaba, queensland, australia",
+  "approx": false,
+  "verified": true
+ },
+ "richmond hill, ontario, canada": {
+  "lat": 43.8801166,
+  "lng": -79.4392925,
+  "display": "Richmond Hill, York Region, Ontario, Canada",
+  "country": "ca",
+  "matched_query": "richmond hill, ontario, canada",
+  "approx": false,
+  "verified": true
  }
 }

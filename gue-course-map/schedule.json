@@ -1,60 +1,6 @@
 {
- "updated": "2026-10-02T21:25:59Z",
+ "updated": "2026-10-03T20:10:47Z",
  "classes": [
-  {
-   "cid": "37175",
-   "course": "GUE Basic Fundamentals",
-   "date": "October 3, 2026",
-   "iso": "2026-10-03",
-   "location": "Sydney, New South Wales, Australia",
-   "instructor": "Jingwei Sun",
-   "instructor_id": "70762"
-  },
-  {
-   "cid": "36798",
-   "course": "GUE Performance Diver",
-   "date": "October 3, 2026",
-   "iso": "2026-10-03",
-   "location": "Kralendijk, Bonaire",
-   "instructor": "Douwe Musch",
-   "instructor_id": "67329"
-  },
-  {
-   "cid": "36541",
-   "course": "GUE Performance Diver",
-   "date": "October 3, 2026",
-   "iso": "2026-10-03",
-   "location": "Siegburg , Nordrhein-Westfalen, Germany",
-   "instructor": "Esther Trösch",
-   "instructor_id": "64918"
-  },
-  {
-   "cid": "35867",
-   "course": "GUE Performance Diver",
-   "date": "October 3, 2026",
-   "iso": "2026-10-03",
-   "location": "Siegburg, Nordrhein-Westfalen, Germany",
-   "instructor": "Daniel Schulte",
-   "instructor_id": "6754"
-  },
-  {
-   "cid": "36184",
-   "course": "GUE Technical Fundamentals",
-   "date": "October 3, 2026",
-   "iso": "2026-10-03",
-   "location": "Montreal, Quebec, Canada",
-   "instructor": "Imad Farhat",
-   "instructor_id": "19268"
-  },
-  {
-   "cid": "36976",
-   "course": "Open Water Diver",
-   "date": "October 3, 2026",
-   "iso": "2026-10-03",
-   "location": "OSLO, Oslo, Norway",
-   "instructor": "Annika Persson",
-   "instructor_id": "9662"
-  },
   {
    "cid": "35188",
    "course": "Cave Diver 1",
@@ -99,6 +45,15 @@
    "location": "Hangzhou, Zhejiang, China",
    "instructor": "Jinhui Xiong",
    "instructor_id": "72355"
+  },
+  {
+   "cid": "37258",
+   "course": "Technical Diver 1",
+   "date": "October 4, 2026",
+   "iso": "2026-10-04",
+   "location": "LAPULAPU, Cebu, Philippines",
+   "instructor": "Lee Jong Moon",
+   "instructor_id": "20356"
   },
   {
    "cid": "35362",
@@ -380,15 +335,6 @@
    "instructor_id": "20747"
   },
   {
-   "cid": "35609",
-   "course": "GUE Performance Diver",
-   "date": "October 10, 2026",
-   "iso": "2026-10-10",
-   "location": "Schwetzingen, Baden-Württemberg, Germany",
-   "instructor": "Christof Müller-Schmahl",
-   "instructor_id": "65203"
-  },
-  {
    "cid": "37299",
    "course": "GUE Performance Diver",
    "date": "October 10, 2026",
@@ -414,15 +360,6 @@
    "location": "Castelfranco Veneto, Italy",
    "instructor": "Stefano Gualtieri",
    "instructor_id": "14487"
-  },
-  {
-   "cid": "37073",
-   "course": "GUE Technical Fundamentals",
-   "date": "October 10, 2026",
-   "iso": "2026-10-10",
-   "location": "Dahab, Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
   },
   {
    "cid": "37508",
@@ -459,6 +396,15 @@
    "location": "Zero Gravity Dive Center - Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Laurent Dahan",
    "instructor_id": "25023"
+  },
+  {
+   "cid": "37521",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "October 11, 2026",
+   "iso": "2026-10-11",
+   "location": "Victoria, British Columbia, Canada",
+   "instructor": "Jason Cook",
+   "instructor_id": "24473"
   },
   {
    "cid": "36098",
@@ -1136,6 +1082,15 @@
    "instructor_id": "71865"
   },
   {
+   "cid": "37523",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "October 24, 2026",
+   "iso": "2026-10-24",
+   "location": "Mooloolaba, Queensland, Australia",
+   "instructor": "Ryan Booker",
+   "instructor_id": "7785"
+  },
+  {
    "cid": "36638",
    "course": "CCR Fundamentals: Symbios",
    "date": "October 25, 2026",
@@ -1314,6 +1269,24 @@
    "location": "Tenerife, Spain",
    "instructor": "Ricardo Constantino",
    "instructor_id": "1591"
+  },
+  {
+   "cid": "37519",
+   "course": "Doubles Primer",
+   "date": "October 27, 2026",
+   "iso": "2026-10-27",
+   "location": "Richmond Hill, Ontario, Canada",
+   "instructor": "Heison Chak",
+   "instructor_id": "13808"
+  },
+  {
+   "cid": "37520",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "October 27, 2026",
+   "iso": "2026-10-27",
+   "location": "Richmond Hill, Ontario, Canada",
+   "instructor": "Heison Chak",
+   "instructor_id": "13808"
   },
   {
    "cid": "35736",
@@ -1775,6 +1748,15 @@
    "instructor_id": "7497"
   },
   {
+   "cid": "37085",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "November 6, 2026",
+   "iso": "2026-11-06",
+   "location": "LAPULAPU, Cebu, Philippines",
+   "instructor": "Lee Jong Moon",
+   "instructor_id": "20356"
+  },
+  {
    "cid": "36820",
    "course": "DPV Diver 1",
    "date": "November 6, 2026",
@@ -2016,6 +1998,15 @@
    "location": "Krnica, Istria county, Croatia",
    "instructor": "Sven Nelles",
    "instructor_id": "7698"
+  },
+  {
+   "cid": "37259",
+   "course": "CCR Fundamentals: JJ-CCR",
+   "date": "November 13, 2026",
+   "iso": "2026-11-13",
+   "location": "LAPULAPU, Cebu, Philippines",
+   "instructor": "Lee Jong Moon",
+   "instructor_id": "20356"
   },
   {
    "cid": "36948",
@@ -2954,6 +2945,15 @@
    "instructor_id": "1411"
   },
   {
+   "cid": "37088",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "December 14, 2026",
+   "iso": "2026-12-14",
+   "location": "LAPULAPU, Cebu, Philippines",
+   "instructor": "Lee Jong Moon",
+   "instructor_id": "20356"
+  },
+  {
    "cid": "37457",
    "course": "Cave Diver 1",
    "date": "December 14, 2026",
@@ -3098,6 +3098,15 @@
    "instructor_id": "68591"
   },
   {
+   "cid": "37522",
+   "course": "Drysuit Primer",
+   "date": "December 19, 2026",
+   "iso": "2026-12-19",
+   "location": "Victoria, British Columbia, Canada",
+   "instructor": "Jason Cook",
+   "instructor_id": "24473"
+  },
+  {
    "cid": "37080",
    "course": "GUE Basic Fundamentals",
    "date": "December 19, 2026",
@@ -3114,15 +3123,6 @@
    "location": "Offenburg, Germany",
    "instructor": "Christian Schweiger",
    "instructor_id": "68425"
-  },
-  {
-   "cid": "34528",
-   "course": "CCR Fundamentals: JJ-CCR",
-   "date": "December 20, 2026",
-   "iso": "2026-12-20",
-   "location": "Victoria or Vancouver, British Columbia, Canada",
-   "instructor": "Jason Cook",
-   "instructor_id": "24473"
   },
   {
    "cid": "37045",
@@ -3429,6 +3429,15 @@
    "location": "Tulamben, Bali, Indonesia",
    "instructor": "Coral Chua",
    "instructor_id": "75313"
+  },
+  {
+   "cid": "36486",
+   "course": "CCR Fundamentals: JJ-CCR",
+   "date": "January 7, 2027",
+   "iso": "2027-01-07",
+   "location": "LAPULAPU, Cebu, Philippines",
+   "instructor": "Lee Jong Moon",
+   "instructor_id": "20356"
   },
   {
    "cid": "35656",
@@ -3807,6 +3816,15 @@
    "location": "Dive4Life Siegburg, Germany",
    "instructor": "Kaddi Vogel",
    "instructor_id": "71865"
+  },
+  {
+   "cid": "37525",
+   "course": "GUE Technical Fundamentals",
+   "date": "January 28, 2027",
+   "iso": "2027-01-28",
+   "location": "Vobster, Somerset, United Kingdom",
+   "instructor": "Marcus Rose",
+   "instructor_id": "13875"
   },
   {
    "cid": "35914",
@@ -4995,6 +5013,15 @@
    "location": "Stromberg, Rheinland-Pfalz, Germany",
    "instructor": "Sven Nelles",
    "instructor_id": "7698"
+  },
+  {
+   "cid": "35609",
+   "course": "GUE Performance Diver",
+   "date": "April 24, 2027",
+   "iso": "2027-04-24",
+   "location": "Schwetzingen, Baden-Württemberg, Germany",
+   "instructor": "Christof Müller-Schmahl",
+   "instructor_id": "65203"
   },
   {
    "cid": "35172",
