@@ -1,68 +1,14 @@
 {
- "updated": "2026-10-03T20:10:47Z",
+ "updated": "2026-10-04T20:23:27Z",
  "classes": [
   {
-   "cid": "35188",
-   "course": "Cave Diver 1",
-   "date": "October 4, 2026",
-   "iso": "2026-10-04",
-   "location": "Cala Gonone, Italy",
-   "instructor": "Peter Gaertner",
-   "instructor_id": "1374"
-  },
-  {
-   "cid": "37302",
-   "course": "Doubles Primer",
-   "date": "October 4, 2026",
-   "iso": "2026-10-04",
-   "location": "Victoria, British Columbia, Canada",
-   "instructor": "Jason Cook",
-   "instructor_id": "24473"
-  },
-  {
-   "cid": "37288",
-   "course": "Doubles Primer",
-   "date": "October 4, 2026",
-   "iso": "2026-10-04",
-   "location": "changshu, Jiangsu, China",
-   "instructor": "Feiming Cheng",
-   "instructor_id": "68591"
-  },
-  {
-   "cid": "37243",
-   "course": "GUE Basic Fundamentals",
-   "date": "October 4, 2026",
-   "iso": "2026-10-04",
-   "location": "Hemmoor, Niedersachsen, Germany",
-   "instructor": "Henning May",
-   "instructor_id": "10673"
-  },
-  {
-   "cid": "37486",
-   "course": "GUE Performance Diver",
-   "date": "October 4, 2026",
-   "iso": "2026-10-04",
-   "location": "Hangzhou, Zhejiang, China",
-   "instructor": "Jinhui Xiong",
-   "instructor_id": "72355"
-  },
-  {
-   "cid": "37258",
-   "course": "Technical Diver 1",
-   "date": "October 4, 2026",
-   "iso": "2026-10-04",
-   "location": "LAPULAPU, Cebu, Philippines",
-   "instructor": "Lee Jong Moon",
-   "instructor_id": "20356"
-  },
-  {
-   "cid": "35362",
-   "course": "Technical Diver 3",
-   "date": "October 4, 2026",
-   "iso": "2026-10-04",
-   "location": "Finale ligure, Savona, Italy",
-   "instructor": "Graham Blackmore",
-   "instructor_id": "895"
+   "cid": "37529",
+   "course": "BLS-D & Oxygen First Aid Refresher",
+   "date": "October 5, 2026",
+   "iso": "2026-10-05",
+   "location": "Tvaerminne, Uusimaa, Finland",
+   "instructor": "Erik Wurz",
+   "instructor_id": "25873"
   },
   {
    "cid": "37450",
@@ -162,6 +108,15 @@
    "location": "Brockville, Ontario, Canada",
    "instructor": "Heison Chak",
    "instructor_id": "13808"
+  },
+  {
+   "cid": "37526",
+   "course": "Underwater Cave Survey",
+   "date": "October 5, 2026",
+   "iso": "2026-10-05",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Fred Devos",
+   "instructor_id": "1026"
   },
   {
    "cid": "37360",
@@ -1289,6 +1244,15 @@
    "instructor_id": "13808"
   },
   {
+   "cid": "37530",
+   "course": "CCR Fundamentals: JJ-CCR",
+   "date": "October 28, 2026",
+   "iso": "2026-10-28",
+   "location": "Anilao, Batangas, Philippines",
+   "instructor": "Miko Zulueta",
+   "instructor_id": "8228"
+  },
+  {
    "cid": "35736",
    "course": "GUE Basic Fundamentals",
    "date": "October 28, 2026",
@@ -1793,15 +1757,6 @@
    "instructor_id": "15307"
   },
   {
-   "cid": "36811",
-   "course": "GUE Performance Diver",
-   "date": "November 6, 2026",
-   "iso": "2026-11-06",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
-  },
-  {
    "cid": "34711",
    "course": "GUE Performance Diver",
    "date": "November 6, 2026",
@@ -1980,15 +1935,6 @@
    "location": "Pintung, PingTung County, Taiwan",
    "instructor": "Liu Yen Chun",
    "instructor_id": "27215"
-  },
-  {
-   "cid": "36812",
-   "course": "GUE Basic Fundamentals",
-   "date": "November 11, 2026",
-   "iso": "2026-11-11",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
   },
   {
    "cid": "37372",
@@ -2864,15 +2810,6 @@
    "instructor_id": "23052"
   },
   {
-   "cid": "36815",
-   "course": "GUE Performance Diver",
-   "date": "December 11, 2026",
-   "iso": "2026-12-11",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
-  },
-  {
    "cid": "37436",
    "course": "Rescue Primer",
    "date": "December 11, 2026",
@@ -3168,6 +3105,15 @@
    "location": "Singapore, Central Singapore, Singapore",
    "instructor": "Coral Chua",
    "instructor_id": "75313"
+  },
+  {
+   "cid": "37528",
+   "course": "Navigation Primer",
+   "date": "December 23, 2026",
+   "iso": "2026-12-23",
+   "location": "Singapore , Singapore",
+   "instructor": "Gemma Thomas",
+   "instructor_id": "11724"
   },
   {
    "cid": "37345",

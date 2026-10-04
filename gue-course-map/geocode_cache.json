@@ -2537,5 +2537,23 @@
   "matched_query": "richmond hill, ontario, canada",
   "approx": false,
   "verified": true
+ },
+ "singapore , singapore": {
+  "lat": 1.2899175,
+  "lng": 103.8519072,
+  "display": "Singapore",
+  "country": "sg",
+  "matched_query": "singapore , singapore",
+  "approx": false,
+  "verified": true
+ },
+ "tvaerminne, uusimaa, finland": {
+  "lat": 60.2246684,
+  "lng": 25.1272631,
+  "display": "Uusimaa, Manner-Suomi, Suomi / Finland",
+  "country": "fi",
+  "matched_query": "uusimaa, finland",
+  "approx": true,
+  "verified": true
  }
 }
