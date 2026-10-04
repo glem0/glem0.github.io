@@ -1,11 +1,12 @@
 {
 "format":2,
 "retailer":{"key":"scubadoctor","name":"The Scuba Doctor","homepage":"https://www.scubadoctor.com.au/diveshop/","platform":"zencart"},
-"status":"ok",
+"status":"stale",
 "fetchedAt":"2026-09-20T05:43:46.039Z",
 "durationMs":195493,
 "count":5013,
-"error":null,
+"error":"HTTP 403 for https://www.scubadoctor.com.au/diveshop/ajax_search.php: <!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-",
+"staleSince":"2026-09-20T05:43:46.039Z",
 "base":{"url":"https://www.scubadoctor.com.au/diveshop/index.php?main_page=product_info&products_id=","image":"https://www.scubadoctor.com.au/diveshop/images/"},
 "products":[
 {"id":"10007","title":"Sharkskin Chillproof Long Sleeve Front Zip Top - Womens - BL","brand":"Sharkskin","category":"Undergarments Wetsuits","price":235,"compareAtPrice":330,"url":"10007","image":"sharkskin/sharkskin-chillproof-womens-long-sleeve-zipped-top.jpg","variants":[{"title":"6","price":235,"compareAtPrice":330,"sku":"SSCPLSFZ-BK/BL-06-WOMENS"},{"title":"8","price":235,"compareAtPrice":330,"sku":"SSCPLSFZ-BK/BL-08-WOMENS"},{"title":"10","price":244,"compareAtPrice":330,"sku":"SSCPLSFZ-BK/BL-10-WOMENS"},{"title":"12","price":244,"compareAtPrice":330,"sku":"SSCPLSFZ-BK/BL-12-WOMENS"},{"title":"14","price":244,"compareAtPrice":330,"sku":"SSCPLSFZ-BK/BL-14-WOMENS"},{"title":"16","price":244,"compareAtPrice":330,"sku":"SSCPLSFZ-BK/BL-16-WOMENS"},{"title":"18","price":244,"compareAtPrice":330,"sku":"SSCPLSFZ-BK/BL-18-WOMENS"},{"title":"20","price":244,"compareAtPrice":330,"sku":"SSCPLSFZ-BK/BL-20-WOMENS"},{"title":"20","price":244,"compareAtPrice":330,"sku":"SSCPLSFZ-BK/BL-22-WOMENS"}],"tags":["Special Order","Pre-order"]},
