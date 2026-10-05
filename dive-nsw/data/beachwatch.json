@@ -761,7 +761,7 @@
           "id": "442ebbc9-d136-4279-b452-609dd1ad9e36",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Clifton Gardens"
         },
         "type": "Feature"
@@ -1101,7 +1101,7 @@
           "id": "ee7a6748-ddbf-4a09-aefb-f68216ea610b",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Dawn Fraser Pool"
         },
         "type": "Feature"
@@ -2631,7 +2631,7 @@
           "id": "3f60c91f-138b-4230-953f-b668e88a2635",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Northbridge Baths"
         },
         "type": "Feature"
@@ -2665,7 +2665,7 @@
           "id": "f4785861-61c1-4acb-b841-2609962ed0c7",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Oatley Bay Baths"
         },
         "type": "Feature"
@@ -3226,7 +3226,7 @@
           "id": "8754523f-35ea-473d-a656-5601d7c6d762",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Silver Beach"
         },
         "type": "Feature"
@@ -3549,7 +3549,7 @@
           "id": "c8fc3c50-4d0f-48c8-939a-ee100892dee8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Terrigal Beach"
         },
         "type": "Feature"
