@@ -82,6 +82,7 @@ window.GUE_GEO = {
 "foshang, guangdong, china":[34.45231,114.26577],
 "fuxian hu, yunnan, china":[24.49374,102.88723],
 "gangneung, korea (south)":[37.75253,128.87595],
+"gangneung-si, korea (south)":[37.75253,128.87595],
 "gdansk, poland":[54.4288,18.79833],
 "gdańsk, poland":[54.4288,18.79833],
 "glavotok on krk, istria county, croatia":[45.0903,14.43524],
