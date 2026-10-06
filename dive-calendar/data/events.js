@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-10-06T10:16:38+11:00",
+ "generated_at": "2026-10-07T08:47:07+11:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-10-01",
@@ -13,7 +13,7 @@ window.__DIVE_DATA__ =
    "short": "Abyss",
    "url": "https://www.abyss.com.au/sydney-dive-calendar",
    "status": "ok",
-   "event_count": 95
+   "event_count": 94
   },
   {
    "id": "frogdive",
@@ -29,7 +29,7 @@ window.__DIVE_DATA__ =
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 280
+   "event_count": 277
   },
   {
    "id": "divesydney",
@@ -37,7 +37,7 @@ window.__DIVE_DATA__ =
    "short": "DC Manly",
    "url": "https://divesydney.com.au/dive-calendar/",
    "status": "ok",
-   "event_count": 640
+   "event_count": 637
   },
   {
    "id": "prodive",
@@ -53,7 +53,7 @@ window.__DIVE_DATA__ =
    "short": "Charters",
    "url": "https://www.sydneydivecharters.com.au/bookings/",
    "status": "ok",
-   "event_count": 167
+   "event_count": 166
   }
  ],
  "events": [
@@ -103,47 +103,6 @@ window.__DIVE_DATA__ =
    "url": "https://frogdive.eventcalendarapp.com/u/18702/465762",
    "location": "Fairy Bower",
    "description": "Fairy Bower\nDive Level Green – beginner diver friendly\nAverage Depth 6m | Max...."
-  },
-  {
-   "id": "abyss-bd14a3581b8b",
-   "source": "abyss",
-   "title": "Trivia Night (sold out)",
-   "start": "2026-10-06T18:45+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/social-events",
-   "description": "Social Events · Trivia night at the The Prince Hotel (Kirrawee)"
-  },
-  {
-   "id": "divebondi-3e64c7f033f7",
-   "source": "divebondi",
-   "title": "Guided Shore Dive (sold out)",
-   "start": "2026-10-07T09:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-10-07&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divesydney-4ecf4010c310",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-10-07T09:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-10-07&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divebondi-0a371ed67756",
-   "source": "divebondi",
-   "title": "PADI Discover Scuba Diving Experience (sold out)",
-   "start": "2026-10-07T10:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433267&preferredDate=2026-10-07&preferredTime=10%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divesydney-2e3d7706a167",
-   "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
-   "start": "2026-10-07T14:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-10-07&preferredTime=2%3A00+PM&catalogId=494484"
   },
   {
    "id": "divecharters-fce9834a23e3",
@@ -196,9 +155,9 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-10-09&preferredTime=8%3A30+AM&catalogId=494484"
   },
   {
-   "id": "divebondi-2268158c6cf6",
+   "id": "divebondi-809f132f251a",
    "source": "divebondi",
-   "title": "Guided Shore Dive (sold out)",
+   "title": "Guided Shore Dive",
    "start": "2026-10-09T09:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-10-09&preferredTime=9%3A00+AM&catalogId=597076"
@@ -221,9 +180,9 @@ window.__DIVE_DATA__ =
    "description": "Guided Shore Dives · Oak Park at Cronulla big blue groper shore dive (10m)"
   },
   {
-   "id": "divesydney-3766b0078f08",
+   "id": "divesydney-1a266bf340f2",
    "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI (sold out)",
+   "title": "Discover Scuba Diving - PADI",
    "start": "2026-10-09T14:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-10-09&preferredTime=2%3A00+PM&catalogId=494484"
@@ -254,12 +213,12 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · Boat Dives · Whale Watch Platform: reef south of bay 18–25m"
   },
   {
-   "id": "divebondi-99d7ae9d5706",
+   "id": "divebondi-8b587bd6a572",
    "source": "divebondi",
-   "title": "PADI Advanced Open Water Course",
+   "title": "PADI Open Water Diver Course",
    "start": "2026-10-10T08:00+11:00",
    "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=422369&preferredDate=2026-10-10&preferredTime=8%3A00+AM&catalogId=597076"
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-10-10&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "divebondi-d74154ef1fee",
@@ -270,12 +229,12 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-10-10&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-8b587bd6a572",
+   "id": "divebondi-99d7ae9d5706",
    "source": "divebondi",
-   "title": "PADI Open Water Diver Course",
+   "title": "PADI Advanced Open Water Course",
    "start": "2026-10-10T08:00+11:00",
    "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-10-10&preferredTime=8%3A00+AM&catalogId=597076"
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=422369&preferredDate=2026-10-10&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "divesydney-ccc0e04dae43",
@@ -441,14 +400,6 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-10-11&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
-   "id": "divesydney-de14276447df",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-10-11T10:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-10-11&preferredTime=10%3A00+AM&catalogId=494484"
-  },
-  {
    "id": "divesydney-a48d003183ae",
    "source": "divesydney",
    "title": "Discover Scuba Diving - PADI",
@@ -515,20 +466,20 @@ window.__DIVE_DATA__ =
    "description": "Discover Manado - a vibrant seaside city framed by misty volcanoes and the\ncoral..."
   },
   {
-   "id": "divebondi-ceb650798b20",
-   "source": "divebondi",
-   "title": "PADI Open Water Diver Course",
-   "start": "2026-10-13T09:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-10-13&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-f63c3b3f7c43",
    "source": "divebondi",
    "title": "Guided Shore Dive (sold out)",
    "start": "2026-10-13T09:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-10-13&preferredTime=9%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-ceb650798b20",
+   "source": "divebondi",
+   "title": "PADI Open Water Diver Course",
+   "start": "2026-10-13T09:00+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-10-13&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
    "id": "divebondi-55089404948e",
@@ -690,20 +641,20 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-10-17&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-045943dd73f8",
-   "source": "divebondi",
-   "title": "PADI Rescue Diver Course",
-   "start": "2026-10-17T08:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=432551&preferredDate=2026-10-17&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-59874e6aa6b5",
    "source": "divebondi",
    "title": "Refresher Course",
    "start": "2026-10-17T08:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-10-17&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-045943dd73f8",
+   "source": "divebondi",
+   "title": "PADI Rescue Diver Course",
+   "start": "2026-10-17T08:00+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=432551&preferredDate=2026-10-17&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "divesydney-114582d27b71",
@@ -1088,12 +1039,12 @@ window.__DIVE_DATA__ =
    "description": "$120.00 · Tech Boat Dives · 2.5 kilometres off the Royal National Park at a maximum depth 45m"
   },
   {
-   "id": "divebondi-0037984eca44",
+   "id": "divebondi-4c820d411174",
    "source": "divebondi",
-   "title": "Guided Shore Dive",
+   "title": "PADI Open Water Diver Course",
    "start": "2026-10-24T08:00+11:00",
    "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-10-24&preferredTime=8%3A00+AM&catalogId=597076"
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-10-24&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "divebondi-96123a65fbff",
@@ -1104,12 +1055,12 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=422369&preferredDate=2026-10-24&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-4c820d411174",
+   "id": "divebondi-0037984eca44",
    "source": "divebondi",
-   "title": "PADI Open Water Diver Course",
+   "title": "Guided Shore Dive",
    "start": "2026-10-24T08:00+11:00",
    "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-10-24&preferredTime=8%3A00+AM&catalogId=597076"
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-10-24&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "divecharters-4379d030c7bb",
@@ -1226,20 +1177,20 @@ window.__DIVE_DATA__ =
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
-   "id": "divebondi-aadd5d401220",
-   "source": "divebondi",
-   "title": "Advanced Shore Dive",
-   "start": "2026-10-25T08:30+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=647260&preferredDate=2026-10-25&preferredTime=8%3A30+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-4df4098ed739",
    "source": "divebondi",
    "title": "Dive Against Debris",
    "start": "2026-10-25T08:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=437045&preferredDate=2026-10-25&preferredTime=8%3A30+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-aadd5d401220",
+   "source": "divebondi",
+   "title": "Advanced Shore Dive",
+   "start": "2026-10-25T08:30+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=647260&preferredDate=2026-10-25&preferredTime=8%3A30+AM&catalogId=597076"
   },
   {
    "id": "divesydney-05df45e2e5cc",
@@ -1333,17 +1284,17 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-10-26&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
-   "id": "divesydney-301fe04acd97",
+   "id": "divesydney-be9e82dbb375",
    "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
+   "title": "Discover Scuba Diving - PADI (sold out)",
    "start": "2026-10-26T14:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-10-26&preferredTime=2%3A00+PM&catalogId=494484"
   },
   {
-   "id": "divesydney-cf49505625ef",
+   "id": "divesydney-7870da56634f",
    "source": "divesydney",
-   "title": "Snorkel Safari",
+   "title": "Snorkel Safari (sold out)",
    "start": "2026-10-26T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-26&preferredTime=2%3A30+PM&catalogId=494484"
@@ -1555,14 +1506,6 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-10-31&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-e066162b2757",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-10-31T08:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-10-31&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divecharters-76d668aaa19e",
    "source": "divecharters",
    "title": "8am Saturday Double Boat Dive - Departing 0730 Little Manly / 0745 Boarding Rose Bay Public Wharf",
@@ -1661,15 +1604,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/boat-dives",
    "description": "$130.00 · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
-  },
-  {
-   "id": "divecharters-718e81746206",
-   "source": "divecharters",
-   "title": "8am Sunday Double Boat Dive - Departing 0730 Little Manly / 0745 Boarding Rose Bay Public Wharf",
-   "start": "2026-11-01T08:00+11:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-01#248@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "divebondi-f142f17f47be",
@@ -1987,9 +1921,9 @@ window.__DIVE_DATA__ =
    "description": "$120.00 · Tech Boat Dives · SS Tuggerah - 46m Tec Must be Tec certified, Sans Souci pick up"
   },
   {
-   "id": "divebondi-3fcaa07259fd",
+   "id": "divebondi-5d4fa7b55715",
    "source": "divebondi",
-   "title": "PADI Divemaster Course",
+   "title": "PADI Divemaster Course (sold out)",
    "start": "2026-11-07T07:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=434000&preferredDate=2026-11-07&preferredTime=7%3A30+AM&catalogId=597076"
@@ -3585,12 +3519,12 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-11-29&preferredTime=2%3A00+PM&catalogId=494484"
   },
   {
-   "id": "divesydney-87f5e30144a8",
+   "id": "divesydney-8c223c3feb7b",
    "source": "divesydney",
-   "title": "Snorkel Safari",
+   "title": "Snorkelling Introduction",
    "start": "2026-11-29T14:30+11:00",
    "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-29&preferredTime=2%3A30+PM&catalogId=494484"
+   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=471705&preferredDate=2026-11-29&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
    "id": "divecharters-360089f2167e",
