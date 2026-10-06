@@ -181,8 +181,8 @@
         },
         "properties": {
           "id": "6e9006c1-4bc7-4154-800a-a237388965ab",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Bayview Baths"
         },
@@ -404,7 +404,7 @@
           "id": "567a89c6-8c54-45a9-996f-ba57fae68ab5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Brighton Le Sands Baths"
         },
         "type": "Feature"
@@ -1543,7 +1543,7 @@
           "id": "d88adb6c-c5a2-4cee-b883-c749140ce033",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Gunnamatta Bay Baths"
         },
         "type": "Feature"
@@ -1764,7 +1764,7 @@
           "id": "b407a6b2-da5b-46e4-a86d-35b1935cc83d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Kyeemagh Baths"
         },
         "type": "Feature"
@@ -2104,7 +2104,7 @@
           "id": "94c5d756-1093-48db-8dbc-70fbb523b16a",
           "latestResult": "Poor",
           "latestResultRating": 2,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Malabar Beach"
         },
         "type": "Feature"
@@ -2510,8 +2510,8 @@
         },
         "properties": {
           "id": "7f188718-1e97-404e-81cf-1bd72927015d",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "North Curl Curl Beach"
         },
@@ -3479,8 +3479,8 @@
         },
         "properties": {
           "id": "e76d87f3-90d9-47aa-b71f-90cda6b6374b",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Unlikely",
           "siteName": "Swansea Heads Little Beach"
         },
@@ -3515,7 +3515,7 @@
           "id": "ee44a257-5c65-4b12-b3de-403a60d951c3",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Tambourine Bay"
         },
         "type": "Feature"
@@ -3770,7 +3770,7 @@
           "id": "613465c8-6d0b-46a4-a8cb-adcbc4c18982",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Umina Beach"
         },
         "type": "Feature"
@@ -3906,7 +3906,7 @@
           "id": "aaaefe71-5959-40e0-a3a0-a620e8bb49ce",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Watsons Bay"
         },
         "type": "Feature"
@@ -4059,7 +4059,7 @@
           "id": "8309c06d-e9e7-4685-8afe-62d42b83a46f",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Woolwich Baths"
         },
         "type": "Feature"
