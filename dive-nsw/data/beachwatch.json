@@ -64,7 +64,7 @@
           "id": "0d6cacd4-5992-486a-b6a8-7d4c810f56bd",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Avoca Beach"
         },
         "type": "Feature"
@@ -115,7 +115,7 @@
           "id": "c2d5eaf3-173d-4aa4-8fbc-7bfce5c637eb",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Bar Beach (Newcastle)"
         },
         "type": "Feature"
@@ -2223,7 +2223,7 @@
           "id": "8d14d393-3cf7-43bd-86d4-a03190b323d1",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Merewether Beach"
         },
         "type": "Feature"
