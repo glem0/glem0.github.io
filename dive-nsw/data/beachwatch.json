@@ -1543,7 +1543,7 @@
           "id": "d88adb6c-c5a2-4cee-b883-c749140ce033",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Gunnamatta Bay Baths"
         },
         "type": "Feature"
@@ -3190,8 +3190,8 @@
         },
         "properties": {
           "id": "d9267cc6-7983-47ce-a7ba-a9a1dd932ebb",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Shelly Beach (Sutherland)"
         },
@@ -3275,8 +3275,8 @@
         },
         "properties": {
           "id": "b0513e57-bc00-46c6-b560-20d9a2207c35",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "South Cronulla Beach"
         },
