@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-10-10T08:50:02+11:00",
+ "generated_at": "2026-10-11T07:38:41+11:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-10-01",
@@ -13,7 +13,7 @@ window.__DIVE_DATA__ =
    "short": "Abyss",
    "url": "https://www.abyss.com.au/sydney-dive-calendar",
    "status": "ok",
-   "event_count": 92
+   "event_count": 88
   },
   {
    "id": "frogdive",
@@ -29,7 +29,7 @@ window.__DIVE_DATA__ =
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 272
+   "event_count": 269
   },
   {
    "id": "divesydney",
@@ -37,7 +37,7 @@ window.__DIVE_DATA__ =
    "short": "DC Manly",
    "url": "https://divesydney.com.au/dive-calendar/",
    "status": "ok",
-   "event_count": 632
+   "event_count": 628
   },
   {
    "id": "prodive",
@@ -123,59 +123,6 @@ window.__DIVE_DATA__ =
    "description": "A$199.00"
   },
   {
-   "id": "abyss-be5d7f45b158",
-   "source": "abyss",
-   "title": "Whale Watching Platform Dive",
-   "start": "2026-10-10T08:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/boat-dives",
-   "description": "$130.00 · Boat Dives · Whale Watch Platform: reef south of bay 18–25m"
-  },
-  {
-   "id": "abyss-8fe1d9a86742",
-   "source": "abyss",
-   "title": "Freedive10 Oct /10-10-2026 (sold out)",
-   "start": "2026-10-10T09:00+11:00",
-   "all_day": false,
-   "end": "2026-10-11",
-   "url": "https://www.abyss.com.au/courses/padi-freediver-course",
-   "description": "$599.00 · PADI Freediver Course · Freediver Course"
-  },
-  {
-   "id": "abyss-1f6df78ac30a",
-   "source": "abyss",
-   "title": "Voodoo Dive",
-   "start": "2026-10-10T09:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
-   "description": "Guided Shore Dives · Voodoo lots of fish and unique rock formations, shore dive (18m)"
-  },
-  {
-   "id": "abyss-3b5748653016",
-   "source": "abyss",
-   "title": "Emergency First Response",
-   "start": "2026-10-10T10:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/emergency-first-response",
-   "description": "$175.00 · Emergency First Response Course · EFR-Primary Care (CPR) & Secondary Care AED"
-  },
-  {
-   "id": "divesydney-7be031c2c83e",
-   "source": "divesydney",
-   "title": "Snorkel Safari",
-   "start": "2026-10-10T14:30+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-10&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divebondi-1f85edcec731",
-   "source": "divebondi",
-   "title": "Guided Bushrangers Bay",
-   "start": "2026-10-11T06:30+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-10-11&preferredTime=6%3A30+AM&catalogId=597076"
-  },
-  {
    "id": "abyss-d70577becaa5",
    "source": "abyss",
    "title": "Peak Performance Buoyancy (sold out)",
@@ -205,22 +152,6 @@ window.__DIVE_DATA__ =
    "description": "Clifton Gardens\nDive Level Green – beginner diver friendly\nAverage Depth 8m ..."
   },
   {
-   "id": "divebondi-4fd0d30245d3",
-   "source": "divebondi",
-   "title": "Advanced Shore Dive (sold out)",
-   "start": "2026-10-11T08:30+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=647260&preferredDate=2026-10-11&preferredTime=8%3A30+AM&catalogId=597076"
-  },
-  {
-   "id": "divesydney-764259b8b978",
-   "source": "divesydney",
-   "title": "Scuba Refresher (sold out)",
-   "start": "2026-10-11T08:30+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-10-11&preferredTime=8%3A30+AM&catalogId=494484"
-  },
-  {
    "id": "abyss-8b8015df3ed9",
    "source": "abyss",
    "title": "Oak Park Dive",
@@ -228,30 +159,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/guided-shore-dives",
    "description": "Guided Shore Dives · Oak Park at Cronulla big blue groper shore dive (10m)"
-  },
-  {
-   "id": "divebondi-6f70e0ab2afc",
-   "source": "divebondi",
-   "title": "Guided Snorkel Tour (sold out)",
-   "start": "2026-10-11T09:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=439435&preferredDate=2026-10-11&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divesydney-d119c8ce4476",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive (sold out)",
-   "start": "2026-10-11T09:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-10-11&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-a48d003183ae",
-   "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
-   "start": "2026-10-11T14:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-10-11&preferredTime=2%3A00+PM&catalogId=494484"
   },
   {
    "id": "divesydney-6bff87ed358c",
@@ -467,9 +374,9 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-16&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
-   "id": "divebondi-a801a428c1f6",
+   "id": "divebondi-8455e15d7ef8",
    "source": "divebondi",
-   "title": "Guided Bushrangers Bay",
+   "title": "Guided Bushrangers Bay (sold out)",
    "start": "2026-10-17T06:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-10-17&preferredTime=6%3A30+AM&catalogId=597076"
@@ -2734,6 +2641,15 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-11-21&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
+   "id": "abyss-65bbcba0b72f",
+   "source": "abyss",
+   "title": "Enriched Air Diver",
+   "start": "2026-11-21T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
+   "description": "$345.00 · Enriched Air (Nitrox) Diver"
+  },
+  {
    "id": "abyss-b0deecf28f1d",
    "source": "abyss",
    "title": "AOW 21-11-2026",
@@ -2742,15 +2658,6 @@ window.__DIVE_DATA__ =
    "end": "2026-11-22",
    "url": "https://www.abyss.com.au/courses/padi-advanced-open-water-course",
    "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
-  },
-  {
-   "id": "abyss-65bbcba0b72f",
-   "source": "abyss",
-   "title": "Enriched Air Diver",
-   "start": "2026-11-21T08:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
-   "description": "$345.00 · Enriched Air (Nitrox) Diver"
   },
   {
    "id": "abyss-515e9d9d792a",
@@ -3210,16 +3117,6 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-11-28&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
-   "id": "abyss-cae35f3d16da",
-   "source": "abyss",
-   "title": "60497-1/28-11-2026",
-   "start": "2026-11-28T08:00+11:00",
-   "all_day": false,
-   "end": "2026-11-29",
-   "url": "https://www.abyss.com.au/courses/sidemount-diver",
-   "description": "$599.00 · Sidemount Diver Course · Learn streamlined sidemount setup for better balance and freedom."
-  },
-  {
    "id": "abyss-b9d967adbe6e",
    "source": "abyss",
    "title": "PADI Rescue Diver",
@@ -3228,6 +3125,16 @@ window.__DIVE_DATA__ =
    "end": "2026-11-29",
    "url": "https://www.abyss.com.au/courses/padi-rescue-diver-course",
    "description": "$599.00 · PADI Rescue Diver Course | Enhance Safety & Confidence in Diving · Rescue Diver"
+  },
+  {
+   "id": "abyss-cae35f3d16da",
+   "source": "abyss",
+   "title": "60497-1/28-11-2026",
+   "start": "2026-11-28T08:00+11:00",
+   "all_day": false,
+   "end": "2026-11-29",
+   "url": "https://www.abyss.com.au/courses/sidemount-diver",
+   "description": "$599.00 · Sidemount Diver Course · Learn streamlined sidemount setup for better balance and freedom."
   },
   {
    "id": "abyss-bbd05c50fbb2",
