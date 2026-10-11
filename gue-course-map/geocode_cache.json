@@ -2564,5 +2564,68 @@
   "matched_query": "gangneung-si, korea (south)",
   "approx": false,
   "verified": true
+ },
+ "alexandrovsk, permskaya, russia": {
+  "lat": 59.1593861,
+  "lng": 57.5861232,
+  "display": "Александровск, Александровский муниципальный округ, Пермский край, Приволжский федеральный округ, 618320, Россия",
+  "country": "ru",
+  "matched_query": "alexandrovsk, russia",
+  "approx": false,
+  "verified": true
+ },
+ "nanchang, jiangxi, china": {
+  "lat": 28.6472124,
+  "lng": 116.0348483,
+  "display": "南昌市, 江西省, 中国",
+  "country": "cn",
+  "matched_query": "nanchang, jiangxi, china",
+  "approx": false,
+  "verified": true
+ },
+ "phuket, phuket, thailand": {
+  "lat": 7.8847901,
+  "lng": 98.3891503,
+  "display": "เทศบาลนครภูเก็ต, อำเภอเมืองภูเก็ต, จังหวัดภูเก็ต, 83000, ประเทศไทย",
+  "country": "th",
+  "matched_query": "phuket, phuket, thailand",
+  "approx": false,
+  "verified": true
+ },
+ "san diego, california, united states": {
+  "lat": 32.7157062,
+  "lng": -117.1638284,
+  "display": "San Diego, San Diego County, California, United States",
+  "country": "us",
+  "matched_query": "san diego, california, united states",
+  "approx": false,
+  "verified": true
+ },
+ "singapore , central singapore, singapore": {
+  "lat": 1.2959845,
+  "lng": 103.7766186,
+  "display": "National University of Singapore, one-north, Queenstown, Central Region, Singapore",
+  "country": "sg",
+  "matched_query": "singapore , central singapore, singapore",
+  "approx": false,
+  "verified": true
+ },
+ "tilburg, noord-holland, netherlands": {
+  "lat": 51.5856185,
+  "lng": 5.0660616,
+  "display": "Tilburg, Noord-Brabant, Nederland",
+  "country": "nl",
+  "matched_query": "tilburg, noord-holland, netherlands",
+  "approx": false,
+  "verified": true
+ },
+ "zero gravity dive center - puerto aventuras , quintana roo, mexico": {
+  "lat": 19.6666671,
+  "lng": -88.5000001,
+  "display": "Quintana Roo, México",
+  "country": "mx",
+  "matched_query": "quintana roo, mexico",
+  "approx": true,
+  "verified": true
  }
 }
