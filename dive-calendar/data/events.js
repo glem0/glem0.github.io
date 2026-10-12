@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-10-12T08:03:40+11:00",
+ "generated_at": "2026-10-13T10:43:24+11:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-10-01",
@@ -21,7 +21,7 @@ window.__DIVE_DATA__ =
    "short": "Frog Dive",
    "url": "https://www.frogdive.com.au/pages/dive-calendar",
    "status": "ok",
-   "event_count": 7
+   "event_count": 18
   },
   {
    "id": "divebondi",
@@ -29,7 +29,7 @@ window.__DIVE_DATA__ =
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 270
+   "event_count": 266
   },
   {
    "id": "divesydney",
@@ -37,7 +37,7 @@ window.__DIVE_DATA__ =
    "short": "DC Manly",
    "url": "https://divesydney.com.au/dive-calendar/",
    "status": "ok",
-   "event_count": 623
+   "event_count": 622
   },
   {
    "id": "prodive",
@@ -134,22 +134,6 @@ window.__DIVE_DATA__ =
    "description": "Clifton Gardens\nDive Level Green – beginner diver friendly\nAverage Depth 8m ..."
   },
   {
-   "id": "divesydney-2e86718bb291",
-   "source": "divesydney",
-   "title": "Snorkel Safari",
-   "start": "2026-10-12T14:30+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-12&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divebondi-083257a7959e",
-   "source": "divebondi",
-   "title": "Guided Bushrangers Bay",
-   "start": "2026-10-13T06:30+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-10-13&preferredTime=6%3A30+AM&catalogId=597076"
-  },
-  {
    "id": "frogdive-bfaaf7fd01a8",
    "source": "frogdive",
    "title": "13th -24 October 2026 MANADO",
@@ -158,30 +142,6 @@ window.__DIVE_DATA__ =
    "end": "2026-10-24T07:30+11:00",
    "url": "https://frogdive.eventcalendarapp.com/manado-indonesia",
    "description": "Discover Manado - a vibrant seaside city framed by misty volcanoes and the\ncoral..."
-  },
-  {
-   "id": "divebondi-ceb650798b20",
-   "source": "divebondi",
-   "title": "PADI Open Water Diver Course",
-   "start": "2026-10-13T09:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-10-13&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-0b1c15f91920",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-10-13T09:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-10-13&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-d5a8060cabae",
-   "source": "divebondi",
-   "title": "PADI Discover Scuba Diving Experience (sold out)",
-   "start": "2026-10-13T10:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433267&preferredDate=2026-10-13&preferredTime=10%3A00+AM&catalogId=597076"
   },
   {
    "id": "divebondi-55089404948e",
@@ -1241,9 +1201,9 @@ window.__DIVE_DATA__ =
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
-   "id": "divesydney-7bf24dd1425d",
+   "id": "divesydney-cdb31b9b5fae",
    "source": "divesydney",
-   "title": "Scuba Refresher",
+   "title": "Scuba Refresher (sold out)",
    "start": "2026-10-31T08:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-10-31&preferredTime=8%3A30+AM&catalogId=494484"
@@ -1800,6 +1760,16 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-11-08&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
+   "id": "frogdive-35be7fce9f2e",
+   "source": "frogdive",
+   "title": "SHORE DIVE SHELLY BEACH",
+   "start": "2026-11-08T07:45+11:00",
+   "all_day": false,
+   "end": "2026-11-08T08:15+11:00",
+   "url": "https://frogdive.eventcalendarapp.com/u/18702/478043",
+   "description": "Shelly Beach - Manly\nDive Level Green – beginner diver friendly\nAverage Depth ..."
+  },
+  {
    "id": "abyss-0f338f1c8171",
    "source": "abyss",
    "title": "Weedy Seadragon Dive",
@@ -2049,9 +2019,9 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-12&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
-   "id": "abyss-374b8e49d742",
+   "id": "abyss-9d8c08661f45",
    "source": "abyss",
-   "title": "Vanuatu Long Weekend 12-11-2026",
+   "title": "Vanuatu Long Weekend 12-11-2026 (sold out)",
    "start": "2026-11-12T16:00+11:00",
    "all_day": false,
    "end": "2026-11-16",
@@ -2123,6 +2093,17 @@ window.__DIVE_DATA__ =
    "start": "2026-11-14T06:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-11-14&preferredTime=6%3A30+AM&catalogId=597076"
+  },
+  {
+   "id": "frogdive-46d324457b31",
+   "source": "frogdive",
+   "title": "SHORE DIVE FAIRY BOWER",
+   "start": "2026-11-14T07:45+11:00",
+   "all_day": false,
+   "end": "2026-11-14T08:15+11:00",
+   "url": "https://frogdive.eventcalendarapp.com/u/18702/478046",
+   "location": "Fairy Bower",
+   "description": "Fairy Bower\nDive Level Green – beginner diver friendly\nAverage Depth 6m | Max...."
   },
   {
    "id": "abyss-32bd75b6adb3",
@@ -2250,6 +2231,17 @@ window.__DIVE_DATA__ =
    "start": "2026-11-15T06:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-11-15&preferredTime=6%3A30+AM&catalogId=597076"
+  },
+  {
+   "id": "frogdive-622848d8ef8a",
+   "source": "frogdive",
+   "title": "SHORE DIVE CLIFTON GARDENS",
+   "start": "2026-11-15T07:45+11:00",
+   "all_day": false,
+   "end": "2026-11-15T08:15+11:00",
+   "url": "https://frogdive.eventcalendarapp.com/u/18702/478038",
+   "location": "Clifton Gardens",
+   "description": "Clifton Gardens\nDive Level Green – beginner diver friendly\nAverage Depth 8m ..."
   },
   {
    "id": "abyss-9908ec0c4968",
@@ -2435,9 +2427,9 @@ window.__DIVE_DATA__ =
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
-   "id": "divebondi-5e6ce6de108e",
+   "id": "divebondi-5f333b750412",
    "source": "divebondi",
-   "title": "PADI Instructor Development Course",
+   "title": "PADI Instructor Development Course (sold out)",
    "start": "2026-11-18T08:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=502316&preferredDate=2026-11-18&preferredTime=8%3A00+AM&catalogId=597076"
@@ -2728,6 +2720,17 @@ window.__DIVE_DATA__ =
    "start": "2026-11-22T06:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-11-22&preferredTime=6%3A30+AM&catalogId=597076"
+  },
+  {
+   "id": "frogdive-5c84cd89cc0b",
+   "source": "frogdive",
+   "title": "SHORE DIVE CLIFTON GARDENS",
+   "start": "2026-11-22T07:45+11:00",
+   "all_day": false,
+   "end": "2026-11-22T08:15+11:00",
+   "url": "https://frogdive.eventcalendarapp.com/u/18702/478040",
+   "location": "Clifton Gardens",
+   "description": "Clifton Gardens\nDive Level Green – beginner diver friendly\nAverage Depth 8m ..."
   },
   {
    "id": "abyss-d495b385af23",
@@ -3070,6 +3073,17 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-11-28&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
+   "id": "frogdive-01ed257851db",
+   "source": "frogdive",
+   "title": "SHORE DIVE FAIRY BOWER",
+   "start": "2026-11-28T07:45+11:00",
+   "all_day": false,
+   "end": "2026-11-28T08:15+11:00",
+   "url": "https://frogdive.eventcalendarapp.com/u/18702/478047",
+   "location": "Fairy Bower",
+   "description": "Fairy Bower\nDive Level Green – beginner diver friendly\nAverage Depth 6m | Max...."
+  },
+  {
    "id": "abyss-b9d967adbe6e",
    "source": "abyss",
    "title": "PADI Rescue Diver",
@@ -3273,9 +3287,9 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-11-29&preferredTime=2%3A00+PM&catalogId=494484"
   },
   {
-   "id": "divesydney-cbdb43b2cc4d",
+   "id": "divesydney-8c223c3feb7b",
    "source": "divesydney",
-   "title": "Snorkelling Introduction (sold out)",
+   "title": "Snorkelling Introduction",
    "start": "2026-11-29T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=471705&preferredDate=2026-11-29&preferredTime=2%3A30+PM&catalogId=494484"
@@ -3520,6 +3534,16 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-12-05&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
+   "id": "frogdive-4b4287c39aa0",
+   "source": "frogdive",
+   "title": "SHORE DIVE SHELLY BEACH",
+   "start": "2026-12-05T07:45+11:00",
+   "all_day": false,
+   "end": "2026-12-05T08:15+11:00",
+   "url": "https://frogdive.eventcalendarapp.com/u/18702/478044",
+   "description": "Shelly Beach - Manly\nDive Level Green – beginner diver friendly\nAverage Depth ..."
+  },
+  {
    "id": "abyss-f572fe9a7dde",
    "source": "abyss",
    "title": "Tec 40",
@@ -3630,6 +3654,17 @@ window.__DIVE_DATA__ =
    "start": "2026-12-06T06:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-12-06&preferredTime=6%3A30+AM&catalogId=597076"
+  },
+  {
+   "id": "frogdive-cbffdd06c4cf",
+   "source": "frogdive",
+   "title": "SHORE DIVE CLIFTON GARDENS",
+   "start": "2026-12-06T07:45+11:00",
+   "all_day": false,
+   "end": "2026-12-06T08:15+11:00",
+   "url": "https://frogdive.eventcalendarapp.com/u/18702/478041",
+   "location": "Clifton Gardens",
+   "description": "Clifton Gardens\nDive Level Green – beginner diver friendly\nAverage Depth 8m ..."
   },
   {
    "id": "divecharters-677407af8de7",
@@ -4070,6 +4105,17 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-12-13&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
+   "id": "frogdive-2e016346a1ae",
+   "source": "frogdive",
+   "title": "SHORE DIVE FAIRY BOWER",
+   "start": "2026-12-13T07:45+11:00",
+   "all_day": false,
+   "end": "2026-12-13T08:15+11:00",
+   "url": "https://frogdive.eventcalendarapp.com/u/18702/478048",
+   "location": "Fairy Bower",
+   "description": "Fairy Bower\nDive Level Green – beginner diver friendly\nAverage Depth 6m | Max...."
+  },
+  {
    "id": "divecharters-3bc81075f1a6",
    "source": "divecharters",
    "title": "8am Sunday Double Boat Dive - Departing 0730 Little Manly / 0745 Boarding Rose Bay Public Wharf",
@@ -4390,6 +4436,16 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-12-19&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
+   "id": "frogdive-e5c27a822113",
+   "source": "frogdive",
+   "title": "SHORE DIVE SHELLY BEACH",
+   "start": "2026-12-19T07:45+11:00",
+   "all_day": false,
+   "end": "2026-12-19T08:15+11:00",
+   "url": "https://frogdive.eventcalendarapp.com/u/18702/478045",
+   "description": "Shelly Beach - Manly\nDive Level Green – beginner diver friendly\nAverage Depth ..."
+  },
+  {
    "id": "divebondi-7149b1d10fcd",
    "source": "divebondi",
    "title": "Guided Shore Dive",
@@ -4469,6 +4525,17 @@ window.__DIVE_DATA__ =
    "start": "2026-12-20T06:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-12-20&preferredTime=6%3A30+AM&catalogId=597076"
+  },
+  {
+   "id": "frogdive-ae998c7c6b06",
+   "source": "frogdive",
+   "title": "SHORE DIVE CLIFTON GARDENS",
+   "start": "2026-12-20T07:45+11:00",
+   "all_day": false,
+   "end": "2026-12-20T08:15+11:00",
+   "url": "https://frogdive.eventcalendarapp.com/u/18702/478042",
+   "location": "Clifton Gardens",
+   "description": "Clifton Gardens\nDive Level Green – beginner diver friendly\nAverage Depth 8m ..."
   },
   {
    "id": "divebondi-b61fd44eccfb",
@@ -4982,6 +5049,17 @@ window.__DIVE_DATA__ =
    "start": "2026-12-29T06:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-12-29&preferredTime=6%3A30+AM&catalogId=597076"
+  },
+  {
+   "id": "frogdive-3952958f3222",
+   "source": "frogdive",
+   "title": "SHORE DIVE FAIRY BOWER",
+   "start": "2026-12-29T07:45+11:00",
+   "all_day": false,
+   "end": "2026-12-29T08:15+11:00",
+   "url": "https://frogdive.eventcalendarapp.com/u/18702/478049",
+   "location": "Fairy Bower",
+   "description": "Fairy Bower\nDive Level Green – beginner diver friendly\nAverage Depth 6m | Max...."
   },
   {
    "id": "divebondi-e181bbfc99da",
