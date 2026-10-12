@@ -2627,5 +2627,23 @@
   "matched_query": "quintana roo, mexico",
   "approx": true,
   "verified": true
+ },
+ "aurora, canada": {
+  "lat": 43.99973,
+  "lng": -79.467545,
+  "display": "Aurora, York Region, Ontario, Canada",
+  "country": "ca",
+  "matched_query": "aurora, canada",
+  "approx": false,
+  "verified": true
+ },
+ "ekeren and cerfontaine, hainaut, belgium": {
+  "lat": 50.36192,
+  "lng": 4.125217,
+  "display": "Hainaut, Wallonie, België / Belgique / Belgien",
+  "country": "be",
+  "matched_query": "hainaut, belgium",
+  "approx": true,
+  "verified": true
  }
 }
