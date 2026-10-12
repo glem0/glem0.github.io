@@ -96,8 +96,8 @@
         },
         "properties": {
           "id": "e6daf905-fb81-4aea-911d-fa3350abd298",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Balmoral Baths"
         },
@@ -181,8 +181,8 @@
         },
         "properties": {
           "id": "6e9006c1-4bc7-4154-800a-a237388965ab",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Bayview Baths"
         },
@@ -215,8 +215,8 @@
         },
         "properties": {
           "id": "0d0ff9bb-cd49-4557-8f1b-c818e43d20d7",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Bilarong Reserve"
         },
@@ -623,8 +623,8 @@
         },
         "properties": {
           "id": "3797a81b-936e-4e27-a813-e6c611ee2d99",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Possible",
           "siteName": "Carss Point Baths"
         },
@@ -912,8 +912,8 @@
         },
         "properties": {
           "id": "7d0a9388-37fc-45f4-8fb3-e60ae4d09b1d",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Unlikely",
           "siteName": "Congwong Bay"
         },
@@ -1133,8 +1133,8 @@
         },
         "properties": {
           "id": "5ed93442-6ffd-4445-bfb8-1a2d16992400",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Dolls Point Baths"
         },
@@ -1337,8 +1337,8 @@
         },
         "properties": {
           "id": "988c4cd3-eeff-4d2d-813c-2731490b0f01",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Possible",
           "siteName": "Foreshores Beach"
         },
@@ -1405,9 +1405,9 @@
         },
         "properties": {
           "id": "8bb75641-1783-43b9-861d-df7aa0594cd2",
-          "latestResult": "Good",
-          "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "latestResult": "Fair",
+          "latestResultRating": 3,
+          "pollutionForecast": "Possible",
           "siteName": "Frenchmans Bay"
         },
         "type": "Feature"
@@ -1592,8 +1592,8 @@
         },
         "properties": {
           "id": "2f8fd16c-2631-4f56-ae9a-3ada9dbfa8fe",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Possible",
           "siteName": "Gymea Bay Baths"
         },
@@ -1968,7 +1968,7 @@
           "id": "93ec689a-b568-4cef-8c51-1eaafbbb51a5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Long Reef Beach"
         },
         "type": "Feature"
@@ -2104,7 +2104,7 @@
           "id": "94c5d756-1093-48db-8dbc-70fbb523b16a",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Malabar Beach"
         },
         "type": "Feature"
@@ -2510,8 +2510,8 @@
         },
         "properties": {
           "id": "7f188718-1e97-404e-81cf-1bd72927015d",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "North Curl Curl Beach"
         },
@@ -2918,8 +2918,8 @@
         },
         "properties": {
           "id": "5f3a9a0e-ffdc-45e4-a776-983887af540d",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Ramsgate Baths"
         },
@@ -3173,8 +3173,8 @@
         },
         "properties": {
           "id": "995753ed-db2a-4cb8-9349-922cf3312766",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Shelly Beach (Manly)"
         },
@@ -3462,8 +3462,8 @@
         },
         "properties": {
           "id": "b9187edd-7914-4f35-8d1b-198afbacab59",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Surf Beach Kiama"
         },
@@ -4125,8 +4125,8 @@
         },
         "properties": {
           "id": "cdd2e0a4-a1a0-4cc7-b3e7-1d98f2c37f35",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Forecast not available",
           "siteName": "Yarramundi Reserve"
         },
