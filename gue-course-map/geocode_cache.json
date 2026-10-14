@@ -2645,5 +2645,23 @@
   "matched_query": "hainaut, belgium",
   "approx": true,
   "verified": true
+ },
+ "hengchung, pingtung county, taiwan": {
+  "lat": 22.6828017,
+  "lng": 120.487928,
+  "display": "屏東縣, 臺灣",
+  "country": "tw",
+  "matched_query": "pingtung county, taiwan",
+  "approx": true,
+  "verified": true
+ },
+ "xiaoliuqiu, pingtung county, taiwan": {
+  "lat": 22.338719,
+  "lng": 120.3712035,
+  "display": "琉球嶼, 大福村, 琉球鄉, 屏東縣, 929, 臺灣",
+  "country": "tw",
+  "matched_query": "xiaoliuqiu, pingtung county, taiwan",
+  "approx": false,
+  "verified": true
  }
 }
