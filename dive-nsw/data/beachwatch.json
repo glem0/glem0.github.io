@@ -200,7 +200,7 @@
           "id": "6d89378c-15b4-4f59-993b-8a4e89910e7d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Bellambi Beach"
         },
         "type": "Feature"
@@ -319,7 +319,7 @@
           "id": "8990825d-b48c-443f-9047-862a0b986621",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Boat Harbour"
         },
         "type": "Feature"
@@ -353,7 +353,7 @@
           "id": "405ce99c-7a0b-43f7-8d28-2ee0b65eebb5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Bondi Beach"
         },
         "type": "Feature"
@@ -421,7 +421,7 @@
           "id": "e34aa8b8-142f-438d-ab18-bedce361e324",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Bronte Beach"
         },
         "type": "Feature"
@@ -1016,7 +1016,7 @@
           "id": "59245001-2685-498f-b47c-d66437c282f4",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Corrimal Beach"
         },
         "type": "Feature"
@@ -1458,7 +1458,7 @@
           "id": "042af9fb-da1d-406a-a743-3da81da0a194",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Gordons Bay (East)"
         },
         "type": "Feature"
@@ -1713,7 +1713,7 @@
           "id": "aa2327bb-ce84-4eed-86f5-937eb5bddd33",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Jibbon Beach"
         },
         "type": "Feature"
@@ -1934,7 +1934,7 @@
           "id": "a4e51f37-7089-4f6d-b78a-85f9b84fea87",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Little Bay Beach"
         },
         "type": "Feature"
@@ -1985,7 +1985,7 @@
           "id": "1757939f-2645-4e10-9bb6-9047585096a0",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "MacMasters Beach"
         },
         "type": "Feature"
@@ -2104,7 +2104,7 @@
           "id": "94c5d756-1093-48db-8dbc-70fbb523b16a",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Malabar Beach"
         },
         "type": "Feature"
@@ -3498,7 +3498,7 @@
           "id": "d8174dde-e864-4a58-b997-e140bea7c5d6",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Tamarama Beach"
         },
         "type": "Feature"
