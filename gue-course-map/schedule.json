@@ -1,15 +1,6 @@
 {
- "updated": "2026-10-14T20:56:38Z",
+ "updated": "2026-10-15T20:30:38Z",
  "classes": [
-  {
-   "cid": "37613",
-   "course": "CCR Fundamentals: JJ-CCR",
-   "date": "October 15, 2026",
-   "iso": "2026-10-15",
-   "location": "Ognina, Siracusa, Italy",
-   "instructor": "Fabio Portella",
-   "instructor_id": "21572"
-  },
   {
    "cid": "37396",
    "course": "Drysuit Primer",
@@ -596,15 +587,6 @@
    "instructor_id": "21332"
   },
   {
-   "cid": "34526",
-   "course": "CCR Fundamentals: JJ-CCR",
-   "date": "October 26, 2026",
-   "iso": "2026-10-26",
-   "location": "Victoria or Vancouver, British Columbia, Canada",
-   "instructor": "Jason Cook",
-   "instructor_id": "24473"
-  },
-  {
    "cid": "37282",
    "course": "CCR Fundamentals: Symbios",
    "date": "October 26, 2026",
@@ -875,15 +857,6 @@
    "instructor_id": "23171"
   },
   {
-   "cid": "34491",
-   "course": "GUE Performance Diver",
-   "date": "October 31, 2026",
-   "iso": "2026-10-31",
-   "location": "Victoria, British Columbia, Canada",
-   "instructor": "Jason Cook",
-   "instructor_id": "24473"
-  },
-  {
    "cid": "37100",
    "course": "GUE Technical Fundamentals",
    "date": "October 31, 2026",
@@ -1125,15 +1098,6 @@
    "location": "Lysekil, Sweden",
    "instructor": "Per Normark",
    "instructor_id": "19962"
-  },
-  {
-   "cid": "34503",
-   "course": "GUE Technical Fundamentals",
-   "date": "November 4, 2026",
-   "iso": "2026-11-04",
-   "location": "Victoria or Vancouver, British Columbia, Canada",
-   "instructor": "Jason Cook",
-   "instructor_id": "24473"
   },
   {
    "cid": "37351",
@@ -3249,6 +3213,15 @@
    "location": "Cebu, Philippines",
    "instructor": "Gideon Liew",
    "instructor_id": "428"
+  },
+  {
+   "cid": "37622",
+   "course": "GUE Basic Fundamentals",
+   "date": "January 12, 2027",
+   "iso": "2027-01-12",
+   "location": "Playa Del Carmen, Quintana Roo, Mexico",
+   "instructor": "Emőke Wagner",
+   "instructor_id": "20747"
   },
   {
    "cid": "36228",
