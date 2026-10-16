@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-10-16T07:28:04+11:00",
+ "generated_at": "2026-10-17T07:02:14+11:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-10-01",
@@ -29,7 +29,7 @@ window.__DIVE_DATA__ =
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 264
+   "event_count": 260
   },
   {
    "id": "divesydney",
@@ -37,7 +37,7 @@ window.__DIVE_DATA__ =
    "short": "DC Manly",
    "url": "https://divesydney.com.au/dive-calendar/",
    "status": "ok",
-   "event_count": 616
+   "event_count": 611
   },
   {
    "id": "prodive",
@@ -162,31 +162,6 @@ window.__DIVE_DATA__ =
    "description": "A$199.00"
   },
   {
-   "id": "abyss-d93a0e3b066b",
-   "source": "abyss",
-   "title": "Martin Island Seal Dive",
-   "start": "2026-10-16T10:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/scuba-dive-with-seals",
-   "description": "$130.00 · Seal Diving · Playful fur seals swirl around you with possible whales and rays."
-  },
-  {
-   "id": "divesydney-ae5320cf22cd",
-   "source": "divesydney",
-   "title": "Snorkel Safari",
-   "start": "2026-10-16T14:30+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-16&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divebondi-8455e15d7ef8",
-   "source": "divebondi",
-   "title": "Guided Bushrangers Bay (sold out)",
-   "start": "2026-10-17T06:30+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-10-17&preferredTime=6%3A30+AM&catalogId=597076"
-  },
-  {
    "id": "frogdive-16b8500cf6db",
    "source": "frogdive",
    "title": "SHORE DIVE SHELLY BEACH",
@@ -205,46 +180,6 @@ window.__DIVE_DATA__ =
    "end": "2026-10-18",
    "url": "https://www.abyss.com.au/courses/padi-rescue-diver-course",
    "description": "$599.00 · PADI Rescue Diver Course | Enhance Safety & Confidence in Diving · Rescue Diver"
-  },
-  {
-   "id": "divebondi-82e40ef02c83",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-10-17T08:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-10-17&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-045943dd73f8",
-   "source": "divebondi",
-   "title": "PADI Rescue Diver Course",
-   "start": "2026-10-17T08:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=432551&preferredDate=2026-10-17&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-59874e6aa6b5",
-   "source": "divebondi",
-   "title": "Refresher Course",
-   "start": "2026-10-17T08:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-10-17&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divesydney-114582d27b71",
-   "source": "divesydney",
-   "title": "Photography Double Guided Shore Dive",
-   "start": "2026-10-17T08:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=674734&preferredDate=2026-10-17&preferredTime=8%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-7e118fa2bf61",
-   "source": "divesydney",
-   "title": "Scuba Refresher (sold out)",
-   "start": "2026-10-17T08:30+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-10-17&preferredTime=8%3A30+AM&catalogId=494484"
   },
   {
    "id": "abyss-c2415b6dd23d",
@@ -275,22 +210,6 @@ window.__DIVE_DATA__ =
    "description": "Guided Shore Dives · Leap to steps Drift for confident divers shore dive (18-22m)"
   },
   {
-   "id": "divesydney-6e49f25f79de",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-10-17T09:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-10-17&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divebondi-f767cc7edbca",
-   "source": "divebondi",
-   "title": "PADI Discover Scuba Diving Experience",
-   "start": "2026-10-17T10:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433267&preferredDate=2026-10-17&preferredTime=10%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "abyss-ec5485840d44",
    "source": "abyss",
    "title": "Martin Island Seal Dive",
@@ -298,14 +217,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/scuba-dive-with-seals",
    "description": "$130.00 · Seal Diving · Playful fur seals swirl around you with possible whales and rays."
-  },
-  {
-   "id": "divesydney-58d3ac123bd2",
-   "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
-   "start": "2026-10-17T14:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-10-17&preferredTime=2%3A00+PM&catalogId=494484"
   },
   {
    "id": "divesydney-5a7d7f162a29",
@@ -340,15 +251,6 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=434171&preferredDate=2026-10-18&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "abyss-84427aaf1765",
-   "source": "abyss",
-   "title": "Single Seal Dive (sold out)",
-   "start": "2026-10-18T09:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/single-seal-dive",
-   "description": "$99.00 · Single Seal Dive At Martin Island"
-  },
-  {
    "id": "abyss-0c7dc1aff629",
    "source": "abyss",
    "title": "Sutherland Point Dive",
@@ -356,6 +258,15 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/guided-shore-dives",
    "description": "Guided Shore Dives · Sutherland Point easy entry, weedy sea dragons shore dive (14m)"
+  },
+  {
+   "id": "abyss-75d573b7224c",
+   "source": "abyss",
+   "title": "Single Seal Dive",
+   "start": "2026-10-18T09:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/single-seal-dive",
+   "description": "$99.00 · Single Seal Dive At Martin Island"
   },
   {
    "id": "divesydney-f83fade99f06",
@@ -1210,6 +1121,14 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
   },
   {
+   "id": "divebondi-faba5737d644",
+   "source": "divebondi",
+   "title": "Advanced Shore Dive",
+   "start": "2026-11-01T08:00+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=647260&preferredDate=2026-11-01&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
    "id": "divebondi-f142f17f47be",
    "source": "divebondi",
    "title": "Guided Shore Dive",
@@ -1552,12 +1471,12 @@ window.__DIVE_DATA__ =
    "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
   },
   {
-   "id": "divebondi-0607b3bc1517",
+   "id": "divebondi-803c8cee40d8",
    "source": "divebondi",
-   "title": "PADI Open Water Diver Course (sold out)",
+   "title": "Guided Shore Dive",
    "start": "2026-11-07T08:00+11:00",
    "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-11-07&preferredTime=8%3A00+AM&catalogId=597076"
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-11-07&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "divebondi-a72b144c54f1",
@@ -1568,20 +1487,20 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=422369&preferredDate=2026-11-07&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-803c8cee40d8",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-11-07T08:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-11-07&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-f7fa7bc1198e",
    "source": "divebondi",
    "title": "GUE Technical Diver 1",
    "start": "2026-11-07T08:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=440413&preferredDate=2026-11-07&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-64709544886b",
+   "source": "divebondi",
+   "title": "PADI Open Water Diver Course",
+   "start": "2026-11-07T08:00+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-11-07&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "divecharters-0f14fd229c80",
@@ -1688,15 +1607,6 @@ window.__DIVE_DATA__ =
    "description": "Shelly Beach - Manly\nDive Level Green – beginner diver friendly\nAverage Depth ..."
   },
   {
-   "id": "abyss-912e429dbd2a",
-   "source": "abyss",
-   "title": "Magic Point Shark Dive",
-   "start": "2026-11-08T08:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/boat-dives",
-   "description": "$130.00 · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
-  },
-  {
    "id": "abyss-0f338f1c8171",
    "source": "abyss",
    "title": "Weedy Seadragon Dive",
@@ -1706,6 +1616,15 @@ window.__DIVE_DATA__ =
    "description": "$49.00 · Marine Marvels Dives · Weedy SeaDragon up close, guided by a marine biologist."
   },
   {
+   "id": "abyss-912e429dbd2a",
+   "source": "abyss",
+   "title": "Magic Point Shark Dive",
+   "start": "2026-11-08T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
+  },
+  {
    "id": "divecharters-18f07b2167fd",
    "source": "divecharters",
    "title": "8am Sunday Double Boat Dive - Departing 0730 Little Manly / 0745 Boarding Rose Bay Public Wharf",
@@ -1713,14 +1632,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-08#248@book@",
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
-  },
-  {
-   "id": "divebondi-945b9a57db5e",
-   "source": "divebondi",
-   "title": "Advanced Shore Dive",
-   "start": "2026-11-08T08:30+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=647260&preferredDate=2026-11-08&preferredTime=8%3A30+AM&catalogId=597076"
   },
   {
    "id": "divesydney-c03b87e1dfbe",
@@ -1795,6 +1706,14 @@ window.__DIVE_DATA__ =
    "start": "2026-11-09T09:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-11-09&preferredTime=9%3A00+AM&catalogId=494484"
+  },
+  {
+   "id": "divebondi-8dfa2cdbf104",
+   "source": "divebondi",
+   "title": "Guided Snorkel Tour (sold out)",
+   "start": "2026-11-09T09:30+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=439435&preferredDate=2026-11-09&preferredTime=9%3A30+AM&catalogId=597076"
   },
   {
    "id": "divesydney-c32302660cf4",
@@ -1873,20 +1792,20 @@ window.__DIVE_DATA__ =
    "description": "Shelly Beach - Manly\nNIGHT DIVE"
   },
   {
-   "id": "divebondi-d82eba396144",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-11-11T09:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-11-11&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-08838338dc58",
    "source": "divebondi",
    "title": "PADI Advanced Open Water Course",
    "start": "2026-11-11T09:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=422369&preferredDate=2026-11-11&preferredTime=9%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-d82eba396144",
+   "source": "divebondi",
+   "title": "Guided Shore Dive",
+   "start": "2026-11-11T09:00+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-11-11&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
    "id": "divebondi-2b281529f574",
@@ -2013,6 +1932,15 @@ window.__DIVE_DATA__ =
    "start": "2026-11-13T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-13&preferredTime=2%3A30+PM&catalogId=494484"
+  },
+  {
+   "id": "abyss-d6d1a41096cc",
+   "source": "abyss",
+   "title": "Freedive/Snorkel w/ sharks 14 Nov",
+   "start": "2026-11-14T06:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
+   "description": "$45.00 · Guided Shore Dives · Freedive or Snorkel at Shell Harbour with the sharks."
   },
   {
    "id": "divebondi-4bc72598d3c4",
@@ -2540,20 +2468,20 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · Boat Dives · Barrens Hut 30m Boat- MUST BE ADVANCED"
   },
   {
-   "id": "divebondi-17cc7a0b286a",
-   "source": "divebondi",
-   "title": "PADI Advanced Open Water Course",
-   "start": "2026-11-21T08:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=422369&preferredDate=2026-11-21&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-318d31ec4907",
    "source": "divebondi",
    "title": "PADI Open Water Diver Course",
    "start": "2026-11-21T08:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-11-21&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-17cc7a0b286a",
+   "source": "divebondi",
+   "title": "PADI Advanced Open Water Course",
+   "start": "2026-11-21T08:00+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=422369&preferredDate=2026-11-21&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "divebondi-39cd21e0b4c1",
