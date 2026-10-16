@@ -2663,5 +2663,50 @@
   "matched_query": "xiaoliuqiu, pingtung county, taiwan",
   "approx": false,
   "verified": true
+ },
+ "dive alaska, anchorage, alaska, united states": {
+  "lat": 61.2177968,
+  "lng": -149.8640447,
+  "display": "Van's Dive Bar, East 5th Avenue, Anchorage, Alaska, 88591, United States",
+  "country": "us",
+  "matched_query": "dive alaska, anchorage, alaska, united states",
+  "approx": false,
+  "verified": true
+ },
+ "malta o. dahab, malta": {
+  "lat": 35.9311442,
+  "lng": 14.3951627,
+  "display": "Malta",
+  "country": "mt",
+  "matched_query": "malta",
+  "approx": true,
+  "verified": true
+ },
+ "st. julians, saint julian's, malta": {
+  "lat": 35.9219905,
+  "lng": 14.4900837,
+  "display": "CFC St Julians ( Crispy Flavoured Chicken ), Triq San Ġorġ, San Ġiljan, Reġjun tal-Lvant, STJ 3257, Malta",
+  "country": "mt",
+  "matched_query": "st. julians, saint julian's, malta",
+  "approx": false,
+  "verified": true
+ },
+ "tønsberg, vestfold, norway": {
+  "lat": 59.3549795,
+  "lng": 10.2820491,
+  "display": "Tønsberg, Vestfold, Norge",
+  "country": "no",
+  "matched_query": "tønsberg, vestfold, norway",
+  "approx": false,
+  "verified": true
+ },
+ "北京, beijing, china": {
+  "lat": 39.9011168,
+  "lng": 116.4210134,
+  "display": "北京, 崇文门东大街, 东花市北里西区社区, 东花市街道, 首都功能核心区, 东城区, 北京市, 100010, 中国",
+  "country": "cn",
+  "matched_query": "北京, beijing, china",
+  "approx": false,
+  "verified": true
  }
 }

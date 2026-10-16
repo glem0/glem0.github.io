@@ -65,6 +65,7 @@ window.GUE_GEO = {
 "dauin, philippines":[9.18972,123.26577],
 "dea moines, washington, united states":[47.39883,-122.30991],
 "des moines, washington, united states":[47.39883,-122.30991],
+"dive alaska, anchorage, alaska, united states":[61.2178,-149.86404],
 "dive4life siegburg, germany":[50.8021,7.21931],
 "dormagen, germany":[51.09344,6.84162],
 "dubai, dubai, united arab emirates":[25.07428,55.18856],
@@ -161,6 +162,7 @@ window.GUE_GEO = {
 "mactan , cebu, philippines":[10.28828,123.9724],
 "mactan, cebu, philippines":[10.28828,123.9724],
 "malapascua, cebu, philippines":[11.33707,124.11583],
+"malta o. dahab, malta":[35.93114,14.39516],
 "manado, indonesia":[1.49004,124.84077],
 "manado, sulawesi utara, indonesia":[1.49004,124.84077],
 "marina di gioiosa ionica, italy":[38.30066,16.33036],
@@ -283,6 +285,7 @@ window.GUE_GEO = {
 "st julian's, malta":[35.91992,14.48771],
 "st. julian's, malta":[35.91992,14.48771],
 "st. julian, malta":[35.91992,14.48771],
+"st. julians, saint julian's, malta":[35.92199,14.49008],
 "st. prex, vaud, switzerland":[46.48091,6.4586],
 "steinkjer, nord-trondelag, norway":[64.05074,11.48191],
 "stromberg,":[49.9448,7.77636],
@@ -321,6 +324,7 @@ window.GUE_GEO = {
 "tulamben, bali, indonesia":[-8.29488,115.59419],
 "tulum, quintana roo, mexico":[20.42965,-87.65293],
 "tvaerminne, uusimaa, finland":[60.22467,25.12726],
+"tønsberg, vestfold, norway":[59.35498,10.28205],
 "victoria or vancouver, british columbia, canada":[55.00125,-125.00244],
 "victoria, british columbia, canada":[48.42832,-123.36495],
 "vinkeveen + enschede, netherlands":[52.21302,4.9043],
@@ -362,5 +366,6 @@ window.GUE_GEO = {
 "ålesund, more og romdal, norway":[62.48024,6.55507],
 "überlingen, baden-würtemberg, germany":[47.76645,9.16051],
 "ślesin / honoratka, poland":[52.32538,18.29281],
-"αthens, greece":[37.97556,23.73483]
+"αthens, greece":[37.97556,23.73483],
+"北京, beijing, china":[39.90112,116.42101]
 };
