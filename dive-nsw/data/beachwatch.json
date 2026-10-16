@@ -353,7 +353,7 @@
           "id": "405ce99c-7a0b-43f7-8d28-2ee0b65eebb5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Bondi Beach"
         },
         "type": "Feature"
@@ -623,8 +623,8 @@
         },
         "properties": {
           "id": "3797a81b-936e-4e27-a813-e6c611ee2d99",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Likely",
           "siteName": "Carss Point Baths"
         },
@@ -795,7 +795,7 @@
           "id": "06e4aa12-a704-440e-a31c-ce25fcd0057f",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Clovelly Beach"
         },
         "type": "Feature"
@@ -878,8 +878,8 @@
         },
         "properties": {
           "id": "91cb3b19-ad2c-42a3-9bb1-2e1323cd094b",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Colo River Park"
         },
@@ -912,8 +912,8 @@
         },
         "properties": {
           "id": "7d0a9388-37fc-45f4-8fb3-e60ae4d09b1d",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Possible",
           "siteName": "Congwong Bay"
         },
@@ -948,7 +948,7 @@
           "id": "ca53919d-8e26-40b0-b8cc-edf80ec303d9",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "Coogee Beach"
         },
         "type": "Feature"
@@ -1082,8 +1082,8 @@
         },
         "properties": {
           "id": "fe8a8d6a-88d2-4338-9c5d-47fd33c4081b",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Davistown Baths"
         },
@@ -1337,8 +1337,8 @@
         },
         "properties": {
           "id": "988c4cd3-eeff-4d2d-813c-2731490b0f01",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Likely",
           "siteName": "Foreshore Beach"
         },
@@ -1405,8 +1405,8 @@
         },
         "properties": {
           "id": "8bb75641-1783-43b9-861d-df7aa0594cd2",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Likely",
           "siteName": "Frenchmans Bay"
         },
@@ -1458,7 +1458,7 @@
           "id": "042af9fb-da1d-406a-a743-3da81da0a194",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Gordons Bay (East)"
         },
         "type": "Feature"
@@ -1592,8 +1592,8 @@
         },
         "properties": {
           "id": "2f8fd16c-2631-4f56-ae9a-3ada9dbfa8fe",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Likely",
           "siteName": "Gymea Bay Baths"
         },
@@ -1643,8 +1643,8 @@
         },
         "properties": {
           "id": "4f626874-5276-48e7-8bd2-1d8976908cc5",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Likely",
           "siteName": "Horderns Beach"
         },
@@ -1694,8 +1694,8 @@
         },
         "properties": {
           "id": "17c612fb-a4c3-4061-8482-77c278225037",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Likely",
           "siteName": "Jew Fish Bay Baths"
         },
@@ -1745,8 +1745,8 @@
         },
         "properties": {
           "id": "934e455d-0497-41f0-94f1-64bbf9884491",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Killcare Beach"
         },
@@ -2017,8 +2017,8 @@
         },
         "properties": {
           "id": "956318d4-ac03-4b62-83d9-75eb3315f7cb",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Macquarie Park - Windsor"
         },
@@ -2172,7 +2172,7 @@
           "id": "c2461939-5613-4c11-8ae0-7331133baf88",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Maroubra Beach"
         },
         "type": "Feature"
@@ -2359,7 +2359,7 @@
           "id": "18141cd1-d0ef-4858-b22a-3fcc5c84f604",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Murray Rose Pool"
         },
         "type": "Feature"
@@ -2631,7 +2631,7 @@
           "id": "3f60c91f-138b-4230-953f-b668e88a2635",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Likely",
           "siteName": "Northbridge Baths"
         },
         "type": "Feature"
@@ -2782,8 +2782,8 @@
         },
         "properties": {
           "id": "de685d55-5c08-40ac-a158-e0e329ed4417",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Forecast not available",
           "siteName": "Pearl Beach Rockpool"
         },
@@ -2918,8 +2918,8 @@
         },
         "properties": {
           "id": "5f3a9a0e-ffdc-45e4-a776-983887af540d",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Likely",
           "siteName": "Ramsgate Baths"
         },
@@ -4108,8 +4108,8 @@
         },
         "properties": {
           "id": "c7e2681c-94dd-465b-8c87-9c5a56809c8e",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Likely",
           "siteName": "Yarra Bay"
         },
