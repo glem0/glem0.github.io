@@ -132,7 +132,7 @@
           "id": "e469a86a-1a9b-4e8a-a62d-1b90141b5bd5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Barrenjoey Beach"
         },
         "type": "Feature"
@@ -319,7 +319,7 @@
           "id": "8990825d-b48c-443f-9047-862a0b986621",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Boat Harbour"
         },
         "type": "Feature"
@@ -421,7 +421,7 @@
           "id": "e34aa8b8-142f-438d-ab18-bedce361e324",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Bronte Beach"
         },
         "type": "Feature"
@@ -540,7 +540,7 @@
           "id": "aaaf12b3-c680-448d-ba07-27df0b2af9bb",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Cabarita Beach"
         },
         "type": "Feature"
@@ -625,7 +625,7 @@
           "id": "3797a81b-936e-4e27-a813-e6c611ee2d99",
           "latestResult": "Bad",
           "latestResultRating": 1,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Carss Point Baths"
         },
         "type": "Feature"
@@ -727,7 +727,7 @@
           "id": "1d216f60-ed90-4896-8ade-e3eed705dc9a",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Chiswick Baths"
         },
         "type": "Feature"
@@ -897,7 +897,7 @@
           "id": "e5e6bafe-894c-4111-9173-2bd369adf0b8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Como Baths"
         },
         "type": "Feature"
@@ -982,7 +982,7 @@
           "id": "1cca5d42-6426-4ac9-afdf-8c0c1dfcd6dc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Unlikely",
           "siteName": "Copacabana Beach"
         },
         "type": "Feature"
@@ -1067,7 +1067,7 @@
           "id": "b26de7f7-65b8-4f72-b954-991ddbacb3e9",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Davidson Reserve"
         },
         "type": "Feature"
@@ -1135,7 +1135,7 @@
           "id": "5ed93442-6ffd-4445-bfb8-1a2d16992400",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Dolls Point Baths"
         },
         "type": "Feature"
@@ -1407,7 +1407,7 @@
           "id": "8bb75641-1783-43b9-861d-df7aa0594cd2",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Frenchmans Bay"
         },
         "type": "Feature"
@@ -1543,7 +1543,7 @@
           "id": "d88adb6c-c5a2-4cee-b883-c749140ce033",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Gunnamatta Bay Baths"
         },
         "type": "Feature"
@@ -1696,7 +1696,7 @@
           "id": "17c612fb-a4c3-4061-8482-77c278225037",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Jew Fish Bay Baths"
         },
         "type": "Feature"
@@ -1934,7 +1934,7 @@
           "id": "a4e51f37-7089-4f6d-b78a-85f9b84fea87",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Little Bay Beach"
         },
         "type": "Feature"
@@ -2359,7 +2359,7 @@
           "id": "18141cd1-d0ef-4858-b22a-3fcc5c84f604",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Murray Rose Pool"
         },
         "type": "Feature"
@@ -2512,7 +2512,7 @@
           "id": "7f188718-1e97-404e-81cf-1bd72927015d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "North Curl Curl Beach"
         },
         "type": "Feature"
@@ -2682,7 +2682,7 @@
           "id": "0fd921b9-1d2a-4a90-b722-72ce0426d3a5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Ocean Beach"
         },
         "type": "Feature"
@@ -2767,7 +2767,7 @@
           "id": "a04458a2-3e39-4005-b4a9-f8822fb66781",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Pearl Beach"
         },
         "type": "Feature"
@@ -2920,7 +2920,7 @@
           "id": "5f3a9a0e-ffdc-45e4-a776-983887af540d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Ramsgate Baths"
         },
         "type": "Feature"
@@ -3498,7 +3498,7 @@
           "id": "d8174dde-e864-4a58-b997-e140bea7c5d6",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Tamarama Beach"
         },
         "type": "Feature"
@@ -3770,7 +3770,7 @@
           "id": "613465c8-6d0b-46a4-a8cb-adcbc4c18982",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Umina Beach"
         },
         "type": "Feature"
