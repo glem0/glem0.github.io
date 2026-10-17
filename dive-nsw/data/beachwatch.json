@@ -64,7 +64,7 @@
           "id": "0d6cacd4-5992-486a-b6a8-7d4c810f56bd",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Avoca Beach"
         },
         "type": "Feature"
@@ -421,7 +421,7 @@
           "id": "e34aa8b8-142f-438d-ab18-bedce361e324",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Bronte Beach"
         },
         "type": "Feature"
@@ -1356,7 +1356,7 @@
           "id": "6b98f579-4248-4df3-8a2c-c84a66d5812e",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Forrester's Beach"
         },
         "type": "Feature"
@@ -2512,7 +2512,7 @@
           "id": "7f188718-1e97-404e-81cf-1bd72927015d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "North Curl Curl Beach"
         },
         "type": "Feature"
@@ -2631,7 +2631,7 @@
           "id": "3f60c91f-138b-4230-953f-b668e88a2635",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Northbridge Baths"
         },
         "type": "Feature"
@@ -3498,7 +3498,7 @@
           "id": "d8174dde-e864-4a58-b997-e140bea7c5d6",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Tamarama Beach"
         },
         "type": "Feature"
