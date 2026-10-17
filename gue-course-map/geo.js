@@ -47,6 +47,7 @@ window.GUE_GEO = {
 "cajarc, france":[44.4864,1.84212],
 "cajarc, lot, france":[44.4864,1.84212],
 "cal gonone, nuoro, italy":[40.28209,9.63434],
+"cala gonone , nuoro, italy":[40.28209,9.63434],
 "cala gonone, italy":[40.28209,9.63434],
 "cala gonone, nuoro, italy":[40.28209,9.63434],
 "castelfranco veneto, italy":[45.66047,11.92932],

@@ -2708,5 +2708,12 @@
   "matched_query": "北京, beijing, china",
   "approx": false,
   "verified": true
+ },
+ "cala gonone , nuoro, italy": {
+  "lat": 40.2820879,
+  "lng": 9.6343396,
+  "display": "Cala Gonone, Durgali/Dorgali, Nuoro, Sardigna/Sardegna, 08022, Italia",
+  "matched_query": "Cala Gonone, Nuoro, Italy",
+  "alias_of": "cal gonone, nuoro, italy"
  }
 }
