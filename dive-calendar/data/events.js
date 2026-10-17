@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-10-17T07:02:14+11:00",
+ "generated_at": "2026-10-18T06:32:29+11:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-10-01",
@@ -13,7 +13,7 @@ window.__DIVE_DATA__ =
    "short": "Abyss",
    "url": "https://www.abyss.com.au/sydney-dive-calendar",
    "status": "ok",
-   "event_count": 90
+   "event_count": 86
   },
   {
    "id": "frogdive",
@@ -29,7 +29,7 @@ window.__DIVE_DATA__ =
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 260
+   "event_count": 257
   },
   {
    "id": "divesydney",
@@ -37,7 +37,7 @@ window.__DIVE_DATA__ =
    "short": "DC Manly",
    "url": "https://divesydney.com.au/dive-calendar/",
    "status": "ok",
-   "event_count": 611
+   "event_count": 609
   },
   {
    "id": "prodive",
@@ -172,83 +172,13 @@ window.__DIVE_DATA__ =
    "description": "Shelly Beach - Manly\nNIGHT DIVE"
   },
   {
-   "id": "abyss-68def03928e8",
+   "id": "abyss-84427aaf1765",
    "source": "abyss",
-   "title": "RESC 17-10-2026",
-   "start": "2026-10-17T08:00+11:00",
+   "title": "Single Seal Dive (sold out)",
+   "start": "2026-10-18T09:00+11:00",
    "all_day": false,
-   "end": "2026-10-18",
-   "url": "https://www.abyss.com.au/courses/padi-rescue-diver-course",
-   "description": "$599.00 · PADI Rescue Diver Course | Enhance Safety & Confidence in Diving · Rescue Diver"
-  },
-  {
-   "id": "abyss-c2415b6dd23d",
-   "source": "abyss",
-   "title": "Freediving 17-10-26/17-10-2026 (sold out)",
-   "start": "2026-10-17T09:00+11:00",
-   "all_day": false,
-   "end": "2026-10-18",
-   "url": "https://www.abyss.com.au/courses/padi-freediver-course",
-   "description": "$599.00 · PADI Freediver Course · Freediver Course"
-  },
-  {
-   "id": "abyss-3ad631390606",
-   "source": "abyss",
-   "title": "PADI Refresher Course (sold out)",
-   "start": "2026-10-17T09:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/reactivate-your-diving",
-   "description": "$199.00 · PADI REFRESHER COURSE SYDNEY · Refresher Course (PADI Reactivate)"
-  },
-  {
-   "id": "abyss-f8fb764eb505",
-   "source": "abyss",
-   "title": "Leap to Steps Dive",
-   "start": "2026-10-17T09:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
-   "description": "Guided Shore Dives · Leap to steps Drift for confident divers shore dive (18-22m)"
-  },
-  {
-   "id": "abyss-ec5485840d44",
-   "source": "abyss",
-   "title": "Martin Island Seal Dive",
-   "start": "2026-10-17T11:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/scuba-dive-with-seals",
-   "description": "$130.00 · Seal Diving · Playful fur seals swirl around you with possible whales and rays."
-  },
-  {
-   "id": "divesydney-5a7d7f162a29",
-   "source": "divesydney",
-   "title": "Snorkel Safari",
-   "start": "2026-10-17T14:30+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-17&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divebondi-d50583d73c03",
-   "source": "divebondi",
-   "title": "Guided Bushrangers Bay",
-   "start": "2026-10-18T06:30+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-10-18&preferredTime=6%3A30+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-48370575aa04",
-   "source": "divebondi",
-   "title": "Double Boat Dive from Rose Bay (sold out)",
-   "start": "2026-10-18T07:45+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=436203&preferredDate=2026-10-18&preferredTime=7%3A45+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-dbfd7144095f",
-   "source": "divebondi",
-   "title": "PADI Drysuit Diver Course",
-   "start": "2026-10-18T08:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=434171&preferredDate=2026-10-18&preferredTime=8%3A00+AM&catalogId=597076"
+   "url": "https://www.abyss.com.au/charters/single-seal-dive",
+   "description": "$99.00 · Single Seal Dive At Martin Island"
   },
   {
    "id": "abyss-0c7dc1aff629",
@@ -258,15 +188,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/guided-shore-dives",
    "description": "Guided Shore Dives · Sutherland Point easy entry, weedy sea dragons shore dive (14m)"
-  },
-  {
-   "id": "abyss-75d573b7224c",
-   "source": "abyss",
-   "title": "Single Seal Dive",
-   "start": "2026-10-18T09:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/single-seal-dive",
-   "description": "$99.00 · Single Seal Dive At Martin Island"
   },
   {
    "id": "divesydney-f83fade99f06",
@@ -284,14 +205,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/scuba-dive-with-seals",
    "description": "$130.00 · Seal Diving · Playful fur seals swirl around you with possible whales and rays."
-  },
-  {
-   "id": "divesydney-979bb4fae9c5",
-   "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
-   "start": "2026-10-18T14:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-10-18&preferredTime=2%3A00+PM&catalogId=494484"
   },
   {
    "id": "divesydney-82e2f3465ba8",
@@ -639,9 +552,9 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · Boat Dives · Marley Reef – fish life, swim-throughs – double dive 25m"
   },
   {
-   "id": "divesydney-e569350a7da6",
+   "id": "divesydney-876e7e4c43f3",
    "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI (sold out)",
+   "title": "Discover Scuba Diving - PADI",
    "start": "2026-10-24T14:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-10-24&preferredTime=2%3A00+PM&catalogId=494484"
@@ -1452,15 +1365,6 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=434000&preferredDate=2026-11-07&preferredTime=7%3A30+AM&catalogId=597076"
   },
   {
-   "id": "abyss-1dbc6c2f0531",
-   "source": "abyss",
-   "title": "Enriched Air Diver",
-   "start": "2026-11-07T08:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
-   "description": "$345.00 · Enriched Air (Nitrox) Diver"
-  },
-  {
    "id": "abyss-dcce5f24d1ef",
    "source": "abyss",
    "title": "AOW 07-11-2026",
@@ -1469,6 +1373,15 @@ window.__DIVE_DATA__ =
    "end": "2026-11-08",
    "url": "https://www.abyss.com.au/courses/padi-advanced-open-water-course",
    "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
+  },
+  {
+   "id": "abyss-1dbc6c2f0531",
+   "source": "abyss",
+   "title": "Enriched Air Diver",
+   "start": "2026-11-07T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
+   "description": "$345.00 · Enriched Air (Nitrox) Diver"
   },
   {
    "id": "divebondi-803c8cee40d8",
@@ -1683,6 +1596,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-08&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "abyss-e0a48b147d57",
+   "source": "abyss",
+   "title": "Algae, Pizza & Beer!",
+   "start": "2026-11-08T15:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/social-events",
+   "description": "Social Events · Holly Ceapa from UTS, doing her PhD in Microalgae!"
+  },
+  {
    "id": "divecharters-34e913bf3758",
    "source": "divecharters",
    "title": "DSD - Discover Scuba Dive - Hire Gear Included",
@@ -1866,9 +1788,9 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-12&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
-   "id": "abyss-9d8c08661f45",
+   "id": "abyss-374b8e49d742",
    "source": "abyss",
-   "title": "Vanuatu Long Weekend 12-11-2026 (sold out)",
+   "title": "Vanuatu Long Weekend 12-11-2026",
    "start": "2026-11-12T16:00+11:00",
    "all_day": false,
    "end": "2026-11-16",
