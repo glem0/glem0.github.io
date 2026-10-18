@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-10-18T06:32:29+11:00",
+ "generated_at": "2026-10-19T06:32:28+11:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-10-01",
@@ -13,7 +13,7 @@ window.__DIVE_DATA__ =
    "short": "Abyss",
    "url": "https://www.abyss.com.au/sydney-dive-calendar",
    "status": "ok",
-   "event_count": 86
+   "event_count": 87
   },
   {
    "id": "frogdive",
@@ -29,7 +29,7 @@ window.__DIVE_DATA__ =
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 257
+   "event_count": 258
   },
   {
    "id": "divesydney",
@@ -37,7 +37,7 @@ window.__DIVE_DATA__ =
    "short": "DC Manly",
    "url": "https://divesydney.com.au/dive-calendar/",
    "status": "ok",
-   "event_count": 609
+   "event_count": 604
   },
   {
    "id": "prodive",
@@ -172,49 +172,6 @@ window.__DIVE_DATA__ =
    "description": "Shelly Beach - Manly\nNIGHT DIVE"
   },
   {
-   "id": "abyss-84427aaf1765",
-   "source": "abyss",
-   "title": "Single Seal Dive (sold out)",
-   "start": "2026-10-18T09:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/single-seal-dive",
-   "description": "$99.00 · Single Seal Dive At Martin Island"
-  },
-  {
-   "id": "abyss-0c7dc1aff629",
-   "source": "abyss",
-   "title": "Sutherland Point Dive",
-   "start": "2026-10-18T09:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
-   "description": "Guided Shore Dives · Sutherland Point easy entry, weedy sea dragons shore dive (14m)"
-  },
-  {
-   "id": "divesydney-f83fade99f06",
-   "source": "divesydney",
-   "title": "Dive Against Debris",
-   "start": "2026-10-18T09:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467325&preferredDate=2026-10-18&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "abyss-0b420e4b48cf",
-   "source": "abyss",
-   "title": "Martin Island Seal Dive",
-   "start": "2026-10-18T11:30+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/scuba-dive-with-seals",
-   "description": "$130.00 · Seal Diving · Playful fur seals swirl around you with possible whales and rays."
-  },
-  {
-   "id": "divesydney-82e2f3465ba8",
-   "source": "divesydney",
-   "title": "Snorkel Safari (sold out)",
-   "start": "2026-10-18T14:30+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-18&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
    "id": "divecharters-41ee224571a6",
    "source": "divecharters",
    "title": "DSD - Discover Scuba Dive - Hire Gear Included",
@@ -224,14 +181,6 @@ window.__DIVE_DATA__ =
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
-   "id": "divesydney-eaba6f6c1b1b",
-   "source": "divesydney",
-   "title": "Scuba Refresher",
-   "start": "2026-10-19T08:30+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-10-19&preferredTime=8%3A30+AM&catalogId=494484"
-  },
-  {
    "id": "abyss-46330081d845",
    "source": "abyss",
    "title": "Martin Island Seal Dive",
@@ -239,22 +188,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/scuba-dive-with-seals",
    "description": "$130.00 · Seal Diving · Playful fur seals swirl around you with possible whales and rays."
-  },
-  {
-   "id": "divesydney-30854814bcf4",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-10-19T09:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-10-19&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-db638182e463",
-   "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
-   "start": "2026-10-19T14:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-10-19&preferredTime=2%3A00+PM&catalogId=494484"
   },
   {
    "id": "divesydney-6a3d8481f935",
@@ -296,6 +229,14 @@ window.__DIVE_DATA__ =
    "start": "2026-10-20T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-10-20&preferredTime=2%3A30+PM&catalogId=494484"
+  },
+  {
+   "id": "divebondi-581dec638926",
+   "source": "divebondi",
+   "title": "Guided Snorkel Tour (sold out)",
+   "start": "2026-10-20T16:00+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=439435&preferredDate=2026-10-20&preferredTime=4%3A00+PM&catalogId=597076"
   },
   {
    "id": "divecharters-48c377734c5b",
@@ -451,9 +392,17 @@ window.__DIVE_DATA__ =
    "description": "$120.00 · Tech Boat Dives · 2.5 kilometres off the Royal National Park at a maximum depth 45m"
   },
   {
-   "id": "divebondi-4c820d411174",
+   "id": "divebondi-0037984eca44",
    "source": "divebondi",
-   "title": "PADI Open Water Diver Course",
+   "title": "Guided Shore Dive",
+   "start": "2026-10-24T08:00+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-10-24&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-87a9d8b77af6",
+   "source": "divebondi",
+   "title": "PADI Open Water Diver Course (sold out)",
    "start": "2026-10-24T08:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-10-24&preferredTime=8%3A00+AM&catalogId=597076"
@@ -467,14 +416,6 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=422369&preferredDate=2026-10-24&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-0037984eca44",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-10-24T08:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-10-24&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divecharters-4379d030c7bb",
    "source": "divecharters",
    "title": "8am Saturday Double Boat Dive - Departing 0730 Little Manly / 0745 Boarding Rose Bay Public Wharf",
@@ -484,9 +425,9 @@ window.__DIVE_DATA__ =
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
-   "id": "divesydney-d60e0db867fa",
+   "id": "divesydney-82751a0ffeca",
    "source": "divesydney",
-   "title": "Scuba Refresher (sold out)",
+   "title": "Scuba Refresher",
    "start": "2026-10-24T08:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-10-24&preferredTime=8%3A30+AM&catalogId=494484"
@@ -872,9 +813,9 @@ window.__DIVE_DATA__ =
    "description": "Guided Shore Dives · Leap to steps Drift for confident divers shore dive (18-22m)"
   },
   {
-   "id": "divesydney-1af0a451db72",
+   "id": "divesydney-4534ab86066d",
    "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
+   "title": "Discover Scuba Diving - PADI (sold out)",
    "start": "2026-10-30T14:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-10-30&preferredTime=2%3A00+PM&catalogId=494484"
@@ -1155,6 +1096,15 @@ window.__DIVE_DATA__ =
    "start": "2026-11-02T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-02&preferredTime=2%3A30+PM&catalogId=494484"
+  },
+  {
+   "id": "abyss-30f9daf4bd20",
+   "source": "abyss",
+   "title": "Night Dive",
+   "start": "2026-11-02T18:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
+   "description": "Guided Shore Dives · Night Dive"
   },
   {
    "id": "divecharters-8deb77812106",
@@ -1520,9 +1470,9 @@ window.__DIVE_DATA__ =
    "description": "Shelly Beach - Manly\nDive Level Green – beginner diver friendly\nAverage Depth ..."
   },
   {
-   "id": "abyss-0f338f1c8171",
+   "id": "abyss-3cea67b25c8c",
    "source": "abyss",
-   "title": "Weedy Seadragon Dive",
+   "title": "Weedy Seadragon Dive (sold out)",
    "start": "2026-11-08T08:00+11:00",
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/marine-marvels-dives",
@@ -1693,6 +1643,15 @@ window.__DIVE_DATA__ =
    "start": "2026-11-10T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-10&preferredTime=2%3A30+PM&catalogId=494484"
+  },
+  {
+   "id": "abyss-3d0ddbbe3cf4",
+   "source": "abyss",
+   "title": "Night Dive",
+   "start": "2026-11-10T18:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
+   "description": "Guided Shore Dives · Oak Park Night Dive"
   },
   {
    "id": "divecharters-2d6d52e6eec1",
@@ -2611,6 +2570,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-22&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
+   "id": "abyss-7033b9a29ea2",
+   "source": "abyss",
+   "title": "Shiprock Night Dive",
+   "start": "2026-11-22T18:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
+   "description": "Guided Shore Dives · Shiprock wall night dive"
+  },
+  {
    "id": "divecharters-1811ee6b5704",
    "source": "divecharters",
    "title": "DSD - Discover Scuba Dive - Hire Gear Included",
@@ -3063,6 +3031,15 @@ window.__DIVE_DATA__ =
    "start": "2026-11-29T10:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-11-29&preferredTime=10%3A00+AM&catalogId=494484"
+  },
+  {
+   "id": "abyss-471cde6fed1c",
+   "source": "abyss",
+   "title": "Wedding Cake Island Boat Dive",
+   "start": "2026-11-29T11:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Wedding cake island"
   },
   {
    "id": "divesydney-dd44d86d32cb",
@@ -5147,9 +5124,9 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-02&preferredTime=10%3A30+AM&catalogId=494484"
   },
   {
-   "id": "divesydney-683e2bdb9cf0",
+   "id": "divesydney-a6a41c49822b",
    "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
+   "title": "Discover Scuba Diving - PADI (sold out)",
    "start": "2027-01-02T14:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2027-01-02&preferredTime=2%3A00+PM&catalogId=494484"
