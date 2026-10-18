@@ -2715,5 +2715,14 @@
   "display": "Cala Gonone, Durgali/Dorgali, Nuoro, Sardigna/Sardegna, 08022, Italia",
   "matched_query": "Cala Gonone, Nuoro, Italy",
   "alias_of": "cal gonone, nuoro, italy"
+ },
+ "zürich , zürich, switzerland": {
+  "lat": 47.3744489,
+  "lng": 8.5410422,
+  "display": "Zürich, Bezirk Zürich, Zürich, Schweiz/Suisse/Svizzera/Svizra",
+  "country": "ch",
+  "matched_query": "zürich , zürich, switzerland",
+  "approx": false,
+  "verified": true
  }
 }

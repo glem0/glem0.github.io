@@ -1,42 +1,6 @@
 {
- "updated": "2026-10-17T19:41:34Z",
+ "updated": "2026-10-18T19:38:38Z",
  "classes": [
-  {
-   "cid": "37454",
-   "course": "Cave Diver 1",
-   "date": "October 18, 2026",
-   "iso": "2026-10-18",
-   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
-   "instructor": "Arthur Nguyen-Kim",
-   "instructor_id": "26064"
-  },
-  {
-   "cid": "36202",
-   "course": "Cave Diver 1",
-   "date": "October 18, 2026",
-   "iso": "2026-10-18",
-   "location": "High Springs, Florida, United States",
-   "instructor": "Jon Kieren",
-   "instructor_id": "13618"
-  },
-  {
-   "cid": "36043",
-   "course": "Cave Diver 2",
-   "date": "October 18, 2026",
-   "iso": "2026-10-18",
-   "location": "Cala Gonone, Nuoro, Italy",
-   "instructor": "Zsolt Szilagyi",
-   "instructor_id": "1444"
-  },
-  {
-   "cid": "37387",
-   "course": "Gas Blender",
-   "date": "October 18, 2026",
-   "iso": "2026-10-18",
-   "location": "Zürich, Zürich, Switzerland",
-   "instructor": "Maximilian Fahr",
-   "instructor_id": "66486"
-  },
   {
    "cid": "37428",
    "course": "CCR Fundamentals: JJ-CCR",
@@ -317,6 +281,15 @@
    "instructor_id": "17695"
   },
   {
+   "cid": "37553",
+   "course": "GUE Performance Diver",
+   "date": "October 24, 2026",
+   "iso": "2026-10-24",
+   "location": "Alexandrovsk, Permskaya, Russia",
+   "instructor": "Anatoliy Markov",
+   "instructor_id": "19614"
+  },
+  {
    "cid": "35191",
    "course": "GUE Technical Fundamentals",
    "date": "October 24, 2026",
@@ -414,6 +387,15 @@
    "location": "Antwerpen, Belgium",
    "instructor": "Rick Van Beerendonk",
    "instructor_id": "21650"
+  },
+  {
+   "cid": "37644",
+   "course": "Drysuit Primer",
+   "date": "October 25, 2026",
+   "iso": "2026-10-25",
+   "location": "Zürich , Zürich, Switzerland",
+   "instructor": "Maximilian Fahr",
+   "instructor_id": "66486"
   },
   {
    "cid": "37050",
@@ -1505,6 +1487,15 @@
    "instructor_id": "304"
   },
   {
+   "cid": "37645",
+   "course": "Doubles Primer",
+   "date": "November 16, 2026",
+   "iso": "2026-11-16",
+   "location": "Siegburg, Nordrhein-Westfalen, Germany",
+   "instructor": "Benjamin Ott",
+   "instructor_id": "11806"
+  },
+  {
    "cid": "37398",
    "course": "GUE Basic Fundamentals",
    "date": "November 16, 2026",
@@ -2027,15 +2018,6 @@
    "instructor_id": "67329"
   },
   {
-   "cid": "37337",
-   "course": "Drysuit Primer",
-   "date": "November 30, 2026",
-   "iso": "2026-11-30",
-   "location": "St. Julian, Malta",
-   "instructor": "Kaddi Vogel",
-   "instructor_id": "71865"
-  },
-  {
    "cid": "35681",
    "course": "Technical Diver 1",
    "date": "November 30, 2026",
@@ -2054,17 +2036,8 @@
    "instructor_id": "23052"
   },
   {
-   "cid": "37628",
-   "course": "GUE Basic Fundamentals",
-   "date": "December 1, 2026",
-   "iso": "2026-12-01",
-   "location": "St. Julians, Saint Julian's, Malta",
-   "instructor": "Kaddi Vogel",
-   "instructor_id": "71865"
-  },
-  {
-   "cid": "37278",
-   "course": "GUE Performance Diver",
+   "cid": "37337",
+   "course": "Drysuit Primer",
    "date": "December 1, 2026",
    "iso": "2026-12-01",
    "location": "St. Julian, Malta",
@@ -2106,6 +2079,24 @@
    "location": "Dahab , Janub Sina', Egypt",
    "instructor": "Ahmed Hagi",
    "instructor_id": "69051"
+  },
+  {
+   "cid": "37628",
+   "course": "GUE Basic Fundamentals",
+   "date": "December 2, 2026",
+   "iso": "2026-12-02",
+   "location": "St. Julians, Saint Julian's, Malta",
+   "instructor": "Kaddi Vogel",
+   "instructor_id": "71865"
+  },
+  {
+   "cid": "37278",
+   "course": "GUE Performance Diver",
+   "date": "December 2, 2026",
+   "iso": "2026-12-02",
+   "location": "St. Julian, Malta",
+   "instructor": "Kaddi Vogel",
+   "instructor_id": "71865"
   },
   {
    "cid": "37438",
@@ -2151,15 +2142,6 @@
    "location": "Victoria, British Columbia, Canada",
    "instructor": "Jason Cook",
    "instructor_id": "24473"
-  },
-  {
-   "cid": "37627",
-   "course": "Upgrade to GUE Basic Fundamentals",
-   "date": "December 3, 2026",
-   "iso": "2026-12-03",
-   "location": "St. Julians, Saint Julian's, Malta",
-   "instructor": "Kaddi Vogel",
-   "instructor_id": "71865"
   },
   {
    "cid": "37254",
@@ -5730,7 +5712,7 @@
    "course": "CCR Fundamentals: Symbios",
    "date": "November 8, 2027",
    "iso": "2027-11-08",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "location": "High Springs, Florida, United States",
    "instructor": "John Kendall",
    "instructor_id": "1956"
   },

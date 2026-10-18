@@ -363,6 +363,7 @@ window.GUE_GEO = {
 "zurich, switzerland":[47.37445,8.54104],
 "zwenkau, germany":[51.21827,12.32415],
 "zürich , switzerland":[47.37445,8.54104],
+"zürich , zürich, switzerland":[47.37445,8.54104],
 "zürich, zürich, switzerland":[47.37445,8.54104],
 "ålesund, more og romdal, norway":[62.48024,6.55507],
 "überlingen, baden-würtemberg, germany":[47.76645,9.16051],
