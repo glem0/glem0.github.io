@@ -2724,5 +2724,23 @@
   "matched_query": "zürich , zürich, switzerland",
   "approx": false,
   "verified": true
+ },
+ "castello di godego, treviso, italy": {
+  "lat": 45.6934783,
+  "lng": 11.8722511,
+  "display": "Castello di Godego, Fonte, Treviso, Veneto, 31030, Italia",
+  "country": "it",
+  "matched_query": "castello di godego, treviso, italy",
+  "approx": false,
+  "verified": true
+ },
+ "pingtung, ???, taiwan": {
+  "lat": 22.6828017,
+  "lng": 120.487928,
+  "display": "屏東縣, 臺灣",
+  "country": "tw",
+  "matched_query": "pingtung, ???, taiwan",
+  "approx": false,
+  "verified": true
  }
 }
