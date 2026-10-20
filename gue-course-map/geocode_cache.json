@@ -2742,5 +2742,14 @@
   "matched_query": "pingtung, ???, taiwan",
   "approx": false,
   "verified": true
+ },
+ "fl, united states": {
+  "lat": 27.7567667,
+  "lng": -81.4639835,
+  "display": "Florida, United States",
+  "country": "us",
+  "matched_query": "fl, united states",
+  "approx": false,
+  "verified": true
  }
 }

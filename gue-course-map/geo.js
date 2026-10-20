@@ -81,6 +81,7 @@ window.GUE_GEO = {
 "finale ligure, italy":[44.16915,8.34359],
 "finale ligure, savona, italy":[44.16915,8.34359],
 "finsle ligure, liguria, italy":[44.47776,8.70263],
+"fl, united states":[27.75677,-81.46398],
 "foahang, guangdong, china":[34.45231,114.26577],
 "fort lauderdale, florida, united states":[26.12231,-80.14338],
 "foshan, china":[23.02398,113.11596],
