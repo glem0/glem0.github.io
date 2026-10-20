@@ -317,8 +317,8 @@
         },
         "properties": {
           "id": "8990825d-b48c-443f-9047-862a0b986621",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Boat Harbour"
         },
@@ -351,8 +351,8 @@
         },
         "properties": {
           "id": "405ce99c-7a0b-43f7-8d28-2ee0b65eebb5",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Bondi Beach"
         },
@@ -419,8 +419,8 @@
         },
         "properties": {
           "id": "e34aa8b8-142f-438d-ab18-bedce361e324",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Bronte Beach"
         },
@@ -1269,8 +1269,8 @@
         },
         "properties": {
           "id": "58c72f50-710c-4933-80c3-4978deb4b421",
-          "latestResult": "Bad",
-          "latestResultRating": 1,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Evans River"
         },
@@ -1932,8 +1932,8 @@
         },
         "properties": {
           "id": "a4e51f37-7089-4f6d-b78a-85f9b84fea87",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Little Bay Beach"
         },
@@ -1949,8 +1949,8 @@
         },
         "properties": {
           "id": "8c7516d0-3f1d-4068-8e9c-0ca60af15a04",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Unlikely",
           "siteName": "Little Manly Cove"
         },
@@ -2748,8 +2748,8 @@
         },
         "properties": {
           "id": "29df3246-4dc4-4a19-9b01-b13fca311257",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Unlikely",
           "siteName": "Parsley Bay"
         },
@@ -3326,8 +3326,8 @@
         },
         "properties": {
           "id": "6908705e-c176-4f65-bfd1-39b19ca1d340",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "South Maroubra Rockpool"
         },
@@ -3496,8 +3496,8 @@
         },
         "properties": {
           "id": "d8174dde-e864-4a58-b997-e140bea7c5d6",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Tamarama Beach"
         },
@@ -3904,8 +3904,8 @@
         },
         "properties": {
           "id": "aaaefe71-5959-40e0-a3a0-a620e8bb49ce",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Unlikely",
           "siteName": "Watsons Bay"
         },
@@ -4159,8 +4159,8 @@
         },
         "properties": {
           "id": "d04d79a7-585d-4f69-b57a-502508eed2e9",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Forecast not available",
           "siteName": "Yosemite Creek - Minnehaha Falls"
         },
