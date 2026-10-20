@@ -555,8 +555,8 @@
         },
         "properties": {
           "id": "6b3d7a0d-c0bd-4e51-81a3-1b247a99eb67",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Cabbage Tree Bay"
         },
@@ -572,8 +572,8 @@
         },
         "properties": {
           "id": "90992928-9137-4736-9a91-bcd5b9c8f53e",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Cabbage Tree Bay Rockpool"
         },
@@ -727,7 +727,7 @@
           "id": "1d216f60-ed90-4896-8ade-e3eed705dc9a",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Chiswick Baths"
         },
         "type": "Feature"
@@ -1339,7 +1339,7 @@
           "id": "988c4cd3-eeff-4d2d-813c-2731490b0f01",
           "latestResult": "Bad",
           "latestResultRating": 1,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Foreshore Beach"
         },
         "type": "Feature"
@@ -1645,7 +1645,7 @@
           "id": "4f626874-5276-48e7-8bd2-1d8976908cc5",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Horderns Beach"
         },
         "type": "Feature"
@@ -2153,8 +2153,8 @@
         },
         "properties": {
           "id": "c8b52a7e-dcb4-4a57-8271-5f5438b507dd",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Mannering Park Baths"
         },
@@ -2512,7 +2512,7 @@
           "id": "7f188718-1e97-404e-81cf-1bd72927015d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "North Curl Curl Beach"
         },
         "type": "Feature"
