@@ -623,8 +623,8 @@
         },
         "properties": {
           "id": "3797a81b-936e-4e27-a813-e6c611ee2d99",
-          "latestResult": "Bad",
-          "latestResultRating": 1,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Carss Point Baths"
         },
@@ -691,8 +691,8 @@
         },
         "properties": {
           "id": "75a8c8a3-a4bf-4767-bd19-e0cbde65b05b",
-          "latestResult": "Bad",
-          "latestResultRating": 1,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Chifley Dam Playground Beach"
         },
@@ -878,8 +878,8 @@
         },
         "properties": {
           "id": "91cb3b19-ad2c-42a3-9bb1-2e1323cd094b",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Colo River Park"
         },
@@ -1133,8 +1133,8 @@
         },
         "properties": {
           "id": "5ed93442-6ffd-4445-bfb8-1a2d16992400",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Dolls Point Baths"
         },
@@ -1337,8 +1337,8 @@
         },
         "properties": {
           "id": "988c4cd3-eeff-4d2d-813c-2731490b0f01",
-          "latestResult": "Bad",
-          "latestResultRating": 1,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Possible",
           "siteName": "Foreshore Beach"
         },
@@ -1643,8 +1643,8 @@
         },
         "properties": {
           "id": "4f626874-5276-48e7-8bd2-1d8976908cc5",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Horderns Beach"
         },
@@ -1694,8 +1694,8 @@
         },
         "properties": {
           "id": "17c612fb-a4c3-4061-8482-77c278225037",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Jew Fish Bay Baths"
         },
@@ -2393,7 +2393,7 @@
           "id": "f05ac321-7e70-4c4a-99cd-cc0f8a0acb5d",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Narrabeen Lagoon (Birdwood Park)"
         },
         "type": "Feature"
@@ -3479,8 +3479,8 @@
         },
         "properties": {
           "id": "e76d87f3-90d9-47aa-b71f-90cda6b6374b",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Unlikely",
           "siteName": "Swansea Heads Little Beach"
         },
@@ -4108,8 +4108,8 @@
         },
         "properties": {
           "id": "c7e2681c-94dd-465b-8c87-9c5a56809c8e",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Possible",
           "siteName": "Yarra Bay"
         },
@@ -4125,8 +4125,8 @@
         },
         "properties": {
           "id": "cdd2e0a4-a1a0-4cc7-b3e7-1d98f2c37f35",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Yarramundi Reserve"
         },
