@@ -341,6 +341,7 @@ window.GUE_GEO = {
 "walcourt , namur, belgium":[50.2514,4.43141],
 "walcourt, namur, belgium":[50.2514,4.43141],
 "wellington, wellington, new zealand":[-41.2888,174.77721],
+"wittenberge, brandenburg, germany":[53.01129,11.73743],
 "xiaoliuqiu, pingtung county, taiwan":[22.33872,120.3712],
 "xlendi gozo, malta":[36.0312,14.21827],
 "xr explorers, kuwait":[29.37965,47.97342],

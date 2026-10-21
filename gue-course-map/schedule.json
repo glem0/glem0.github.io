@@ -1,15 +1,6 @@
 {
- "updated": "2026-10-20T20:50:22Z",
+ "updated": "2026-10-21T20:52:02Z",
  "classes": [
-  {
-   "cid": "37541",
-   "course": "Technical Diver 1",
-   "date": "October 21, 2026",
-   "iso": "2026-10-21",
-   "location": "Gangneung-si, Korea (South)",
-   "instructor": "Jaehun Sim",
-   "instructor_id": "14279"
-  },
   {
    "cid": "37444",
    "course": "Doubles Primer",
@@ -1170,15 +1161,6 @@
    "location": "Austin, Texas, United States",
    "instructor": "Jason Cook",
    "instructor_id": "24473"
-  },
-  {
-   "cid": "35185",
-   "course": "Technical Diver 1",
-   "date": "November 9, 2026",
-   "iso": "2026-11-09",
-   "location": "Zero Gravity Dive centre, Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Annika Persson",
-   "instructor_id": "9662"
   },
   {
    "cid": "30702",
@@ -2529,6 +2511,15 @@
    "location": "Sydney, New South Wales, Australia",
    "instructor": "Sebastien Landat",
    "instructor_id": "22757"
+  },
+  {
+   "cid": "37662",
+   "course": "GUE Performance Diver",
+   "date": "December 19, 2026",
+   "iso": "2026-12-19",
+   "location": "Wittenberge, Brandenburg, Germany",
+   "instructor": "Oliver Ober",
+   "instructor_id": "68750"
   },
   {
    "cid": "37045",

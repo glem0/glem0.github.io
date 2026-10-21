@@ -2751,5 +2751,14 @@
   "matched_query": "fl, united states",
   "approx": false,
   "verified": true
+ },
+ "wittenberge, brandenburg, germany": {
+  "lat": 53.0112877,
+  "lng": 11.7374296,
+  "display": "Wittenberge, Prignitz, Brandenburg, 19322, Deutschland",
+  "country": "de",
+  "matched_query": "wittenberge, brandenburg, germany",
+  "approx": false,
+  "verified": true
  }
 }
