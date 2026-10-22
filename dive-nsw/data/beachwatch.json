@@ -45,8 +45,8 @@
         },
         "properties": {
           "id": "a34d2224-4c5f-4299-be46-b73558bcea39",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Avalon Beach"
         },
@@ -64,7 +64,7 @@
           "id": "0d6cacd4-5992-486a-b6a8-7d4c810f56bd",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Avoca Beach"
         },
         "type": "Feature"
@@ -130,8 +130,8 @@
         },
         "properties": {
           "id": "e469a86a-1a9b-4e8a-a62d-1b90141b5bd5",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Possible",
           "siteName": "Barrenjoey Beach"
         },
@@ -181,8 +181,8 @@
         },
         "properties": {
           "id": "6e9006c1-4bc7-4154-800a-a237388965ab",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Bayview Baths"
         },
@@ -215,8 +215,8 @@
         },
         "properties": {
           "id": "0d0ff9bb-cd49-4557-8f1b-c818e43d20d7",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Bilarong Reserve"
         },
@@ -232,8 +232,8 @@
         },
         "properties": {
           "id": "2d4c2558-f2de-43e4-8590-8682bc5aaf52",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Bilgola Beach"
         },
@@ -487,8 +487,8 @@
         },
         "properties": {
           "id": "9cf6ec2d-8574-4814-b7db-64ca4075be20",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Bungan Beach"
         },
@@ -982,7 +982,7 @@
           "id": "1cca5d42-6426-4ac9-afdf-8c0c1dfcd6dc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Copacabana Beach"
         },
         "type": "Feature"
@@ -1082,8 +1082,8 @@
         },
         "properties": {
           "id": "fe8a8d6a-88d2-4338-9c5d-47fd33c4081b",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Davistown Baths"
         },
@@ -1235,8 +1235,8 @@
         },
         "properties": {
           "id": "48228c69-739e-4287-9843-40a25a3b0a3a",
-          "latestResult": "Bad",
-          "latestResultRating": 1,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Elvina Bay"
         },
@@ -1490,8 +1490,8 @@
         },
         "properties": {
           "id": "3fd8c380-65ac-45df-9138-1582b74b54d5",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Great Mackerel Beach"
         },
@@ -1594,7 +1594,7 @@
           "id": "2f8fd16c-2631-4f56-ae9a-3ada9dbfa8fe",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Gymea Bay Baths"
         },
         "type": "Feature"
@@ -1645,7 +1645,7 @@
           "id": "4f626874-5276-48e7-8bd2-1d8976908cc5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Horderns Beach"
         },
         "type": "Feature"
@@ -1968,7 +1968,7 @@
           "id": "93ec689a-b568-4cef-8c51-1eaafbbb51a5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Long Reef Beach"
         },
         "type": "Feature"
@@ -2104,7 +2104,7 @@
           "id": "94c5d756-1093-48db-8dbc-70fbb523b16a",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Malabar Beach"
         },
         "type": "Feature"
@@ -2204,8 +2204,8 @@
         },
         "properties": {
           "id": "40af923e-c310-44d5-aa0a-aae6518fa8f2",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Forecast not available",
           "siteName": "Megalong Creek"
         },
@@ -2323,8 +2323,8 @@
         },
         "properties": {
           "id": "dcaa6d83-f59f-463f-aae5-c687f4b0b5fb",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Mona Vale Beach"
         },
@@ -2391,8 +2391,8 @@
         },
         "properties": {
           "id": "f05ac321-7e70-4c4a-99cd-cc0f8a0acb5d",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Possible",
           "siteName": "Narrabeen Lagoon (Birdwood Park)"
         },
@@ -2425,8 +2425,8 @@
         },
         "properties": {
           "id": "f81d4377-2a8e-4f39-9988-f94d9c95d9be",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Newport Beach"
         },
@@ -2478,7 +2478,7 @@
           "id": "443f8062-d8b3-41ee-b3cf-78be24ab5b5c",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "North Avoca Beach"
         },
         "type": "Feature"
@@ -2561,8 +2561,8 @@
         },
         "properties": {
           "id": "8cb9490e-dafb-4647-b25b-98cfb777acd6",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "North Scotland Island"
         },
@@ -2714,8 +2714,8 @@
         },
         "properties": {
           "id": "8e9bf4a5-bb77-4a97-b01f-72823135fc0b",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Palm Beach"
         },
@@ -2731,8 +2731,8 @@
         },
         "properties": {
           "id": "0d9bfd7d-0628-4f8d-b165-d3ca71c9612a",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Paradise Beach Baths"
         },
@@ -2767,7 +2767,7 @@
           "id": "a04458a2-3e39-4005-b4a9-f8822fb66781",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Pearl Beach"
         },
         "type": "Feature"
@@ -2782,8 +2782,8 @@
         },
         "properties": {
           "id": "de685d55-5c08-40ac-a158-e0e329ed4417",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Pearl Beach Rockpool"
         },
@@ -2884,8 +2884,8 @@
         },
         "properties": {
           "id": "95c134b2-a834-4651-865c-03f6c9f4a54e",
-          "latestResult": "Bad",
-          "latestResultRating": 1,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Queenscliff Beach"
         },
@@ -3173,8 +3173,8 @@
         },
         "properties": {
           "id": "995753ed-db2a-4cb8-9349-922cf3312766",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Shelly Beach (Manly)"
         },
@@ -3343,8 +3343,8 @@
         },
         "properties": {
           "id": "ccd00273-502a-4a03-bb59-b4e0d63536dc",
-          "latestResult": "Bad",
-          "latestResultRating": 1,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "South Scotland Island"
         },
@@ -3530,8 +3530,8 @@
         },
         "properties": {
           "id": "ad19c3a4-de25-422c-a124-cdf6587298c0",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Taylors Point Baths"
         },
@@ -3549,7 +3549,7 @@
           "id": "c8fc3c50-4d0f-48c8-939a-ee100892dee8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Terrigal Beach"
         },
         "type": "Feature"
