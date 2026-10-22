@@ -2760,5 +2760,19 @@
   "matched_query": "wittenberge, brandenburg, germany",
   "approx": false,
   "verified": true
+ },
+ "hengchun, pingtung county, taiwan": {
+  "lat": 22.0026559,
+  "lng": 120.7446924,
+  "display": "恆春鎮, 屏東縣, 946, 臺灣",
+  "country": "tw",
+  "matched_query": "hengchun, pingtung county, taiwan",
+  "approx": false,
+  "verified": true
+ },
+ "kralendijk, bonaire, bonaire": {
+  "lat": null,
+  "lng": null,
+  "display": ""
  }
 }

@@ -106,6 +106,7 @@ window.GUE_GEO = {
 "hemmoor, germany":[53.68869,9.15951],
 "hemmoor, kreidesee, niedersachsen, germany":[53.68869,9.15951],
 "hemmoor, niedersachsen, germany":[53.68869,9.15951],
+"hengchun, pingtung county, taiwan":[22.00266,120.74469],
 "hengchung, pingtung county, taiwan":[22.6828,120.48793],
 "high springd, florida, united states":[29.82683,-82.59686],
 "high springs , florida, united states":[29.82683,-82.59686],

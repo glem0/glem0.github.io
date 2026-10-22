@@ -1,24 +1,6 @@
 {
- "updated": "2026-10-21T20:52:02Z",
+ "updated": "2026-10-22T20:45:47Z",
  "classes": [
-  {
-   "cid": "37444",
-   "course": "Doubles Primer",
-   "date": "October 22, 2026",
-   "iso": "2026-10-22",
-   "location": "Singapore, Central Singapore, Singapore",
-   "instructor": "Coral Chua",
-   "instructor_id": "75313"
-  },
-  {
-   "cid": "35706",
-   "course": "GUE Technical Fundamentals",
-   "date": "October 22, 2026",
-   "iso": "2026-10-22",
-   "location": "Playa del Carmen, Quintana Roo, Mexico",
-   "instructor": "Emőke Wagner",
-   "instructor_id": "20747"
-  },
   {
    "cid": "36623",
    "course": "BLS-D & Oxygen First Aid",
@@ -204,7 +186,7 @@
    "course": "CCR Fundamentals: Symbios",
    "date": "October 25, 2026",
    "iso": "2026-10-25",
-   "location": "Kralendijk, Bonaire",
+   "location": "Kralendijk, Bonaire, Bonaire",
    "instructor": "Steven Millington",
    "instructor_id": "4255"
   },
@@ -452,6 +434,15 @@
    "instructor_id": "895"
   },
   {
+   "cid": "37663",
+   "course": "Doubles Primer",
+   "date": "October 30, 2026",
+   "iso": "2026-10-30",
+   "location": "San Diego, California, United States",
+   "instructor": "Kian Farin",
+   "instructor_id": "27848"
+  },
+  {
    "cid": "37164",
    "course": "GUE Basic Fundamentals",
    "date": "October 30, 2026",
@@ -600,7 +591,7 @@
    "course": "CCR Fundamentals: Symbios",
    "date": "November 1, 2026",
    "iso": "2026-11-01",
-   "location": "Kralendijk, Bonaire",
+   "location": "Kralendijk, Bonaire, Bonaire",
    "instructor": "Steven Millington",
    "instructor_id": "4255"
   },
@@ -1712,6 +1703,15 @@
    "instructor_id": "3674"
   },
   {
+   "cid": "37664",
+   "course": "CCR Fundamentals: JJ-CCR",
+   "date": "November 25, 2026",
+   "iso": "2026-11-25",
+   "location": "Hengchun, PingTung County, Taiwan",
+   "instructor": "Hui Jin",
+   "instructor_id": "10441"
+  },
+  {
    "cid": "34527",
    "course": "CCR Fundamentals: JJ-CCR",
    "date": "November 25, 2026",
@@ -2738,6 +2738,15 @@
    "instructor_id": "6754"
   },
   {
+   "cid": "37665",
+   "course": "Upgrade to CCR Tech 1: JJ-CCR",
+   "date": "January 1, 2027",
+   "iso": "2027-01-01",
+   "location": "Hangzhou, Zhejiang, China",
+   "instructor": "Hui Jin",
+   "instructor_id": "10441"
+  },
+  {
    "cid": "35866",
    "course": "Upgrade to GUE Technical Fundamentals",
    "date": "January 1, 2027",
@@ -3080,15 +3089,6 @@
    "instructor_id": "64918"
   },
   {
-   "cid": "37555",
-   "course": "Upgrade to CCR Tech 1: JJ-CCR",
-   "date": "January 17, 2027",
-   "iso": "2027-01-17",
-   "location": "Bonaire, Bonaire",
-   "instructor": "Steven Millington",
-   "instructor_id": "4255"
-  },
-  {
    "cid": "36755",
    "course": "Upgrade to CCR Tech 1: JJ-CCR",
    "date": "January 17, 2027",
@@ -3096,6 +3096,15 @@
    "location": "Bonaire, Florida, United States",
    "instructor": "Kirill A. Egorov",
    "instructor_id": "1411"
+  },
+  {
+   "cid": "37555",
+   "course": "Upgrade to CCR Tech 1: JJ-CCR",
+   "date": "January 17, 2027",
+   "iso": "2027-01-17",
+   "location": "Kralendijk, Bonaire, Bonaire",
+   "instructor": "Steven Millington",
+   "instructor_id": "4255"
   },
   {
    "cid": "37122",
@@ -3701,15 +3710,6 @@
    "instructor_id": "10004"
   },
   {
-   "cid": "36656",
-   "course": "CCR Technical Diver 1: JJ-CCR",
-   "date": "February 17, 2027",
-   "iso": "2027-02-17",
-   "location": "Dahab, Janub Sina', Egypt",
-   "instructor": "Sameh Sokar",
-   "instructor_id": "18431"
-  },
-  {
    "cid": "34686",
    "course": "Cave Diver 1",
    "date": "February 21, 2027",
@@ -3987,6 +3987,15 @@
    "location": "Bangkok, Bangkok , Thailand",
    "instructor": "Sanya Lohitnavy",
    "instructor_id": "3674"
+  },
+  {
+   "cid": "37666",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "March 5, 2027",
+   "iso": "2027-03-05",
+   "location": "Dahab, Janub Sina', Egypt",
+   "instructor": "Sameh Sokar",
+   "instructor_id": "18431"
   },
   {
    "cid": "35664",
@@ -4401,6 +4410,15 @@
    "location": "Hangzhou, Zhejiang, China",
    "instructor": "Yanbin Wu",
    "instructor_id": "23172"
+  },
+  {
+   "cid": "37667",
+   "course": "GUE Basic Fundamentals",
+   "date": "April 3, 2027",
+   "iso": "2027-04-03",
+   "location": "Tenero, Ticino, Switzerland",
+   "instructor": "Ivan Wagner",
+   "instructor_id": "10571"
   },
   {
    "cid": "36988",
