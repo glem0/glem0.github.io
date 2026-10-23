@@ -98,7 +98,7 @@
           "id": "e6daf905-fb81-4aea-911d-fa3350abd298",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Balmoral Baths"
         },
         "type": "Feature"
@@ -727,7 +727,7 @@
           "id": "1d216f60-ed90-4896-8ade-e3eed705dc9a",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Chiswick Baths"
         },
         "type": "Feature"
@@ -1713,7 +1713,7 @@
           "id": "aa2327bb-ce84-4eed-86f5-937eb5bddd33",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Jibbon Beach"
         },
         "type": "Feature"
@@ -1934,7 +1934,7 @@
           "id": "a4e51f37-7089-4f6d-b78a-85f9b84fea87",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Little Bay Beach"
         },
         "type": "Feature"
@@ -1968,7 +1968,7 @@
           "id": "93ec689a-b568-4cef-8c51-1eaafbbb51a5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Long Reef Beach"
         },
         "type": "Feature"
