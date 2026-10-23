@@ -710,7 +710,7 @@
           "id": "90ce83b9-78a8-48c2-bb26-4af4e31111c6",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Chinamans Beach"
         },
         "type": "Feature"
@@ -1186,7 +1186,7 @@
           "id": "70704ffa-ebc9-4d90-825a-a62461f7ed11",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Edwards Beach"
         },
         "type": "Feature"
@@ -1424,7 +1424,7 @@
           "id": "77556fe0-20d1-4028-9bad-d61b3e046b4c",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Freshwater Beach"
         },
         "type": "Feature"
@@ -2204,8 +2204,8 @@
         },
         "properties": {
           "id": "40af923e-c310-44d5-aa0a-aae6518fa8f2",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Megalong Creek"
         },
@@ -2597,7 +2597,7 @@
           "id": "cdf39c61-2988-4ddd-b849-0468cb0e1873",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "North Steyne Beach"
         },
         "type": "Feature"
@@ -3175,7 +3175,7 @@
           "id": "995753ed-db2a-4cb8-9349-922cf3312766",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Shelly Beach (Manly)"
         },
         "type": "Feature"
@@ -3362,7 +3362,7 @@
           "id": "224fc6a1-f98a-4a10-9603-91dacf9e54b8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "South Steyne Beach"
         },
         "type": "Feature"
@@ -3921,8 +3921,8 @@
         },
         "properties": {
           "id": "a493ae91-cf58-453e-b00d-058b79debcdb",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Wentworth Falls Lake - Beach"
         },
@@ -3938,8 +3938,8 @@
         },
         "properties": {
           "id": "5dc26ee9-f880-430e-b3b7-2ad5f43c4ebe",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Wentworth Falls Lake - Jetty"
         },
@@ -4159,8 +4159,8 @@
         },
         "properties": {
           "id": "d04d79a7-585d-4f69-b57a-502508eed2e9",
-          "latestResult": "Bad",
-          "latestResultRating": 1,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Yosemite Creek - Minnehaha Falls"
         },
