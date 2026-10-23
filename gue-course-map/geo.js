@@ -75,6 +75,7 @@ window.GUE_GEO = {
 "ekeren and cerfontaine, hainaut, belgium":[50.36192,4.12522],
 "elite divers international | playa del carmen , quintana roo, mexico":[19.66667,-88.5],
 "elite divers international | playa del carmen, quintana roo, mexico":[19.66667,-88.5],
+"enschede , netherlands":[52.22336,6.8706],
 "enschede, netherlands":[52.22099,6.89405],
 "faro, faro, portugal":[37.01629,-7.93518],
 "finale ligure, genova, italy":[44.1712,8.35221],

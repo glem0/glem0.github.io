@@ -1,87 +1,6 @@
 {
- "updated": "2026-10-22T20:45:47Z",
+ "updated": "2026-10-23T20:37:11Z",
  "classes": [
-  {
-   "cid": "36623",
-   "course": "BLS-D & Oxygen First Aid",
-   "date": "October 23, 2026",
-   "iso": "2026-10-23",
-   "location": "Hemmoor, Germany",
-   "instructor": "Keith Kreitner",
-   "instructor_id": "12073"
-  },
-  {
-   "cid": "37024",
-   "course": "BLS-D & Oxygen First Aid Refresher",
-   "date": "October 23, 2026",
-   "iso": "2026-10-23",
-   "location": "Hemmoor, Germany",
-   "instructor": "Keith Kreitner",
-   "instructor_id": "12073"
-  },
-  {
-   "cid": "36774",
-   "course": "DPV Diver 1",
-   "date": "October 23, 2026",
-   "iso": "2026-10-23",
-   "location": "Radstock, Somerset, United Kingdom",
-   "instructor": "Neil Powell",
-   "instructor_id": "15389"
-  },
-  {
-   "cid": "37027",
-   "course": "DPV Diver 1",
-   "date": "October 23, 2026",
-   "iso": "2026-10-23",
-   "location": "Zurich, Switzerland",
-   "instructor": "Irene Homberger",
-   "instructor_id": "13377"
-  },
-  {
-   "cid": "37550",
-   "course": "Doubles Primer",
-   "date": "October 23, 2026",
-   "iso": "2026-10-23",
-   "location": "Shanghai, Shanghai, China",
-   "instructor": "Yanbin Wu",
-   "instructor_id": "23172"
-  },
-  {
-   "cid": "37338",
-   "course": "Drysuit Primer",
-   "date": "October 23, 2026",
-   "iso": "2026-10-23",
-   "location": "Hemmoor, Germany",
-   "instructor": "Kaddi Vogel",
-   "instructor_id": "71865"
-  },
-  {
-   "cid": "35944",
-   "course": "GUE Basic Fundamentals",
-   "date": "October 23, 2026",
-   "iso": "2026-10-23",
-   "location": "Schwetzingen, Baden-Württemberg, Germany",
-   "instructor": "Esther Trösch",
-   "instructor_id": "64918"
-  },
-  {
-   "cid": "36945",
-   "course": "GUE Performance Diver",
-   "date": "October 23, 2026",
-   "iso": "2026-10-23",
-   "location": "Pintung, PingTung County, Taiwan",
-   "instructor": "Liu Yen Chun",
-   "instructor_id": "27215"
-  },
-  {
-   "cid": "36885",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "October 23, 2026",
-   "iso": "2026-10-23",
-   "location": "High Springs , Florida, United States",
-   "instructor": "Stretch Aaron Altenhein",
-   "instructor_id": "10004"
-  },
   {
    "cid": "37367",
    "course": "Doubles Primer",
@@ -560,15 +479,6 @@
    "instructor_id": "21137"
   },
   {
-   "cid": "37100",
-   "course": "GUE Technical Fundamentals",
-   "date": "October 31, 2026",
-   "iso": "2026-10-31",
-   "location": "Pingtung, PingTung County, Taiwan",
-   "instructor": "Liu Yen Chun",
-   "instructor_id": "27215"
-  },
-  {
    "cid": "36706",
    "course": "Navigation Primer",
    "date": "October 31, 2026",
@@ -648,6 +558,15 @@
    "location": "Budapest, Hungary",
    "instructor": "Jp Bresser",
    "instructor_id": "2458"
+  },
+  {
+   "cid": "37652",
+   "course": "CCR Fundamentals: JJ-CCR",
+   "date": "November 2, 2026",
+   "iso": "2026-11-02",
+   "location": "Alexandria Bay, New York, United States",
+   "instructor": "Bob Sherwood",
+   "instructor_id": "34"
   },
   {
    "cid": "36257",
@@ -765,15 +684,6 @@
    "location": "Kralendijk, Bonaire",
    "instructor": "German Arango",
    "instructor_id": "5878"
-  },
-  {
-   "cid": "36714",
-   "course": "CCR Fundamentals: Symbios",
-   "date": "November 4, 2026",
-   "iso": "2026-11-04",
-   "location": "Austin, Texas, United States",
-   "instructor": "Jason Cook",
-   "instructor_id": "24473"
   },
   {
    "cid": "37414",
@@ -1001,6 +911,24 @@
    "instructor_id": "20802"
   },
   {
+   "cid": "37668",
+   "course": "GUE Basic Fundamentals",
+   "date": "November 7, 2026",
+   "iso": "2026-11-07",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Annika Persson",
+   "instructor_id": "9662"
+  },
+  {
+   "cid": "37670",
+   "course": "GUE Performance Diver",
+   "date": "November 7, 2026",
+   "iso": "2026-11-07",
+   "location": "Hangzhou, Zhejiang, China",
+   "instructor": "Jinhui Xiong",
+   "instructor_id": "72355"
+  },
+  {
    "cid": "36389",
    "course": "Navigation Primer",
    "date": "November 7, 2026",
@@ -1143,15 +1071,6 @@
    "location": "Puerto aventuras / Akumal, Quintana Roo, Mexico",
    "instructor": "Annika Persson",
    "instructor_id": "9662"
-  },
-  {
-   "cid": "37582",
-   "course": "Technical Diver 1",
-   "date": "November 9, 2026",
-   "iso": "2026-11-09",
-   "location": "Austin, Texas, United States",
-   "instructor": "Jason Cook",
-   "instructor_id": "24473"
   },
   {
    "cid": "30702",
@@ -1343,6 +1262,15 @@
    "instructor_id": "6578"
   },
   {
+   "cid": "37671",
+   "course": "GUE Technical Fundamentals",
+   "date": "November 16, 2026",
+   "iso": "2026-11-16",
+   "location": "Tech Korea, Korea (South)",
+   "instructor": "Su Eun Kim",
+   "instructor_id": "14655"
+  },
+  {
    "cid": "35050",
    "course": "Technical Diver 1",
    "date": "November 16, 2026",
@@ -1415,24 +1343,6 @@
    "instructor_id": "23171"
   },
   {
-   "cid": "37652",
-   "course": "CCR Fundamentals: JJ-CCR",
-   "date": "November 19, 2026",
-   "iso": "2026-11-19",
-   "location": "Alexandria Bay, New York, United States",
-   "instructor": "Bob Sherwood",
-   "instructor_id": "34"
-  },
-  {
-   "cid": "37657",
-   "course": "CCR Fundamentals: JJ-CCR",
-   "date": "November 19, 2026",
-   "iso": "2026-11-19",
-   "location": "Alexandria Bay, New York, United States",
-   "instructor": "Bob Sherwood",
-   "instructor_id": "34"
-  },
-  {
    "cid": "36404",
    "course": "DPV Diver 1",
    "date": "November 19, 2026",
@@ -1467,15 +1377,6 @@
    "location": "Oslo, Norway",
    "instructor": "Gaute W Seljestad",
    "instructor_id": "67553"
-  },
-  {
-   "cid": "37380",
-   "course": "GUE Technical Fundamentals",
-   "date": "November 19, 2026",
-   "iso": "2026-11-19",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Annika Persson",
-   "instructor_id": "9662"
   },
   {
    "cid": "36434",
@@ -1755,6 +1656,15 @@
    "location": "Singapore, Singapore",
    "instructor": "Gemma Thomas",
    "instructor_id": "11724"
+  },
+  {
+   "cid": "37380",
+   "course": "GUE Technical Fundamentals",
+   "date": "November 26, 2026",
+   "iso": "2026-11-26",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Annika Persson",
+   "instructor_id": "9662"
   },
   {
    "cid": "36401",
@@ -2898,6 +2808,15 @@
    "location": "Singapore, Singapore",
    "instructor": "Gemma Thomas",
    "instructor_id": "11724"
+  },
+  {
+   "cid": "37672",
+   "course": "GUE Performance Diver",
+   "date": "January 9, 2027",
+   "iso": "2027-01-09",
+   "location": "Enschede , Netherlands",
+   "instructor": "Anne-Marie Bresser",
+   "instructor_id": "2021"
   },
   {
    "cid": "37212",
@@ -5112,6 +5031,15 @@
    "location": "Lysekil, Sweden",
    "instructor": "Per Normark",
    "instructor_id": "19962"
+  },
+  {
+   "cid": "37673",
+   "course": "GUE Basic Fundamentals",
+   "date": "May 29, 2027",
+   "iso": "2027-05-29",
+   "location": "Cala Gonone, Nuoro, Italy",
+   "instructor": "Dorota Czerny",
+   "instructor_id": "2276"
   },
   {
    "cid": "33618",

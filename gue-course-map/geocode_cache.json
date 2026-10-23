@@ -2774,5 +2774,14 @@
   "lat": null,
   "lng": null,
   "display": ""
+ },
+ "enschede , netherlands": {
+  "lat": 52.2233633,
+  "lng": 6.8705957,
+  "display": "Enschede, Overijssel, Nederland",
+  "country": "nl",
+  "matched_query": "enschede , netherlands",
+  "approx": false,
+  "verified": true
  }
 }
