@@ -2783,5 +2783,14 @@
   "matched_query": "enschede , netherlands",
   "approx": false,
   "verified": true
+ },
+ "fl, florida, united states": {
+  "lat": 28.7642649,
+  "lng": -82.0000495,
+  "display": "United States Penitentiary, Coleman II, 846, Northeast 54th Terrace, Eastport, Sumterville, Sumter County, Florida, 33521, United States",
+  "country": "us",
+  "matched_query": "fl, florida, united states",
+  "approx": false,
+  "verified": true
  }
 }
