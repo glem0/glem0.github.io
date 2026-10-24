@@ -2478,7 +2478,7 @@
           "id": "443f8062-d8b3-41ee-b3cf-78be24ab5b5c",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "North Avoca Beach"
         },
         "type": "Feature"
@@ -3549,7 +3549,7 @@
           "id": "c8fc3c50-4d0f-48c8-939a-ee100892dee8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Terrigal Beach"
         },
         "type": "Feature"
