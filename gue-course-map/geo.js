@@ -332,6 +332,7 @@ window.GUE_GEO = {
 "tulum, quintana roo, mexico":[20.42965,-87.65293],
 "tvaerminne, uusimaa, finland":[60.22467,25.12726],
 "tønsberg, vestfold, norway":[59.35498,10.28205],
+"ventimiglia, italy":[43.79176,7.60331],
 "victoria or vancouver, british columbia, canada":[55.00125,-125.00244],
 "victoria, british columbia, canada":[48.42832,-123.36495],
 "vinkeveen + enschede, netherlands":[52.21302,4.9043],

@@ -2792,5 +2792,14 @@
   "matched_query": "fl, florida, united states",
   "approx": false,
   "verified": true
+ },
+ "ventimiglia, italy": {
+  "lat": 43.7917623,
+  "lng": 7.6033131,
+  "display": "Ventimiglia, Provincia di Imperia, Liguria, Italia",
+  "country": "it",
+  "matched_query": "ventimiglia, italy",
+  "approx": false,
+  "verified": true
  }
 }
