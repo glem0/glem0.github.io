@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-10-25T06:37:32+11:00",
+ "generated_at": "2026-10-26T06:49:19+11:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-10-01",
@@ -13,7 +13,7 @@ window.__DIVE_DATA__ =
    "short": "Abyss",
    "url": "https://www.abyss.com.au/sydney-dive-calendar",
    "status": "ok",
-   "event_count": 111
+   "event_count": 138
   },
   {
    "id": "frogdive",
@@ -29,7 +29,7 @@ window.__DIVE_DATA__ =
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 245
+   "event_count": 247
   },
   {
    "id": "divesydney",
@@ -37,7 +37,7 @@ window.__DIVE_DATA__ =
    "short": "DC Manly",
    "url": "https://divesydney.com.au/dive-calendar/",
    "status": "ok",
-   "event_count": 592
+   "event_count": 587
   },
   {
    "id": "prodive",
@@ -255,15 +255,6 @@ window.__DIVE_DATA__ =
    "description": "Clifton Gardens\nDive Level Green – beginner diver friendly\nAverage Depth 8m ..."
   },
   {
-   "id": "abyss-8796ebee869a",
-   "source": "abyss",
-   "title": "Magic Point Shark Dive (sold out)",
-   "start": "2026-10-25T08:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/boat-dives",
-   "description": "$130.00 · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
-  },
-  {
    "id": "divecharters-32359611883f",
    "source": "divecharters",
    "title": "8am Sunday Double Boat Dive - Departing 0730 Little Manly / 0745 Boarding Rose Bay Public Wharf",
@@ -273,32 +264,6 @@ window.__DIVE_DATA__ =
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
-   "id": "abyss-54ddbc151f28",
-   "source": "abyss",
-   "title": "Voodoo Dive (sold out)",
-   "start": "2026-10-25T09:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
-   "description": "Guided Shore Dives · Voodoo lots of fish and unique rock formations, shore dive (18m)"
-  },
-  {
-   "id": "divesydney-8ae4d27c120b",
-   "source": "divesydney",
-   "title": "Snorkel Safari (sold out)",
-   "start": "2026-10-25T14:30+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-25&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "abyss-a3708ed0d664",
-   "source": "abyss",
-   "title": "Oak Park ND",
-   "start": "2026-10-25T18:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
-   "description": "Guided Shore Dives · Oak Park Night Dive"
-  },
-  {
    "id": "divecharters-7444b821ae86",
    "source": "divecharters",
    "title": "DSD - Discover Scuba Dive - Hire Gear Included",
@@ -306,38 +271,6 @@ window.__DIVE_DATA__ =
    "all_day": true,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-26#326@book@",
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
-  },
-  {
-   "id": "divesydney-19d0a25f333e",
-   "source": "divesydney",
-   "title": "Scuba Refresher",
-   "start": "2026-10-26T08:30+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-10-26&preferredTime=8%3A30+AM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-a8e5ca8b8d5b",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-10-26T09:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-10-26&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-be9e82dbb375",
-   "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI (sold out)",
-   "start": "2026-10-26T14:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-10-26&preferredTime=2%3A00+PM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-7870da56634f",
-   "source": "divesydney",
-   "title": "Snorkel Safari (sold out)",
-   "start": "2026-10-26T14:30+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-26&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
    "id": "divecharters-d3cb5cbad843",
@@ -357,9 +290,9 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-10-27&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-c083ce483f26",
+   "id": "divebondi-2bbb79e9b48c",
    "source": "divebondi",
-   "title": "PADI Open Water Diver Course",
+   "title": "PADI Open Water Diver Course (sold out)",
    "start": "2026-10-27T09:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-10-27&preferredTime=9%3A00+AM&catalogId=597076"
@@ -372,6 +305,14 @@ window.__DIVE_DATA__ =
    "all_day": true,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-10-28#326@book@",
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
+  },
+  {
+   "id": "divebondi-03f877cb6902",
+   "source": "divebondi",
+   "title": "Guided Shore Dive",
+   "start": "2026-10-28T09:00+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-10-28&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
    "id": "divebondi-4782e447129d",
@@ -388,14 +329,6 @@ window.__DIVE_DATA__ =
    "start": "2026-10-28T09:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=432551&preferredDate=2026-10-28&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-03f877cb6902",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-10-28T09:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-10-28&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
    "id": "divesydney-4b9a8be3ec39",
@@ -540,9 +473,17 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-10-30&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
-   "id": "divebondi-f6d97a4d21b2",
+   "id": "divebondi-d1433602abfd",
    "source": "divebondi",
-   "title": "Guided Bushrangers Bay",
+   "title": "Guided Night Dive",
+   "start": "2026-10-31T05:30+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=434402&preferredDate=2026-10-31&preferredTime=5%3A30+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-58db840eecc4",
+   "source": "divebondi",
+   "title": "Guided Bushrangers Bay (sold out)",
    "start": "2026-10-31T06:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-10-31&preferredTime=6%3A30+AM&catalogId=597076"
@@ -586,9 +527,9 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-10-31&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-e066162b2757",
+   "id": "divebondi-6ee867eec7bb",
    "source": "divebondi",
-   "title": "Guided Shore Dive",
+   "title": "Guided Shore Dive (sold out)",
    "start": "2026-10-31T08:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-10-31&preferredTime=8%3A00+AM&catalogId=597076"
@@ -700,6 +641,14 @@ window.__DIVE_DATA__ =
    "start": "2026-11-01T08:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=647260&preferredDate=2026-11-01&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-7dc7e63521dc",
+   "source": "divebondi",
+   "title": "PADI Discover Scuba Diving Experience",
+   "start": "2026-11-01T08:30+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433267&preferredDate=2026-11-01&preferredTime=8%3A30+AM&catalogId=597076"
   },
   {
    "id": "divebondi-f142f17f47be",
@@ -1045,20 +994,12 @@ window.__DIVE_DATA__ =
    "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
   },
   {
-   "id": "divebondi-f7fa7bc1198e",
+   "id": "divebondi-64709544886b",
    "source": "divebondi",
-   "title": "GUE Technical Diver 1",
+   "title": "PADI Open Water Diver Course",
    "start": "2026-11-07T08:00+11:00",
    "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=440413&preferredDate=2026-11-07&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-803c8cee40d8",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-11-07T08:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-11-07&preferredTime=8%3A00+AM&catalogId=597076"
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-11-07&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "divebondi-a72b144c54f1",
@@ -1069,12 +1010,20 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=422369&preferredDate=2026-11-07&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-64709544886b",
+   "id": "divebondi-803c8cee40d8",
    "source": "divebondi",
-   "title": "PADI Open Water Diver Course",
+   "title": "Guided Shore Dive",
    "start": "2026-11-07T08:00+11:00",
    "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-11-07&preferredTime=8%3A00+AM&catalogId=597076"
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-11-07&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-f7fa7bc1198e",
+   "source": "divebondi",
+   "title": "GUE Technical Diver 1",
+   "start": "2026-11-07T08:00+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=440413&preferredDate=2026-11-07&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "divecharters-0f14fd229c80",
@@ -1086,9 +1035,9 @@ window.__DIVE_DATA__ =
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
-   "id": "divesydney-4171a4fe58e0",
+   "id": "divesydney-698c7bc626a1",
    "source": "divesydney",
-   "title": "Scuba Refresher",
+   "title": "Scuba Refresher (sold out)",
    "start": "2026-11-07T08:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-11-07&preferredTime=8%3A30+AM&catalogId=494484"
@@ -1181,15 +1130,6 @@ window.__DIVE_DATA__ =
    "description": "Shelly Beach - Manly\nDive Level Green – beginner diver friendly\nAverage Depth ..."
   },
   {
-   "id": "abyss-912e429dbd2a",
-   "source": "abyss",
-   "title": "Magic Point Shark Dive",
-   "start": "2026-11-08T08:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/boat-dives",
-   "description": "$130.00 · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
-  },
-  {
    "id": "abyss-3cea67b25c8c",
    "source": "abyss",
    "title": "Weedy Seadragon Dive (sold out)",
@@ -1197,6 +1137,15 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/marine-marvels-dives",
    "description": "$49.00 · Marine Marvels Dives · Weedy SeaDragon up close, guided by a marine biologist."
+  },
+  {
+   "id": "abyss-912e429dbd2a",
+   "source": "abyss",
+   "title": "Magic Point Shark Dive",
+   "start": "2026-11-08T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
   },
   {
    "id": "divecharters-18f07b2167fd",
@@ -1382,6 +1331,14 @@ window.__DIVE_DATA__ =
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
+   "id": "divebondi-d82eba396144",
+   "source": "divebondi",
+   "title": "Guided Shore Dive",
+   "start": "2026-11-11T09:00+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-11-11&preferredTime=9%3A00+AM&catalogId=597076"
+  },
+  {
    "id": "divebondi-08838338dc58",
    "source": "divebondi",
    "title": "PADI Advanced Open Water Course",
@@ -1396,14 +1353,6 @@ window.__DIVE_DATA__ =
    "start": "2026-11-11T09:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-11-11&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-d82eba396144",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-11-11T09:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-11-11&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
    "id": "divesydney-c0e528f13a4c",
@@ -1526,6 +1475,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-11-13&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
+   "id": "abyss-60f66789243f",
+   "source": "abyss",
+   "title": "Shiprock & Oak Park Dive",
+   "start": "2026-11-13T10:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
+   "description": "Guided Shore Dives · Ship Rock wall and bubble cave & Oak Park shore dive (16m & 10m)"
+  },
+  {
    "id": "divesydney-502e4650889c",
    "source": "divesydney",
    "title": "Double Guided Shore Dive",
@@ -1578,9 +1536,9 @@ window.__DIVE_DATA__ =
    "description": "Fairy Bower\nDive Level Green – beginner diver friendly\nAverage Depth 6m | Max...."
   },
   {
-   "id": "abyss-32bd75b6adb3",
+   "id": "abyss-438b3e695257",
    "source": "abyss",
-   "title": "DEEP14-11-2026",
+   "title": "DEEP14-11-2026 (sold out)",
    "start": "2026-11-14T08:00+11:00",
    "all_day": false,
    "end": "2026-11-15",
@@ -1597,14 +1555,6 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
   },
   {
-   "id": "divebondi-5ab5dc7868d8",
-   "source": "divebondi",
-   "title": "PADI Rescue Diver Course",
-   "start": "2026-11-14T08:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=432551&preferredDate=2026-11-14&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-53c599248a9a",
    "source": "divebondi",
    "title": "Refresher Course",
@@ -1619,6 +1569,14 @@ window.__DIVE_DATA__ =
    "start": "2026-11-14T08:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-11-14&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-5ab5dc7868d8",
+   "source": "divebondi",
+   "title": "PADI Rescue Diver Course",
+   "start": "2026-11-14T08:00+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=432551&preferredDate=2026-11-14&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "divecharters-137ffece6aad",
@@ -2084,14 +2042,6 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · Boat Dives · Barrens Hut 30m Boat- MUST BE ADVANCED"
   },
   {
-   "id": "divebondi-318d31ec4907",
-   "source": "divebondi",
-   "title": "PADI Open Water Diver Course",
-   "start": "2026-11-21T08:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-11-21&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-39cd21e0b4c1",
    "source": "divebondi",
    "title": "Guided Shore Dive",
@@ -2106,6 +2056,14 @@ window.__DIVE_DATA__ =
    "start": "2026-11-21T08:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=422369&preferredDate=2026-11-21&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-318d31ec4907",
+   "source": "divebondi",
+   "title": "PADI Open Water Diver Course",
+   "start": "2026-11-21T08:00+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-11-21&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "divecharters-1187d1278b89",
@@ -2222,20 +2180,20 @@ window.__DIVE_DATA__ =
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
-   "id": "divebondi-eb664c43b47b",
-   "source": "divebondi",
-   "title": "Advanced Shore Dive",
-   "start": "2026-11-22T08:30+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=647260&preferredDate=2026-11-22&preferredTime=8%3A30+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-4a63aef08aba",
    "source": "divebondi",
    "title": "Dive Against Debris",
    "start": "2026-11-22T08:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=437045&preferredDate=2026-11-22&preferredTime=8%3A30+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-eb664c43b47b",
+   "source": "divebondi",
+   "title": "Advanced Shore Dive",
+   "start": "2026-11-22T08:30+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=647260&preferredDate=2026-11-22&preferredTime=8%3A30+AM&catalogId=597076"
   },
   {
    "id": "abyss-7f30da33f64a",
@@ -2372,12 +2330,12 @@ window.__DIVE_DATA__ =
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
-   "id": "divebondi-b74ee2c82bdc",
+   "id": "divebondi-14ea0578195c",
    "source": "divebondi",
-   "title": "Refresher Course",
+   "title": "PADI Rescue Diver Course",
    "start": "2026-11-25T09:00+11:00",
    "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-11-25&preferredTime=9%3A00+AM&catalogId=597076"
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=432551&preferredDate=2026-11-25&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
    "id": "divebondi-ba6c345f3576",
@@ -2388,12 +2346,12 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-11-25&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-14ea0578195c",
+   "id": "divebondi-b74ee2c82bdc",
    "source": "divebondi",
-   "title": "PADI Rescue Diver Course",
+   "title": "Refresher Course",
    "start": "2026-11-25T09:00+11:00",
    "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=432551&preferredDate=2026-11-25&preferredTime=9%3A00+AM&catalogId=597076"
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-11-25&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
    "id": "divesydney-5cfddb971916",
@@ -2577,20 +2535,20 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · Boat Dives · Henry Head – sponge garden, red Indian fish – Double Dive 12–24m"
   },
   {
-   "id": "divebondi-e0b24fea629f",
-   "source": "divebondi",
-   "title": "Refresher Course",
-   "start": "2026-11-28T08:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-11-28&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-482795ab835c",
    "source": "divebondi",
    "title": "Guided Shore Dive",
    "start": "2026-11-28T08:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-11-28&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-e0b24fea629f",
+   "source": "divebondi",
+   "title": "Refresher Course",
+   "start": "2026-11-28T08:00+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-11-28&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
    "id": "divecharters-5a55c905d4ba",
@@ -2769,9 +2727,9 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-11-29&preferredTime=2%3A00+PM&catalogId=494484"
   },
   {
-   "id": "divesydney-8c223c3feb7b",
+   "id": "divesydney-cbdb43b2cc4d",
    "source": "divesydney",
-   "title": "Snorkelling Introduction",
+   "title": "Snorkelling Introduction (sold out)",
    "start": "2026-11-29T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=471705&preferredDate=2026-11-29&preferredTime=2%3A30+PM&catalogId=494484"
@@ -5038,6 +4996,15 @@ window.__DIVE_DATA__ =
    "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
   },
   {
+   "id": "abyss-a474ee34660e",
+   "source": "abyss",
+   "title": "Barrens Hut Boat Dive",
+   "start": "2027-01-02T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Barrens Hut 30m Boat- MUST BE ADVANCED"
+  },
+  {
    "id": "divebondi-f1666cd4a0f2",
    "source": "divebondi",
    "title": "PADI Open Water Diver Course",
@@ -5112,6 +5079,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-02&preferredTime=10%3A30+AM&catalogId=494484"
   },
   {
+   "id": "abyss-4ef388ddf67d",
+   "source": "abyss",
+   "title": "Osborn Shoals Dive",
+   "start": "2027-01-02T12:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Osborn Shoals – groper, morwong, cuttlefish – Double Dive 18–24m"
+  },
+  {
    "id": "divesydney-a6a41c49822b",
    "source": "divesydney",
    "title": "Discover Scuba Diving - PADI (sold out)",
@@ -5134,6 +5110,15 @@ window.__DIVE_DATA__ =
    "start": "2027-01-03T06:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2027-01-03&preferredTime=6%3A30+AM&catalogId=597076"
+  },
+  {
+   "id": "abyss-d2dc17b39158",
+   "source": "abyss",
+   "title": "Madic Point Shark Dive",
+   "start": "2027-01-03T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
   },
   {
    "id": "divecharters-fb562db0c5cf",
@@ -5208,6 +5193,15 @@ window.__DIVE_DATA__ =
    "start": "2027-01-03T10:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-03&preferredTime=10%3A30+AM&catalogId=494484"
+  },
+  {
+   "id": "abyss-0dfb7961303e",
+   "source": "abyss",
+   "title": "Hilda Wreck Boat Dive",
+   "start": "2027-01-03T12:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Hilda Wreck - Boat 25m"
   },
   {
    "id": "divesydney-236166ace507",
@@ -5647,6 +5641,15 @@ window.__DIVE_DATA__ =
    "description": "$599.00 · PADI Rescue Diver Course | Enhance Safety & Confidence in Diving · Rescue Diver"
   },
   {
+   "id": "abyss-a443b1ca22f3",
+   "source": "abyss",
+   "title": "Henry Head Boat Dive",
+   "start": "2027-01-09T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Henry Head – sponge garden, red Indian fish – Double Dive 12–24m"
+  },
+  {
    "id": "divebondi-fbdc51a47618",
    "source": "divebondi",
    "title": "Refresher Course",
@@ -5688,6 +5691,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2027-01-09&preferredTime=8%3A30+AM&catalogId=494484"
   },
   {
+   "id": "abyss-3e6df1475025",
+   "source": "abyss",
+   "title": "Sutherland Point Dive",
+   "start": "2027-01-09T09:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
+   "description": "Guided Shore Dives · Sutherland Point easy entry, weedy sea dragons shore dive (14m)"
+  },
+  {
    "id": "divesydney-be7e902d1115",
    "source": "divesydney",
    "title": "Double Guided Shore Dive",
@@ -5710,6 +5722,15 @@ window.__DIVE_DATA__ =
    "start": "2027-01-09T10:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-09&preferredTime=10%3A30+AM&catalogId=494484"
+  },
+  {
+   "id": "abyss-cd13b9027c00",
+   "source": "abyss",
+   "title": "Magic Point Shark Dive",
+   "start": "2027-01-09T12:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
   },
   {
    "id": "divesydney-bb64b33a014e",
@@ -5736,6 +5757,15 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2027-01-10&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
+   "id": "abyss-1d309953c8fd",
+   "source": "abyss",
+   "title": "Whale Watching Platform Dive",
+   "start": "2027-01-10T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Whale Watch Platform: reef south of bay 18–25m"
+  },
+  {
    "id": "divecharters-82c4fdb0b549",
    "source": "divecharters",
    "title": "8am Sunday Double Boat Dive - Departing 0730 Little Manly / 0745 Boarding Rose Bay Public Wharf",
@@ -5751,6 +5781,15 @@ window.__DIVE_DATA__ =
    "start": "2027-01-10T08:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2027-01-10&preferredTime=8%3A30+AM&catalogId=494484"
+  },
+  {
+   "id": "abyss-f057b3a78b27",
+   "source": "abyss",
+   "title": "Shiprock & Oak Park Dive",
+   "start": "2027-01-10T09:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
+   "description": "Guided Shore Dives · Ship Rock wall and bubble cave & Oak Park shore dive (16m & 10m)"
   },
   {
    "id": "divebondi-01c9fc493680",
@@ -5791,6 +5830,15 @@ window.__DIVE_DATA__ =
    "start": "2027-01-10T10:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-10&preferredTime=10%3A30+AM&catalogId=494484"
+  },
+  {
+   "id": "abyss-51878836e793",
+   "source": "abyss",
+   "title": "Voodoo Wide Boat Dive",
+   "start": "2027-01-10T12:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Voodoo – ocean-facing reef, plenty of fish – Double Dive 25–35m"
   },
   {
    "id": "divesydney-467f568e6761",
@@ -6138,6 +6186,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2027-01-15&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
+   "id": "abyss-ced68d43bfe0",
+   "source": "abyss",
+   "title": "Leap to Steps Drift Dive",
+   "start": "2027-01-15T10:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
+   "description": "Guided Shore Dives · Leap to steps Drift for confident divers shore dive (18-22m)"
+  },
+  {
    "id": "divesydney-52551a5f7871",
    "source": "divesydney",
    "title": "Double Guided Shore Dive",
@@ -6176,6 +6233,15 @@ window.__DIVE_DATA__ =
    "start": "2027-01-16T06:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2027-01-16&preferredTime=6%3A30+AM&catalogId=597076"
+  },
+  {
+   "id": "abyss-6906d3b2548f",
+   "source": "abyss",
+   "title": "Dragons Lair Boat Dive",
+   "start": "2027-01-16T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Dragon\\'s Lair - renowned for weedy Seadragons"
   },
   {
    "id": "divebondi-f9d4070c7d20",
@@ -6219,6 +6285,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2027-01-16&preferredTime=8%3A30+AM&catalogId=494484"
   },
   {
+   "id": "abyss-7bc6fe1e28a4",
+   "source": "abyss",
+   "title": "Leap to Steps Drift Dive",
+   "start": "2027-01-16T09:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
+   "description": "Guided Shore Dives · Leap to steps Drift for confident divers shore dive (18-22m)"
+  },
+  {
    "id": "divesydney-96a40621c242",
    "source": "divesydney",
    "title": "Double Guided Shore Dive",
@@ -6241,6 +6316,15 @@ window.__DIVE_DATA__ =
    "start": "2027-01-16T10:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-16&preferredTime=10%3A30+AM&catalogId=494484"
+  },
+  {
+   "id": "abyss-894bd4af5ce3",
+   "source": "abyss",
+   "title": "Big Saigon Boat Dive",
+   "start": "2027-01-16T12:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Big Siagon 18m Boat dive rock wall and boulders"
   },
   {
    "id": "divesydney-1e3ddb69b79b",
@@ -6267,6 +6351,15 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2027-01-17&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
+   "id": "abyss-551c5b213b02",
+   "source": "abyss",
+   "title": "Magic Point Shark Dive",
+   "start": "2027-01-17T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
+  },
+  {
    "id": "divecharters-7dba5b5f5c4f",
    "source": "divecharters",
    "title": "8am Sunday Double Boat Dive - Departing 0730 Little Manly / 0745 Boarding Rose Bay Public Wharf",
@@ -6290,6 +6383,15 @@ window.__DIVE_DATA__ =
    "start": "2027-01-17T08:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2027-01-17&preferredTime=8%3A30+AM&catalogId=494484"
+  },
+  {
+   "id": "abyss-1314929224ea",
+   "source": "abyss",
+   "title": "Oak Park Dive",
+   "start": "2027-01-17T09:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
+   "description": "Guided Shore Dives · Oak Park at Cronulla big blue groper shore dive (10m)"
   },
   {
    "id": "divebondi-a50873755638",
@@ -6322,6 +6424,15 @@ window.__DIVE_DATA__ =
    "start": "2027-01-17T10:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-17&preferredTime=10%3A30+AM&catalogId=494484"
+  },
+  {
+   "id": "abyss-130e119febc9",
+   "source": "abyss",
+   "title": "Henry Head Boat Dive",
+   "start": "2027-01-17T12:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Henry Head – sponge garden, red Indian fish – Double Dive 12–24m"
   },
   {
    "id": "divesydney-046e85977b6f",
@@ -6723,6 +6834,15 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2027-01-23&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
+   "id": "abyss-c4c40c0e040e",
+   "source": "abyss",
+   "title": "Henry Head Boat Dive",
+   "start": "2027-01-23T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Henry Head – sponge garden, red Indian fish – Double Dive 12–24m"
+  },
+  {
    "id": "divebondi-d78eadef39c1",
    "source": "divebondi",
    "title": "Guided Shore Dive",
@@ -6772,6 +6892,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2027-01-23&preferredTime=8%3A30+AM&catalogId=494484"
   },
   {
+   "id": "abyss-a44e7883d6e6",
+   "source": "abyss",
+   "title": "Sutherland Point Dive",
+   "start": "2027-01-23T09:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
+   "description": "Guided Shore Dives · Sutherland Point easy entry, weedy sea dragons shore dive (14m)"
+  },
+  {
    "id": "divesydney-2c798b560027",
    "source": "divesydney",
    "title": "Double Guided Shore Dive",
@@ -6796,6 +6925,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-23&preferredTime=10%3A30+AM&catalogId=494484"
   },
   {
+   "id": "abyss-2b98a84494bb",
+   "source": "abyss",
+   "title": "Magic Point Shark Dive",
+   "start": "2027-01-23T12:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
+  },
+  {
    "id": "divesydney-a5e9876497a6",
    "source": "divesydney",
    "title": "Discover Scuba Diving - PADI",
@@ -6818,6 +6956,15 @@ window.__DIVE_DATA__ =
    "start": "2027-01-24T06:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2027-01-24&preferredTime=6%3A30+AM&catalogId=597076"
+  },
+  {
+   "id": "abyss-277956a685d5",
+   "source": "abyss",
+   "title": "Tuggerah Technical Dive",
+   "start": "2027-01-24T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/tech-boat-dives",
+   "description": "$120.00 · Tech Boat Dives · SS Tuggerah - 46m Tec Must be Tec certified, Sans Souci pick up"
   },
   {
    "id": "divecharters-6b27eb96d9a6",
@@ -6845,6 +6992,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2027-01-24&preferredTime=8%3A30+AM&catalogId=494484"
   },
   {
+   "id": "abyss-55ec75fb4b6c",
+   "source": "abyss",
+   "title": "Shiprock & Oak Park Dive",
+   "start": "2027-01-24T09:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
+   "description": "Guided Shore Dives · Ship Rock wall and bubble cave & Oak Park shore dive (16m & 10m)"
+  },
+  {
    "id": "divesydney-26d8a341b853",
    "source": "divesydney",
    "title": "Double Guided Shore Dive",
@@ -6867,6 +7023,15 @@ window.__DIVE_DATA__ =
    "start": "2027-01-24T10:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-24&preferredTime=10%3A30+AM&catalogId=494484"
+  },
+  {
+   "id": "abyss-1a31098ca4bd",
+   "source": "abyss",
+   "title": "Osborn Shoals Boat Dive",
+   "start": "2027-01-24T12:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Osborn Shoals – groper, morwong, cuttlefish – Double Dive 18–24m"
   },
   {
    "id": "divesydney-68d52908ac53",
@@ -7187,6 +7352,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2027-01-29&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
+   "id": "abyss-78770b6afb9b",
+   "source": "abyss",
+   "title": "Leap to Steps Drift Dive",
+   "start": "2027-01-29T10:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
+   "description": "Guided Shore Dives · Leap to steps Drift for confident divers shore dive (18-22m)"
+  },
+  {
    "id": "divesydney-8b433d8b3e3e",
    "source": "divesydney",
    "title": "Double Guided Shore Dive",
@@ -7247,6 +7421,15 @@ window.__DIVE_DATA__ =
    "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
   },
   {
+   "id": "abyss-19eb49caf9fa",
+   "source": "abyss",
+   "title": "Magic Point Shark Dive",
+   "start": "2027-01-30T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
+  },
+  {
    "id": "divebondi-027385cd8745",
    "source": "divebondi",
    "title": "PADI Open Water Diver Course",
@@ -7280,6 +7463,15 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2027-01-30&preferredTime=8%3A30+AM&catalogId=494484"
   },
   {
+   "id": "abyss-a7c35c4a0181",
+   "source": "abyss",
+   "title": "Leap to Steps Drift Dive",
+   "start": "2027-01-30T09:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
+   "description": "Guided Shore Dives · Leap to steps Drift for confident divers shore dive (18-22m)"
+  },
+  {
    "id": "divesydney-42d9ea01d27f",
    "source": "divesydney",
    "title": "Double Guided Shore Dive",
@@ -7302,6 +7494,15 @@ window.__DIVE_DATA__ =
    "start": "2027-01-30T10:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-30&preferredTime=10%3A30+AM&catalogId=494484"
+  },
+  {
+   "id": "abyss-cecd17ba24bb",
+   "source": "abyss",
+   "title": "Barrens Hut Boat Dive",
+   "start": "2027-01-30T12:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Barrens Hut 30m Boat- MUST BE ADVANCED"
   },
   {
    "id": "divesydney-43489580c6d6",
@@ -7328,6 +7529,15 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2027-01-31&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
+   "id": "abyss-4e1760077d02",
+   "source": "abyss",
+   "title": "Magic Point Shark Dive",
+   "start": "2027-01-31T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/boat-dives",
+   "description": "$130.00 · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
+  },
+  {
    "id": "divecharters-93b7963de4fe",
    "source": "divecharters",
    "title": "8am Sunday Double Boat Dive - Departing 0730 Little Manly / 0745 Boarding Rose Bay Public Wharf",
@@ -7351,6 +7561,15 @@ window.__DIVE_DATA__ =
    "start": "2027-01-31T08:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2027-01-31&preferredTime=8%3A30+AM&catalogId=494484"
+  },
+  {
+   "id": "abyss-37d022b5ba35",
+   "source": "abyss",
+   "title": "Oak Park Dive",
+   "start": "2027-01-31T09:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
+   "description": "Guided Shore Dives · Oak Park at Cronulla big blue groper shore dive (10m)"
   },
   {
    "id": "divebondi-318ba3d18d06",
