@@ -5,7 +5,7 @@
 "fetchedAt":"2026-09-20T05:43:46.039Z",
 "durationMs":195493,
 "count":5013,
-"error":"HTTP 403 for https://www.scubadoctor.com.au/diveshop/ajax_search.php: <!DOCTYPE html> <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 7]> <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]--> <!--[if IE 8]> <html class=\"no-",
+"error":"HTTP 403 for https://www.scubadoctor.com.au/diveshop/ajax_search.php: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta nam",
 "staleSince":"2026-09-20T05:43:46.039Z",
 "base":{"url":"https://www.scubadoctor.com.au/diveshop/index.php?main_page=product_info&products_id=","image":"https://www.scubadoctor.com.au/diveshop/images/"},
 "products":[
