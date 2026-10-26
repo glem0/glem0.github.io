@@ -2801,5 +2801,23 @@
   "matched_query": "ventimiglia, italy",
   "approx": false,
   "verified": true
+ },
+ "hilden, germany": {
+  "lat": 51.1674417,
+  "lng": 6.9307271,
+  "display": "Hilden, Kreis Mettmann, Nordrhein-Westfalen, Deutschland",
+  "country": "de",
+  "matched_query": "hilden, germany",
+  "approx": false,
+  "verified": true
+ },
+ "third dimension diving, quintana roo, mexico": {
+  "lat": 19.6666671,
+  "lng": -88.5000001,
+  "display": "Quintana Roo, México",
+  "country": "mx",
+  "matched_query": "quintana roo, mexico",
+  "approx": true,
+  "verified": true
  }
 }
