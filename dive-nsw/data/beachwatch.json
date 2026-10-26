@@ -302,7 +302,7 @@
           "id": "7f2de7a4-bbe9-4a13-8285-ffcc81fb9f10",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Blue Lagoon"
         },
         "type": "Feature"
@@ -1016,7 +1016,7 @@
           "id": "59245001-2685-498f-b47c-d66437c282f4",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Corrimal Beach"
         },
         "type": "Feature"
@@ -1067,7 +1067,7 @@
           "id": "b26de7f7-65b8-4f72-b954-991ddbacb3e9",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Davidson Reserve"
         },
         "type": "Feature"
@@ -1133,8 +1133,8 @@
         },
         "properties": {
           "id": "5ed93442-6ffd-4445-bfb8-1a2d16992400",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Unlikely",
           "siteName": "Dolls Point Baths"
         },
@@ -1337,8 +1337,8 @@
         },
         "properties": {
           "id": "988c4cd3-eeff-4d2d-813c-2731490b0f01",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Likely",
           "siteName": "Foreshore Beach"
         },
@@ -2663,8 +2663,8 @@
         },
         "properties": {
           "id": "f4785861-61c1-4acb-b841-2609962ed0c7",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Oatley Bay Baths"
         },
@@ -3600,7 +3600,7 @@
           "id": "193ba507-3561-4a7b-a641-2d94cd6eb00a",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "The Entrance Beach"
         },
         "type": "Feature"
