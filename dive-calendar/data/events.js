@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-10-26T06:49:19+11:00",
+ "generated_at": "2026-10-27T08:44:22+11:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-10-01",
@@ -29,7 +29,7 @@ window.__DIVE_DATA__ =
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 247
+   "event_count": 245
   },
   {
    "id": "divesydney",
@@ -282,22 +282,6 @@ window.__DIVE_DATA__ =
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
-   "id": "divebondi-e96a52736387",
-   "source": "divebondi",
-   "title": "Guided Bushrangers Bay",
-   "start": "2026-10-27T06:30+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-10-27&preferredTime=6%3A30+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-2bbb79e9b48c",
-   "source": "divebondi",
-   "title": "PADI Open Water Diver Course (sold out)",
-   "start": "2026-10-27T09:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-10-27&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "divecharters-1b0141d60522",
    "source": "divecharters",
    "title": "DSD - Discover Scuba Dive - Hire Gear Included",
@@ -315,9 +299,9 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-10-28&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-4782e447129d",
+   "id": "divebondi-7ab846be0484",
    "source": "divebondi",
-   "title": "Refresher Course",
+   "title": "Refresher Course (sold out)",
    "start": "2026-10-28T09:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-10-28&preferredTime=9%3A00+AM&catalogId=597076"
@@ -499,9 +483,9 @@ window.__DIVE_DATA__ =
    "description": "$549.00 · Forster Weekend · Weekend adventure with grey nurse sharks, seals and scenic reefs"
   },
   {
-   "id": "frogdive-02f8c97b433c",
+   "id": "frogdive-da76e9843afc",
    "source": "frogdive",
-   "title": "SHORE DIVE FAIRY BOWER",
+   "title": "SHORE DIVE FULL",
    "start": "2026-10-31T07:45+11:00",
    "all_day": false,
    "end": "2026-10-31T08:15+11:00",
@@ -577,9 +561,9 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-10-31&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
-   "id": "divesydney-ee33b35a435d",
+   "id": "divesydney-567bee47a012",
    "source": "divesydney",
-   "title": "Double Guided Shore Dive",
+   "title": "Double Guided Shore Dive (sold out)",
    "start": "2026-10-31T10:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-10-31&preferredTime=10%3A00+AM&catalogId=494484"
@@ -1035,9 +1019,9 @@ window.__DIVE_DATA__ =
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
-   "id": "divesydney-698c7bc626a1",
+   "id": "divesydney-4171a4fe58e0",
    "source": "divesydney",
-   "title": "Scuba Refresher (sold out)",
+   "title": "Scuba Refresher",
    "start": "2026-11-07T08:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-11-07&preferredTime=8%3A30+AM&catalogId=494484"
@@ -1639,9 +1623,9 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · Boat Dives · Bypass Reef – 30m deep reef with sponge gardens & schooling fish."
   },
   {
-   "id": "divesydney-ff2cc504eb20",
+   "id": "divesydney-9c66d3485487",
    "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
+   "title": "Discover Scuba Diving - PADI (sold out)",
    "start": "2026-11-14T14:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-11-14&preferredTime=2%3A00+PM&catalogId=494484"
@@ -2471,9 +2455,9 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-11-27&preferredTime=10%3A00+AM&catalogId=494484"
   },
   {
-   "id": "divesydney-4535451067a1",
+   "id": "divesydney-01e71847439e",
    "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
+   "title": "Discover Scuba Diving - PADI (sold out)",
    "start": "2026-11-27T14:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-11-27&preferredTime=2%3A00+PM&catalogId=494484"
