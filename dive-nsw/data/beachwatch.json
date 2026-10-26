@@ -317,8 +317,8 @@
         },
         "properties": {
           "id": "8990825d-b48c-443f-9047-862a0b986621",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Possible",
           "siteName": "Boat Harbour"
         },
@@ -2767,7 +2767,7 @@
           "id": "a04458a2-3e39-4005-b4a9-f8822fb66781",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Pearl Beach"
         },
         "type": "Feature"
@@ -2886,7 +2886,7 @@
           "id": "95c134b2-a834-4651-865c-03f6c9f4a54e",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Queenscliff Beach"
         },
         "type": "Feature"
