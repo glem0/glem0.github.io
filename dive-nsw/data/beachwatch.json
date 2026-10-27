@@ -268,7 +268,7 @@
           "id": "14c273e9-b456-4828-b430-47c654f671b7",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Likely",
           "siteName": "Blacksmiths Beach"
         },
         "type": "Feature"
@@ -659,7 +659,7 @@
           "id": "20f9b957-2a52-4047-9a63-2fcbc425ef3c",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Likely",
           "siteName": "Caves Beach"
         },
         "type": "Feature"
@@ -2665,7 +2665,7 @@
           "id": "f4785861-61c1-4acb-b841-2609962ed0c7",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Oatley Bay Baths"
         },
         "type": "Feature"
@@ -3481,7 +3481,7 @@
           "id": "e76d87f3-90d9-47aa-b71f-90cda6b6374b",
           "latestResult": "Bad",
           "latestResultRating": 1,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Likely",
           "siteName": "Swansea Heads Little Beach"
         },
         "type": "Feature"
