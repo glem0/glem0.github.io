@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-10-27T08:44:22+11:00",
+ "generated_at": "2026-10-28T08:26:21+11:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-10-01",
@@ -13,7 +13,7 @@ window.__DIVE_DATA__ =
    "short": "Abyss",
    "url": "https://www.abyss.com.au/sydney-dive-calendar",
    "status": "ok",
-   "event_count": 138
+   "event_count": 137
   },
   {
    "id": "frogdive",
@@ -29,7 +29,7 @@ window.__DIVE_DATA__ =
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 245
+   "event_count": 242
   },
   {
    "id": "divesydney",
@@ -37,7 +37,7 @@ window.__DIVE_DATA__ =
    "short": "DC Manly",
    "url": "https://divesydney.com.au/dive-calendar/",
    "status": "ok",
-   "event_count": 587
+   "event_count": 586
   },
   {
    "id": "prodive",
@@ -291,46 +291,6 @@ window.__DIVE_DATA__ =
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
-   "id": "divebondi-03f877cb6902",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-10-28T09:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-10-28&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-7ab846be0484",
-   "source": "divebondi",
-   "title": "Refresher Course (sold out)",
-   "start": "2026-10-28T09:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-10-28&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-eafeb1e4d218",
-   "source": "divebondi",
-   "title": "PADI Rescue Diver Course",
-   "start": "2026-10-28T09:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=432551&preferredDate=2026-10-28&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divesydney-4b9a8be3ec39",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-10-28T09:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-10-28&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-432dcccdd7ae",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-10-28T10:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-10-28&preferredTime=10%3A00+AM&catalogId=494484"
-  },
-  {
    "id": "divesydney-d37ba2b4cb27",
    "source": "divesydney",
    "title": "Snorkel Safari",
@@ -503,9 +463,9 @@ window.__DIVE_DATA__ =
    "description": "$130.00 · Boat Dives · Henry Head – sponge garden, red Indian fish – Double Dive 12–24m"
   },
   {
-   "id": "divebondi-ad7c7506ae5c",
+   "id": "divebondi-5da34d382a7e",
    "source": "divebondi",
-   "title": "Refresher Course (sold out)",
+   "title": "Refresher Course",
    "start": "2026-10-31T08:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-10-31&preferredTime=8%3A00+AM&catalogId=597076"
@@ -682,15 +642,6 @@ window.__DIVE_DATA__ =
    "start": "2026-11-01T10:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-11-01&preferredTime=10%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "abyss-bb2d8aef5177",
-   "source": "abyss",
-   "title": "Henry Head Boat Dive",
-   "start": "2026-11-01T12:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/boat-dives",
-   "description": "$130.00 · Boat Dives · Henry Head – sponge garden, red Indian fish – Double Dive 12–24m"
   },
   {
    "id": "divesydney-aa003c7359e3",
@@ -1673,6 +1624,14 @@ window.__DIVE_DATA__ =
    "start": "2026-11-15T08:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=647260&preferredDate=2026-11-15&preferredTime=8%3A00+AM&catalogId=597076"
+  },
+  {
+   "id": "divesydney-6fd372a9b59b",
+   "source": "divesydney",
+   "title": "Photography Double Guided Shore Dive",
+   "start": "2026-11-15T08:00+11:00",
+   "all_day": false,
+   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=674734&preferredDate=2026-11-15&preferredTime=8%3A00+AM&catalogId=494484"
   },
   {
    "id": "divecharters-c897e60952fb",
