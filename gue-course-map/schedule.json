@@ -1,51 +1,6 @@
 {
- "updated": "2026-10-26T21:50:04Z",
+ "updated": "2026-10-27T21:27:47Z",
  "classes": [
-  {
-   "cid": "37416",
-   "course": "Cave Diver 1",
-   "date": "October 27, 2026",
-   "iso": "2026-10-27",
-   "location": "Cala Gonone, Italy",
-   "instructor": "Ricardo Constantino",
-   "instructor_id": "1591"
-  },
-  {
-   "cid": "35061",
-   "course": "DPV Diver 1",
-   "date": "October 27, 2026",
-   "iso": "2026-10-27",
-   "location": "Tenerife, Spain",
-   "instructor": "Ricardo Constantino",
-   "instructor_id": "1591"
-  },
-  {
-   "cid": "37519",
-   "course": "Doubles Primer",
-   "date": "October 27, 2026",
-   "iso": "2026-10-27",
-   "location": "Richmond Hill, Ontario, Canada",
-   "instructor": "Heison Chak",
-   "instructor_id": "13808"
-  },
-  {
-   "cid": "37638",
-   "course": "GUE Performance Diver",
-   "date": "October 27, 2026",
-   "iso": "2026-10-27",
-   "location": "SHANGHAI, China",
-   "instructor": "Feiming Cheng",
-   "instructor_id": "68591"
-  },
-  {
-   "cid": "37520",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "October 27, 2026",
-   "iso": "2026-10-27",
-   "location": "Richmond Hill, Ontario, Canada",
-   "instructor": "Heison Chak",
-   "instructor_id": "13808"
-  },
   {
    "cid": "35736",
    "course": "GUE Basic Fundamentals",
@@ -117,15 +72,6 @@
    "location": "foshan, Guangdong, China",
    "instructor": "Huang Weiqi",
    "instructor_id": "23052"
-  },
-  {
-   "cid": "36819",
-   "course": "CCR Fundamentals: JJ-CCR",
-   "date": "October 31, 2026",
-   "iso": "2026-10-31",
-   "location": "Lysekil, Sweden",
-   "instructor": "Per Normark",
-   "instructor_id": "19962"
   },
   {
    "cid": "36062",
@@ -270,6 +216,15 @@
    "location": "Singapore, Singapore",
    "instructor": "Zicong Wang",
    "instructor_id": "73430"
+  },
+  {
+   "cid": "37693",
+   "course": "Doubles Primer",
+   "date": "November 1, 2026",
+   "iso": "2026-11-01",
+   "location": "XR Explorers, Al Kuwayt, Kuwait",
+   "instructor": "Yehia Ahmed",
+   "instructor_id": "68430"
   },
   {
    "cid": "36989",
@@ -434,15 +389,6 @@
    "instructor_id": "27088"
   },
   {
-   "cid": "37384",
-   "course": "GUE Performance Diver",
-   "date": "November 4, 2026",
-   "iso": "2026-11-04",
-   "location": "Lysekil, Sweden",
-   "instructor": "Per Normark",
-   "instructor_id": "19962"
-  },
-  {
    "cid": "37351",
    "course": "Rescue Primer",
    "date": "November 4, 2026",
@@ -567,15 +513,6 @@
    "location": "LAPULAPU, Cebu, Philippines",
    "instructor": "Lee Jong Moon",
    "instructor_id": "20356"
-  },
-  {
-   "cid": "36820",
-   "course": "DPV Diver 1",
-   "date": "November 6, 2026",
-   "iso": "2026-11-06",
-   "location": "Lysekil, Sweden",
-   "instructor": "Per Normark",
-   "instructor_id": "19962"
   },
   {
    "cid": "37440",
@@ -720,6 +657,15 @@
    "location": "Oita, Oita, Japan",
    "instructor": "Jon Kieren",
    "instructor_id": "13618"
+  },
+  {
+   "cid": "37692",
+   "course": "DPV Diver 1",
+   "date": "November 8, 2026",
+   "iso": "2026-11-08",
+   "location": "Tilburg, Noord-Brabant, Netherlands",
+   "instructor": "Martijn Blommaert",
+   "instructor_id": "8532"
   },
   {
    "cid": "37563",
@@ -1676,6 +1622,15 @@
    "instructor_id": "73393"
   },
   {
+   "cid": "37658",
+   "course": "GUE Basic Fundamentals",
+   "date": "December 4, 2026",
+   "iso": "2026-12-04",
+   "location": "Santa Clara/Monterey, California, United States",
+   "instructor": "Alberto Nava",
+   "instructor_id": "2073"
+  },
+  {
    "cid": "36267",
    "course": "Upgrade to CCR Tech 1: JJ-CCR",
    "date": "December 4, 2026",
@@ -1872,6 +1827,15 @@
    "location": "Foshan, China",
    "instructor": "Huang Weiqi",
    "instructor_id": "23052"
+  },
+  {
+   "cid": "37659",
+   "course": "GUE Basic Fundamentals",
+   "date": "December 11, 2026",
+   "iso": "2026-12-11",
+   "location": "Santa Clara/Monterey, California, United States",
+   "instructor": "Alberto Nava",
+   "instructor_id": "2073"
   },
   {
    "cid": "37436",
@@ -2225,6 +2189,15 @@
    "instructor_id": "20747"
   },
   {
+   "cid": "37698",
+   "course": "GUE Performance Diver",
+   "date": "December 21, 2026",
+   "iso": "2026-12-21",
+   "location": "High Springs, Florida, United States",
+   "instructor": "Jon Kieren",
+   "instructor_id": "13618"
+  },
+  {
    "cid": "37422",
    "course": "GUE Performance Diver",
    "date": "December 21, 2026",
@@ -2232,6 +2205,15 @@
    "location": "Third Dimension Diving, Tulum, Quintana Roo, Mexico",
    "instructor": "Ivo Chiarino",
    "instructor_id": "21332"
+  },
+  {
+   "cid": "37694",
+   "course": "Open Water Diver",
+   "date": "December 21, 2026",
+   "iso": "2026-12-21",
+   "location": "Bangkok, Bangkok , Thailand",
+   "instructor": "Sanya Lohitnavy",
+   "instructor_id": "3674"
   },
   {
    "cid": "37471",
@@ -2837,15 +2819,6 @@
    "instructor_id": "11724"
   },
   {
-   "cid": "36127",
-   "course": "GUE Basic Fundamentals",
-   "date": "January 18, 2027",
-   "iso": "2027-01-18",
-   "location": "Dauin, Philippines",
-   "instructor": "Per Normark",
-   "instructor_id": "19962"
-  },
-  {
    "cid": "37540",
    "course": "GUE Basic Fundamentals",
    "date": "January 18, 2027",
@@ -2945,15 +2918,6 @@
    "instructor_id": "20747"
   },
   {
-   "cid": "36128",
-   "course": "DPV Diver 1",
-   "date": "January 25, 2027",
-   "iso": "2027-01-25",
-   "location": "Dauin, Philippines",
-   "instructor": "Per Normark",
-   "instructor_id": "19962"
-  },
-  {
    "cid": "37687",
    "course": "Drysuit Primer",
    "date": "January 25, 2027",
@@ -3042,15 +3006,6 @@
    "location": "Radstock, Somerset, United Kingdom",
    "instructor": "Neil Powell",
    "instructor_id": "15389"
-  },
-  {
-   "cid": "36129",
-   "course": "CCR Fundamentals: JJ-CCR",
-   "date": "February 1, 2027",
-   "iso": "2027-02-01",
-   "location": "Dauin, Philippines",
-   "instructor": "Per Normark",
-   "instructor_id": "19962"
   },
   {
    "cid": "37462",
@@ -4194,6 +4149,15 @@
    "location": "Cala Gonone, Nuoro, Italy",
    "instructor": "Zsolt Szilagyi",
    "instructor_id": "1444"
+  },
+  {
+   "cid": "37697",
+   "course": "CCR Technical Diver 1: JJ-CCR",
+   "date": "April 6, 2027",
+   "iso": "2027-04-06",
+   "location": "Finale Ligure, Savona, Italy",
+   "instructor": "Graham Blackmore",
+   "instructor_id": "895"
   },
   {
    "cid": "35992",

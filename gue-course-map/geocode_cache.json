@@ -2819,5 +2819,14 @@
   "matched_query": "quintana roo, mexico",
   "approx": true,
   "verified": true
+ },
+ "xr explorers, al kuwayt, kuwait": {
+  "lat": 29.3796532,
+  "lng": 47.9734174,
+  "display": "مدينة الكويت, القبلة, محافظة العاصمة, 15005, الكويت",
+  "country": "kw",
+  "matched_query": "al kuwayt, kuwait",
+  "approx": true,
+  "verified": true
  }
 }

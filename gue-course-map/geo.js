@@ -350,6 +350,7 @@ window.GUE_GEO = {
 "wittenberge, brandenburg, germany":[53.01129,11.73743],
 "xiaoliuqiu, pingtung county, taiwan":[22.33872,120.3712],
 "xlendi gozo, malta":[36.0312,14.21827],
+"xr explorers, al kuwayt, kuwait":[29.37965,47.97342],
 "xr explorers, kuwait":[29.37965,47.97342],
 "yang yang, korea (south)":[37.52297,127.04048],
 "yang-yang gun, kangwon-do, korea (south)":[38.05982,128.66725],
