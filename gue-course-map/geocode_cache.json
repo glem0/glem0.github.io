@@ -2828,5 +2828,15 @@
   "matched_query": "al kuwayt, kuwait",
   "approx": true,
   "verified": true
+ },
+ "pusan, pusan-gwangyoksi, korea (south)": {
+  "lat": 35.1799528,
+  "lng": 129.0752365,
+  "display": "부산광역시, 대한민국",
+  "country": "kr",
+  "matched_query": "busan, korea (south)",
+  "approx": false,
+  "verified": true,
+  "alias_of": "busan, pusan-gwangyoksi, korea (south)"
  }
 }

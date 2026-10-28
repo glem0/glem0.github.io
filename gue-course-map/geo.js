@@ -238,6 +238,7 @@ window.GUE_GEO = {
 "puertp aventuras, mexico":[20.50667,-87.23006],
 "puidoux, switzerland":[46.50081,6.78239],
 "pula, croatia":[44.87023,13.84553],
+"pusan, pusan-gwangyoksi, korea (south)":[35.17995,129.07524],
 "qiandao lake, zhejiang, china":[29.56937,119.06999],
 "quartu s. elena, cagliari, italy":[39.26234,9.17462],
 "radstock, somerset, united kingdom":[51.29195,-2.44762],
