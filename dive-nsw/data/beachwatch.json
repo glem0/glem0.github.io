@@ -1201,8 +1201,8 @@
         },
         "properties": {
           "id": "018330ef-fabe-40e3-9b67-c951a04722c3",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Forecast not available",
           "siteName": "Elm Street Bridge North (Evans River)"
         },
@@ -1269,8 +1269,8 @@
         },
         "properties": {
           "id": "58c72f50-710c-4933-80c3-4978deb4b421",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Forecast not available",
           "siteName": "Evans River"
         },
@@ -3804,7 +3804,7 @@
           "id": "32102496-a175-44df-ba83-044eafd627bc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Wamberal Beach"
         },
         "type": "Feature"
