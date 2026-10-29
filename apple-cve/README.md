@@ -11,6 +11,8 @@ A fast, searchable database of Apple security CVEs for iOS/iPadOS and macOS, com
   ~420 components can be added as a chip from the "+ Add component…" dropdown.
   Component filters are multi-select and combine freely with search; selected chips
   stay at the left of the row. A chip matches its whole family (WebKit → WebKit Canvas, …).
+- "Export as JSON" downloads the currently filtered/shown entries (current sort order) as
+  `apple-cve-export-<date>.json`.
 - Light / dark / system theme (follows the OS by default; choice saved in localStorage).
 - Hovering a CVE highlights the same CVE across other releases.
 
