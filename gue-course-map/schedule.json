@@ -1,78 +1,6 @@
 {
- "updated": "2026-10-28T21:52:47Z",
+ "updated": "2026-10-30T21:40:47Z",
  "classes": [
-  {
-   "cid": "34985",
-   "course": "CCR Technical Diver 2",
-   "date": "October 29, 2026",
-   "iso": "2026-10-29",
-   "location": "Slima, Malta",
-   "instructor": "Graham Blackmore",
-   "instructor_id": "895"
-  },
-  {
-   "cid": "37663",
-   "course": "Doubles Primer",
-   "date": "October 30, 2026",
-   "iso": "2026-10-30",
-   "location": "San Diego, California, United States",
-   "instructor": "Kian Farin",
-   "instructor_id": "27848"
-  },
-  {
-   "cid": "37164",
-   "course": "GUE Basic Fundamentals",
-   "date": "October 30, 2026",
-   "iso": "2026-10-30",
-   "location": "San Michele di pagana/Rapallo, Genova, Italy",
-   "instructor": "Niccolo Crespi",
-   "instructor_id": "6627"
-  },
-  {
-   "cid": "36304",
-   "course": "GUE Performance Diver",
-   "date": "October 30, 2026",
-   "iso": "2026-10-30",
-   "location": "Dahab , Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
-  },
-  {
-   "cid": "37433",
-   "course": "GUE Performance Diver",
-   "date": "October 30, 2026",
-   "iso": "2026-10-30",
-   "location": "Karlsruhe, Germany",
-   "instructor": "Peter Gaertner",
-   "instructor_id": "1374"
-  },
-  {
-   "cid": "37571",
-   "course": "GUE Performance Diver",
-   "date": "October 30, 2026",
-   "iso": "2026-10-30",
-   "location": "foshan, Guangdong, China",
-   "instructor": "Huang Weiqi",
-   "instructor_id": "23052"
-  },
-  {
-   "cid": "37701",
-   "course": "ITC GUE Performance Diver",
-   "date": "October 30, 2026",
-   "iso": "2026-10-30",
-   "location": "Pusan, Pusan-gwangyoksi, Korea (South)",
-   "instructor": "Kim Hyunmo",
-   "instructor_id": "26073"
-  },
-  {
-   "cid": "37702",
-   "course": "ITC GUE Performance Diver",
-   "date": "October 30, 2026",
-   "iso": "2026-10-30",
-   "location": "Pusan, Pusan-gwangyoksi, Korea (South)",
-   "instructor": "Kim Hyunmo",
-   "instructor_id": "26073"
-  },
   {
    "cid": "36062",
    "course": "Doubles Primer",
@@ -218,15 +146,6 @@
    "instructor_id": "73430"
   },
   {
-   "cid": "37693",
-   "course": "Doubles Primer",
-   "date": "November 1, 2026",
-   "iso": "2026-11-01",
-   "location": "XR Explorers, Al Kuwayt, Kuwait",
-   "instructor": "Yehia Ahmed",
-   "instructor_id": "68430"
-  },
-  {
    "cid": "37700",
    "course": "Drysuit Primer",
    "date": "November 1, 2026",
@@ -234,6 +153,15 @@
    "location": "Auckland, New Zealand",
    "instructor": "Xavier Vrijdag",
    "instructor_id": "13884"
+  },
+  {
+   "cid": "37368",
+   "course": "Drysuit Primer",
+   "date": "November 1, 2026",
+   "iso": "2026-11-01",
+   "location": "Tilburg, Noord-Brabant, Netherlands",
+   "instructor": "Martijn Blommaert",
+   "instructor_id": "8532"
   },
   {
    "cid": "36989",
@@ -605,15 +533,6 @@
    "instructor_id": "9662"
   },
   {
-   "cid": "37670",
-   "course": "GUE Performance Diver",
-   "date": "November 7, 2026",
-   "iso": "2026-11-07",
-   "location": "Hangzhou, Zhejiang, China",
-   "instructor": "Jinhui Xiong",
-   "instructor_id": "72355"
-  },
-  {
    "cid": "36389",
    "course": "Navigation Primer",
    "date": "November 7, 2026",
@@ -693,6 +612,24 @@
    "location": "Hemmoor, Germany",
    "instructor": "Sebastian Von Koss",
    "instructor_id": "20802"
+  },
+  {
+   "cid": "37693",
+   "course": "Doubles Primer",
+   "date": "November 8, 2026",
+   "iso": "2026-11-08",
+   "location": "XR Explorers, Al Kuwayt, Kuwait",
+   "instructor": "Yehia Ahmed",
+   "instructor_id": "68430"
+  },
+  {
+   "cid": "37710",
+   "course": "GUE Performance Diver",
+   "date": "November 8, 2026",
+   "iso": "2026-11-08",
+   "location": "Beijing, Beijing, China",
+   "instructor": "Cai Keke",
+   "instructor_id": "21137"
   },
   {
    "cid": "37076",
@@ -812,7 +749,7 @@
    "instructor_id": "7698"
   },
   {
-   "cid": "37703",
+   "cid": "37709",
    "course": "CCR Fundamentals: JJ-CCR",
    "date": "November 12, 2026",
    "iso": "2026-11-12",
@@ -929,15 +866,6 @@
    "instructor_id": "1956"
   },
   {
-   "cid": "37039",
-   "course": "Cave Diver 1",
-   "date": "November 15, 2026",
-   "iso": "2026-11-15",
-   "location": "Budapest+Croatia, Budapest, Hungary",
-   "instructor": "Zsolt Szilagyi",
-   "instructor_id": "1444"
-  },
-  {
    "cid": "37576",
    "course": "CCR Fundamentals: JJ-CCR",
    "date": "November 16, 2026",
@@ -1046,15 +974,6 @@
    "instructor_id": "20747"
   },
   {
-   "cid": "36791",
-   "course": "GUE Technical Fundamentals",
-   "date": "November 18, 2026",
-   "iso": "2026-11-18",
-   "location": "Yixing, Jiangsu, China",
-   "instructor": "Xiaodong Zhong",
-   "instructor_id": "23171"
-  },
-  {
    "cid": "36404",
    "course": "DPV Diver 1",
    "date": "November 19, 2026",
@@ -1107,15 +1026,6 @@
    "location": "High Springs, United States",
    "instructor": "Stretch Aaron Altenhein",
    "instructor_id": "10004"
-  },
-  {
-   "cid": "37568",
-   "course": "DPV Diver 1",
-   "date": "November 20, 2026",
-   "iso": "2026-11-20",
-   "location": "Victoria, British Columbia, Canada",
-   "instructor": "Jason Cook",
-   "instructor_id": "24473"
   },
   {
    "cid": "37077",
@@ -1172,6 +1082,15 @@
    "instructor_id": "2359"
   },
   {
+   "cid": "37568",
+   "course": "DPV Diver 1",
+   "date": "November 21, 2026",
+   "iso": "2026-11-21",
+   "location": "Victoria, British Columbia, Canada",
+   "instructor": "Jason Cook",
+   "instructor_id": "24473"
+  },
+  {
    "cid": "37272",
    "course": "Doubles Primer",
    "date": "November 21, 2026",
@@ -1179,6 +1098,15 @@
    "location": "foshan, Guangdong, China",
    "instructor": "Huang Weiqi",
    "instructor_id": "23052"
+  },
+  {
+   "cid": "37670",
+   "course": "GUE Performance Diver",
+   "date": "November 21, 2026",
+   "iso": "2026-11-21",
+   "location": "Hangzhou, Zhejiang, China",
+   "instructor": "Jinhui Xiong",
+   "instructor_id": "72355"
   },
   {
    "cid": "36635",
@@ -1433,6 +1361,15 @@
    "instructor_id": "23171"
   },
   {
+   "cid": "37712",
+   "course": "GUE Performance Diver",
+   "date": "November 27, 2026",
+   "iso": "2026-11-27",
+   "location": "Guangzhou, Guangdong, China",
+   "instructor": "Xuan Chen",
+   "instructor_id": "20926"
+  },
+  {
    "cid": "37430",
    "course": "Gas Blender",
    "date": "November 28, 2026",
@@ -1656,6 +1593,15 @@
    "location": "Victoria, British Columbia, Canada",
    "instructor": "Jason Cook",
    "instructor_id": "24473"
+  },
+  {
+   "cid": "37711",
+   "course": "Doubles Primer",
+   "date": "December 4, 2026",
+   "iso": "2026-12-04",
+   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
   },
   {
    "cid": "37254",
@@ -1991,15 +1937,6 @@
    "instructor_id": "1591"
   },
   {
-   "cid": "37457",
-   "course": "Cave Diver 1",
-   "date": "December 14, 2026",
-   "iso": "2026-12-14",
-   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
-   "instructor": "Arthur Nguyen-Kim",
-   "instructor_id": "26064"
-  },
-  {
    "cid": "36980",
    "course": "DPV Cave",
    "date": "December 14, 2026",
@@ -2070,6 +2007,15 @@
    "location": "Bangkok, Bangkok , Thailand",
    "instructor": "Sanya Lohitnavy",
    "instructor_id": "3674"
+  },
+  {
+   "cid": "37457",
+   "course": "Cave Diver 1",
+   "date": "December 17, 2026",
+   "iso": "2026-12-17",
+   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
   },
   {
    "cid": "37479",
@@ -3863,6 +3809,15 @@
    "instructor_id": "20802"
   },
   {
+   "cid": "37039",
+   "course": "Cave Diver 1",
+   "date": "March 14, 2027",
+   "iso": "2027-03-14",
+   "location": "Budapest+Croatia, Budapest, Hungary",
+   "instructor": "Zsolt Szilagyi",
+   "instructor_id": "1444"
+  },
+  {
    "cid": "37179",
    "course": "DPV Diver 1",
    "date": "March 14, 2027",
@@ -5454,6 +5409,15 @@
    "location": "Palaia Fokaia, Attiki, Greece",
    "instructor": "Derk Remmers",
    "instructor_id": "2366"
+  },
+  {
+   "cid": "36791",
+   "course": "GUE Technical Fundamentals",
+   "date": "November 18, 2027",
+   "iso": "2027-11-18",
+   "location": "Yixing, Jiangsu, China",
+   "instructor": "Xiaodong Zhong",
+   "instructor_id": "23171"
   },
   {
    "cid": "28052",
