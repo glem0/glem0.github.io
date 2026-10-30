@@ -147,8 +147,8 @@
         },
         "properties": {
           "id": "4a49b5af-98bf-47de-b91c-9369b9477141",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Bateau Bay Beach"
         },
@@ -317,8 +317,8 @@
         },
         "properties": {
           "id": "8990825d-b48c-443f-9047-862a0b986621",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Boat Harbour"
         },
@@ -555,8 +555,8 @@
         },
         "properties": {
           "id": "6b3d7a0d-c0bd-4e51-81a3-1b247a99eb67",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Unlikely",
           "siteName": "Cabbage Tree Bay"
         },
@@ -572,8 +572,8 @@
         },
         "properties": {
           "id": "90992928-9137-4736-9a91-bcd5b9c8f53e",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Forecast not available",
           "siteName": "Cabbage Tree Bay Rockpool"
         },
@@ -1286,8 +1286,8 @@
         },
         "properties": {
           "id": "3d9e9c53-9ad7-45ea-9d3f-843827b6e9ce",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Unlikely",
           "siteName": "Fairlight Beach"
         },
@@ -1473,8 +1473,8 @@
         },
         "properties": {
           "id": "d1aaf32a-1e10-4f67-8b96-25f5e3525073",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Gravelly Beach"
         },
@@ -1507,8 +1507,8 @@
         },
         "properties": {
           "id": "8e15c264-bcb0-453d-a2a5-5fa10067c6ca",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Greenhills Beach"
         },
@@ -1575,8 +1575,8 @@
         },
         "properties": {
           "id": "bbd71df5-10ea-40d5-9f0f-8f16d1bbb397",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Forecast not available",
           "siteName": "Gwandalan"
         },
@@ -1628,7 +1628,7 @@
           "id": "eefcfac8-c063-47b7-9d19-0340f5fa450f",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Hayes Street Beach"
         },
         "type": "Feature"
@@ -1677,8 +1677,8 @@
         },
         "properties": {
           "id": "c6ced0d7-b3f4-4d4b-aefe-6cb3a132b886",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Unlikely",
           "siteName": "Jenny Dixon Beach"
         },
@@ -1898,8 +1898,8 @@
         },
         "properties": {
           "id": "3a08a3f8-001f-4caa-ab7a-b91a69927bd3",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Lighthouse Beach (Wyong)"
         },
@@ -1949,8 +1949,8 @@
         },
         "properties": {
           "id": "8c7516d0-3f1d-4068-8e9c-0ca60af15a04",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Little Manly Cove"
         },
@@ -2034,8 +2034,8 @@
         },
         "properties": {
           "id": "c9c00ce4-5580-4a66-81b4-b45e5b1e3485",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Magenta Beach"
         },
@@ -2136,8 +2136,8 @@
         },
         "properties": {
           "id": "8c684274-b360-417f-9feb-29b18df57628",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Manly Cove"
         },
@@ -2578,8 +2578,8 @@
         },
         "properties": {
           "id": "5d236859-61a2-47e3-b2a1-1f997f2834f9",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "North Shelly Beach"
         },
@@ -2969,8 +2969,8 @@
         },
         "properties": {
           "id": "93c7a40f-bf76-420d-9c53-2435adda70b9",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Possible",
           "siteName": "Rose Bay Beach"
         },
@@ -3241,8 +3241,8 @@
         },
         "properties": {
           "id": "f0f35527-e3a5-4ccd-a94b-499c7983560a",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Soldiers Beach"
         },
