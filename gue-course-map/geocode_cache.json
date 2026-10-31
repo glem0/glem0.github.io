@@ -2838,5 +2838,12 @@
   "approx": false,
   "verified": true,
   "alias_of": "busan, pusan-gwangyoksi, korea (south)"
+ },
+ "sliema, malta": {
+  "lat": 35.9127609,
+  "lng": 14.5020708,
+  "display": "Tas-Sliema, Reġjun tal-Lvant, Malta",
+  "matched_query": "Slima, Malta",
+  "alias_of": "slima, malta"
  }
 }

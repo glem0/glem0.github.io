@@ -1,105 +1,6 @@
 {
- "updated": "2026-10-30T21:40:47Z",
+ "updated": "2026-10-31T20:38:52Z",
  "classes": [
-  {
-   "cid": "36062",
-   "course": "Doubles Primer",
-   "date": "October 31, 2026",
-   "iso": "2026-10-31",
-   "location": "Osezaki, Shizuoka, Japan",
-   "instructor": "Yousuke Ogiwara",
-   "instructor_id": "20059"
-  },
-  {
-   "cid": "37476",
-   "course": "Doubles Primer",
-   "date": "October 31, 2026",
-   "iso": "2026-10-31",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Laurent Dahan",
-   "instructor_id": "25023"
-  },
-  {
-   "cid": "37632",
-   "course": "Doubles Primer",
-   "date": "October 31, 2026",
-   "iso": "2026-10-31",
-   "location": "sai kung, New Territories, Hong Kong",
-   "instructor": "Siu Man Sit",
-   "instructor_id": "67279"
-  },
-  {
-   "cid": "37553",
-   "course": "GUE Performance Diver",
-   "date": "October 31, 2026",
-   "iso": "2026-10-31",
-   "location": "Alexandrovsk, Permskaya, Russia",
-   "instructor": "Anatoliy Markov",
-   "instructor_id": "19614"
-  },
-  {
-   "cid": "36650",
-   "course": "GUE Performance Diver",
-   "date": "October 31, 2026",
-   "iso": "2026-10-31",
-   "location": "Karlsruhe, Germany",
-   "instructor": "Peter Gaertner",
-   "instructor_id": "1374"
-  },
-  {
-   "cid": "37572",
-   "course": "GUE Performance Diver",
-   "date": "October 31, 2026",
-   "iso": "2026-10-31",
-   "location": "Nanchang, Jiangxi, China",
-   "instructor": "Jinhui Xiong",
-   "instructor_id": "72355"
-  },
-  {
-   "cid": "36511",
-   "course": "GUE Performance Diver",
-   "date": "October 31, 2026",
-   "iso": "2026-10-31",
-   "location": "Schwetzingen, Baden-Württemberg, Germany",
-   "instructor": "Esther Trösch",
-   "instructor_id": "64918"
-  },
-  {
-   "cid": "37289",
-   "course": "GUE Performance Diver",
-   "date": "October 31, 2026",
-   "iso": "2026-10-31",
-   "location": "Shanghai, Shanghai, China",
-   "instructor": "Xiaodong Zhong",
-   "instructor_id": "23171"
-  },
-  {
-   "cid": "37624",
-   "course": "GUE Performance Diver",
-   "date": "October 31, 2026",
-   "iso": "2026-10-31",
-   "location": "北京, Beijing, China",
-   "instructor": "Cai Keke",
-   "instructor_id": "21137"
-  },
-  {
-   "cid": "36706",
-   "course": "Navigation Primer",
-   "date": "October 31, 2026",
-   "iso": "2026-10-31",
-   "location": "Tenero, Ticino, Switzerland",
-   "instructor": "Ivan Wagner",
-   "instructor_id": "10571"
-  },
-  {
-   "cid": "35096",
-   "course": "Rescue Primer",
-   "date": "October 31, 2026",
-   "iso": "2026-10-31",
-   "location": "Stromberg, Rheinland-Pfalz, Germany",
-   "instructor": "Sven Nelles",
-   "instructor_id": "7698"
-  },
   {
    "cid": "36639",
    "course": "CCR Fundamentals: Symbios",
@@ -407,15 +308,6 @@
    "instructor_id": "12073"
   },
   {
-   "cid": "37421",
-   "course": "GUE Performance Diver",
-   "date": "November 5, 2026",
-   "iso": "2026-11-05",
-   "location": "Santa Margherita Ligure, Genova, Italy",
-   "instructor": "Francesco Cameli",
-   "instructor_id": "22866"
-  },
-  {
    "cid": "37348",
    "course": "GUE Performance Diver",
    "date": "November 5, 2026",
@@ -522,15 +414,6 @@
    "location": "Hemmoor, Germany",
    "instructor": "Sebastian Von Koss",
    "instructor_id": "20802"
-  },
-  {
-   "cid": "37668",
-   "course": "GUE Basic Fundamentals",
-   "date": "November 7, 2026",
-   "iso": "2026-11-07",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Annika Persson",
-   "instructor_id": "9662"
   },
   {
    "cid": "36389",
@@ -756,6 +639,15 @@
    "location": "Hangzhou, Zhejiang, China",
    "instructor": "Yanbin Wu",
    "instructor_id": "23172"
+  },
+  {
+   "cid": "37668",
+   "course": "GUE Basic Fundamentals",
+   "date": "November 12, 2026",
+   "iso": "2026-11-12",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Annika Persson",
+   "instructor_id": "9662"
   },
   {
    "cid": "37259",
@@ -1116,6 +1008,15 @@
    "location": "Kralendijk, Bonaire",
    "instructor": "Anne-Marie Bresser",
    "instructor_id": "2021"
+  },
+  {
+   "cid": "37713",
+   "course": "GUE Performance Diver",
+   "date": "November 21, 2026",
+   "iso": "2026-11-21",
+   "location": "Kralendijk, Bonaire",
+   "instructor": "Douwe Musch",
+   "instructor_id": "67329"
   },
   {
    "cid": "36153",
@@ -2304,15 +2205,6 @@
    "location": "Dahab , Janub Sina', Egypt",
    "instructor": "Ahmed Hagi",
    "instructor_id": "69051"
-  },
-  {
-   "cid": "37689",
-   "course": "GUE Technical Fundamentals",
-   "date": "December 27, 2026",
-   "iso": "2026-12-27",
-   "location": "Des Moines, Washington, United States",
-   "instructor": "James Fraser",
-   "instructor_id": "26718"
   },
   {
    "cid": "36691",
@@ -3771,6 +3663,15 @@
    "location": "Playa del Carmen, Quintana Roo, Mexico",
    "instructor": "Emőke Wagner",
    "instructor_id": "20747"
+  },
+  {
+   "cid": "37714",
+   "course": "GUE Technical Fundamentals",
+   "date": "March 8, 2027",
+   "iso": "2027-03-08",
+   "location": "Sliema, Malta",
+   "instructor": "Jérôme Descamps",
+   "instructor_id": "25255"
   },
   {
    "cid": "37629",

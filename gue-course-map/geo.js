@@ -289,6 +289,7 @@ window.GUE_GEO = {
 "siracusa, siracusa, italy":[37.03158,15.21243],
 "skottevic, norway":[58.12503,8.23083],
 "skottevik, norway":[58.12503,8.23083],
+"sliema, malta":[35.91276,14.50207],
 "slima, malta":[35.91276,14.50207],
 "soma bay, egypt":[26.83537,33.94206],
 "st julian's, malta":[35.91992,14.48771],
