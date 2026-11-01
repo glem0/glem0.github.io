@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-11-01T07:33:09+11:00",
+ "generated_at": "2026-11-02T08:19:25+11:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-11-01",
@@ -13,7 +13,7 @@ window.__DIVE_DATA__ =
    "short": "Abyss",
    "url": "https://www.abyss.com.au/sydney-dive-calendar",
    "status": "ok",
-   "event_count": 137
+   "event_count": 135
   },
   {
    "id": "frogdive",
@@ -37,7 +37,7 @@ window.__DIVE_DATA__ =
    "short": "DC Manly",
    "url": "https://divesydney.com.au/dive-calendar/",
    "status": "ok",
-   "event_count": 748
+   "event_count": 744
   },
   {
    "id": "prodive",
@@ -58,32 +58,6 @@ window.__DIVE_DATA__ =
  ],
  "events": [
   {
-   "id": "abyss-cf62641203b8",
-   "source": "abyss",
-   "title": "Magic Point Shark Dive",
-   "start": "2026-11-01T08:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/boat-dives",
-   "description": "$130.00 · Boat Dives · Magic Point – shark dive, Sydney most popular boat dive 15–24m"
-  },
-  {
-   "id": "abyss-67286105f8f4",
-   "source": "abyss",
-   "title": "Leap to Steps Dive",
-   "start": "2026-11-01T09:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
-   "description": "Guided Shore Dives · Leap to steps Drift for confident divers shore dive (18-22m)"
-  },
-  {
-   "id": "divesydney-c25705d6f3e2",
-   "source": "divesydney",
-   "title": "Snorkel Safari",
-   "start": "2026-11-01T14:30+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-01&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
    "id": "divecharters-0364d9172e8c",
    "source": "divecharters",
    "title": "DSD - Discover Scuba Dive - Hire Gear Included",
@@ -91,30 +65,6 @@ window.__DIVE_DATA__ =
    "all_day": true,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-02#326@book@",
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
-  },
-  {
-   "id": "divesydney-6710b068c6e0",
-   "source": "divesydney",
-   "title": "Scuba Refresher",
-   "start": "2026-11-02T08:30+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-11-02&preferredTime=8%3A30+AM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-3be3bd324ebb",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-11-02T09:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-11-02&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-f640ea1dfcc9",
-   "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI (sold out)",
-   "start": "2026-11-02T14:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-11-02&preferredTime=2%3A00+PM&catalogId=494484"
   },
   {
    "id": "divesydney-567afe2c7ac9",
@@ -176,9 +126,9 @@ window.__DIVE_DATA__ =
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
-   "id": "divebondi-c4fc2d80b547",
+   "id": "divebondi-ed3bf0494f18",
    "source": "divebondi",
-   "title": "Guided Shore Dive",
+   "title": "Guided Shore Dive (sold out)",
    "start": "2026-11-04T09:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-11-04&preferredTime=9%3A00+AM&catalogId=597076"
@@ -334,9 +284,9 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=434000&preferredDate=2026-11-07&preferredTime=7%3A30+AM&catalogId=597076"
   },
   {
-   "id": "abyss-dcce5f24d1ef",
+   "id": "abyss-5ba184639074",
    "source": "abyss",
-   "title": "AOW 07-11-2026",
+   "title": "AOW 07-11-2026 (sold out)",
    "start": "2026-11-07T08:00+11:00",
    "all_day": false,
    "end": "2026-11-08",
@@ -2002,6 +1952,14 @@ window.__DIVE_DATA__ =
    "description": "$49.00 · Boat Dives · Drift from cape solander to the monument."
   },
   {
+   "id": "divebondi-790f3bcb901f",
+   "source": "divebondi",
+   "title": "Double Boat Dive from Rose Bay",
+   "start": "2026-11-29T07:30+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=436203&preferredDate=2026-11-29&preferredTime=7%3A30+AM&catalogId=597076"
+  },
+  {
    "id": "abyss-d3222f2d2e64",
    "source": "abyss",
    "title": "Kelloe Techical Boat Dive",
@@ -2094,14 +2052,6 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=471705&preferredDate=2026-11-29&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
-   "id": "divebondi-afa28fd46314",
-   "source": "divebondi",
-   "title": "Double Boat Dive from Rose Bay",
-   "start": "2026-11-29T19:30+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=436203&preferredDate=2026-11-29&preferredTime=7%3A30+PM&catalogId=597076"
-  },
-  {
    "id": "divecharters-360089f2167e",
    "source": "divecharters",
    "title": "DSD - Discover Scuba Dive - Hire Gear Included",
@@ -2127,9 +2077,9 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-11-30&preferredTime=9%3A00+AM&catalogId=494484"
   },
   {
-   "id": "divesydney-36dfa2c972aa",
+   "id": "divesydney-1d526e494ffe",
    "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
+   "title": "Discover Scuba Diving - PADI (sold out)",
    "start": "2026-11-30T14:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-11-30&preferredTime=2%3A00+PM&catalogId=494484"
