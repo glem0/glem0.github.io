@@ -351,8 +351,8 @@
         },
         "properties": {
           "id": "405ce99c-7a0b-43f7-8d28-2ee0b65eebb5",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Unlikely",
           "siteName": "Bondi Beach"
         },
@@ -419,8 +419,8 @@
         },
         "properties": {
           "id": "e34aa8b8-142f-438d-ab18-bedce361e324",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Unlikely",
           "siteName": "Bronte Beach"
         },
@@ -793,8 +793,8 @@
         },
         "properties": {
           "id": "06e4aa12-a704-440e-a31c-ce25fcd0057f",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Clovelly Beach"
         },
@@ -1133,8 +1133,8 @@
         },
         "properties": {
           "id": "5ed93442-6ffd-4445-bfb8-1a2d16992400",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Dolls Point Baths"
         },
@@ -1337,8 +1337,8 @@
         },
         "properties": {
           "id": "988c4cd3-eeff-4d2d-813c-2731490b0f01",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Possible",
           "siteName": "Foreshore Beach"
         },
@@ -1405,8 +1405,8 @@
         },
         "properties": {
           "id": "8bb75641-1783-43b9-861d-df7aa0594cd2",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Frenchmans Bay"
         },
@@ -1456,8 +1456,8 @@
         },
         "properties": {
           "id": "042af9fb-da1d-406a-a743-3da81da0a194",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Unlikely",
           "siteName": "Gordons Bay (East)"
         },
@@ -2102,8 +2102,8 @@
         },
         "properties": {
           "id": "94c5d756-1093-48db-8dbc-70fbb523b16a",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Unlikely",
           "siteName": "Malabar Beach"
         },
@@ -2512,7 +2512,7 @@
           "id": "7f188718-1e97-404e-81cf-1bd72927015d",
           "latestResult": "Poor",
           "latestResultRating": 2,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "North Curl Curl Beach"
         },
         "type": "Feature"
@@ -2663,8 +2663,8 @@
         },
         "properties": {
           "id": "f4785861-61c1-4acb-b841-2609962ed0c7",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Oatley Bay Baths"
         },
@@ -3496,8 +3496,8 @@
         },
         "properties": {
           "id": "d8174dde-e864-4a58-b997-e140bea7c5d6",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Unlikely",
           "siteName": "Tamarama Beach"
         },
@@ -3532,7 +3532,7 @@
           "id": "ad19c3a4-de25-422c-a124-cdf6587298c0",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Taylors Point Baths"
         },
         "type": "Feature"
