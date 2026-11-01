@@ -2845,5 +2845,30 @@
   "display": "Tas-Sliema, Reġjun tal-Lvant, Malta",
   "matched_query": "Slima, Malta",
   "alias_of": "slima, malta"
+ },
+ "aurora, ontario, canada": {
+  "lat": 43.99973,
+  "lng": -79.467545,
+  "display": "Aurora, York Region, Ontario, Canada",
+  "country": "ca",
+  "matched_query": "aurora, ontario, canada",
+  "approx": false,
+  "verified": true
+ },
+ "krnica,": {
+  "lat": 44.9732953,
+  "lng": 14.0162274,
+  "display": "Krnica, Općina Marčana, Istarska županija, Hrvatska",
+  "country": "hr",
+  "matched_query": "krnica,",
+  "approx": false,
+  "verified": false
+ },
+ "puerto aventyras, mexico": {
+  "lat": 20.5066683,
+  "lng": -87.2300626,
+  "display": "Ciudad Aventuras, Playa del Carmen, Quintana Roo, México",
+  "matched_query": "Puerto Aventuras , Mexico",
+  "alias_of": "puerto aventuras , mexico"
  }
 }
