@@ -1830,8 +1830,8 @@
         },
         "properties": {
           "id": "f667d1fc-2120-43b9-8ace-df37f7b84f3a",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Lake Endeavour"
         },
@@ -2546,7 +2546,7 @@
           "id": "79eb1688-05c6-491a-9eaa-cbe3811a7f3d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "North Narrabeen Beach"
         },
         "type": "Feature"
