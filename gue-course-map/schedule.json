@@ -1,51 +1,6 @@
 {
- "updated": "2026-11-03T00:01:22Z",
+ "updated": "2026-11-03T22:29:30Z",
  "classes": [
-  {
-   "cid": "37038",
-   "course": "Cave Diver 2",
-   "date": "November 3, 2026",
-   "iso": "2026-11-03",
-   "location": "Cala Gonone, Nuoro, Italy",
-   "instructor": "Zsolt Szilagyi",
-   "instructor_id": "1444"
-  },
-  {
-   "cid": "37075",
-   "course": "GUE Basic Fundamentals",
-   "date": "November 3, 2026",
-   "iso": "2026-11-03",
-   "location": "Dahab , Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
-  },
-  {
-   "cid": "37158",
-   "course": "GUE Basic Fundamentals",
-   "date": "November 3, 2026",
-   "iso": "2026-11-03",
-   "location": "Kralendijk, Bonaire",
-   "instructor": "German Arango",
-   "instructor_id": "5878"
-  },
-  {
-   "cid": "37747",
-   "course": "Gas Blender",
-   "date": "November 3, 2026",
-   "iso": "2026-11-03",
-   "location": "Alexandria Bay, New York, United States",
-   "instructor": "Heison Chak",
-   "instructor_id": "13808"
-  },
-  {
-   "cid": "37736",
-   "course": "Gas Blender",
-   "date": "November 3, 2026",
-   "iso": "2026-11-03",
-   "location": "Austin, Texas, United States",
-   "instructor": "Jason Cook",
-   "instructor_id": "24473"
-  },
   {
    "cid": "37414",
    "course": "DPV Diver 1",
@@ -596,6 +551,15 @@
    "instructor_id": "12172"
   },
   {
+   "cid": "37755",
+   "course": "CCR Technical Diver 2",
+   "date": "November 16, 2026",
+   "iso": "2026-11-16",
+   "location": "Kralendijk, Bonaire",
+   "instructor": "Jp Bresser",
+   "instructor_id": "2458"
+  },
+  {
    "cid": "36411",
    "course": "Cave Diver 2",
    "date": "November 16, 2026",
@@ -945,6 +909,15 @@
    "location": "Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "John Kendall",
    "instructor_id": "1956"
+  },
+  {
+   "cid": "37751",
+   "course": "DPV Diver 1",
+   "date": "November 23, 2026",
+   "iso": "2026-11-23",
+   "location": "Krnica, Istria county, Croatia",
+   "instructor": "Zsolt Szilagyi",
+   "instructor_id": "1444"
   },
   {
    "cid": "37705",
@@ -2360,6 +2333,15 @@
    "instructor_id": "11724"
   },
   {
+   "cid": "37753",
+   "course": "Technical Diver 1",
+   "date": "January 8, 2027",
+   "iso": "2027-01-08",
+   "location": "Qiandao lake, Zhejiang, China",
+   "instructor": "Xiaodong Zhong",
+   "instructor_id": "23171"
+  },
+  {
    "cid": "37672",
    "course": "GUE Performance Diver",
    "date": "January 9, 2027",
@@ -2394,15 +2376,6 @@
    "location": "Radstock, Somerset, United Kingdom",
    "instructor": "Neil Powell",
    "instructor_id": "15389"
-  },
-  {
-   "cid": "37390",
-   "course": "GUE Performance Diver",
-   "date": "January 9, 2027",
-   "iso": "2027-01-09",
-   "location": "Shanghai, Shanghai, China",
-   "instructor": "Xiaodong Zhong",
-   "instructor_id": "23171"
   },
   {
    "cid": "36633",
@@ -2538,6 +2511,15 @@
    "location": "Siegburg, Germany",
    "instructor": "Sebastian Von Koss",
    "instructor_id": "20802"
+  },
+  {
+   "cid": "37390",
+   "course": "GUE Performance Diver",
+   "date": "January 16, 2027",
+   "iso": "2027-01-16",
+   "location": "Shanghai, Shanghai, China",
+   "instructor": "Xiaodong Zhong",
+   "instructor_id": "23171"
   },
   {
    "cid": "37313",
@@ -2772,6 +2754,15 @@
    "location": "Vobster, Somerset, United Kingdom",
    "instructor": "Marcus Rose",
    "instructor_id": "13875"
+  },
+  {
+   "cid": "37750",
+   "course": "Cave Diver 2",
+   "date": "January 29, 2027",
+   "iso": "2027-01-29",
+   "location": "Budapest, Budapest, Hungary",
+   "instructor": "Zsolt Szilagyi",
+   "instructor_id": "1444"
   },
   {
    "cid": "35914",
@@ -3251,10 +3242,10 @@
    "instructor_id": "2458"
   },
   {
-   "cid": "34686",
+   "cid": "37748",
    "course": "Cave Diver 1",
-   "date": "February 21, 2027",
-   "iso": "2027-02-21",
+   "date": "February 18, 2027",
+   "iso": "2027-02-18",
    "location": "Third Dimension Diving, Tulum, Quintana Roo, Mexico",
    "instructor": "Ivo Chiarino",
    "instructor_id": "21332"
@@ -3375,6 +3366,15 @@
    "location": "Malta o. Dahab, Malta",
    "instructor": "Keith Kreitner",
    "instructor_id": "12073"
+  },
+  {
+   "cid": "37749",
+   "course": "Technical Diver 1",
+   "date": "February 22, 2027",
+   "iso": "2027-02-22",
+   "location": "Puerto Aventuras , Quintana Roo, Mexico",
+   "instructor": "Annika Persson",
+   "instructor_id": "9662"
   },
   {
    "cid": "37437",
@@ -3537,6 +3537,15 @@
    "location": "Bangkok, Bangkok , Thailand",
    "instructor": "Sanya Lohitnavy",
    "instructor_id": "3674"
+  },
+  {
+   "cid": "34686",
+   "course": "Cave Diver 1",
+   "date": "March 4, 2027",
+   "iso": "2027-03-04",
+   "location": "Third Dimension Diving, Tulum, Quintana Roo, Mexico",
+   "instructor": "Ivo Chiarino",
+   "instructor_id": "21332"
   },
   {
    "cid": "37666",
@@ -3762,6 +3771,15 @@
    "location": "Soma Bay, Egypt",
    "instructor": "Sebastian Von Koss",
    "instructor_id": "20802"
+  },
+  {
+   "cid": "37754",
+   "course": "Cave Diver 1",
+   "date": "March 20, 2027",
+   "iso": "2027-03-20",
+   "location": "Cala Gonone, Nuoro, Italy",
+   "instructor": "Sven Nelles",
+   "instructor_id": "7698"
   },
   {
    "cid": "36013",
@@ -4113,6 +4131,15 @@
    "location": "Cabo de Palos, Murcia, Spain",
    "instructor": "Sven Nelles",
    "instructor_id": "7698"
+  },
+  {
+   "cid": "37752",
+   "course": "Cave Diver 1",
+   "date": "April 11, 2027",
+   "iso": "2027-04-11",
+   "location": "Gramat, France",
+   "instructor": "Ferry Schram",
+   "instructor_id": "14087"
   },
   {
    "cid": "32419",
