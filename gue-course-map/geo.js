@@ -172,6 +172,7 @@ window.GUE_GEO = {
 "mactan, cebu, philippines":[10.28828,123.9724],
 "malapascua, cebu, philippines":[11.33707,124.11583],
 "malta o. dahab, malta":[35.93114,14.39516],
+"malta, malta":[35.90221,14.41374],
 "manado, indonesia":[1.49004,124.84077],
 "manado, sulawesi utara, indonesia":[1.49004,124.84077],
 "marina di gioiosa ionica, italy":[38.30066,16.33036],

@@ -2870,5 +2870,14 @@
   "display": "Ciudad Aventuras, Playa del Carmen, Quintana Roo, México",
   "matched_query": "Puerto Aventuras , Mexico",
   "alias_of": "puerto aventuras , mexico"
+ },
+ "malta, malta": {
+  "lat": 35.9022113,
+  "lng": 14.4137381,
+  "display": "Malta",
+  "country": "mt",
+  "matched_query": "malta, malta",
+  "approx": false,
+  "verified": true
  }
 }
