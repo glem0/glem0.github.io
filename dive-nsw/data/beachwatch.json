@@ -234,7 +234,7 @@
           "id": "2d4c2558-f2de-43e4-8590-8682bc5aaf52",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Bilgola Beach"
         },
         "type": "Feature"
@@ -1201,8 +1201,8 @@
         },
         "properties": {
           "id": "018330ef-fabe-40e3-9b67-c951a04722c3",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Elm Street Bridge North (Evans River)"
         },
@@ -1269,8 +1269,8 @@
         },
         "properties": {
           "id": "58c72f50-710c-4933-80c3-4978deb4b421",
-          "latestResult": "Bad",
-          "latestResultRating": 1,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Evans River"
         },
@@ -2427,7 +2427,7 @@
           "id": "f81d4377-2a8e-4f39-9988-f94d9c95d9be",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Newport Beach"
         },
         "type": "Feature"
@@ -2767,7 +2767,7 @@
           "id": "a04458a2-3e39-4005-b4a9-f8822fb66781",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Pearl Beach"
         },
         "type": "Feature"
