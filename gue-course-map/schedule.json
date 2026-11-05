@@ -1,78 +1,6 @@
 {
- "updated": "2026-11-04T22:50:52Z",
+ "updated": "2026-11-05T22:48:41Z",
  "classes": [
-  {
-   "cid": "37353",
-   "course": "Deep Primer",
-   "date": "November 5, 2026",
-   "iso": "2026-11-05",
-   "location": "St. Julian's, Malta",
-   "instructor": "Mark Devoldere",
-   "instructor_id": "7497"
-  },
-  {
-   "cid": "37478",
-   "course": "GUE Basic Fundamentals",
-   "date": "November 5, 2026",
-   "iso": "2026-11-05",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Laurent Dahan",
-   "instructor_id": "25023"
-  },
-  {
-   "cid": "37301",
-   "course": "GUE Basic Fundamentals",
-   "date": "November 5, 2026",
-   "iso": "2026-11-05",
-   "location": "St. Julian's, Malta",
-   "instructor": "Mark Devoldere",
-   "instructor_id": "7497"
-  },
-  {
-   "cid": "35688",
-   "course": "GUE Performance Diver",
-   "date": "November 5, 2026",
-   "iso": "2026-11-05",
-   "location": "Leipzig, Sachsen, Germany",
-   "instructor": "Kaddi Vogel",
-   "instructor_id": "71865"
-  },
-  {
-   "cid": "37348",
-   "course": "GUE Performance Diver",
-   "date": "November 5, 2026",
-   "iso": "2026-11-05",
-   "location": "St. Julian's, Malta",
-   "instructor": "Mark Devoldere",
-   "instructor_id": "7497"
-  },
-  {
-   "cid": "36154",
-   "course": "GUE Technical Fundamentals",
-   "date": "November 5, 2026",
-   "iso": "2026-11-05",
-   "location": "München, Bayern, Germany",
-   "instructor": "Frederik Bring",
-   "instructor_id": "68473"
-  },
-  {
-   "cid": "37352",
-   "course": "Navigation Primer",
-   "date": "November 5, 2026",
-   "iso": "2026-11-05",
-   "location": "St. Julian's, Malta",
-   "instructor": "Mark Devoldere",
-   "instructor_id": "7497"
-  },
-  {
-   "cid": "37347",
-   "course": "Scuba Diver",
-   "date": "November 5, 2026",
-   "iso": "2026-11-05",
-   "location": "St Julian's, Malta",
-   "instructor": "Mark Devoldere",
-   "instructor_id": "7497"
-  },
   {
    "cid": "37085",
    "course": "CCR Fundamentals: Symbios",
@@ -135,15 +63,6 @@
    "location": "Dahab, Egypt",
    "instructor": "Mahmoud Esmat",
    "instructor_id": "65259"
-  },
-  {
-   "cid": "37758",
-   "course": "Technical Diver 1",
-   "date": "November 6, 2026",
-   "iso": "2026-11-06",
-   "location": "Yangyang-gun, Kangwon-do, Korea (South)",
-   "instructor": "Youngwoo Seo",
-   "instructor_id": "16137"
   },
   {
    "cid": "37562",
@@ -326,13 +245,13 @@
    "instructor_id": "9662"
   },
   {
-   "cid": "30702",
-   "course": "CCR Technical Diver 2",
-   "date": "November 10, 2026",
-   "iso": "2026-11-10",
-   "location": "Yangyang , Kangwon-do, Korea (South)",
-   "instructor": "Kyungsoo Kim",
-   "instructor_id": "14654"
+   "cid": "37774",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "November 9, 2026",
+   "iso": "2026-11-09",
+   "location": "Yangyang-gun, Kangwon-do, Korea (South)",
+   "instructor": "Youngwoo Seo",
+   "instructor_id": "16137"
   },
   {
    "cid": "36383",
@@ -488,15 +407,6 @@
    "instructor_id": "895"
   },
   {
-   "cid": "36389",
-   "course": "Navigation Primer",
-   "date": "November 14, 2026",
-   "iso": "2026-11-14",
-   "location": "Sydney, New South Wales, Australia",
-   "instructor": "Sebastien Landat",
-   "instructor_id": "22757"
-  },
-  {
    "cid": "36818",
    "course": "Technical Diver 1",
    "date": "November 14, 2026",
@@ -504,6 +414,15 @@
    "location": "Des Moines, Washington, United States",
    "instructor": "James Fraser",
    "instructor_id": "26718"
+  },
+  {
+   "cid": "37758",
+   "course": "Technical Diver 1",
+   "date": "November 14, 2026",
+   "iso": "2026-11-14",
+   "location": "Yangyang-gun, Kangwon-do, Korea (South)",
+   "instructor": "Youngwoo Seo",
+   "instructor_id": "16137"
   },
   {
    "cid": "37509",
@@ -558,6 +477,24 @@
    "location": "Hurghada, Egypt",
    "instructor": "Andrei Dmitriev",
    "instructor_id": "6578"
+  },
+  {
+   "cid": "37775",
+   "course": "GUE Basic Fundamentals",
+   "date": "November 16, 2026",
+   "iso": "2026-11-16",
+   "location": "Yangyang-gun, Kangwon-do, Korea (South)",
+   "instructor": "Youngwoo Seo",
+   "instructor_id": "16137"
+  },
+  {
+   "cid": "37777",
+   "course": "GUE Basic Fundamentals",
+   "date": "November 16, 2026",
+   "iso": "2026-11-16",
+   "location": "Yangyang-gun, Kangwon-do, Korea (South)",
+   "instructor": "Youngwoo Seo",
+   "instructor_id": "16137"
   },
   {
    "cid": "37671",
@@ -1568,6 +1505,15 @@
    "instructor_id": "20356"
   },
   {
+   "cid": "37772",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "December 11, 2026",
+   "iso": "2026-12-11",
+   "location": "Anilao, Batangas, Philippines",
+   "instructor": "Miko Zulueta",
+   "instructor_id": "8228"
+  },
+  {
    "cid": "37620",
    "course": "Doubles Primer",
    "date": "December 11, 2026",
@@ -1629,15 +1575,6 @@
    "location": "Offenburg, Germany",
    "instructor": "Christian Schweiger",
    "instructor_id": "68425"
-  },
-  {
-   "cid": "37106",
-   "course": "GUE Performance Diver",
-   "date": "December 12, 2026",
-   "iso": "2026-12-12",
-   "location": "Sydney, New South Wales, Australia",
-   "instructor": "Sebastien Landat",
-   "instructor_id": "22757"
   },
   {
    "cid": "37737",
@@ -1928,15 +1865,6 @@
    "instructor_id": "68425"
   },
   {
-   "cid": "37566",
-   "course": "GUE Performance Diver",
-   "date": "December 19, 2026",
-   "iso": "2026-12-19",
-   "location": "Sydney, New South Wales, Australia",
-   "instructor": "Sebastien Landat",
-   "instructor_id": "22757"
-  },
-  {
    "cid": "37662",
    "course": "GUE Performance Diver",
    "date": "December 19, 2026",
@@ -1962,6 +1890,15 @@
    "location": "Singapore, Singapore",
    "instructor": "Gemma Thomas",
    "instructor_id": "11724"
+  },
+  {
+   "cid": "30702",
+   "course": "CCR Technical Diver 2",
+   "date": "December 21, 2026",
+   "iso": "2026-12-21",
+   "location": "Yangyang , Kangwon-do, Korea (South)",
+   "instructor": "Kyungsoo Kim",
+   "instructor_id": "14654"
   },
   {
    "cid": "35710",
@@ -2702,15 +2639,6 @@
    "instructor_id": "20802"
   },
   {
-   "cid": "36848",
-   "course": "Rescue Primer",
-   "date": "January 23, 2027",
-   "iso": "2027-01-23",
-   "location": "Sydney, New South Wales, Australia",
-   "instructor": "Sebastien Landat",
-   "instructor_id": "22757"
-  },
-  {
    "cid": "32201",
    "course": "Cave Diver 1",
    "date": "January 24, 2027",
@@ -3116,6 +3044,15 @@
    "instructor_id": "25873"
   },
   {
+   "cid": "37776",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "February 11, 2027",
+   "iso": "2027-02-11",
+   "location": "Singapore , Central Singapore, Singapore",
+   "instructor": "Jimmy Choo",
+   "instructor_id": "15307"
+  },
+  {
    "cid": "37322",
    "course": "GUE Basic Fundamentals",
    "date": "February 12, 2027",
@@ -3123,6 +3060,15 @@
    "location": "ENschede, Netherlands",
    "instructor": "Anne-Marie Bresser",
    "instructor_id": "2021"
+  },
+  {
+   "cid": "37771",
+   "course": "GUE Performance Diver",
+   "date": "February 12, 2027",
+   "iso": "2027-02-12",
+   "location": "Denver, Colorado, United States",
+   "instructor": "Alberto Nava",
+   "instructor_id": "2073"
   },
   {
    "cid": "37321",
@@ -3654,6 +3600,15 @@
    "location": "Zero Gravity Dive Center - Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Laurent Dahan",
    "instructor_id": "25023"
+  },
+  {
+   "cid": "37778",
+   "course": "GUE Performance Diver",
+   "date": "March 6, 2027",
+   "iso": "2027-03-06",
+   "location": "Kressbronn, Baden-Württemberg, Germany",
+   "instructor": "Peter Gaertner",
+   "instructor_id": "1374"
   },
   {
    "cid": "36692",
@@ -4788,6 +4743,15 @@
    "location": "Krnica, Croatia",
    "instructor": "Jp Bresser",
    "instructor_id": "2458"
+  },
+  {
+   "cid": "37779",
+   "course": "CCR Technical Diver 2",
+   "date": "May 24, 2027",
+   "iso": "2027-05-24",
+   "location": "Mactan, Cebu, Philippines",
+   "instructor": "Graham Blackmore",
+   "instructor_id": "895"
   },
   {
    "cid": "37505",

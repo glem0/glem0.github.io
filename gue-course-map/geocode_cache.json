@@ -2879,5 +2879,23 @@
   "matched_query": "malta, malta",
   "approx": false,
   "verified": true
+ },
+ "denver, colorado, united states": {
+  "lat": 39.7392364,
+  "lng": -104.984862,
+  "display": "Denver, Colorado, United States",
+  "country": "us",
+  "matched_query": "denver, colorado, united states",
+  "approx": false,
+  "verified": true
+ },
+ "kressbronn, baden-württemberg, germany": {
+  "lat": 49.0655511,
+  "lng": 10.1378705,
+  "display": "Kreßbronn, Rechenberg, Stimpfach, VVG der Stadt Crailsheim, Landkreis Schwäbisch Hall, Baden-Württemberg, 74597, Deutschland",
+  "country": "de",
+  "matched_query": "kressbronn, baden-württemberg, germany",
+  "approx": false,
+  "verified": true
  }
 }
