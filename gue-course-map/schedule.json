@@ -1,68 +1,14 @@
 {
- "updated": "2026-11-05T22:48:41Z",
+ "updated": "2026-11-06T22:20:57Z",
  "classes": [
   {
-   "cid": "37085",
-   "course": "CCR Fundamentals: Symbios",
-   "date": "November 6, 2026",
-   "iso": "2026-11-06",
-   "location": "LAPULAPU, Cebu, Philippines",
-   "instructor": "Lee Jong Moon",
-   "instructor_id": "20356"
-  },
-  {
-   "cid": "37440",
-   "course": "GUE Basic Fundamentals",
-   "date": "November 6, 2026",
-   "iso": "2026-11-06",
-   "location": "Dahab, Egypt",
-   "instructor": "Mahmoud Esmat",
-   "instructor_id": "65259"
-  },
-  {
-   "cid": "36677",
-   "course": "GUE Basic Fundamentals",
-   "date": "November 6, 2026",
-   "iso": "2026-11-06",
-   "location": "Siegburg, Nordrhein-Westfalen, Germany",
-   "instructor": "Benjamin Ott",
-   "instructor_id": "11806"
-  },
-  {
-   "cid": "37007",
-   "course": "GUE Basic Fundamentals",
-   "date": "November 6, 2026",
-   "iso": "2026-11-06",
-   "location": "Tulamben , Bali, Indonesia",
-   "instructor": "Jimmy Choo",
-   "instructor_id": "15307"
-  },
-  {
-   "cid": "36681",
-   "course": "GUE Technical Fundamentals",
-   "date": "November 6, 2026",
-   "iso": "2026-11-06",
-   "location": "Siegburg, Germany",
-   "instructor": "Benjamin Ott",
-   "instructor_id": "11806"
-  },
-  {
-   "cid": "36875",
-   "course": "GUE Technical Fundamentals",
-   "date": "November 6, 2026",
-   "iso": "2026-11-06",
-   "location": "Tilburg, Noord-Brabant, Netherlands",
-   "instructor": "Rick Van Beerendonk",
-   "instructor_id": "21650"
-  },
-  {
-   "cid": "37439",
-   "course": "Open Water Diver",
-   "date": "November 6, 2026",
-   "iso": "2026-11-06",
-   "location": "Dahab, Egypt",
-   "instructor": "Mahmoud Esmat",
-   "instructor_id": "65259"
+   "cid": "37783",
+   "course": "DPV Diver 1",
+   "date": "November 7, 2026",
+   "iso": "2026-11-07",
+   "location": "Cala Gonone, Nuoro, Italy",
+   "instructor": "Marco Colman",
+   "instructor_id": "11850"
   },
   {
    "cid": "37562",
@@ -72,6 +18,15 @@
    "location": "Hemmoor, Germany",
    "instructor": "Sebastian Von Koss",
    "instructor_id": "20802"
+  },
+  {
+   "cid": "37780",
+   "course": "GUE Technical Fundamentals",
+   "date": "November 7, 2026",
+   "iso": "2026-11-07",
+   "location": "Seogwipo-si, Korea (South)",
+   "instructor": "Kiyong Jang",
+   "instructor_id": "20360"
   },
   {
    "cid": "37153",
@@ -713,6 +668,15 @@
    "instructor_id": "24473"
   },
   {
+   "cid": "37705",
+   "course": "Doubles Primer",
+   "date": "November 21, 2026",
+   "iso": "2026-11-21",
+   "location": "Changshu, Jiangsu, China",
+   "instructor": "Feiming Cheng",
+   "instructor_id": "68591"
+  },
+  {
    "cid": "37272",
    "course": "Doubles Primer",
    "date": "November 21, 2026",
@@ -776,6 +740,15 @@
    "instructor_id": "65259"
   },
   {
+   "cid": "37706",
+   "course": "Drysuit Primer",
+   "date": "November 22, 2026",
+   "iso": "2026-11-22",
+   "location": "Yixing, Jiangsu, China",
+   "instructor": "Feiming Cheng",
+   "instructor_id": "68591"
+  },
+  {
    "cid": "37674",
    "course": "CCR Fundamentals: JJ-CCR",
    "date": "November 23, 2026",
@@ -837,15 +810,6 @@
    "location": "Krnica, Istria county, Croatia",
    "instructor": "Zsolt Szilagyi",
    "instructor_id": "1444"
-  },
-  {
-   "cid": "37705",
-   "course": "Doubles Primer",
-   "date": "November 23, 2026",
-   "iso": "2026-11-23",
-   "location": "Changshu, Jiangsu, China",
-   "instructor": "Feiming Cheng",
-   "instructor_id": "68591"
   },
   {
    "cid": "34212",
@@ -947,15 +911,6 @@
    "instructor_id": "6754"
   },
   {
-   "cid": "37706",
-   "course": "Drysuit Primer",
-   "date": "November 25, 2026",
-   "iso": "2026-11-25",
-   "location": "Yixing, Jiangsu, China",
-   "instructor": "Feiming Cheng",
-   "instructor_id": "68591"
-  },
-  {
    "cid": "36640",
    "course": "Cave Diver 1",
    "date": "November 26, 2026",
@@ -1037,6 +992,15 @@
    "instructor_id": "2359"
   },
   {
+   "cid": "36530",
+   "course": "CCR Technical Diver 1: JJ-CCR",
+   "date": "November 29, 2026",
+   "iso": "2026-11-29",
+   "location": "Kralendijk, Bonaire",
+   "instructor": "Jp Bresser",
+   "instructor_id": "2458"
+  },
+  {
    "cid": "37456",
    "course": "Cave Diver 1",
    "date": "November 29, 2026",
@@ -1080,15 +1044,6 @@
    "location": "Anilao, Batangas, Philippines",
    "instructor": "Miko Zulueta",
    "instructor_id": "8228"
-  },
-  {
-   "cid": "36530",
-   "course": "CCR Technical Diver 1: JJ-CCR",
-   "date": "November 30, 2026",
-   "iso": "2026-11-30",
-   "location": "Kralendijk, Bonaire",
-   "instructor": "Jp Bresser",
-   "instructor_id": "2458"
   },
   {
    "cid": "35473",
@@ -1506,6 +1461,15 @@
   },
   {
    "cid": "37772",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "December 11, 2026",
+   "iso": "2026-12-11",
+   "location": "Anilao, Batangas, Philippines",
+   "instructor": "Miko Zulueta",
+   "instructor_id": "8228"
+  },
+  {
+   "cid": "37782",
    "course": "CCR Fundamentals: Symbios",
    "date": "December 11, 2026",
    "iso": "2026-12-11",
@@ -3890,6 +3854,15 @@
    "instructor_id": "20747"
   },
   {
+   "cid": "37784",
+   "course": "CCR Technical Diver 2",
+   "date": "March 24, 2027",
+   "iso": "2027-03-24",
+   "location": "Dahab, Janub Sina', Egypt",
+   "instructor": "Sameh Sokar",
+   "instructor_id": "18431"
+  },
+  {
    "cid": "37589",
    "course": "GUE Technical Fundamentals",
    "date": "March 24, 2027",
@@ -4889,6 +4862,15 @@
    "instructor_id": "19962"
   },
   {
+   "cid": "37781",
+   "course": "Technical Diver 1",
+   "date": "May 31, 2027",
+   "iso": "2027-05-31",
+   "location": "Oslo , Norway",
+   "instructor": "Annika Persson",
+   "instructor_id": "9662"
+  },
+  {
    "cid": "37648",
    "course": "Technical Diver 1",
    "date": "May 31, 2027",
@@ -5139,6 +5121,15 @@
    "location": "Vobster, Somerset, United Kingdom",
    "instructor": "John Kendall",
    "instructor_id": "1956"
+  },
+  {
+   "cid": "37785",
+   "course": "Cave Diver 1",
+   "date": "July 18, 2027",
+   "iso": "2027-07-18",
+   "location": "Gramat, France",
+   "instructor": "Irene Homberger",
+   "instructor_id": "13377"
   },
   {
    "cid": "32209",

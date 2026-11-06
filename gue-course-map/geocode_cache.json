@@ -2897,5 +2897,23 @@
   "matched_query": "kressbronn, baden-württemberg, germany",
   "approx": false,
   "verified": true
+ },
+ "oslo , norway": {
+  "lat": 59.9133301,
+  "lng": 10.7389701,
+  "display": "Oslo, Norge",
+  "country": "no",
+  "matched_query": "oslo , norway",
+  "approx": false,
+  "verified": true
+ },
+ "seogwipo-si, korea (south)": {
+  "lat": 33.252845,
+  "lng": 126.5610278,
+  "display": "서귀포시, 제주특별자치도, 대한민국",
+  "country": "kr",
+  "matched_query": "seogwipo-si, korea (south)",
+  "approx": false,
+  "verified": true
  }
 }
