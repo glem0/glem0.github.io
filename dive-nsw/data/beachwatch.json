@@ -421,7 +421,7 @@
           "id": "e34aa8b8-142f-438d-ab18-bedce361e324",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Bronte Beach"
         },
         "type": "Feature"
@@ -710,7 +710,7 @@
           "id": "90ce83b9-78a8-48c2-bb26-4af4e31111c6",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Chinamans Beach"
         },
         "type": "Feature"
@@ -778,7 +778,7 @@
           "id": "6c79de5b-7c82-48bc-91df-318374838a43",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Clontarf Pool"
         },
         "type": "Feature"
@@ -795,7 +795,7 @@
           "id": "06e4aa12-a704-440e-a31c-ce25fcd0057f",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Clovelly Beach"
         },
         "type": "Feature"
@@ -948,7 +948,7 @@
           "id": "ca53919d-8e26-40b0-b8cc-edf80ec303d9",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Coogee Beach"
         },
         "type": "Feature"
@@ -1186,7 +1186,7 @@
           "id": "70704ffa-ebc9-4d90-825a-a62461f7ed11",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Edwards Beach"
         },
         "type": "Feature"
@@ -1560,7 +1560,7 @@
           "id": "3397c49e-fd59-4b4f-a2d6-57c2a08450a6",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Gurney Crescent Baths"
         },
         "type": "Feature"
@@ -1968,7 +1968,7 @@
           "id": "93ec689a-b568-4cef-8c51-1eaafbbb51a5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Long Reef Beach"
         },
         "type": "Feature"
@@ -2359,7 +2359,7 @@
           "id": "18141cd1-d0ef-4858-b22a-3fcc5c84f604",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Murray Rose Pool"
         },
         "type": "Feature"
@@ -3498,7 +3498,7 @@
           "id": "d8174dde-e864-4a58-b997-e140bea7c5d6",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Tamarama Beach"
         },
         "type": "Feature"
