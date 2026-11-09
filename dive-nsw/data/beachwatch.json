@@ -591,7 +591,7 @@
           "id": "4904afcf-6313-4456-9f14-cc037087dd76",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Camp Cove"
         },
         "type": "Feature"
@@ -623,8 +623,8 @@
         },
         "properties": {
           "id": "3797a81b-936e-4e27-a813-e6c611ee2d99",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Possible",
           "siteName": "Carss Point Baths"
         },
@@ -710,7 +710,7 @@
           "id": "90ce83b9-78a8-48c2-bb26-4af4e31111c6",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Chinamans Beach"
         },
         "type": "Feature"
@@ -795,7 +795,7 @@
           "id": "06e4aa12-a704-440e-a31c-ce25fcd0057f",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Clovelly Beach"
         },
         "type": "Feature"
@@ -912,8 +912,8 @@
         },
         "properties": {
           "id": "7d0a9388-37fc-45f4-8fb3-e60ae4d09b1d",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Possible",
           "siteName": "Congwong Bay"
         },
@@ -948,7 +948,7 @@
           "id": "ca53919d-8e26-40b0-b8cc-edf80ec303d9",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Coogee Beach"
         },
         "type": "Feature"
@@ -1133,8 +1133,8 @@
         },
         "properties": {
           "id": "5ed93442-6ffd-4445-bfb8-1a2d16992400",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Dolls Point Baths"
         },
@@ -1186,7 +1186,7 @@
           "id": "70704ffa-ebc9-4d90-825a-a62461f7ed11",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Edwards Beach"
         },
         "type": "Feature"
@@ -1337,8 +1337,8 @@
         },
         "properties": {
           "id": "988c4cd3-eeff-4d2d-813c-2731490b0f01",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Likely",
           "siteName": "Foreshore Beach"
         },
@@ -1405,8 +1405,8 @@
         },
         "properties": {
           "id": "8bb75641-1783-43b9-861d-df7aa0594cd2",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Possible",
           "siteName": "Frenchmans Bay"
         },
@@ -1422,8 +1422,8 @@
         },
         "properties": {
           "id": "77556fe0-20d1-4028-9bad-d61b3e046b4c",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Freshwater Beach"
         },
@@ -1458,7 +1458,7 @@
           "id": "042af9fb-da1d-406a-a743-3da81da0a194",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Gordons Bay (East)"
         },
         "type": "Feature"
@@ -1541,8 +1541,8 @@
         },
         "properties": {
           "id": "d88adb6c-c5a2-4cee-b883-c749140ce033",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Possible",
           "siteName": "Gunnamatta Bay Baths"
         },
@@ -1592,8 +1592,8 @@
         },
         "properties": {
           "id": "2f8fd16c-2631-4f56-ae9a-3ada9dbfa8fe",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Possible",
           "siteName": "Gymea Bay Baths"
         },
@@ -1643,8 +1643,8 @@
         },
         "properties": {
           "id": "4f626874-5276-48e7-8bd2-1d8976908cc5",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Possible",
           "siteName": "Horderns Beach"
         },
@@ -1915,8 +1915,8 @@
         },
         "properties": {
           "id": "ed810bcd-b416-4db6-8532-9f9f406bcc11",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Possible",
           "siteName": "Lilli Pilli Baths"
         },
@@ -1968,7 +1968,7 @@
           "id": "93ec689a-b568-4cef-8c51-1eaafbbb51a5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Long Reef Beach"
         },
         "type": "Feature"
@@ -2391,8 +2391,8 @@
         },
         "properties": {
           "id": "f05ac321-7e70-4c4a-99cd-cc0f8a0acb5d",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Possible",
           "siteName": "Narrabeen Lagoon (Birdwood Park)"
         },
@@ -2444,7 +2444,7 @@
           "id": "816de31e-1418-41c9-8987-992538b32c07",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Nielsen Park"
         },
         "type": "Feature"
@@ -2663,8 +2663,8 @@
         },
         "properties": {
           "id": "f4785861-61c1-4acb-b841-2609962ed0c7",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Possible",
           "siteName": "Oatley Bay Baths"
         },
@@ -2986,8 +2986,8 @@
         },
         "properties": {
           "id": "f3ea8946-1d49-4f06-8dcf-89aaf08705a6",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Possible",
           "siteName": "Sandringham Baths"
         },
@@ -3173,8 +3173,8 @@
         },
         "properties": {
           "id": "995753ed-db2a-4cb8-9349-922cf3312766",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "Shelly Beach (Manly)"
         },
@@ -3224,8 +3224,8 @@
         },
         "properties": {
           "id": "8754523f-35ea-473d-a656-5601d7c6d762",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Possible",
           "siteName": "Silver Beach"
         },
@@ -3360,8 +3360,8 @@
         },
         "properties": {
           "id": "224fc6a1-f98a-4a10-9603-91dacf9e54b8",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Unlikely",
           "siteName": "South Steyne Beach"
         },
@@ -3906,7 +3906,7 @@
           "id": "aaaefe71-5959-40e0-a3a0-a620e8bb49ce",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Watsons Bay"
         },
         "type": "Feature"
@@ -4108,8 +4108,8 @@
         },
         "properties": {
           "id": "c7e2681c-94dd-465b-8c87-9c5a56809c8e",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Possible",
           "siteName": "Yarra Bay"
         },
