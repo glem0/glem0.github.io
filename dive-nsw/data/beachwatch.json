@@ -130,8 +130,8 @@
         },
         "properties": {
           "id": "e469a86a-1a9b-4e8a-a62d-1b90141b5bd5",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Possible",
           "siteName": "Barrenjoey Beach"
         },
@@ -3464,7 +3464,7 @@
           "id": "b9187edd-7914-4f35-8d1b-198afbacab59",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Surf Beach Kiama"
         },
         "type": "Feature"
@@ -3479,8 +3479,8 @@
         },
         "properties": {
           "id": "e76d87f3-90d9-47aa-b71f-90cda6b6374b",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Swansea Heads Little Beach"
         },
