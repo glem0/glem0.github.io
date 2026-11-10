@@ -435,7 +435,7 @@ tr.cve-hover-match td { background: var(--cve-match-bg) !important; }
 
 <script>
 const DATA = [];
-const DATA_UPDATED = "2026-10-26T23:12:26Z";
+const DATA_UPDATED = "2026-11-10T02:17:47Z";
 DATA.push({r:"iOS 26.2 / iPadOS 26.2",os:"ios",d:"12 Dec 2025",v:[
   {c:"App Store",desc:"An app may be able to access sensitive payment tokens. A permissions issue was addressed with additional restrictions",cve:["CVE-2025-46288"]},
   {c:"AppleJPEG",desc:"Processing a file may lead to memory corruption. The issue was addressed with improved bounds checks",cve:["CVE-2025-43539"]},
@@ -8802,6 +8802,65 @@ DATA.push({r:"iOS 27.2 / iPadOS 27.2",os:"ios",d:"26 Oct 2026",v:[
   {c:"Wi-Fi",desc:"An attacker in physical proximity may be able to corrupt process memory. A memory corruption issue was addressed with improved input validation",cve:["CVE-2026-113909"]},
   {c:"Wi-Fi",desc:"An attacker in radio range may be able to cause unexpected system termination. An out-of-bounds read was addressed with improved bounds checking",cve:["CVE-2026-112622"]},
   {c:"Wi-Fi",desc:"An attacker in a privileged network position may be able to cause a denial-of-service. A denial-of-service issue was addressed with improved input validation",cve:["CVE-2026-112620"]},
+]});
+DATA.push({r:"macOS Sequoia 15.8.3",os:"macos",d:"09 Nov 2026",v:[
+  {c:"AirPlay",desc:"An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts. A logic issue was addressed with improved state management",cve:["CVE-2026-113968"]},
+  {c:"Bluetooth",desc:"An attacker in Bluetooth range may be able to corrupt process memory. A use-after-free issue was addressed with improved memory management",cve:["CVE-2026-113970"]},
+  {c:"brotli",desc:"Processing maliciously crafted input may lead to memory corruption. An out-of-bounds write issue was addressed with improved input validation",cve:["CVE-2026-111497"]},
+  {c:"CoreUtils",desc:"A malicious Bluetooth device may be able to establish a pairing without user interaction. This issue was addressed with improved checks",cve:["CVE-2026-113965"]},
+  {c:"CoreUtils",desc:"An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts and pair with a device without user interaction. A logic issue was addressed with improved state management",cve:["CVE-2026-113964"]},
+  {c:"Messages",desc:"A user added to an iMessage group may be able to access messages sent before they joined. This issue was addressed by removing the vulnerable code",cve:["CVE-2026-113960"]},
+  {c:"Messages",desc:"A remote attacker may be able to join an iMessage group chat and receive its messages. An authorization issue was addressed with improved validation",cve:["CVE-2026-113961"]},
+  {c:"rapportd",desc:"An attacker on the same network may be able to bypass the rate limit on AirPlay pairing code attempts. A logic issue was addressed with improved state management",cve:["CVE-2026-113969"]},
+]});
+DATA.push({r:"macOS Tahoe 26.7.3",os:"macos",d:"09 Nov 2026",v:[
+  {c:"AirPlay",desc:"An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts. A logic issue was addressed with improved state management",cve:["CVE-2026-113968"]},
+  {c:"Bluetooth",desc:"An attacker in Bluetooth range may be able to corrupt process memory. A use-after-free issue was addressed with improved memory management",cve:["CVE-2026-113970"]},
+  {c:"brotli",desc:"Processing maliciously crafted input may lead to memory corruption. An out-of-bounds write issue was addressed with improved input validation",cve:["CVE-2026-111497"]},
+  {c:"CoreUtils",desc:"A malicious Bluetooth device may be able to establish a pairing without user interaction. This issue was addressed with improved checks",cve:["CVE-2026-113965"]},
+  {c:"CoreUtils",desc:"An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts and pair with a device without user interaction. A logic issue was addressed with improved state management",cve:["CVE-2026-113964"]},
+  {c:"Messages",desc:"A user added to an iMessage group may be able to access messages sent before they joined. This issue was addressed by removing the vulnerable code",cve:["CVE-2026-113960"]},
+  {c:"Messages",desc:"A remote attacker may be able to join an iMessage group chat and receive its messages. An authorization issue was addressed with improved validation",cve:["CVE-2026-113961"]},
+  {c:"rapportd",desc:"An attacker on the same network may be able to bypass the rate limit on AirPlay pairing code attempts. A logic issue was addressed with improved state management",cve:["CVE-2026-113969"]},
+]});
+DATA.push({r:"macOS Golden Gate 27.2.1",os:"macos",d:"09 Nov 2026",v:[
+  {c:"AirPlay",desc:"An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts. A logic issue was addressed with improved state management",cve:["CVE-2026-113968"]},
+  {c:"Bluetooth",desc:"An attacker in Bluetooth range may be able to corrupt process memory. A use-after-free issue was addressed with improved memory management",cve:["CVE-2026-113970"]},
+  {c:"brotli",desc:"Processing maliciously crafted input may lead to memory corruption. An out-of-bounds write issue was addressed with improved input validation",cve:["CVE-2026-111497"]},
+  {c:"CoreUtils",desc:"A malicious Bluetooth device may be able to establish a pairing without user interaction. This issue was addressed with improved checks",cve:["CVE-2026-113965"]},
+  {c:"CoreUtils",desc:"An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts and pair with a device without user interaction. A logic issue was addressed with improved state management",cve:["CVE-2026-113964"]},
+  {c:"Messages",desc:"A remote attacker may be able to join an iMessage group chat and receive its messages. An authorization issue was addressed with improved validation",cve:["CVE-2026-113961"]},
+  {c:"Messages",desc:"A user added to an iMessage group may be able to access messages sent before they joined. This issue was addressed by removing the vulnerable code",cve:["CVE-2026-113960"]},
+  {c:"rapportd",desc:"An attacker on the same network may be able to bypass the rate limit on AirPlay pairing code attempts. A logic issue was addressed with improved state management",cve:["CVE-2026-113969"]},
+]});
+DATA.push({r:"iOS 18.7.12 / iPadOS 18.7.12",os:"ios",d:"09 Nov 2026",v:[
+  {c:"AirPlay",desc:"An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts. A logic issue was addressed with improved state management",cve:["CVE-2026-113968"]},
+  {c:"Bluetooth",desc:"An attacker in Bluetooth range may be able to corrupt process memory. A use-after-free issue was addressed with improved memory management",cve:["CVE-2026-113970"]},
+  {c:"CoreUtils",desc:"A malicious Bluetooth device may be able to establish a pairing without user interaction. This issue was addressed with improved checks",cve:["CVE-2026-113965"]},
+  {c:"CoreUtils",desc:"An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts and pair with a device without user interaction. A logic issue was addressed with improved state management",cve:["CVE-2026-113964"]},
+  {c:"MediaRemote",desc:"An attacker with physical access may be able to pair a device with an AirPlay receiver from the lock screen. This issue was addressed by restricting options offered on a locked device",cve:["CVE-2026-113971"]},
+  {c:"rapportd",desc:"An attacker on the same network may be able to bypass the rate limit on AirPlay pairing code attempts. A logic issue was addressed with improved state management",cve:["CVE-2026-113969"]},
+]});
+DATA.push({r:"iOS 26.7.3 / iPadOS 26.7.3",os:"ios",d:"09 Nov 2026",v:[
+  {c:"AirPlay",desc:"An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts. A logic issue was addressed with improved state management",cve:["CVE-2026-113968"]},
+  {c:"Bluetooth",desc:"An attacker in Bluetooth range may be able to corrupt process memory. A use-after-free issue was addressed with improved memory management",cve:["CVE-2026-113970"]},
+  {c:"brotli",desc:"Processing maliciously crafted input may lead to memory corruption. An out-of-bounds write issue was addressed with improved input validation",cve:["CVE-2026-111497"]},
+  {c:"CoreUtils",desc:"A malicious Bluetooth device may be able to establish a pairing without user interaction. This issue was addressed with improved checks",cve:["CVE-2026-113965"]},
+  {c:"CoreUtils",desc:"An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts and pair with a device without user interaction. A logic issue was addressed with improved state management",cve:["CVE-2026-113964"]},
+  {c:"Messages",desc:"A user added to an iMessage group may be able to access messages sent before they joined. This issue was addressed by removing the vulnerable code",cve:["CVE-2026-113960"]},
+  {c:"Messages",desc:"A remote attacker may be able to join an iMessage group chat and receive its messages. An authorization issue was addressed with improved validation",cve:["CVE-2026-113961"]},
+  {c:"rapportd",desc:"An attacker on the same network may be able to bypass the rate limit on AirPlay pairing code attempts. A logic issue was addressed with improved state management",cve:["CVE-2026-113969"]},
+]});
+DATA.push({r:"iOS 27.2.1 / iPadOS 27.2.1",os:"ios",d:"09 Nov 2026",v:[
+  {c:"AirPlay",desc:"An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts. A logic issue was addressed with improved state management",cve:["CVE-2026-113968"]},
+  {c:"App Intents",desc:"An app may be able to access sensitive user data. An authorization issue was addressed with improved state management",cve:["CVE-2026-113963"]},
+  {c:"Bluetooth",desc:"An attacker in Bluetooth range may be able to corrupt process memory. A use-after-free issue was addressed with improved memory management",cve:["CVE-2026-113970"]},
+  {c:"brotli",desc:"Processing maliciously crafted input may lead to memory corruption. An out-of-bounds write issue was addressed with improved input validation",cve:["CVE-2026-111497"]},
+  {c:"CoreUtils",desc:"A malicious Bluetooth device may be able to establish a pairing without user interaction. This issue was addressed with improved checks",cve:["CVE-2026-113965"]},
+  {c:"CoreUtils",desc:"An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts and pair with a device without user interaction. A logic issue was addressed with improved state management",cve:["CVE-2026-113964"]},
+  {c:"Messages",desc:"A remote attacker may be able to join an iMessage group chat and receive its messages. An authorization issue was addressed with improved validation",cve:["CVE-2026-113961"]},
+  {c:"Messages",desc:"A user added to an iMessage group may be able to access messages sent before they joined. This issue was addressed by removing the vulnerable code",cve:["CVE-2026-113960"]},
+  {c:"rapportd",desc:"An attacker on the same network may be able to bypass the rate limit on AirPlay pairing code attempts. A logic issue was addressed with improved state management",cve:["CVE-2026-113969"]},
 ]});
 </script>
 <script>
