@@ -1,24 +1,6 @@
 {
- "updated": "2026-11-10T00:50:13Z",
+ "updated": "2026-11-10T22:30:10Z",
  "classes": [
-  {
-   "cid": "36383",
-   "course": "Cave Diver 1",
-   "date": "November 10, 2026",
-   "iso": "2026-11-10",
-   "location": "Cabo de Palos, Spain",
-   "instructor": "Ricardo Constantino",
-   "instructor_id": "1591"
-  },
-  {
-   "cid": "37172",
-   "course": "Doubles Primer",
-   "date": "November 10, 2026",
-   "iso": "2026-11-10",
-   "location": "Pintung, PingTung County, Taiwan",
-   "instructor": "Liu Yen Chun",
-   "instructor_id": "27215"
-  },
   {
    "cid": "37765",
    "course": "GUE Basic Fundamentals",
@@ -182,6 +164,15 @@
    "instructor_id": "895"
   },
   {
+   "cid": "36389",
+   "course": "Navigation Primer",
+   "date": "November 14, 2026",
+   "iso": "2026-11-14",
+   "location": "Sydney, New South Wales, Australia",
+   "instructor": "Sebastien Landat",
+   "instructor_id": "22757"
+  },
+  {
    "cid": "36818",
    "course": "Technical Diver 1",
    "date": "November 14, 2026",
@@ -288,15 +279,6 @@
    "location": "Tech Korea, Korea (South)",
    "instructor": "Su Eun Kim",
    "instructor_id": "14655"
-  },
-  {
-   "cid": "35050",
-   "course": "Technical Diver 1",
-   "date": "November 16, 2026",
-   "iso": "2026-11-16",
-   "location": "Zero Gravity Dive centre, Puerto Aventuras , Quintana Roo, Mexico",
-   "instructor": "Annika Persson",
-   "instructor_id": "9662"
   },
   {
    "cid": "36904",
@@ -684,6 +666,15 @@
    "location": "Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "John Kendall",
    "instructor_id": "1956"
+  },
+  {
+   "cid": "37431",
+   "course": "Open Water Diver",
+   "date": "November 23, 2026",
+   "iso": "2026-11-23",
+   "location": "Puerto aventuras / Akumal, Quintana Roo, Mexico",
+   "instructor": "Annika Persson",
+   "instructor_id": "9662"
   },
   {
    "cid": "29628",
@@ -1415,6 +1406,15 @@
    "instructor_id": "68425"
   },
   {
+   "cid": "37106",
+   "course": "GUE Performance Diver",
+   "date": "December 12, 2026",
+   "iso": "2026-12-12",
+   "location": "Sydney, New South Wales, Australia",
+   "instructor": "Sebastien Landat",
+   "instructor_id": "22757"
+  },
+  {
    "cid": "37737",
    "course": "Gas Blender",
    "date": "December 12, 2026",
@@ -1440,6 +1440,15 @@
    "location": "Playa del Carmen, Quintana Roo, Mexico",
    "instructor": "Emőke Wagner",
    "instructor_id": "20747"
+  },
+  {
+   "cid": "37808",
+   "course": "Doubles Primer",
+   "date": "December 13, 2026",
+   "iso": "2026-12-13",
+   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
   },
   {
    "cid": "37557",
@@ -1710,6 +1719,15 @@
    "location": "Offenburg, Germany",
    "instructor": "Christian Schweiger",
    "instructor_id": "68425"
+  },
+  {
+   "cid": "37566",
+   "course": "GUE Performance Diver",
+   "date": "December 19, 2026",
+   "iso": "2026-12-19",
+   "location": "Sydney, New South Wales, Australia",
+   "instructor": "Sebastien Landat",
+   "instructor_id": "22757"
   },
   {
    "cid": "37662",
@@ -2522,6 +2540,15 @@
    "instructor_id": "20802"
   },
   {
+   "cid": "36848",
+   "course": "Rescue Primer",
+   "date": "January 23, 2027",
+   "iso": "2027-01-23",
+   "location": "Sydney, New South Wales, Australia",
+   "instructor": "Sebastien Landat",
+   "instructor_id": "22757"
+  },
+  {
    "cid": "32201",
    "course": "Cave Diver 1",
    "date": "January 24, 2027",
@@ -3161,6 +3188,15 @@
    "instructor_id": "21332"
   },
   {
+   "cid": "35050",
+   "course": "Technical Diver 1",
+   "date": "February 20, 2027",
+   "iso": "2027-02-20",
+   "location": "Zero Gravity Dive centre, Puerto Aventuras , Quintana Roo, Mexico",
+   "instructor": "Annika Persson",
+   "instructor_id": "9662"
+  },
+  {
    "cid": "37055",
    "course": "Cave Diver 1",
    "date": "February 21, 2027",
@@ -3276,15 +3312,6 @@
    "location": "Malta o. Dahab, Malta",
    "instructor": "Keith Kreitner",
    "instructor_id": "12073"
-  },
-  {
-   "cid": "37749",
-   "course": "Technical Diver 1",
-   "date": "February 22, 2027",
-   "iso": "2027-02-22",
-   "location": "Puerto Aventuras , Quintana Roo, Mexico",
-   "instructor": "Annika Persson",
-   "instructor_id": "9662"
   },
   {
    "cid": "37437",
@@ -4448,6 +4475,15 @@
    "instructor_id": "7698"
   },
   {
+   "cid": "37809",
+   "course": "Cave Diver 1",
+   "date": "May 2, 2027",
+   "iso": "2027-05-02",
+   "location": "Gramat, France",
+   "instructor": "Irene Homberger",
+   "instructor_id": "13377"
+  },
+  {
    "cid": "37160",
    "course": "CCR Technical Diver 1: JJ-CCR",
    "date": "May 3, 2027",
@@ -4539,6 +4575,15 @@
   },
   {
    "cid": "37806",
+   "course": "Scientific Diver",
+   "date": "May 8, 2027",
+   "iso": "2027-05-08",
+   "location": "Calla Gonone, Italy",
+   "instructor": "Diogo Paulo",
+   "instructor_id": "9665"
+  },
+  {
+   "cid": "37807",
    "course": "Scientific Diver",
    "date": "May 8, 2027",
    "iso": "2027-05-08",
