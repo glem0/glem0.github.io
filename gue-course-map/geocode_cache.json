@@ -2915,5 +2915,12 @@
   "matched_query": "seogwipo-si, korea (south)",
   "approx": false,
   "verified": true
+ },
+ "calla gonone, italy": {
+  "lat": 40.2820879,
+  "lng": 9.6343396,
+  "display": "Cala Gonone, Durgali/Dorgali, Nuoro, Sardigna/Sardegna, 08022, Italia",
+  "matched_query": "Cala Gonone, Italy",
+  "alias_of": "cala gonone, italy"
  }
 }
