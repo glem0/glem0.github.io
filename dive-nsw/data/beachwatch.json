@@ -421,7 +421,7 @@
           "id": "e34aa8b8-142f-438d-ab18-bedce361e324",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Bronte Beach"
         },
         "type": "Feature"
@@ -1830,8 +1830,8 @@
         },
         "properties": {
           "id": "f667d1fc-2120-43b9-8ace-df37f7b84f3a",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Lake Endeavour"
         },
@@ -1968,7 +1968,7 @@
           "id": "93ec689a-b568-4cef-8c51-1eaafbbb51a5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Long Reef Beach"
         },
         "type": "Feature"
@@ -2750,7 +2750,7 @@
           "id": "29df3246-4dc4-4a19-9b01-b13fca311257",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Parsley Bay"
         },
         "type": "Feature"
@@ -3498,7 +3498,7 @@
           "id": "d8174dde-e864-4a58-b997-e140bea7c5d6",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Tamarama Beach"
         },
         "type": "Feature"
