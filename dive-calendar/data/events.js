@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-11-11T09:29:44+11:00",
+ "generated_at": "2026-11-12T10:34:22+11:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-11-01",
@@ -13,7 +13,7 @@ window.__DIVE_DATA__ =
    "short": "Abyss",
    "url": "https://www.abyss.com.au/sydney-dive-calendar",
    "status": "ok",
-   "event_count": 138
+   "event_count": 140
   },
   {
    "id": "frogdive",
@@ -21,7 +21,7 @@ window.__DIVE_DATA__ =
    "short": "Frog Dive",
    "url": "https://www.frogdive.com.au/pages/dive-calendar",
    "status": "ok",
-   "event_count": 14
+   "event_count": 13
   },
   {
    "id": "divebondi",
@@ -29,7 +29,7 @@ window.__DIVE_DATA__ =
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 265
+   "event_count": 264
   },
   {
    "id": "divesydney",
@@ -37,7 +37,7 @@ window.__DIVE_DATA__ =
    "short": "DC Manly",
    "url": "https://divesydney.com.au/dive-calendar/",
    "status": "ok",
-   "event_count": 694
+   "event_count": 692
   },
   {
    "id": "prodive",
@@ -53,7 +53,7 @@ window.__DIVE_DATA__ =
    "short": "Charters",
    "url": "https://www.sydneydivecharters.com.au/bookings/",
    "status": "ok",
-   "event_count": 174
+   "event_count": 173
   }
  ],
  "events": [
@@ -184,31 +184,6 @@ window.__DIVE_DATA__ =
    "all_day": true,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-12#326@book@",
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
-  },
-  {
-   "id": "divecharters-c0f94c8e0cf3",
-   "source": "divecharters",
-   "title": "Discover Scuba Dive (DSD) - Gear Included",
-   "start": "2026-11-12",
-   "all_day": true,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-12#339@book@",
-   "description": "A$299.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
-  },
-  {
-   "id": "divesydney-cad870babb65",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-11-12T09:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-11-12&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-06bee1c50251",
-   "source": "divesydney",
-   "title": "Snorkel Safari",
-   "start": "2026-11-12T14:30+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-12&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
    "id": "abyss-9d8c08661f45",
@@ -451,17 +426,6 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-11-15&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
-   "id": "frogdive-622848d8ef8a",
-   "source": "frogdive",
-   "title": "SHORE DIVE CLIFTON GARDENS",
-   "start": "2026-11-15T07:45+11:00",
-   "all_day": false,
-   "end": "2026-11-15T08:15+11:00",
-   "url": "https://frogdive.eventcalendarapp.com/u/18702/478038",
-   "location": "Clifton Gardens",
-   "description": "Clifton Gardens\nDive Level Green – beginner diver friendly\nAverage Depth 8m ..."
-  },
-  {
    "id": "abyss-169c077d0fc3",
    "source": "abyss",
    "title": "Wanderers UNGUIDED AM Boat Dive (sold out)",
@@ -488,9 +452,9 @@ window.__DIVE_DATA__ =
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
-   "id": "divesydney-49fd2127df61",
+   "id": "divesydney-d7702619f14f",
    "source": "divesydney",
-   "title": "Scuba Refresher",
+   "title": "Scuba Refresher (sold out)",
    "start": "2026-11-15T08:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-11-15&preferredTime=8%3A30+AM&catalogId=494484"
@@ -602,14 +566,6 @@ window.__DIVE_DATA__ =
    "start": "2026-11-17T09:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-11-17&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divebondi-610fd5aa1b0f",
-   "source": "divebondi",
-   "title": "Guided Snorkel Tour",
-   "start": "2026-11-17T10:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=439435&preferredDate=2026-11-17&preferredTime=10%3A00+AM&catalogId=597076"
   },
   {
    "id": "divesydney-43311215b184",
@@ -953,20 +909,20 @@ window.__DIVE_DATA__ =
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
-   "id": "divebondi-4a63aef08aba",
-   "source": "divebondi",
-   "title": "Dive Against Debris",
-   "start": "2026-11-22T08:30+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=437045&preferredDate=2026-11-22&preferredTime=8%3A30+AM&catalogId=597076"
-  },
-  {
    "id": "divebondi-eb664c43b47b",
    "source": "divebondi",
    "title": "Advanced Shore Dive",
    "start": "2026-11-22T08:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=647260&preferredDate=2026-11-22&preferredTime=8%3A30+AM&catalogId=597076"
+  },
+  {
+   "id": "divebondi-4a63aef08aba",
+   "source": "divebondi",
+   "title": "Dive Against Debris",
+   "start": "2026-11-22T08:30+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=437045&preferredDate=2026-11-22&preferredTime=8%3A30+AM&catalogId=597076"
   },
   {
    "id": "abyss-7f30da33f64a",
@@ -1095,6 +1051,14 @@ window.__DIVE_DATA__ =
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
+   "id": "divebondi-ba6c345f3576",
+   "source": "divebondi",
+   "title": "Guided Shore Dive",
+   "start": "2026-11-25T09:00+11:00",
+   "all_day": false,
+   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-11-25&preferredTime=9%3A00+AM&catalogId=597076"
+  },
+  {
    "id": "divebondi-b74ee2c82bdc",
    "source": "divebondi",
    "title": "Refresher Course",
@@ -1109,14 +1073,6 @@ window.__DIVE_DATA__ =
    "start": "2026-11-25T09:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=432551&preferredDate=2026-11-25&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-ba6c345f3576",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-11-25T09:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-11-25&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
    "id": "divesydney-5cfddb971916",
@@ -1293,9 +1249,9 @@ window.__DIVE_DATA__ =
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
-   "id": "divesydney-f08ed9ec9761",
+   "id": "divesydney-dbbadec5996e",
    "source": "divesydney",
-   "title": "Scuba Refresher",
+   "title": "Scuba Refresher (sold out)",
    "start": "2026-11-28T08:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-11-28&preferredTime=8%3A30+AM&catalogId=494484"
@@ -1992,6 +1948,15 @@ window.__DIVE_DATA__ =
    "start": "2026-12-06T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-12-06&preferredTime=2%3A30+PM&catalogId=494484"
+  },
+  {
+   "id": "abyss-92335b4e9179",
+   "source": "abyss",
+   "title": "Reef, Pizza & Beer!",
+   "start": "2026-12-06T15:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/social-events",
+   "description": "Social Events · Tali from UTS, presenting her Masters with Coral Nurture Program"
   },
   {
    "id": "divecharters-b897e863a4ac",
@@ -4663,6 +4628,15 @@ window.__DIVE_DATA__ =
    "start": "2027-01-12T14:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2027-01-12&preferredTime=2%3A30+PM&catalogId=494484"
+  },
+  {
+   "id": "abyss-54e99c409bf7",
+   "source": "abyss",
+   "title": "Trivia",
+   "start": "2027-01-12T18:30+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/charters/social-events",
+   "description": "Social Events · Trivia night at the The Prince Hotel (Kirrawee)"
   },
   {
    "id": "divecharters-172d472f3914",
