@@ -2922,5 +2922,23 @@
   "display": "Cala Gonone, Durgali/Dorgali, Nuoro, Sardigna/Sardegna, 08022, Italia",
   "matched_query": "Cala Gonone, Italy",
   "alias_of": "cala gonone, italy"
+ },
+ "puerto aventuras / akumal, quintana roo, mexico, mexico": {
+  "lat": 19.3207722,
+  "lng": -99.1514677,
+  "display": "Ciudad de México, México",
+  "country": "mx",
+  "matched_query": "mexico, mexico",
+  "approx": true,
+  "verified": true
+ },
+ "杭州, zhejiang, china": {
+  "lat": 30.2489634,
+  "lng": 120.2052342,
+  "display": "杭州市, 浙江省, 中国",
+  "country": "cn",
+  "matched_query": "杭州, zhejiang, china",
+  "approx": false,
+  "verified": true
  }
 }

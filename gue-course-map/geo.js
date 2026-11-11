@@ -238,6 +238,7 @@ window.GUE_GEO = {
 "puerto aventuras , mexico":[20.50667,-87.23006],
 "puerto aventuras , quintana roo, mexico":[20.50667,-87.23006],
 "puerto aventuras / akumal, quintana roo, mexico":[19.66667,-88.5],
+"puerto aventuras / akumal, quintana roo, mexico, mexico":[19.32077,-99.15147],
 "puerto aventuras, mexico":[20.50667,-87.23006],
 "puerto aventuras, quintana roo, mexico":[20.50667,-87.23006],
 "puerto aventyras, mexico":[20.50667,-87.23006],
@@ -391,5 +392,6 @@ window.GUE_GEO = {
 "überlingen, baden-würtemberg, germany":[47.76645,9.16051],
 "ślesin / honoratka, poland":[52.32538,18.29281],
 "αthens, greece":[37.97556,23.73483],
-"北京, beijing, china":[39.90112,116.42101]
+"北京, beijing, china":[39.90112,116.42101],
+"杭州, zhejiang, china":[30.24896,120.20523]
 };
