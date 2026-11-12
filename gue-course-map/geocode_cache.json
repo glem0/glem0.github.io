@@ -2940,5 +2940,23 @@
   "matched_query": "杭州, zhejiang, china",
   "approx": false,
   "verified": true
+ },
+ "suwon, kyonggi-do, korea (south)": {
+  "lat": 37.2633325,
+  "lng": 127.0287472,
+  "display": "수원시, 경기도, 대한민국",
+  "country": "kr",
+  "matched_query": "suwon, korea (south)",
+  "approx": false,
+  "verified": true
+ },
+ "yangyang, kangwon-do, korea (south)": {
+  "lat": 38.0751,
+  "lng": 128.6191,
+  "display": "양양군, 강원특별자치도, 대한민국",
+  "country": "kr",
+  "matched_query": "yangyang, kangwon-do, korea (south)",
+  "approx": false,
+  "verified": true
  }
 }
