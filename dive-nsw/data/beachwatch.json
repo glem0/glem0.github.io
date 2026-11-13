@@ -79,8 +79,8 @@
         },
         "properties": {
           "id": "dba60ca2-9e3e-49f7-8cb7-087e734ad7b9",
-          "latestResult": "Poor",
-          "latestResultRating": 2,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Avoca Lagoon (Bulbararing)"
         },
@@ -1339,7 +1339,7 @@
           "id": "988c4cd3-eeff-4d2d-813c-2731490b0f01",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Foreshore Beach"
         },
         "type": "Feature"
@@ -1594,7 +1594,7 @@
           "id": "2f8fd16c-2631-4f56-ae9a-3ada9dbfa8fe",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Gymea Bay Baths"
         },
         "type": "Feature"
@@ -1968,7 +1968,7 @@
           "id": "93ec689a-b568-4cef-8c51-1eaafbbb51a5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Long Reef Beach"
         },
         "type": "Feature"
@@ -3564,8 +3564,8 @@
         },
         "properties": {
           "id": "840a7220-029b-4ba8-8718-8bde9f8f0a24",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Terrigal Lagoon"
         },
