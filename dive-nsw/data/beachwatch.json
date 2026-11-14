@@ -132,7 +132,7 @@
           "id": "e469a86a-1a9b-4e8a-a62d-1b90141b5bd5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Barrenjoey Beach"
         },
         "type": "Feature"
@@ -183,7 +183,7 @@
           "id": "6e9006c1-4bc7-4154-800a-a237388965ab",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Likely",
           "siteName": "Bayview Baths"
         },
         "type": "Feature"
@@ -319,7 +319,7 @@
           "id": "8990825d-b48c-443f-9047-862a0b986621",
           "latestResult": "Fair",
           "latestResultRating": 3,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Boat Harbour"
         },
         "type": "Feature"
@@ -625,7 +625,7 @@
           "id": "3797a81b-936e-4e27-a813-e6c611ee2d99",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Carss Point Baths"
         },
         "type": "Feature"
@@ -744,7 +744,7 @@
           "id": "ff59b0d0-b560-4892-986c-f987ba3e9dd0",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Clareville Beach"
         },
         "type": "Feature"
@@ -982,7 +982,7 @@
           "id": "1cca5d42-6426-4ac9-afdf-8c0c1dfcd6dc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Copacabana Beach"
         },
         "type": "Feature"
@@ -1237,7 +1237,7 @@
           "id": "48228c69-739e-4287-9843-40a25a3b0a3a",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Elvina Bay"
         },
         "type": "Feature"
@@ -1594,7 +1594,7 @@
           "id": "2f8fd16c-2631-4f56-ae9a-3ada9dbfa8fe",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Gymea Bay Baths"
         },
         "type": "Feature"
@@ -1645,7 +1645,7 @@
           "id": "4f626874-5276-48e7-8bd2-1d8976908cc5",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Horderns Beach"
         },
         "type": "Feature"
@@ -2104,7 +2104,7 @@
           "id": "94c5d756-1093-48db-8dbc-70fbb523b16a",
           "latestResult": "Poor",
           "latestResultRating": 2,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Malabar Beach"
         },
         "type": "Feature"
@@ -2478,7 +2478,7 @@
           "id": "443f8062-d8b3-41ee-b3cf-78be24ab5b5c",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "North Avoca Beach"
         },
         "type": "Feature"
@@ -2546,7 +2546,7 @@
           "id": "79eb1688-05c6-491a-9eaa-cbe3811a7f3d",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "North Narrabeen Beach"
         },
         "type": "Feature"
@@ -2563,7 +2563,7 @@
           "id": "8cb9490e-dafb-4647-b25b-98cfb777acd6",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "North Scotland Island"
         },
         "type": "Feature"
@@ -2733,7 +2733,7 @@
           "id": "0d9bfd7d-0628-4f8d-b165-d3ca71c9612a",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Paradise Beach Baths"
         },
         "type": "Feature"
@@ -2767,7 +2767,7 @@
           "id": "a04458a2-3e39-4005-b4a9-f8822fb66781",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Pearl Beach"
         },
         "type": "Feature"
@@ -3124,7 +3124,7 @@
           "id": "47b4add5-d037-4cc0-8fbb-af624f86a58a",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Shellharbour Beach"
         },
         "type": "Feature"
@@ -3345,7 +3345,7 @@
           "id": "ccd00273-502a-4a03-bb59-b4e0d63536dc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "South Scotland Island"
         },
         "type": "Feature"
@@ -3532,7 +3532,7 @@
           "id": "ad19c3a4-de25-422c-a124-cdf6587298c0",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Taylors Point Baths"
         },
         "type": "Feature"
@@ -3549,7 +3549,7 @@
           "id": "c8fc3c50-4d0f-48c8-939a-ee100892dee8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Terrigal Beach"
         },
         "type": "Feature"
@@ -3770,7 +3770,7 @@
           "id": "613465c8-6d0b-46a4-a8cb-adcbc4c18982",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Umina Beach"
         },
         "type": "Feature"
@@ -3855,7 +3855,7 @@
           "id": "93dd8053-12a2-422e-b902-4d23be6f116b",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Warilla Beach"
         },
         "type": "Feature"
