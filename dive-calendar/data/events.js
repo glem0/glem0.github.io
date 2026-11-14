@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-11-14T09:46:40+11:00",
+ "generated_at": "2026-11-15T08:38:27+11:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-11-01",
@@ -13,7 +13,7 @@ window.__DIVE_DATA__ =
    "short": "Abyss",
    "url": "https://www.abyss.com.au/sydney-dive-calendar",
    "status": "ok",
-   "event_count": 144
+   "event_count": 138
   },
   {
    "id": "frogdive",
@@ -29,7 +29,7 @@ window.__DIVE_DATA__ =
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 258
+   "event_count": 254
   },
   {
    "id": "divesydney",
@@ -37,7 +37,7 @@ window.__DIVE_DATA__ =
    "short": "DC Manly",
    "url": "https://divesydney.com.au/dive-calendar/",
    "status": "ok",
-   "event_count": 687
+   "event_count": 683
   },
   {
    "id": "prodive",
@@ -53,7 +53,7 @@ window.__DIVE_DATA__ =
    "short": "Charters",
    "url": "https://www.sydneydivecharters.com.au/bookings/",
    "status": "ok",
-   "event_count": 173
+   "event_count": 174
   }
  ],
  "events": [
@@ -119,6 +119,15 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-06#274@book@",
    "description": "A$170.00 · Week day morning Tec 1 Dives depart at 0700am from Rose Bay wharf. Little Manly pickup available on request at checkout booking form. Dive depths are between 40-51metres dependent on the depth of the wreck of the day. ***Sydney Dive Charters caters for open circuit, CCR, side mount and scooters. Numbers on board are limited to 8. ***…"
+  },
+  {
+   "id": "divecharters-0f14fd229c80",
+   "source": "divecharters",
+   "title": "8am Saturday Double Boat Dive - Departing 0730 Little Manly / 0745 Boarding Rose Bay Public Wharf",
+   "start": "2026-11-07T08:00+11:00",
+   "all_day": false,
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-07#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
    "id": "frogdive-19ea93fb4d68",
@@ -213,15 +222,6 @@ window.__DIVE_DATA__ =
    "description": "A$300.00 · Sydney Dive Charters private guided night shore dives are designed for newly certificated recreational divers who hold a minimum Open Water certificate or the keen underwater photographer who wanted a local guide to help get the most out of his or her dive. Our full range of hire gear is the very best on the market and can be \"added…"
   },
   {
-   "id": "abyss-84eafdf96d91",
-   "source": "abyss",
-   "title": "Freedive/Snorkel w/ sharks 14 Nov",
-   "start": "2026-11-14T07:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
-   "description": "$45.00 · Guided Shore Dives · Freedive or Snorkel at Shell Harbour with the sharks."
-  },
-  {
    "id": "frogdive-46d324457b31",
    "source": "frogdive",
    "title": "SHORE DIVE FAIRY BOWER",
@@ -233,99 +233,22 @@ window.__DIVE_DATA__ =
    "description": "Fairy Bower\nDive Level Green – beginner diver friendly\nAverage Depth 6m | Max...."
   },
   {
-   "id": "abyss-438b3e695257",
-   "source": "abyss",
-   "title": "DEEP14-11-2026 (sold out)",
+   "id": "divecharters-137ffece6aad",
+   "source": "divecharters",
+   "title": "8am Saturday Double Boat Dive - Departing 0730 Little Manly / 0745 Boarding Rose Bay Public Wharf",
    "start": "2026-11-14T08:00+11:00",
    "all_day": false,
-   "end": "2026-11-15",
-   "url": "https://www.abyss.com.au/courses/deep-diver",
-   "description": "$599.00 · Deep Diver Course · Deep Diver Course"
+   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-14#19@book@",
+   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
-   "id": "abyss-562b742cbc18",
+   "id": "abyss-3aa19059c9e5",
    "source": "abyss",
-   "title": "Refresher Course",
-   "start": "2026-11-14T09:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/reactivate-your-diving",
-   "description": "$199.00 · PADI REFRESHER COURSE SYDNEY · Refresher Course (PADI Reactivate)"
-  },
-  {
-   "id": "abyss-4b9a98615b4d",
-   "source": "abyss",
-   "title": "Leap to Steps Dive",
-   "start": "2026-11-14T09:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/guided-shore-dives",
-   "description": "Guided Shore Dives · Leap to steps Drift for confident divers shore dive (18-22m)"
-  },
-  {
-   "id": "abyss-d4b077f0e4b0",
-   "source": "abyss",
-   "title": "bypass Reef Boat Dive",
-   "start": "2026-11-14T12:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/boat-dives",
-   "description": "$130.00 · Boat Dives · Bypass Reef – 30m deep reef with sponge gardens & schooling fish."
-  },
-  {
-   "id": "divesydney-412a3ee7e00d",
-   "source": "divesydney",
-   "title": "Snorkel Safari",
-   "start": "2026-11-14T14:30+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-14&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
-   "id": "divebondi-dd3ea80ef2d1",
-   "source": "divebondi",
-   "title": "Guided Bushrangers Bay",
-   "start": "2026-11-15T06:29+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-11-15&preferredTime=6%3A29+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-ee33e95daecb",
-   "source": "divebondi",
-   "title": "Guided Bushrangers Bay (sold out)",
-   "start": "2026-11-15T06:30+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-11-15&preferredTime=6%3A30+AM&catalogId=597076"
-  },
-  {
-   "id": "abyss-169c077d0fc3",
-   "source": "abyss",
-   "title": "Wanderers UNGUIDED AM Boat Dive (sold out)",
+   "title": "Wanderers UNGUIDED AM Boat Dive",
    "start": "2026-11-15T08:00+11:00",
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/boat-dives",
    "description": "$130.00 · Boat Dives · Wanderers Reef – 40m dive with sponge gardens & big pelagic fish."
-  },
-  {
-   "id": "divebondi-e46ad6567b7d",
-   "source": "divebondi",
-   "title": "Advanced Shore Dive (sold out)",
-   "start": "2026-11-15T08:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=647260&preferredDate=2026-11-15&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divecharters-c897e60952fb",
-   "source": "divecharters",
-   "title": "8am Sunday Double Boat Dive - Departing 0730 Little Manly / 0745 Boarding Rose Bay Public Wharf",
-   "start": "2026-11-15T08:00+11:00",
-   "all_day": false,
-   "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-15#248@book@",
-   "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate.Divers will less than 10 dives please give us a call (0417417295) to…"
-  },
-  {
-   "id": "divesydney-d7702619f14f",
-   "source": "divesydney",
-   "title": "Scuba Refresher (sold out)",
-   "start": "2026-11-15T08:30+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-11-15&preferredTime=8%3A30+AM&catalogId=494484"
   },
   {
    "id": "abyss-68ba96ef08cb",
@@ -337,22 +260,6 @@ window.__DIVE_DATA__ =
    "description": "Guided Shore Dives · Frenchmans Bay - colourful sponges, easy shore dive (8-16m)"
   },
   {
-   "id": "divesydney-75db7ad84b9c",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-11-15T09:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-11-15&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divebondi-222579668d44",
-   "source": "divebondi",
-   "title": "Guided Snorkel Tour",
-   "start": "2026-11-15T10:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=439435&preferredDate=2026-11-15&preferredTime=10%3A00+AM&catalogId=597076"
-  },
-  {
    "id": "abyss-3f5097af80e5",
    "source": "abyss",
    "title": "Wanderers UNGUIDED PM Boat Dive",
@@ -360,14 +267,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://www.abyss.com.au/charters/boat-dives",
    "description": "$130.00 · Boat Dives · Wanderers Reef – 40m dive with sponge gardens & big pelagic fish."
-  },
-  {
-   "id": "divesydney-0d3fcac87814",
-   "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
-   "start": "2026-11-15T14:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-11-15&preferredTime=2%3A00+PM&catalogId=494484"
   },
   {
    "id": "divecharters-44adbc2be3a4",
@@ -420,9 +319,9 @@ window.__DIVE_DATA__ =
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
-   "id": "divebondi-9d28a525c6bc",
+   "id": "divebondi-c1dc22025b86",
    "source": "divebondi",
-   "title": "Guided Bushrangers Bay",
+   "title": "Guided Bushrangers Bay (sold out)",
    "start": "2026-11-17T06:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-11-17&preferredTime=6%3A30+AM&catalogId=597076"
@@ -726,9 +625,9 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=433818&preferredDate=2026-11-21&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divesydney-d4dd79a79d11",
+   "id": "divesydney-c9547c721a6c",
    "source": "divesydney",
-   "title": "Double Guided Shore Dive",
+   "title": "Double Guided Shore Dive (sold out)",
    "start": "2026-11-21T09:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-11-21&preferredTime=9%3A00+AM&catalogId=494484"
@@ -767,9 +666,9 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-21&preferredTime=2%3A30+PM&catalogId=494484"
   },
   {
-   "id": "divebondi-cc4811ea5d96",
+   "id": "divebondi-11db73f3fc19",
    "source": "divebondi",
-   "title": "Guided Bushrangers Bay",
+   "title": "Guided Bushrangers Bay (sold out)",
    "start": "2026-11-22T06:30+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-11-22&preferredTime=6%3A30+AM&catalogId=597076"
@@ -1039,9 +938,9 @@ window.__DIVE_DATA__ =
    "description": "A$170.00 · Week day morning Tec 1 Dives depart at 0700am from Rose Bay wharf. Little Manly pickup available on request at checkout booking form. Dive depths are between 40-51metres dependent on the depth of the wreck of the day. ***Sydney Dive Charters caters for open circuit, CCR, side mount and scooters. Numbers on board are limited to 8. ***…"
   },
   {
-   "id": "divesydney-75b85eda7225",
+   "id": "divesydney-973577ae9a65",
    "source": "divesydney",
-   "title": "Scuba Refresher",
+   "title": "Scuba Refresher (sold out)",
    "start": "2026-11-27T08:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-11-27&preferredTime=8%3A30+AM&catalogId=494484"
@@ -1070,15 +969,6 @@ window.__DIVE_DATA__ =
    "start": "2026-11-27T09:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-11-27&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "abyss-025eb1a87895",
-   "source": "abyss",
-   "title": "Explore Boat Dive",
-   "start": "2026-11-27T10:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/charters/boat-dives",
-   "description": "$130.00 · Boat Dives · Exploratory Double Boat dive - Looking for new local spots!"
   },
   {
    "id": "divesydney-ce55ee63d6a2",
