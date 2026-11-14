@@ -250,6 +250,7 @@ window.GUE_GEO = {
 "pusan, pusan-gwangyoksi, korea (south)":[35.17995,129.07524],
 "qiandao lake, zhejiang, china":[29.56937,119.06999],
 "quartu s. elena, cagliari, italy":[39.26234,9.17462],
+"radstock , somerset, united kingdom":[51.29195,-2.44762],
 "radstock, somerset, united kingdom":[51.29195,-2.44762],
 "raleigh, north carolina, united states":[35.7804,-78.6391],
 "reggio calabria, reggio calabria, italy":[38.10354,15.63976],

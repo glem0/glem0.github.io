@@ -1,105 +1,6 @@
 {
- "updated": "2026-11-13T22:50:22Z",
+ "updated": "2026-11-14T21:39:47Z",
  "classes": [
-  {
-   "cid": "36481",
-   "course": "Cave Diver 1",
-   "date": "November 14, 2026",
-   "iso": "2026-11-14",
-   "location": "Oita, Oita, Japan",
-   "instructor": "Jon Kieren",
-   "instructor_id": "13618"
-  },
-  {
-   "cid": "37037",
-   "course": "Drysuit Primer",
-   "date": "November 14, 2026",
-   "iso": "2026-11-14",
-   "location": "Puidoux, Switzerland",
-   "instructor": "Sabine Sidi-Ali",
-   "instructor_id": "27088"
-  },
-  {
-   "cid": "37605",
-   "course": "GUE Basic Fundamentals",
-   "date": "November 14, 2026",
-   "iso": "2026-11-14",
-   "location": "Sai Kung, New Territories, Hong Kong",
-   "instructor": "Joshua Cheng",
-   "instructor_id": "13554"
-  },
-  {
-   "cid": "37625",
-   "course": "GUE Performance Diver",
-   "date": "November 14, 2026",
-   "iso": "2026-11-14",
-   "location": "Dubai, Dubai, United Arab Emirates",
-   "instructor": "Lier Yeo",
-   "instructor_id": "70365"
-  },
-  {
-   "cid": "37554",
-   "course": "GUE Performance Diver",
-   "date": "November 14, 2026",
-   "iso": "2026-11-14",
-   "location": "Hangzhou, Zhejiang, China",
-   "instructor": "Jinhui Xiong",
-   "instructor_id": "72355"
-  },
-  {
-   "cid": "37805",
-   "course": "GUE Performance Diver",
-   "date": "November 14, 2026",
-   "iso": "2026-11-14",
-   "location": "Numazu, Shizuoka, Japan",
-   "instructor": "Thomas Jonsson",
-   "instructor_id": "2359"
-  },
-  {
-   "cid": "37719",
-   "course": "GUE Technical Fundamentals",
-   "date": "November 14, 2026",
-   "iso": "2026-11-14",
-   "location": "Mactan, Cebu, Philippines",
-   "instructor": "Graham Blackmore",
-   "instructor_id": "895"
-  },
-  {
-   "cid": "36389",
-   "course": "Navigation Primer",
-   "date": "November 14, 2026",
-   "iso": "2026-11-14",
-   "location": "Sydney, New South Wales, Australia",
-   "instructor": "Sebastien Landat",
-   "instructor_id": "22757"
-  },
-  {
-   "cid": "36818",
-   "course": "Technical Diver 1",
-   "date": "November 14, 2026",
-   "iso": "2026-11-14",
-   "location": "Des Moines, Washington, United States",
-   "instructor": "James Fraser",
-   "instructor_id": "26718"
-  },
-  {
-   "cid": "37758",
-   "course": "Technical Diver 1",
-   "date": "November 14, 2026",
-   "iso": "2026-11-14",
-   "location": "Yangyang-gun, Kangwon-do, Korea (South)",
-   "instructor": "Youngwoo Seo",
-   "instructor_id": "16137"
-  },
-  {
-   "cid": "37795",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "November 14, 2026",
-   "iso": "2026-11-14",
-   "location": "Aurora, Canada",
-   "instructor": "Heison Chak",
-   "instructor_id": "13808"
-  },
   {
    "cid": "37509",
    "course": "CCR Fundamentals: Symbios",
@@ -108,15 +9,6 @@
    "location": "Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "John Kendall",
    "instructor_id": "1956"
-  },
-  {
-   "cid": "37822",
-   "course": "Doubles Primer",
-   "date": "November 15, 2026",
-   "iso": "2026-11-15",
-   "location": "Suwon, Kyonggi-do, Korea (South)",
-   "instructor": "Tae Jin Kwak",
-   "instructor_id": "24555"
   },
   {
    "cid": "37576",
@@ -252,6 +144,15 @@
    "location": "Singapore, Central Singapore, Singapore",
    "instructor": "Coral Chua",
    "instructor_id": "75313"
+  },
+  {
+   "cid": "37822",
+   "course": "Doubles Primer",
+   "date": "November 18, 2026",
+   "iso": "2026-11-18",
+   "location": "Suwon, Kyonggi-do, Korea (South)",
+   "instructor": "Tae Jin Kwak",
+   "instructor_id": "24555"
   },
   {
    "cid": "37210",
@@ -1143,15 +1044,6 @@
    "location": "Dahab, Janub Sina', Egypt",
    "instructor": "Ahmed Hagi",
    "instructor_id": "69051"
-  },
-  {
-   "cid": "33137",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "December 5, 2026",
-   "iso": "2026-12-05",
-   "location": "Hemmoor, Niedersachsen, Germany",
-   "instructor": "Daniel Schulte",
-   "instructor_id": "6754"
   },
   {
    "cid": "37626",
@@ -2765,6 +2657,15 @@
    "instructor_id": "10004"
   },
   {
+   "cid": "37841",
+   "course": "GUE Basic Fundamentals",
+   "date": "February 3, 2027",
+   "iso": "2027-02-03",
+   "location": "Dahab , Janub Sina', Egypt",
+   "instructor": "Ahmed Hagi",
+   "instructor_id": "69051"
+  },
+  {
    "cid": "32210",
    "course": "GUE Basic Fundamentals",
    "date": "February 3, 2027",
@@ -3420,6 +3321,15 @@
    "location": "Finale Ligure, Genova, Italy",
    "instructor": "Derk Remmers",
    "instructor_id": "2366"
+  },
+  {
+   "cid": "33137",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "March 1, 2027",
+   "iso": "2027-03-01",
+   "location": "Hemmoor, Niedersachsen, Germany",
+   "instructor": "Daniel Schulte",
+   "instructor_id": "6754"
   },
   {
    "cid": "19322",
@@ -4797,6 +4707,15 @@
    "location": "Cala Gonone, Nuoro, Italy",
    "instructor": "Dorota Czerny",
    "instructor_id": "2276"
+  },
+  {
+   "cid": "37842",
+   "course": "GUE Technical Fundamentals",
+   "date": "May 27, 2027",
+   "iso": "2027-05-27",
+   "location": "Radstock , Somerset, United Kingdom",
+   "instructor": "Neil Powell",
+   "instructor_id": "15389"
   },
   {
    "cid": "36823",

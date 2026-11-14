@@ -2958,5 +2958,14 @@
   "matched_query": "yangyang, kangwon-do, korea (south)",
   "approx": false,
   "verified": true
+ },
+ "radstock , somerset, united kingdom": {
+  "lat": 51.2919489,
+  "lng": -2.4476231,
+  "display": "Radstock, Bath and North East Somerset, West of England, England, United Kingdom",
+  "country": "gb",
+  "matched_query": "radstock , somerset, united kingdom",
+  "approx": false,
+  "verified": true
  }
 }
