@@ -2967,5 +2967,41 @@
   "matched_query": "radstock , somerset, united kingdom",
   "approx": false,
   "verified": true
+ },
+ "lago bracciano, roma, italy": {
+  "lat": 42.1210581,
+  "lng": 12.2302748,
+  "display": "Lago di Bracciano, Bracciano, Roma Capitale, Lazio, 00069, Italia",
+  "country": "it",
+  "matched_query": "lago bracciano, roma, italy",
+  "approx": false,
+  "verified": true
+ },
+ "raum münchen, bayern, germany": {
+  "lat": 48.159961,
+  "lng": 11.549041,
+  "display": "Haus 2 - Raum für interdisziplinäre Kollaborationen, 2b, Schwere-Reiter-Straße, Kasernenviertel, Ebenau, Neuhausen-Nymphenburg, München, Bayern, 80637, Deutschland",
+  "country": "de",
+  "matched_query": "raum münchen, bayern, germany",
+  "approx": false,
+  "verified": true
+ },
+ "siegburg dive4life, germany": {
+  "lat": 50.8020988,
+  "lng": 7.2193089,
+  "display": "Indoor-Tauchcenter dive4life, 110, Zeithstraße, Siegburg, Wolsdorf, Siegburg, Rhein-Sieg-Kreis, Nordrhein-Westfalen, 53721, Deutschland",
+  "country": "de",
+  "matched_query": "siegburg dive4life",
+  "approx": false,
+  "verified": true
+ },
+ "siegburg, dive4life , germany": {
+  "lat": 50.7928332,
+  "lng": 7.2070774,
+  "display": "Siegburg, Rhein-Sieg-Kreis, Nordrhein-Westfalen, 53721, Deutschland",
+  "country": "de",
+  "matched_query": "siegburg, germany",
+  "approx": false,
+  "verified": true
  }
 }
