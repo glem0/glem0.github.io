@@ -1,6 +1,6 @@
 window.__DIVE_DATA__ =
 {
- "generated_at": "2026-11-17T11:56:07+11:00",
+ "generated_at": "2026-11-18T10:56:56+11:00",
  "timezone": "Australia/Sydney",
  "window": {
   "start": "2026-11-01",
@@ -13,7 +13,7 @@ window.__DIVE_DATA__ =
    "short": "Abyss",
    "url": "https://www.abyss.com.au/sydney-dive-calendar",
    "status": "ok",
-   "event_count": 137
+   "event_count": 139
   },
   {
    "id": "frogdive",
@@ -29,7 +29,7 @@ window.__DIVE_DATA__ =
    "short": "Dive Bondi",
    "url": "https://www.divebondi.com.au/dive-calendar",
    "status": "ok",
-   "event_count": 253
+   "event_count": 250
   },
   {
    "id": "divesydney",
@@ -37,7 +37,7 @@ window.__DIVE_DATA__ =
    "short": "DC Manly",
    "url": "https://divesydney.com.au/dive-calendar/",
    "status": "ok",
-   "event_count": 678
+   "event_count": 675
   },
   {
    "id": "prodive",
@@ -278,46 +278,6 @@ window.__DIVE_DATA__ =
    "description": "A$350.00 · This DSD includes full hire gear and your instructor & will conducted at Sydney's Cabbage Tree Aquatic Reserve at Shelly Beach, Manly. You will have to complete a dive medical and wavier prior to attending the days diving, if you are required to attend a doctor after completing the dive medical another day will be organised for your…"
   },
   {
-   "id": "divebondi-5f333b750412",
-   "source": "divebondi",
-   "title": "PADI Instructor Development Course (sold out)",
-   "start": "2026-11-18T08:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=502316&preferredDate=2026-11-18&preferredTime=8%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divebondi-face11f4d3cc",
-   "source": "divebondi",
-   "title": "Guided Shore Dive",
-   "start": "2026-11-18T09:00+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-11-18&preferredTime=9%3A00+AM&catalogId=597076"
-  },
-  {
-   "id": "divesydney-de098ad11b3a",
-   "source": "divesydney",
-   "title": "Double Guided Shore Dive",
-   "start": "2026-11-18T09:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-11-18&preferredTime=9%3A00+AM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-c06909f56c7f",
-   "source": "divesydney",
-   "title": "Discover Scuba Diving - PADI",
-   "start": "2026-11-18T14:00+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466225&preferredDate=2026-11-18&preferredTime=2%3A00+PM&catalogId=494484"
-  },
-  {
-   "id": "divesydney-177d13ca6acd",
-   "source": "divesydney",
-   "title": "Snorkel Safari (sold out)",
-   "start": "2026-11-18T14:30+11:00",
-   "all_day": false,
-   "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=467869&preferredDate=2026-11-18&preferredTime=2%3A30+PM&catalogId=494484"
-  },
-  {
    "id": "divecharters-d166124656da",
    "source": "divecharters",
    "title": "DSD - Discover Scuba Dive - Hire Gear Included",
@@ -394,14 +354,6 @@ window.__DIVE_DATA__ =
    "all_day": false,
    "url": "https://sydneydivecharters.checkfront.com/reserve/?date=2026-11-20#274@book@",
    "description": "A$170.00 · Week day morning Tec 1 Dives depart at 0700am from Rose Bay wharf. Little Manly pickup available on request at checkout booking form. Dive depths are between 40-51metres dependent on the depth of the wreck of the day. ***Sydney Dive Charters caters for open circuit, CCR, side mount and scooters. Numbers on board are limited to 8. ***…"
-  },
-  {
-   "id": "divebondi-82f10463ba30",
-   "source": "divebondi",
-   "title": "GUE Basic Fundamentals Course",
-   "start": "2026-11-20T08:30+11:00",
-   "all_day": false,
-   "url": "https://divebondi.rezdy.com/chooseQuantity?productId=689880&preferredDate=2026-11-20&preferredTime=8%3A30+AM&catalogId=597076"
   },
   {
    "id": "divesydney-84cd411d8678",
@@ -491,9 +443,9 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=422369&preferredDate=2026-11-21&preferredTime=8%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divebondi-39cd21e0b4c1",
+   "id": "divebondi-46edc02d0824",
    "source": "divebondi",
-   "title": "Guided Shore Dive",
+   "title": "Guided Shore Dive (sold out)",
    "start": "2026-11-21T08:00+11:00",
    "all_day": false,
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421393&preferredDate=2026-11-21&preferredTime=8%3A00+AM&catalogId=597076"
@@ -524,9 +476,9 @@ window.__DIVE_DATA__ =
    "description": "A$175.00 · Add on your hire gear during online booking and it will be onboard waiting for you. Online wavier & your dive buddy Guest Form must be completed at time of booking or can be completed via the BLUE TAB on your emailed booking invoice. Minimum Open Water certificate. Divers will less than 10 dives please give us a call (0417417295) to…"
   },
   {
-   "id": "divesydney-2253e543688c",
+   "id": "divesydney-1c32725fca50",
    "source": "divesydney",
-   "title": "Scuba Refresher",
+   "title": "Scuba Refresher (sold out)",
    "start": "2026-11-21T08:30+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2026-11-21&preferredTime=8%3A30+AM&catalogId=494484"
@@ -966,16 +918,6 @@ window.__DIVE_DATA__ =
    "description": "Fairy Bower\nDive Level Green – beginner diver friendly\nAverage Depth 6m | Max...."
   },
   {
-   "id": "abyss-b9d967adbe6e",
-   "source": "abyss",
-   "title": "PADI Rescue Diver",
-   "start": "2026-11-28T08:00+11:00",
-   "all_day": false,
-   "end": "2026-11-29",
-   "url": "https://www.abyss.com.au/courses/padi-rescue-diver-course",
-   "description": "$599.00 · PADI Rescue Diver Course | Enhance Safety & Confidence in Diving · Rescue Diver"
-  },
-  {
    "id": "abyss-cae35f3d16da",
    "source": "abyss",
    "title": "60497-1/28-11-2026",
@@ -984,6 +926,16 @@ window.__DIVE_DATA__ =
    "end": "2026-11-29",
    "url": "https://www.abyss.com.au/courses/sidemount-diver",
    "description": "$599.00 · Sidemount Diver Course · Learn streamlined sidemount setup for better balance and freedom."
+  },
+  {
+   "id": "abyss-b9d967adbe6e",
+   "source": "abyss",
+   "title": "PADI Rescue Diver",
+   "start": "2026-11-28T08:00+11:00",
+   "all_day": false,
+   "end": "2026-11-29",
+   "url": "https://www.abyss.com.au/courses/padi-rescue-diver-course",
+   "description": "$599.00 · PADI Rescue Diver Course | Enhance Safety & Confidence in Diving · Rescue Diver"
   },
   {
    "id": "abyss-bbd05c50fbb2",
@@ -1487,16 +1439,6 @@ window.__DIVE_DATA__ =
    "description": "Shelly Beach - Manly\nDive Level Green – beginner diver friendly\nAverage Depth ..."
   },
   {
-   "id": "abyss-0d57d9a10bb2",
-   "source": "abyss",
-   "title": "AOW 05-12-2026",
-   "start": "2026-12-05T08:00+11:00",
-   "all_day": false,
-   "end": "2026-12-06",
-   "url": "https://www.abyss.com.au/courses/padi-advanced-open-water-course",
-   "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
-  },
-  {
    "id": "abyss-0224e3bd321a",
    "source": "abyss",
    "title": "Enriched Air Diver",
@@ -1514,6 +1456,16 @@ window.__DIVE_DATA__ =
    "end": "2026-12-06",
    "url": "https://www.abyss.com.au/courses/tec-40",
    "description": "$745.00 · tec 40"
+  },
+  {
+   "id": "abyss-a78bb54d8363",
+   "source": "abyss",
+   "title": "AOW 05-12-2026 (sold out)",
+   "start": "2026-12-05T08:00+11:00",
+   "all_day": false,
+   "end": "2026-12-06",
+   "url": "https://www.abyss.com.au/courses/padi-advanced-open-water-course",
+   "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
   },
   {
    "id": "abyss-8d2caeb4ba8d",
@@ -2015,6 +1967,15 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2026-12-12&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
+   "id": "abyss-92fd8d46a32a",
+   "source": "abyss",
+   "title": "Enriched Air Diver",
+   "start": "2026-12-12T08:00+11:00",
+   "all_day": false,
+   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
+   "description": "$345.00 · Enriched Air (Nitrox) Diver"
+  },
+  {
    "id": "abyss-b8c864e9725c",
    "source": "abyss",
    "title": "AOW 12-12-2026",
@@ -2023,15 +1984,6 @@ window.__DIVE_DATA__ =
    "end": "2026-12-13",
    "url": "https://www.abyss.com.au/courses/padi-advanced-open-water-course",
    "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
-  },
-  {
-   "id": "abyss-92fd8d46a32a",
-   "source": "abyss",
-   "title": "Enriched Air Diver",
-   "start": "2026-12-12T08:00+11:00",
-   "all_day": false,
-   "url": "https://www.abyss.com.au/courses/enriched-air-diver",
-   "description": "$345.00 · Enriched Air (Nitrox) Diver"
   },
   {
    "id": "abyss-72387fde42cd",
@@ -2288,9 +2240,9 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=421382&preferredDate=2026-12-15&preferredTime=9%3A00+AM&catalogId=597076"
   },
   {
-   "id": "divesydney-c173cd7f6806",
+   "id": "divesydney-800a07ee76d2",
    "source": "divesydney",
-   "title": "Double Guided Shore Dive",
+   "title": "Double Guided Shore Dive (sold out)",
    "start": "2026-12-15T09:00+11:00",
    "all_day": false,
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=464202&preferredDate=2026-12-15&preferredTime=9%3A00+AM&catalogId=494484"
@@ -4133,6 +4085,16 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2027-01-09&preferredTime=8%3A30+AM&catalogId=494484"
   },
   {
+   "id": "abyss-3f536e993f22",
+   "source": "abyss",
+   "title": "60519-1/09-01-2027",
+   "start": "2027-01-09T09:00+11:00",
+   "all_day": false,
+   "end": "2027-01-10",
+   "url": "https://www.abyss.com.au/courses/padi-freediver-course",
+   "description": "$599.00 · PADI Freediver Course · Freediver Course"
+  },
+  {
    "id": "abyss-3e6df1475025",
    "source": "abyss",
    "title": "Sutherland Point Dive",
@@ -5343,6 +5305,16 @@ window.__DIVE_DATA__ =
    "url": "https://divecentremanly50.rezdy.com/chooseQuantity?productId=466753&preferredDate=2027-01-23&preferredTime=8%3A30+AM&catalogId=494484"
   },
   {
+   "id": "abyss-1d047be87537",
+   "source": "abyss",
+   "title": "60519-1/23-01-2027",
+   "start": "2027-01-23T09:00+11:00",
+   "all_day": false,
+   "end": "2027-01-24",
+   "url": "https://www.abyss.com.au/courses/padi-freediver-course",
+   "description": "$599.00 · PADI Freediver Course · Freediver Course"
+  },
+  {
    "id": "abyss-a44e7883d6e6",
    "source": "abyss",
    "title": "Sutherland Point Dive",
@@ -5852,16 +5824,6 @@ window.__DIVE_DATA__ =
    "url": "https://divebondi.rezdy.com/chooseQuantity?productId=514873&preferredDate=2027-01-30&preferredTime=6%3A30+AM&catalogId=597076"
   },
   {
-   "id": "abyss-9dfc66b15adf",
-   "source": "abyss",
-   "title": "PADI Deep Diver",
-   "start": "2027-01-30T08:00+11:00",
-   "all_day": false,
-   "end": "2027-01-31",
-   "url": "https://www.abyss.com.au/courses/deep-diver",
-   "description": "$599.00 · Deep Diver Course · Deep Diver Course"
-  },
-  {
    "id": "abyss-d5ea91dafb4e",
    "source": "abyss",
    "title": "Advanced Open Water",
@@ -5870,6 +5832,16 @@ window.__DIVE_DATA__ =
    "end": "2027-01-31",
    "url": "https://www.abyss.com.au/courses/padi-advanced-open-water-course",
    "description": "$599.00 · Advanced Open Water Diver · Advanced Openwater Diver Course"
+  },
+  {
+   "id": "abyss-9dfc66b15adf",
+   "source": "abyss",
+   "title": "PADI Deep Diver",
+   "start": "2027-01-30T08:00+11:00",
+   "all_day": false,
+   "end": "2027-01-31",
+   "url": "https://www.abyss.com.au/courses/deep-diver",
+   "description": "$599.00 · Deep Diver Course · Deep Diver Course"
   },
   {
    "id": "abyss-19eb49caf9fa",
