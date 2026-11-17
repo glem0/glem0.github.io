@@ -1,51 +1,6 @@
 {
- "updated": "2026-11-17T01:01:57Z",
+ "updated": "2026-11-17T23:56:23Z",
  "classes": [
-  {
-   "cid": "36904",
-   "course": "CCR Technical Diver 2",
-   "date": "November 17, 2026",
-   "iso": "2026-11-17",
-   "location": "Kralendijk, Bonaire",
-   "instructor": "Jp Bresser",
-   "instructor_id": "2458"
-  },
-  {
-   "cid": "35711",
-   "course": "DPV Diver 1",
-   "date": "November 17, 2026",
-   "iso": "2026-11-17",
-   "location": "Playa del Carmen, Quintana Roo, Mexico",
-   "instructor": "Emőke Wagner",
-   "instructor_id": "20747"
-  },
-  {
-   "cid": "37189",
-   "course": "GUE Performance Diver",
-   "date": "November 17, 2026",
-   "iso": "2026-11-17",
-   "location": "Kralendijk, Bonaire",
-   "instructor": "Douwe Musch",
-   "instructor_id": "67329"
-  },
-  {
-   "cid": "37076",
-   "course": "GUE Technical Fundamentals",
-   "date": "November 17, 2026",
-   "iso": "2026-11-17",
-   "location": "Dahab , Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
-  },
-  {
-   "cid": "34515",
-   "course": "Technical Diver 1",
-   "date": "November 17, 2026",
-   "iso": "2026-11-17",
-   "location": "Victoria, British Columbia, Canada",
-   "instructor": "Jason Cook",
-   "instructor_id": "24473"
-  },
   {
    "cid": "37790",
    "course": "DPV Cave",
@@ -65,6 +20,15 @@
    "instructor_id": "75313"
   },
   {
+   "cid": "37822",
+   "course": "Doubles Primer",
+   "date": "November 18, 2026",
+   "iso": "2026-11-18",
+   "location": "Suwon, Kyonggi-do, Korea (South)",
+   "instructor": "Tae Jin Kwak",
+   "instructor_id": "24555"
+  },
+  {
    "cid": "37210",
    "course": "GUE Performance Diver",
    "date": "November 18, 2026",
@@ -81,15 +45,6 @@
    "location": "Zero Gravity Dive Center - Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Laurent Dahan",
    "instructor_id": "25023"
-  },
-  {
-   "cid": "37763",
-   "course": "Doubles Primer",
-   "date": "November 19, 2026",
-   "iso": "2026-11-19",
-   "location": "Singapore, Singapore",
-   "instructor": "Zicong Wang",
-   "instructor_id": "73430"
   },
   {
    "cid": "37054",
@@ -848,6 +803,15 @@
    "instructor_id": "23171"
   },
   {
+   "cid": "37864",
+   "course": "DPV Diver 1",
+   "date": "December 5, 2026",
+   "iso": "2026-12-05",
+   "location": "Sydney, New South Wales, Australia",
+   "instructor": "Liam Allen",
+   "instructor_id": "2117"
+  },
+  {
    "cid": "37389",
    "course": "Doubles Primer",
    "date": "December 5, 2026",
@@ -1143,6 +1107,15 @@
    "location": "Playa del Carmen, Quintana Roo, Mexico",
    "instructor": "Emőke Wagner",
    "instructor_id": "20747"
+  },
+  {
+   "cid": "35852",
+   "course": "Cave Diver 2",
+   "date": "December 13, 2026",
+   "iso": "2026-12-13",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Osama Gobara",
+   "instructor_id": "1344"
   },
   {
    "cid": "37557",
@@ -1802,6 +1775,15 @@
    "instructor_id": "13618"
   },
   {
+   "cid": "36038",
+   "course": "DPV Cave",
+   "date": "January 2, 2027",
+   "iso": "2027-01-02",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Osama Gobara",
+   "instructor_id": "1344"
+  },
+  {
    "cid": "37538",
    "course": "CCR Fundamentals: Symbios",
    "date": "January 3, 2027",
@@ -1946,6 +1928,15 @@
    "instructor_id": "23171"
   },
   {
+   "cid": "37859",
+   "course": "CCR Fundamentals: JJ-CCR",
+   "date": "January 9, 2027",
+   "iso": "2027-01-09",
+   "location": "Hangzhou, Zhejiang, China",
+   "instructor": "Yanbin Wu",
+   "instructor_id": "23172"
+  },
+  {
    "cid": "37672",
    "course": "GUE Performance Diver",
    "date": "January 9, 2027",
@@ -2025,6 +2016,15 @@
    "location": "Zero Gravity Dive centre, Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Annika Persson",
    "instructor_id": "9662"
+  },
+  {
+   "cid": "36039",
+   "course": "Cave Diver 2",
+   "date": "January 11, 2027",
+   "iso": "2027-01-11",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Osama Gobara",
+   "instructor_id": "1344"
   },
   {
    "cid": "37766",
@@ -2162,6 +2162,15 @@
    "instructor_id": "20747"
   },
   {
+   "cid": "37865",
+   "course": "GUE Basic Fundamentals",
+   "date": "January 16, 2027",
+   "iso": "2027-01-16",
+   "location": "Des Moines, Washington, United States",
+   "instructor": "James Fraser",
+   "instructor_id": "26718"
+  },
+  {
    "cid": "37069",
    "course": "GUE Basic Fundamentals",
    "date": "January 16, 2027",
@@ -2187,6 +2196,15 @@
    "location": "Siegburg, Nordrhein-Westfalen, Germany",
    "instructor": "Esther Trösch",
    "instructor_id": "64918"
+  },
+  {
+   "cid": "37860",
+   "course": "Gas Blender",
+   "date": "January 16, 2027",
+   "iso": "2027-01-16",
+   "location": "Tilburg, Netherlands",
+   "instructor": "Martijn Blommaert",
+   "instructor_id": "8532"
   },
   {
    "cid": "36755",
@@ -2232,6 +2250,15 @@
    "location": "Zero Gravity Dive centre, Puerto Aventuras, Mexico",
    "instructor": "Annika Persson",
    "instructor_id": "9662"
+  },
+  {
+   "cid": "36040",
+   "course": "Cave Sidemount",
+   "date": "January 18, 2027",
+   "iso": "2027-01-18",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Osama Gobara",
+   "instructor_id": "1344"
   },
   {
    "cid": "37418",
@@ -2495,6 +2522,15 @@
    "instructor_id": "15389"
   },
   {
+   "cid": "37863",
+   "course": "Upgrade to GUE Basic Fundamentals",
+   "date": "January 30, 2027",
+   "iso": "2027-01-30",
+   "location": "Sydney, New South Wales, Australia",
+   "instructor": "Sebastien Landat",
+   "instructor_id": "22757"
+  },
+  {
    "cid": "36608",
    "course": "Cave Diver 1",
    "date": "February 1, 2027",
@@ -2520,6 +2556,15 @@
    "location": "Third Dimension Diving, Tulum, Quintana Roo, Mexico",
    "instructor": "Ivo Chiarino",
    "instructor_id": "21332"
+  },
+  {
+   "cid": "36037",
+   "course": "Cave Diver 2",
+   "date": "February 1, 2027",
+   "iso": "2027-02-01",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Osama Gobara",
+   "instructor_id": "1344"
   },
   {
    "cid": "37536",
@@ -2711,6 +2756,15 @@
    "instructor_id": "1956"
   },
   {
+   "cid": "36036",
+   "course": "Cave Sidemount",
+   "date": "February 8, 2027",
+   "iso": "2027-02-08",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Osama Gobara",
+   "instructor_id": "1344"
+  },
+  {
    "cid": "37578",
    "course": "GUE Basic Fundamentals",
    "date": "February 8, 2027",
@@ -2718,6 +2772,15 @@
    "location": "High Springs , Florida, United States",
    "instructor": "Stretch Aaron Altenhein",
    "instructor_id": "10004"
+  },
+  {
+   "cid": "37862",
+   "course": "Scientific Diver",
+   "date": "February 8, 2027",
+   "iso": "2027-02-08",
+   "location": "Cebu, Cebu, Philippines",
+   "instructor": "Diogo Paulo",
+   "instructor_id": "9665"
   },
   {
    "cid": "35947",
@@ -2835,6 +2898,15 @@
    "location": "Stromberg, Rheinland-Pfalz, Germany",
    "instructor": "Sven Nelles",
    "instructor_id": "7698"
+  },
+  {
+   "cid": "37866",
+   "course": "GUE Technical Fundamentals",
+   "date": "February 13, 2027",
+   "iso": "2027-02-13",
+   "location": "Des Moines, Washington, United States",
+   "instructor": "James Fraser",
+   "instructor_id": "26718"
   },
   {
    "cid": "37402",
@@ -3438,6 +3510,15 @@
    "location": "Siegburg, Germany",
    "instructor": "Sebastian Von Koss",
    "instructor_id": "20802"
+  },
+  {
+   "cid": "37861",
+   "course": "Gas Blender",
+   "date": "March 13, 2027",
+   "iso": "2027-03-13",
+   "location": "Tilburg, Noord-Brabant, Netherlands",
+   "instructor": "Martijn Blommaert",
+   "instructor_id": "8532"
   },
   {
    "cid": "37039",
@@ -5184,6 +5265,15 @@
    "location": "Zero Gravity Dive centre, Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Annika Persson",
    "instructor_id": "9662"
+  },
+  {
+   "cid": "36041",
+   "course": "Cave Sidemount",
+   "date": "November 1, 2027",
+   "iso": "2027-11-01",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Osama Gobara",
+   "instructor_id": "1344"
   },
   {
    "cid": "37145",
