@@ -1,42 +1,6 @@
 {
- "updated": "2026-11-17T23:56:23Z",
+ "updated": "2026-11-18T23:33:13Z",
  "classes": [
-  {
-   "cid": "37790",
-   "course": "DPV Cave",
-   "date": "November 18, 2026",
-   "iso": "2026-11-18",
-   "location": "Puerto Aventuras , Quintana Roo, Mexico",
-   "instructor": "Daniel Riordan",
-   "instructor_id": "146"
-  },
-  {
-   "cid": "37432",
-   "course": "Doubles Primer",
-   "date": "November 18, 2026",
-   "iso": "2026-11-18",
-   "location": "Singapore, Central Singapore, Singapore",
-   "instructor": "Coral Chua",
-   "instructor_id": "75313"
-  },
-  {
-   "cid": "37822",
-   "course": "Doubles Primer",
-   "date": "November 18, 2026",
-   "iso": "2026-11-18",
-   "location": "Suwon, Kyonggi-do, Korea (South)",
-   "instructor": "Tae Jin Kwak",
-   "instructor_id": "24555"
-  },
-  {
-   "cid": "37210",
-   "course": "GUE Performance Diver",
-   "date": "November 18, 2026",
-   "iso": "2026-11-18",
-   "location": "Playa del Carmen, Quintana Roo, Mexico",
-   "instructor": "Emőke Wagner",
-   "instructor_id": "20747"
-  },
   {
    "cid": "36404",
    "course": "DPV Diver 1",
@@ -911,15 +875,6 @@
    "instructor_id": "65259"
   },
   {
-   "cid": "33359",
-   "course": "CCR Technical Diver 2",
-   "date": "December 8, 2026",
-   "iso": "2026-12-08",
-   "location": "Yangyang , Kangwon-do, Korea (South)",
-   "instructor": "Kyungsoo Kim",
-   "instructor_id": "14654"
-  },
-  {
    "cid": "36963",
    "course": "Cave Diver 2",
    "date": "December 8, 2026",
@@ -1199,15 +1154,6 @@
    "instructor_id": "10004"
   },
   {
-   "cid": "37818",
-   "course": "GUE Technical Fundamentals",
-   "date": "December 14, 2026",
-   "iso": "2026-12-14",
-   "location": "Incheon / Yangyang , Korea (South)",
-   "instructor": "Kyungsoo Kim",
-   "instructor_id": "14654"
-  },
-  {
    "cid": "37686",
    "course": "BLS-D & Oxygen First Aid",
    "date": "December 15, 2026",
@@ -1269,6 +1215,15 @@
    "location": "Dahab , Janub Sina', Egypt",
    "instructor": "Ahmed Hagi",
    "instructor_id": "69051"
+  },
+  {
+   "cid": "37818",
+   "course": "GUE Technical Fundamentals",
+   "date": "December 16, 2026",
+   "iso": "2026-12-16",
+   "location": "Incheon / Yangyang , Korea (South)",
+   "instructor": "Kyungsoo Kim",
+   "instructor_id": "14654"
   },
   {
    "cid": "37826",
@@ -1442,15 +1397,6 @@
    "instructor_id": "11724"
   },
   {
-   "cid": "30702",
-   "course": "CCR Technical Diver 2",
-   "date": "December 21, 2026",
-   "iso": "2026-12-21",
-   "location": "Yangyang , Kangwon-do, Korea (South)",
-   "instructor": "Kyungsoo Kim",
-   "instructor_id": "14654"
-  },
-  {
    "cid": "35710",
    "course": "DPV Diver 1",
    "date": "December 21, 2026",
@@ -1494,6 +1440,15 @@
    "location": "Bangkok, Bangkok , Thailand",
    "instructor": "Sanya Lohitnavy",
    "instructor_id": "3674"
+  },
+  {
+   "cid": "30702",
+   "course": "CCR Technical Diver 2",
+   "date": "December 22, 2026",
+   "iso": "2026-12-22",
+   "location": "Yangyang , Kangwon-do, Korea (South)",
+   "instructor": "Kyungsoo Kim",
+   "instructor_id": "14654"
   },
   {
    "cid": "37471",
@@ -1791,6 +1746,15 @@
    "location": "Los Angeles & Avalon, Catalina Island, California, United States",
    "instructor": "Steven Millington",
    "instructor_id": "4255"
+  },
+  {
+   "cid": "37868",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "January 3, 2027",
+   "iso": "2027-01-03",
+   "location": "Puerto Aventuras , Quintana Roo, Mexico",
+   "instructor": "John Kendall",
+   "instructor_id": "1956"
   },
   {
    "cid": "36748",
@@ -2169,6 +2133,15 @@
    "location": "Des Moines, Washington, United States",
    "instructor": "James Fraser",
    "instructor_id": "26718"
+  },
+  {
+   "cid": "37867",
+   "course": "GUE Basic Fundamentals",
+   "date": "January 16, 2027",
+   "iso": "2027-01-16",
+   "location": "Seoul, Yangyang, Korea (South)",
+   "instructor": "Tae Jin Kwak",
+   "instructor_id": "24555"
   },
   {
    "cid": "37069",
@@ -2736,24 +2709,6 @@
    "location": "Dahab, Egypt",
    "instructor": "Jennifer Thomson",
    "instructor_id": "68474"
-  },
-  {
-   "cid": "37126",
-   "course": "Cave Diver 1",
-   "date": "February 8, 2027",
-   "iso": "2027-02-08",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "John Kendall",
-   "instructor_id": "1956"
-  },
-  {
-   "cid": "37127",
-   "course": "Cave Diver 2",
-   "date": "February 8, 2027",
-   "iso": "2027-02-08",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "John Kendall",
-   "instructor_id": "1956"
   },
   {
    "cid": "36036",
@@ -3422,15 +3377,6 @@
    "instructor_id": "20802"
   },
   {
-   "cid": "37574",
-   "course": "Cave Diver 1",
-   "date": "March 7, 2027",
-   "iso": "2027-03-07",
-   "location": "High Springs, Florida, United States",
-   "instructor": "Jon Kieren",
-   "instructor_id": "13618"
-  },
-  {
    "cid": "37042",
    "course": "Cave Diver 1",
    "date": "March 8, 2027",
@@ -4059,6 +4005,15 @@
    "location": "Finale Ligure, Savona, Italy",
    "instructor": "Graham Blackmore",
    "instructor_id": "895"
+  },
+  {
+   "cid": "33359",
+   "course": "CCR Technical Diver 2",
+   "date": "April 12, 2027",
+   "iso": "2027-04-12",
+   "location": "Yangyang , Kangwon-do, Korea (South)",
+   "instructor": "Kyungsoo Kim",
+   "instructor_id": "14654"
   },
   {
    "cid": "37182",
@@ -5022,6 +4977,15 @@
    "location": "Gramat, France",
    "instructor": "Irene Homberger",
    "instructor_id": "13377"
+  },
+  {
+   "cid": "37869",
+   "course": "Technical Diver 1",
+   "date": "July 27, 2027",
+   "iso": "2027-07-27",
+   "location": "Alexandria Bay, New York, United States",
+   "instructor": "Bob Sherwood",
+   "instructor_id": "34"
   },
   {
    "cid": "32209",

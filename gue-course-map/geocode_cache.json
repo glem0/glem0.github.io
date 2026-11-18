@@ -3003,5 +3003,14 @@
   "matched_query": "siegburg, germany",
   "approx": false,
   "verified": true
+ },
+ "seoul, yangyang, korea (south)": {
+  "lat": 37.9731793,
+  "lng": 128.462404,
+  "display": "서울양양고속도로, 진동리, 기린면, 인제군, 강원특별자치도, 24653, 대한민국",
+  "country": "kr",
+  "matched_query": "seoul, yangyang, korea (south)",
+  "approx": false,
+  "verified": true
  }
 }

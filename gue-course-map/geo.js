@@ -288,6 +288,7 @@ window.GUE_GEO = {
 "seoguipo, cheju-do, korea (south)":[33.25285,126.56103],
 "seogwipo, cheju-do, korea (south)":[33.25285,126.56103],
 "seogwipo-si, korea (south)":[33.25285,126.56103],
+"seoul, yangyang, korea (south)":[37.97318,128.4624],
 "shanghai, china":[31.23127,121.47002],
 "shanghai, shanghai, china":[31.23234,121.4691],
 "shepton mallet, united kingdom":[51.19095,-2.54613],
