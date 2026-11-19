@@ -1,60 +1,6 @@
 {
- "updated": "2026-11-18T23:33:13Z",
+ "updated": "2026-11-19T23:46:36Z",
  "classes": [
-  {
-   "cid": "36404",
-   "course": "DPV Diver 1",
-   "date": "November 19, 2026",
-   "iso": "2026-11-19",
-   "location": "Zero Gravity Dive Center - Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Laurent Dahan",
-   "instructor_id": "25023"
-  },
-  {
-   "cid": "37054",
-   "course": "GUE Basic Fundamentals",
-   "date": "November 19, 2026",
-   "iso": "2026-11-19",
-   "location": "Guangzhou, Guangdong, China",
-   "instructor": "Xuan Chen",
-   "instructor_id": "20926"
-  },
-  {
-   "cid": "36637",
-   "course": "GUE Technical Fundamentals",
-   "date": "November 19, 2026",
-   "iso": "2026-11-19",
-   "location": "Kralendijk, Bonaire",
-   "instructor": "Anne-Marie Bresser",
-   "instructor_id": "2021"
-  },
-  {
-   "cid": "37534",
-   "course": "GUE Technical Fundamentals",
-   "date": "November 19, 2026",
-   "iso": "2026-11-19",
-   "location": "Oslo, Norway",
-   "instructor": "Gaute W Seljestad",
-   "instructor_id": "67553"
-  },
-  {
-   "cid": "37681",
-   "course": "GUE Technical Fundamentals",
-   "date": "November 19, 2026",
-   "iso": "2026-11-19",
-   "location": "Ventimiglia, Italy",
-   "instructor": "Francesco Cameli",
-   "instructor_id": "22866"
-  },
-  {
-   "cid": "37721",
-   "course": "Upgrade to CCR Tech 1: JJ-CCR",
-   "date": "November 19, 2026",
-   "iso": "2026-11-19",
-   "location": "Mactan, Cebu, Philippines",
-   "instructor": "Graham Blackmore",
-   "instructor_id": "895"
-  },
   {
    "cid": "36434",
    "course": "Cave Diver 1",
@@ -189,6 +135,15 @@
    "location": "Kralendijk, Bonaire",
    "instructor": "Douwe Musch",
    "instructor_id": "67329"
+  },
+  {
+   "cid": "37873",
+   "course": "GUE Performance Diver",
+   "date": "November 21, 2026",
+   "iso": "2026-11-21",
+   "location": "Tenero, Ticino, Switzerland",
+   "instructor": "Ivan Wagner",
+   "instructor_id": "10571"
   },
   {
    "cid": "37840",
@@ -468,6 +423,15 @@
    "location": "Numazu, Shizuoka, Japan",
    "instructor": "Thomas Jonsson",
    "instructor_id": "2359"
+  },
+  {
+   "cid": "37872",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "November 28, 2026",
+   "iso": "2026-11-28",
+   "location": "Cabo de Palos, Spain",
+   "instructor": "Sabine Sidi-Ali",
+   "instructor_id": "27088"
   },
   {
    "cid": "36530",
@@ -794,15 +758,6 @@
    "instructor_id": "72355"
   },
   {
-   "cid": "37316",
-   "course": "GUE Basic Fundamentals",
-   "date": "December 5, 2026",
-   "iso": "2026-12-05",
-   "location": "Sydney, New South Wales, Australia",
-   "instructor": "Duncan Paterson",
-   "instructor_id": "18320"
-  },
-  {
    "cid": "34492",
    "course": "GUE Performance Diver",
    "date": "December 5, 2026",
@@ -1026,6 +981,15 @@
    "location": "Offenburg, Germany",
    "instructor": "Christian Schweiger",
    "instructor_id": "68425"
+  },
+  {
+   "cid": "37870",
+   "course": "GUE Performance Diver",
+   "date": "December 12, 2026",
+   "iso": "2026-12-12",
+   "location": "Shanghai, Shanghai, China",
+   "instructor": "Xiaodong Zhong",
+   "instructor_id": "23171"
   },
   {
    "cid": "37106",
@@ -3845,6 +3809,15 @@
    "instructor_id": "23172"
   },
   {
+   "cid": "37871",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "April 3, 2027",
+   "iso": "2027-04-03",
+   "location": "Dahab, Janub Sina', Egypt",
+   "instructor": "Sameh Sokar",
+   "instructor_id": "18431"
+  },
+  {
    "cid": "37667",
    "course": "GUE Basic Fundamentals",
    "date": "April 3, 2027",
@@ -4754,6 +4727,15 @@
    "instructor_id": "27215"
   },
   {
+   "cid": "36791",
+   "course": "GUE Technical Fundamentals",
+   "date": "June 4, 2027",
+   "iso": "2027-06-04",
+   "location": "Qiandao lake, Zhejiang, China",
+   "instructor": "Xiaodong Zhong",
+   "instructor_id": "23171"
+  },
+  {
    "cid": "37328",
    "course": "GUE Technical Fundamentals",
    "date": "June 4, 2027",
@@ -5265,15 +5247,6 @@
    "location": "Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Annika Persson",
    "instructor_id": "9662"
-  },
-  {
-   "cid": "36791",
-   "course": "GUE Technical Fundamentals",
-   "date": "November 18, 2027",
-   "iso": "2027-11-18",
-   "location": "Yixing, Jiangsu, China",
-   "instructor": "Xiaodong Zhong",
-   "instructor_id": "23171"
   },
   {
    "cid": "28052",
