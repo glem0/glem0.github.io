@@ -183,7 +183,7 @@
           "id": "6e9006c1-4bc7-4154-800a-a237388965ab",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Likely",
+          "pollutionForecast": "Possible",
           "siteName": "Bayview Baths"
         },
         "type": "Feature"
@@ -540,7 +540,7 @@
           "id": "aaaf12b3-c680-448d-ba07-27df0b2af9bb",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Cabarita Beach"
         },
         "type": "Feature"
@@ -640,8 +640,8 @@
         },
         "properties": {
           "id": "f1bc3461-49b5-431a-a460-f39d6c3d5bca",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Caseys Beach"
         },
@@ -982,7 +982,7 @@
           "id": "1cca5d42-6426-4ac9-afdf-8c0c1dfcd6dc",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Copacabana Beach"
         },
         "type": "Feature"
@@ -1237,7 +1237,7 @@
           "id": "48228c69-739e-4287-9843-40a25a3b0a3a",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Elvina Bay"
         },
         "type": "Feature"
@@ -1356,7 +1356,7 @@
           "id": "6b98f579-4248-4df3-8a2c-c84a66d5812e",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Forrester's Beach"
         },
         "type": "Feature"
@@ -1458,7 +1458,7 @@
           "id": "042af9fb-da1d-406a-a743-3da81da0a194",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Gordons Bay (East)"
         },
         "type": "Feature"
@@ -1779,8 +1779,8 @@
         },
         "properties": {
           "id": "d2a94b1b-6ece-4d6c-8817-51061128ef14",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Lake Ainsworth North"
         },
@@ -1796,8 +1796,8 @@
         },
         "properties": {
           "id": "5990f599-d78d-4bed-8759-d38223f68358",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Poor",
+          "latestResultRating": 2,
           "pollutionForecast": "Forecast not available",
           "siteName": "Lake Ainsworth South"
         },
@@ -1813,8 +1813,8 @@
         },
         "properties": {
           "id": "c7267bfb-46d0-4683-b768-48a41de27118",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Lake Ainsworth West"
         },
@@ -1881,8 +1881,8 @@
         },
         "properties": {
           "id": "498e01e3-27c6-4d04-a448-1f2bcee6c086",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Lighthouse Beach (Ballina)"
         },
@@ -2289,8 +2289,8 @@
         },
         "properties": {
           "id": "7c947c73-1741-4353-97f8-d6e73e89bef4",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Bad",
+          "latestResultRating": 1,
           "pollutionForecast": "Forecast not available",
           "siteName": "Missingham Beach"
         },
@@ -3020,8 +3020,8 @@
         },
         "properties": {
           "id": "b5ff3c82-e473-4c2e-ba3f-b5b2f1465896",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Seven Mile Beach (Lennox Head)"
         },
@@ -3054,8 +3054,8 @@
         },
         "properties": {
           "id": "fcf720cf-0c52-4e2b-b71f-51017cfc92eb",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Shaws Bay East"
         },
@@ -3071,8 +3071,8 @@
         },
         "properties": {
           "id": "affb6525-87ba-4165-b06b-f511cfe31af2",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Shaws Bay East Arm"
         },
@@ -3088,8 +3088,8 @@
         },
         "properties": {
           "id": "b8aee6e9-b2b3-4011-80a5-053a774762e5",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Shaws Bay West"
         },
@@ -3139,8 +3139,8 @@
         },
         "properties": {
           "id": "3edce205-4954-4df5-b0f8-a7b56a826677",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Shelly Beach (Ballina)"
         },
@@ -3549,7 +3549,7 @@
           "id": "c8fc3c50-4d0f-48c8-939a-ee100892dee8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Terrigal Beach"
         },
         "type": "Feature"
@@ -3649,8 +3649,8 @@
         },
         "properties": {
           "id": "d329e465-10ee-4cb9-8f7c-4a1bb0e16bcf",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "The Serpentine"
         },
@@ -3770,7 +3770,7 @@
           "id": "613465c8-6d0b-46a4-a8cb-adcbc4c18982",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Umina Beach"
         },
         "type": "Feature"
