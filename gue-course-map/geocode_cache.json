@@ -3012,5 +3012,23 @@
   "matched_query": "seoul, yangyang, korea (south)",
   "approx": false,
   "verified": true
+ },
+ "bohol, bohol, philippines": {
+  "lat": 9.8807822,
+  "lng": 124.2064612,
+  "display": "Bohol, Central Visayas, Philippines",
+  "country": "ph",
+  "matched_query": "bohol, bohol, philippines",
+  "approx": false,
+  "verified": true
+ },
+ "pompano, florida, united states": {
+  "lat": 26.2378597,
+  "lng": -80.1247667,
+  "display": "Pompano Beach, Broward County, Florida, United States",
+  "country": "us",
+  "matched_query": "pompano, florida, united states",
+  "approx": false,
+  "verified": true
  }
 }
