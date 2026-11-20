@@ -1932,8 +1932,8 @@
         },
         "properties": {
           "id": "a4e51f37-7089-4f6d-b78a-85f9b84fea87",
-          "latestResult": "Bad",
-          "latestResultRating": 1,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Little Bay Beach"
         },
@@ -3496,8 +3496,8 @@
         },
         "properties": {
           "id": "d8174dde-e864-4a58-b997-e140bea7c5d6",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Unlikely",
           "siteName": "Tamarama Beach"
         },
