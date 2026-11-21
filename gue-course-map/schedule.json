@@ -1,105 +1,6 @@
 {
- "updated": "2026-11-20T23:18:46Z",
+ "updated": "2026-11-21T22:19:57Z",
  "classes": [
-  {
-   "cid": "37156",
-   "course": "CCR Fundamentals: JJ-CCR",
-   "date": "November 21, 2026",
-   "iso": "2026-11-21",
-   "location": "Yixing, Jiangsu, China",
-   "instructor": "Xiaodong Zhong",
-   "instructor_id": "23171"
-  },
-  {
-   "cid": "28347",
-   "course": "Cave Diver 1",
-   "date": "November 21, 2026",
-   "iso": "2026-11-21",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Sven Nelles",
-   "instructor_id": "7698"
-  },
-  {
-   "cid": "36977",
-   "course": "DPV Diver 1",
-   "date": "November 21, 2026",
-   "iso": "2026-11-21",
-   "location": "Numazu, Shizuoka, Japan",
-   "instructor": "Thomas Jonsson",
-   "instructor_id": "2359"
-  },
-  {
-   "cid": "37568",
-   "course": "DPV Diver 1",
-   "date": "November 21, 2026",
-   "iso": "2026-11-21",
-   "location": "Victoria, British Columbia, Canada",
-   "instructor": "Jason Cook",
-   "instructor_id": "24473"
-  },
-  {
-   "cid": "37705",
-   "course": "Doubles Primer",
-   "date": "November 21, 2026",
-   "iso": "2026-11-21",
-   "location": "Changshu, Jiangsu, China",
-   "instructor": "Feiming Cheng",
-   "instructor_id": "68591"
-  },
-  {
-   "cid": "37272",
-   "course": "Doubles Primer",
-   "date": "November 21, 2026",
-   "iso": "2026-11-21",
-   "location": "foshan, Guangdong, China",
-   "instructor": "Huang Weiqi",
-   "instructor_id": "23052"
-  },
-  {
-   "cid": "37670",
-   "course": "GUE Performance Diver",
-   "date": "November 21, 2026",
-   "iso": "2026-11-21",
-   "location": "Hangzhou, Zhejiang, China",
-   "instructor": "Jinhui Xiong",
-   "instructor_id": "72355"
-  },
-  {
-   "cid": "36635",
-   "course": "GUE Performance Diver",
-   "date": "November 21, 2026",
-   "iso": "2026-11-21",
-   "location": "Kralendijk, Bonaire",
-   "instructor": "Anne-Marie Bresser",
-   "instructor_id": "2021"
-  },
-  {
-   "cid": "37713",
-   "course": "GUE Performance Diver",
-   "date": "November 21, 2026",
-   "iso": "2026-11-21",
-   "location": "Kralendijk, Bonaire",
-   "instructor": "Douwe Musch",
-   "instructor_id": "67329"
-  },
-  {
-   "cid": "37873",
-   "course": "GUE Performance Diver",
-   "date": "November 21, 2026",
-   "iso": "2026-11-21",
-   "location": "Tenero, Ticino, Switzerland",
-   "instructor": "Ivan Wagner",
-   "instructor_id": "10571"
-  },
-  {
-   "cid": "37840",
-   "course": "Rescue Primer",
-   "date": "November 21, 2026",
-   "iso": "2026-11-21",
-   "location": "Dahab , Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
-  },
   {
    "cid": "36153",
    "course": "CCR Technical Diver 1: JJ-CCR",
@@ -144,15 +45,6 @@
    "location": "Victoria, British Columbia, Canada",
    "instructor": "Jason Cook",
    "instructor_id": "24473"
-  },
-  {
-   "cid": "35757",
-   "course": "CCR Fundamentals: Symbios",
-   "date": "November 23, 2026",
-   "iso": "2026-11-23",
-   "location": "Kralendijk, Bonaire",
-   "instructor": "Jp Bresser",
-   "instructor_id": "2458"
   },
   {
    "cid": "37451",
@@ -236,6 +128,24 @@
    "instructor_id": "895"
   },
   {
+   "cid": "37881",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "November 23, 2026",
+   "iso": "2026-11-23",
+   "location": "Siegburg, Germany",
+   "instructor": "Sebastian Von Koss",
+   "instructor_id": "20802"
+  },
+  {
+   "cid": "35757",
+   "course": "CCR Fundamentals: Symbios",
+   "date": "November 24, 2026",
+   "iso": "2026-11-24",
+   "location": "Kralendijk, Bonaire",
+   "instructor": "Jp Bresser",
+   "instructor_id": "2458"
+  },
+  {
    "cid": "37429",
    "course": "Documentation Diver",
    "date": "November 24, 2026",
@@ -297,6 +207,15 @@
    "location": "Hemmoor, Niedersachsen, Germany",
    "instructor": "Daniel Schulte",
    "instructor_id": "6754"
+  },
+  {
+   "cid": "37884",
+   "course": "Doubles Primer",
+   "date": "November 25, 2026",
+   "iso": "2026-11-25",
+   "location": "Playa Del Carmen - Elite Divers International, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
   },
   {
    "cid": "37363",
@@ -486,6 +405,15 @@
    "location": "Kralendijk, Bonaire",
    "instructor": "Douwe Musch",
    "instructor_id": "67329"
+  },
+  {
+   "cid": "37885",
+   "course": "GUE Basic Fundamentals",
+   "date": "November 30, 2026",
+   "iso": "2026-11-30",
+   "location": "Playa DC - Elite Divers International, México, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
   },
   {
    "cid": "35681",
@@ -1577,6 +1505,15 @@
    "instructor_id": "69051"
   },
   {
+   "cid": "37888",
+   "course": "GUE Basic Fundamentals",
+   "date": "December 27, 2026",
+   "iso": "2026-12-27",
+   "location": "Los Angeles, California, United States",
+   "instructor": "Kian Farin",
+   "instructor_id": "27848"
+  },
+  {
    "cid": "36691",
    "course": "GUE Technical Fundamentals",
    "date": "December 27, 2026",
@@ -2394,15 +2331,6 @@
    "location": "Zero Gravity Dive Center - Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Laurent Dahan",
    "instructor_id": "25023"
-  },
-  {
-   "cid": "36020",
-   "course": "Technical Diver 1",
-   "date": "January 25, 2027",
-   "iso": "2027-01-25",
-   "location": "Third Dimension Diving, Tulum, Quintana Roo, Mexico",
-   "instructor": "Ivo Chiarino",
-   "instructor_id": "21332"
   },
   {
    "cid": "37848",
@@ -4169,6 +4097,15 @@
    "instructor_id": "20747"
   },
   {
+   "cid": "37879",
+   "course": "Cave Diver 2",
+   "date": "April 13, 2027",
+   "iso": "2027-04-13",
+   "location": "Third Dimension Diving, Tulum, Quintana Roo, Mexico",
+   "instructor": "Ivo Chiarino",
+   "instructor_id": "21332"
+  },
+  {
    "cid": "37195",
    "course": "Drysuit Primer",
    "date": "April 16, 2027",
@@ -4313,6 +4250,15 @@
    "instructor_id": "68425"
   },
   {
+   "cid": "37882",
+   "course": "GUE Performance Diver",
+   "date": "April 23, 2027",
+   "iso": "2027-04-23",
+   "location": "München, Germany",
+   "instructor": "Christian Schweiger",
+   "instructor_id": "68425"
+  },
+  {
    "cid": "36790",
    "course": "GUE Basic Fundamentals",
    "date": "April 24, 2027",
@@ -4365,6 +4311,15 @@
    "location": "Cala Gonone, Nuoro, Italy",
    "instructor": "Peter Gaertner",
    "instructor_id": "1374"
+  },
+  {
+   "cid": "37880",
+   "course": "GUE Technical Fundamentals",
+   "date": "April 25, 2027",
+   "iso": "2027-04-25",
+   "location": "München, Germany",
+   "instructor": "Christian Schweiger",
+   "instructor_id": "68425"
   },
   {
    "cid": "36565",
@@ -4628,6 +4583,15 @@
    "instructor_id": "10673"
   },
   {
+   "cid": "37886",
+   "course": "GUE Basic Fundamentals",
+   "date": "May 13, 2027",
+   "iso": "2027-05-13",
+   "location": "Playa DC - Elite Divers International, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
+  },
+  {
    "cid": "37718",
    "course": "CCR Technical Diver 2",
    "date": "May 16, 2027",
@@ -4644,6 +4608,15 @@
    "location": "Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Fred Devos",
    "instructor_id": "1026"
+  },
+  {
+   "cid": "37887",
+   "course": "Doubles Primer",
+   "date": "May 16, 2027",
+   "iso": "2027-05-16",
+   "location": "Playa DC - Elite Divers International, Quintana Roo, Mexico",
+   "instructor": "Arthur Nguyen-Kim",
+   "instructor_id": "26064"
   },
   {
    "cid": "36484",
@@ -4698,6 +4671,15 @@
    "location": "Krnica, Croatia",
    "instructor": "Jp Bresser",
    "instructor_id": "2458"
+  },
+  {
+   "cid": "37883",
+   "course": "GUE Technical Fundamentals",
+   "date": "May 23, 2027",
+   "iso": "2027-05-23",
+   "location": "Tilburg, Netherlands",
+   "instructor": "Martijn Blommaert",
+   "instructor_id": "8532"
   },
   {
    "cid": "36505",
@@ -5319,6 +5301,15 @@
    "location": "Hemmoor, Germany",
    "instructor": "Sebastian Von Koss",
    "instructor_id": "20802"
+  },
+  {
+   "cid": "36020",
+   "course": "Technical Diver 1",
+   "date": "October 4, 2027",
+   "iso": "2027-10-04",
+   "location": "Third Dimension Diving, Tulum, Quintana Roo, Mexico",
+   "instructor": "Ivo Chiarino",
+   "instructor_id": "21332"
   },
   {
    "cid": "37142",
