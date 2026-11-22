@@ -3057,5 +3057,14 @@
   "matched_query": "quintana roo, mexico",
   "approx": true,
   "verified": true
+ },
+ "gangneung, kangwon-do, korea (south)": {
+  "lat": 37.7525313,
+  "lng": 128.8759523,
+  "display": "강릉시, 강원특별자치도, 대한민국",
+  "country": "kr",
+  "matched_query": "gangneung, kangwon-do, korea (south)",
+  "approx": false,
+  "verified": true
  }
 }
