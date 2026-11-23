@@ -3921,8 +3921,8 @@
         },
         "properties": {
           "id": "a493ae91-cf58-453e-b00d-058b79debcdb",
-          "latestResult": "Fair",
-          "latestResultRating": 3,
+          "latestResult": "Good",
+          "latestResultRating": 4,
           "pollutionForecast": "Forecast not available",
           "siteName": "Wentworth Falls Lake - Beach"
         },
@@ -4159,8 +4159,8 @@
         },
         "properties": {
           "id": "d04d79a7-585d-4f69-b57a-502508eed2e9",
-          "latestResult": "Good",
-          "latestResultRating": 4,
+          "latestResult": "Fair",
+          "latestResultRating": 3,
           "pollutionForecast": "Forecast not available",
           "siteName": "Yosemite Creek - Minnehaha Falls"
         },
