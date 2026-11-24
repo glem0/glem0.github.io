@@ -3066,5 +3066,14 @@
   "matched_query": "gangneung, kangwon-do, korea (south)",
   "approx": false,
   "verified": true
+ },
+ "la, california, united states": {
+  "lat": 34.0536923,
+  "lng": -118.2427676,
+  "display": "Los Angeles, Los Angeles County, California, United States",
+  "country": "us",
+  "matched_query": "la, california, united states",
+  "approx": false,
+  "verified": true
  }
 }

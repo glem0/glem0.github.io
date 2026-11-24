@@ -1,87 +1,6 @@
 {
- "updated": "2026-11-22T22:45:34Z",
+ "updated": "2026-11-24T03:27:08Z",
  "classes": [
-  {
-   "cid": "37674",
-   "course": "CCR Fundamentals: JJ-CCR",
-   "date": "November 23, 2026",
-   "iso": "2026-11-23",
-   "location": "Victoria, British Columbia, Canada",
-   "instructor": "Jason Cook",
-   "instructor_id": "24473"
-  },
-  {
-   "cid": "37451",
-   "course": "Cave Diver 1",
-   "date": "November 23, 2026",
-   "iso": "2026-11-23",
-   "location": "ELITE DIVERS INTERNATIONAL | Playa del Carmen, Quintana Roo, Mexico",
-   "instructor": "Arthur Nguyen-Kim",
-   "instructor_id": "26064"
-  },
-  {
-   "cid": "37119",
-   "course": "Cave Diver 1",
-   "date": "November 23, 2026",
-   "iso": "2026-11-23",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "John Kendall",
-   "instructor_id": "1956"
-  },
-  {
-   "cid": "37120",
-   "course": "Cave Diver 2",
-   "date": "November 23, 2026",
-   "iso": "2026-11-23",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "John Kendall",
-   "instructor_id": "1956"
-  },
-  {
-   "cid": "37788",
-   "course": "GUE Basic Fundamentals",
-   "date": "November 23, 2026",
-   "iso": "2026-11-23",
-   "location": "Guangzhou, Guangdong, China",
-   "instructor": "Xuan Chen",
-   "instructor_id": "20926"
-  },
-  {
-   "cid": "37308",
-   "course": "GUE Technical Fundamentals",
-   "date": "November 23, 2026",
-   "iso": "2026-11-23",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "John Kendall",
-   "instructor_id": "1956"
-  },
-  {
-   "cid": "37431",
-   "course": "Open Water Diver",
-   "date": "November 23, 2026",
-   "iso": "2026-11-23",
-   "location": "Puerto aventuras / Akumal, Quintana Roo, Mexico",
-   "instructor": "Annika Persson",
-   "instructor_id": "9662"
-  },
-  {
-   "cid": "37722",
-   "course": "Upgrade to CCR Tech 1: JJ-CCR",
-   "date": "November 23, 2026",
-   "iso": "2026-11-23",
-   "location": "Mactan, Cebu, Philippines",
-   "instructor": "Graham Blackmore",
-   "instructor_id": "895"
-  },
-  {
-   "cid": "37881",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "November 23, 2026",
-   "iso": "2026-11-23",
-   "location": "Siegburg, Germany",
-   "instructor": "Sebastian Von Koss",
-   "instructor_id": "20802"
-  },
   {
    "cid": "35757",
    "course": "CCR Fundamentals: Symbios",
@@ -108,15 +27,6 @@
    "location": "Third Dimension Diving, Quintana Roo, Mexico",
    "instructor": "Ivo Chiarino",
    "instructor_id": "21332"
-  },
-  {
-   "cid": "36814",
-   "course": "Advanced Open Water Diver",
-   "date": "November 25, 2026",
-   "iso": "2026-11-25",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
   },
   {
    "cid": "37664",
@@ -776,15 +686,6 @@
    "instructor_id": "20356"
   },
   {
-   "cid": "37772",
-   "course": "CCR Fundamentals: Symbios",
-   "date": "December 11, 2026",
-   "iso": "2026-12-11",
-   "location": "Anilao, Batangas, Philippines",
-   "instructor": "Miko Zulueta",
-   "instructor_id": "8228"
-  },
-  {
    "cid": "37782",
    "course": "CCR Fundamentals: Symbios",
    "date": "December 11, 2026",
@@ -1035,24 +936,6 @@
    "location": "Singapore, Central Singapore, Singapore",
    "instructor": "Coral Chua",
    "instructor_id": "75313"
-  },
-  {
-   "cid": "36816",
-   "course": "GUE Basic Fundamentals",
-   "date": "December 16, 2026",
-   "iso": "2026-12-16",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
-  },
-  {
-   "cid": "36827",
-   "course": "GUE Basic Fundamentals",
-   "date": "December 16, 2026",
-   "iso": "2026-12-16",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
   },
   {
    "cid": "36315",
@@ -1307,15 +1190,6 @@
    "instructor_id": "21332"
   },
   {
-   "cid": "37694",
-   "course": "Open Water Diver",
-   "date": "December 21, 2026",
-   "iso": "2026-12-21",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
-  },
-  {
    "cid": "30702",
    "course": "CCR Technical Diver 2",
    "date": "December 22, 2026",
@@ -1377,15 +1251,6 @@
    "location": "Foshan, Guangdong, China",
    "instructor": "Huang Weiqi",
    "instructor_id": "23052"
-  },
-  {
-   "cid": "37583",
-   "course": "GUE Performance Diver",
-   "date": "December 24, 2026",
-   "iso": "2026-12-24",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
   },
   {
    "cid": "37829",
@@ -1793,6 +1658,15 @@
    "instructor_id": "23172"
   },
   {
+   "cid": "37898",
+   "course": "CCR Fundamentals: JJ-CCR",
+   "date": "January 9, 2027",
+   "iso": "2027-01-09",
+   "location": "foshan, Guangdong, China",
+   "instructor": "Huang Weiqi",
+   "instructor_id": "23052"
+  },
+  {
    "cid": "37672",
    "course": "GUE Performance Diver",
    "date": "January 9, 2027",
@@ -2072,6 +1946,15 @@
    "instructor_id": "8532"
   },
   {
+   "cid": "37901",
+   "course": "Upgrade to GUE Technical Fundamentals",
+   "date": "January 16, 2027",
+   "iso": "2027-01-16",
+   "location": "foshan, Guangdong, China",
+   "instructor": "Huang Weiqi",
+   "instructor_id": "23052"
+  },
+  {
    "cid": "36755",
    "course": "Upgrade to CCR Tech 1: JJ-CCR",
    "date": "January 17, 2027",
@@ -2324,15 +2207,6 @@
    "instructor_id": "20802"
   },
   {
-   "cid": "37584",
-   "course": "GUE Basic Fundamentals",
-   "date": "January 27, 2027",
-   "iso": "2027-01-27",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
-  },
-  {
    "cid": "37020",
    "course": "GUE Performance Diver",
    "date": "January 27, 2027",
@@ -2540,15 +2414,6 @@
    "instructor_id": "304"
   },
   {
-   "cid": "37585",
-   "course": "GUE Performance Diver",
-   "date": "February 4, 2027",
-   "iso": "2027-02-04",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
-  },
-  {
    "cid": "37838",
    "course": "GUE Basic Fundamentals",
    "date": "February 5, 2027",
@@ -2709,15 +2574,6 @@
    "location": "Third Dimension Diving, Tulum, Quintana Roo, Mexico",
    "instructor": "Ivo Chiarino",
    "instructor_id": "21332"
-  },
-  {
-   "cid": "37586",
-   "course": "GUE Basic Fundamentals",
-   "date": "February 10, 2027",
-   "iso": "2027-02-10",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
   },
   {
    "cid": "37649",
@@ -3125,15 +2981,6 @@
    "instructor_id": "2366"
   },
   {
-   "cid": "37587",
-   "course": "Doubles Primer",
-   "date": "February 25, 2027",
-   "iso": "2027-02-25",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
-  },
-  {
    "cid": "36611",
    "course": "GUE Basic Fundamentals",
    "date": "February 25, 2027",
@@ -3150,6 +2997,15 @@
    "location": "Tulamben, Bali, Indonesia",
    "instructor": "Coral Chua",
    "instructor_id": "75313"
+  },
+  {
+   "cid": "37900",
+   "course": "GUE Basic Fundamentals",
+   "date": "February 27, 2027",
+   "iso": "2027-02-27",
+   "location": "LA, California, United States",
+   "instructor": "Huang Weiqi",
+   "instructor_id": "23052"
   },
   {
    "cid": "37224",
@@ -3258,24 +3114,6 @@
    "location": "Puerto Aventuras, Quintana Roo, Mexico",
    "instructor": "Sven Nelles",
    "instructor_id": "7698"
-  },
-  {
-   "cid": "37292",
-   "course": "Open Water Diver",
-   "date": "March 3, 2027",
-   "iso": "2027-03-03",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
-  },
-  {
-   "cid": "37588",
-   "course": "Open Water Diver",
-   "date": "March 3, 2027",
-   "iso": "2027-03-03",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
   },
   {
    "cid": "34686",
@@ -3656,6 +3494,15 @@
    "instructor_id": "20747"
   },
   {
+   "cid": "37431",
+   "course": "Open Water Diver",
+   "date": "March 22, 2027",
+   "iso": "2027-03-22",
+   "location": "Puerto aventuras / Akumal, Quintana Roo, Mexico",
+   "instructor": "Annika Persson",
+   "instructor_id": "9662"
+  },
+  {
    "cid": "37784",
    "course": "CCR Technical Diver 2",
    "date": "March 24, 2027",
@@ -3663,15 +3510,6 @@
    "location": "Dahab, Janub Sina', Egypt",
    "instructor": "Sameh Sokar",
    "instructor_id": "18431"
-  },
-  {
-   "cid": "37589",
-   "course": "GUE Technical Fundamentals",
-   "date": "March 24, 2027",
-   "iso": "2027-03-24",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
   },
   {
    "cid": "35608",
@@ -3789,15 +3627,6 @@
    "location": "Mactan, Cebu, Philippines",
    "instructor": "Jimmy Choo",
    "instructor_id": "15307"
-  },
-  {
-   "cid": "37590",
-   "course": "GUE Basic Fundamentals",
-   "date": "March 31, 2027",
-   "iso": "2027-03-31",
-   "location": "Bangkok, Bangkok , Thailand",
-   "instructor": "Sanya Lohitnavy",
-   "instructor_id": "3674"
   },
   {
    "cid": "37018",

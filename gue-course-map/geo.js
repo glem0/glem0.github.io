@@ -155,6 +155,7 @@ window.GUE_GEO = {
 "krnica, croatia":[44.9733,14.01623],
 "krnica, istria county, croatia":[44.9733,14.01623],
 "köln, nordrhein-westfalen, germany":[50.93836,6.95997],
+"la, california, united states":[34.05369,-118.24277],
 "lago bracciano, roma, italy":[42.12106,12.23027],
 "lago di bracciano, roma, italy":[42.12106,12.23027],
 "lapis-lapu, cebu, philippines":[10.31267,123.94882],
