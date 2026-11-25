@@ -3075,5 +3075,14 @@
   "matched_query": "la, california, united states",
   "approx": false,
   "verified": true
+ },
+ "ulm, baden-württemberg, germany": {
+  "lat": 48.3984968,
+  "lng": 9.9912458,
+  "display": "Ulm, Baden-Württemberg, Deutschland",
+  "country": "de",
+  "matched_query": "ulm, baden-württemberg, germany",
+  "approx": false,
+  "verified": true
  }
 }
