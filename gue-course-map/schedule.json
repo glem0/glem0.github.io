@@ -1,69 +1,6 @@
 {
- "updated": "2026-11-25T01:33:59Z",
+ "updated": "2026-11-26T01:07:54Z",
  "classes": [
-  {
-   "cid": "37910",
-   "course": "BLS-D & Oxygen First Aid Refresher",
-   "date": "November 25, 2026",
-   "iso": "2026-11-25",
-   "location": "Ulm, Baden-Württemberg, Germany",
-   "instructor": "Maximilian Fahr",
-   "instructor_id": "66486"
-  },
-  {
-   "cid": "37664",
-   "course": "CCR Fundamentals: JJ-CCR",
-   "date": "November 25, 2026",
-   "iso": "2026-11-25",
-   "location": "Hengchun, PingTung County, Taiwan",
-   "instructor": "Hui Jin",
-   "instructor_id": "10441"
-  },
-  {
-   "cid": "34527",
-   "course": "CCR Fundamentals: JJ-CCR",
-   "date": "November 25, 2026",
-   "iso": "2026-11-25",
-   "location": "Victoria or Vancouver, British Columbia, Canada",
-   "instructor": "Jason Cook",
-   "instructor_id": "24473"
-  },
-  {
-   "cid": "37401",
-   "course": "CCR Fundamentals: Symbios",
-   "date": "November 25, 2026",
-   "iso": "2026-11-25",
-   "location": "Gdansk, Poland",
-   "instructor": "Dimitris Fifis",
-   "instructor_id": "9369"
-  },
-  {
-   "cid": "37544",
-   "course": "CCR Fundamentals: Symbios",
-   "date": "November 25, 2026",
-   "iso": "2026-11-25",
-   "location": "Hemmoor, Niedersachsen, Germany",
-   "instructor": "Daniel Schulte",
-   "instructor_id": "6754"
-  },
-  {
-   "cid": "36405",
-   "course": "Cave Diver 1",
-   "date": "November 25, 2026",
-   "iso": "2026-11-25",
-   "location": "Zero Gravity Dive Center - Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "Laurent Dahan",
-   "instructor_id": "25023"
-  },
-  {
-   "cid": "37884",
-   "course": "Doubles Primer",
-   "date": "November 25, 2026",
-   "iso": "2026-11-25",
-   "location": "Playa Del Carmen - Elite Divers International, Quintana Roo, Mexico",
-   "instructor": "Arthur Nguyen-Kim",
-   "instructor_id": "26064"
-  },
   {
    "cid": "37814",
    "course": "Doubles Primer",
@@ -144,6 +81,15 @@
    "location": "Shanghai, Shanghai, China",
    "instructor": "Yanbin Wu",
    "instructor_id": "23172"
+  },
+  {
+   "cid": "37914",
+   "course": "GUE Performance Diver",
+   "date": "November 28, 2026",
+   "iso": "2026-11-28",
+   "location": "shanghai, Shanghai, China",
+   "instructor": "Jin Biao",
+   "instructor_id": "19371"
   },
   {
    "cid": "37430",
@@ -290,15 +236,6 @@
    "instructor_id": "71865"
   },
   {
-   "cid": "37078",
-   "course": "GUE Basic Fundamentals",
-   "date": "December 1, 2026",
-   "iso": "2026-12-01",
-   "location": "Dahab , Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
-  },
-  {
    "cid": "36450",
    "course": "GUE Technical Fundamentals",
    "date": "December 1, 2026",
@@ -443,6 +380,15 @@
    "instructor_id": "2073"
   },
   {
+   "cid": "37915",
+   "course": "Technical Diver 1",
+   "date": "December 4, 2026",
+   "iso": "2026-12-04",
+   "location": "Sydney, New South Wales, Australia",
+   "instructor": "Duncan Paterson",
+   "instructor_id": "18320"
+  },
+  {
    "cid": "36267",
    "course": "Upgrade to CCR Tech 1: JJ-CCR",
    "date": "December 4, 2026",
@@ -515,15 +461,6 @@
    "instructor_id": "146"
   },
   {
-   "cid": "37798",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "December 5, 2026",
-   "iso": "2026-12-05",
-   "location": "Dahab, Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
-  },
-  {
    "cid": "37626",
    "course": "Upgrade to GUE Technical Fundamentals",
    "date": "December 5, 2026",
@@ -576,15 +513,6 @@
    "location": "Third Dimension Diving, Tulum, Quintana Roo, Mexico",
    "instructor": "Ivo Chiarino",
    "instructor_id": "21332"
-  },
-  {
-   "cid": "37079",
-   "course": "GUE Technical Fundamentals",
-   "date": "December 9, 2026",
-   "iso": "2026-12-09",
-   "location": "Dahab , Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
   },
   {
    "cid": "34504",
@@ -893,15 +821,6 @@
    "instructor_id": "75313"
   },
   {
-   "cid": "36315",
-   "course": "GUE Performance Diver",
-   "date": "December 16, 2026",
-   "iso": "2026-12-16",
-   "location": "Dahab , Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
-  },
-  {
    "cid": "37876",
    "course": "GUE Technical Fundamentals",
    "date": "December 16, 2026",
@@ -1035,15 +954,6 @@
    "location": "Victoria, British Columbia, Canada",
    "instructor": "Jason Cook",
    "instructor_id": "24473"
-  },
-  {
-   "cid": "37080",
-   "course": "GUE Basic Fundamentals",
-   "date": "December 19, 2026",
-   "iso": "2026-12-19",
-   "location": "Dahab , Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
   },
   {
    "cid": "37757",
@@ -1188,15 +1098,6 @@
    "location": "Dahab, Egypt",
    "instructor": "Ricardo Constantino",
    "instructor_id": "1591"
-  },
-  {
-   "cid": "37799",
-   "course": "Doubles Primer",
-   "date": "December 23, 2026",
-   "iso": "2026-12-23",
-   "location": "Dahab, Janub Sina', Egypt",
-   "instructor": "Ahmed Hagi",
-   "instructor_id": "69051"
   },
   {
    "cid": "37528",
@@ -1935,6 +1836,15 @@
    "location": "foshan, Guangdong, China",
    "instructor": "Huang Weiqi",
    "instructor_id": "23052"
+  },
+  {
+   "cid": "37912",
+   "course": "Cave Diver 2",
+   "date": "January 17, 2027",
+   "iso": "2027-01-17",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "Fred Devos",
+   "instructor_id": "1026"
   },
   {
    "cid": "36755",
@@ -3854,6 +3764,15 @@
    "instructor_id": "71865"
   },
   {
+   "cid": "37913",
+   "course": "CCR Technical Diver 1: Symbios",
+   "date": "April 12, 2027",
+   "iso": "2027-04-12",
+   "location": "Puerto Aventuras, Quintana Roo, Mexico",
+   "instructor": "John Kendall",
+   "instructor_id": "1956"
+  },
+  {
    "cid": "37688",
    "course": "CCR Technical Diver 2",
    "date": "April 12, 2027",
@@ -3890,15 +3809,6 @@
    "instructor_id": "20747"
   },
   {
-   "cid": "37131",
-   "course": "Cave Diver 1",
-   "date": "April 12, 2027",
-   "iso": "2027-04-12",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "John Kendall",
-   "instructor_id": "1956"
-  },
-  {
    "cid": "36431",
    "course": "Cave Diver 2",
    "date": "April 12, 2027",
@@ -3906,15 +3816,6 @@
    "location": "Cabo de Palos, Spain",
    "instructor": "Ricardo Constantino",
    "instructor_id": "1591"
-  },
-  {
-   "cid": "37132",
-   "course": "Cave Diver 2",
-   "date": "April 12, 2027",
-   "iso": "2027-04-12",
-   "location": "Puerto Aventuras, Quintana Roo, Mexico",
-   "instructor": "John Kendall",
-   "instructor_id": "1956"
   },
   {
    "cid": "37350",
