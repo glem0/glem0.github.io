@@ -1628,7 +1628,7 @@
           "id": "eefcfac8-c063-47b7-9d19-0340f5fa450f",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Hayes Street Beach"
         },
         "type": "Feature"
@@ -2886,7 +2886,7 @@
           "id": "95c134b2-a834-4651-865c-03f6c9f4a54e",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Queenscliff Beach"
         },
         "type": "Feature"
