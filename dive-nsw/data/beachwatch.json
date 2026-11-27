@@ -1628,7 +1628,7 @@
           "id": "eefcfac8-c063-47b7-9d19-0340f5fa450f",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Hayes Street Beach"
         },
         "type": "Feature"
@@ -1917,7 +1917,7 @@
           "id": "ed810bcd-b416-4db6-8532-9f9f406bcc11",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Unlikely",
+          "pollutionForecast": "Possible",
           "siteName": "Lilli Pilli Baths"
         },
         "type": "Feature"
@@ -3549,7 +3549,7 @@
           "id": "c8fc3c50-4d0f-48c8-939a-ee100892dee8",
           "latestResult": "Good",
           "latestResultRating": 4,
-          "pollutionForecast": "Possible",
+          "pollutionForecast": "Unlikely",
           "siteName": "Terrigal Beach"
         },
         "type": "Feature"
