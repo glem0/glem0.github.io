@@ -1,51 +1,6 @@
 {
- "updated": "2026-11-26T01:07:54Z",
+ "updated": "2026-11-27T01:08:16Z",
  "classes": [
-  {
-   "cid": "37814",
-   "course": "Doubles Primer",
-   "date": "November 26, 2026",
-   "iso": "2026-11-26",
-   "location": "Hangzhou, Zhejiang, China",
-   "instructor": "Jinhui Xiong",
-   "instructor_id": "72355"
-  },
-  {
-   "cid": "37363",
-   "course": "GUE Basic Fundamentals",
-   "date": "November 26, 2026",
-   "iso": "2026-11-26",
-   "location": "Auckland, New Zealand",
-   "instructor": "Xavier Vrijdag",
-   "instructor_id": "13884"
-  },
-  {
-   "cid": "37048",
-   "course": "GUE Performance Diver",
-   "date": "November 26, 2026",
-   "iso": "2026-11-26",
-   "location": "Singapore, Singapore",
-   "instructor": "Gemma Thomas",
-   "instructor_id": "11724"
-  },
-  {
-   "cid": "37724",
-   "course": "Upgrade to CCR Tech 1: Symbios",
-   "date": "November 26, 2026",
-   "iso": "2026-11-26",
-   "location": "Mactan, Cebu, Philippines",
-   "instructor": "Graham Blackmore",
-   "instructor_id": "895"
-  },
-  {
-   "cid": "36401",
-   "course": "Upgrade to GUE Technical Fundamentals",
-   "date": "November 26, 2026",
-   "iso": "2026-11-26",
-   "location": "Protaras, Famagusta, Cyprus",
-   "instructor": "Imad Farhat",
-   "instructor_id": "19268"
-  },
   {
    "cid": "37268",
    "course": "DPV Diver 1",
@@ -74,6 +29,15 @@
    "instructor_id": "72355"
   },
   {
+   "cid": "37916",
+   "course": "GUE Performance Diver",
+   "date": "November 28, 2026",
+   "iso": "2026-11-28",
+   "location": "Shanghai, Shanghai, China",
+   "instructor": "Jin Biao",
+   "instructor_id": "19371"
+  },
+  {
    "cid": "37759",
    "course": "GUE Performance Diver",
    "date": "November 28, 2026",
@@ -81,15 +45,6 @@
    "location": "Shanghai, Shanghai, China",
    "instructor": "Yanbin Wu",
    "instructor_id": "23172"
-  },
-  {
-   "cid": "37914",
-   "course": "GUE Performance Diver",
-   "date": "November 28, 2026",
-   "iso": "2026-11-28",
-   "location": "shanghai, Shanghai, China",
-   "instructor": "Jin Biao",
-   "instructor_id": "19371"
   },
   {
    "cid": "37430",
@@ -1973,6 +1928,15 @@
    "instructor_id": "27215"
   },
   {
+   "cid": "37918",
+   "course": "GUE Basic Fundamentals",
+   "date": "January 23, 2027",
+   "iso": "2027-01-23",
+   "location": "Dive Alaska, Anchorage, Alaska, United States",
+   "instructor": "Ron Fancher",
+   "instructor_id": "24907"
+  },
+  {
    "cid": "36800",
    "course": "GUE Basic Fundamentals",
    "date": "January 23, 2027",
@@ -3280,15 +3244,6 @@
   {
    "cid": "37793",
    "course": "Navigation Primer",
-   "date": "March 16, 2027",
-   "iso": "2027-03-16",
-   "location": "Tioman, Malaysia",
-   "instructor": "Gemma Thomas",
-   "instructor_id": "11724"
-  },
-  {
-   "cid": "37794",
-   "course": "Rescue Primer",
    "date": "March 18, 2027",
    "iso": "2027-03-18",
    "location": "Tioman, Malaysia",
@@ -3422,6 +3377,15 @@
    "instructor_id": "9662"
   },
   {
+   "cid": "37794",
+   "course": "Rescue Primer",
+   "date": "March 22, 2027",
+   "iso": "2027-03-22",
+   "location": "Tioman, Malaysia",
+   "instructor": "Gemma Thomas",
+   "instructor_id": "11724"
+  },
+  {
    "cid": "37784",
    "course": "CCR Technical Diver 2",
    "date": "March 24, 2027",
@@ -3546,6 +3510,15 @@
    "location": "Mactan, Cebu, Philippines",
    "instructor": "Jimmy Choo",
    "instructor_id": "15307"
+  },
+  {
+   "cid": "37917",
+   "course": "GUE Performance Diver",
+   "date": "March 30, 2027",
+   "iso": "2027-03-30",
+   "location": "Tioman, Malaysia",
+   "instructor": "Gemma Thomas",
+   "instructor_id": "11724"
   },
   {
    "cid": "37018",
@@ -4518,6 +4491,15 @@
    "location": "Cala Gonone, Nuoro, Italy",
    "instructor": "Dorota Czerny",
    "instructor_id": "2276"
+  },
+  {
+   "cid": "37919",
+   "course": "GUE Technical Fundamentals",
+   "date": "May 27, 2027",
+   "iso": "2027-05-27",
+   "location": "Gdansk, Poland",
+   "instructor": "Bartek Trzcinski",
+   "instructor_id": "25915"
   },
   {
    "cid": "37842",
