@@ -1,24 +1,6 @@
 {
- "updated": "2026-11-27T01:08:16Z",
+ "updated": "2026-11-28T00:39:54Z",
  "classes": [
-  {
-   "cid": "37268",
-   "course": "DPV Diver 1",
-   "date": "November 27, 2026",
-   "iso": "2026-11-27",
-   "location": "Yixing, Jiangsu, China",
-   "instructor": "Xiaodong Zhong",
-   "instructor_id": "23171"
-  },
-  {
-   "cid": "37712",
-   "course": "GUE Performance Diver",
-   "date": "November 27, 2026",
-   "iso": "2026-11-27",
-   "location": "Guangzhou, Guangdong, China",
-   "instructor": "Xuan Chen",
-   "instructor_id": "20926"
-  },
   {
    "cid": "37813",
    "course": "Drysuit Primer",
@@ -27,15 +9,6 @@
    "location": "杭州, Zhejiang, China",
    "instructor": "Jinhui Xiong",
    "instructor_id": "72355"
-  },
-  {
-   "cid": "37916",
-   "course": "GUE Performance Diver",
-   "date": "November 28, 2026",
-   "iso": "2026-11-28",
-   "location": "Shanghai, Shanghai, China",
-   "instructor": "Jin Biao",
-   "instructor_id": "19371"
   },
   {
    "cid": "37759",
